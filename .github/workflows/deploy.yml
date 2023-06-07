@@ -16,7 +16,9 @@ jobs:
           node-version: 18
 
       - name: Build Distribution
-        run: npx github:hubmapconsortium/hra-rui-locations-processor deploy-dir digital-objects dist
+        run: |
+          npx github:hubmapconsortium/hra-rui-locations-processor deploy-dir digital-objects dist
+          cp -r staging dist
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
