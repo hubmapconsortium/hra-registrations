@@ -19,6 +19,7 @@ jobs:
         run: |
           npx github:hubmapconsortium/hra-rui-locations-processor deploy-dir digital-objects dist
           cp -r staging dist
+          cp -r public/* dist
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
