@@ -1,0 +1,1 @@
+Kanako I. provided the tissue samples for 14 pancreases to various SenNet teams.
