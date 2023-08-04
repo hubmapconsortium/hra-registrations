@@ -19,7 +19,7 @@
             datasets:
               - id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection/LV_1221_1#Dataset
                 technology: other
-      - rui_location: female-right-cardiac-atrium.json
+      - rui_location: female-right-atrium.json
         id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock
         sections:
           - id:  http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection
@@ -48,7 +48,7 @@
                 technology: other
               - id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_2#Dataset
                 technology: other
-      - rui_location: female-right-cardiac-atrium.json
+      - rui_location: female-right-atrium.json
         id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock
         sections:
           - id:  http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection
@@ -110,7 +110,7 @@
                 technology: other
               - id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LVT#issueBlock/LV_1681#TissueSection/LV_1681_2#Dataset
                 technology: other
-      - rui_location: male-right-cardiac-atrium.json
+      - rui_location: male-right-atrium.json
         id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock
         sections:
           - id:  http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection
@@ -141,7 +141,7 @@
                 technology: other
               - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_2#Dataset
                 technology: other
-      - rui_location: male-right-cardiac-atrium.json
+      - rui_location: male-right-atrium.json
         id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock
         sections:
           - id:  http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection
@@ -181,7 +181,7 @@
                 technology: other
               - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_2#Dataset
                 technology: other
-      - rui_location: female-right-cardiac-atrium.json
+      - rui_location: female-right-atrium.json
         id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock
         sections:
           - id:  http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection
@@ -221,7 +221,7 @@
                 technology: other
               - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_2#Dataset
                 technology: other
-      - rui_location: female-right-cardiac-atrium.json
+      - rui_location: female-right-atrium.json
         id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock
         sections:
           - id:  http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection
