@@ -1,0 +1,39 @@
+{
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/0.5/59411967-28d2-4955-833e-7f8a8ab75d85",
+    "@type": "SpatialEntity",
+    "label": "Patient B Cortical biopsy",
+    "creator": "Seth Winfree",
+    "creator_first_name": "Seth",
+    "creator_last_name": "Winfree",
+    "creation_date": "5/18/2020 1:25:58 PM",
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0013702",
+      "http://purl.obolibrary.org/obo/UBERON_0002113",
+      "http://purl.obolibrary.org/obo/UBERON_0004539"
+    ],
+    "x_dimension": 1.08336,
+    "y_dimension": 4.06097,
+    "z_dimension": 0.11280000149011613,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+      "@id": "http://purl.org/ccf/0.5/59411967-28d2-4955-833e-7f8a8ab75d85_placement",
+      "@type": "SpatialPlacement",
+      "target": "http://purl.org/ccf/latest/ccf.owl#VHMRightKidney_Patch",
+      "placement_date": "5/18/2020 1:25:58 PM",
+      "x_scaling": 1,
+      "y_scaling": 1,
+      "z_scaling": 1,
+      "scaling_units": "ratio",
+      "x_rotation": 1.6699999570846558,
+      "y_rotation": 11.710000038146973,
+      "z_rotation": 261.29998779296875,
+      "rotation_order": "XYZ",
+      "rotation_units": "degree",
+      "x_translation": -23,
+      "y_translation": 13,
+      "z_translation": -18,
+      "translation_units": "millimeter"
+    }
+  }

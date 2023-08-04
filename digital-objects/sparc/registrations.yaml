@@ -1,0 +1,140 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: SPARC
+  provider_name: SPARC-UCLA
+  provider_uuid: a961a21b-b536-450c-9cd1-b84868251694
+  defaults:
+    id: https://doi.org/10.1161/CIRCRESAHA.120.318458
+    thumbnail: assets/thumbnails/sparc_logo.jpg
+    link: https://doi.org/10.1161/CIRCRESAHA.120.318458
+  donors:
+  - description: Entered 2021-03-16, Peter Hanna
+    sex: Female
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Apical_septum_F_registration-data.json
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Apical_septum_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Basal_ant_LV_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Basal_ant_LV_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Basal_lat_LV_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Basal_lat_LV_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Basal_post_LV_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Basal_post_LV_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Basal_RVFreeWall_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Basal_RVFreeWall_M_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Basal_sept_LV_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Basal_sept_LV_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: LV_apex_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: LV_apex_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Mid_ant_LV_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Mid_ant_LV_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Mid_lat_LV_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Mid_lat_LV_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Mid_post_LV_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-16, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Mid_post_LV_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: Mid_septum_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: Mid_septum_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: RVapex_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: RVapex_M_registration-data.json
+    sex: Male
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Female
+    samples:
+    - rui_location: RVOT_F_registration-data.json
+    sex: Female
+  - description: Entered 2021-03-19, Peter Hanna
+    label: SpatialEntity Male
+    samples:
+    - rui_location: RVOT_M_registration-data.json
+    sex: Male

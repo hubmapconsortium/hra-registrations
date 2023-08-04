@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HTAN
+  provider_name: HTAN
+  provider_uuid: db0c82e3-1d4c-42e7-88d2-75e3083ec874
+  defaults:
+    id: https://doi.org/10.1016/j.cell.2022.12.028
+    thumbnail: assets/logo.jpg
+    link: https://doi.org/10.1016/j.cell.2022.12.028
+  donors:
+    - sex: Male 
+      age: 69
+      label: CRC1
+      id: https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor
+      samples:
+        - rui_location: CRC1.json
+          description: Tumor tissue from cecum - Mixed mucinous and signet ring cell adenocarcinoma 
+          datasets:
+            - link: https://doi.org/10.1016/j.cell.2022.12.028
+              description: Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics
+              technology: t-CyCIF
+
+
+  

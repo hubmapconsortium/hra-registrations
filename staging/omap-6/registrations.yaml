@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: HRA
-  provider_name: NIH
-  provider_uuid: a6e1c3ba-d94d-4650-94b8-4612181df4ba
+- consortium_name: HIRN, ESPACE
+  provider_name: IsletCore
+  provider_uuid: 51ad23f1-8fc2-4106-97b7-480b676951a9
   defaults:
-    id: http://purl.org/ccf/1.5/omap-1
+    id: http://purl.org/ccf/1.5/omap-6
     thumbnail: assets/icons/ico-unknown.svg
-    link: https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html
+    link: https://zenodo.org/record/7742474
   donors:
     - sex: Male
       samples:
-        - rui_location: omap-1-lymph-node.json
-          section_count: 95
+        - rui_location: OMAP6_pancreas_v2.json
+          section_count: 1
 
 
   

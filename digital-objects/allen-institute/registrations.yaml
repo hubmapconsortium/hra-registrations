@@ -1,0 +1,97 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: Allen Institute for Brain Science
+  provider_name: Allen Institute
+  provider_uuid: 8dca7930-e16b-4301-9ad3-de202225d27f
+  defaults:
+    id: https://www.nature.com/articles/s41586-021-03465-8
+    thumbnail: assets/logo.jpg
+    link: https://www.nature.com/articles/s41586-021-03465-8
+  donors:
+    - sex: Female
+      age: 60
+      id: http://purl.org/ccf/1.5/allen-brain/H18.30.001
+      description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
+      samples:
+      - rui_location: Block1_10X.json
+        sections:
+          - datasets:
+              - id: http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#Dataset
+              - description: "Data/Assay Types: 10x"
+              - technology: 10x
+      - rui_location: Block2_10x.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: 10x"
+              - technology: 10x
+      - rui_location: Block1_SSv4.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER
+    - sex: Male
+      age: 50
+      id: http://purl.org/ccf/1.5/allen-brain/H18.30.002
+      description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
+      samples:
+      - rui_location: Block3_10X.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: 10x"
+              - technology: 10x  
+      - rui_location: Block2_SSv4.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER          
+    - sex: Female
+      age: 43
+      id: http://purl.org/ccf/1.5/allen-brain/H200.1023
+      description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
+      samples:
+      - rui_location: Block3_SSv4.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER
+      - rui_location: Block4_SSv4.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER
+    - sex: Male
+      age: 50
+      id: http://purl.org/ccf/1.5/allen-brain/H200.1025
+      description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
+      samples:
+      - rui_location: Block5_SSv4.json
+        section_count: 1
+        section_size: 10
+        section_unit: millimeter
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER
+      - rui_location: Block6_SSv4.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER
+    - sex: Male
+      age: 54
+      id: http://purl.org/ccf/1.5/allen-brain/H200.1030
+      description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
+      samples:
+      - rui_location: Block7_SSv4.json
+        section_count: 1
+        section_size: 0.11
+        section_unit: millimeter
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER
+      - rui_location: Block8_SSv4.json
+        sections:
+          - datasets:
+              - description: "Data/Assay Types: SSv4"
+              - technology: OTHER    
