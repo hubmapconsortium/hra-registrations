@@ -1,0 +1,155 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: SenNet
+  provider_name: SenNet Project
+  provider_uuid: 5882beb6-b022-4201-8ab5-6279c8f4e194
+  defaults:
+    id: http://purl.org/ccf/1.5/sennet-pancreas
+    thumbnail: assets/logo.jpg
+    link: https://data.sennetconsortium.org/
+  donors:
+    - sex: Male
+      age: 21
+      bmi: 28
+      id: http://purl.org/ccf/1.5/sennet-pancreas/001#Donor
+      samples:
+        - rui_location: 001_Body.json
+        - rui_location: 001_Head_Inferior.json
+        - rui_location: 001_Head_Superior.json    
+        - rui_location: 001_Tail.json    
+    - sex: Female
+      age: 71
+      bmi: 26
+      id: http://purl.org/ccf/1.5/sennet-pancreas/002#Donor      
+      samples:
+        - rui_location: 002_Body.json
+        - rui_location: 002_Head_Inferior.json
+        - rui_location: 002_Head_Superior.json    
+        - rui_location: 002_Tail.json      
+    - sex: Male
+      age: 32
+      bmi: 28
+      id: http://purl.org/ccf/1.5/sennet-pancreas/003#Donor      
+      samples:
+        - rui_location: 003_Body_Inferior.json
+        - rui_location: 003_Body_Superior.json
+        - rui_location: 003_Head_Inferior.json
+        - rui_location: 003_Head_Superior.json    
+        - rui_location: 003_Tail_Inferior.json
+        - rui_location: 003_Tail_Superior.json                         
+    - sex: Male
+      age: 54
+      bmi: 23.9
+      id: http://purl.org/ccf/1.5/sennet-pancreas/004#Donor      
+      samples:
+        - rui_location: 004_Body_Inferior.json
+        - rui_location: 004_Body_Superior.json
+        - rui_location: 004_Head_Inferior.json
+        - rui_location: 004_Head_Superior.json    
+        - rui_location: 004_Tail_Inferior.json
+        - rui_location: 004_Tail_Superior.json  
+    - sex: Female
+      age: 28
+      bmi: 17.7
+      id: http://purl.org/ccf/1.5/sennet-pancreas/005#Donor      
+      samples:
+        - rui_location: 005_Body.json
+        - rui_location: 005_Head_Inferior.json
+        - rui_location: 005_Head_Superior.json    
+        - rui_location: 005_Tail.json       
+    - sex: Female
+      age: 62
+      bmi: 23
+      id: http://purl.org/ccf/1.5/sennet-pancreas/006#Donor      
+      samples:
+        - rui_location: 006_Body.json
+        - rui_location: 006_Head_Inferior.json
+        - rui_location: 006_Head_Middle.json        
+        - rui_location: 006_Head_Superior.json    
+        - rui_location: 006_Tail.json    
+    - sex: Male
+      age: 22
+      bmi: 22.41
+      id: http://purl.org/ccf/1.5/sennet-pancreas/007#Donor      
+      samples:
+        - rui_location: 007_Body.json
+        - rui_location: 007_Head_Inferior.json
+        - rui_location: 007_Head_Superior.json    
+        - rui_location: 007_Tail.json   
+    - sex: Female
+      age: 23
+      bmi: 17.2061
+      id: http://purl.org/ccf/1.5/sennet-pancreas/008#Donor      
+      samples:
+        - rui_location: 008_Body_Inferior.json
+        - rui_location: 008_Body_Superior.json        
+        - rui_location: 008_Head_Inferior.json     
+        - rui_location: 008_Head_Superior.json    
+        - rui_location: 008_Tail_Inferior.json
+        - rui_location: 008_Tail_Superior.json        
+    - sex: Female
+      age: 40
+      bmi: 22.97
+      id: http://purl.org/ccf/1.5/sennet-pancreas/009#Donor   
+      samples:
+        - rui_location: 009_Body.json      
+        - rui_location: 009_Head_Inferior.json     
+        - rui_location: 009_Head_Superior.json    
+        - rui_location: 009_Tail_Inferior.json
+        - rui_location: 009_Tail_Superior.json     
+    - sex: Female
+      age: 37
+      bmi: 23.5
+      id: http://purl.org/ccf/1.5/sennet-pancreas/010#Donor 
+      samples:
+        - rui_location: 010_Body_Inferior.json      
+        - rui_location: 010_Body_Superior.json          
+        - rui_location: 010_Head_Inferior.json     
+        - rui_location: 010_Head_Superior.json    
+        - rui_location: 010_Tail.json      
+    - sex: Male
+      age: 47
+      bmi: 21.8
+      id: http://purl.org/ccf/1.5/sennet-pancreas/011#Donor    
+      samples:
+        - rui_location: 011_Body_Inferior.json
+        - rui_location: 011_Body_Superior.json        
+        - rui_location: 011_Head_Inferior.json     
+        - rui_location: 011_Head_Superior.json    
+        - rui_location: 011_Tail_Inferior.json
+        - rui_location: 011_Tail_Superior.json    
+    - sex: Female
+      age: 69
+      bmi: 18
+      id: http://purl.org/ccf/1.5/sennet-pancreas/012#Donor    
+      samples:
+        - rui_location: 012_Body_Inferior.json
+        - rui_location: 012_Body_Superior.json        
+        - rui_location: 012_Head_Inferior.json 
+        - rui_location: 012_Head_Middle.json              
+        - rui_location: 012_Head_Superior.json    
+        - rui_location: 012_Tail_Inferior.json
+        - rui_location: 012_Tail_Superior.json   
+    - sex: Male
+      age: 35
+      id: http://purl.org/ccf/1.5/sennet-pancreas/013#Donor    
+      samples:
+        - rui_location: 013_Body_Inferior.json
+        - rui_location: 013_Body_Superior.json        
+        - rui_location: 013_Head_Inferior.json 
+        - rui_location: 013_Head_Middle.json              
+        - rui_location: 013_Head_Superior.json    
+        - rui_location: 013_Tail_Inferior.json
+        - rui_location: 013_Tail_Superior.json    
+    - sex: Male
+      id: http://purl.org/ccf/1.5/sennet-pancreas/014#Donor    
+      samples:
+        - rui_location: 013_Body_Inferior.json
+        - rui_location: 013_Body_Middle.json        
+        - rui_location: 013_Body_Superior.json        
+        - rui_location: 013_Head_Inferior.json 
+        - rui_location: 013_Head_Middle.json              
+        - rui_location: 013_Head_Superior.json    
+        - rui_location: 013_Tail_Inferior.json
+        - rui_location: 013_Tail_Superior.json                                                                           
+  
