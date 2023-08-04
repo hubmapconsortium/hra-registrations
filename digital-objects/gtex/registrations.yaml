@@ -24,7 +24,7 @@
       samples:
       - link: https://gtexportal.org/home/tissue/Kidney_Cortex
         description: kidney cortex
-        rui_location: female_kidney.json  
+        rui_location: female_kidney.json 
     - sex: Female
       id: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors
       label: Females (n=119), Mean Age 54.7 (range 21-70)
@@ -32,7 +32,7 @@
       link: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage
       samples:
       - link: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage
-        rui_location: female_heart_atrial_appendage.json  
+        rui_location: female_heart_atrial_appendage.json 
     - sex: Female
       id: https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors
       label: Females (n=122), Mean Age 52.9 (range 21-70)
@@ -40,7 +40,7 @@
       link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
       samples:
       - link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
-        rui_location: female_heart_left_ventricle.json  
+        rui_location: female_heart_left_ventricle.json 
     - sex: Female
       id: https://gtexportal.org/home/tissue/Spleen#FDonors
       label: Females (n=86), Mean Age 49.5 (range 23-70)
@@ -48,7 +48,7 @@
       link: https://gtexportal.org/home/tissue/Spleen
       samples:
       - link: https://gtexportal.org/home/tissue/Spleen
-        rui_location: female_spleen.json        
+        rui_location: female_spleen.json       
     - sex: Female
       id: https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors
       label: Females (n=113), Mean Age 51.1 (range 21-70)
@@ -56,7 +56,7 @@
       link: https://gtexportal.org/home/tissue/Colon_Sigmoid
       samples:
       - link: https://gtexportal.org/home/tissue/Colon_Sigmoid
-        rui_location: female_colon_sigmoid.json            
+        rui_location: female_colon_sigmoid.json           
     - sex: Female
       id: https://gtexportal.org/home/tissue/Lung#FDonors
       label: Females (n=136), Mean Age 48.9 (range 21-70)
@@ -64,7 +64,7 @@
       link: https://gtexportal.org/home/tissue/Lung
       samples:
       - link: https://gtexportal.org/home/tissue/Lung
-        rui_location: female_lung.json        
+        rui_location: female_lung.json       
     - sex: Female
       id: https://gtexportal.org/home/tissue/Lung#FDonors
       label: Females (n=166), Mean Age 53.4 (range 21-70)
@@ -72,7 +72,7 @@
       link: https://gtexportal.org/home/tissue/Lung
       samples:
       - link: https://gtexportal.org/home/tissue/Lung
-        rui_location: female_lung.json  
+        rui_location: female_lung.json 
     - sex: Male
       id: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors
       label: Males (n=253), Mean Age 55.6 (range 20-70)
@@ -80,7 +80,7 @@
       link: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage
       samples:
       - link: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage
-        rui_location: male_heart_atrial_appendage.json             
+        rui_location: male_heart_atrial_appendage.json            
     - sex: Male
       id: https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors
       label: Males (n=253), Mean Age 55.6 (range 20-70)
@@ -88,7 +88,7 @@
       link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
       samples:
       - link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
-        rui_location: male_heart_left_ventricle.json          
+        rui_location: male_heart_left_ventricle.json         
     - sex: Male
       id: https://gtexportal.org/home/tissue/Spleen#MDonors
       label: Males (n=141), Mean Age 49.8 (range 21-70)
@@ -96,7 +96,7 @@
       link: https://gtexportal.org/home/tissue/Spleen
       samples:
       - link: https://gtexportal.org/home/tissue/Spleen
-        rui_location: male_spleen.json      
+        rui_location: male_spleen.json     
     - sex: Male
       id: https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors
       label: Males (n=55), Mean Age 55.8 (range 27-70)
@@ -104,7 +104,7 @@
       link: https://gtexportal.org/home/tissue/Kidney_Cortex
       samples:
       - link: https://gtexportal.org/home/tissue/Kidney_Cortex
-        rui_location: male_left_kidney_cortex.json     
+        rui_location: male_left_kidney_cortex.json    
     - sex: Male
       id: https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors
       label: Males (n=55), Mean Age 55.8 (range 27-70)
@@ -112,7 +112,7 @@
       link: https://gtexportal.org/home/tissue/Colon_Sigmoid
       samples:
       - link: https://gtexportal.org/home/tissue/Colon_Sigmoid
-        rui_location: male_colon_sigmoid     
+        rui_location: male_colon_sigmoid.json    
     - sex: Male
       id: https://gtexportal.org/home/tissue/Colon_Transverse#MDonors
       label: Males (n=232), Mean Age 50.1 (range 21-70)
@@ -120,7 +120,7 @@
       link: https://gtexportal.org/home/tissue/Colon_Transverse
       samples:
       - link: https://gtexportal.org/home/tissue/Colon_Transverse
-        rui_location: male_colon_transverse.json      
+        rui_location: male_colon_transverse.json     
     - sex: Male
       id: https://gtexportal.org/home/tissue/Lung#MDonors
       label: Males (n=349), Mean Age 53.5 (range 21-70)
@@ -128,7 +128,7 @@
       link: https://gtexportal.org/home/tissue/Lung
       samples:
       - link: https://gtexportal.org/home/tissue/Lung
-        rui_location: male_lung.json   
+        rui_location: male_lung.json  
     - sex: Female
       id: https://gtexportal.org/home/tissue/Liver#FDonors
       label: Females (n=65), Mean Age 54.5 (21-70)
@@ -136,7 +136,7 @@
       link: https://gtexportal.org/home/tissue/Liver
       samples:
       - link: https://gtexportal.org/home/tissue/Liver
-        rui_location: female_liver.json              
+        rui_location: female_liver.json             
     - sex: Female
       id: https://gtexportal.org/home/tissue/Ovary#FDonors
       label: Females (n=180), Mean Age 50.2 (21-70)
@@ -144,7 +144,7 @@
       link: https://gtexportal.org/home/tissue/Ovary
       samples:
       - link: https://gtexportal.org/home/tissue/Ovary
-        rui_location: female_ovary.json     
+        rui_location: female_ovary.json    
     - sex: Female
       id: https://gtexportal.org/home/tissue/Pancreas#FDonors
       label: Females (n=121), Mean Age 52.1 (range 21-70)
@@ -152,7 +152,7 @@
       link: https://gtexportal.org/home/tissue/Pancreas
       samples:
       - link: https://gtexportal.org/home/tissue/Pancreas
-        rui_location: female_pancreas.json     
+        rui_location: female_pancreas.json    
     - sex: Female
       id: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors
       label: Females (n=234), Mean Age 52.9 (21-70)
@@ -160,7 +160,7 @@
       link: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg
       samples:
       - link: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg
-        rui_location: female_skin_below_patella_sun_exposed.json            
+        rui_location: female_skin_below_patella_sun_exposed.json           
     - sex: Female
       id: https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#FDonors
       label: Females (n=193), Mean Age 53.3 (range 21-70)
@@ -168,7 +168,7 @@
       link: https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic
       samples:
       - link: https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic
-        rui_location: female_skin_near_pubic_not_sun_exposed.json    
+        rui_location: female_skin_near_pubic_not_sun_exposed.json   
     - sex: Female
       id: https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#FDonors
       label: Females (n=67), Mean Age 48.6 (range 21-70)
@@ -176,7 +176,7 @@
       link: https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum
       samples:
       - link: https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum
-        rui_location: female_small_intestine.json                     
+        rui_location: female_small_intestine.json                    
     - sex: Female
       id: https://gtexportal.org/home/tissue/Uterus#FDonors
       label: Females (n=142), Mean Age 47.8 (range 21-70)
@@ -184,7 +184,7 @@
       link: https://gtexportal.org/home/tissue/Uterus
       samples:
       - link: https://gtexportal.org/home/tissue/Uterus
-        rui_location: female_uterus.json     
+        rui_location: female_uterus.json    
     - sex: Female
       id: https://gtexportal.org/home/tissue/Artery_Coronary#FDonors
       label: Females (n=94), Mean Age 53.5 (range 21-70)
@@ -192,7 +192,7 @@
       link: https://gtexportal.org/home/tissue/Artery_Coronary
       samples:
       - link: https://gtexportal.org/home/tissue/Artery_Coronary
-        rui_location: female_vasculature.json      
+        rui_location: female_vasculature.json     
     - sex: Female
       id: https://gtexportal.org/home/tissue/Artery_Coronary#FDonors
       label: Females (n=94), Mean Age 53.5 (range 21-70)
@@ -200,7 +200,7 @@
       link: https://gtexportal.org/home/tissue/Artery_Coronary
       samples:
       - link: https://gtexportal.org/home/tissue/Artery_Coronary
-        rui_location: female_vasculature.json 
+        rui_location: female_vasculature.json
     - sex: Male
       id: https://gtexportal.org/home/tissue/Liver#MDonors
       label: Males (n=161), Mean Age 54.5 (range 21-70)
@@ -208,7 +208,7 @@
       link: https://gtexportal.org/home/tissue/Liver
       samples:
       - link: https://gtexportal.org/home/tissue/Liver
-        rui_location: male_liver.json  
+        rui_location: male_liver.json 
     - sex: Male
       id: https://gtexportal.org/home/tissue/Pancreas#MDonors
       label: Males (n=207), Mean Age 50.3 (range 21-70)
@@ -216,7 +216,7 @@
       link: https://gtexportal.org/home/tissue/Pancreas
       samples:
       - link: https://gtexportal.org/home/tissue/Pancreas
-        rui_location: male_pancreas.json  
+        rui_location: male_pancreas.json 
     - sex: Male
       id: https://gtexportal.org/home/tissue/Prostate#MDonors
       label: Males (n=245), Mean Age 50.6 (range 21-70)
@@ -224,7 +224,7 @@
       link: https://gtexportal.org/home/tissue/Prostate
       samples:
       - link: https://gtexportal.org/home/tissue/Prostate
-        rui_location: male_prostate.json     
+        rui_location: male_prostate.json    
     - sex: Male
       id: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors
       label: Males (n=467), Mean Age 52.9 (range 21-70)
@@ -232,7 +232,7 @@
       link: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg
       samples:
       - link: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg
-        rui_location: male_skin_below_patella_sun_exposed.json      
+        rui_location: male_skin_below_patella_sun_exposed.json     
     - sex: Male
       id: https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors
       label: Males (n=411), Mean Age 53.3 (range 20-70)
@@ -240,7 +240,7 @@
       link: https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic
       samples:
       - link: https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic
-        rui_location: male_skin_near_pubic_not_sun_exposed.json     
+        rui_location: male_skin_near_pubic_not_sun_exposed.json    
     - sex: Male
       id: https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors
       label: Males (n=120), Mean Age 48.4 (range 21-70)
@@ -248,7 +248,7 @@
       link: https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum
       samples:
       - link: https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum
-        rui_location: male_small_intestine   
+        rui_location: male_small_intestine.json   
     - sex: Male
       id: https://gtexportal.org/home/tissue/Artery_Coronary#MDonors
       label: Males (n=146), Mean Age 54.3 (range 20-70)
@@ -256,4 +256,4 @@
       link: https://gtexportal.org/home/tissue/Artery_Coronary
       samples:
       - link: https://gtexportal.org/home/tissue/Artery_Coronary
-        rui_location: male_vasculature                                                                                                                                                                                                                                             
+        rui_location: male_vasculature.json                                                                                                                                                                                                                                            
