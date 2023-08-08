@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HCA
+  provider_name: HCA
+  provider_uuid: 7cf72052-10d0-4fa8-b659-4067aa1ffdf3
+  defaults:
+    id: https://doi.org/10.1186/s13059-019-1906-x
+    thumbnail: assets/logo.jpg
+    link: https://doi.org/10.1186/s13059-019-1906-x
+  donors:
+    - sex: Female
+      age: 70
+      id: https://doi.org/10.1186/s13059-019-1906-x/343B#Donor
+      samples:
+        - rui_location: female1_closest_to_center_plane.json
+        - rui_location: female2.json
+        - rui_location: female3.json
+        - rui_location: female4.json                
+    - sex: Female
+      age: 40
+      id: https://doi.org/10.1186/s13059-019-1906-x/356C#Donor
+      samples:
+        - rui_location: female1_closest_to_center_plane.json
+        - rui_location: female2.json
+        - rui_location: female3.json
+        - rui_location: female4.json           
+    - sex: Male
+      age: 65
+      id: https://doi.org/10.1186/s13059-019-1906-x/367C#Donor
+      samples:
+        - rui_location: male1_closest_to_center_plane.json
+        - rui_location: male2.json
+        - rui_location: male3.json
+        - rui_location: male4.json      
+    - sex: Male
+      age: 55
+      id: https://doi.org/10.1186/s13059-019-1906-x/368C#Donor
+      samples:
+        - rui_location: male1_closest_to_center_plane.json
+        - rui_location: male2.json
+        - rui_location: male3.json
+        - rui_location: male4.json     
+    - sex: Female
+      age: 65
+      id: https://doi.org/10.1186/s13059-019-1906-x/390C#Donor
+      samples:
+        - rui_location: female1_closest_to_center_plane.json
+        - rui_location: female2.json
+        - rui_location: female3.json
+        - rui_location: female4.json                        
