@@ -19,7 +19,7 @@ jobs:
         run: |
           #npx github:hubmapconsortium/hra-rui-locations-processor deploy-dir digital-objects dist
           mkdir -p dist
-          cp -r digital-objects dist
+          cp -r digital-objects/* dist
           cp -r staging dist
           cp -r public/* dist
 
