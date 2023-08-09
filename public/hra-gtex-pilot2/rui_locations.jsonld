@@ -2,6 +2,311 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
+      "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=122), Mean Age 52.9 (range 21-70)",
+      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx Project",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
+          "description": "10 x 10 x 8 millimeter, 8 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
+          "section_count": 0,
+          "section_size": 8,
+          "rui_location": {
+            "@id": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creation_date": "2021-09-17",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0013702",
+              "http://purl.obolibrary.org/obo/UBERON_0000948",
+              "http://purl.obolibrary.org/obo/UBERON_0002078",
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 8,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-09-17",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -32,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27.221,
+              "y_translation": 81.047,
+              "z_translation": 83.766,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "sections": [],
+          "datasets": [
+            {
+              "@id": "GTEX-1ICG6-5003-SM-GHS9A",
+              "@type": "Dataset",
+              "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
+              "description": "10 x 10 x 8 millimeter, 8 millimeter",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "GTEX-13N11-5002-SM-H5JDV",
+              "@type": "Dataset",
+              "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
+              "description": "10 x 10 x 8 millimeter, 8 millimeter",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=253), Mean Age 55.6 (range 20-70)",
+      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx Project",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
+          "description": "10 x 10 x 8 millimeter, 8 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
+          "section_count": 0,
+          "section_size": 8,
+          "rui_location": {
+            "@id": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creation_date": "2021-09-17",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002078",
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 8,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-09-17",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -38,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 29.389,
+              "y_translation": 85.271,
+              "z_translation": 60.132,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
+            }
+          },
+          "sections": [],
+          "datasets": [
+            {
+              "@id": "GTEX-15RIE-5015-SM-H8L6X",
+              "@type": "Dataset",
+              "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
+              "description": "10 x 10 x 8 millimeter, 8 millimeter",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Lung#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=349), Mean Age 53.5 (range 21-70)",
+      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Lung",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx Project",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Lung#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Lung",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@id": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creation_date": "2021-09-22",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma7426",
+              "http://purl.obolibrary.org/obo/UBERON_0002048",
+              "http://purl.obolibrary.org/obo/UBERON_0002168",
+              "http://purl.obolibrary.org/obo/UBERON_0008952",
+              "http://purl.org/sig/ont/fma/fma7386",
+              "http://purl.org/sig/ont/fma/fma7385"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-09-22",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 160.02,
+              "y_translation": 213.664,
+              "z_translation": 78.402,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLung"
+            }
+          },
+          "sections": [],
+          "datasets": [
+            {
+              "@id": "GTEX-1HSMQ-5005-SM-GKSJF",
+              "@type": "Dataset",
+              "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
+              "description": "10 x 10 x 10 millimeter, 10 millimeter",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "GTEX-15CHR-5005-SM-H5JDT",
+              "@type": "Dataset",
+              "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
+              "description": "10 x 10 x 10 millimeter, 10 millimeter",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Lung#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=136), Mean Age 48.9 (range 21-70)",
+      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Lung",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx Project",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Lung#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Lung",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@id": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creation_date": "2021-09-22",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0003406",
+              "http://purl.obolibrary.org/obo/UBERON_0002185",
+              "http://purl.obolibrary.org/obo/UBERON_0002048"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-09-22",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 183.956,
+              "y_translation": 197.605,
+              "z_translation": 71.67,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLung"
+            }
+          },
+          "sections": [],
+          "datasets": [
+            {
+              "@id": "GTEX-13N11-5030-SM-H5JDW",
+              "@type": "Dataset",
+              "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
+              "description": "10 x 10 x 10 millimeter, 10 millimeter",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "@id": "https://entity.api.hubmapconsortium.org/entities/4086dd53a9e443f4ab57207ce77402d2",
       "@type": "Donor",
       "label": "Female, Age 33",
