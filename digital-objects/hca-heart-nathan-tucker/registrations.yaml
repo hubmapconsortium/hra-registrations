@@ -136,13 +136,13 @@
               - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_2#Dataset
                 technology: other
       - rui_location: male-left-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock
+        id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection
+          - id:  http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_1#Dataset
+              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_1#Dataset
                 technology: other
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_2#Dataset
+              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_2#Dataset
                 technology: other
       - rui_location: male-right-cardiac-atrium.json
         id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock
