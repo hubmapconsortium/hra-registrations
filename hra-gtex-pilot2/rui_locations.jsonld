@@ -5595,7 +5595,7 @@
           "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
+          "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
           "description": "10 x 10 x 8 millimeter, 8 millimeter",
           "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
           "section_count": 0,
@@ -5637,27 +5637,23 @@
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
           },
-          "sections": [],
           "datasets": [
             {
               "@id": "GTEX-1ICG6-5003-SM-GHS9A",
               "@type": "Dataset",
-              "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
-              "description": "10 x 10 x 8 millimeter, 8 millimeter",
-              "link": "https://gtexportal.org/home/singleCellOverviewPage",
-              "technology": "OTHER",
-              "thumbnail": "assets/icons/ico-unknown.svg"
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage"
             },
             {
               "@id": "GTEX-13N11-5002-SM-H5JDV",
               "@type": "Dataset",
-              "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
-              "description": "10 x 10 x 8 millimeter, 8 millimeter",
-              "link": "https://gtexportal.org/home/singleCellOverviewPage",
-              "technology": "OTHER",
-              "thumbnail": "assets/icons/ico-unknown.svg"
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage"
             }
-          ]
+          ],
+          "sections": []
         }
       ]
     },
@@ -5676,7 +5672,7 @@
           "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
+          "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
           "description": "10 x 10 x 8 millimeter, 8 millimeter",
           "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
           "section_count": 0,
@@ -5716,18 +5712,16 @@
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
           },
-          "sections": [],
           "datasets": [
             {
               "@id": "GTEX-15RIE-5015-SM-H8L6X",
               "@type": "Dataset",
-              "label": "Registered 8/17/2021, Kristin Ardlie, GTEx Project",
-              "description": "10 x 10 x 8 millimeter, 8 millimeter",
-              "link": "https://gtexportal.org/home/singleCellOverviewPage",
-              "technology": "OTHER",
-              "thumbnail": "assets/icons/ico-unknown.svg"
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage"
             }
-          ]
+          ],
+          "sections": []
         }
       ]
     },
@@ -5746,7 +5740,7 @@
           "@id": "https://gtexportal.org/home/tissue/Lung#MDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
+          "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://gtexportal.org/home/tissue/Lung",
           "section_count": 0,
@@ -5790,34 +5784,30 @@
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLung"
             }
           },
-          "sections": [],
           "datasets": [
             {
               "@id": "GTEX-1HSMQ-5005-SM-GKSJF",
               "@type": "Dataset",
-              "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
-              "description": "10 x 10 x 10 millimeter, 10 millimeter",
-              "link": "https://gtexportal.org/home/singleCellOverviewPage",
-              "technology": "OTHER",
-              "thumbnail": "assets/icons/ico-unknown.svg"
+              "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage"
             },
             {
               "@id": "GTEX-15CHR-5005-SM-H5JDT",
               "@type": "Dataset",
-              "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
-              "description": "10 x 10 x 10 millimeter, 10 millimeter",
-              "link": "https://gtexportal.org/home/singleCellOverviewPage",
-              "technology": "OTHER",
-              "thumbnail": "assets/icons/ico-unknown.svg"
+              "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage"
             }
-          ]
+          ],
+          "sections": []
         }
       ]
     },
     {
       "@id": "https://gtexportal.org/home/tissue/Lung#FDonors",
       "@type": "Donor",
-      "label": "Females (n=136), Mean Age 48.9 (range 21-70)",
+      "label": "Females (n=166), Mean Age 53.4 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Lung",
       "consortium_name": "GTEx",
@@ -5829,7 +5819,7 @@
           "@id": "https://gtexportal.org/home/tissue/Lung#FDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
+          "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://gtexportal.org/home/tissue/Lung",
           "section_count": 0,
@@ -5870,18 +5860,16 @@
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLung"
             }
           },
-          "sections": [],
           "datasets": [
             {
               "@id": "GTEX-13N11-5030-SM-H5JDW",
               "@type": "Dataset",
-              "label": "Registered 8/22/2021, Kristin Ardlie, GTEx Project",
-              "description": "10 x 10 x 10 millimeter, 10 millimeter",
-              "link": "https://gtexportal.org/home/singleCellOverviewPage",
-              "technology": "OTHER",
-              "thumbnail": "assets/icons/ico-unknown.svg"
+              "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://gtexportal.org/home/singleCellOverviewPage"
             }
-          ]
+          ],
+          "sections": []
         }
       ]
     },
@@ -10144,7 +10132,7 @@
       "@id": "http://purl.org/ccf/1.5/NHLBI/D032#Donor",
       "@type": "Donor",
       "label": "Male, Age 3",
-      "description": "Entered 3/25/2023, Allen Wang, NHLBI-LungMap",
+      "description": "Entered 3/24/2023, Allen Wang, NHLBI-LungMap",
       "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
       "consortium_name": "NHLBI-LungMap",
       "provider_name": "NHLBI-LungMap",
@@ -10156,7 +10144,7 @@
           "@id": "http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+          "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
           "description": "5 x 5 x 3 millimeter, 3 millimeter",
           "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
           "section_count": 0,
@@ -10203,7 +10191,7 @@
             {
               "@id": "79a1cada-6362-4bef-9bb4-02a715a4779e",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -10212,7 +10200,7 @@
             {
               "@id": "62e5153d-8f13-471b-bce5-073e55aedf10",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -10221,7 +10209,7 @@
             {
               "@id": "b3577c44-b612-49ac-97bd-3fdee89b2bcd",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -10230,7 +10218,7 @@
             {
               "@id": "60838288-d74d-4195-a2fe-4d6c0359b1ca",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -10239,7 +10227,7 @@
             {
               "@id": "cb414ed0-8ba7-4dd7-a574-451859f2b635",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -10248,7 +10236,7 @@
             {
               "@id": "f783966b-6523-4a7d-a0ef-afd3ac46d569",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -10257,7 +10245,7 @@
             {
               "@id": "d229387e-272e-4505-a264-2edf6c01146b",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -10271,7 +10259,7 @@
       "@id": "http://purl.org/ccf/1.5/NHLBI/D139#Donor",
       "@type": "Donor",
       "label": "Female, Age 3",
-      "description": "Entered 3/25/2023, Allen Wang, NHLBI-LungMap",
+      "description": "Entered 3/24/2023, Allen Wang, NHLBI-LungMap",
       "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
       "consortium_name": "NHLBI-LungMap",
       "provider_name": "NHLBI-LungMap",
@@ -10283,7 +10271,7 @@
           "@id": "http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+          "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
           "description": "5 x 5 x 3 millimeter, 3 millimeter",
           "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
           "section_count": 0,
@@ -10329,7 +10317,7 @@
             {
               "@id": "fd0f4dec-c243-4231-833f-a2628c4192f9",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Allen Wang, NHLBI-LungMap",
+              "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "5 x 5 x 3 millimeter, 3 millimeter",
               "link": "https://doi.org/10.7554/eLife.62522",
               "technology": "OTHER",
@@ -12353,7 +12341,7 @@
       "@id": "http://purl.org/ccf/1.5/broad-institute/P1221#Donor",
       "@type": "Donor",
       "label": "Female, 52",
-      "description": "Entered 3/20/2023, Nathan Tucker, Broad Institute",
+      "description": "Entered 3/19/2023, Nathan Tucker, Broad Institute",
       "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -12365,7 +12353,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12409,7 +12397,7 @@
             {
               "@id": "LV_1221_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 6 millimeter, 6 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12421,7 +12409,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12465,7 +12453,7 @@
             {
               "@id": "RA_1221_1",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12477,7 +12465,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12521,7 +12509,7 @@
             {
               "@id": "RV_1221_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12530,7 +12518,7 @@
             {
               "@id": "RV_1221_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12544,7 +12532,7 @@
       "@id": "http://purl.org/ccf/1.5/broad-institute/P1600#Donor",
       "@type": "Donor",
       "label": "Female, 51",
-      "description": "Entered 3/20/2023, Nathan Tucker, Broad Institute",
+      "description": "Entered 3/19/2023, Nathan Tucker, Broad Institute",
       "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -12556,7 +12544,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12600,7 +12588,7 @@
             {
               "@id": "LA_1600_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12609,7 +12597,7 @@
             {
               "@id": "LA_1600_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12621,7 +12609,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12665,7 +12653,7 @@
             {
               "@id": "RA_1600_1",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12674,7 +12662,7 @@
             {
               "@id": "RA_1600_2",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12688,7 +12676,7 @@
       "@id": "http://purl.org/ccf/1.5/broad-institute/P1666#Donor",
       "@type": "Donor",
       "label": "Male, Age 54",
-      "description": "Entered 5/1/2023, Nathan Tucker, Broad Institute",
+      "description": "Entered 4/31/2023, Nathan Tucker, Broad Institute",
       "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -12700,7 +12688,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12744,7 +12732,7 @@
             {
               "@id": "LA_1666_1",
               "@type": "Dataset",
-              "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12753,7 +12741,7 @@
             {
               "@id": "LA_1666_2",
               "@type": "Dataset",
-              "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12765,7 +12753,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12809,7 +12797,7 @@
             {
               "@id": "LV_1666_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 7 millimeter, 7 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12818,7 +12806,7 @@
             {
               "@id": "LV_1666_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 7 millimeter, 7 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12830,7 +12818,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 5 millimeter, 5 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12874,7 +12862,7 @@
             {
               "@id": "RV_1666_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 5 millimeter, 5 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12883,7 +12871,7 @@
             {
               "@id": "RV_1666_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 5 millimeter, 5 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12897,7 +12885,7 @@
       "@id": "http://purl.org/ccf/1.5/broad-institute/P1681#Donor",
       "@type": "Donor",
       "label": "Male, Age 39",
-      "description": "Entered 5/1/2023, Nathan Tucker, Broad Institute",
+      "description": "Entered 4/31/2023, Nathan Tucker, Broad Institute",
       "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -12909,7 +12897,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -12953,7 +12941,7 @@
             {
               "@id": "LA_1681_1",
               "@type": "Dataset",
-              "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12962,7 +12950,7 @@
             {
               "@id": "LA_1681_2",
               "@type": "Dataset",
-              "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -12974,7 +12962,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13018,7 +13006,7 @@
             {
               "@id": "LV_1681_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 7 millimeter, 7 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13027,7 +13015,7 @@
             {
               "@id": "LV_1681_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 7 millimeter, 7 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13039,7 +13027,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13083,7 +13071,7 @@
             {
               "@id": "RA_1681_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13092,7 +13080,7 @@
             {
               "@id": "RA_1681_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13106,7 +13094,7 @@
       "@id": "http://purl.org/ccf/1.5/broad-institute/P1702#Donor",
       "@type": "Donor",
       "label": "Male, 59",
-      "description": "Entered 5/1/2023, Nathan Tucker, Broad Institute",
+      "description": "Entered 4/31/2023, Nathan Tucker, Broad Institute",
       "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -13118,7 +13106,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13162,7 +13150,7 @@
             {
               "@id": "LA_1702_1",
               "@type": "Dataset",
-              "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13171,8 +13159,73 @@
             {
               "@id": "LA_1702_2",
               "@type": "Dataset",
-              "label": "Registered 5/1/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 4/31/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
+              "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+          "description": "5 x 5 x 7 millimeter, 7 millimeter",
+          "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
+          "section_count": 1,
+          "section_size": 7,
+          "rui_location": {
+            "@id": "http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24",
+            "@type": "SpatialEntity",
+            "creator": "Nathan Tucker",
+            "creator_first_name": "Nathan",
+            "creator_last_name": "Tucker",
+            "creation_date": "2023-04-20",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 5,
+            "y_dimension": 5,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-04-20",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 128,
+              "z_rotation": 62,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 110.351,
+              "y_translation": 49.218,
+              "z_translation": 46.108,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
+            }
+          },
+          "sections": [],
+          "datasets": [
+            {
+              "@id": "LV_1702_1",
+              "@type": "Dataset",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 7 millimeter, 7 millimeter",
+              "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "LV_1702_2",
+              "@type": "Dataset",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 7 millimeter, 7 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"
@@ -13183,7 +13236,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13227,7 +13280,7 @@
             {
               "@id": "RA_1702_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13236,7 +13289,7 @@
             {
               "@id": "RA_1702_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13248,41 +13301,41 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
-          "description": "5 x 5 x 7 millimeter, 7 millimeter",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+          "description": "5 x 5 x 5 millimeter, 5 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
-          "section_size": 7,
+          "section_size": 5,
           "rui_location": {
-            "@id": "http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24",
+            "@id": "http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b",
             "@type": "SpatialEntity",
             "creator": "Nathan Tucker",
             "creator_first_name": "Nathan",
             "creator_last_name": "Tucker",
             "creation_date": "2023-04-20",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0002084"
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
             ],
             "x_dimension": 5,
             "y_dimension": 5,
-            "z_dimension": 7,
+            "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24_placement",
+              "@id": "http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2023-04-20",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
               "scaling_units": "ratio",
-              "x_rotation": 44,
-              "y_rotation": 128,
-              "z_rotation": 62,
+              "x_rotation": -32,
+              "y_rotation": -9,
+              "z_rotation": -9,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 110.351,
-              "y_translation": 49.218,
-              "z_translation": 46.108,
+              "x_translation": 57.351,
+              "y_translation": 60.218,
+              "z_translation": 85.608,
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
@@ -13292,8 +13345,8 @@
             {
               "@id": "RV_1702_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
-              "description": "5 x 5 x 7 millimeter, 7 millimeter",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 5 millimeter, 5 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"
@@ -13301,8 +13354,8 @@
             {
               "@id": "RV_1702_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
-              "description": "5 x 5 x 7 millimeter, 7 millimeter",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 5 millimeter, 5 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"
@@ -13315,7 +13368,7 @@
       "@id": "http://purl.org/ccf/1.5/broad-institute/P1708#Donor",
       "@type": "Donor",
       "label": "Female, 60",
-      "description": "Entered 3/20/2023, Nathan Tucker, Broad Institute",
+      "description": "Entered 3/19/2023, Nathan Tucker, Broad Institute",
       "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -13327,7 +13380,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13371,7 +13424,7 @@
             {
               "@id": "LA_1708_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13380,7 +13433,7 @@
             {
               "@id": "LA_1708_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13392,7 +13445,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13436,7 +13489,7 @@
             {
               "@id": "RA_1708_1",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13445,7 +13498,7 @@
             {
               "@id": "RA_1708_2",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13457,7 +13510,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13501,7 +13554,7 @@
             {
               "@id": "RV_1708_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 6 millimeter, 6 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13510,7 +13563,7 @@
             {
               "@id": "RV_1708_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 6 millimeter, 6 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13524,7 +13577,7 @@
       "@id": "http://purl.org/ccf/1.5/broad-institute/P1723#Donor",
       "@type": "Donor",
       "label": "Female, 60",
-      "description": "Entered 3/20/2023, Nathan Tucker, Broad Institute",
+      "description": "Entered 3/19/2023, Nathan Tucker, Broad Institute",
       "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -13536,7 +13589,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13580,7 +13633,7 @@
             {
               "@id": "LA_1723_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13589,8 +13642,73 @@
             {
               "@id": "LA_1723_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
+              "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+          "description": "5 x 5 x 6 millimeter, 6 millimeter",
+          "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
+          "section_count": 1,
+          "section_size": 6,
+          "rui_location": {
+            "@id": "http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23",
+            "@type": "SpatialEntity",
+            "creator": "Nathan Tucker",
+            "creator_first_name": "Nathan",
+            "creator_last_name": "Tucker",
+            "creation_date": "2023-04-20",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 5,
+            "y_dimension": 5,
+            "z_dimension": 6,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-04-20",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 46,
+              "y_rotation": 133,
+              "z_rotation": -11,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 122.542,
+              "y_translation": 61.492,
+              "z_translation": 28.749,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "sections": [],
+          "datasets": [
+            {
+              "@id": "LV_1723_1",
+              "@type": "Dataset",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 6 millimeter, 6 millimeter",
+              "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "LV_1723_2",
+              "@type": "Dataset",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 6 millimeter, 6 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"
@@ -13601,7 +13719,7 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+          "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
           "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
@@ -13645,7 +13763,7 @@
             {
               "@id": "RA_1723_1",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13654,7 +13772,7 @@
             {
               "@id": "RA_1723_2",
               "@type": "Dataset",
-              "label": "Registered 3/25/2023, Nathan Tucker, Broad Institute",
+              "label": "Registered 3/24/2023, Nathan Tucker, Broad Institute",
               "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
@@ -13666,41 +13784,41 @@
           "@id": "http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
-          "description": "5 x 5 x 6 millimeter, 6 millimeter",
+          "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+          "description": "5 x 5 x 4 millimeter, 4 millimeter",
           "link": "https://doi.org/10.1161/CIRCULATIONAHA.119.045401",
           "section_count": 1,
-          "section_size": 6,
+          "section_size": 4,
           "rui_location": {
-            "@id": "http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23",
+            "@id": "http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b",
             "@type": "SpatialEntity",
             "creator": "Nathan Tucker",
             "creator_first_name": "Nathan",
             "creator_last_name": "Tucker",
             "creation_date": "2023-04-20",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0002084"
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
             ],
             "x_dimension": 5,
             "y_dimension": 5,
-            "z_dimension": 6,
+            "z_dimension": 4,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23_placement",
+              "@id": "http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2023-04-20",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
               "scaling_units": "ratio",
-              "x_rotation": 46,
-              "y_rotation": 133,
-              "z_rotation": -11,
+              "x_rotation": -4,
+              "y_rotation": 3,
+              "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 122.542,
-              "y_translation": 61.492,
-              "z_translation": 28.749,
+              "x_translation": 68.542,
+              "y_translation": 49.992,
+              "z_translation": 99.249,
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
@@ -13710,8 +13828,8 @@
             {
               "@id": "RV_1723_1",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
-              "description": "5 x 5 x 6 millimeter, 6 millimeter",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"
@@ -13719,8 +13837,8 @@
             {
               "@id": "RV_1723_2",
               "@type": "Dataset",
-              "label": "Registered 3/20/2023, Nathan Tucker, Broad Institute",
-              "description": "5 x 5 x 6 millimeter, 6 millimeter",
+              "label": "Registered 3/19/2023, Nathan Tucker, Broad Institute",
+              "description": "5 x 5 x 4 millimeter, 4 millimeter",
               "link": "https://pubmed.ncbi.nlm.nih.gov/32403949/",
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"

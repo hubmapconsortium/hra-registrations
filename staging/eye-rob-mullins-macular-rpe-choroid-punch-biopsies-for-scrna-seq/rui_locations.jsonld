@@ -1,0 +1,68 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/hmg/ddac043#Donor1",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 5/21/2023, D W, UIowa",
+      "link": "https://doi.org/10.1093/hmg/ddac043",
+      "consortium_name": "UIowa",
+      "provider_name": "UIowa",
+      "provider_uuid": "e63aee05-0da5-41e3-9e79-b04ca38eaade",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1093/hmg/ddac043#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 5/21/2023, D W, UIowa",
+          "description": "1 x 1 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.1093/hmg/ddac043",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ba2c1884-da01-477b-9cd4-e93302cff01f",
+            "@type": "SpatialEntity",
+            "creator": "D W",
+            "creator_first_name": "D",
+            "creator_last_name": "W",
+            "creation_date": "2023-06-22",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma58303",
+              "http://purl.org/sig/ont/fma/fma58636",
+              "http://purl.org/sig/ont/fma/fma261238",
+              "http://purl.org/sig/ont/fma/fma58300",
+              "http://purl.org/sig/ont/fma/fma58272"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 1,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ba2c1884-da01-477b-9cd4-e93302cff01f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-06-22",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 25,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 6.956,
+              "y_translation": 12.706,
+              "z_translation": 2.874,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
