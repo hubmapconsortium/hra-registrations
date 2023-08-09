@@ -5,7 +5,7 @@
   provider_uuid: 458fc690-a858-4518-bffa-6a41f2f20af0 
   defaults:
     id: http://purl.org/ccf/1.5/hca-heart-teichmann
-    thumbnail: assets/logo.jpg
+    # thumbnail: assets/logo.jpg # thumbnail does not exist
     link: https://doi.org/10.1038/s41586-020-2797-4
   donors:
     - sex: Female #D1
