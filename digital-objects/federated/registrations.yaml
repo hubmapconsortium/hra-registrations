@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+# This should work, but there are mismatches in numbers to work out
+# - imports: 
+#   - ./digital-objects/allen-institute
+#   - ./digital-objects/gtex
+#   - ./digital-objects/kpmp
+#   - ./digital-objects/sea-ad
+#   - ./digital-objects/sparc
+
+- imports:
+  - 'https://hubmapconsortium.github.io/ccf-ui/assets/allen-institute/data/rui_locations.jsonld'
+  - 'https://hubmapconsortium.github.io/ccf-ui/assets/gtex/data/rui_locations.jsonld'
+  - 'https://hubmapconsortium.github.io/ccf-ui/assets/kpmp/data/rui_locations.jsonld'
+  - 'https://hubmapconsortium.github.io/ccf-ui/assets/sea-ad/data/rui_locations.jsonld'
+  - 'https://hubmapconsortium.github.io/ccf-ui/assets/sparc/data/rui_locations.jsonld'
