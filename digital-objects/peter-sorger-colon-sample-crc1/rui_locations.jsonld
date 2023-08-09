@@ -1,0 +1,74 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor",
+      "@type": "Donor",
+      "label": "Male, 69",
+      "description": "Entered 7/3/2023, Devin Wright, HTAN",
+      "link": "https://doi.org/10.1016/j.cell.2022.12.028",
+      "consortium_name": "HTAN",
+      "provider_name": "HTAN",
+      "provider_uuid": "db0c82e3-1d4c-42e7-88d2-75e3083ec874",
+      "age": 69,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/3/2023, Devin Wright, HTAN",
+          "description": "Tumor tissue from cecum - Mixed mucinous and signet ring cell adenocarcinoma",
+          "link": "https://doi.org/10.1016/j.cell.2022.12.028",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919",
+            "@type": "SpatialEntity",
+            "creator": "Devin Wright",
+            "creator_first_name": "Devin",
+            "creator_last_name": "Wright",
+            "creation_date": "2023-08-04",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ],
+            "x_dimension": 62,
+            "y_dimension": 51,
+            "z_dimension": 15,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-04",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 68,
+              "y_rotation": -82,
+              "z_rotation": 1,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 49.126,
+              "y_translation": 239.65,
+              "z_translation": 140.422,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/3/2023, Devin Wright, HTAN",
+              "description": "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics",
+              "link": "https://doi.org/10.1016/j.cell.2022.12.028",
+              "technology": "t-CyCIF"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
