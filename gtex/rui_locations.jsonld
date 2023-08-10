@@ -1,42 +1,5 @@
 {
-  "@context": {
-    "@base": "http://purl.org/ccf/latest/ccf-entity.owl#",
-    "@vocab": "http://purl.org/ccf/latest/ccf-entity.owl#",
-    "ccf": "http://purl.org/ccf/latest/ccf.owl#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "label": "rdfs:label",
-    "description": "rdfs:comment",
-    "link": {
-      "@id": "rdfs:seeAlso",
-      "@type": "@id"
-    },
-    "samples": {
-      "@reverse": "has_donor"
-    },
-    "sections": {
-      "@id": "has_tissue_section",
-      "@type": "@id"
-    },
-    "datasets": {
-      "@id": "has_dataset",
-      "@type": "@id"
-    },
-    "rui_location": {
-      "@id": "has_spatial_entity",
-      "@type": "@id"
-    },
-    "ontologyTerms": {
-      "@id": "has_ontology_term",
-      "@type": "@id"
-    },
-    "cellTypeTerms": {
-      "@id": "has_cell_type_term",
-      "@type": "@id"
-    },
-    "thumbnail": {
-      "@id": "has_thumbnail"
-    }
-  },
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
       "@id": "https://gtexportal.org/home/tissue/Breast#FDonors",
@@ -104,7 +67,8 @@
               "label": "Registered 1/2/2023, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -177,7 +141,8 @@
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Kidney_Cortex",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -248,7 +213,8 @@
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -315,18 +281,29 @@
           },
           "datasets": [
             {
+              "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            },
+            {
               "@id": "GTEX-1ICG6-5003-SM-GHS9A",
               "@type": "Dataset",
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle"
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             },
             {
               "@id": "GTEX-13N11-5002-SM-H5JDV",
               "@type": "Dataset",
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle"
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -397,7 +374,8 @@
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Spleen",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -466,7 +444,8 @@
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -537,77 +516,16 @@
               "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Lung",
-              "technology": "OTHER"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "@id": "https://gtexportal.org/home/tissue/Lung#FDonors",
-      "@type": "Donor",
-      "label": "Females (n=166), Mean Age 53.4 (range 21-70)",
-      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
-      "link": "https://gtexportal.org/home/tissue/Lung",
-      "consortium_name": "GTEx",
-      "provider_name": "GTEx Project",
-      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://gtexportal.org/home/tissue/Lung#FDonors_TissueBlock1",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
-          "description": "10 x 10 x 10 millimeter, 10 millimeter",
-          "link": "https://gtexportal.org/home/tissue/Lung",
-          "section_count": 0,
-          "section_size": 10,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
-            "@type": "SpatialEntity",
-            "creator": "Kristin Ardlie",
-            "creator_first_name": "Kristin",
-            "creator_last_name": "Ardlie",
-            "creation_date": "2021-09-22",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0003406",
-              "http://purl.obolibrary.org/obo/UBERON_0002185",
-              "http://purl.obolibrary.org/obo/UBERON_0002048"
-            ],
-            "x_dimension": 10,
-            "y_dimension": 10,
-            "z_dimension": 10,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2021-09-22",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": 0,
-              "y_rotation": 0,
-              "z_rotation": 0,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 183.956,
-              "y_translation": 197.605,
-              "z_translation": 71.67,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLung"
-            }
-          },
-          "datasets": [
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            },
             {
               "@id": "GTEX-13N11-5030-SM-H5JDW",
               "@type": "Dataset",
               "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Lung"
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -676,7 +594,8 @@
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -741,11 +660,21 @@
           },
           "datasets": [
             {
+              "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            },
+            {
               "@id": "GTEX-15RIE-5015-SM-H8L6X",
               "@type": "Dataset",
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle"
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -816,7 +745,8 @@
               "label": "Registered 8/16/2021, Kristin  Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Spleen",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -890,7 +820,8 @@
               "label": "Registered 4/4/2023, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Kidney_Cortex",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -959,7 +890,8 @@
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1028,7 +960,8 @@
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1097,18 +1030,29 @@
           },
           "datasets": [
             {
+              "@id": "https://gtexportal.org/home/tissue/Lung#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Lung",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            },
+            {
               "@id": "GTEX-1HSMQ-5005-SM-GKSJF",
               "@type": "Dataset",
               "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Lung"
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             },
             {
               "@id": "GTEX-15CHR-5005-SM-H5JDT",
               "@type": "Dataset",
               "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Lung"
+              "link": "https://gtexportal.org/home/singleCellOverviewPage",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1178,7 +1122,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Liver",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1247,7 +1192,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Ovary",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1318,7 +1264,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Pancreas",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1387,7 +1334,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1456,7 +1404,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1526,7 +1475,8 @@
               "label": "Registered 0/18/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1597,7 +1547,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Uterus",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1666,7 +1617,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1735,7 +1687,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1805,7 +1758,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Liver",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1876,7 +1830,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Pancreas",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -1949,7 +1904,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Prostate",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -2018,7 +1974,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -2087,7 +2044,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -2157,7 +2115,8 @@
               "label": "Registered 0/18/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
@@ -2226,7 +2185,8 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
           ]
         }
