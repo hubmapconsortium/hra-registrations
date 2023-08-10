@@ -49,8 +49,11 @@
       - link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
         rui_location: female_heart_left_ventricle.json
         datasets:
+          - technology: OTHER
           - id: GTEX-1ICG6-5003-SM-GHS9A
+            link: https://gtexportal.org/home/singleCellOverviewPage
           - id: GTEX-13N11-5002-SM-H5JDV
+            link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Female
       id: https://gtexportal.org/home/tissue/Spleen#FDonors
       label: Females (n=86), Mean Age 49.5 (range 23-70)
@@ -81,16 +84,8 @@
         rui_location: female_lung.json
         datasets:
           - technology: OTHER
-    - sex: Female
-      id: https://gtexportal.org/home/tissue/Lung#FDonors
-      label: Females (n=166), Mean Age 53.4 (range 21-70)
-      description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
-      link: https://gtexportal.org/home/tissue/Lung
-      samples:
-      - link: https://gtexportal.org/home/tissue/Lung
-        rui_location: female_lung.json 
-        datasets:
           - id: GTEX-13N11-5030-SM-H5JDW
+            link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Male
       id: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors
       label: Males (n=253), Mean Age 55.6 (range 20-70)
@@ -110,7 +105,9 @@
       - link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
         rui_location: male_heart_left_ventricle.json
         datasets:
+          - technology: OTHER
           - id: GTEX-15RIE-5015-SM-H8L6X
+            link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Male
       id: https://gtexportal.org/home/tissue/Spleen#MDonors
       label: Males (n=141), Mean Age 49.8 (range 21-70)
@@ -160,8 +157,11 @@
       - link: https://gtexportal.org/home/tissue/Lung
         rui_location: male_lung.json
         datasets:
+          - technology: OTHER
           - id: GTEX-1HSMQ-5005-SM-GKSJF
+            link: https://gtexportal.org/home/singleCellOverviewPage
           - id: GTEX-15CHR-5005-SM-H5JDT
+            link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Female
       id: https://gtexportal.org/home/tissue/Liver#FDonors
       label: Females (n=65), Mean Age 54.5 (21-70)
