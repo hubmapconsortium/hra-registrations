@@ -1,5 +1,42 @@
 {
-  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@context": {
+    "@base": "http://purl.org/ccf/latest/ccf-entity.owl#",
+    "@vocab": "http://purl.org/ccf/latest/ccf-entity.owl#",
+    "ccf": "http://purl.org/ccf/latest/ccf.owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "label": "rdfs:label",
+    "description": "rdfs:comment",
+    "link": {
+      "@id": "rdfs:seeAlso",
+      "@type": "@id"
+    },
+    "samples": {
+      "@reverse": "has_donor"
+    },
+    "sections": {
+      "@id": "has_tissue_section",
+      "@type": "@id"
+    },
+    "datasets": {
+      "@id": "has_dataset",
+      "@type": "@id"
+    },
+    "rui_location": {
+      "@id": "has_spatial_entity",
+      "@type": "@id"
+    },
+    "ontologyTerms": {
+      "@id": "has_ontology_term",
+      "@type": "@id"
+    },
+    "cellTypeTerms": {
+      "@id": "has_cell_type_term",
+      "@type": "@id"
+    },
+    "thumbnail": {
+      "@id": "has_thumbnail"
+    }
+  },
   "@graph": [
     {
       "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1",
@@ -60,7 +97,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -122,7 +169,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -183,7 +240,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -245,7 +312,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -307,7 +384,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -369,7 +456,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -430,7 +527,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -490,7 +597,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -551,7 +668,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -612,7 +739,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -681,7 +818,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -750,7 +897,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -810,7 +967,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -871,7 +1038,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -931,7 +1108,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -991,7 +1178,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1051,7 +1248,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1111,7 +1318,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1171,7 +1388,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1231,7 +1458,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1294,7 +1531,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1357,7 +1604,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1420,7 +1677,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1483,7 +1750,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1546,7 +1823,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1609,7 +1896,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, SPARC-UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1161/CIRCRESAHA.120.318458",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     }

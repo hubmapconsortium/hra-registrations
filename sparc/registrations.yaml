@@ -5,7 +5,7 @@
   provider_uuid: a961a21b-b536-450c-9cd1-b84868251694
   defaults:
     id: https://doi.org/10.1161/CIRCRESAHA.120.318458
-    thumbnail: https://hubmapconsortium.github.io/hra-registrations/sparc/assets/thumbnails/sparc_logo.jpg
+    thumbnail: assets/thumbnails/sparc_logo.jpg
     link: https://doi.org/10.1161/CIRCRESAHA.120.318458
   donors:
   - description: Entered 2021-03-16, Peter Hanna
@@ -13,128 +13,180 @@
     label: Apical Septum Female
     samples:
     - rui_location: Apical_septum_F_registration-data.json
+      datasets:
+        - technology: OTHER
   - description: Entered 2021-03-16, Peter Hanna
     label: Apical Septum Male
     samples:
     - rui_location: Apical_septum_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Anterior Left Ventrical Female
     samples:
     - rui_location: Basal_ant_LV_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Anterior Left Ventrical Male
     samples:
     - rui_location: Basal_ant_LV_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Lateral Left Ventricle Female
     samples:
     - rui_location: Basal_lat_LV_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Lateral Left Ventricle Male
     samples:
     - rui_location: Basal_lat_LV_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Posterior Left Ventricle Female
     samples:
     - rui_location: Basal_post_LV_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Posterior Left Ventricle Male
     samples:
     - rui_location: Basal_post_LV_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Right Ventricle Free Wall Female
     samples:
     - rui_location: Basal_RVFreeWall_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Right Ventricle Free Wall Male
     samples:
     - rui_location: Basal_RVFreeWall_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Septum Left Ventricle Female
     samples:
     - rui_location: Basal_sept_LV_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Basal Septum Left Ventricle Male
     samples:
     - rui_location: Basal_sept_LV_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-16, Peter Hanna
     label: Left Ventricle Apex Female
     samples:
     - rui_location: LV_apex_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-16, Peter Hanna
     label: Left Ventricle Apex Male
     samples:
     - rui_location: LV_apex_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-16, Peter Hanna
     label: Middle Anterior Left Ventricle Female
     samples:
     - rui_location: Mid_ant_LV_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-16, Peter Hanna
     label: Middle Anterior Left Ventricle Male
     samples:
     - rui_location: Mid_ant_LV_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-16, Peter Hanna
     label: Middle Lateral Left Ventricle Female
     samples:
     - rui_location: Mid_lat_LV_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-16, Peter Hanna
     label: Middle Lateral Left Ventricle Male
     samples:
     - rui_location: Mid_lat_LV_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-16, Peter Hanna
     label: Middle posterior Left Ventricle Female
     samples:
     - rui_location: Mid_post_LV_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-16, Peter Hanna
     label: Middle posterior Left Ventricle Male
     samples:
     - rui_location: Mid_post_LV_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-19, Peter Hanna
     label: Middle Septum Female
     samples:
     - rui_location: Mid_septum_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Middle Septum Male
     samples:
     - rui_location: Mid_septum_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-19, Peter Hanna
     label: Right Ventricle Apex Female
     samples:
     - rui_location: RVapex_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Right Ventricle Apex Male
     samples:
     - rui_location: RVapex_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male
   - description: Entered 2021-03-19, Peter Hanna
     label: Right Ventricle OT Female
     samples:
     - rui_location: RVOT_F_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Female
   - description: Entered 2021-03-19, Peter Hanna
     label: Right Ventricle OT Male
     samples:
     - rui_location: RVOT_M_registration-data.json
+      datasets:
+        - technology: OTHER
     sex: Male

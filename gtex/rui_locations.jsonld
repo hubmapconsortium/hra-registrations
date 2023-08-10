@@ -1,5 +1,42 @@
 {
-  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@context": {
+    "@base": "http://purl.org/ccf/latest/ccf-entity.owl#",
+    "@vocab": "http://purl.org/ccf/latest/ccf-entity.owl#",
+    "ccf": "http://purl.org/ccf/latest/ccf.owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "label": "rdfs:label",
+    "description": "rdfs:comment",
+    "link": {
+      "@id": "rdfs:seeAlso",
+      "@type": "@id"
+    },
+    "samples": {
+      "@reverse": "has_donor"
+    },
+    "sections": {
+      "@id": "has_tissue_section",
+      "@type": "@id"
+    },
+    "datasets": {
+      "@id": "has_dataset",
+      "@type": "@id"
+    },
+    "rui_location": {
+      "@id": "has_spatial_entity",
+      "@type": "@id"
+    },
+    "ontologyTerms": {
+      "@id": "has_ontology_term",
+      "@type": "@id"
+    },
+    "cellTypeTerms": {
+      "@id": "has_cell_type_term",
+      "@type": "@id"
+    },
+    "thumbnail": {
+      "@id": "has_thumbnail"
+    }
+  },
   "@graph": [
     {
       "@id": "https://gtexportal.org/home/tissue/Breast#FDonors",
@@ -59,7 +96,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightMammaryGland"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 1/2/2023, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -122,7 +169,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Kidney_Cortex",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -183,7 +240,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -252,16 +319,14 @@
               "@type": "Dataset",
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
-              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle"
             },
             {
               "@id": "GTEX-13N11-5002-SM-H5JDV",
               "@type": "Dataset",
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
-              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle"
             }
           ]
         }
@@ -324,7 +389,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFSpleen"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Spleen#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Spleen",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -383,7 +458,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -444,7 +529,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLung"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Lung#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Lung",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -512,8 +607,7 @@
               "@type": "Dataset",
               "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Lung",
-              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+              "link": "https://gtexportal.org/home/tissue/Lung"
             }
           ]
         }
@@ -574,7 +668,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -641,8 +745,7 @@
               "@type": "Dataset",
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
-              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+              "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle"
             }
           ]
         }
@@ -705,7 +808,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMSpleen"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Spleen#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin  Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Spleen",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -769,7 +882,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/4/2023, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Kidney_Cortex",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -828,7 +951,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -887,7 +1020,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -958,16 +1101,14 @@
               "@type": "Dataset",
               "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Lung",
-              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+              "link": "https://gtexportal.org/home/tissue/Lung"
             },
             {
               "@id": "GTEX-15CHR-5005-SM-H5JDT",
               "@type": "Dataset",
               "label": "Registered 8/21/2021, Kristin Ardlie, GTEx Project",
               "description": "Data/Assay Types: undefined, ",
-              "link": "https://gtexportal.org/home/tissue/Lung",
-              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+              "link": "https://gtexportal.org/home/tissue/Lung"
             }
           ]
         }
@@ -1029,7 +1170,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLiver"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Liver#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Liver",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1088,7 +1239,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftOvary"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Ovary#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Ovary",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1149,7 +1310,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFPancreas"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Pancreas#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Pancreas",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1208,7 +1379,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1267,7 +1448,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1327,7 +1518,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/18/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1388,7 +1589,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFUterus"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Uterus#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Uterus",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1447,7 +1658,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFBloodVasculature"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Artery_Coronary#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1506,7 +1727,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFBloodVasculature"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Artery_Coronary#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1566,7 +1797,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLiver"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Liver#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Liver",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1627,7 +1868,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Pancreas#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Pancreas",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1690,7 +1941,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMProstate"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Prostate#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Prostate",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1749,7 +2010,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1808,7 +2079,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1868,7 +2149,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/18/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     },
@@ -1927,7 +2218,17 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMBloodVasculature"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Artery_Coronary#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx Project",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
+              "technology": "OTHER"
+            }
+          ]
         }
       ]
     }

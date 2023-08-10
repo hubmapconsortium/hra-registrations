@@ -5,7 +5,7 @@
   provider_uuid: 0ec3cf4a-4a28-496a-b66e-df34f4cd32e1
   defaults:
     id: http://purl.org/ccf/1.5/NHLBI
-    thumbnail: assets/ico-unknown.svg
+    thumbnail: assets/logo.jpg
     link: https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76
   donors:
     - sex: Male #D032
@@ -13,33 +13,47 @@
       id: http://purl.org/ccf/1.5/NHLBI/D032#Donor
       samples:
       - rui_location: male.json
+        datasets:
+          - technology: OTHER
     - sex: Male #D046
       age: 3
       id: http://purl.org/ccf/1.5/NHLBI/D046#Donor
       samples:
       - rui_location: male.json
+        datasets:
+          - technology: OTHER
     - sex: Female #D139
       age: 3
       id: http://purl.org/ccf/1.5/NHLBI/D139#Donor
       samples:
       - rui_location: female.json
+        datasets:
+          - technology: OTHER
     - sex: Male #D122
       age: 31
       id: http://purl.org/ccf/1.5/NHLBI/D122#Donor
       samples:
       - rui_location: male.json
+        datasets:
+          - technology: OTHER
     - sex: Male #D175
       age: 29
       id: http://purl.org/ccf/1.5/NHLBI/D175#Donor
       samples:
       - rui_location: female.json
+        datasets:
+          - technology: OTHER
     - sex: Female #D231
       age: 33
       id: http://purl.org/ccf/1.5/NHLBI/D231#Donor
       samples:
       - rui_location: female.json
+        datasets:
+          - technology: OTHER
     - sex: Male #D110
       age: 0
       id: http://purl.org/ccf/1.5/NHLBI/D110#Donor
       samples:
       - rui_location: male.json
+        datasets:
+          - technology: OTHER
