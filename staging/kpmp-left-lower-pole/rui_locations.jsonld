@@ -1,0 +1,125 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "http://example.com/required/id#Donor1",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/10/2023, Devin Wright, KPMP",
+      "link": "https://www.kpmp.org/available-data",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "885cdd09-6012-49a1-85d2-4a4c56332e62",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/10/2023, Devin Wright, KPMP",
+          "description": "3 x 8 x 1 millimeter, 1 millimeter",
+          "link": "https://www.kpmp.org/available-data",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/c406a4de-104a-4dee-ae96-60f4572da0c4",
+            "@type": "SpatialEntity",
+            "creator": "Devin Wright",
+            "creator_first_name": "Devin",
+            "creator_last_name": "Wright",
+            "creation_date": "2023-08-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225"
+            ],
+            "x_dimension": 3,
+            "y_dimension": 8,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/c406a4de-104a-4dee-ae96-60f4572da0c4_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -12,
+              "y_rotation": -1,
+              "z_rotation": 63,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 46.496,
+              "y_translation": 20.767,
+              "z_translation": 68.677,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMRightKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "http://example.com/required/id#Donor2",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/10/2023, Devin Wright, KPMP",
+      "link": "https://www.kpmp.org/available-data",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "885cdd09-6012-49a1-85d2-4a4c56332e62",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/10/2023, Devin Wright, KPMP",
+          "description": "3 x 8 x 1 millimeter, 1 millimeter",
+          "link": "https://www.kpmp.org/available-data",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9b86861b-5586-4b8e-8940-8b15866d7af9",
+            "@type": "SpatialEntity",
+            "creator": "Devin Wright",
+            "creator_first_name": "Devin",
+            "creator_last_name": "Wright",
+            "creation_date": "2023-08-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225"
+            ],
+            "x_dimension": 3,
+            "y_dimension": 8,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9b86861b-5586-4b8e-8940-8b15866d7af9_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -12,
+              "y_rotation": -1,
+              "z_rotation": 50,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 43.391,
+              "y_translation": 17.427,
+              "z_translation": 50.27,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
