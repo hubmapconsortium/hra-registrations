@@ -63,7 +63,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLymphNode"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/3/2023, Andrea Radtke, NIH",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html",
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
+            }
+          ]
         }
       ]
     }

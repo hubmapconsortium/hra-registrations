@@ -1,6 +1,5 @@
 Needs completed:
-RUI organ sex - registration is currently male but the donor's sex is unknown
-donor age
-donor sex
+RUI organ sex - registration is currently male
+donor male
 FOUND // consortium name
 FOUND // provider name
