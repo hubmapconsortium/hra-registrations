@@ -18,3 +18,10 @@ echo >> README.md
 for f in */registrations.yaml; do
   echo "* [$(dirname $f)](https://hubmapconsortium.github.io/hra-registrations/$(dirname $f)/)" >> README.md   
 done
+
+# Only run report generator if pre-requisites installed
+if [ `which comunica-sparql-file` ]; then
+  for f in */rui_locations.jsonld */*/rui_locations.jsonld; do
+    ./scripts/report.sh `dirname $f`
+  done
+fi

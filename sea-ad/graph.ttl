@@ -1,0 +1,117 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMAllenBrain> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.33347e+02 ;
+    ccf:y_rotation 6 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.793e+01 ;
+    ccf:z_rotation -10 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.4154e+01 ;
+    dct:created "2023-02-20" .
+
+<http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFAllenBrain> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.33377e+02 ;
+    ccf:y_rotation 6 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.8048e+01 ;
+    ccf:z_rotation -10 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.552e+01 ;
+    dct:created "2023-02-20" .
+
+<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/19/2023, Devin Wright, SEA-AD" ;
+    ccf:comes_from <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1> ;
+    ccf:generates_dataset <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 5 ;
+    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
+    rdfs:comment "4 x 5 x 5 millimeter, 5 millimeter" .
+
+<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
+    ccf:comes_from <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2> ;
+    ccf:generates_dataset <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 5 ;
+    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
+    rdfs:comment "4 x 5 x 5 millimeter, 5 millimeter" .
+
+<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1> a ccf:Donor ;
+    rdfs:label "Females, Middle Temporal Gyrus" ;
+    ccf:consortium_name "SEA-AD" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "SEA-AD" ;
+    ccf:tissue_provider_uuid "d97e6b70-5aca-4694-806b-5dc57e4f42c4" ;
+    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
+    rdfs:comment "Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples." .
+
+<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 1/19/2023, Devin Wright, SEA-AD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/sea-ad/assets/logo.jpg" ;
+    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
+    rdfs:comment "10x 3' v3 & 10x multiome" .
+
+<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2> a ccf:Donor ;
+    rdfs:label "Males, Middle Temporal Gyrus Male" ;
+    ccf:consortium_name "SEA-AD" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "SEA-AD" ;
+    ccf:tissue_provider_uuid "d97e6b70-5aca-4694-806b-5dc57e4f42c4" ;
+    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
+    rdfs:comment "Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples." .
+
+<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/sea-ad/assets/logo.jpg" ;
+    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
+    rdfs:comment "10x 3' v3 & 10x multiome" .
+
+<http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002771> ;
+    ccf:creator_first_name "Rebecca" ;
+    ccf:creator_last_name "Hodge" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 4 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 5 ;
+    dct:created "2023-02-20" ;
+    dct:creator "Rebecca Hodge" .
+
+<http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002771> ;
+    ccf:creator_first_name "Devin" ;
+    ccf:creator_last_name "Wright" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 4 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 5 ;
+    dct:created "2023-02-20" ;
+    dct:creator "Devin Wright" .
+

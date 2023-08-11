@@ -1,0 +1,1714 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/2185217b-77ed-4043-b79b-1c2d33b6d524_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/2185217b-77ed-4043-b79b-1c2d33b6d524> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.30092e+02 ;
+    ccf:y_rotation -44 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.21462e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.21009e+02 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/220036fa-2932-4f00-aad6-3f70c516c1c4_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/220036fa-2932-4f00-aad6-3f70c516c1c4> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFUterus> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -38 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.6774e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.9166e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.0848e+01 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/232b6561-19ed-4da3-a61e-286245f42f25_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/232b6561-19ed-4da3-a61e-286245f42f25> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFPancreas> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.855e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.0634e+01 ;
+    ccf:z_rotation -13 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.2717e+01 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/3626fb05-6e59-4aa9-8d03-2b5e995b2522_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/3626fb05-6e59-4aa9-8d03-2b5e995b2522> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFBloodVasculature> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.13174e+02 ;
+    ccf:y_rotation 4 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.94659e+02 ;
+    ccf:z_rotation 34 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 9.1963e+01 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -30 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.30858e+02 ;
+    ccf:y_rotation 1 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.59481e+02 ;
+    ccf:z_rotation 17 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.91877e+02 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightMammaryGland> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.9809e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.6002e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 9.3095e+01 ;
+    dct:created "2023-02-03" .
+
+<http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMProstate> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.7882e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.6321e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.7244e+01 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/676e549a-6234-48ee-b7cb-82258c17054b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/676e549a-6234-48ee-b7cb-82258c17054b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -35 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.15691e+02 ;
+    ccf:y_rotation 52 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.9602e+01 ;
+    ccf:z_rotation 31 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 9.0093e+01 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 15 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.20063e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.81198e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.6714e+01 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/74370757-0cd2-44e5-83d8-47eb550c441a_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/74370757-0cd2-44e5-83d8-47eb550c441a> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.6201e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.45242e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.35274e+02 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/7e05a1f1-fc08-4add-bd72-ffc11267c048_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/7e05a1f1-fc08-4add-bd72-ffc11267c048> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMBloodVasculature> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.3446e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.47743e+02 ;
+    ccf:z_rotation -26 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.13213e+02 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFColon> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -32 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.21557e+02 ;
+    ccf:y_rotation 9 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.0187e+02 ;
+    ccf:z_rotation -1 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.80201e+02 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -32 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.7221e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.1047e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.3766e+01 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLung> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.6002e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.13664e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.8402e+01 ;
+    dct:created "2021-09-22" .
+
+<http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLung> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.83956e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.97605e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.167e+01 ;
+    dct:created "2021-09-22" .
+
+<http://purl.org/ccf/1.5/c40d5540-f400-484c-b8d1-fbcb44194af7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/c40d5540-f400-484c-b8d1-fbcb44194af7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -74 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.606e+01 ;
+    ccf:y_rotation 9 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.00019e+02 ;
+    ccf:z_rotation 80 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.6704e+01 ;
+    dct:created "2023-05-05" .
+
+<http://purl.org/ccf/1.5/c80e8f79-2b12-470d-be3c-f195a3686943_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/c80e8f79-2b12-470d-be3c-f195a3686943> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -50 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.0254e+01 ;
+    ccf:y_rotation 6 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.02631e+02 ;
+    ccf:z_rotation 82 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.0782e+01 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/cc1251a4-d367-4bb1-b2d9-05ae33209f0d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/cc1251a4-d367-4bb1-b2d9-05ae33209f0d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -32 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.49806e+02 ;
+    ccf:y_rotation 55 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.0112e+01 ;
+    ccf:z_rotation 38 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.0223e+01 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 20 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.78414e+02 ;
+    ccf:y_rotation 13 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.79517e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.516e+01 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/d237fd29-749e-4734-a925-d36e5d1db31d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d237fd29-749e-4734-a925-d36e5d1db31d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.8138e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.7211e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.8237e+01 ;
+    dct:created "2022-01-19" .
+
+<http://purl.org/ccf/1.5/d386cdea-8d3c-46a2-9900-fbd5237cba80_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d386cdea-8d3c-46a2-9900-fbd5237cba80> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMPancreas> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.6818e+01 ;
+    ccf:y_rotation 24 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.8012e+01 ;
+    ccf:z_rotation 29 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.682e+01 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/e137f366-a936-4357-945a-929d1d682890_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/e137f366-a936-4357-945a-929d1d682890> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftOvary> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -14 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.827e+00 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.279e+01 ;
+    ccf:z_rotation -14 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.267e+00 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/ec1cc18d-9a48-4c09-a720-2b54c3f83bd9_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ec1cc18d-9a48-4c09-a720-2b54c3f83bd9> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.6348e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.785e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.223e+01 ;
+    dct:created "2022-01-19" .
+
+<http://purl.org/ccf/1.5/ec2488fb-6ff5-4f43-82b5-9704a650d00a_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ec2488fb-6ff5-4f43-82b5-9704a650d00a> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.8064e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.8666e+01 ;
+    ccf:z_rotation 49 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.2816e+01 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/ece78b3e-635e-45d1-8217-35fd50392cce_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ece78b3e-635e-45d1-8217-35fd50392cce> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.91656e+02 ;
+    ccf:y_rotation -30 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.5101e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.4441e+02 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/ed9bc73e-ab9c-4bb1-8b96-4ecd1f12c7a7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ed9bc73e-ab9c-4bb1-8b96-4ecd1f12c7a7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.7678e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.1661e+01 ;
+    ccf:z_rotation 48 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.7735e+01 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/f6203770-64ee-40cc-b7b2-339f1ae491cc_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f6203770-64ee-40cc-b7b2-339f1ae491cc> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.9038e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.34762e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.01244e+02 ;
+    dct:created "2022-01-26" .
+
+<http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -38 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.9389e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.5271e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.0132e+01 ;
+    dct:created "2021-09-17" .
+
+<http://purl.org/ccf/1.5/fd7270d4-105a-4058-aece-2d2bb0668da2_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/fd7270d4-105a-4058-aece-2d2bb0668da2> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -103 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 9.8899e+01 ;
+    ccf:y_rotation 9 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 9.0782e+01 ;
+    ccf:z_rotation -47 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.12922e+02 ;
+    dct:created "2021-09-17" .
+
+<https://gtexportal.org/home/tissue/Artery_Coronary#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Artery_Coronary#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Artery_Coronary#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/3626fb05-6e59-4aa9-8d03-2b5e995b2522> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2 ;
+    ccf:url "https://gtexportal.org/home/tissue/Artery_Coronary" ;
+    rdfs:comment "2 x 2 x 2 millimeter, 2 millimeter" .
+
+<https://gtexportal.org/home/tissue/Artery_Coronary#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Artery_Coronary#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Artery_Coronary#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/7e05a1f1-fc08-4add-bd72-ffc11267c048> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2 ;
+    ccf:url "https://gtexportal.org/home/tissue/Artery_Coronary" ;
+    rdfs:comment "2 x 2 x 2 millimeter, 2 millimeter" .
+
+<https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/2/2023, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Breast#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue" ;
+    rdfs:comment "Central breast subareolar region of the right breast, 1-2 cm under the skin surface of nipple region" .
+
+<https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 4 ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Sigmoid" ;
+    rdfs:comment "10 x 10 x 4 millimeter, 4 millimeter" .
+
+<https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 4 ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Sigmoid" ;
+    rdfs:comment "10 x 10 x 4 millimeter, 4 millimeter" .
+
+<https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Colon_Transverse#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/fd7270d4-105a-4058-aece-2d2bb0668da2> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 4 ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Transverse" ;
+    rdfs:comment "10 x 10 x 4 millimeter, 4 millimeter" .
+
+<https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/cc1251a4-d367-4bb1-b2d9-05ae33209f0d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 8 ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage" ;
+    rdfs:comment "10 x 10 x 8 millimeter, 8 millimeter" .
+
+<https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/676e549a-6234-48ee-b7cb-82258c17054b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 8 ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage" ;
+    rdfs:comment "10 x 10 x 8 millimeter, 8 millimeter" .
+
+<https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors> ;
+    ccf:generates_dataset ccf:GTEX-13N11-5002-SM-H5JDV,
+        ccf:GTEX-1ICG6-5003-SM-GHS9A,
+        <https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 8 ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Left_Ventricle" ;
+    rdfs:comment "10 x 10 x 8 millimeter, 8 millimeter" .
+
+<https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors> ;
+    ccf:generates_dataset ccf:GTEX-15RIE-5015-SM-H8L6X,
+        <https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 8 ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Left_Ventricle" ;
+    rdfs:comment "10 x 10 x 8 millimeter, 8 millimeter" .
+
+<https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/c80e8f79-2b12-470d-be3c-f195a3686943> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://gtexportal.org/home/tissue/Kidney_Cortex" ;
+    rdfs:comment "kidney cortex" .
+
+<https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 4/4/2023, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/c40d5540-f400-484c-b8d1-fbcb44194af7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 4 ;
+    ccf:url "https://gtexportal.org/home/tissue/Kidney_Cortex" ;
+    rdfs:comment "20 x 10 x 4 millimeter, 4 millimeter" .
+
+<https://gtexportal.org/home/tissue/Liver#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Liver#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Liver#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f6203770-64ee-40cc-b7b2-339f1ae491cc> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 7 ;
+    ccf:url "https://gtexportal.org/home/tissue/Liver" ;
+    rdfs:comment "10 x 10 x 7 millimeter, 7 millimeter" .
+
+<https://gtexportal.org/home/tissue/Liver#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Liver#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Liver#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/74370757-0cd2-44e5-83d8-47eb550c441a> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 7 ;
+    ccf:url "https://gtexportal.org/home/tissue/Liver" ;
+    rdfs:comment "10 x 10 x 7 millimeter, 7 millimeter" .
+
+<https://gtexportal.org/home/tissue/Lung#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/21/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Lung#FDonors> ;
+    ccf:generates_dataset ccf:GTEX-13N11-5030-SM-H5JDW,
+        <https://gtexportal.org/home/tissue/Lung#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://gtexportal.org/home/tissue/Lung" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://gtexportal.org/home/tissue/Lung#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/21/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Lung#MDonors> ;
+    ccf:generates_dataset ccf:GTEX-15CHR-5005-SM-H5JDT,
+        ccf:GTEX-1HSMQ-5005-SM-GKSJF,
+        <https://gtexportal.org/home/tissue/Lung#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://gtexportal.org/home/tissue/Lung" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://gtexportal.org/home/tissue/Ovary#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Ovary#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Ovary#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e137f366-a936-4357-945a-929d1d682890> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://gtexportal.org/home/tissue/Ovary" ;
+    rdfs:comment "10 x 10 x 3 millimeter, 3 millimeter" .
+
+<https://gtexportal.org/home/tissue/Pancreas#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Pancreas#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Pancreas#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/232b6561-19ed-4da3-a61e-286245f42f25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 7 ;
+    ccf:url "https://gtexportal.org/home/tissue/Pancreas" ;
+    rdfs:comment "10 x 10 x 7 millimeter, 7 millimeter" .
+
+<https://gtexportal.org/home/tissue/Pancreas#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Pancreas#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Pancreas#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d386cdea-8d3c-46a2-9900-fbd5237cba80> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 7 ;
+    ccf:url "https://gtexportal.org/home/tissue/Pancreas" ;
+    rdfs:comment "10 x 10 x 7 millimeter, 7 millimeter" .
+
+<https://gtexportal.org/home/tissue/Prostate#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Prostate#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Prostate#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 7 ;
+    ccf:url "https://gtexportal.org/home/tissue/Prostate" ;
+    rdfs:comment "10 x 10 x 7 millimeter, 7 millimeter" .
+
+<https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2185217b-77ed-4043-b79b-1c2d33b6d524> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 5 ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic" ;
+    rdfs:comment "20 x 10 x 5 millimeter, 5 millimeter" .
+
+<https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ece78b3e-635e-45d1-8217-35fd50392cce> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 5 ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic" ;
+    rdfs:comment "20 x 10 x 5 millimeter, 5 millimeter" .
+
+<https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 5 ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg" ;
+    rdfs:comment "20 x 10 x 5 millimeter, 5 millimeter" .
+
+<https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 5 ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg" ;
+    rdfs:comment "20 x 10 x 5 millimeter, 5 millimeter" .
+
+<https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/18/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ec1cc18d-9a48-4c09-a720-2b54c3f83bd9> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2 ;
+    ccf:url "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum" ;
+    rdfs:comment "6 x 6 x 2 millimeter, 2 millimeter" .
+
+<https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/18/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d237fd29-749e-4734-a925-d36e5d1db31d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2 ;
+    ccf:url "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum" ;
+    rdfs:comment "10 x 10 x 2 millimeter, 2 millimeter" .
+
+<https://gtexportal.org/home/tissue/Spleen#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Spleen#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Spleen#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ed9bc73e-ab9c-4bb1-8b96-4ecd1f12c7a7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 8 ;
+    ccf:url "https://gtexportal.org/home/tissue/Spleen" ;
+    rdfs:comment "10 x 10 x 8 millimeter, 8 millimeter" .
+
+<https://gtexportal.org/home/tissue/Spleen#MDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/16/2021, Kristin  Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Spleen#MDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Spleen#MDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ec2488fb-6ff5-4f43-82b5-9704a650d00a> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 8 ;
+    ccf:url "https://gtexportal.org/home/tissue/Spleen" ;
+    rdfs:comment "10 x 10 x 8 millimeter, 8 millimeter" .
+
+<https://gtexportal.org/home/tissue/Uterus#FDonors_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:comes_from <https://gtexportal.org/home/tissue/Uterus#FDonors> ;
+    ccf:generates_dataset <https://gtexportal.org/home/tissue/Uterus#FDonors_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/220036fa-2932-4f00-aad6-3f70c516c1c4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://gtexportal.org/home/tissue/Uterus" ;
+    rdfs:comment "20 x 10 x 3 millimeter, 3 millimeter" .
+
+ccf:GTEX-13N11-5002-SM-H5JDV a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/singleCellOverviewPage" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:GTEX-13N11-5030-SM-H5JDW a ccf:Dataset ;
+    rdfs:label "Registered 8/21/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/singleCellOverviewPage" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:GTEX-15CHR-5005-SM-H5JDT a ccf:Dataset ;
+    rdfs:label "Registered 8/21/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/singleCellOverviewPage" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:GTEX-15RIE-5015-SM-H8L6X a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/singleCellOverviewPage" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:GTEX-1HSMQ-5005-SM-GKSJF a ccf:Dataset ;
+    rdfs:label "Registered 8/21/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/singleCellOverviewPage" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:GTEX-1ICG6-5003-SM-GHS9A a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/singleCellOverviewPage" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+<https://gtexportal.org/home/tissue/Artery_Coronary#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=94), Mean Age 53.5 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Artery_Coronary" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Artery_Coronary#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Artery_Coronary" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Artery_Coronary#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=146), Mean Age 54.3 (range 20-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Artery_Coronary" ;
+    rdfs:comment "Entered 1/26/2023, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Artery_Coronary#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Artery_Coronary" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Breast#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=297), Mean Age ? (range 20-79)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue" ;
+    rdfs:comment "Entered 9/17/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 1/2/2023, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=113), Mean Age 51.1 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Sigmoid" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Sigmoid" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=55), Mean Age 55.8 (range 27-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Sigmoid" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Sigmoid" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Colon_Transverse#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=232), Mean Age 50.1 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Transverse" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Colon_Transverse" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=119), Mean Age 54.7 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=253), Mean Age 55.6 (range 20-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=122), Mean Age 52.9 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Left_Ventricle" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Left_Ventricle" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=253), Mean Age 55.6 (range 20-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Left_Ventricle" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Heart_Left_Ventricle" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=18), Mean Age 56.8 (range 30-69)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Kidney_Cortex" ;
+    rdfs:comment "Entered 9/17/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Kidney_Cortex" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=55), Mean Age 55.8 (range 27-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Kidney_Cortex" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 4/4/2023, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Kidney_Cortex" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Liver#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=65), Mean Age 54.5 (21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Liver" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Liver#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Liver" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Liver#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=161), Mean Age 54.5 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Liver" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Liver#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Liver" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Lung#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=136), Mean Age 48.9 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Lung" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Lung#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/21/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Lung" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Lung#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=349), Mean Age 53.5 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Lung" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Lung#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/21/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Lung" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Ovary#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=180), Mean Age 50.2 (21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Ovary" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Ovary#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Ovary" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Pancreas#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=121), Mean Age 52.1 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Pancreas" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Pancreas#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Pancreas" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Pancreas#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=207), Mean Age 50.3 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Pancreas" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Pancreas#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Pancreas" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Prostate#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=245), Mean Age 50.6 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Prostate" ;
+    rdfs:comment "Entered 1/26/2023, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Prostate#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Prostate" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=193), Mean Age 53.3 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=411), Mean Age 53.3 (range 20-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic" ;
+    rdfs:comment "Entered 1/26/2023, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=234), Mean Age 52.9 (21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=467), Mean Age 52.9 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg" ;
+    rdfs:comment "Entered 1/26/2023, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=67), Mean Age 48.6 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/18/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=120), Mean Age 48.4 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum" ;
+    rdfs:comment "Entered 1/26/2023, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/18/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Spleen#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=86), Mean Age 49.5 (range 23-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Spleen" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Spleen#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Spleen" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Spleen#MDonors> a ccf:Donor ;
+    rdfs:label "Males (n=141), Mean Age 49.8 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Spleen" ;
+    rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Spleen#MDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 8/16/2021, Kristin  Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Spleen" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://gtexportal.org/home/tissue/Uterus#FDonors> a ccf:Donor ;
+    rdfs:label "Females (n=142), Mean Age 47.8 (range 21-70)" ;
+    ccf:consortium_name "GTEx" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "GTEx Project" ;
+    ccf:tissue_provider_uuid "083882bb-6cc6-4c12-a205-eac37c1a2640" ;
+    ccf:url "https://gtexportal.org/home/tissue/Uterus" ;
+    rdfs:comment "Entered 1/26/2022, Kristin Ardlie, GTEx Project" .
+
+<https://gtexportal.org/home/tissue/Uterus#FDonors_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 0/25/2022, Kristin Ardlie, GTEx Project" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg" ;
+    ccf:url "https://gtexportal.org/home/tissue/Uterus" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/2185217b-77ed-4043-b79b-1c2d33b6d524> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 5 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/220036fa-2932-4f00-aad6-3f70c516c1c4> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_17561>,
+        <http://purl.obolibrary.org/obo/FMA_224876>,
+        <http://purl.obolibrary.org/obo/FMA_224878> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 3 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/232b6561-19ed-4da3-a61e-286245f42f25> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14517>,
+        <http://purl.obolibrary.org/obo/UBERON_0001069>,
+        <http://purl.obolibrary.org/obo/UBERON_0001150> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 7 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/3626fb05-6e59-4aa9-8d03-2b5e995b2522> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001626> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 2 ;
+    ccf:y_dimension 2 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001157> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 4 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0018140>,
+        <http://purl.org/sig/ont/fma/fma58088>,
+        <http://purl.org/sig/ont/fma/fma62102>,
+        <http://purl.org/sig/ont/fma/fma73118>,
+        <http://purl.org/sig/ont/fma/fma73165> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 4 ;
+    dct:created "2023-02-03" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000999>,
+        <http://purl.obolibrary.org/obo/UBERON_0002367>,
+        <http://purl.obolibrary.org/obo/UBERON_0006947>,
+        <http://purl.obolibrary.org/obo/UBERON_8410026>,
+        <http://purl.obolibrary.org/obo/UBERON_8410027> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 7 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/676e549a-6234-48ee-b7cb-82258c17054b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 8 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 5 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/74370757-0cd2-44e5-83d8-47eb550c441a> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_15729>,
+        <http://purl.obolibrary.org/obo/UBERON_0001114> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 7 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/7e05a1f1-fc08-4add-bd72-ffc11267c048> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001626> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 2 ;
+    ccf:y_dimension 2 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001157> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 4 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000948>,
+        <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0013702> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 8 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.obolibrary.org/obo/UBERON_0002168>,
+        <http://purl.obolibrary.org/obo/UBERON_0008952>,
+        <http://purl.org/sig/ont/fma/fma7385>,
+        <http://purl.org/sig/ont/fma/fma7386>,
+        <http://purl.org/sig/ont/fma/fma7426> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dct:created "2021-09-22" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.obolibrary.org/obo/UBERON_0002185>,
+        <http://purl.obolibrary.org/obo/UBERON_0003406> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dct:created "2021-09-22" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/c40d5540-f400-484c-b8d1-fbcb44194af7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 4 ;
+    dct:created "2023-05-05" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/c80e8f79-2b12-470d-be3c-f195a3686943> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 4 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/cc1251a4-d367-4bb1-b2d9-05ae33209f0d> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000948>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0013702> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 8 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 5 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/d237fd29-749e-4734-a925-d36e5d1db31d> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14966>,
+        <http://purl.obolibrary.org/obo/UBERON_0002116> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-01-19" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/d386cdea-8d3c-46a2-9900-fbd5237cba80> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14517>,
+        <http://purl.obolibrary.org/obo/UBERON_0001069>,
+        <http://purl.obolibrary.org/obo/UBERON_0001150> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 7 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/e137f366-a936-4357-945a-929d1d682890> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_7214> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 3 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/ec1cc18d-9a48-4c09-a720-2b54c3f83bd9> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14966>,
+        <http://purl.obolibrary.org/obo/UBERON_0002116> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 6 ;
+    ccf:y_dimension 6 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-01-19" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/ec2488fb-6ff5-4f43-82b5-9704a650d00a> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837> ;
+    ccf:creator_first_name "Kristin " ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 8 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin  Ardlie" .
+
+<http://purl.org/ccf/1.5/ece78b3e-635e-45d1-8217-35fd50392cce> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 5 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/ed9bc73e-ab9c-4bb1-8b96-4ecd1f12c7a7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 8 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/f6203770-64ee-40cc-b7b2-339f1ae491cc> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/FMA_15729>,
+        <http://purl.obolibrary.org/obo/UBERON_0001114> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 7 ;
+    dct:created "2022-01-26" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002080> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 8 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+
+<http://purl.org/ccf/1.5/fd7270d4-105a-4058-aece-2d2bb0668da2> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001159> ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Ardlie" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 4 ;
+    dct:created "2021-09-17" ;
+    dct:creator "Kristin Ardlie" .
+

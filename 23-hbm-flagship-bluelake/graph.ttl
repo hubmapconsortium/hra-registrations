@@ -1,0 +1,2442 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/007eb4d9-1694-4380-99e1-4aba832d9227_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/007eb4d9-1694-4380-99e1-4aba832d9227> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.5542e+01 ;
+    ccf:y_rotation 40 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.5098e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.488e+00 ;
+    dct:created "2022-06-08" .
+
+<http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 88 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.5894e+01 ;
+    ccf:y_rotation -103 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.427e+01 ;
+    ccf:z_rotation 20 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.1489e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -72 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.0726e+01 ;
+    ccf:y_rotation 38 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.8225e+01 ;
+    ccf:z_rotation 27 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.0278e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -10 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.101e+00 ;
+    ccf:y_rotation -30 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.289e+01 ;
+    ccf:z_rotation 27 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.1215e+01 ;
+    dct:created "2022-09-23" .
+
+<http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -14 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.153e+00 ;
+    ccf:y_rotation -59 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 9.025e+01 ;
+    ccf:z_rotation 25 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.1215e+01 ;
+    dct:created "2022-09-23" .
+
+<http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 97 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.3316e+01 ;
+    ccf:y_rotation 37 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.5294e+01 ;
+    ccf:z_rotation 97 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.2282e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 15 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.2052e+01 ;
+    ccf:y_rotation -7 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.7976e+01 ;
+    ccf:z_rotation -46 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.9677e+01 ;
+    dct:created "2022-09-23" .
+
+<http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -30 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.9752e+01 ;
+    ccf:y_rotation -30 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 9.7208e+01 ;
+    ccf:z_rotation -74 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.8677e+01 ;
+    dct:created "2022-09-23" .
+
+<http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -49 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.6649e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.475e+01 ;
+    ccf:z_rotation 62 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.0282e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.966e+00 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.0114e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.6989e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 34 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.8368e+01 ;
+    ccf:y_rotation 13 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.0425e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.2489e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -36 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.9094e+01 ;
+    ccf:y_rotation -21 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.9802e+01 ;
+    ccf:z_rotation 118 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.5177e+01 ;
+    dct:created "2022-03-04" .
+
+<http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 108 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.6625e+01 ;
+    ccf:y_rotation 34 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.09724e+02 ;
+    ccf:z_rotation 148 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.5782e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -63 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.6642e+01 ;
+    ccf:y_rotation -27 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.01913e+02 ;
+    ccf:z_rotation 142 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.4677e+01 ;
+    dct:created "2022-09-23" .
+
+<http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -59 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.4617e+01 ;
+    ccf:y_rotation 63 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.3486e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.2555e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -44 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.6051e+01 ;
+    ccf:y_rotation -28 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.09037e+02 ;
+    ccf:z_rotation -11 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.1677e+01 ;
+    dct:created "2022-09-23" .
+
+<http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -42 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.9099e+01 ;
+    ccf:y_rotation -71 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.8393e+01 ;
+    ccf:z_rotation -30 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.177e+01 ;
+    dct:created "2022-03-04" .
+
+<http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 105 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.0009e+01 ;
+    ccf:y_rotation 131 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.5904e+01 ;
+    ccf:z_rotation 44 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.0555e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -46 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.3213e+01 ;
+    ccf:y_rotation -32 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.4416e+01 ;
+    ccf:z_rotation -91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.0489e+01 ;
+    dct:created "2021-10-03" .
+
+<http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -44 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.0604e+01 ;
+    ccf:y_rotation 46 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.6796e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.7782e+01 ;
+    dct:created "2021-10-03" .
+
+<https://entity.api.hubmapconsortium.org/entities/11d794402e067e54888bb8a4af4184e0> a ccf:Sample ;
+    rdfs:label "Registered 9/23/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/a38b15989cc8d7cec59354b69a65d92b> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM257.DBNG.933>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM296.PCFN.989>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM335.XXBG.857>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM422.MKWK.448>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM428.HQPL.493>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM457.KGQS.422>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM467.SPJK.587>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM522.LXLF.753>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM562.WZFC.994>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM727.FSWS.736>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM882.NBFK.489>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM968.MLFJ.353> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 2 ;
+    ccf:section_size 1 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/11d794402e067e54888bb8a4af4184e0" ;
+    rdfs:comment "4 x 8 x 2 millimeter, 1 millimeter, 2 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/2256c64aacd92af7028ffb33e478cf46> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/0739c6eb8d0d51bfd244e3d5afb00aab> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM252.BMWF.224>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM264.KNSL.465>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM288.RCTV.965>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM328.FTJW.669>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM349.KWMK.599>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM349.XPRZ.258>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM352.LGWD.929>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM358.BMRH.466>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM363.LDZL.423>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM393.QBPZ.886>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM399.TFTQ.282>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM445.NPKW.958>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM454.HBQV.975>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM475.DZSR.334>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM489.JHDG.227>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM557.MDFT.752>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM592.HXGM.837>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM644.GBKD.967>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM664.KRQG.276>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM695.XTNF.836>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM744.MBPT.666>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM777.SVZT.454>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM879.NCTL.468>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM939.CNSV.893>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM942.SRZF.846> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 4 ;
+    ccf:section_size 5e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46" ;
+    rdfs:comment "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/243c742cc28978c406d650984d6eeffd> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/5c4208e2f2715c56ee8dc82b5f1b90c0> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM382.HNKL.447> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/243c742cc28978c406d650984d6eeffd" ;
+    rdfs:comment "3 x 4 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/263854e0346766efa516bd69bfc1e035> a ccf:Sample ;
+    rdfs:label "Registered 9/23/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/a38b15989cc8d7cec59354b69a65d92b> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM298.KXFW.694>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM348.QZFH.528>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM367.THWT.587>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM427.HSPX.458>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM433.XBGK.479>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM477.SGMX.842>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM545.VTQM.594>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM556.GXMS.552>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM562.WTFG.364>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM564.KDDS.745>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM669.VQFV.937>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM672.VWPP.454>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM684.LRVL.722>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM699.DNQV.357>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM699.NGDQ.539>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM728.XPZZ.359>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM769.NLGR.528>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM849.GHJN.299> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/263854e0346766efa516bd69bfc1e035" ;
+    rdfs:comment "3 x 12 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/2957761e1ed24c63f53714bd0d9bf25f> a ccf:Sample ;
+    rdfs:label "Registered 9/23/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/4c99122862f4f34f80ee6d9cac36d61a> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM892.MXFF.848> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/2957761e1ed24c63f53714bd0d9bf25f" ;
+    rdfs:comment "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/2c43806e840ffc9861abadf827c292fc> a ccf:Sample ;
+    rdfs:label "Registered 9/23/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/613776ac210f65a63462ce6f926f4557> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM992.XNZH.647> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/2c43806e840ffc9861abadf827c292fc" ;
+    rdfs:comment "3 x 2 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/3d74b962e316efbfba104370f5c87e2d> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/48b15ba8abfaef4e70edfdf173649b6c> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM224.GLDC.549>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM229.RBVC.749>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM332.KRRD.449>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM386.CVHG.956>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM526.JMWM.852>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM659.WFXT.729>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM695.CKJX.997>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM734.WGZC.959>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM766.PSCS.545>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM953.HGVS.696>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM959.XNWL.627>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM983.QHFB.659>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM995.XZDF.373> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 2 ;
+    ccf:section_size 1 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/3d74b962e316efbfba104370f5c87e2d" ;
+    rdfs:comment "1 x 5 x 2 millimeter, 1 millimeter, 2 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/454f281ae77ccd7a1e2ab86f90c07263> a ccf:Sample ;
+    rdfs:label "Registered 9/23/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/613776ac210f65a63462ce6f926f4557> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM574.NFCS.842> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/454f281ae77ccd7a1e2ab86f90c07263" ;
+    rdfs:comment "3 x 2 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/539d08c341db65d371ae0687bb314bb3> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/ab8258a97e0820c294d1f0ba2d261f61> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM432.BPZM.698> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 4 ;
+    ccf:section_size 5e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/539d08c341db65d371ae0687bb314bb3" ;
+    rdfs:comment "5 x 10 x 2 millimeter, 0.5 millimeter, 4 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/a5a5a3bff1df2a6c378d85316161bd5b> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/b8f375d33daa5228782abd838d851b8d> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM358.KDDT.729>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM839.TQNM.958> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/a5a5a3bff1df2a6c378d85316161bd5b" ;
+    rdfs:comment "3 x 13 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/a7c3ea8269b3a97ac9f39cb4a970666c> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/d5d47e3cd48e28a932ea33d58f6feb00> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM764.ZCQR.585> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/a7c3ea8269b3a97ac9f39cb4a970666c" ;
+    rdfs:comment "5 x 5 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/aadeb3ec91f8886051108dbb45ddec76> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/5c4208e2f2715c56ee8dc82b5f1b90c0> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM537.LTFK.379> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/aadeb3ec91f8886051108dbb45ddec76" ;
+    rdfs:comment "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/b2362226c142a855ddaa0fba0db29b95> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/f8d963cab6bd10e2a4b8184ea8197fc1> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM238.MHWZ.654>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM239.XXRN.647>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM259.BPTK.843>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM265.NXDR.935>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM372.WXSK.584>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM375.KNVL.645>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM398.CFZH.458>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM442.DGFV.995>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM444.BXPJ.728>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM456.HFJD.657>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM459.BBRT.432>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM488.CHLD.467>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM495.KSXC.638>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM523.FKWF.269>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM532.DJRB.464>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM538.ZGLW.939>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM575.XFCT.276>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM633.LKWQ.696>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM639.SPNR.589>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM678.FRJC.827>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM679.RWJH.877>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM699.QHSP.975>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM723.QMLJ.829>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM729.KJWJ.742>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM764.WVJF.756>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM783.ZJCH.496>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM792.SPTN.838>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM793.TLPP.486>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM797.PDPS.368>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM834.TDFD.294>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM852.VSBC.572>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM853.GWTP.895>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM859.HQTC.955>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM859.VRNW.383>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM864.XMFH.374>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM888.MQJH.424>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM922.KSKR.637>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM938.FTBC.347>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM969.DHDC.536>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM973.ZVNB.886>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM974.LTFV.443>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM977.LLMG.325>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM984.LZDJ.635> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 3 ;
+    ccf:section_size 7e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95" ;
+    rdfs:comment "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/b6293bba61e3956b6546f4e6f47c8c3c> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/e742ac485a0614e4114a26886ed0b444> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM982.TPNQ.737> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/b6293bba61e3956b6546f4e6f47c8c3c" ;
+    rdfs:comment "2 x 4 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/cc5da33c5239011f75c06918dad38914> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/ab8258a97e0820c294d1f0ba2d261f61> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM578.SRZG.769> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/cc5da33c5239011f75c06918dad38914" ;
+    rdfs:comment "5 x 6 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/cdd62f7264902447922147c3098ecd6a> a ccf:Sample ;
+    rdfs:label "Registered 3/4/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/f8d963cab6bd10e2a4b8184ea8197fc1> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM275.DGCJ.895>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM325.KSWT.236>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM342.MWMW.936>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM363.NSBV.432>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM548.WNVT.322>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM656.KZXP.658>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM742.GTJJ.334>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM759.ZKDS.894>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM833.HFSG.364>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM862.PKSC.458>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM875.XDQQ.848>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM886.SLWK.262> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 2 ;
+    ccf:section_size 1 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/cdd62f7264902447922147c3098ecd6a" ;
+    rdfs:comment "4 x 7 x 2 millimeter, 1 millimeter, 2 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/e76e073b21e99c230e0ee376722c041d> a ccf:Sample ;
+    rdfs:label "Registered 3/4/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/3439871e0617807d2711465a249af9a5> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM245.VSKK.846>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM368.FDDS.927>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM379.ZGKM.223>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM393.NWNB.684>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM495.QGMR.465>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM572.BZFP.842>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM587.JPLF.798>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM688.FBNP.587>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM747.QMQS.862>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM775.RVQX.376>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM882.KDTH.685>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM975.WHWM.552> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 2 ;
+    ccf:section_size 1 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d" ;
+    rdfs:comment "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/e92386147334ee241991e25d8ae3e04f> a ccf:Sample ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/e742ac485a0614e4114a26886ed0b444> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM375.ZKZZ.765> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 2 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/e92386147334ee241991e25d8ae3e04f" ;
+    rdfs:comment "2 x 4 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/f202f2c7fbe92f78292acef7fafbdc7c> a ccf:Sample ;
+    rdfs:label "Registered 6/8/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/0739c6eb8d0d51bfd244e3d5afb00aab> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM255.HLNC.938>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM277.PZLF.957>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM344.VNRB.528>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM434.NVPJ.787>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM453.SZCH.656>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM479.RDNW.482>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM673.BCMT.647>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM677.TRKR.869>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM743.RMZB.895>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM776.QBZF.987>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM836.SCTK.396>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM848.DKKR.789> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/007eb4d9-1694-4380-99e1-4aba832d9227> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 2 ;
+    ccf:section_size 1 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/f202f2c7fbe92f78292acef7fafbdc7c" ;
+    rdfs:comment "5 x 5 x 2 millimeter, 1 millimeter, 2 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/f7c5d23701bf7e9fd88b93aa0f48443d> a ccf:Sample ;
+    rdfs:label "Registered 9/23/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/48b15ba8abfaef4e70edfdf173649b6c> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM264.RWRW.668>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM276.BCVG.232>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM346.JMJX.867>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM384.BWTV.862>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM396.QSCB.763>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM442.HSFZ.838>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM584.ZTDX.845>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM657.GRSC.648>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM683.DSMM.562>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM757.KRNC.835>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM773.WCXC.264>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM788.XWPV.347>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM888.GBKC.648>,
+        <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM967.ZTCR.629> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 5 ;
+    ccf:section_size 4e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/f7c5d23701bf7e9fd88b93aa0f48443d" ;
+    rdfs:comment "3 x 8 x 2 millimeter, 0.4 millimeter, 5 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM224.GLDC.549> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/fd0c0fcde5a331c9dfff52b520c7d792" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM229.RBVC.749> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/83c406b2560e093fa32a2e4a53311530" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM238.MHWZ.654> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/42a767c2036382d7f015989cad1ce138" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM239.XXRN.647> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/397b6f876ec7976923650135481d08e5" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM245.VSKK.846> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e30d1d413f45c48edbfdf0ecf9d58dcc" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM252.BMWF.224> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d34706323794467348995af37072b5ee" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM255.HLNC.938> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/154ec6344a58e4acb15ad01977b84baf" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM257.DBNG.933> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9e8d22618bc17f270c58b7bb2581ece4" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM259.BPTK.843> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f852d653926edb68292e39b95a3469cf" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM264.KNSL.465> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/469e619ef4dd5fd8d6857029acd45a5d" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM264.RWRW.668> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c686b93a809ec1f54a0d96bc25d3d207" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM265.NXDR.935> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4038c7a3510b38f0cd036aa4955246eb" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM275.DGCJ.895> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/eca32931621bc258f3190178816b1d1d" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM276.BCVG.232> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/142dde4b515934bdd9384c2aea081ebb" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM277.PZLF.957> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/44b565e80f21231d5da0297c5871b600" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM288.RCTV.965> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c5e4adcf2ef956864a087d1691e8e8cd" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM296.PCFN.989> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/275c81f5f8b4f53f925f9742cb440efa" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM298.KXFW.694> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/da37b64d6f5823747274c719cd590890" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM325.KSWT.236> a ccf:Dataset ;
+    rdfs:label "Registered 3/4/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/cdd62f7264902447922147c3098ecd6a" ;
+    rdfs:comment "4 x 7 x 2 millimeter, 1 millimeter, 2 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM328.FTJW.669> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ade674f0277942c9a1297494fcf3511d" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM332.KRRD.449> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b65be38cd5c120889a3b78630d396387" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM335.XXBG.857> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1e766956a9c48e8e61ffb1ab28e8e4e4" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM342.MWMW.936> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/00d9d4bf8b010eaa6fca4361476cd2ad" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM344.VNRB.528> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3ecfd266a6838e7e8d3dcec37ab80487" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM346.JMJX.867> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/cba4c3ad94b5590e204c770f1e2e9eb6" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM348.QZFH.528> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/79a5b864c4c6bf57c931e6642a64cc08" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM349.KWMK.599> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/2746ce8d450265ace2c6aee762c8dfda" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM349.XPRZ.258> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d7bd2925c466eedc009c1cd272011529" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM352.LGWD.929> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1b358830d3d9a1c99131de862b35b153" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM358.BMRH.466> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f873b94dc8554ce2d013ecd570f1d8b9" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM358.KDDT.729> a ccf:Dataset ;
+    rdfs:label "Registered 10/3/2021, Diane Salamon, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/a5a5a3bff1df2a6c378d85316161bd5b" ;
+    rdfs:comment "3 x 13 x 2 millimeter, 2 millimeter, 1 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM363.LDZL.423> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/614073f249f8881b2fe4a29db6bea266" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM363.NSBV.432> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/5a1449ecf5a58494e11ed7a78a7d104a" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM367.THWT.587> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/50808683b51949ef997295e0d5933dd3" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM368.FDDS.927> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e4cb7061eafcb4605b138b56dd8b10c0" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM372.WXSK.584> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b21ce6352f9e649ad635d7ae38fc4418" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM375.KNVL.645> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/af3e387f2441f172cbe7de29ea5c3c16" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM375.ZKZZ.765> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/cfc125d6d916f121e92a8406a0502a38" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM379.ZGKM.223> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/26dc619ecea3f40441064f18e1a8b879" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM382.HNKL.447> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9049f48b97dc5edc737b67783a47e918" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM384.BWTV.862> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/bf8faee3a82026ccf2a65965fd158a1f" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM386.CVHG.956> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/644e9e8c2e6dfb07223188b86eb17ed4" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM393.NWNB.684> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/026ab5fb8cf7681220b423d453a583aa" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM393.QBPZ.886> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/233734120eed95231140c5dfd22622d7" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM396.QSCB.763> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/737617c116e94ded77b9de7611c469e9" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM398.CFZH.458> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8fcb96b98c87178e2666435a3b3a5350" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM399.TFTQ.282> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4ea7a4cf1a6ff0df0cc33c1236633112" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM422.MKWK.448> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/0a89c78b2de4c454c6df0a6e17ff17b6" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM427.HSPX.458> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/bc82d6b0dfe69e141bc68c98659e3221" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM428.HQPL.493> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/59981ae24643781ae8a9e6fb6f1f80b2" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM432.BPZM.698> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/cd887a6beabc794992876ad7ee591f69" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM433.XBGK.479> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9db7ecfa20b1135e184ace50c3b879d7" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM434.NVPJ.787> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/324e4aa3c65fd6644234bbfd61b358de" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM442.DGFV.995> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9ac7346dee44af91fd4d6c31fb40f326" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM442.HSFZ.838> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/5db7806bf62bf80bdd9a17199d6d2b08" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM444.BXPJ.728> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1e56c595c3f0e1cf126a80e00fd31c54" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM445.NPKW.958> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/6f87add44880de684e6a9a5625344bbb" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM453.SZCH.656> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/5f13e1e3140b58650018ec44ecad720c" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM454.HBQV.975> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/27dd55b5e1721c64dc359e704de8f852" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM456.HFJD.657> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f7a24d395fa4c384c5234c7437782ea5" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM457.KGQS.422> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/823ab6e4b4962a55f2b1d9a70039fe5f" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM459.BBRT.432> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ae97b76308cc66379e3cab55ca3c86ad" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM467.SPJK.587> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c22eda335c5e2f90b59f277be31e6780" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM475.DZSR.334> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4dccc53d79f9516f7067b2fcd09b37fa" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM477.SGMX.842> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4318b88da67256edae9fd876b5111e4a" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM479.RDNW.482> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f4333f83c8aadb7ea132844e7d0097fb" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM488.CHLD.467> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/0dad96d381eab1a598b76038385e593f" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM489.JHDG.227> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ffe88de77cfb92e1912aaaadefb43516" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM495.KSXC.638> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/76584f2fe8e8ec215d78b83296461bbf" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM495.QGMR.465> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ed6be8e1ad92dc89d836a78645b5934f" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM522.LXLF.753> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b7227f0ddb99ee5aaa3aec9d48d10a83" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM523.FKWF.269> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/eb7483e17dc656d065ed2c1595663998" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM526.JMWM.852> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3ddb9281f4b7c214db40f7f8b92b55c9" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM532.DJRB.464> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/83886790424cd10f6b50159ef50555ed" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM537.LTFK.379> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/69a0ada10f4f119f99ce5f66cf3b1a94" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM538.ZGLW.939> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/67a706c5c38c8ea546a77a2f5e01d914" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM545.VTQM.594> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d2514a9f220952cf2dd75796206eeb11" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM548.WNVT.322> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b2edd3796b6ee0e0d3af9c12646e1120" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM556.GXMS.552> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/03950103e80f2b03dc01220173596872" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM557.MDFT.752> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f3e8db3b31a3b32bd4b1688f74ee2939" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM562.WTFG.364> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/438f7ba3b54f4020e8cbd852594aaca3" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM562.WZFC.994> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/21fe1cf97052ee3d986b5ccb4e8efe86" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM564.KDDS.745> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/09860b02b26a7ba0cfaafbebd163d84a" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM572.BZFP.842> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f5f03af69bca880e11107713f75d05ea" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM574.NFCS.842> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ec88a6b161dce97a2361b1479c69a036" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM575.XFCT.276> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/421007293469db7b528ce6478c00348d" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM578.SRZG.769> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/06ff98c01295ca5ea504a676f73f9a09" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM584.ZTDX.845> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f21984fb4a908c1adfa921fbcaca8788" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM587.JPLF.798> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d97b9b0aa1c0c6929d0db414e1d67825" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM592.HXGM.837> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/baa0353f17bd98dc714761613af90b88" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM633.LKWQ.696> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/7fe4a2d04548790228f947659a596886" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM639.SPNR.589> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/128c32899add42e327b367009ccf1629" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM644.GBKD.967> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/670135e38ac4107e0d07dae1bdcf4936" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM656.KZXP.658> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/2100db577dfa010580c35518472e0e7f" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM657.GRSC.648> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f093975797fd902c6130475430184c07" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM659.WFXT.729> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a4477ee85ea420ae82b892ae936b43c4" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM664.KRQG.276> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/060ab67b1b2465f4416f843c29a68a06" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM669.VQFV.937> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/41853e5163279731c4a39f1c68e2433a" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM672.VWPP.454> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/7895cd896ac7238d12bc690560cf2856" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM673.BCMT.647> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b754eefb3941f645116d117b0a0b1881" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM677.TRKR.869> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1c9310ad74bdebc6983fb1bda3dcaa6e" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM678.FRJC.827> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/45aadbf99c097775e6004a978b5a731b" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM679.RWJH.877> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e108faf3cff5368e1bd42d79c17639ac" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM683.DSMM.562> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/33874bc3c95b6b41cbc387d2826d88eb" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM684.LRVL.722> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d34eb3a317ac17d6f01b958cb2276793" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM688.FBNP.587> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c45f6e23e4f2cce77de089a046e7d7ef" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM695.CKJX.997> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9efdc2b203c54baad4e7c5cd99b77160" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM695.XTNF.836> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/19be408fb97c09f603c906921d7b0945" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM699.DNQV.357> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/56e0c521ee57ce2a58e01bbc62b4c6d1" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM699.NGDQ.539> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/155da15afc9978b62d64bf0801d025dc" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM699.QHSP.975> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/382f55fef20702b4b9341889fbb9fcf9" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM723.QMLJ.829> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b2d42d1143a168014996df6d07d5bdf8" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM727.FSWS.736> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b187c76ccb333ec1c347cbc217c09ad5" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM728.XPZZ.359> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/94b65d95d4aefcbcc714ab0272721801" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM729.KJWJ.742> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/055944e2ee7579974aa7a2a11dff5637" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM734.WGZC.959> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ba5d51d5101f1fb882b1d8c73e26b9a2" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM742.GTJJ.334> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/053eeb782b81f78b5e41802dfe859cdb" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM743.RMZB.895> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3778097725a62f96f1803eecfde3159b" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM744.MBPT.666> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/de80a443ed15e1f783c68d5e0b2d7216" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM747.QMQS.862> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/6ef99f51b408b3e8431d5809a98f160c" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM757.KRNC.835> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c22282c08225776b919c96fae7665557" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM759.ZKDS.894> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ffc1e88d31396f5bd8a0b66729584e1d" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM764.WVJF.756> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ea1fa7d3d66a34965e8880f549fc698d" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM764.ZCQR.585> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/99c5c80509be87d2356d19a9ed8b22ff" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM766.PSCS.545> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/df7b5c077c2fc442f56d8667fe8ea37c" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM769.NLGR.528> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/015ee234392256bfdb315299622ccb87" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM773.WCXC.264> a ccf:Dataset ;
+    rdfs:label "Registered 5/8/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/0487454555924b54dd3f5b5232e3c77e" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM775.RVQX.376> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9f08125dfdae4906881b62479471d65a" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM776.QBZF.987> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8db8bb7b9e6c0691ebe04bac4f24227e" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM777.SVZT.454> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9b64312cac3c359e0fef53555057c996" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM783.ZJCH.496> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/5af077748159ae4068d7eee08232f9ac" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM788.XWPV.347> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d990c4d6e981affd9ea3411f436ff09c" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM792.SPTN.838> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c350e0a14b11211ff6f1c6f6cec20d4f" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM793.TLPP.486> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/43f83f08bedac2bc4d58767362dfebe2" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM797.PDPS.368> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1b83223cf1f4446c625adbfb375ab3fd" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM833.HFSG.364> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/80de47fcd4ddb11de36af71dfdfa7b90" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM834.TDFD.294> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/bbe9f1a95a61f32656ed4452fed9d424" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM836.SCTK.396> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9c059f193bb4db45250e3b5eb303eaf4" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM839.TQNM.958> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/46e8ffd2350efd19f771c6fb6a51f6cc" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM848.DKKR.789> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/79e94dcf00267a0fe71e88c7d1e8d3c8" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM849.GHJN.299> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/7c507d1e158fec58428d4e30bd2f923b" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM852.VSBC.572> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/efe5894cd09b0a411ecfe46749e6db73" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM853.GWTP.895> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c858b21d7bbfbe4e73d9f72c2c719c62" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM859.HQTC.955> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/82fdfdfb1d5c35829c105b03b50ab369" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM859.VRNW.383> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/59ba7764bbea8ab650f6772d1619cd0b" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM862.PKSC.458> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/cae186a13f87cb0b894815d1f6f8fdab" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM864.XMFH.374> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d91f01da45d9011b702cbff221c0ddeb" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM875.XDQQ.848> a ccf:Dataset ;
+    rdfs:label "Registered 3/4/2022, Diane Salamon, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/cdd62f7264902447922147c3098ecd6a" ;
+    rdfs:comment "4 x 7 x 2 millimeter, 1 millimeter, 2 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM879.NCTL.468> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/869ff5b556a0e0f24a48aa673d0bc343" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM882.KDTH.685> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/7b85597b6a56b4119792423b23f2a40d" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM882.NBFK.489> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/fa3c3facff89f8ee89f7ee315f057f5e" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM886.SLWK.262> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/fc1fe65af3d66d6e12b402647d16d9a0" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM888.GBKC.648> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/78561061443e3f9cae9acbcde772fa43" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM888.MQJH.424> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c4bac95c3f00803668c412fe946d8c6c" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM892.MXFF.848> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/2d27debfce3d25040af54fb77b25427b" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM922.KSKR.637> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/5fba3cd9628ce41299533961b00763a4" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM938.FTBC.347> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/34730c1fb6e55ece2567c4ffe53ca466" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM939.CNSV.893> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/df71091620312eacc28a6accccfb2aa4" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM942.SRZF.846> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/57cdbde608f49f28799accb37a4bec6f" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM953.HGVS.696> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d3c675e9f3507412928d3bb725c2c8d2" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM959.XNWL.627> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/db3eca4495be28a22d9d02d465c1f702" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM967.ZTCR.629> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ca5b7bf05646e56f1245c9ab98e05892" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM968.MLFJ.353> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/fd8e3553aaf59e86c0318999010dba5a" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM969.DHDC.536> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f366d9fd7558f5b4daa5766f3d35583b" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM973.ZVNB.886> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f41e71ec9619dbb065634b4714d1818e" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM974.LTFV.443> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/567c871e361b9bde3f744a211ee5aed5" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM975.WHWM.552> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1b015d3b973ac6510bbb40f4112f0486" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM977.LLMG.325> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a57924f85433a3f32d5e47dd0fecdb59" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM982.TPNQ.737> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/fa6d9c732c7f239422ec6b357136fcd4" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM983.QHFB.659> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/bbab5449e7476eb6b52cbb632980aa2b" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM984.LZDJ.635> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1b2dede6f4a92c4114ae0e581b5466ce" ;
+    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM992.XNZH.647> a ccf:Dataset ;
+    rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f1b130f1200ae1fabe56cb506245490c" ;
+    rdfs:comment "Data/Assay Types: snRNAseq, " .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM995.XZDF.373> a ccf:Dataset ;
+    rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/88ea29ae7aeb5805daf855b3deb73361" ;
+    rdfs:comment "Data/Assay Types: SNAREseq, " .
+
+<https://entity.api.hubmapconsortium.org/entities/3439871e0617807d2711465a249af9a5> a ccf:Donor ;
+    rdfs:label "Male, Age 28, BMI 19.2" ;
+    ccf:age 28 ;
+    ccf:bmi 1.92e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/3439871e0617807d2711465a249af9a5" ;
+    rdfs:comment "Entered 6/12/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/4c99122862f4f34f80ee6d9cac36d61a> a ccf:Donor ;
+    rdfs:label "Male, Age 54, BMI 38.6" ;
+    ccf:age 54 ;
+    ccf:bmi 3.86e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/4c99122862f4f34f80ee6d9cac36d61a" ;
+    rdfs:comment "Entered 4/1/2021, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/b8f375d33daa5228782abd838d851b8d> a ccf:Donor ;
+    rdfs:label "Female, Age 59, BMI 23.1" ;
+    ccf:age 59 ;
+    ccf:bmi 2.31e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/b8f375d33daa5228782abd838d851b8d" ;
+    rdfs:comment "Entered 7/13/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/d5d47e3cd48e28a932ea33d58f6feb00> a ccf:Donor ;
+    rdfs:label "Female, Age 14, BMI 18.5" ;
+    ccf:age 14 ;
+    ccf:bmi 1.85e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/d5d47e3cd48e28a932ea33d58f6feb00" ;
+    rdfs:comment "Entered 1/8/2020, Diane Salamon, TMC-UCSD" .
+
+<http://purl.org/ccf/1.5/007eb4d9-1694-4380-99e1-4aba832d9227> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-06-08" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517> ;
+    ccf:creator_first_name "Amanda " ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "Amanda  Knoten" .
+
+<http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517> ;
+    ccf:creator_first_name "Amanda " ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "Amanda  Knoten" .
+
+<http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 2 ;
+    ccf:y_dimension 3 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-09-23" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-09-23" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001226>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517>,
+        <http://purl.obolibrary.org/obo/UBERON_0008716> ;
+    ccf:creator_first_name "amanda" ;
+    ccf:creator_last_name "knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 4 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "amanda knoten" .
+
+<http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 2 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-09-23" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001223>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 4 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-09-23" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517> ;
+    ccf:creator_first_name "amanda" ;
+    ccf:creator_last_name "knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 2 ;
+    ccf:y_dimension 4 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "amanda knoten" .
+
+<http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001226>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517>,
+        <http://purl.obolibrary.org/obo/UBERON_0008716> ;
+    ccf:creator_first_name "amanda" ;
+    ccf:creator_last_name "knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 2 ;
+    ccf:y_dimension 3 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "amanda knoten" .
+
+<http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517>,
+        <http://purl.obolibrary.org/obo/UBERON_0008716> ;
+    ccf:creator_first_name "Amanda " ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 13 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "Amanda  Knoten" .
+
+<http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 6 ;
+    ccf:y_dimension 15 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-03-04" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "amanda" ;
+    ccf:creator_last_name "knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 2 ;
+    ccf:y_dimension 4 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "amanda knoten" .
+
+<http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001223>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200> ;
+    ccf:creator_first_name "Amanda " ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-09-23" ;
+    dct:creator "Amanda  Knoten" .
+
+<http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517>,
+        <http://purl.obolibrary.org/obo/UBERON_0008716> ;
+    ccf:creator_first_name "amanda" ;
+    ccf:creator_last_name "knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "amanda knoten" .
+
+<http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 2 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-09-23" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 4 ;
+    ccf:y_dimension 7 ;
+    ccf:z_dimension 2 ;
+    dct:created "2022-03-04" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517>,
+        <http://purl.obolibrary.org/obo/UBERON_0008716> ;
+    ccf:creator_first_name "Amanda" ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 6 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "Amanda Knoten" .
+
+<http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517>,
+        <http://purl.obolibrary.org/obo/UBERON_0008716> ;
+    ccf:creator_first_name "amanda" ;
+    ccf:creator_last_name "knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "amanda knoten" .
+
+<http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001227>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517> ;
+    ccf:creator_first_name "Amanda " ;
+    ccf:creator_last_name "Knoten" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 2 ;
+    dct:created "2021-10-03" ;
+    dct:creator "Amanda  Knoten" .
+
+<https://entity.api.hubmapconsortium.org/entities/0739c6eb8d0d51bfd244e3d5afb00aab> a ccf:Donor ;
+    rdfs:label "Female, Age 45, BMI 22.6" ;
+    ccf:age 45 ;
+    ccf:bmi 2.26e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/0739c6eb8d0d51bfd244e3d5afb00aab" ;
+    rdfs:comment "Entered 1/8/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/48b15ba8abfaef4e70edfdf173649b6c> a ccf:Donor ;
+    rdfs:label "Male, Age 76, BMI 25.8" ;
+    ccf:age 76 ;
+    ccf:bmi 2.58e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/48b15ba8abfaef4e70edfdf173649b6c" ;
+    rdfs:comment "Entered 3/27/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/5c4208e2f2715c56ee8dc82b5f1b90c0> a ccf:Donor ;
+    rdfs:label "Female, Age 63, BMI 36.5" ;
+    ccf:age 63 ;
+    ccf:bmi 3.65e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/5c4208e2f2715c56ee8dc82b5f1b90c0" ;
+    rdfs:comment "Entered 4/1/2021, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/613776ac210f65a63462ce6f926f4557> a ccf:Donor ;
+    rdfs:label "Male, Age 29, BMI 42.3" ;
+    ccf:age 29 ;
+    ccf:bmi 4.23e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/613776ac210f65a63462ce6f926f4557" ;
+    rdfs:comment "Entered 10/16/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/a38b15989cc8d7cec59354b69a65d92b> a ccf:Donor ;
+    rdfs:label "Male, Age 54, BMI 30.2" ;
+    ccf:age 54 ;
+    ccf:bmi 3.02e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/a38b15989cc8d7cec59354b69a65d92b" ;
+    rdfs:comment "Entered 1/8/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/ab8258a97e0820c294d1f0ba2d261f61> a ccf:Donor ;
+    rdfs:label "Male, Age 66, BMI 29.1" ;
+    ccf:age 66 ;
+    ccf:bmi 2.91e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/ab8258a97e0820c294d1f0ba2d261f61" ;
+    rdfs:comment "Entered 1/6/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/e742ac485a0614e4114a26886ed0b444> a ccf:Donor ;
+    rdfs:label "Female, Age 69, BMI 49.1" ;
+    ccf:age 69 ;
+    ccf:bmi 4.91e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/e742ac485a0614e4114a26886ed0b444" ;
+    rdfs:comment "Entered 10/15/2020, Diane Salamon, TMC-UCSD" .
+
+<https://entity.api.hubmapconsortium.org/entities/f8d963cab6bd10e2a4b8184ea8197fc1> a ccf:Donor ;
+    rdfs:label "Female, Age 57, BMI 19.6" ;
+    ccf:age 57 ;
+    ccf:bmi 1.96e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "TMC-UCSD" ;
+    ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/f8d963cab6bd10e2a4b8184ea8197fc1" ;
+    rdfs:comment "Entered 1/8/2020, Diane Salamon, TMC-UCSD" .
+
