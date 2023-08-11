@@ -1,0 +1,60 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLymphNode> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 1 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 9.632e+00 ;
+    ccf:y_rotation -6 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.667e+00 ;
+    ccf:z_rotation 6 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.756e+00 ;
+    dct:created "2023-08-04" .
+
+<http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Andrea Radtke, NIH" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/omap-1#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 95 ;
+    ccf:section_size 12 ;
+    ccf:url "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html" ;
+    rdfs:comment "19 x 11 x 12 millimeter, 12 millimeter" .
+
+<http://purl.org/ccf/1.5/omap-1#Donor1> a ccf:Donor ;
+    rdfs:label "Female, Age 38" ;
+    ccf:age 38 ;
+    ccf:consortium_name "HRA" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "NIH" ;
+    ccf:tissue_provider_uuid "2feafcf5-62a1-4ddc-9f93-f0ea2f27d529" ;
+    ccf:url "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html" ;
+    rdfs:comment "Entered 7/3/2023, Andrea Radtke, NIH" .
+
+<http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002007>,
+        <http://purl.obolibrary.org/obo/UBERON_0002194>,
+        <http://purl.obolibrary.org/obo/UBERON_0004536>,
+        <http://purl.obolibrary.org/obo/UBERON_0010396>,
+        <http://purl.obolibrary.org/obo/UBERON_0010397>,
+        <http://purl.obolibrary.org/obo/UBERON_0010417>,
+        <http://purl.obolibrary.org/obo/UBERON_0010748> ;
+    ccf:creator_first_name "Andrea" ;
+    ccf:creator_last_name "Radtke" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 19 ;
+    ccf:y_dimension 11 ;
+    ccf:z_dimension 12 ;
+    dct:created "2023-08-04" ;
+    dct:creator "Andrea Radtke" .
+

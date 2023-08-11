@@ -5962,7 +5962,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Lung#FDonors",
       "@type": "Donor",
-      "label": "Females (n=166), Mean Age 53.4 (range 21-70)",
+      "label": "Females (n=136), Mean Age 48.9 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Lung",
       "consortium_name": "GTEx",
@@ -10342,7 +10342,6 @@
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLung"
             }
           },
-          "sections": [],
           "datasets": [
             {
               "@id": "79a1cada-6362-4bef-9bb4-02a715a4779e",
@@ -10407,7 +10406,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"
             }
-          ]
+          ],
+          "sections": []
         }
       ]
     },
@@ -10468,7 +10468,6 @@
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1"
             }
           },
-          "sections": [],
           "datasets": [
             {
               "@id": "fd0f4dec-c243-4231-833f-a2628c4192f9",
@@ -10479,7 +10478,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg"
             }
-          ]
+          ],
+          "sections": []
         }
       ]
     },

@@ -1,0 +1,41 @@
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?dataset_title ?dataset_link ?donor ?donor_age ?donor_bmi ?donor_sex ?organ ?sample ?dataset
+WHERE {
+  ?donor a ccf:Donor .
+  ?donor ccf:consortium_name ?consortium .
+  ?donor ccf:tissue_provider_name ?tissue_provider .
+  
+  ?sample ccf:comes_from ?donor .
+  
+  ?sample ccf:has_registration_location ?rui_location .
+  ?placement a ccf:SpatialPlacement .
+  ?placement ccf:placement_for ?rui_location .
+  ?rui_location dct:creator ?rui_location_creator .
+  ?placement ccf:placement_relative_to ?ref_organ .
+
+  OPTIONAL {
+    {
+      ?sample ccf:generates_dataset ?dataset .
+    }
+    UNION
+    {
+      ?sample ccf:subdivided_into_sections ?section .
+      ?section ccf:generates_dataset ?dataset .
+    }
+
+    OPTIONAL {
+      ?dataset rdfs:label ?dataset_title .
+      ?dataset ccf:url ?dataset_link .
+    }
+  }
+  
+  OPTIONAL { ?donor ccf:age ?donor_age . }
+  OPTIONAL { ?donor ccf:sex ?donor_sex . }
+  OPTIONAL { ?donor ccf:bmi ?donor_bmi . }
+
+  BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "_Patch", "") as ?organ)
+}
+ORDER BY ?organ

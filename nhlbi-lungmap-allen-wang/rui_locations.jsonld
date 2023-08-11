@@ -1,42 +1,5 @@
 {
-  "@context": {
-    "@base": "http://purl.org/ccf/latest/ccf-entity.owl#",
-    "@vocab": "http://purl.org/ccf/latest/ccf-entity.owl#",
-    "ccf": "http://purl.org/ccf/latest/ccf.owl#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "label": "rdfs:label",
-    "description": "rdfs:comment",
-    "link": {
-      "@id": "rdfs:seeAlso",
-      "@type": "@id"
-    },
-    "samples": {
-      "@reverse": "has_donor"
-    },
-    "sections": {
-      "@id": "has_tissue_section",
-      "@type": "@id"
-    },
-    "datasets": {
-      "@id": "has_dataset",
-      "@type": "@id"
-    },
-    "rui_location": {
-      "@id": "has_spatial_entity",
-      "@type": "@id"
-    },
-    "ontologyTerms": {
-      "@id": "has_ontology_term",
-      "@type": "@id"
-    },
-    "cellTypeTerms": {
-      "@id": "has_cell_type_term",
-      "@type": "@id"
-    },
-    "thumbnail": {
-      "@id": "has_thumbnail"
-    }
-  },
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
       "@id": "http://purl.org/ccf/1.5/NHLBI/D032#Donor",
@@ -105,7 +68,8 @@
               "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
             }
           ]
         }
@@ -178,7 +142,8 @@
               "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
             }
           ]
         }
@@ -250,7 +215,8 @@
               "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
             }
           ]
         }
@@ -323,7 +289,8 @@
               "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
             }
           ]
         }
@@ -395,7 +362,8 @@
               "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
             }
           ]
         }
@@ -467,7 +435,8 @@
               "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
             }
           ]
         }
@@ -540,7 +509,8 @@
               "label": "Registered 3/24/2023, Allen Wang, NHLBI-LungMap",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76",
-              "technology": "OTHER"
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
             }
           ]
         }

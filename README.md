@@ -12,6 +12,7 @@ This repository holds static registrations for use in the EUI and other HRA Appl
 * [hca-heart-teichmann](https://hubmapconsortium.github.io/hra-registrations/hca-heart-teichmann/)
 * [hca-kerstin-meyer-lung-4x1x1](https://hubmapconsortium.github.io/hra-registrations/hca-kerstin-meyer-lung-4x1x1/)
 * [hra-gtex-pilot2](https://hubmapconsortium.github.io/hra-registrations/hra-gtex-pilot2/)
+* [imported-from-ccf-ui-eui-assets](https://hubmapconsortium.github.io/hra-registrations/imported-from-ccf-ui-eui-assets/)
 * [kpmp](https://hubmapconsortium.github.io/hra-registrations/kpmp/)
 * [nhlbi-lungmap-allen-wang](https://hubmapconsortium.github.io/hra-registrations/nhlbi-lungmap-allen-wang/)
 * [omap-1](https://hubmapconsortium.github.io/hra-registrations/omap-1/)

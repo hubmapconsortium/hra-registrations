@@ -1,0 +1,179 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:comes_from <http://dx.doi.org/10.1681/ASN.2016091027#Donor1> ;
+    ccf:generates_dataset <http://dx.doi.org/10.1681/ASN.2016091027#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 7.384e-02 ;
+    ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
+    rdfs:comment "3.44736 x 7.776000190734863 x 0.07384000149011612 millimeter, 0.07384000149011612 millimeter" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:comes_from <http://dx.doi.org/10.1681/ASN.2016091027#Donor2> ;
+    ccf:generates_dataset <http://dx.doi.org/10.1681/ASN.2016091027#Donor2_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 7.696e-02 ;
+    ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
+    rdfs:comment "1.200130047683716 x 5.423270095367432 x 0.07696000149011611 millimeter, 0.07696000149011611 millimeter" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor3_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:comes_from <http://dx.doi.org/10.1681/ASN.2016091027#Donor3> ;
+    ccf:generates_dataset <http://dx.doi.org/10.1681/ASN.2016091027#Donor3_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/0.5/59411967-28d2-4955-833e-7f8a8ab75d85> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1.128e-01 ;
+    ccf:url "http://dx.doi.org/10.1016/j.trsl.2017.07.006" ;
+    rdfs:comment "1.08336 x 4.06097 x 0.11280000149011613 millimeter, 0.11280000149011613 millimeter" .
+
+<http://purl.org/ccf/0.5/59411967-28d2-4955-833e-7f8a8ab75d85_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/0.5/59411967-28d2-4955-833e-7f8a8ab75d85> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney_Patch> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 1.67e+00 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation -23 ;
+    ccf:y_rotation 1.171e+01 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 13 ;
+    ccf:z_rotation 2.613e+02 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation -18 ;
+    dct:created "5/18/2020 1:25:58 PM" .
+
+<http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney_Patch> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 3.5967e+02 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation -20 ;
+    ccf:y_rotation 3.35e+00 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 17 ;
+    ccf:z_rotation 1.004e+01 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation -11 ;
+    dct:created "5/18/2020 1:34:07 PM" .
+
+<http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney_Patch> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 3.5967e+02 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation -24 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 16 ;
+    ccf:z_rotation 2.7803e+02 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation -11 ;
+    dct:created "5/18/2020 1:30:26 PM" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor1> a ccf:Donor ;
+    rdfs:label "Patient B Cortical biopsy" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP-IU/OSU" ;
+    ccf:tissue_provider_uuid "182adaf1-f29b-494a-8868-ac619dd56704" ;
+    ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
+    rdfs:comment "Entered 4/18/2020, Seth Winfree, KPMP-IU/OSU" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/kpmp/assets/logo.jpg" ;
+    ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
+    rdfs:comment "Data/Assay Types: Cytometry" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor2> a ccf:Donor ;
+    rdfs:label "Patient A Cortical biopsy" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP-IU/OSU" ;
+    ccf:tissue_provider_uuid "182adaf1-f29b-494a-8868-ac619dd56704" ;
+    ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
+    rdfs:comment "Biopsy from Nephrology biobank-salvaged from pathology in ~2017" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/kpmp/assets/logo.jpg" ;
+    ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
+    rdfs:comment "Data/Assay Types: Cytometry" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor3> a ccf:Donor ;
+    rdfs:label "Cover Nephrectomy" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP-IU/OSU" ;
+    ccf:tissue_provider_uuid "182adaf1-f29b-494a-8868-ac619dd56704" ;
+    ccf:url "http://dx.doi.org/10.1016/j.trsl.2017.07.006" ;
+    rdfs:comment "Biopsy from Nephrology biobank-salvaged from pathology in ~2017" .
+
+<http://dx.doi.org/10.1681/ASN.2016091027#Donor3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/kpmp/assets/logo.jpg" ;
+    ccf:url "http://dx.doi.org/10.1016/j.trsl.2017.07.006" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+<http://purl.org/ccf/0.5/59411967-28d2-4955-833e-7f8a8ab75d85> a ccf:SpatialEntity ;
+    rdfs:label "Patient B Cortical biopsy" ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002113>,
+        <http://purl.obolibrary.org/obo/UBERON_0004539>,
+        <http://purl.obolibrary.org/obo/UBERON_0013702> ;
+    ccf:creator_first_name "Seth" ;
+    ccf:creator_last_name "Winfree" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1.08336e+00 ;
+    ccf:y_dimension 4.06097e+00 ;
+    ccf:z_dimension 1.128e-01 ;
+    dct:created "5/18/2020 1:25:58 PM" ;
+    dct:creator "Seth Winfree" .
+
+<http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d> a ccf:SpatialEntity ;
+    rdfs:label "CoverNephrectomy" ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002113>,
+        <http://purl.obolibrary.org/obo/UBERON_0004539>,
+        <http://purl.obolibrary.org/obo/UBERON_0013702> ;
+    ccf:creator_first_name "Seth" ;
+    ccf:creator_last_name "Winfree" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.44736e+00 ;
+    ccf:y_dimension 7.776e+00 ;
+    ccf:z_dimension 7.384e-02 ;
+    dct:created "5/18/2020 1:34:07 PM" ;
+    dct:creator "Seth Winfree" .
+
+<http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291> a ccf:SpatialEntity ;
+    rdfs:label "Patient A Cortical biopsy" ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002113>,
+        <http://purl.obolibrary.org/obo/UBERON_0004539>,
+        <http://purl.obolibrary.org/obo/UBERON_0013702> ;
+    ccf:creator_first_name "Seth" ;
+    ccf:creator_last_name "Winfree" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1.20013e+00 ;
+    ccf:y_dimension 5.42327e+00 ;
+    ccf:z_dimension 7.696e-02 ;
+    dct:created "5/18/2020 1:30:26 PM" ;
+    dct:creator "Seth Winfree" .
+
