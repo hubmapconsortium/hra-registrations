@@ -5,6 +5,7 @@ This repository holds static registrations for use in the EUI and other HRA Appl
 ## Hosted Registration Sets:
 
 * [allen-institute](https://hubmapconsortium.github.io/hra-registrations/allen-institute/)
+* [devin-external-registrations](https://hubmapconsortium.github.io/hra-registrations/devin-external-registrations/)
 * [eye-rob-mullins-macula-and-periphery](https://hubmapconsortium.github.io/hra-registrations/eye-rob-mullins-macula-and-periphery/)
 * [federated](https://hubmapconsortium.github.io/hra-registrations/federated/)
 * [gtex](https://hubmapconsortium.github.io/hra-registrations/gtex/)
@@ -19,5 +20,4 @@ This repository holds static registrations for use in the EUI and other HRA Appl
 * [omap-6](https://hubmapconsortium.github.io/hra-registrations/omap-6/)
 * [peter-sorger-colon-sample-crc1](https://hubmapconsortium.github.io/hra-registrations/peter-sorger-colon-sample-crc1/)
 * [sea-ad](https://hubmapconsortium.github.io/hra-registrations/sea-ad/)
-* [sennet-14-pancreas-from-kanako-iawsaki](https://hubmapconsortium.github.io/hra-registrations/sennet-14-pancreas-from-kanako-iawsaki/)
 * [sparc](https://hubmapconsortium.github.io/hra-registrations/sparc/)

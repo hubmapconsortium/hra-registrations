@@ -1,0 +1,103 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/required/id#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/10/2023, Devin Wright, KPMP" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/c406a4de-104a-4dee-ae96-60f4572da0c4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://www.kpmp.org/available-data" ;
+    rdfs:comment "3 x 8 x 1 millimeter, 1 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/10/2023, Devin Wright, KPMP" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/9b86861b-5586-4b8e-8940-8b15866d7af9> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://www.kpmp.org/available-data" ;
+    rdfs:comment "3 x 8 x 1 millimeter, 1 millimeter" .
+
+<http://purl.org/ccf/1.5/9b86861b-5586-4b8e-8940-8b15866d7af9_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/9b86861b-5586-4b8e-8940-8b15866d7af9> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -12 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.3391e+01 ;
+    ccf:y_rotation -1 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.7427e+01 ;
+    ccf:z_rotation 50 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.027e+01 ;
+    dct:created "2023-08-11" .
+
+<http://purl.org/ccf/1.5/c406a4de-104a-4dee-ae96-60f4572da0c4_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/c406a4de-104a-4dee-ae96-60f4572da0c4> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -12 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.6496e+01 ;
+    ccf:y_rotation -1 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.0767e+01 ;
+    ccf:z_rotation 63 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.8677e+01 ;
+    dct:created "2023-08-11" .
+
+<http://example.com/required/id#Donor1> a ccf:Donor ;
+    rdfs:label "Male" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "885cdd09-6012-49a1-85d2-4a4c56332e62" ;
+    ccf:url "https://www.kpmp.org/available-data" ;
+    rdfs:comment "Entered 7/10/2023, Devin Wright, KPMP" .
+
+<http://example.com/required/id#Donor2> a ccf:Donor ;
+    rdfs:label "Female" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "885cdd09-6012-49a1-85d2-4a4c56332e62" ;
+    ccf:url "https://www.kpmp.org/available-data" ;
+    rdfs:comment "Entered 7/10/2023, Devin Wright, KPMP" .
+
+<http://purl.org/ccf/1.5/9b86861b-5586-4b8e-8940-8b15866d7af9> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015> ;
+    ccf:creator_first_name "Devin" ;
+    ccf:creator_last_name "Wright" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 1 ;
+    dct:created "2023-08-11" ;
+    dct:creator "Devin Wright" .
+
+<http://purl.org/ccf/1.5/c406a4de-104a-4dee-ae96-60f4572da0c4> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015> ;
+    ccf:creator_first_name "Devin" ;
+    ccf:creator_last_name "Wright" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 1 ;
+    dct:created "2023-08-11" ;
+    dct:creator "Devin Wright" .
+

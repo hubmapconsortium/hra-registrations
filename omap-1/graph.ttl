@@ -24,6 +24,7 @@
 <http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/3/2023, Andrea Radtke, NIH" ;
     ccf:comes_from <http://purl.org/ccf/1.5/omap-1#Donor1> ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 95 ;
@@ -40,6 +41,13 @@
     ccf:tissue_provider_uuid "2feafcf5-62a1-4ddc-9f93-f0ea2f27d529" ;
     ccf:url "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html" ;
     rdfs:comment "Entered 7/3/2023, Andrea Radtke, NIH" .
+
+<http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Andrea Radtke, NIH" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002007>,
