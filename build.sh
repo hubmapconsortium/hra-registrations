@@ -24,5 +24,6 @@ if [ `which comunica-sparql-file` ]; then
   for f in */rui_locations.jsonld */*/rui_locations.jsonld; do
     ./scripts/report.sh `dirname $f`
   done
-  python3 ./scripts/merge-csvs.py
+  
+  npm run merge-reports
 fi
