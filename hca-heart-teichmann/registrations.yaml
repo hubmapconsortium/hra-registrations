@@ -289,7 +289,7 @@
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7844003#Dataset
               technology: 10X
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset
-              technology: 10x
+              technology: 10X
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7905331#Dataset
               technology: 10X              
     - sex: Male #D7
@@ -348,7 +348,7 @@
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850543#Dataset
               technology: 10X
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset
-              technology: 10x
+              technology: 10X
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7888924#Dataset
               technology: 10X
     - sex: Female #D11
@@ -407,7 +407,7 @@
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102861#Dataset
               technology: 10X
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset
-              technology: 10x
+              technology: 10X
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8287127#Dataset
               technology: 10X              
     - sex: Male #H2
@@ -479,7 +479,7 @@
           id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP#TissueBlock
           datasets:
             - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset
-              technology: 10x
+              technology: 10X
     - sex: Male #H4
       id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor     
       age: 55
