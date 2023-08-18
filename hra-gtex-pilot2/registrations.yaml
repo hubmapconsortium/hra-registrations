@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../../registrations.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
 - import_from_csv: https://docs.google.com/spreadsheets/d/1HyUCq8n2zOozOck_Nvrp0RNd1TL4iK9I0C5cb9DuHhY/export?format=csv&gid=2095065964
   fields:
