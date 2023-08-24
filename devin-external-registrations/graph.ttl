@@ -1520,7 +1520,7 @@
     dct:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D1#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7606896#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7964513#Dataset> ;
@@ -1532,7 +1532,7 @@
     rdfs:comment "15 x 24 x 24 millimeter, 24 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D1#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA/HCAHeart7698017#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> ;
@@ -1543,7 +1543,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D1#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7664652#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7698015#Dataset> ;
@@ -1555,7 +1555,7 @@
     rdfs:comment "15 x 14 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D1#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV/HCAHeart7698016#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> ;
@@ -1566,7 +1566,7 @@
     rdfs:comment "20 x 20 x 6 millimeter, 6 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102862#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102868#Dataset>,
@@ -1579,7 +1579,7 @@
     rdfs:comment "15 x 24 x 24 millimeter, 24 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102858#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102864#Dataset>,
@@ -1592,7 +1592,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102859#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102865#Dataset>,
@@ -1605,7 +1605,7 @@
     rdfs:comment "15 x 14 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102857#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102863#Dataset>,
@@ -1618,7 +1618,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102860#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102866#Dataset>,
@@ -1631,7 +1631,7 @@
     rdfs:comment "20 x 20 x 6 millimeter, 6 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102861#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset>,
@@ -1644,7 +1644,7 @@
     rdfs:comment "15 x 15 x 33 millimeter, 33 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702881#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702882#Dataset> ;
@@ -1656,7 +1656,7 @@
     rdfs:comment "16 x 16 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702876#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702877#Dataset> ;
@@ -1668,7 +1668,7 @@
     rdfs:comment "6 x 10 x 12 millimeter, 12 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7664653#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7702873#Dataset> ;
@@ -1680,7 +1680,7 @@
     rdfs:comment "12 x 13 x 16 millimeter, 16 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702878#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702879#Dataset> ;
@@ -1692,7 +1692,7 @@
     rdfs:comment "6 x 7 x 7 millimeter, 7 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702874#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702875#Dataset> ;
@@ -1704,7 +1704,7 @@
     rdfs:comment "17 x 8 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7656539#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7702880#Dataset> ;
@@ -1716,7 +1716,7 @@
     rdfs:comment "15 x 9 x 18 millimeter, 18 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7656538#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7829977#Dataset> ;
@@ -1728,7 +1728,7 @@
     rdfs:comment "16 x 16 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7656536#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7757638#Dataset>,
@@ -1741,7 +1741,7 @@
     rdfs:comment "6 x 10 x 12 millimeter, 12 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7656534#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7664654#Dataset>,
@@ -1755,7 +1755,7 @@
     rdfs:comment "12 x 13 x 16 millimeter, 16 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7829976#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7985089#Dataset> ;
@@ -1767,7 +1767,7 @@
     rdfs:comment "6 x 7 x 7 millimeter, 7 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7656535#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7757637#Dataset>,
@@ -1780,7 +1780,7 @@
     rdfs:comment "17 x 8 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7656537#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7757639#Dataset> ;
@@ -1792,7 +1792,7 @@
     rdfs:comment "15 x 9 x 18 millimeter, 18 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7728609#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7833855#Dataset> ;
@@ -1804,7 +1804,7 @@
     rdfs:comment "15 x 24 x 24 millimeter, 24 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7728606#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7833852#Dataset> ;
@@ -1816,7 +1816,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7728604#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7829978#Dataset> ;
@@ -1828,7 +1828,7 @@
     rdfs:comment "15 x 14 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7728607#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7833853#Dataset> ;
@@ -1840,7 +1840,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7728605#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7829979#Dataset> ;
@@ -1852,7 +1852,7 @@
     rdfs:comment "20 x 20 x 6 millimeter, 6 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7728608#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7833854#Dataset> ;
@@ -1864,7 +1864,7 @@
     rdfs:comment "15 x 15 x 33 millimeter, 33 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7751845#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7836684#Dataset> ;
@@ -1876,7 +1876,7 @@
     rdfs:comment "15 x 24 x 24 millimeter, 24 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7745968#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7836681#Dataset> ;
@@ -1888,7 +1888,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7745966#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7835148#Dataset> ;
@@ -1900,7 +1900,7 @@
     rdfs:comment "15 x 14 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7745969#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7836682#Dataset> ;
@@ -1912,7 +1912,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7745967#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7835149#Dataset> ;
@@ -1924,7 +1924,7 @@
     rdfs:comment "20 x 20 x 6 millimeter, 6 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7745970#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7836683#Dataset> ;
@@ -1936,7 +1936,7 @@
     rdfs:comment "15 x 15 x 33 millimeter, 33 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7844004#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7888927#Dataset>,
@@ -1949,7 +1949,7 @@
     rdfs:comment "16 x 16 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7844001#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7880862#Dataset>,
@@ -1962,7 +1962,7 @@
     rdfs:comment "6 x 10 x 12 millimeter, 12 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7843999#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7880860#Dataset>,
@@ -1975,7 +1975,7 @@
     rdfs:comment "12 x 13 x 16 millimeter, 16 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7844002#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7880863#Dataset>,
@@ -1988,7 +1988,7 @@
     rdfs:comment "6 x 7 x 7 millimeter, 7 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7844000#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7880861#Dataset>,
@@ -2001,7 +2001,7 @@
     rdfs:comment "17 x 8 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7844003#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset>,
@@ -2014,7 +2014,7 @@
     rdfs:comment "15 x 9 x 18 millimeter, 18 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850544#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850551#Dataset>,
@@ -2027,7 +2027,7 @@
     rdfs:comment "16 x 16 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850541#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850547#Dataset>,
@@ -2040,7 +2040,7 @@
     rdfs:comment "6 x 10 x 12 millimeter, 12 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850539#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850545#Dataset>,
@@ -2053,7 +2053,7 @@
     rdfs:comment "12 x 13 x 16 millimeter, 16 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850542#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850548#Dataset>,
@@ -2066,7 +2066,7 @@
     rdfs:comment "6 x 7 x 7 millimeter, 7 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850540#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850546#Dataset>,
@@ -2079,7 +2079,7 @@
     rdfs:comment "17 x 8 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850543#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset>,
@@ -2092,7 +2092,7 @@
     rdfs:comment "15 x 9 x 18 millimeter, 18 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX/H0026_apex#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> ;
@@ -2103,7 +2103,7 @@
     rdfs:comment "16 x 16 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA/H0026_LA#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca> ;
@@ -2114,7 +2114,7 @@
     rdfs:comment "6 x 10 x 12 millimeter, 12 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV/H0026_LV_V3#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> ;
@@ -2125,7 +2125,7 @@
     rdfs:comment "12 x 13 x 16 millimeter, 16 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA/H0026_RA#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483> ;
@@ -2136,7 +2136,7 @@
     rdfs:comment "6 x 7 x 7 millimeter, 7 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV/H0026_RV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> ;
@@ -2147,7 +2147,7 @@
     rdfs:comment "17 x 8 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP/H0026_septum2#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> ;
@@ -2158,7 +2158,7 @@
     rdfs:comment "15 x 9 x 18 millimeter, 18 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX/H0025_apex#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> ;
@@ -2169,7 +2169,7 @@
     rdfs:comment "16 x 16 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA/H0025_LA#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca> ;
@@ -2180,7 +2180,7 @@
     rdfs:comment "6 x 10 x 12 millimeter, 12 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV/H0025_LV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> ;
@@ -2191,7 +2191,7 @@
     rdfs:comment "12 x 13 x 16 millimeter, 16 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA/H0025_RA#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483> ;
@@ -2202,7 +2202,7 @@
     rdfs:comment "6 x 7 x 7 millimeter, 7 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV/H0025_RV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> ;
@@ -2213,7 +2213,7 @@
     rdfs:comment "17 x 8 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> ;
@@ -2224,7 +2224,7 @@
     rdfs:comment "15 x 9 x 18 millimeter, 18 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX/H0037_Apex#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> ;
@@ -2235,7 +2235,7 @@
     rdfs:comment "16 x 16 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA_corr#Dataset> ;
@@ -2247,7 +2247,7 @@
     rdfs:comment "6 x 10 x 12 millimeter, 12 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV/H0037_LV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> ;
@@ -2258,7 +2258,7 @@
     rdfs:comment "12 x 13 x 16 millimeter, 16 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA#Dataset>,
         <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA_corr#Dataset> ;
@@ -2270,7 +2270,7 @@
     rdfs:comment "6 x 7 x 7 millimeter, 7 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV/H0037_RV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> ;
@@ -2281,7 +2281,7 @@
     rdfs:comment "17 x 8 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP/H0037_septum#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> ;
@@ -2292,7 +2292,7 @@
     rdfs:comment "15 x 9 x 18 millimeter, 18 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX/H0015_apex#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> ;
@@ -2303,7 +2303,7 @@
     rdfs:comment "15 x 24 x 24 millimeter, 24 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA/H0015_LA_new#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> ;
@@ -2314,7 +2314,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV/H0015_LV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> ;
@@ -2325,7 +2325,7 @@
     rdfs:comment "15 x 14 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA/H0015_RA#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> ;
@@ -2336,7 +2336,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV/H0015_RV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> ;
@@ -2347,7 +2347,7 @@
     rdfs:comment "20 x 20 x 6 millimeter, 6 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP/H0015_septum#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc> ;
@@ -2358,7 +2358,7 @@
     rdfs:comment "15 x 15 x 33 millimeter, 33 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX/H0020_apex#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> ;
@@ -2369,7 +2369,7 @@
     rdfs:comment "15 x 24 x 24 millimeter, 24 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA/H0020_LA_new#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> ;
@@ -2380,7 +2380,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV/H0020_LV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> ;
@@ -2391,7 +2391,7 @@
     rdfs:comment "15 x 14 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA/H0020_RA#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> ;
@@ -2402,7 +2402,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV/H0020_RV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> ;
@@ -2413,7 +2413,7 @@
     rdfs:comment "20 x 20 x 6 millimeter, 6 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP/H0020_septum#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc> ;
@@ -2424,7 +2424,7 @@
     rdfs:comment "15 x 15 x 33 millimeter, 33 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX/H0035_apex#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> ;
@@ -2435,7 +2435,7 @@
     rdfs:comment "15 x 24 x 24 millimeter, 24 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA/H0035_LA_new#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> ;
@@ -2446,7 +2446,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV/H0035_LV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> ;
@@ -2457,7 +2457,7 @@
     rdfs:comment "15 x 14 x 14 millimeter, 14 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA/H0035_RA#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> ;
@@ -2468,7 +2468,7 @@
     rdfs:comment "6 x 9 x 10 millimeter, 10 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV/H0035_RV#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> ;
@@ -2479,7 +2479,7 @@
     rdfs:comment "20 x 20 x 6 millimeter, 6 millimeter" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP#TissueBlock> a ccf:Sample ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP/H0035_septum#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc> ;
@@ -3791,1050 +3791,1050 @@
     rdfs:comment "Data/Assay Types: other, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7606896#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7964513#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA/HCAHeart7698017#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7664652#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7698015#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV/HCAHeart7698016#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102862#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102868#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8287128#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102858#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102864#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8287123#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102859#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102865#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8287124#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102857#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102863#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8287125#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102860#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102866#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8287126#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102861#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10x" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10x, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8287127#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702881#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702882#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702876#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702877#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7664653#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7702873#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702878#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702879#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702874#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702875#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7656539#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7702880#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7656538#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7829977#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7656536#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7757638#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7985088#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7656534#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7664654#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7757636#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7985086#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7829976#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7985089#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7656535#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7757637#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7985087#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7656537#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7757639#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7728609#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7833855#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7728606#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7833852#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7728604#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7829978#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7728607#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7833853#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7728605#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7829979#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7728608#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7833854#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7751845#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7836684#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7745968#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7836681#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7745966#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7835148#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7745969#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7836682#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7745967#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7835149#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7745970#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7836683#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7844004#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7888927#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7905332#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7844001#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7880862#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7905329#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7843999#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7880860#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7905327#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7844002#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7880863#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7905330#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7844000#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7880861#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7905328#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7844003#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10x" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10x, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7905331#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850544#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850551#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7888925#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850541#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850547#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7888929#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850539#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850545#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7888922#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850542#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850548#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7888923#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850540#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850546#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7888928#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850543#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10x" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10x, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7888924#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX/H0026_apex#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA/H0026_LA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV/H0026_LV_V3#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA/H0026_RA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV/H0026_RV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP/H0026_septum2#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX/H0025_apex#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA/H0025_LA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV/H0025_LV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA/H0025_RA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV/H0025_RV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10x" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10x, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX/H0037_Apex#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA_corr#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV/H0037_LV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA_corr#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV/H0037_RV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP/H0037_septum#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX/H0015_apex#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA/H0015_LA_new#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV/H0015_LV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA/H0015_RA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV/H0015_RV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP/H0015_septum#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX/H0020_apex#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA/H0020_LA_new#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV/H0020_LV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA/H0020_RA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV/H0020_RV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP/H0020_septum#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX/H0035_apex#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA/H0035_LA_new#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV/H0035_LV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA/H0035_RA#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 5/7/2022, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV/H0035_RV#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
     rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP/H0035_septum#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 10/15/2021, Andreas Bueckle, Broad Institute" ;
+    rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -6050,7 +6050,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 70" ;
@@ -6136,7 +6136,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 60, BMI 25" ;
@@ -6147,7 +6147,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 55, BMI 25" ;
@@ -6158,7 +6158,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 70, BMI 25" ;
@@ -6169,7 +6169,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 65, BMI 30" ;
@@ -6180,7 +6180,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 65, BMI 30" ;
@@ -6191,7 +6191,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 65, BMI 20" ;
@@ -6202,7 +6202,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 50, BMI 20" ;
@@ -6213,7 +6213,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 50, BMI 25" ;
@@ -6224,7 +6224,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 55, BMI 25" ;
@@ -6235,7 +6235,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 50, BMI 20" ;
@@ -6246,7 +6246,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 40, BMI 20" ;
@@ -6257,7 +6257,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 45, BMI 25" ;
@@ -6268,7 +6268,7 @@
     ccf:tissue_provider_name "Broad Institute" ;
     ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Entered 10/15/2021, Andreas Bueckle, Broad Institute" .
+    rdfs:comment "Entered 10/15/2021, Michela Noseda, Broad Institute" .
 
 <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6277,63 +6277,63 @@
         <http://purl.obolibrary.org/obo/UBERON_0002494>,
         <http://purl.org/sig/ont/fma/fma7264>,
         <http://purl.org/sig/ont/fma/fma7267> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 15 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 33 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
         <http://purl.obolibrary.org/obo/UBERON_0002080>,
         <http://purl.obolibrary.org/obo/UBERON_0003978> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 6 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 10 ;
     dct:created "2022-06-08" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 20 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 6 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
         <http://purl.obolibrary.org/obo/UBERON_0002084>,
         <http://purl.obolibrary.org/obo/UBERON_0002094>,
         <http://purl.obolibrary.org/obo/UBERON_0002494> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 16 ;
     ccf:y_dimension 16 ;
     ccf:z_dimension 14 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 15 ;
     ccf:y_dimension 14 ;
     ccf:z_dimension 14 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -6345,28 +6345,28 @@
         <http://purl.obolibrary.org/obo/UBERON_0002135>,
         <http://purl.obolibrary.org/obo/UBERON_0002137>,
         <http://purl.obolibrary.org/obo/UBERON_0003978> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 6 ;
     ccf:y_dimension 7 ;
     ccf:z_dimension 7 ;
     dct:created "2022-06-08" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002079>,
         <http://purl.obolibrary.org/obo/UBERON_0002080>,
         <http://purl.obolibrary.org/obo/UBERON_0002146>,
         <http://purl.obolibrary.org/obo/UBERON_0003978> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 6 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 10 ;
     dct:created "2022-06-08" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6375,26 +6375,26 @@
         <http://purl.obolibrary.org/obo/UBERON_0002494>,
         <http://purl.org/sig/ont/fma/fma72655>,
         <http://purl.org/sig/ont/fma/fma7267> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 12 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 16 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
         <http://purl.obolibrary.org/obo/UBERON_0002084> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 15 ;
     ccf:y_dimension 24 ;
     ccf:z_dimension 24 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -6405,14 +6405,14 @@
         <http://purl.obolibrary.org/obo/UBERON_0002135>,
         <http://purl.obolibrary.org/obo/UBERON_0002137>,
         <http://purl.obolibrary.org/obo/UBERON_0003978> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 6 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 12 ;
     dct:created "2022-06-08" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6420,14 +6420,14 @@
         <http://purl.obolibrary.org/obo/UBERON_0002094>,
         <http://purl.obolibrary.org/obo/UBERON_0002494>,
         <http://purl.org/sig/ont/fma/fma7264> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 17 ;
     ccf:y_dimension 8 ;
     ccf:z_dimension 14 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6439,12 +6439,12 @@
         <http://purl.org/sig/ont/fma/fma7264>,
         <http://purl.org/sig/ont/fma/fma72655>,
         <http://purl.org/sig/ont/fma/fma7267> ;
-    ccf:creator_first_name "Andreas" ;
-    ccf:creator_last_name "Bueckle" ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 15 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 18 ;
     dct:created "2021-11-16" ;
-    dct:creator "Andreas Bueckle" .
+    dct:creator "Michela Noseda" .
 

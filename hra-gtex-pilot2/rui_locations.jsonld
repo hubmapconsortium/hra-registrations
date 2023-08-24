@@ -5,7 +5,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1#Donor",
       "@type": "Donor",
       "label": "Female, Age 50, BMI 20",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -18,7 +18,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 14 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -26,9 +26,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -61,7 +61,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7664652#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -70,7 +70,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7698015#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -83,7 +83,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 24 x 24 millimeter, 24 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -91,9 +91,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -127,7 +127,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7606896#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -136,7 +136,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7964513#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -149,7 +149,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "20 x 20 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -157,9 +157,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002080"
@@ -192,7 +192,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV/HCAHeart7698016#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -205,7 +205,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -213,9 +213,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -251,7 +251,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA/HCAHeart7698017#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -266,7 +266,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor",
       "@type": "Donor",
       "label": "Male, Age 60, BMI 25",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -279,7 +279,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "16 x 16 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -287,9 +287,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -325,7 +325,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702881#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -334,7 +334,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702882#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -347,7 +347,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 10 x 12 millimeter, 12 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -355,9 +355,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -397,7 +397,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702876#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -406,7 +406,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702877#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -419,7 +419,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "12 x 13 x 16 millimeter, 16 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -427,9 +427,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -467,7 +467,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7664653#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -476,7 +476,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7702873#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -489,7 +489,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 7 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -497,9 +497,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -540,7 +540,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702878#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -549,7 +549,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702879#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -562,7 +562,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "17 x 8 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -570,9 +570,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -609,7 +609,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702874#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -618,7 +618,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702875#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -631,7 +631,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 9 x 18 millimeter, 18 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -639,9 +639,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -682,7 +682,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7656539#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -691,7 +691,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7702880#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -706,7 +706,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor",
       "@type": "Donor",
       "label": "Male, Age 55, BMI 25",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -719,7 +719,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "16 x 16 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -727,9 +727,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -765,7 +765,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7656538#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -774,7 +774,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7829977#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -787,7 +787,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 10 x 12 millimeter, 12 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -795,9 +795,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -837,7 +837,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7656536#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -846,7 +846,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7757638#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -855,7 +855,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7985088#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -868,7 +868,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "12 x 13 x 16 millimeter, 16 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -876,9 +876,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -916,7 +916,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7656534#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -925,7 +925,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7664654#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -934,7 +934,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7757636#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -943,7 +943,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7985086#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -956,7 +956,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 7 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -964,9 +964,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -1007,7 +1007,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7829976#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1016,7 +1016,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7985089#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1029,7 +1029,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "17 x 8 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1037,9 +1037,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -1076,7 +1076,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7656535#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1085,7 +1085,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7757637#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1094,7 +1094,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7985087#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1107,7 +1107,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 9 x 18 millimeter, 18 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1115,9 +1115,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -1158,7 +1158,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7656537#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1167,7 +1167,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7757639#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1182,7 +1182,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor",
       "@type": "Donor",
       "label": "Female, Age 70, BMI 25",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -1195,7 +1195,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 24 x 24 millimeter, 24 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1203,9 +1203,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -1239,7 +1239,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7728609#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1248,7 +1248,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7833855#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1261,7 +1261,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1269,9 +1269,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -1307,7 +1307,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7728606#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1316,7 +1316,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7833852#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1329,7 +1329,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 14 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1337,9 +1337,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -1372,7 +1372,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7728604#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1381,7 +1381,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7829978#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1394,7 +1394,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1402,9 +1402,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002078",
@@ -1439,7 +1439,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7728607#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1448,7 +1448,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7833853#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1461,7 +1461,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "20 x 20 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1469,9 +1469,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002080"
@@ -1504,7 +1504,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7728605#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1513,7 +1513,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7829979#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1526,7 +1526,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 15 x 33 millimeter, 33 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1534,9 +1534,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002094",
@@ -1574,7 +1574,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7728608#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1583,7 +1583,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7833854#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1598,7 +1598,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor",
       "@type": "Donor",
       "label": "Female, Age 65, BMI 30",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -1611,7 +1611,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 24 x 24 millimeter, 24 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1619,9 +1619,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -1655,7 +1655,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7751845#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1664,7 +1664,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7836684#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1677,7 +1677,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1685,9 +1685,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -1723,7 +1723,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7745968#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1732,7 +1732,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7836681#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1745,7 +1745,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 14 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1753,9 +1753,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -1788,7 +1788,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7745966#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1797,7 +1797,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7835148#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1810,7 +1810,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1818,9 +1818,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002078",
@@ -1855,7 +1855,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7745969#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1864,7 +1864,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7836682#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1877,7 +1877,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "20 x 20 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1885,9 +1885,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002080"
@@ -1920,7 +1920,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7745967#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1929,7 +1929,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7835149#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1942,7 +1942,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 15 x 33 millimeter, 33 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -1950,9 +1950,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002094",
@@ -1990,7 +1990,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7745970#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -1999,7 +1999,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7836683#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2014,7 +2014,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor",
       "@type": "Donor",
       "label": "Male, Age 65, BMI 30",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -2027,7 +2027,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "16 x 16 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2035,9 +2035,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -2073,7 +2073,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7844004#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2082,7 +2082,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7888927#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2091,7 +2091,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7905332#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2104,7 +2104,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 10 x 12 millimeter, 12 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2112,9 +2112,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -2154,7 +2154,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7844001#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2163,7 +2163,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7880862#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2172,7 +2172,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7905329#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2185,7 +2185,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "12 x 13 x 16 millimeter, 16 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2193,9 +2193,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -2233,7 +2233,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7843999#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2242,7 +2242,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7880860#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2251,7 +2251,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7905327#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2264,7 +2264,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 7 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2272,9 +2272,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -2315,7 +2315,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7844002#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2324,7 +2324,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7880863#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2333,7 +2333,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7905330#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2346,7 +2346,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "17 x 8 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2354,9 +2354,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -2393,7 +2393,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7844000#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2402,7 +2402,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7880861#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2411,7 +2411,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7905328#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2424,7 +2424,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 9 x 18 millimeter, 18 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2432,9 +2432,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -2475,7 +2475,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7844003#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2484,7 +2484,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10x, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10x",
@@ -2493,7 +2493,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7905331#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2508,7 +2508,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor",
       "@type": "Donor",
       "label": "Male, Age 65, BMI 20",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -2521,7 +2521,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "16 x 16 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2529,9 +2529,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -2567,7 +2567,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850544#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2576,7 +2576,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850551#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2585,7 +2585,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7888925#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2598,7 +2598,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 10 x 12 millimeter, 12 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2606,9 +2606,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -2648,7 +2648,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850541#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2657,7 +2657,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850547#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2666,7 +2666,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7888929#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2679,7 +2679,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "12 x 13 x 16 millimeter, 16 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2687,9 +2687,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -2727,7 +2727,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850539#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2736,7 +2736,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850545#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2745,7 +2745,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7888922#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2758,7 +2758,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 7 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2766,9 +2766,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -2809,7 +2809,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850542#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2818,7 +2818,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850548#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2827,7 +2827,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7888923#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2840,7 +2840,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "17 x 8 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2848,9 +2848,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -2887,7 +2887,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850540#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2896,7 +2896,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850546#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2905,7 +2905,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7888928#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2918,7 +2918,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 9 x 18 millimeter, 18 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -2926,9 +2926,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -2969,7 +2969,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850543#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -2978,7 +2978,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10x, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10x",
@@ -2987,7 +2987,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7888924#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3002,7 +3002,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor",
       "@type": "Donor",
       "label": "Female, Age 60, BMI 25",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -3015,7 +3015,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 24 x 24 millimeter, 24 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3023,9 +3023,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -3059,7 +3059,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102862#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3068,7 +3068,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102868#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3077,7 +3077,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8287128#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3090,7 +3090,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3098,9 +3098,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -3136,7 +3136,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102858#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3145,7 +3145,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102864#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3154,7 +3154,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8287123#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3167,7 +3167,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 14 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3175,9 +3175,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -3210,7 +3210,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102859#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3219,7 +3219,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102865#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3228,7 +3228,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8287124#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3241,7 +3241,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3249,9 +3249,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002078",
@@ -3286,7 +3286,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102857#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3295,7 +3295,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102863#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3304,7 +3304,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8287125#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3317,7 +3317,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "20 x 20 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3325,9 +3325,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002080"
@@ -3360,7 +3360,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102860#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3369,7 +3369,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102866#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3378,7 +3378,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8287126#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3391,7 +3391,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 15 x 33 millimeter, 33 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3399,9 +3399,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002094",
@@ -3439,7 +3439,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102861#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3448,7 +3448,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10x, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10x",
@@ -3457,7 +3457,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8287127#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3472,7 +3472,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor",
       "@type": "Donor",
       "label": "Male, Age 50, BMI 20",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -3485,7 +3485,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "16 x 16 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3493,9 +3493,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -3531,7 +3531,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX/H0026_apex#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3544,7 +3544,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 10 x 12 millimeter, 12 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3552,9 +3552,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -3594,7 +3594,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA/H0026_LA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3607,7 +3607,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "12 x 13 x 16 millimeter, 16 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3615,9 +3615,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -3655,7 +3655,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV/H0026_LV_V3#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3668,7 +3668,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 7 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3676,9 +3676,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -3719,7 +3719,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA/H0026_RA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3732,7 +3732,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "17 x 8 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3740,9 +3740,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -3779,7 +3779,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV/H0026_RV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3792,7 +3792,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 9 x 18 millimeter, 18 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3800,9 +3800,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -3843,7 +3843,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP/H0026_septum2#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3858,7 +3858,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor",
       "@type": "Donor",
       "label": "Male, Age 50, BMI 25",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -3871,7 +3871,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "16 x 16 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3879,9 +3879,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -3917,7 +3917,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX/H0025_apex#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3930,7 +3930,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 10 x 12 millimeter, 12 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -3938,9 +3938,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -3980,7 +3980,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA/H0025_LA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -3993,7 +3993,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "12 x 13 x 16 millimeter, 16 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4001,9 +4001,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -4041,7 +4041,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV/H0025_LV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4054,7 +4054,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 7 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4062,9 +4062,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -4105,7 +4105,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA/H0025_RA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4118,7 +4118,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "17 x 8 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4126,9 +4126,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -4165,7 +4165,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV/H0025_RV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4178,7 +4178,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 9 x 18 millimeter, 18 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4186,9 +4186,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -4229,7 +4229,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10x, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10x",
@@ -4244,7 +4244,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor",
       "@type": "Donor",
       "label": "Male, Age 55, BMI 25",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -4257,7 +4257,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "16 x 16 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4265,9 +4265,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -4303,7 +4303,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX/H0037_Apex#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4316,7 +4316,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 10 x 12 millimeter, 12 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4324,9 +4324,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -4366,7 +4366,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA_corr#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4375,7 +4375,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4388,7 +4388,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "12 x 13 x 16 millimeter, 16 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4396,9 +4396,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -4436,7 +4436,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV/H0037_LV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4449,7 +4449,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 7 x 7 millimeter, 7 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4457,9 +4457,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -4500,7 +4500,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA_corr#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4509,7 +4509,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4522,7 +4522,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "17 x 8 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4530,9 +4530,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -4569,7 +4569,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV/H0037_RV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4582,7 +4582,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 9 x 18 millimeter, 18 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4590,9 +4590,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -4633,7 +4633,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP/H0037_septum#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4648,7 +4648,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor",
       "@type": "Donor",
       "label": "Female, Age 50, BMI 20",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -4661,7 +4661,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 24 x 24 millimeter, 24 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4669,9 +4669,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -4705,7 +4705,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX/H0015_apex#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4718,7 +4718,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4726,9 +4726,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -4764,7 +4764,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA/H0015_LA_new#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4777,7 +4777,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 14 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4785,9 +4785,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -4820,7 +4820,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV/H0015_LV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4833,7 +4833,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4841,9 +4841,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002078",
@@ -4878,7 +4878,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA/H0015_RA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4891,7 +4891,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "20 x 20 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4899,9 +4899,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002080"
@@ -4934,7 +4934,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV/H0015_RV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -4947,7 +4947,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 15 x 33 millimeter, 33 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -4955,9 +4955,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002094",
@@ -4995,7 +4995,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP/H0015_septum#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5010,7 +5010,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor",
       "@type": "Donor",
       "label": "Female, Age 40, BMI 20",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -5023,7 +5023,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 24 x 24 millimeter, 24 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5031,9 +5031,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -5067,7 +5067,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX/H0020_apex#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5080,7 +5080,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5088,9 +5088,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -5126,7 +5126,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA/H0020_LA_new#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5139,7 +5139,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 14 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5147,9 +5147,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -5182,7 +5182,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV/H0020_LV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5195,7 +5195,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5203,9 +5203,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002078",
@@ -5240,7 +5240,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA/H0020_RA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5253,7 +5253,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "20 x 20 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5261,9 +5261,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002080"
@@ -5296,7 +5296,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV/H0020_RV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5309,7 +5309,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 15 x 33 millimeter, 33 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5317,9 +5317,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002094",
@@ -5357,7 +5357,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP/H0020_septum#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5372,7 +5372,7 @@
       "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor",
       "@type": "Donor",
       "label": "Female, Age 45, BMI 25",
-      "description": "Entered 10/15/2021, Andreas Bueckle, Broad Institute",
+      "description": "Entered 10/15/2021, Michela Noseda, Broad Institute",
       "link": "https://doi.org/10.1038/s41586-020-2797-4",
       "consortium_name": "HCA",
       "provider_name": "Broad Institute",
@@ -5385,7 +5385,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 24 x 24 millimeter, 24 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5393,9 +5393,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -5429,7 +5429,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX/H0035_apex#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5442,7 +5442,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5450,9 +5450,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -5488,7 +5488,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA/H0035_LA_new#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5501,7 +5501,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 14 x 14 millimeter, 14 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5509,9 +5509,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -5544,7 +5544,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV/H0035_LV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5557,7 +5557,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+          "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
           "description": "6 x 9 x 10 millimeter, 10 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5565,9 +5565,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2022-06-08",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002078",
@@ -5602,7 +5602,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA/H0035_RA#Dataset",
               "@type": "Dataset",
-              "label": "Registered 5/7/2022, Andreas Bueckle, Broad Institute",
+              "label": "Registered 5/7/2022, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5615,7 +5615,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "20 x 20 x 6 millimeter, 6 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5623,9 +5623,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002080"
@@ -5658,7 +5658,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV/H0035_RV#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -5671,7 +5671,7 @@
           "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP#TissueBlock",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+          "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
           "description": "15 x 15 x 33 millimeter, 33 millimeter",
           "link": "https://doi.org/10.1038/s41586-020-2797-4",
           "section_count": 0,
@@ -5679,9 +5679,9 @@
           "rui_location": {
             "@id": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
             "@type": "SpatialEntity",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "creation_date": "2021-11-16",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002094",
@@ -5719,7 +5719,7 @@
             {
               "@id": "http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP/H0035_septum#Dataset",
               "@type": "Dataset",
-              "label": "Registered 10/15/2021, Andreas Bueckle, Broad Institute",
+              "label": "Registered 10/15/2021, Michela Noseda, Broad Institute",
               "description": "Data/Assay Types: 10X, ",
               "link": "https://www.nature.com/articles/s41586-020-2797-4#Sec11",
               "technology": "10X",
@@ -10506,9 +10506,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002080"
             ],
             "creation_date": "2022-02-16",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/dddd9215-b7d9-49d3-9546-ff2582be5f56_placement",
@@ -10585,9 +10585,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002094"
             ],
             "creation_date": "2023-06-29",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/cf097162-7c4b-4118-a19a-cc9805b8f467_placement",
@@ -10678,9 +10678,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2022-02-16",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/a07c1de5-7229-4161-9c49-defd3ab029f7_placement",
@@ -10748,9 +10748,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2022-04-07",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/796e2d24-d7d7-4c09-8483-f5b00fccfda6_placement",
@@ -10828,9 +10828,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2023-06-29",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/6ee43559-da2f-411b-81a2-a0d0f59fac67_placement",
@@ -10924,9 +10924,9 @@
               "http://purl.org/sig/ont/fma/fma72655"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/da28394d-789a-4fba-842a-f8ba5046b221_placement",
@@ -11077,9 +11077,9 @@
               "http://purl.org/sig/ont/fma/fma72655"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/3156203b-0238-447d-9aae-c4341f2da943_placement",
@@ -11156,9 +11156,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/118235b7-38a4-4fcf-8834-bad5765f5eeb_placement",
@@ -11246,9 +11246,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-22",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/6904a86d-aadb-4959-9aac-54afa7e2bf2b_placement",
@@ -11322,9 +11322,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/04baf323-eda0-4f72-bea1-aa943aa70894_placement",
@@ -11416,9 +11416,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/87df967f-1311-43ac-a306-04e47d2f4a60_placement",
@@ -11506,9 +11506,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/de8bd0bf-7765-44c4-9d22-5ff5c0586816_placement",
@@ -11585,9 +11585,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002094"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/886e391d-0151-46d3-8a51-084bf6a06910_placement",
@@ -11679,9 +11679,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002094"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/096e6a9d-464c-448d-a1bb-56093a5fc7aa_placement",
@@ -11749,9 +11749,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002094"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/2816c343-c908-45bf-8964-974b1c54a5b9_placement",
@@ -11857,9 +11857,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2022-02-16",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/3c6d73d4-216e-4241-b864-92f6636c4d80_placement",
@@ -11965,9 +11965,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2022-02-16",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/53797407-9641-4e69-966b-e7aecf6a0ecc_placement",
@@ -12041,9 +12041,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/7439e95d-2761-4183-9055-ca6251da8e09_placement",
@@ -12102,9 +12102,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/1995aefd-5289-4652-a7e0-cc66c495649f_placement",
@@ -12190,9 +12190,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/ce5f3bd0-f091-49fe-8fe5-67004848078b_placement",
@@ -12278,9 +12278,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-25",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/39e72b20-77e5-45a5-bb0e-f374ea5894ad_placement",
@@ -12426,9 +12426,9 @@
               "http://purl.obolibrary.org/obo/UBERON_0002084"
             ],
             "creation_date": "2021-10-22",
-            "creator": "Andreas Bueckle",
-            "creator_first_name": "Andreas",
-            "creator_last_name": "Bueckle",
+            "creator": "Michela Noseda",
+            "creator_first_name": "Michela",
+            "creator_last_name": "Noseda",
             "dimension_units": "millimeter",
             "placement": {
               "@id": "http://purl.org/ccf/1.5/16e98d8c-8983-48c2-bb41-7b1cfbbf2e4a_placement",
