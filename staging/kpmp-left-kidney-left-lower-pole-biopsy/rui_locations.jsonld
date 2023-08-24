@@ -1,0 +1,299 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor1",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 8/24/2023, Matthias Kretzler, UPitt",
+      "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "885cdd09-6012-49a1-85d2-4a4c56332e61",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/24/2023, Matthias Kretzler, UPitt",
+          "description": "Lower left biopsy with renal cortex and medulla",
+          "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.kpmp.org/available-data",
+              "thumbnail": "assets/logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/24/2023, Matthias Kretzler, UPitt",
+          "description": "Lower left biopsy of renal cortex",
+          "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/0f5881fc-13d1-434e-87f3-2545e4e644d7",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000362",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 14,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/0f5881fc-13d1-434e-87f3-2545e4e644d7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -118,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 57.71,
+              "y_translation": 20.774,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.kpmp.org/available-data",
+              "thumbnail": "assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor2",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 8/24/2023, Matthias Kretzler, UPitt",
+      "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "885cdd09-6012-49a1-85d2-4a4c56332e61",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/24/2023, Matthias Kretzler, UPitt",
+          "description": "Lower left biopsy of renal cortex",
+          "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.kpmp.org/available-data",
+              "thumbnail": "assets/logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/24/2023, Matthias Kretzler, UPitt",
+          "description": "Lower left biopsy with renal cortex and medulla",
+          "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/7381a4cd-bd64-4a1d-9094-9f95e87aa46e",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000362",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 9,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/7381a4cd-bd64-4a1d-9094-9f95e87aa46e_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.611,
+              "y_translation": 17.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.1016/j.kint.2020.08.039",
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.kpmp.org/available-data",
+              "thumbnail": "assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: NHLBI-LungMap
-  provider_name: NHLBI-LungMap
+- consortium_name: NHLBI/LungMap
+  provider_name: NHLBI/LungMap
   provider_uuid: 0ec3cf4a-4a28-496a-b66e-df34f4cd32e1
   defaults:
     id: http://purl.org/ccf/1.5/NHLBI
