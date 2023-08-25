@@ -18,12 +18,12 @@
         datasets:
           - technology: OTHER
           - link: https://www.kpmp.org/available-data
-      - rui_location: male_cortex_with_renal_structures.json
-        label: Registered 8/24/2023, Matthias Kretzler, UPitt
-        description: Lower left biopsy of renal cortex
-        datasets:
-          - technology: OTHER
-          - link: https://www.kpmp.org/available-data      
+      # - rui_location: male_cortex_with_renal_structures.json
+      #   label: Registered 8/24/2023, Matthias Kretzler, UPitt
+      #   description: Lower left biopsy of renal cortex
+      #   datasets:
+      #     - technology: OTHER
+      #     - link: https://www.kpmp.org/available-data      
     - sex: Female
       label: Female
       description: Entered 8/24/2023, Matthias Kretzler, UPitt
@@ -34,10 +34,10 @@
         datasets:
           - technology: OTHER
           - link: https://www.kpmp.org/available-data      
-      - rui_location: female_cortex_with_renal_structures.json
-        label: Registered 8/24/2023, Matthias Kretzler, UPitt
-        description: Lower left biopsy with renal cortex and medulla
-        datasets:
-          - technology: OTHER
-          - link: https://www.kpmp.org/available-data        
+      # - rui_location: female_cortex_with_renal_structures.json
+      #   label: Registered 8/24/2023, Matthias Kretzler, UPitt
+      #   description: Lower left biopsy with renal cortex and medulla
+      #   datasets:
+      #     - technology: OTHER
+      #     - link: https://www.kpmp.org/available-data        
       
