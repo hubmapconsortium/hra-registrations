@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.488e+00 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959> ;
@@ -37,7 +37,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.1489e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a> ;
@@ -55,7 +55,7 @@
     ccf:z_rotation 27 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.0278e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f> ;
@@ -73,7 +73,7 @@
     ccf:z_rotation 27 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.1215e+01 ;
-    dct:created "2022-09-23" .
+    dcterms:created "2022-09-23" .
 
 <http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431> ;
@@ -91,7 +91,7 @@
     ccf:z_rotation 25 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.1215e+01 ;
-    dct:created "2022-09-23" .
+    dcterms:created "2022-09-23" .
 
 <http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0> ;
@@ -109,7 +109,7 @@
     ccf:z_rotation 97 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.2282e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df> ;
@@ -127,7 +127,7 @@
     ccf:z_rotation -46 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.9677e+01 ;
-    dct:created "2022-09-23" .
+    dcterms:created "2022-09-23" .
 
 <http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad> ;
@@ -145,7 +145,7 @@
     ccf:z_rotation -74 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.8677e+01 ;
-    dct:created "2022-09-23" .
+    dcterms:created "2022-09-23" .
 
 <http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8> ;
@@ -163,7 +163,7 @@
     ccf:z_rotation 62 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.0282e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6> ;
@@ -181,7 +181,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.6989e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98> ;
@@ -199,7 +199,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.2489e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee> ;
@@ -217,7 +217,7 @@
     ccf:z_rotation 118 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.5177e+01 ;
-    dct:created "2022-03-04" .
+    dcterms:created "2022-03-04" .
 
 <http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742> ;
@@ -235,7 +235,7 @@
     ccf:z_rotation 148 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.5782e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54> ;
@@ -253,7 +253,7 @@
     ccf:z_rotation 142 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.4677e+01 ;
-    dct:created "2022-09-23" .
+    dcterms:created "2022-09-23" .
 
 <http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d> ;
@@ -271,7 +271,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.2555e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1> ;
@@ -289,7 +289,7 @@
     ccf:z_rotation -11 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.1677e+01 ;
-    dct:created "2022-09-23" .
+    dcterms:created "2022-09-23" .
 
 <http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0> ;
@@ -307,7 +307,7 @@
     ccf:z_rotation -30 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.177e+01 ;
-    dct:created "2022-03-04" .
+    dcterms:created "2022-03-04" .
 
 <http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034> ;
@@ -325,7 +325,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.0555e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505> ;
@@ -343,7 +343,7 @@
     ccf:z_rotation -91 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.0489e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb> ;
@@ -361,7 +361,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.7782e+01 ;
-    dct:created "2021-10-03" .
+    dcterms:created "2021-10-03" .
 
 <https://entity.api.hubmapconsortium.org/entities/11d794402e067e54888bb8a4af4184e0> a ccf:Sample ;
     rdfs:label "Registered 9/23/2022, Diane Salamon, TMC-UCSD" ;
@@ -2021,8 +2021,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2040,8 +2040,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "Amanda  Knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "Amanda  Knoten" .
 
 <http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2059,8 +2059,8 @@
     ccf:x_dimension 1 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "Amanda  Knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "Amanda  Knoten" .
 
 <http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
@@ -2072,8 +2072,8 @@
     ccf:x_dimension 2 ;
     ccf:y_dimension 3 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-09-23" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-09-23" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
@@ -2085,8 +2085,8 @@
     ccf:x_dimension 3 ;
     ccf:y_dimension 8 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-09-23" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-09-23" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2106,8 +2106,8 @@
     ccf:x_dimension 3 ;
     ccf:y_dimension 4 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "amanda knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "amanda knoten" .
 
 <http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2123,8 +2123,8 @@
     ccf:x_dimension 3 ;
     ccf:y_dimension 2 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-09-23" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-09-23" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2140,8 +2140,8 @@
     ccf:x_dimension 4 ;
     ccf:y_dimension 8 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-09-23" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-09-23" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2159,8 +2159,8 @@
     ccf:x_dimension 2 ;
     ccf:y_dimension 4 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "amanda knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "amanda knoten" .
 
 <http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2180,8 +2180,8 @@
     ccf:x_dimension 2 ;
     ccf:y_dimension 3 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "amanda knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "amanda knoten" .
 
 <http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2200,8 +2200,8 @@
     ccf:x_dimension 3 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "Amanda  Knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "Amanda  Knoten" .
 
 <http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2214,8 +2214,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-03-04" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-03-04" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
@@ -2227,8 +2227,8 @@
     ccf:x_dimension 2 ;
     ccf:y_dimension 4 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "amanda knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "amanda knoten" .
 
 <http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2244,8 +2244,8 @@
     ccf:x_dimension 3 ;
     ccf:y_dimension 12 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-09-23" ;
-    dct:creator "Amanda  Knoten" .
+    dcterms:created "2022-09-23" ;
+    dcterms:creator "Amanda  Knoten" .
 
 <http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2264,8 +2264,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "amanda knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "amanda knoten" .
 
 <http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
@@ -2277,8 +2277,8 @@
     ccf:x_dimension 3 ;
     ccf:y_dimension 2 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-09-23" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-09-23" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
@@ -2290,8 +2290,8 @@
     ccf:x_dimension 4 ;
     ccf:y_dimension 7 ;
     ccf:z_dimension 2 ;
-    dct:created "2022-03-04" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2022-03-04" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2310,8 +2310,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 6 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "Amanda Knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "Amanda Knoten" .
 
 <http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2330,8 +2330,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 12 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "amanda knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "amanda knoten" .
 
 <http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -2349,8 +2349,8 @@
     ccf:x_dimension 3 ;
     ccf:y_dimension 12 ;
     ccf:z_dimension 2 ;
-    dct:created "2021-10-03" ;
-    dct:creator "Amanda  Knoten" .
+    dcterms:created "2021-10-03" ;
+    dcterms:creator "Amanda  Knoten" .
 
 <https://entity.api.hubmapconsortium.org/entities/0739c6eb8d0d51bfd244e3d5afb00aab> a ccf:Donor ;
     rdfs:label "Female, Age 45, BMI 22.6" ;

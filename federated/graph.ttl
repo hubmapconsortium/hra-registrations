@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -52,7 +52,7 @@
     ccf:z_rotation 2.613e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -18 ;
-    dct:created "5/18/2020 1:25:58 PM" .
+    dcterms:created "5/18/2020 1:25:58 PM" .
 
 <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d> ;
@@ -70,7 +70,7 @@
     ccf:z_rotation 1.004e+01 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -11 ;
-    dct:created "5/18/2020 1:34:07 PM" .
+    dcterms:created "5/18/2020 1:34:07 PM" .
 
 <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291> ;
@@ -88,7 +88,7 @@
     ccf:z_rotation 2.7803e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -11 ;
-    dct:created "5/18/2020 1:30:26 PM" .
+    dcterms:created "5/18/2020 1:30:26 PM" .
 
 <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc> ;
@@ -106,7 +106,7 @@
     ccf:z_rotation -8 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.6623e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9> ;
@@ -124,7 +124,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.6608e+01 ;
-    dct:created "2023-04-20" .
+    dcterms:created "2023-04-20" .
 
 <http://purl.org/ccf/1.5/0ced68fa-8bff-45d9-949f-3004c3b08d19_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/0ced68fa-8bff-45d9-949f-3004c3b08d19> ;
@@ -142,7 +142,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.759e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/117273d2-9291-4665-9a8b-e7420eb1452e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/117273d2-9291-4665-9a8b-e7420eb1452e> ;
@@ -160,7 +160,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.559e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/1367793a-0321-42c2-9437-6e4eff3d3d1b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/1367793a-0321-42c2-9437-6e4eff3d3d1b> ;
@@ -178,7 +178,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.5374e+01 ;
-    dct:created "2023-06-28" .
+    dcterms:created "2023-06-28" .
 
 <http://purl.org/ccf/1.5/168abaaf-f115-4606-a655-8821b294d8bb_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/168abaaf-f115-4606-a655-8821b294d8bb> ;
@@ -196,7 +196,7 @@
     ccf:z_rotation -39 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.32e+00 ;
-    dct:created "2023-06-27" .
+    dcterms:created "2023-06-27" .
 
 <http://purl.org/ccf/1.5/1a3fb7c9-f6ca-45fc-aa1a-d1b9e1a53da0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/1a3fb7c9-f6ca-45fc-aa1a-d1b9e1a53da0> ;
@@ -214,7 +214,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.209e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> ;
@@ -232,7 +232,7 @@
     ccf:z_rotation -7 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.07987e+02 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> ;
@@ -250,7 +250,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.27e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> ;
@@ -268,7 +268,7 @@
     ccf:z_rotation 6 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.5595e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d> ;
@@ -286,7 +286,7 @@
     ccf:z_rotation 86 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.9291e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> ;
@@ -304,7 +304,7 @@
     ccf:z_rotation 62 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.6108e+01 ;
-    dct:created "2023-04-20" .
+    dcterms:created "2023-04-20" .
 
 <http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2> ;
@@ -322,7 +322,7 @@
     ccf:z_rotation 86 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.523e+00 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159> ;
@@ -340,7 +340,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.1069e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483> ;
@@ -358,7 +358,7 @@
     ccf:z_rotation -5 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.1674e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab> ;
@@ -376,7 +376,7 @@
     ccf:z_rotation 91 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.6071e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8> ;
@@ -394,7 +394,7 @@
     ccf:z_rotation -10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.7108e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec> ;
@@ -412,7 +412,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.5415e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/495b3b01-4a22-4ebc-b0a6-7d009e8a744b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/495b3b01-4a22-4ebc-b0a6-7d009e8a744b> ;
@@ -430,7 +430,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.874e+00 ;
-    dct:created "2023-06-28" .
+    dcterms:created "2023-06-28" .
 
 <http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e> ;
@@ -448,7 +448,7 @@
     ccf:z_rotation 86 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.7739e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/4d483843-3032-4e1d-8edb-b75d2e2377dd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/4d483843-3032-4e1d-8edb-b75d2e2377dd> ;
@@ -466,7 +466,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.009e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/4e24cfc4-bfea-4233-8fa0-d9967e3bdf7d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/4e24cfc4-bfea-4233-8fa0-d9967e3bdf7d> ;
@@ -484,7 +484,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.2047e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e> ;
@@ -502,7 +502,7 @@
     ccf:z_rotation 7 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.1227e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> ;
@@ -520,7 +520,7 @@
     ccf:z_rotation 2 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.7249e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555> ;
@@ -538,7 +538,7 @@
     ccf:z_rotation -123 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.6743e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae> ;
@@ -556,7 +556,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.5949e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/5496b6a1-8e0a-4592-b5c8-53cc77e7efa9_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5496b6a1-8e0a-4592-b5c8-53cc77e7efa9> ;
@@ -574,7 +574,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.374e+00 ;
-    dct:created "2023-06-28" .
+    dcterms:created "2023-06-28" .
 
 <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f> ;
@@ -592,7 +592,7 @@
     ccf:z_rotation 91 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.0892e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b> ;
@@ -610,7 +610,7 @@
     ccf:z_rotation 55 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.8453e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/5c78be2e-d36c-4994-ae42-a94ccf935988_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5c78be2e-d36c-4994-ae42-a94ccf935988> ;
@@ -628,7 +628,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.902e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626> ;
@@ -646,7 +646,7 @@
     ccf:z_rotation -77 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.7052e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23> ;
@@ -664,7 +664,7 @@
     ccf:z_rotation -11 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.8749e+01 ;
-    dct:created "2023-04-20" .
+    dcterms:created "2023-04-20" .
 
 <http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e> ;
@@ -682,7 +682,7 @@
     ccf:z_rotation -167 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.3773e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
@@ -700,7 +700,7 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
@@ -718,7 +718,7 @@
     ccf:z_rotation 77 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.4071e+01 ;
-    dct:created "2023-04-25" .
+    dcterms:created "2023-04-25" .
 
 <http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326> ;
@@ -736,7 +736,7 @@
     ccf:z_rotation 97 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.6711e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/6e0b9e06-b5a5-4f05-ab2c-6146c5d930b3_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6e0b9e06-b5a5-4f05-ab2c-6146c5d930b3> ;
@@ -754,7 +754,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.6426e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b> ;
@@ -772,7 +772,7 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137> ;
@@ -790,7 +790,7 @@
     ccf:z_rotation 6 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.756e+00 ;
-    dct:created "2023-08-04" .
+    dcterms:created "2023-08-04" .
 
 <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> ;
@@ -808,7 +808,7 @@
     ccf:z_rotation -101 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.3575e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/748100c1-36bc-4ffa-9ba0-6edbbb62845c_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/748100c1-36bc-4ffa-9ba0-6edbbb62845c> ;
@@ -826,7 +826,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.374e+00 ;
-    dct:created "2023-06-28" .
+    dcterms:created "2023-06-28" .
 
 <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> ;
@@ -844,7 +844,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.7608e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/7739f00f-62bc-4852-8d2b-518ae26a9b4a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/7739f00f-62bc-4852-8d2b-518ae26a9b4a> ;
@@ -862,7 +862,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.7754e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/7cac826a-29e7-4543-b7e1-27c4d49910ef_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/7cac826a-29e7-4543-b7e1-27c4d49910ef> ;
@@ -880,7 +880,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.4874e+01 ;
-    dct:created "2023-06-22" .
+    dcterms:created "2023-06-22" .
 
 <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> ;
@@ -898,7 +898,7 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68> ;
@@ -916,7 +916,7 @@
     ccf:z_rotation -28 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.2749e+01 ;
-    dct:created "2023-04-20" .
+    dcterms:created "2023-04-20" .
 
 <http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae> ;
@@ -934,7 +934,7 @@
     ccf:z_rotation -101 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.9699e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb> ;
@@ -952,7 +952,7 @@
     ccf:z_rotation 69 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.7279e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> ;
@@ -970,7 +970,7 @@
     ccf:z_rotation -10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.4154e+01 ;
-    dct:created "2023-02-20" .
+    dcterms:created "2023-02-20" .
 
 <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc> ;
@@ -988,7 +988,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.5874e+01 ;
-    dct:created "2023-06-28" .
+    dcterms:created "2023-06-28" .
 
 <http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4> ;
@@ -1006,7 +1006,7 @@
     ccf:z_rotation 91 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.2677e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> ;
@@ -1024,7 +1024,7 @@
     ccf:z_rotation 35 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.5266e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca> ;
@@ -1042,7 +1042,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.4759e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05> ;
@@ -1060,7 +1060,7 @@
     ccf:z_rotation 69 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.5428e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -1078,10 +1078,10 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D032#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
@@ -1092,7 +1092,7 @@
     rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
 
 <http://purl.org/ccf/1.5/NHLBI/D046#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D046#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D046#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
@@ -1103,7 +1103,7 @@
     rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
 
 <http://purl.org/ccf/1.5/NHLBI/D110#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D110#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D110#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
@@ -1114,7 +1114,7 @@
     rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
 
 <http://purl.org/ccf/1.5/NHLBI/D122#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D122#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D122#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
@@ -1125,7 +1125,7 @@
     rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
 
 <http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D139#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
@@ -1136,7 +1136,7 @@
     rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
 
 <http://purl.org/ccf/1.5/NHLBI/D175#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D175#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D175#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
@@ -1147,7 +1147,7 @@
     rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
 
 <http://purl.org/ccf/1.5/NHLBI/D231#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D231#Donor> ;
     ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D231#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
@@ -1173,7 +1173,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.652e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c> ;
@@ -1191,7 +1191,7 @@
     ccf:z_rotation -167 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.0754e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772> ;
@@ -1209,7 +1209,7 @@
     ccf:z_rotation 68 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.964e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -1227,7 +1227,7 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46> ;
@@ -1245,7 +1245,7 @@
     ccf:z_rotation -112 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.2069e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> ;
@@ -1263,7 +1263,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.9249e+01 ;
-    dct:created "2023-04-20" .
+    dcterms:created "2023-04-20" .
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
@@ -1338,7 +1338,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.5596e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -1356,7 +1356,7 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/b9d5a47f-1107-41db-9a5d-8ff23801cc5e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b9d5a47f-1107-41db-9a5d-8ff23801cc5e> ;
@@ -1374,7 +1374,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.5874e+01 ;
-    dct:created "2023-06-28" .
+    dcterms:created "2023-06-28" .
 
 <http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef> ;
@@ -1392,7 +1392,7 @@
     ccf:z_rotation 94 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.7149e+01 ;
-    dct:created "2021-03-16" .
+    dcterms:created "2021-03-16" .
 
 <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> ;
@@ -1410,7 +1410,7 @@
     ccf:z_rotation -10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.552e+01 ;
-    dct:created "2023-02-20" .
+    dcterms:created "2023-02-20" .
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -1674,7 +1674,7 @@
     ccf:z_rotation -9 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.5608e+01 ;
-    dct:created "2023-04-20" .
+    dcterms:created "2023-04-20" .
 
 <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> ;
@@ -1692,7 +1692,7 @@
     ccf:z_rotation -19 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.221e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
@@ -1710,7 +1710,7 @@
     ccf:z_rotation 77 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.10357e+02 ;
-    dct:created "2023-04-25" .
+    dcterms:created "2023-04-25" .
 
 <http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8> ;
@@ -1728,7 +1728,7 @@
     ccf:z_rotation -112 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.2966e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/e111e6d5-d39a-4e22-9632-61fdc6651955_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e111e6d5-d39a-4e22-9632-61fdc6651955> ;
@@ -1746,7 +1746,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.374e+00 ;
-    dct:created "2023-06-28" .
+    dcterms:created "2023-06-28" .
 
 <http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89> ;
@@ -1764,7 +1764,7 @@
     ccf:z_rotation -28 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.2567e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> ;
@@ -1782,7 +1782,7 @@
     ccf:z_rotation -4 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.2249e+01 ;
-    dct:created "2023-04-25" .
+    dcterms:created "2023-04-25" .
 
 <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> ;
@@ -1800,7 +1800,7 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c> ;
@@ -1818,7 +1818,7 @@
     ccf:z_rotation 91 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.2221e+01 ;
-    dct:created "2021-03-19" .
+    dcterms:created "2021-03-19" .
 
 <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> ;
@@ -1836,7 +1836,7 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> ;
@@ -1854,7 +1854,7 @@
     ccf:z_rotation 21 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.5283e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/f7500931-e3b6-4aab-bed8-735619fe645e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f7500931-e3b6-4aab-bed8-735619fe645e> ;
@@ -1872,7 +1872,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.6047e+01 ;
-    dct:created "2022-08-29" .
+    dcterms:created "2022-08-29" .
 
 <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> ;
@@ -1890,7 +1890,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.1779e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX#TissueBlock> a ccf:Sample ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -3025,7 +3025,7 @@
     rdfs:comment "10 x 10 x 1 millimeter, 1 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> ;
@@ -3036,7 +3036,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8> ;
@@ -3047,7 +3047,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46> ;
@@ -3058,7 +3058,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e> ;
@@ -3069,7 +3069,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec> ;
@@ -3080,7 +3080,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05> ;
@@ -3091,7 +3091,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef> ;
@@ -3102,7 +3102,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb> ;
@@ -3113,7 +3113,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b> ;
@@ -3124,7 +3124,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f> ;
@@ -3135,7 +3135,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159> ;
@@ -3146,7 +3146,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772> ;
@@ -3157,7 +3157,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4> ;
@@ -3168,7 +3168,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab> ;
@@ -3179,7 +3179,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c> ;
@@ -3190,7 +3190,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626> ;
@@ -3201,7 +3201,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555> ;
@@ -3212,7 +3212,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e> ;
@@ -3223,7 +3223,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae> ;
@@ -3234,7 +3234,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326> ;
@@ -3245,7 +3245,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c> ;
@@ -3256,7 +3256,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2> ;
@@ -3267,7 +3267,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d> ;
@@ -3278,7 +3278,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89> ;
@@ -3289,7 +3289,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e> ;
@@ -3300,7 +3300,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9> ;
     ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae> ;
@@ -3311,7 +3311,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -3322,7 +3322,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
@@ -3333,7 +3333,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -3344,7 +3344,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -3355,7 +3355,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
@@ -3366,7 +3366,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -3377,7 +3377,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> ;
@@ -3388,7 +3388,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> ;
@@ -3399,7 +3399,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b> ;
@@ -3410,7 +3410,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> ;
@@ -3421,7 +3421,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> ;
@@ -3432,7 +3432,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b> ;
@@ -3443,7 +3443,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -3454,7 +3454,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
@@ -3465,7 +3465,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -3476,7 +3476,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -3487,7 +3487,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -3498,7 +3498,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> ;
@@ -3509,7 +3509,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> ;
@@ -3520,7 +3520,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -3531,7 +3531,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 1/19/2023, Devin Wright, SEA-AD" ;
+    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
     ccf:comes_from <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1> ;
     ccf:generates_dataset <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> ;
@@ -3542,7 +3542,7 @@
     rdfs:comment "4 x 5 x 5 millimeter, 5 millimeter" .
 
 <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
+    rdfs:label "Registered 1/19/2023, Eitan Kaplan, SEA-AD" ;
     ccf:comes_from <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2> ;
     ccf:generates_dataset <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> ;
@@ -3666,15 +3666,15 @@
 <http://purl.org/ccf/1.5/NHLBI/D032#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 3" ;
     ccf:age 3 ;
-    ccf:consortium_name "NHLBI-LungMap" ;
+    ccf:consortium_name "NHLBI/LungMap" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "NHLBI-LungMap" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI-LungMap" .
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
 <http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3683,15 +3683,15 @@
 <http://purl.org/ccf/1.5/NHLBI/D046#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 3" ;
     ccf:age 3 ;
-    ccf:consortium_name "NHLBI-LungMap" ;
+    ccf:consortium_name "NHLBI/LungMap" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "NHLBI-LungMap" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI-LungMap" .
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
 <http://purl.org/ccf/1.5/NHLBI/D046#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3700,15 +3700,15 @@
 <http://purl.org/ccf/1.5/NHLBI/D110#Donor> a ccf:Donor ;
     rdfs:label "Male" ;
     ccf:age 0 ;
-    ccf:consortium_name "NHLBI-LungMap" ;
+    ccf:consortium_name "NHLBI/LungMap" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "NHLBI-LungMap" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI-LungMap" .
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
 <http://purl.org/ccf/1.5/NHLBI/D110#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3717,15 +3717,15 @@
 <http://purl.org/ccf/1.5/NHLBI/D122#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 31" ;
     ccf:age 31 ;
-    ccf:consortium_name "NHLBI-LungMap" ;
+    ccf:consortium_name "NHLBI/LungMap" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "NHLBI-LungMap" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI-LungMap" .
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
 <http://purl.org/ccf/1.5/NHLBI/D122#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3734,15 +3734,15 @@
 <http://purl.org/ccf/1.5/NHLBI/D139#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 3" ;
     ccf:age 3 ;
-    ccf:consortium_name "NHLBI-LungMap" ;
+    ccf:consortium_name "NHLBI/LungMap" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "NHLBI-LungMap" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI-LungMap" .
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
 <http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3751,15 +3751,15 @@
 <http://purl.org/ccf/1.5/NHLBI/D175#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 29" ;
     ccf:age 29 ;
-    ccf:consortium_name "NHLBI-LungMap" ;
+    ccf:consortium_name "NHLBI/LungMap" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "NHLBI-LungMap" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI-LungMap" .
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
 <http://purl.org/ccf/1.5/NHLBI/D175#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3768,15 +3768,15 @@
 <http://purl.org/ccf/1.5/NHLBI/D231#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 33" ;
     ccf:age 33 ;
-    ccf:consortium_name "NHLBI-LungMap" ;
+    ccf:consortium_name "NHLBI/LungMap" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "NHLBI-LungMap" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI-LungMap" .
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
 <http://purl.org/ccf/1.5/NHLBI/D231#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI-LungMap" ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3800,10 +3800,10 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset3> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
@@ -3828,10 +3828,10 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
@@ -3909,10 +3909,10 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection/LV_1221_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
@@ -3924,10 +3924,10 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection/RA_1221_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -3940,17 +3940,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -3963,17 +3963,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
@@ -3986,17 +3986,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
@@ -4009,17 +4009,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4032,17 +4032,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection/LV_1666_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LVT#issueBlock/LV_1666#TissueSection/LV_1666_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4055,17 +4055,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection/RV_1666_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RVT#issueBlock/RV_1666#TissueSection/RV_1666_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
@@ -4078,17 +4078,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4101,17 +4101,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection/LV_1681_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LVT#issueBlock/LV_1681#TissueSection/LV_1681_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4124,17 +4124,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection/RA_1681_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RAT#issueBlock/RA_1681#TissueSection/RA_1681_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
@@ -4147,17 +4147,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4170,17 +4170,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4193,17 +4193,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4216,17 +4216,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4239,17 +4239,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4262,17 +4262,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
@@ -4285,17 +4285,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4308,17 +4308,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4331,17 +4331,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4354,17 +4354,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
@@ -4377,17 +4377,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -4400,17 +4400,17 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
-    ccf:technology "other" ;
-    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
-    rdfs:comment "Data/Assay Types: other, " .
+    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7606896#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -4568,10 +4568,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8287127#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -5058,10 +5058,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7905331#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -5184,10 +5184,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7888924#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -5275,10 +5275,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX/H0037_Apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -5499,7 +5499,7 @@
     rdfs:label "Apical Septum Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
@@ -5508,13 +5508,13 @@
     rdfs:label "Basal Right Ventricle Free Wall Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5524,13 +5524,13 @@
     rdfs:label "Basal Septum Left Ventricle Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5540,13 +5540,13 @@
     rdfs:label "Basal Septum Left Ventricle Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5556,13 +5556,13 @@
     rdfs:label "Left Ventricle Apex Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5572,13 +5572,13 @@
     rdfs:label "Left Ventricle Apex Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5588,13 +5588,13 @@
     rdfs:label "Middle Anterior Left Ventricle Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5604,13 +5604,13 @@
     rdfs:label "Middle Anterior Left Ventricle Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5620,13 +5620,13 @@
     rdfs:label "Middle Lateral Left Ventricle Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5636,13 +5636,13 @@
     rdfs:label "Middle Lateral Left Ventricle Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5652,20 +5652,20 @@
     rdfs:label "Middle posterior Left Ventricle Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5675,7 +5675,7 @@
     rdfs:label "Apical Septum Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
@@ -5684,13 +5684,13 @@
     rdfs:label "Middle posterior Left Ventricle Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-16, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5700,13 +5700,13 @@
     rdfs:label "Middle Septum Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5716,13 +5716,13 @@
     rdfs:label "Middle Septum Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5732,13 +5732,13 @@
     rdfs:label "Right Ventricle Apex Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5748,13 +5748,13 @@
     rdfs:label "Right Ventricle Apex Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5764,13 +5764,13 @@
     rdfs:label "Right Ventricle OT Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5780,20 +5780,20 @@
     rdfs:label "Right Ventricle OT Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/15/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5803,13 +5803,13 @@
     rdfs:label "Basal Anterior Left Ventrical Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5819,13 +5819,13 @@
     rdfs:label "Basal Anterior Left Ventrical Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5835,13 +5835,13 @@
     rdfs:label "Basal Lateral Left Ventricle Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5851,13 +5851,13 @@
     rdfs:label "Basal Lateral Left Ventricle Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5867,13 +5867,13 @@
     rdfs:label "Basal Posterior Left Ventricle Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5883,13 +5883,13 @@
     rdfs:label "Basal Posterior Left Ventricle Male" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5899,153 +5899,153 @@
     rdfs:label "Basal Right Ventricle Free Wall Female" ;
     ccf:consortium_name "SPARC" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "SPARC-UCLA" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
     ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Entered 2021-03-19, Peter Hanna" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 2/18/2021, Peter Hanna, SPARC-UCLA" ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6061,7 +6061,7 @@
     rdfs:comment "Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples." .
 
 <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 1/19/2023, Devin Wright, SEA-AD" ;
+    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/sea-ad/assets/logo.jpg" ;
     ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
@@ -6077,7 +6077,7 @@
     rdfs:comment "Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples." .
 
 <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
+    rdfs:label "Registered 1/19/2023, Eitan Kaplan, SEA-AD" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/sea-ad/assets/logo.jpg" ;
     ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
@@ -6100,10 +6100,10 @@
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
@@ -6226,8 +6226,8 @@
     ccf:x_dimension 1.08336e+00 ;
     ccf:y_dimension 4.06097e+00 ;
     ccf:z_dimension 1.128e-01 ;
-    dct:created "5/18/2020 1:25:58 PM" ;
-    dct:creator "Seth Winfree" .
+    dcterms:created "5/18/2020 1:25:58 PM" ;
+    dcterms:creator "Seth Winfree" .
 
 <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d> a ccf:SpatialEntity ;
     rdfs:label "CoverNephrectomy" ;
@@ -6240,8 +6240,8 @@
     ccf:x_dimension 3.44736e+00 ;
     ccf:y_dimension 7.776e+00 ;
     ccf:z_dimension 7.384e-02 ;
-    dct:created "5/18/2020 1:34:07 PM" ;
-    dct:creator "Seth Winfree" .
+    dcterms:created "5/18/2020 1:34:07 PM" ;
+    dcterms:creator "Seth Winfree" .
 
 <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291> a ccf:SpatialEntity ;
     rdfs:label "Patient A Cortical biopsy" ;
@@ -6254,8 +6254,8 @@
     ccf:x_dimension 1.20013e+00 ;
     ccf:y_dimension 5.42327e+00 ;
     ccf:z_dimension 7.696e-02 ;
-    dct:created "5/18/2020 1:30:26 PM" ;
-    dct:creator "Seth Winfree" .
+    dcterms:created "5/18/2020 1:30:26 PM" ;
+    dcterms:creator "Seth Winfree" .
 
 <http://purl.org/ccf/1.5/0ced68fa-8bff-45d9-949f-3004c3b08d19> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002703>,
@@ -6268,8 +6268,8 @@
     ccf:x_dimension 20 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/117273d2-9291-4665-9a8b-e7420eb1452e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6282,8 +6282,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/168abaaf-f115-4606-a655-8821b294d8bb> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -6293,8 +6293,8 @@
     ccf:x_dimension 8.39e+00 ;
     ccf:y_dimension 5.99e+00 ;
     ccf:z_dimension 5e-03 ;
-    dct:created "2023-06-27" ;
-    dct:creator "Anna Martinez Casals" .
+    dcterms:created "2023-06-27" ;
+    dcterms:creator "Anna Martinez Casals" .
 
 <http://purl.org/ccf/1.5/1a3fb7c9-f6ca-45fc-aa1a-d1b9e1a53da0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002703>,
@@ -6307,8 +6307,8 @@
     ccf:x_dimension 20 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6321,8 +6321,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -6335,8 +6335,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6350,8 +6350,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6365,8 +6365,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6378,8 +6378,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/495b3b01-4a22-4ebc-b0a6-7d009e8a744b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma58639> ;
@@ -6389,8 +6389,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-28" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6401,8 +6401,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/4d483843-3032-4e1d-8edb-b75d2e2377dd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6417,8 +6417,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/4e24cfc4-bfea-4233-8fa0-d9967e3bdf7d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6433,8 +6433,8 @@
     ccf:x_dimension 20 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 20 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6445,8 +6445,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -6460,8 +6460,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6474,8 +6474,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6486,8 +6486,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6498,8 +6498,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/5c78be2e-d36c-4994-ae42-a94ccf935988> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6513,8 +6513,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6528,8 +6528,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -6543,8 +6543,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6556,8 +6556,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/6e0b9e06-b5a5-4f05-ab2c-6146c5d930b3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6570,8 +6570,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002007>,
@@ -6587,8 +6587,8 @@
     ccf:x_dimension 19 ;
     ccf:y_dimension 11 ;
     ccf:z_dimension 12 ;
-    dct:created "2023-08-04" ;
-    dct:creator "Andrea Radtke" .
+    dcterms:created "2023-08-04" ;
+    dcterms:creator "Andrea Radtke" .
 
 <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6600,8 +6600,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/7739f00f-62bc-4852-8d2b-518ae26a9b4a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6615,8 +6615,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6628,8 +6628,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6640,19 +6640,19 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002771> ;
-    ccf:creator_first_name "Rebecca" ;
-    ccf:creator_last_name "Hodge" ;
+    ccf:creator_first_name "Eitan" ;
+    ccf:creator_last_name "Kaplan" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 4 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 5 ;
-    dct:created "2023-02-20" ;
-    dct:creator "Rebecca Hodge" .
+    dcterms:created "2023-02-20" ;
+    dcterms:creator "Eitan Kaplan" .
 
 <http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6666,8 +6666,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6678,8 +6678,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/a388eebd-02f8-4a5c-ab8e-62405ce34e99> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6692,8 +6692,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6707,8 +6707,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6719,8 +6719,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -6740,8 +6740,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.002> a ccf:Donor ;
     rdfs:label "Male, Age 50" ;
@@ -6794,8 +6794,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <http://purl.org/ccf/1.5/b9d5a47f-1107-41db-9a5d-8ff23801cc5e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma58300> ;
@@ -6805,8 +6805,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-28" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6817,19 +6817,19 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-16" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002771> ;
-    ccf:creator_first_name "Devin" ;
-    ccf:creator_last_name "Wright" ;
+    ccf:creator_first_name "Rebecca" ;
+    ccf:creator_last_name "Hodge" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 4 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 5 ;
-    dct:created "2023-02-20" ;
-    dct:creator "Devin Wright" .
+    dcterms:created "2023-02-20" ;
+    dcterms:creator "Rebecca Hodge" .
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor> a ccf:Donor ;
     rdfs:label "Female, 51" ;
@@ -6859,8 +6859,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -6872,8 +6872,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -6886,8 +6886,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2021-03-19" ;
-    dct:creator "Peter Hanna" .
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
 
 <http://purl.org/ccf/1.5/f7500931-e3b6-4aab-bed8-735619fe645e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
@@ -6900,8 +6900,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-08-29" ;
-    dct:creator "Raymond Sanchez" .
+    dcterms:created "2022-08-29" ;
+    dcterms:creator "Raymond Sanchez" .
 
 <https://doi.org/10.1073/pnas.1914143116#Donor1> a ccf:Donor ;
     rdfs:label "Male, 54" ;
@@ -6981,8 +6981,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 4 ;
-    dct:created "2023-04-20" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/1367793a-0321-42c2-9437-6e4eff3d3d1b> a ccf:SpatialEntity ;
     ccf:creator_first_name "Robert" ;
@@ -6991,8 +6991,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-28" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/5496b6a1-8e0a-4592-b5c8-53cc77e7efa9> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma58639> ;
@@ -7002,8 +7002,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-28" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002168>,
@@ -7015,8 +7015,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/748100c1-36bc-4ffa-9ba0-6edbbb62845c> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma58639> ;
@@ -7026,8 +7026,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-28" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/7cac826a-29e7-4543-b7e1-27c4d49910ef> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma58300> ;
@@ -7037,8 +7037,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-22" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-22" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002168>,
@@ -7050,8 +7050,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma58299> ;
@@ -7061,8 +7061,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-28" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001> a ccf:Donor ;
     rdfs:label "Female, Age 60" ;
@@ -7122,8 +7122,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 5 ;
-    dct:created "2023-04-20" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/e111e6d5-d39a-4e22-9632-61fdc6651955> a ccf:SpatialEntity ;
     ccf:creator_first_name "Robert" ;
@@ -7132,8 +7132,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-28" ;
-    dct:creator "Robert Mullins" .
+    dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002168>,
@@ -7145,8 +7145,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002168>,
@@ -7158,8 +7158,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
@@ -7169,8 +7169,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 7 ;
-    dct:created "2023-04-20" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002079> ;
@@ -7180,8 +7180,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 4 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
@@ -7191,8 +7191,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 6 ;
-    dct:created "2023-04-20" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -7204,8 +7204,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
@@ -7217,8 +7217,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 3 ;
-    dct:created "2023-04-25" ;
-    dct:creator "Allen Wang" .
+    dcterms:created "2023-04-25" ;
+    dcterms:creator "Allen Wang" .
 
 <http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002079> ;
@@ -7228,8 +7228,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 4 ;
-    dct:created "2023-04-20" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -7241,8 +7241,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -7254,8 +7254,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080> ;
@@ -7265,8 +7265,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 4 ;
-    dct:created "2023-04-20" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -7278,8 +7278,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor> a ccf:Donor ;
     rdfs:label "Male, 59" ;
@@ -7317,50 +7317,50 @@
     ccf:age 70 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 40" ;
     ccf:age 40 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 65" ;
     ccf:age 65 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 55" ;
     ccf:age 55 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 65" ;
     ccf:age 65 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
@@ -7373,8 +7373,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 3 ;
-    dct:created "2023-04-25" ;
-    dct:creator "Allen Wang" .
+    dcterms:created "2023-04-25" ;
+    dcterms:creator "Allen Wang" .
 
 <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078> ;
@@ -7384,8 +7384,8 @@
     ccf:x_dimension 5 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 4 ;
-    dct:created "2023-04-25" ;
-    dct:creator "Nathan Tucker" .
+    dcterms:created "2023-04-25" ;
+    dcterms:creator "Nathan Tucker" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 60, BMI 25" ;
@@ -7543,8 +7543,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 33 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -7556,8 +7556,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080> ;
@@ -7567,8 +7567,8 @@
     ccf:x_dimension 20 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 6 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -7581,8 +7581,8 @@
     ccf:x_dimension 16 ;
     ccf:y_dimension 16 ;
     ccf:z_dimension 14 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
@@ -7592,8 +7592,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 14 ;
     ccf:z_dimension 14 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -7611,8 +7611,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 7 ;
     ccf:z_dimension 7 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002079>,
@@ -7625,8 +7625,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -7641,8 +7641,8 @@
     ccf:x_dimension 12 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 16 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -7653,8 +7653,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 24 ;
     ccf:z_dimension 24 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -7671,8 +7671,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 12 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -7686,8 +7686,8 @@
     ccf:x_dimension 17 ;
     ccf:y_dimension 8 ;
     ccf:z_dimension 14 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -7705,6 +7705,6 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 18 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 

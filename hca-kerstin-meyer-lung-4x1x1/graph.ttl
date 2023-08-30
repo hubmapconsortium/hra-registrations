@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b> ;
@@ -37,7 +37,7 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> ;
@@ -55,7 +55,7 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -73,7 +73,7 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -91,7 +91,7 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -109,7 +109,7 @@
     ccf:z_rotation 57 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> ;
@@ -127,7 +127,7 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> ;
@@ -145,10 +145,10 @@
     ccf:z_rotation 22 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.5857e+01 ;
-    dct:created "2023-08-08" .
+    dcterms:created "2023-08-08" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -159,7 +159,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
@@ -170,7 +170,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -181,7 +181,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -192,7 +192,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
@@ -203,7 +203,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -214,7 +214,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> ;
@@ -225,7 +225,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> ;
@@ -236,7 +236,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b> ;
@@ -247,7 +247,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> ;
@@ -258,7 +258,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> ;
@@ -269,7 +269,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6f16b6f5-e1d7-486d-b4fa-d5378d80612b> ;
@@ -280,7 +280,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock2> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock2_TissueBlock2_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> ;
@@ -291,7 +291,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock3> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock3_TissueBlock3_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
@@ -302,7 +302,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock4> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock4_TissueBlock4_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> ;
@@ -313,7 +313,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -324,7 +324,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -335,7 +335,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> ;
@@ -346,7 +346,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> ;
@@ -357,7 +357,7 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:comes_from <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> ;
     ccf:generates_dataset <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> ;
@@ -368,140 +368,140 @@
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/7/2023, Kerstin Meyer, HCA" ;
+    rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -517,8 +517,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/7eccd441-ce5a-4fcd-af0c-776916848c67> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002168>,
@@ -530,8 +530,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/ed8525a0-a2c5-4818-ad53-5a0cf430966a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002168>,
@@ -543,8 +543,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002168>,
@@ -556,8 +556,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -569,8 +569,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/9d66ed32-46ad-4848-af78-a3178e19ca87> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -582,8 +582,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/a920acfd-0d42-458d-84f5-f942e5319e92> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -595,8 +595,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/b871beb6-4f8a-447a-91dc-99f1b4696a8e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001004>,
@@ -608,56 +608,56 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-08-08" ;
-    dct:creator "Kerstin Meyer" .
+    dcterms:created "2023-08-08" ;
+    dcterms:creator "Kerstin Meyer" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 70" ;
     ccf:age 70 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 40" ;
     ccf:age 40 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 65" ;
     ccf:age 65 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 55" ;
     ccf:age 55 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Male" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
 <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor> a ccf:Donor ;
     rdfs:label "Female, Age 65" ;
     ccf:age 65 ;
     ccf:consortium_name "HCA" ;
     ccf:sex "Female" ;
-    ccf:tissue_provider_name "HCA" ;
+    ccf:tissue_provider_name "Wellcome Sanger Institute" ;
     ccf:tissue_provider_uuid "7cf72052-10d0-4fa8-b659-4067aa1ffdf3" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
-    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, HCA" .
+    rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 

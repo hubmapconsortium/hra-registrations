@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation 6 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.756e+00 ;
-    dct:created "2023-08-04" .
+    dcterms:created "2023-08-04" .
 
 <http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/3/2023, Andrea Radtke, NIH" ;
@@ -63,6 +63,6 @@
     ccf:x_dimension 19 ;
     ccf:y_dimension 11 ;
     ccf:z_dimension 12 ;
-    dct:created "2023-08-04" ;
-    dct:creator "Andrea Radtke" .
+    dcterms:created "2023-08-04" ;
+    dcterms:creator "Andrea Radtke" .
 

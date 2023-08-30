@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,10 +19,10 @@
     ccf:z_rotation 1 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.40422e+02 ;
-    dct:created "2023-08-04" .
+    dcterms:created "2023-08-04" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:comes_from <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919> ;
     ccf:sample_type "Tissue Block" ;
@@ -78,329 +78,329 @@
     rdfs:comment "Tumor tissue from cecum - Mixed mucinous and signet ring cell adenocarcinoma" .
 
 ccf:WD-76845-001 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-002 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-006 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-007 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-013 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-014 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-019 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-020 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-024 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-025 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-028 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-029 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-033 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-034 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-038 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-039 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-043 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-044 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-048 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-049 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-050 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-051 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-052 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-053 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-054 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-058 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-059 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-063 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-064 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-068 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-069 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-073 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-074 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-077 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-078 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-083 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-084 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-085 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-086 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-090 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-091 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-096 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-097 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-101 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-102 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-105 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "H&E" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
     rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
 
 ccf:WD-76845-106 a ccf:Dataset ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:technology "t-CyCIF" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
@@ -414,10 +414,10 @@ ccf:WD-76845-106 a ccf:Dataset ;
     ccf:tissue_provider_name "HTAN" ;
     ccf:tissue_provider_uuid "db0c82e3-1d4c-42e7-88d2-75e3083ec874" ;
     ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
-    rdfs:comment "Entered 7/3/2023, Devin Wright, HTAN" .
+    rdfs:comment "Entered 7/3/2023, Peter Sorger, HTAN" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection1> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-001 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 1 ;
@@ -426,7 +426,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection10> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-025 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 25 ;
@@ -435,7 +435,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection11> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-028 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 28 ;
@@ -444,7 +444,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection12> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-029 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 29 ;
@@ -453,7 +453,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection13> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-033 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 33 ;
@@ -462,7 +462,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection14> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-034 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 34 ;
@@ -471,7 +471,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection15> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-038 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 38 ;
@@ -480,7 +480,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection16> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-039 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 39 ;
@@ -489,7 +489,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection17> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-043 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 43 ;
@@ -498,7 +498,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection18> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-044 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 44 ;
@@ -507,7 +507,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection19> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-048 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 48 ;
@@ -516,7 +516,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection2> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-002 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 2 ;
@@ -525,7 +525,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection20> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-049 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 49 ;
@@ -534,7 +534,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection21> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-050 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 50 ;
@@ -543,7 +543,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection22> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-051 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 51 ;
@@ -552,7 +552,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection23> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-052 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 52 ;
@@ -561,7 +561,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection24> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-053 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 53 ;
@@ -570,7 +570,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection25> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-054 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 54 ;
@@ -579,7 +579,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection26> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-058 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 58 ;
@@ -588,7 +588,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection27> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-059 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 59 ;
@@ -597,7 +597,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection28> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-063 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 63 ;
@@ -606,7 +606,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection29> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-064 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 64 ;
@@ -615,7 +615,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection3> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-006 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 6 ;
@@ -624,7 +624,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection30> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-068 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 68 ;
@@ -633,7 +633,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection31> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-069 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 69 ;
@@ -642,7 +642,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection32> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-073 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 73 ;
@@ -651,7 +651,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection33> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-074 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 74 ;
@@ -660,7 +660,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection34> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-077 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 77 ;
@@ -669,7 +669,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection35> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-078 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 78 ;
@@ -678,7 +678,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection36> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-083 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 83 ;
@@ -687,7 +687,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection37> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-084 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 84 ;
@@ -696,7 +696,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection38> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-085 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 85 ;
@@ -705,7 +705,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection39> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-086 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 86 ;
@@ -714,7 +714,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection4> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-007 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 7 ;
@@ -723,7 +723,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection40> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-090 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 90 ;
@@ -732,7 +732,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection41> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-091 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 91 ;
@@ -741,7 +741,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection42> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-096 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 96 ;
@@ -750,7 +750,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection43> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-097 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 97 ;
@@ -759,7 +759,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection44> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-101 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 101 ;
@@ -768,7 +768,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection45> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-102 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 102 ;
@@ -777,7 +777,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection46> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-105 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 105 ;
@@ -786,7 +786,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection47> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-106 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 106 ;
@@ -795,7 +795,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection5> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-013 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 13 ;
@@ -804,7 +804,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection6> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-014 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 14 ;
@@ -813,7 +813,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection7> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-019 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 19 ;
@@ -822,7 +822,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection8> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-020 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 20 ;
@@ -831,7 +831,7 @@ ccf:WD-76845-106 a ccf:Dataset ;
     rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
 
 <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection9> a ccf:Sample ;
-    rdfs:label "Registered 7/3/2023, Devin Wright, HTAN" ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
     ccf:generates_dataset ccf:WD-76845-024 ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_number 24 ;
@@ -841,12 +841,12 @@ ccf:WD-76845-106 a ccf:Dataset ;
 
 <http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001156> ;
-    ccf:creator_first_name "Devin" ;
-    ccf:creator_last_name "Wright" ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Sorger" ;
     ccf:dimension_unit "millimeter" ;
     ccf:x_dimension 62 ;
     ccf:y_dimension 51 ;
     ccf:z_dimension 15 ;
-    dct:created "2023-08-04" ;
-    dct:creator "Devin Wright" .
+    dcterms:created "2023-08-04" ;
+    dcterms:creator "Peter Sorger" .
 

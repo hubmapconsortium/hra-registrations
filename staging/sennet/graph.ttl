@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.6619e+01 ;
-    dct:created "2023-07-28" .
+    dcterms:created "2023-07-28" .
 
 <http://purl.org/ccf/1.5/38d89d1c-002c-4bd3-a178-9af62b112834_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/38d89d1c-002c-4bd3-a178-9af62b112834> ;
@@ -37,7 +37,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.8913e+01 ;
-    dct:created "2023-07-28" .
+    dcterms:created "2023-07-28" .
 
 <http://purl.org/ccf/1.5/39c5cfa5-60b8-408c-ad92-10be42ece26b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/39c5cfa5-60b8-408c-ad92-10be42ece26b> ;
@@ -55,7 +55,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.6619e+01 ;
-    dct:created "2023-07-28" .
+    dcterms:created "2023-07-28" .
 
 <http://purl.org/ccf/1.5/505bec91-0002-481f-8591-2a44a6b9edb0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/505bec91-0002-481f-8591-2a44a6b9edb0> ;
@@ -73,7 +73,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.6619e+01 ;
-    dct:created "2023-07-28" .
+    dcterms:created "2023-07-28" .
 
 <http://purl.org/ccf/1.5/67e5f7e1-7b82-4aff-890e-9f8fc1f5c89b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/67e5f7e1-7b82-4aff-890e-9f8fc1f5c89b> ;
@@ -91,7 +91,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.82878e+02 ;
-    dct:created "2023-05-11" .
+    dcterms:created "2023-05-11" .
 
 <http://purl.org/ccf/1.5/8eea8795-2c2f-4811-bf19-ceff62be1128_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8eea8795-2c2f-4811-bf19-ceff62be1128> ;
@@ -109,7 +109,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.82878e+02 ;
-    dct:created "2023-05-11" .
+    dcterms:created "2023-05-11" .
 
 <http://purl.org/ccf/1.5/sennet#Donor1_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 6/27/2023, Lorena Rosas, SenNet" ;
@@ -235,8 +235,8 @@
     ccf:x_dimension 25 ;
     ccf:y_dimension 25 ;
     ccf:z_dimension 25 ;
-    dct:created "2023-07-28" ;
-    dct:creator "Lorena Rosas" .
+    dcterms:created "2023-07-28" ;
+    dcterms:creator "Lorena Rosas" .
 
 <http://purl.org/ccf/1.5/38d89d1c-002c-4bd3-a178-9af62b112834> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
@@ -248,8 +248,8 @@
     ccf:x_dimension 25 ;
     ccf:y_dimension 25 ;
     ccf:z_dimension 25 ;
-    dct:created "2023-07-28" ;
-    dct:creator "Lorena Rosas" .
+    dcterms:created "2023-07-28" ;
+    dcterms:creator "Lorena Rosas" .
 
 <http://purl.org/ccf/1.5/39c5cfa5-60b8-408c-ad92-10be42ece26b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
@@ -261,8 +261,8 @@
     ccf:x_dimension 25 ;
     ccf:y_dimension 25 ;
     ccf:z_dimension 25 ;
-    dct:created "2023-07-28" ;
-    dct:creator "Lorena Rosas" .
+    dcterms:created "2023-07-28" ;
+    dcterms:creator "Lorena Rosas" .
 
 <http://purl.org/ccf/1.5/505bec91-0002-481f-8591-2a44a6b9edb0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
@@ -274,8 +274,8 @@
     ccf:x_dimension 25 ;
     ccf:y_dimension 25 ;
     ccf:z_dimension 25 ;
-    dct:created "2023-07-28" ;
-    dct:creator "Lorena Rosas" .
+    dcterms:created "2023-07-28" ;
+    dcterms:creator "Lorena Rosas" .
 
 <http://purl.org/ccf/1.5/67e5f7e1-7b82-4aff-890e-9f8fc1f5c89b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0006727>,
@@ -286,8 +286,8 @@
     ccf:x_dimension 20 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-05-11" ;
-    dct:creator "Matthew Wyczalkowski" .
+    dcterms:created "2023-05-11" ;
+    dcterms:creator "Matthew Wyczalkowski" .
 
 <http://purl.org/ccf/1.5/8eea8795-2c2f-4811-bf19-ceff62be1128> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0006727>,
@@ -298,6 +298,6 @@
     ccf:x_dimension 20 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 10 ;
-    dct:created "2023-05-11" ;
-    dct:creator "Matthew Wyczalkowski" .
+    dcterms:created "2023-05-11" ;
+    dcterms:creator "Matthew Wyczalkowski" .
 
