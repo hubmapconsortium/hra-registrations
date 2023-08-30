@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation 2.8807e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -1.345e+01 ;
-    dct:created "2/12/2020 11:54:58 AM" .
+    dcterms:created "2/12/2020 11:54:58 AM" .
 
 <http://purl.org/ccf/0.5/47f89696-e96a-41cc-8a88-cf4c4b3b8967_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/47f89696-e96a-41cc-8a88-cf4c4b3b8967> ;
@@ -37,7 +37,7 @@
     ccf:z_rotation 3.3825e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -1.248e+01 ;
-    dct:created "2/12/2020 10:30:12 AM" .
+    dcterms:created "2/12/2020 10:30:12 AM" .
 
 <http://purl.org/ccf/0.5/6264c640-fadc-4852-b395-8a0bdc3d99bf_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/6264c640-fadc-4852-b395-8a0bdc3d99bf> ;
@@ -55,7 +55,7 @@
     ccf:z_rotation 3.0814e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -9.129999e+00 ;
-    dct:created "2/12/2020 10:26:06 AM" .
+    dcterms:created "2/12/2020 10:26:06 AM" .
 
 <http://purl.org/ccf/0.5/812d2c8e-557a-48b9-8780-a5c1f53008cb_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/812d2c8e-557a-48b9-8780-a5c1f53008cb> ;
@@ -73,7 +73,7 @@
     ccf:z_rotation 3.011e+01 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -1.34e+01 ;
-    dct:created "2/12/2020 10:38:21 AM" .
+    dcterms:created "2/12/2020 10:38:21 AM" .
 
 <http://purl.org/ccf/0.5/89386c4b-280e-4656-86c8-9dfd6b7de99a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/89386c4b-280e-4656-86c8-9dfd6b7de99a> ;
@@ -91,7 +91,7 @@
     ccf:z_rotation 2.3454e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -1.372e+01 ;
-    dct:created "2/12/2020 12:50:08 PM" .
+    dcterms:created "2/12/2020 12:50:08 PM" .
 
 <http://purl.org/ccf/0.5/a92ad611-c3c6-43d9-bfd6-00ff906fa541_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/a92ad611-c3c6-43d9-bfd6-00ff906fa541> ;
@@ -109,7 +109,7 @@
     ccf:z_rotation 3.0814e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -2.023e+01 ;
-    dct:created "2/12/2020 11:50:03 AM" .
+    dcterms:created "2/12/2020 11:50:03 AM" .
 
 <http://purl.org/ccf/0.5/ad6486c5-ee24-4c25-8c74-677ffb35a189_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/ad6486c5-ee24-4c25-8c74-677ffb35a189> ;
@@ -127,7 +127,7 @@
     ccf:z_rotation 3.1651e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -1.613e+01 ;
-    dct:created "2/12/2020 12:48:57 PM" .
+    dcterms:created "2/12/2020 12:48:57 PM" .
 
 <http://purl.org/ccf/1.5/02ae63f0-4a35-4ff5-858e-689242c26828_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/02ae63f0-4a35-4ff5-858e-689242c26828> ;
@@ -145,7 +145,7 @@
     ccf:z_rotation -9 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.361e+01 ;
-    dct:created "2022-06-15" .
+    dcterms:created "2022-06-15" .
 
 <http://purl.org/ccf/1.5/0af69e70-3ec3-4d0b-a008-89a4186f4452_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/0af69e70-3ec3-4d0b-a008-89a4186f4452> ;
@@ -163,7 +163,7 @@
     ccf:z_rotation 104 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.9568e+01 ;
-    dct:created "2022-06-20" .
+    dcterms:created "2022-06-20" .
 
 <http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909> ;
@@ -181,7 +181,7 @@
     ccf:z_rotation 65 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.477e+01 ;
-    dct:created "2022-06-14" .
+    dcterms:created "2022-06-14" .
 
 <http://purl.org/ccf/1.5/643688a1-d062-4198-b804-326484c11f70_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/643688a1-d062-4198-b804-326484c11f70> ;
@@ -199,7 +199,7 @@
     ccf:z_rotation -28 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.5091e+01 ;
-    dct:created "2022-06-15" .
+    dcterms:created "2022-06-15" .
 
 <http://purl.org/ccf/1.5/8ae7c9f9-b138-4b44-8aaf-944b7544ff8a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8ae7c9f9-b138-4b44-8aaf-944b7544ff8a> ;
@@ -217,7 +217,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.205e+01 ;
-    dct:created "2022-08-01" .
+    dcterms:created "2022-08-01" .
 
 <http://purl.org/ccf/1.5/a619c5f7-b1b1-427d-b76d-846caab056d0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a619c5f7-b1b1-427d-b76d-846caab056d0> ;
@@ -235,7 +235,7 @@
     ccf:z_rotation -9 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.1549e+01 ;
-    dct:created "2022-06-15" .
+    dcterms:created "2022-06-15" .
 
 <http://purl.org/ccf/1.5/bf36d893-81ff-4f38-a6ba-97c9d870c841_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/bf36d893-81ff-4f38-a6ba-97c9d870c841> ;
@@ -253,7 +253,7 @@
     ccf:z_rotation 104 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.3568e+01 ;
-    dct:created "2022-06-20" .
+    dcterms:created "2022-06-20" .
 
 <http://purl.org/ccf/1.5/e6c247f7-694a-4477-8ba7-84d04bc9c3bd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e6c247f7-694a-4477-8ba7-84d04bc9c3bd> ;
@@ -271,7 +271,7 @@
     ccf:z_rotation -3 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.1332e+01 ;
-    dct:created "2022-09-22" .
+    dcterms:created "2022-09-22" .
 
 <https://entity.api.hubmapconsortium.org/entities/16755fbe7dcb20e2cdcaeef386464643> a ccf:Sample ;
     rdfs:label "Registered 6/10/2020, Jamie Allen, TMC-Vanderbilt" ;
@@ -684,8 +684,8 @@
     ccf:x_dimension 35 ;
     ccf:y_dimension 19 ;
     ccf:z_dimension 3 ;
-    dct:created "2/12/2020 11:54:58 AM" ;
-    dct:creator "Jeff Spraggins" .
+    dcterms:created "2/12/2020 11:54:58 AM" ;
+    dcterms:creator "Jeff Spraggins" .
 
 <http://purl.org/ccf/0.5/47f89696-e96a-41cc-8a88-cf4c4b3b8967> a ccf:SpatialEntity ;
     rdfs:label "SpatialEntity for Female, Age 66, BMI 25.4" ;
@@ -695,8 +695,8 @@
     ccf:x_dimension 17 ;
     ccf:y_dimension 16 ;
     ccf:z_dimension 4 ;
-    dct:created "2/12/2020 10:30:12 AM" ;
-    dct:creator "Jeff Spraggins" .
+    dcterms:created "2/12/2020 10:30:12 AM" ;
+    dcterms:creator "Jeff Spraggins" .
 
 <http://purl.org/ccf/0.5/6264c640-fadc-4852-b395-8a0bdc3d99bf> a ccf:SpatialEntity ;
     rdfs:label "SpatialEntity for Female, Age 44, BMI 28.0" ;
@@ -706,8 +706,8 @@
     ccf:x_dimension 17 ;
     ccf:y_dimension 18 ;
     ccf:z_dimension 3 ;
-    dct:created "2/12/2020 10:26:06 AM" ;
-    dct:creator "Jeff Spraggins" .
+    dcterms:created "2/12/2020 10:26:06 AM" ;
+    dcterms:creator "Jeff Spraggins" .
 
 <http://purl.org/ccf/0.5/812d2c8e-557a-48b9-8780-a5c1f53008cb> a ccf:SpatialEntity ;
     rdfs:label "SpatialEntity for Male, Age 56, BMI 27.7" ;
@@ -717,8 +717,8 @@
     ccf:x_dimension 33 ;
     ccf:y_dimension 23 ;
     ccf:z_dimension 4 ;
-    dct:created "2/12/2020 10:38:21 AM" ;
-    dct:creator "Jeff Spraggins" .
+    dcterms:created "2/12/2020 10:38:21 AM" ;
+    dcterms:creator "Jeff Spraggins" .
 
 <http://purl.org/ccf/0.5/89386c4b-280e-4656-86c8-9dfd6b7de99a> a ccf:SpatialEntity ;
     rdfs:label "SpatialEntity for Male, Age 62, BMI 34.9" ;
@@ -728,8 +728,8 @@
     ccf:x_dimension 18 ;
     ccf:y_dimension 12 ;
     ccf:z_dimension 10 ;
-    dct:created "2/12/2020 12:50:08 PM" ;
-    dct:creator "Jeff Spraggins" .
+    dcterms:created "2/12/2020 12:50:08 PM" ;
+    dcterms:creator "Jeff Spraggins" .
 
 <http://purl.org/ccf/0.5/a92ad611-c3c6-43d9-bfd6-00ff906fa541> a ccf:SpatialEntity ;
     rdfs:label "SpatialEntity for Male, Age 58, BMI 22.0" ;
@@ -739,8 +739,8 @@
     ccf:x_dimension 18 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 2 ;
-    dct:created "2/12/2020 11:50:03 AM" ;
-    dct:creator "Jeff Spraggins" .
+    dcterms:created "2/12/2020 11:50:03 AM" ;
+    dcterms:creator "Jeff Spraggins" .
 
 <http://purl.org/ccf/0.5/ad6486c5-ee24-4c25-8c74-677ffb35a189> a ccf:SpatialEntity ;
     rdfs:label "SpatialEntity for Female, Age 56, BMI 45.5" ;
@@ -750,8 +750,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 10 ;
-    dct:created "2/12/2020 12:48:57 PM" ;
-    dct:creator "Jeff Spraggins" .
+    dcterms:created "2/12/2020 12:48:57 PM" ;
+    dcterms:creator "Jeff Spraggins" .
 
 <http://purl.org/ccf/1.5/02ae63f0-4a35-4ff5-858e-689242c26828> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -766,8 +766,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-06-15" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-06-15" ;
+    dcterms:creator "Jamie Allen" .
 
 <http://purl.org/ccf/1.5/0af69e70-3ec3-4d0b-a008-89a4186f4452> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -783,8 +783,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 9 ;
-    dct:created "2022-06-20" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-06-20" ;
+    dcterms:creator "Jamie Allen" .
 
 <http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -803,8 +803,8 @@
     ccf:x_dimension 19 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 11 ;
-    dct:created "2022-06-14" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-06-14" ;
+    dcterms:creator "Jamie Allen" .
 
 <http://purl.org/ccf/1.5/643688a1-d062-4198-b804-326484c11f70> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -819,8 +819,8 @@
     ccf:x_dimension 10 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-06-15" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-06-15" ;
+    dcterms:creator "Jamie Allen" .
 
 <http://purl.org/ccf/1.5/8ae7c9f9-b138-4b44-8aaf-944b7544ff8a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -836,8 +836,8 @@
     ccf:x_dimension 18 ;
     ccf:y_dimension 19 ;
     ccf:z_dimension 13 ;
-    dct:created "2022-08-01" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-08-01" ;
+    dcterms:creator "Jamie Allen" .
 
 <http://purl.org/ccf/1.5/a619c5f7-b1b1-427d-b76d-846caab056d0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -851,8 +851,8 @@
     ccf:x_dimension 16 ;
     ccf:y_dimension 14 ;
     ccf:z_dimension 14 ;
-    dct:created "2022-06-15" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-06-15" ;
+    dcterms:creator "Jamie Allen" .
 
 <http://purl.org/ccf/1.5/bf36d893-81ff-4f38-a6ba-97c9d870c841> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -868,8 +868,8 @@
     ccf:x_dimension 13 ;
     ccf:y_dimension 12 ;
     ccf:z_dimension 11 ;
-    dct:created "2022-06-20" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-06-20" ;
+    dcterms:creator "Jamie Allen" .
 
 <http://purl.org/ccf/1.5/e6c247f7-694a-4477-8ba7-84d04bc9c3bd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000362>,
@@ -885,8 +885,8 @@
     ccf:x_dimension 28 ;
     ccf:y_dimension 5 ;
     ccf:z_dimension 20 ;
-    dct:created "2022-09-22" ;
-    dct:creator "Jamie Allen" .
+    dcterms:created "2022-09-22" ;
+    dcterms:creator "Jamie Allen" .
 
 <https://entity.api.hubmapconsortium.org/entities/171fc88db789ff330b0d7a420b642a23> a ccf:Donor ;
     rdfs:label "Female, Age 77, BMI 28.2" ;

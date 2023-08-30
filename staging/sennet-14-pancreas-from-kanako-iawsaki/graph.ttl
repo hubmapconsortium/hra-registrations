@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/02600f43-9e0e-4990-9c76-2618b271b8a3_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/02600f43-9e0e-4990-9c76-2618b271b8a3> ;
@@ -37,7 +37,7 @@
     ccf:z_rotation -1 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.9717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/045b6716-9363-402a-a17e-d72e38392ac8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/045b6716-9363-402a-a17e-d72e38392ac8> ;
@@ -55,7 +55,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.7717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/073e1c86-bb92-4319-a7ee-ab4dbf602d42_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/073e1c86-bb92-4319-a7ee-ab4dbf602d42> ;
@@ -73,7 +73,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/076f25fa-41a3-4b6f-b96c-3275abec51f7_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/076f25fa-41a3-4b6f-b96c-3275abec51f7> ;
@@ -91,7 +91,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.1217e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/0a5bee4e-f825-468e-97e7-f1b4dd58a197_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/0a5bee4e-f825-468e-97e7-f1b4dd58a197> ;
@@ -109,7 +109,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/0af3a9ec-8d33-42f9-8299-dff50bf4e669_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/0af3a9ec-8d33-42f9-8299-dff50bf4e669> ;
@@ -127,7 +127,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.8717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/1036ce90-1ccf-4e91-b179-e4986c2eb16e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/1036ce90-1ccf-4e91-b179-e4986c2eb16e> ;
@@ -145,7 +145,7 @@
     ccf:z_rotation -1 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.8717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/19ba72aa-f1ea-483e-8f13-c42cddfaff05_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/19ba72aa-f1ea-483e-8f13-c42cddfaff05> ;
@@ -163,7 +163,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.6717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/2191d1c5-f961-4429-b772-5bb7816e4c52_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/2191d1c5-f961-4429-b772-5bb7816e4c52> ;
@@ -181,7 +181,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.4217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/25b537d5-7a61-49b8-a151-a588e725742e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/25b537d5-7a61-49b8-a151-a588e725742e> ;
@@ -199,7 +199,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/2c962c72-df79-4125-89e2-552e1061d57a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/2c962c72-df79-4125-89e2-552e1061d57a> ;
@@ -217,7 +217,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.582e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/3712b57b-59c3-4623-a63f-e92c8f6c48a9_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3712b57b-59c3-4623-a63f-e92c8f6c48a9> ;
@@ -235,7 +235,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.132e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/3814fe11-c7fc-4c17-88ef-78ddc314499f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3814fe11-c7fc-4c17-88ef-78ddc314499f> ;
@@ -253,7 +253,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.3937e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/3849f828-e6c7-44cf-85a8-847146fe528d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3849f828-e6c7-44cf-85a8-847146fe528d> ;
@@ -271,7 +271,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.8217e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/3cf0b0b7-a90c-41b4-943b-8cb67f5b417d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3cf0b0b7-a90c-41b4-943b-8cb67f5b417d> ;
@@ -289,7 +289,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.4217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/3eef7c1e-ca60-4b17-a7be-d1095539225b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3eef7c1e-ca60-4b17-a7be-d1095539225b> ;
@@ -307,7 +307,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.132e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/3f4b06a0-68ca-41ed-8611-0a0a1be3032f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3f4b06a0-68ca-41ed-8611-0a0a1be3032f> ;
@@ -325,7 +325,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.6217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/4420a20e-ac36-4fb4-b9d0-fdc1770fdd7b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/4420a20e-ac36-4fb4-b9d0-fdc1770fdd7b> ;
@@ -343,7 +343,7 @@
     ccf:z_rotation -25 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.1717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/44af4c91-5413-404f-a3ef-53a860fa5af0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/44af4c91-5413-404f-a3ef-53a860fa5af0> ;
@@ -361,7 +361,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/457a83cf-f7c0-4805-82d2-2c1faeb3ca71_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/457a83cf-f7c0-4805-82d2-2c1faeb3ca71> ;
@@ -379,7 +379,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.732e+01 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/47475e19-9f88-4b03-a2c0-c2f57cae666a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/47475e19-9f88-4b03-a2c0-c2f57cae666a> ;
@@ -397,7 +397,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.6217e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/54743f3d-58eb-4ea8-ad9a-209e16636910_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/54743f3d-58eb-4ea8-ad9a-209e16636910> ;
@@ -415,7 +415,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.3717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/55a4691c-bd85-4633-a35e-0790217a6704_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/55a4691c-bd85-4633-a35e-0790217a6704> ;
@@ -433,7 +433,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.6717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/57a3a2da-96cd-490b-996f-b1becaec8534_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/57a3a2da-96cd-490b-996f-b1becaec8534> ;
@@ -451,7 +451,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/57d1c46d-f460-469b-8f39-1892446aaf8f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/57d1c46d-f460-469b-8f39-1892446aaf8f> ;
@@ -469,7 +469,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.232e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/580557f0-a487-46ef-9359-8e2d501d8b9d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/580557f0-a487-46ef-9359-8e2d501d8b9d> ;
@@ -487,7 +487,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.3217e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/582928f8-793e-4f66-8dfb-fa3744ac33a2_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/582928f8-793e-4f66-8dfb-fa3744ac33a2> ;
@@ -505,7 +505,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.9937e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/5b58122a-a4dd-4bc9-81fe-749ecb0d29a6_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5b58122a-a4dd-4bc9-81fe-749ecb0d29a6> ;
@@ -523,7 +523,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/5c169022-7347-474a-9ae7-7ba491643b68_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5c169022-7347-474a-9ae7-7ba491643b68> ;
@@ -541,7 +541,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.132e+01 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/5ee9b9b7-c933-4a61-80ae-f386417ef548_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5ee9b9b7-c933-4a61-80ae-f386417ef548> ;
@@ -559,7 +559,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.532e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/6310d04e-802a-4234-97c3-f143d2b833e3_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6310d04e-802a-4234-97c3-f143d2b833e3> ;
@@ -577,7 +577,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.7717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/6b087aa7-2289-47e0-8805-72f7b4011297_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6b087aa7-2289-47e0-8805-72f7b4011297> ;
@@ -595,7 +595,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/6d8f5e1b-1a36-468d-a01f-b114a8164dc3_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6d8f5e1b-1a36-468d-a01f-b114a8164dc3> ;
@@ -613,7 +613,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.332e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/7104a4cd-51c4-4d05-9479-940dbb350a9c_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/7104a4cd-51c4-4d05-9479-940dbb350a9c> ;
@@ -631,7 +631,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.8217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/8517e098-222b-438e-82cf-a49776e8c63f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8517e098-222b-438e-82cf-a49776e8c63f> ;
@@ -649,7 +649,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/87a2aa06-9a86-47cc-a104-da31dde7ee3e_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/87a2aa06-9a86-47cc-a104-da31dde7ee3e> ;
@@ -667,7 +667,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.7717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/8c092be8-1882-4a12-924c-1fe5dfc776fa_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8c092be8-1882-4a12-924c-1fe5dfc776fa> ;
@@ -685,7 +685,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.982e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/8dc413ad-6e2f-4db5-b8aa-1fd1655aacea_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/8dc413ad-6e2f-4db5-b8aa-1fd1655aacea> ;
@@ -703,7 +703,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.6717e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/90339382-b863-481e-8839-b87542071386_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/90339382-b863-481e-8839-b87542071386> ;
@@ -721,7 +721,7 @@
     ccf:z_rotation -25 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.0717e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/95b10327-6232-4915-8bdd-792791037535_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/95b10327-6232-4915-8bdd-792791037535> ;
@@ -739,7 +739,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/9a2d54c8-8b7d-42ac-9bcf-d641bcb37101_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9a2d54c8-8b7d-42ac-9bcf-d641bcb37101> ;
@@ -757,7 +757,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.232e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/9dbc6a56-ee15-40be-ab19-bfc64609b72c_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9dbc6a56-ee15-40be-ab19-bfc64609b72c> ;
@@ -775,7 +775,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.582e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/a187811c-521b-4210-a2b6-3de6ef5c036c_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a187811c-521b-4210-a2b6-3de6ef5c036c> ;
@@ -793,7 +793,7 @@
     ccf:z_rotation -25 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.0217e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/a41d4a38-00fc-4191-abcc-e13d677ae504_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a41d4a38-00fc-4191-abcc-e13d677ae504> ;
@@ -811,7 +811,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/a75efb3c-e7bd-495f-8583-38296e0046ad_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a75efb3c-e7bd-495f-8583-38296e0046ad> ;
@@ -829,7 +829,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.1217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/abd3fb2c-d5b0-4c53-893e-f6be720ced59_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/abd3fb2c-d5b0-4c53-893e-f6be720ced59> ;
@@ -847,7 +847,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.6717e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/b0228e96-4d49-4c8a-b6ff-438cc6d0ed78_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b0228e96-4d49-4c8a-b6ff-438cc6d0ed78> ;
@@ -865,7 +865,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.132e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/b41a293b-40dc-4423-819d-5d4d404b9919_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b41a293b-40dc-4423-819d-5d4d404b9919> ;
@@ -883,7 +883,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/b451caf6-4ea6-4219-a768-51f5b7b31c40_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b451caf6-4ea6-4219-a768-51f5b7b31c40> ;
@@ -901,7 +901,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.232e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/b59c2609-6445-46fe-9d9c-e3880151f8b4_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b59c2609-6445-46fe-9d9c-e3880151f8b4> ;
@@ -919,7 +919,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.3937e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/b59db2c6-4759-4bc4-a933-a151a6973598_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b59db2c6-4759-4bc4-a933-a151a6973598> ;
@@ -937,7 +937,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.6217e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/badf0175-c20b-42b9-ae81-9142666c104b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/badf0175-c20b-42b9-ae81-9142666c104b> ;
@@ -955,7 +955,7 @@
     ccf:z_rotation -1 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.8717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/bc78cb6f-ef87-4039-8f1a-71ca18cbea22_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/bc78cb6f-ef87-4039-8f1a-71ca18cbea22> ;
@@ -973,7 +973,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.3717e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/bcdcf578-70a9-4dbb-b992-70c9441ac363_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/bcdcf578-70a9-4dbb-b992-70c9441ac363> ;
@@ -991,7 +991,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.332e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/be6e15a8-23de-4762-aff9-74fed39b69d7_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/be6e15a8-23de-4762-aff9-74fed39b69d7> ;
@@ -1009,7 +1009,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.982e+01 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/bf77ca89-0998-434f-83f3-6af93e02bfbf_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/bf77ca89-0998-434f-83f3-6af93e02bfbf> ;
@@ -1027,7 +1027,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/c4ced025-2864-4763-92b4-657696589ea5_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/c4ced025-2864-4763-92b4-657696589ea5> ;
@@ -1045,7 +1045,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/c5e5fafd-d412-44ba-8a78-acf576c6e1db_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/c5e5fafd-d412-44ba-8a78-acf576c6e1db> ;
@@ -1063,7 +1063,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.8717e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/c61c3362-f4a8-4769-bbd5-77fef3dafd4a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/c61c3362-f4a8-4769-bbd5-77fef3dafd4a> ;
@@ -1081,7 +1081,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/c6955fa1-d368-45d8-8afa-ca4f7417329f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/c6955fa1-d368-45d8-8afa-ca4f7417329f> ;
@@ -1099,7 +1099,7 @@
     ccf:z_rotation -25 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.0717e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/c982495f-c36f-40b9-8060-bfa94682b698_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/c982495f-c36f-40b9-8060-bfa94682b698> ;
@@ -1117,7 +1117,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.582e+01 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/d2f5f39e-9ae4-4740-88d0-904677a28a33_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/d2f5f39e-9ae4-4740-88d0-904677a28a33> ;
@@ -1135,7 +1135,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.882e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/d3ad4417-c802-4c1b-81d6-09566b5ae1ac_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/d3ad4417-c802-4c1b-81d6-09566b5ae1ac> ;
@@ -1153,7 +1153,7 @@
     ccf:z_rotation -1 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.9717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/d3f5725d-ed91-42d3-ab26-bd9e5582dafb_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/d3f5725d-ed91-42d3-ab26-bd9e5582dafb> ;
@@ -1171,7 +1171,7 @@
     ccf:z_rotation 44 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.532e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/d4fbfe69-e151-4844-b197-ae944df0efcf_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/d4fbfe69-e151-4844-b197-ae944df0efcf> ;
@@ -1189,7 +1189,7 @@
     ccf:z_rotation 40 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.6717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/de35dab1-ecbb-40e6-b96d-78bd94b2e662_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/de35dab1-ecbb-40e6-b96d-78bd94b2e662> ;
@@ -1207,7 +1207,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.6217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/e25a697b-4707-4bec-a114-15971eebeb79_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e25a697b-4707-4bec-a114-15971eebeb79> ;
@@ -1225,7 +1225,7 @@
     ccf:z_rotation -1 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.8717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/e2cf396b-6cfb-4f74-8b0e-ae69d7c13fc0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e2cf396b-6cfb-4f74-8b0e-ae69d7c13fc0> ;
@@ -1243,7 +1243,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.6217e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/e850ba29-fa47-406b-b4b9-3a04e8409cb0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/e850ba29-fa47-406b-b4b9-3a04e8409cb0> ;
@@ -1261,7 +1261,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.937e+00 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/ec2cd1c9-f487-43fd-9aad-615e348cc4a6_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ec2cd1c9-f487-43fd-9aad-615e348cc4a6> ;
@@ -1279,7 +1279,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.937e+00 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/ec6c37b2-a5a4-4e37-b8b8-a57358220e01_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ec6c37b2-a5a4-4e37-b8b8-a57358220e01> ;
@@ -1297,7 +1297,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.482e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/f2fab301-665a-4e9c-8455-fa50f324e37c_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f2fab301-665a-4e9c-8455-fa50f324e37c> ;
@@ -1315,7 +1315,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.6217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/f3310a08-642e-48e5-97ed-ba3803cf2b22_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f3310a08-642e-48e5-97ed-ba3803cf2b22> ;
@@ -1333,7 +1333,7 @@
     ccf:z_rotation 10 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.6217e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/fa953f32-bd49-4cc5-b99d-42a6f29507ab_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fa953f32-bd49-4cc5-b99d-42a6f29507ab> ;
@@ -1351,7 +1351,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-01" .
+    dcterms:created "2023-06-01" .
 
 <http://purl.org/ccf/1.5/fdc49def-c17f-43d1-b366-c71ef396e49d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fdc49def-c17f-43d1-b366-c71ef396e49d> ;
@@ -1369,7 +1369,7 @@
     ccf:z_rotation -1 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 5.9717e+01 ;
-    dct:created "2023-06-02" .
+    dcterms:created "2023-06-02" .
 
 <http://purl.org/ccf/1.5/fe7491a8-83f8-4f04-b344-a5cb33008de0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fe7491a8-83f8-4f04-b344-a5cb33008de0> ;
@@ -1387,7 +1387,7 @@
     ccf:z_rotation 20 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.982e+01 ;
-    dct:created "2023-06-15" .
+    dcterms:created "2023-06-15" .
 
 <http://purl.org/ccf/1.5/sennet-pancreas#Donor10_TissueBlock2> a ccf:Sample ;
     rdfs:label "Registered 5/1/2023, Kanako Iwasaki, SenNet Project" ;
@@ -2167,8 +2167,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/02600f43-9e0e-4990-9c76-2618b271b8a3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2178,8 +2178,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/045b6716-9363-402a-a17e-d72e38392ac8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2189,8 +2189,8 @@
     ccf:x_dimension 62 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/073e1c86-bb92-4319-a7ee-ab4dbf602d42> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2200,8 +2200,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/076f25fa-41a3-4b6f-b96c-3275abec51f7> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2211,8 +2211,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/0a5bee4e-f825-468e-97e7-f1b4dd58a197> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2222,8 +2222,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/0af3a9ec-8d33-42f9-8299-dff50bf4e669> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2233,8 +2233,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/1036ce90-1ccf-4e91-b179-e4986c2eb16e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2244,8 +2244,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/19ba72aa-f1ea-483e-8f13-c42cddfaff05> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2255,8 +2255,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 28 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/2191d1c5-f961-4429-b772-5bb7816e4c52> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2266,8 +2266,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 28 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/25b537d5-7a61-49b8-a151-a588e725742e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2277,8 +2277,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/2c962c72-df79-4125-89e2-552e1061d57a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069>,
@@ -2289,8 +2289,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/3712b57b-59c3-4623-a63f-e92c8f6c48a9> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2300,8 +2300,8 @@
     ccf:x_dimension 42 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/3814fe11-c7fc-4c17-88ef-78ddc314499f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2311,8 +2311,8 @@
     ccf:x_dimension 48 ;
     ccf:y_dimension 28 ;
     ccf:z_dimension 34 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/3849f828-e6c7-44cf-85a8-847146fe528d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2322,8 +2322,8 @@
     ccf:x_dimension 45 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/3cf0b0b7-a90c-41b4-943b-8cb67f5b417d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2333,8 +2333,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 28 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/3eef7c1e-ca60-4b17-a7be-d1095539225b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069>,
@@ -2346,8 +2346,8 @@
     ccf:x_dimension 42 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/3f4b06a0-68ca-41ed-8611-0a0a1be3032f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2357,8 +2357,8 @@
     ccf:x_dimension 62 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/4420a20e-ac36-4fb4-b9d0-fdc1770fdd7b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2368,8 +2368,8 @@
     ccf:x_dimension 63 ;
     ccf:y_dimension 35 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/44af4c91-5413-404f-a3ef-53a860fa5af0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2379,8 +2379,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/457a83cf-f7c0-4805-82d2-2c1faeb3ca71> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2390,8 +2390,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/47475e19-9f88-4b03-a2c0-c2f57cae666a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2401,8 +2401,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/54743f3d-58eb-4ea8-ad9a-209e16636910> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2412,8 +2412,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/55a4691c-bd85-4633-a35e-0790217a6704> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2423,8 +2423,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/57a3a2da-96cd-490b-996f-b1becaec8534> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2434,8 +2434,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/57d1c46d-f460-469b-8f39-1892446aaf8f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2445,8 +2445,8 @@
     ccf:x_dimension 45 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/580557f0-a487-46ef-9359-8e2d501d8b9d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2456,8 +2456,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/582928f8-793e-4f66-8dfb-fa3744ac33a2> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2467,8 +2467,8 @@
     ccf:x_dimension 47 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 20 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/5b58122a-a4dd-4bc9-81fe-749ecb0d29a6> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150>,
@@ -2479,8 +2479,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/5c169022-7347-474a-9ae7-7ba491643b68> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2490,8 +2490,8 @@
     ccf:x_dimension 42 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/5ee9b9b7-c933-4a61-80ae-f386417ef548> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2501,8 +2501,8 @@
     ccf:x_dimension 48 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/6310d04e-802a-4234-97c3-f143d2b833e3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2512,8 +2512,8 @@
     ccf:x_dimension 62 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/6b087aa7-2289-47e0-8805-72f7b4011297> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2523,8 +2523,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/6d8f5e1b-1a36-468d-a01f-b114a8164dc3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2534,8 +2534,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/7104a4cd-51c4-4d05-9479-940dbb350a9c> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2545,8 +2545,8 @@
     ccf:x_dimension 45 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/8517e098-222b-438e-82cf-a49776e8c63f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2556,8 +2556,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/87a2aa06-9a86-47cc-a104-da31dde7ee3e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2567,8 +2567,8 @@
     ccf:x_dimension 62 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/8c092be8-1882-4a12-924c-1fe5dfc776fa> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2578,8 +2578,8 @@
     ccf:x_dimension 38 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/8dc413ad-6e2f-4db5-b8aa-1fd1655aacea> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2589,8 +2589,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/90339382-b863-481e-8839-b87542071386> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2600,8 +2600,8 @@
     ccf:x_dimension 66 ;
     ccf:y_dimension 35 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/95b10327-6232-4915-8bdd-792791037535> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2611,8 +2611,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/9a2d54c8-8b7d-42ac-9bcf-d641bcb37101> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2622,8 +2622,8 @@
     ccf:x_dimension 45 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/9dbc6a56-ee15-40be-ab19-bfc64609b72c> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2633,8 +2633,8 @@
     ccf:x_dimension 48 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/a187811c-521b-4210-a2b6-3de6ef5c036c> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2644,8 +2644,8 @@
     ccf:x_dimension 63 ;
     ccf:y_dimension 35 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/a41d4a38-00fc-4191-abcc-e13d677ae504> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2655,8 +2655,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/a75efb3c-e7bd-495f-8583-38296e0046ad> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2666,8 +2666,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/abd3fb2c-d5b0-4c53-893e-f6be720ced59> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2677,8 +2677,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/b0228e96-4d49-4c8a-b6ff-438cc6d0ed78> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2688,8 +2688,8 @@
     ccf:x_dimension 42 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/b41a293b-40dc-4423-819d-5d4d404b9919> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2699,8 +2699,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/b451caf6-4ea6-4219-a768-51f5b7b31c40> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2710,8 +2710,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/b59c2609-6445-46fe-9d9c-e3880151f8b4> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2721,8 +2721,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/b59db2c6-4759-4bc4-a933-a151a6973598> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2732,8 +2732,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/badf0175-c20b-42b9-ae81-9142666c104b> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2743,8 +2743,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/bc78cb6f-ef87-4039-8f1a-71ca18cbea22> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2754,8 +2754,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/bcdcf578-70a9-4dbb-b992-70c9441ac363> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2765,8 +2765,8 @@
     ccf:x_dimension 50 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/be6e15a8-23de-4762-aff9-74fed39b69d7> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2776,8 +2776,8 @@
     ccf:x_dimension 38 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/bf77ca89-0998-434f-83f3-6af93e02bfbf> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2787,8 +2787,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/c4ced025-2864-4763-92b4-657696589ea5> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2798,8 +2798,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/c5e5fafd-d412-44ba-8a78-acf576c6e1db> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2809,8 +2809,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/c61c3362-f4a8-4769-bbd5-77fef3dafd4a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2820,8 +2820,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/c6955fa1-d368-45d8-8afa-ca4f7417329f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2831,8 +2831,8 @@
     ccf:x_dimension 66 ;
     ccf:y_dimension 35 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/c982495f-c36f-40b9-8060-bfa94682b698> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2842,8 +2842,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/d2f5f39e-9ae4-4740-88d0-904677a28a33> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150>,
@@ -2854,8 +2854,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/d3ad4417-c802-4c1b-81d6-09566b5ae1ac> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2865,8 +2865,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/d3f5725d-ed91-42d3-ab26-bd9e5582dafb> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2876,8 +2876,8 @@
     ccf:x_dimension 48 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/d4fbfe69-e151-4844-b197-ae944df0efcf> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069> ;
@@ -2887,8 +2887,8 @@
     ccf:x_dimension 55 ;
     ccf:y_dimension 28 ;
     ccf:z_dimension 45 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/de35dab1-ecbb-40e6-b96d-78bd94b2e662> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2898,8 +2898,8 @@
     ccf:x_dimension 62 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/e25a697b-4707-4bec-a114-15971eebeb79> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2909,8 +2909,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/e2cf396b-6cfb-4f74-8b0e-ae69d7c13fc0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2920,8 +2920,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/e850ba29-fa47-406b-b4b9-3a04e8409cb0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2931,8 +2931,8 @@
     ccf:x_dimension 47 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 20 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/ec2cd1c9-f487-43fd-9aad-615e348cc4a6> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2942,8 +2942,8 @@
     ccf:x_dimension 40 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/ec6c37b2-a5a4-4e37-b8b8-a57358220e01> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -2953,8 +2953,8 @@
     ccf:x_dimension 52 ;
     ccf:y_dimension 32 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/f2fab301-665a-4e9c-8455-fa50f324e37c> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2964,8 +2964,8 @@
     ccf:x_dimension 62 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/f3310a08-642e-48e5-97ed-ba3803cf2b22> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
@@ -2975,8 +2975,8 @@
     ccf:x_dimension 67 ;
     ccf:y_dimension 30 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/fa953f32-bd49-4cc5-b99d-42a6f29507ab> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001069>,
@@ -2990,8 +2990,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-01" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/fdc49def-c17f-43d1-b366-c71ef396e49d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -3001,8 +3001,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 40 ;
-    dct:created "2023-06-02" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-02" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/fe7491a8-83f8-4f04-b344-a5cb33008de0> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001150> ;
@@ -3012,8 +3012,8 @@
     ccf:x_dimension 60 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 35 ;
-    dct:created "2023-06-15" ;
-    dct:creator "Kanako Iwasaki" .
+    dcterms:created "2023-06-15" ;
+    dcterms:creator "Kanako Iwasaki" .
 
 <http://purl.org/ccf/1.5/sennet-pancreas/001#Donor> a ccf:Donor ;
     rdfs:label "Male, Age 21, BMI 28" ;

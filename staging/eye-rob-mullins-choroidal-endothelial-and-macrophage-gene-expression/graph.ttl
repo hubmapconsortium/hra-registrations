@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 2.874e+00 ;
-    dct:created "2023-06-22" .
+    dcterms:created "2023-06-22" .
 
 <https://doi.org/10.1093/hmg/ddac043#Donor1_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 5/21/2023, D W, UIowa" ;
@@ -52,6 +52,6 @@
     ccf:x_dimension 1 ;
     ccf:y_dimension 1 ;
     ccf:z_dimension 1 ;
-    dct:created "2023-06-22" ;
-    dct:creator "D W" .
+    dcterms:created "2023-06-22" ;
+    dcterms:creator "D W" .
 

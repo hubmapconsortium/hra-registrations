@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -52,7 +52,7 @@
     ccf:z_rotation 2.613e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -18 ;
-    dct:created "5/18/2020 1:25:58 PM" .
+    dcterms:created "5/18/2020 1:25:58 PM" .
 
 <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d> ;
@@ -70,7 +70,7 @@
     ccf:z_rotation 1.004e+01 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -11 ;
-    dct:created "5/18/2020 1:34:07 PM" .
+    dcterms:created "5/18/2020 1:34:07 PM" .
 
 <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291> ;
@@ -88,7 +88,7 @@
     ccf:z_rotation 2.7803e+02 ;
     ccf:z_scaling 1 ;
     ccf:z_translation -11 ;
-    dct:created "5/18/2020 1:30:26 PM" .
+    dcterms:created "5/18/2020 1:30:26 PM" .
 
 <http://dx.doi.org/10.1681/ASN.2016091027#Donor1> a ccf:Donor ;
     rdfs:label "Patient B Cortical biopsy" ;
@@ -146,8 +146,8 @@
     ccf:x_dimension 1.08336e+00 ;
     ccf:y_dimension 4.06097e+00 ;
     ccf:z_dimension 1.128e-01 ;
-    dct:created "5/18/2020 1:25:58 PM" ;
-    dct:creator "Seth Winfree" .
+    dcterms:created "5/18/2020 1:25:58 PM" ;
+    dcterms:creator "Seth Winfree" .
 
 <http://purl.org/ccf/0.5/bd7a9bea-a726-427a-8360-8a017ef8178d> a ccf:SpatialEntity ;
     rdfs:label "CoverNephrectomy" ;
@@ -160,8 +160,8 @@
     ccf:x_dimension 3.44736e+00 ;
     ccf:y_dimension 7.776e+00 ;
     ccf:z_dimension 7.384e-02 ;
-    dct:created "5/18/2020 1:34:07 PM" ;
-    dct:creator "Seth Winfree" .
+    dcterms:created "5/18/2020 1:34:07 PM" ;
+    dcterms:creator "Seth Winfree" .
 
 <http://purl.org/ccf/0.5/c7362760-04fd-4679-a694-b25592ef0291> a ccf:SpatialEntity ;
     rdfs:label "Patient A Cortical biopsy" ;
@@ -174,6 +174,6 @@
     ccf:x_dimension 1.20013e+00 ;
     ccf:y_dimension 5.42327e+00 ;
     ccf:z_dimension 7.696e-02 ;
-    dct:created "5/18/2020 1:30:26 PM" ;
-    dct:creator "Seth Winfree" .
+    dcterms:created "5/18/2020 1:30:26 PM" ;
+    dcterms:creator "Seth Winfree" .
 

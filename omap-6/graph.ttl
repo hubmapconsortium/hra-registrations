@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation -39 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.32e+00 ;
-    dct:created "2023-06-27" .
+    dcterms:created "2023-06-27" .
 
 <http://purl.org/ccf/1.5/omap-6#Donor1_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 5/26/2023, Anna Martinez Casals, IsletCore" ;
@@ -56,6 +56,6 @@
     ccf:x_dimension 8.39e+00 ;
     ccf:y_dimension 5.99e+00 ;
     ccf:z_dimension 5e-03 ;
-    dct:created "2023-06-27" ;
-    dct:creator "Anna Martinez Casals" .
+    dcterms:created "2023-06-27" ;
+    dcterms:creator "Anna Martinez Casals" .
 

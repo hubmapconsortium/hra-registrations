@@ -1,5 +1,5 @@
 @prefix ccf: <http://purl.org/ccf/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +19,7 @@
     ccf:z_rotation -8 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.6623e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> ;
@@ -37,7 +37,7 @@
     ccf:z_rotation -7 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.07987e+02 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> ;
@@ -55,7 +55,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.27e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> ;
@@ -73,7 +73,7 @@
     ccf:z_rotation 6 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 1.5595e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483> ;
@@ -91,7 +91,7 @@
     ccf:z_rotation -5 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 6.1674e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> ;
@@ -109,7 +109,7 @@
     ccf:z_rotation 2 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.7249e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> ;
@@ -127,7 +127,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 4.7608e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> ;
@@ -145,7 +145,7 @@
     ccf:z_rotation 35 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.5266e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca> ;
@@ -163,7 +163,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 3.4759e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> ;
@@ -181,7 +181,7 @@
     ccf:z_rotation -19 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 8.221e+01 ;
-    dct:created "2022-06-08" .
+    dcterms:created "2022-06-08" .
 
 <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> ;
@@ -199,7 +199,7 @@
     ccf:z_rotation 21 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 9.5283e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> ;
@@ -217,7 +217,7 @@
     ccf:z_rotation 0 ;
     ccf:z_scaling 1 ;
     ccf:z_translation 7.1779e+01 ;
-    dct:created "2021-11-16" .
+    dcterms:created "2021-11-16" .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX#TissueBlock> a ccf:Sample ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -1345,10 +1345,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8287127#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -1835,10 +1835,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7905331#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -1961,10 +1961,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7888924#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -2052,10 +2052,10 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
-    ccf:technology "10x" ;
+    ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10X, " .
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX/H0037_Apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
@@ -2406,8 +2406,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 15 ;
     ccf:z_dimension 33 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -2419,8 +2419,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080> ;
@@ -2430,8 +2430,8 @@
     ccf:x_dimension 20 ;
     ccf:y_dimension 20 ;
     ccf:z_dimension 6 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -2444,8 +2444,8 @@
     ccf:x_dimension 16 ;
     ccf:y_dimension 16 ;
     ccf:z_dimension 14 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
@@ -2455,8 +2455,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 14 ;
     ccf:z_dimension 14 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -2474,8 +2474,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 7 ;
     ccf:z_dimension 7 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002079>,
@@ -2488,8 +2488,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 10 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -2504,8 +2504,8 @@
     ccf:x_dimension 12 ;
     ccf:y_dimension 13 ;
     ccf:z_dimension 16 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -2516,8 +2516,8 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 24 ;
     ccf:z_dimension 24 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
@@ -2534,8 +2534,8 @@
     ccf:x_dimension 6 ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 12 ;
-    dct:created "2022-06-08" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2022-06-08" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -2549,8 +2549,8 @@
     ccf:x_dimension 17 ;
     ccf:y_dimension 8 ;
     ccf:z_dimension 14 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -2568,6 +2568,6 @@
     ccf:x_dimension 15 ;
     ccf:y_dimension 9 ;
     ccf:z_dimension 18 ;
-    dct:created "2021-11-16" ;
-    dct:creator "Michela Noseda" .
+    dcterms:created "2021-11-16" ;
+    dcterms:creator "Michela Noseda" .
 

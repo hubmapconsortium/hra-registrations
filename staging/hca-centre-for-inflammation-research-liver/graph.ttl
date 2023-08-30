@@ -1,0 +1,1213 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 16 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.54924e+02 ;
+    ccf:y_rotation -4 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.31299e+02 ;
+    ccf:z_rotation 1 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.51878e+02 ;
+    dcterms:created "2023-08-24" .
+
+<http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 31 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.1924e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.59299e+02 ;
+    ccf:z_rotation 15 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.30878e+02 ;
+    dcterms:created "2023-08-24" .
+
+<http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 71 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.5692e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.35983e+02 ;
+    ccf:z_rotation 15 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.20138e+02 ;
+    dcterms:created "2023-08-24" .
+
+<http://purl.org/ccf/1.5/952347f5-d5fc-4fa8-9bdf-5488ec52a511_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/952347f5-d5fc-4fa8-9bdf-5488ec52a511> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 63 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.86607e+02 ;
+    ccf:y_rotation -7 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 9.0986e+01 ;
+    ccf:z_rotation -16 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.38638e+02 ;
+    dcterms:created "2023-08-24" .
+
+<http://purl.org/ccf/APAP1#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP1 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP1#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP1#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP10#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP10 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP10#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP10#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP2#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP2 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP2#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP2#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP3#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP3 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP3#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP3#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP4#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP4 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP4#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP4#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP5#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP5 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP5#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP5#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP6#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP6 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP6#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP6#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP7#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP7 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP7#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP7#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP8#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP8 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP8#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP8#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/APAP9#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:APAP9 ;
+    ccf:generates_dataset <http://purl.org/ccf/APAP9#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/APAP9#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/HEA1#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA1 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA1#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA1#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/952347f5-d5fc-4fa8-9bdf-5488ec52a511> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA10#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA10 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA10#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA10#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA2#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA2 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA2#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA2#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA3#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA3 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA3#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA3#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA4#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA4 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA4#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA4#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA5#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA5 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA5#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA5#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA6#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA6 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA6#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA6#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA7#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA7 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA7#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA7#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA8#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA8 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA8#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA8#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/952347f5-d5fc-4fa8-9bdf-5488ec52a511> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/HEA9#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:HEA9 ;
+    ccf:generates_dataset <http://purl.org/ccf/HEA9#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/HEA9#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/952347f5-d5fc-4fa8-9bdf-5488ec52a511> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Healthy tissue block" .
+
+<http://purl.org/ccf/NAE1#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE1 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE1#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE1#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE10#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE10 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE10#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE10#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE11#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE11 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE11#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE11#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE12#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE12 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE12#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE12#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE2#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE2 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE2#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE2#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE3#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE3 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE3#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE3#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE4#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE4 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE4#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE4#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE5#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE5 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE5#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE5#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE6#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE6 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE6#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE6#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE7#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE7 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE7#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE7#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE8#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE8 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE8#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE8#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+<http://purl.org/ccf/NAE9#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Jordan Portman, UEdinburgh" ;
+    ccf:comes_from ccf:NAE9 ;
+    ccf:generates_dataset <http://purl.org/ccf/NAE9#TissueBlock1_TissueBlock1_Dataset1>,
+        <http://purl.org/ccf/NAE9#TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Diseased tissue block" .
+
+ccf:APAP1 a ccf:Donor ;
+    rdfs:label "Male, Age 19, Patient APAP1" ;
+    ccf:age 19 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP1#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP1#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP10 a ccf:Donor ;
+    rdfs:label "Female, Age 48, Patient APAP10" ;
+    ccf:age 48 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP10#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP10#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP2 a ccf:Donor ;
+    rdfs:label "Female, Age 23, Patient APAP2" ;
+    ccf:age 23 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP2#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP2#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP3 a ccf:Donor ;
+    rdfs:label "Male, Age 66, Patient APAP3" ;
+    ccf:age 66 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP3#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP3#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP4 a ccf:Donor ;
+    rdfs:label "Male, Age 28, Patient APAP4" ;
+    ccf:age 38 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP4#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP4#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP5 a ccf:Donor ;
+    rdfs:label "Female, Age 37, Patient APAP5" ;
+    ccf:age 37 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP5#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP5#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP6 a ccf:Donor ;
+    rdfs:label "Female, Age 45, Patient APAP6" ;
+    ccf:age 45 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP6#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP6#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP7 a ccf:Donor ;
+    rdfs:label "Female, Age 48, Patient APAP7" ;
+    ccf:age 48 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP7#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP7#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP8 a ccf:Donor ;
+    rdfs:label "Female, Age 46, Patient APAP8" ;
+    ccf:age 46 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP8#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP8#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:APAP9 a ccf:Donor ;
+    rdfs:label "Male, Age 41, Patient APAP9" ;
+    ccf:age 41 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/APAP9#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/APAP9#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA1 a ccf:Donor ;
+    rdfs:label "Female, Age 62, Patient HEA1" ;
+    ccf:age 62 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA1#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA1#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA10 a ccf:Donor ;
+    rdfs:label "Male, Age 80, Patient HEA10" ;
+    ccf:age 80 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA10#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA10#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA2 a ccf:Donor ;
+    rdfs:label "Male, Age 70, Patient HEA2" ;
+    ccf:age 70 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA2#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA2#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA3 a ccf:Donor ;
+    rdfs:label "Male, Age 39, Patient HEA3" ;
+    ccf:age 39 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA3#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA3#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA4 a ccf:Donor ;
+    rdfs:label "Male, Age 59, Patient HEA4" ;
+    ccf:age 59 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA4#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA4#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA5 a ccf:Donor ;
+    rdfs:label "Male, Age 70, Patient HEA5" ;
+    ccf:age 70 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA5#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA5#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA6 a ccf:Donor ;
+    rdfs:label "Male, Age 71, Patient HEA6" ;
+    ccf:age 71 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA6#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA6#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA7 a ccf:Donor ;
+    rdfs:label "Male, Age 67, Patient HEA7" ;
+    ccf:age 67 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA7#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA7#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA8 a ccf:Donor ;
+    rdfs:label "Female, Age 64, Patient HEA8" ;
+    ccf:age 64 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA8#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA8#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:HEA9 a ccf:Donor ;
+    rdfs:label "Female, Age 57, Patient HEA9" ;
+    ccf:age 57 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/HEA9#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/HEA9#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE1 a ccf:Donor ;
+    rdfs:label "Male, Age 32, Patient NAE1" ;
+    ccf:age 32 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE1#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE1#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE10 a ccf:Donor ;
+    rdfs:label "Female, Age 56, Patient NAE10" ;
+    ccf:age 56 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE10#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE10#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE11 a ccf:Donor ;
+    rdfs:label "Female, Age 61, Patient NAE11" ;
+    ccf:age 61 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE11#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE11#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE12 a ccf:Donor ;
+    rdfs:label "Female, Age 50, Patient NAE12" ;
+    ccf:age 50 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE12#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE12#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE2 a ccf:Donor ;
+    rdfs:label "Male, Age 53, Patient NAE2" ;
+    ccf:age 53 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE2#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE2#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE3 a ccf:Donor ;
+    rdfs:label "Female, Age 48, Patient NAE3" ;
+    ccf:age 48 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE3#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE3#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE4 a ccf:Donor ;
+    rdfs:label "Female, Age 58, Patient NAE4" ;
+    ccf:age 58 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE4#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE4#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE5 a ccf:Donor ;
+    rdfs:label "Female, Age 60, Patient NAE5" ;
+    ccf:age 60 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE5#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE5#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE6 a ccf:Donor ;
+    rdfs:label "Male, Age 29, Patient NAE6" ;
+    ccf:age 29 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE6#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE6#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE7 a ccf:Donor ;
+    rdfs:label "Female, Age 60, Patient NAE7" ;
+    ccf:age 60 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE7#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE7#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE8 a ccf:Donor ;
+    rdfs:label "Female, Age 59, Patient NAE8" ;
+    ccf:age 59 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE8#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE8#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+ccf:NAE9 a ccf:Donor ;
+    rdfs:label "Female, Age 68, Patient NAE9" ;
+    ccf:age 68 ;
+    ccf:consortium_name "UEdinburgh" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "CIR/UEdinburgh" ;
+    ccf:tissue_provider_uuid "b27cb053-cf97-498b-b9d6-0854155e9df6" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Entered 8/24/2023, Jordan Portman, UEdinburgh" .
+
+<http://purl.org/ccf/NAE9#TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/NAE9#TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Jordan Portman, CIR/UEdinburgh" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+<http://purl.org/ccf/1.5/952347f5-d5fc-4fa8-9bdf-5488ec52a511> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001115>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479> ;
+    ccf:creator_first_name "Jordan" ;
+    ccf:creator_last_name "Portman" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Jordan Portman" .
+
+<http://purl.org/ccf/1.5/2a823e94-6653-4c8c-b270-0c75bd1a58e8> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001115>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479> ;
+    ccf:creator_first_name "Jordan" ;
+    ccf:creator_last_name "Portman" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Jordan Portman" .
+
+<http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001149>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479> ;
+    ccf:creator_first_name "Jordan" ;
+    ccf:creator_last_name "Portman" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Jordan Portman" .
+
+<http://purl.org/ccf/1.5/92c7d973-67c3-4548-b386-51591184367e> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001149>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479> ;
+    ccf:creator_first_name "Jordan" ;
+    ccf:creator_last_name "Portman" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Jordan Portman" .
+
