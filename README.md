@@ -5,6 +5,7 @@ This repository holds static registrations for use in the EUI and other HRA Appl
 ## Hosted Registration Sets:
 
 * [allen-institute](https://hubmapconsortium.github.io/hra-registrations/allen-institute/)
+* [ctpop](https://hubmapconsortium.github.io/hra-registrations/ctpop/)
 * [eye-rob-mullins-macula-and-periphery](https://hubmapconsortium.github.io/hra-registrations/eye-rob-mullins-macula-and-periphery/)
 * [federated](https://hubmapconsortium.github.io/hra-registrations/federated/)
 * [gtex](https://hubmapconsortium.github.io/hra-registrations/gtex/)

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- imports:
+    - ./23-hbm-flagship-atkinson/rui_locations.jsonld
+    - ./23-hbm-flagship-bluelake/rui_locations.jsonld
+    - ./23-hbm-flagship-ginty/rui_locations.jsonld
+    - ./23-hbm-flagship-hickey/rui_locations.jsonld
+    - ./23-hbm-flagship-spraggins/rui_locations.jsonld
+    - ./allen-institute
+    - ./gtex
+    - ./hca-heart-nathan-tucker
+    - ./hca-heart-teichmann
+    - ./hca-kerstin-meyer-lung-4x1x1
+    - ./kpmp
+    - ./nhlbi-lungmap-allen-wang
+    - ./omap-1
+    - ./omap-6
+    - ./peter-sorger-colon-sample-crc1
+    - ./sea-ad
+    - ./sparc
