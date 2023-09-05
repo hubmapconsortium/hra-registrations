@@ -954,24 +954,6 @@
     ccf:z_translation 1.7279e+01 ;
     dcterms:created "2021-03-16" .
 
-<http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3_placement> a ccf:SpatialPlacement ;
-    ccf:placement_for <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> ;
-    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMAllenBrain> ;
-    ccf:rotation_order "XYZ" ;
-    ccf:rotation_unit "degree" ;
-    ccf:scaling_unit "ratio" ;
-    ccf:translation_unit "millimeter" ;
-    ccf:x_rotation 0 ;
-    ccf:x_scaling 1 ;
-    ccf:x_translation 1.33347e+02 ;
-    ccf:y_rotation 6 ;
-    ccf:y_scaling 1 ;
-    ccf:y_translation 5.793e+01 ;
-    ccf:z_rotation -10 ;
-    ccf:z_scaling 1 ;
-    ccf:z_translation 6.4154e+01 ;
-    dcterms:created "2023-02-20" .
-
 <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightEye> ;
@@ -1393,24 +1375,6 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 6.7149e+01 ;
     dcterms:created "2021-03-16" .
-
-<http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1_placement> a ccf:SpatialPlacement ;
-    ccf:placement_for <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> ;
-    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFAllenBrain> ;
-    ccf:rotation_order "XYZ" ;
-    ccf:rotation_unit "degree" ;
-    ccf:scaling_unit "ratio" ;
-    ccf:translation_unit "millimeter" ;
-    ccf:x_rotation 0 ;
-    ccf:x_scaling 1 ;
-    ccf:x_translation 1.33377e+02 ;
-    ccf:y_rotation 6 ;
-    ccf:y_scaling 1 ;
-    ccf:y_translation 5.8048e+01 ;
-    ccf:z_rotation -10 ;
-    ccf:z_scaling 1 ;
-    ccf:z_translation 6.552e+01 ;
-    dcterms:created "2023-02-20" .
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock> a ccf:Sample ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
@@ -3530,28 +3494,6 @@
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
-<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
-    ccf:comes_from <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1> ;
-    ccf:generates_dataset <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 5 ;
-    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
-    rdfs:comment "4 x 5 x 5 millimeter, 5 millimeter" .
-
-<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 1/19/2023, Eitan Kaplan, SEA-AD" ;
-    ccf:comes_from <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2> ;
-    ccf:generates_dataset <https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 5 ;
-    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
-    rdfs:comment "4 x 5 x 5 millimeter, 5 millimeter" .
-
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
     ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.001> ;
@@ -3629,6 +3571,7 @@
 
 <http://dx.doi.org/10.1681/ASN.2016091027#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:publication "http://dx.doi.org/10.1681/ASN.2016091027" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/kpmp/assets/logo.jpg" ;
     ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
     rdfs:comment "Data/Assay Types: Cytometry" .
@@ -3644,6 +3587,7 @@
 
 <http://dx.doi.org/10.1681/ASN.2016091027#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:publication "http://dx.doi.org/10.1681/ASN.2016091027" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/kpmp/assets/logo.jpg" ;
     ccf:url "http://dx.doi.org/10.1681/ASN.2016091027" ;
     rdfs:comment "Data/Assay Types: Cytometry" .
@@ -3659,6 +3603,7 @@
 
 <http://dx.doi.org/10.1681/ASN.2016091027#Donor3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 4/18/2020, Seth Winfree, KPMP-IU/OSU" ;
+    ccf:publication "http://dx.doi.org/10.1681/ASN.2016091027" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/kpmp/assets/logo.jpg" ;
     ccf:url "http://dx.doi.org/10.1016/j.trsl.2017.07.006" ;
     rdfs:comment "Data/Assay Types: undefined, " .
@@ -3675,6 +3620,7 @@
 
 <http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3692,6 +3638,7 @@
 
 <http://purl.org/ccf/1.5/NHLBI/D046#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3709,6 +3656,7 @@
 
 <http://purl.org/ccf/1.5/NHLBI/D110#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3726,6 +3674,7 @@
 
 <http://purl.org/ccf/1.5/NHLBI/D122#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3743,6 +3692,7 @@
 
 <http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3760,6 +3710,7 @@
 
 <http://purl.org/ccf/1.5/NHLBI/D175#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3777,6 +3728,7 @@
 
 <http://purl.org/ccf/1.5/NHLBI/D231#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
@@ -3794,12 +3746,14 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: 10x" .
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset3> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "10X" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -3807,6 +3761,7 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: undefined, " .
@@ -3822,12 +3777,14 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: 10x" .
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "10X" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -3844,12 +3801,14 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -3866,12 +3825,14 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -3888,12 +3849,14 @@
 
 <http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -3909,6 +3872,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection/LV_1221_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -3924,6 +3888,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection/RA_1221_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -3940,6 +3905,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -3947,6 +3913,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -3963,6 +3930,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -3970,6 +3938,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -3986,6 +3955,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -3993,6 +3963,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4009,6 +3980,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4016,6 +3988,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4032,6 +4005,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection/LV_1666_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4039,6 +4013,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LVT#issueBlock/LV_1666#TissueSection/LV_1666_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4055,6 +4030,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection/RV_1666_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4062,6 +4038,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RVT#issueBlock/RV_1666#TissueSection/RV_1666_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4078,6 +4055,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4085,6 +4063,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4101,6 +4080,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection/LV_1681_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4108,6 +4088,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LVT#issueBlock/LV_1681#TissueSection/LV_1681_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4124,6 +4105,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection/RA_1681_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4131,6 +4113,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RAT#issueBlock/RA_1681#TissueSection/RA_1681_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4147,6 +4130,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4154,6 +4138,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4170,6 +4155,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4177,6 +4163,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4193,6 +4180,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4200,6 +4188,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4216,6 +4205,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4223,6 +4213,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4239,6 +4230,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4246,6 +4238,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4262,6 +4255,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4269,6 +4263,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4285,6 +4280,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4292,6 +4288,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4308,6 +4305,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4315,6 +4313,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4331,6 +4330,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4338,6 +4338,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4354,6 +4355,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4361,6 +4363,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4377,6 +4380,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4384,6 +4388,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4400,6 +4405,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_1#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4407,6 +4413,7 @@
 
 <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
@@ -4414,6 +4421,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7606896#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4421,6 +4429,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7964513#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4428,6 +4437,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA/HCAHeart7698017#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4435,6 +4445,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7664652#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4442,6 +4453,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7698015#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4449,6 +4461,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV/HCAHeart7698016#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4456,6 +4469,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102862#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4463,6 +4477,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102868#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4470,6 +4485,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8287128#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4477,6 +4493,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102858#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4484,6 +4501,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102864#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4491,6 +4509,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8287123#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4498,6 +4517,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102859#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4505,6 +4525,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102865#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4512,6 +4533,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8287124#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4519,6 +4541,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102857#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4526,6 +4549,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102863#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4533,6 +4557,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8287125#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4540,6 +4565,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102860#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4547,6 +4573,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102866#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4554,6 +4581,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8287126#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4561,6 +4589,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102861#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4568,6 +4597,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4575,6 +4605,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8287127#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4582,6 +4613,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702881#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4589,6 +4621,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702882#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4596,6 +4629,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702876#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4603,6 +4637,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702877#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4610,6 +4645,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7664653#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4617,6 +4653,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7702873#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4624,6 +4661,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702878#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4631,6 +4669,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702879#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4638,6 +4677,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702874#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4645,6 +4685,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702875#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4652,6 +4693,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7656539#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4659,6 +4701,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7702880#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4666,6 +4709,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7656538#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4673,6 +4717,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7829977#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4680,6 +4725,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7656536#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4687,6 +4733,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7757638#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4694,6 +4741,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7985088#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4701,6 +4749,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7656534#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4708,6 +4757,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7664654#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4715,6 +4765,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7757636#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4722,6 +4773,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7985086#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4729,6 +4781,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7829976#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4736,6 +4789,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7985089#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4743,6 +4797,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7656535#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4750,6 +4805,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7757637#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4757,6 +4813,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7985087#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4764,6 +4821,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7656537#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4771,6 +4829,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7757639#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4778,6 +4837,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7728609#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4785,6 +4845,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7833855#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4792,6 +4853,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7728606#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4799,6 +4861,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7833852#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4806,6 +4869,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7728604#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4813,6 +4877,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7829978#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4820,6 +4885,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7728607#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4827,6 +4893,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7833853#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4834,6 +4901,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7728605#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4841,6 +4909,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7829979#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4848,6 +4917,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7728608#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4855,6 +4925,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7833854#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4862,6 +4933,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7751845#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4869,6 +4941,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7836684#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4876,6 +4949,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7745968#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4883,6 +4957,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7836681#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4890,6 +4965,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7745966#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4897,6 +4973,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7835148#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4904,6 +4981,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7745969#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4911,6 +4989,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7836682#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4918,6 +4997,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7745967#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4925,6 +5005,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7835149#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4932,6 +5013,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7745970#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4939,6 +5021,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7836683#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4946,6 +5029,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7844004#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4953,6 +5037,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7888927#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4960,6 +5045,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7905332#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4967,6 +5053,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7844001#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4974,6 +5061,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7880862#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4981,6 +5069,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7905329#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4988,6 +5077,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7843999#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -4995,6 +5085,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7880860#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5002,6 +5093,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7905327#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5009,6 +5101,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7844002#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5016,6 +5109,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7880863#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5023,6 +5117,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7905330#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5030,6 +5125,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7844000#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5037,6 +5133,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7880861#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5044,6 +5141,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7905328#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5051,6 +5149,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7844003#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5058,6 +5157,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5065,6 +5165,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7905331#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5072,6 +5173,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850544#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5079,6 +5181,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850551#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5086,6 +5189,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7888925#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5093,6 +5197,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850541#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5100,6 +5205,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850547#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5107,6 +5213,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7888929#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5114,6 +5221,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850539#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5121,6 +5229,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850545#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5128,6 +5237,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7888922#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5135,6 +5245,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850542#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5142,6 +5253,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850548#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5149,6 +5261,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7888923#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5156,6 +5269,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850540#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5163,6 +5277,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850546#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5170,6 +5285,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7888928#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5177,6 +5293,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850543#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5184,6 +5301,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5191,6 +5309,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7888924#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5198,6 +5317,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX/H0026_apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5205,6 +5325,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA/H0026_LA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5212,6 +5333,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV/H0026_LV_V3#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5219,6 +5341,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA/H0026_RA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5226,6 +5349,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV/H0026_RV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5233,6 +5357,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP/H0026_septum2#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5240,6 +5365,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX/H0025_apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5247,6 +5373,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA/H0025_LA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5254,6 +5381,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV/H0025_LV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5261,6 +5389,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA/H0025_RA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5268,6 +5397,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV/H0025_RV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5275,6 +5405,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5282,6 +5413,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX/H0037_Apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5289,6 +5421,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5296,6 +5429,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA_corr#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5303,6 +5437,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV/H0037_LV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5310,6 +5445,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5317,6 +5453,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA_corr#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5324,6 +5461,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV/H0037_RV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5331,6 +5469,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP/H0037_septum#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5338,6 +5477,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX/H0015_apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5345,6 +5485,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA/H0015_LA_new#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5352,6 +5493,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV/H0015_LV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5359,6 +5501,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA/H0015_RA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5366,6 +5509,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV/H0015_RV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5373,6 +5517,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP/H0015_septum#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5380,6 +5525,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX/H0020_apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5387,6 +5533,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA/H0020_LA_new#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5394,6 +5541,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV/H0020_LV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5401,6 +5549,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA/H0020_RA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5408,6 +5557,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV/H0020_RV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5415,6 +5565,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP/H0020_septum#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5422,6 +5573,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX/H0035_apex#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5429,6 +5581,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA/H0035_LA_new#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5436,6 +5589,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV/H0035_LV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5443,6 +5597,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA/H0035_RA#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 5/7/2022, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5450,6 +5605,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV/H0035_RV#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5457,6 +5613,7 @@
 
 <http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP/H0035_septum#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 10/15/2021, Michela Noseda, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-020-2797-4" ;
     ccf:technology "10X" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://doi.org/10.1038/s41586-020-2797-4" ;
@@ -5490,6 +5647,7 @@
 
 <http://purl.org/ccf/1.5/omap-6#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 5/26/2023, Anna Martinez Casals, IsletCore" ;
+    ccf:publication "https://doi.org/10.5281/zenodo.7742474" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://zenodo.org/record/7742474" ;
@@ -5515,6 +5673,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5531,6 +5690,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5547,6 +5707,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5563,6 +5724,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5579,6 +5741,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5595,6 +5758,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5611,6 +5775,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5627,6 +5792,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5643,6 +5809,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5659,6 +5826,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5666,6 +5834,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5691,6 +5860,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5707,6 +5877,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5723,6 +5894,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5739,6 +5911,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5755,6 +5928,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5771,6 +5945,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5787,6 +5962,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5794,6 +5970,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5810,6 +5987,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5826,6 +6004,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5842,6 +6021,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5858,6 +6038,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5874,6 +6055,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5890,6 +6072,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5906,6 +6089,7 @@
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
     ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
@@ -5913,6 +6097,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5920,6 +6105,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5927,6 +6113,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor1_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5934,6 +6121,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5941,6 +6129,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5948,6 +6137,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor2_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5955,6 +6145,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5962,6 +6153,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5969,6 +6161,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor3_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5976,6 +6169,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5983,6 +6177,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5990,6 +6185,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor4_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -5997,6 +6193,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock2_TissueBlock2_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6004,6 +6201,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock3_TissueBlock3_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6011,6 +6209,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x#Donor5_TissueBlock4_TissueBlock4_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6018,6 +6217,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x/343B#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6025,6 +6225,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x/356C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6032,6 +6233,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x/367C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6039,6 +6241,7 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x/368C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
@@ -6046,42 +6249,11 @@
 
 <https://doi.org/10.1186/s13059-019-1906-x/390C#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" ;
+    ccf:publication "https://doi.org/10.1186/s13059-019-1906-x" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/logo.jpg" ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
-
-<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1> a ccf:Donor ;
-    rdfs:label "Females, Middle Temporal Gyrus" ;
-    ccf:consortium_name "SEA-AD" ;
-    ccf:sex "Female" ;
-    ccf:tissue_provider_name "SEA-AD" ;
-    ccf:tissue_provider_uuid "d97e6b70-5aca-4694-806b-5dc57e4f42c4" ;
-    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
-    rdfs:comment "Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples." .
-
-<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 1/19/2023, Rebecca Hodge, SEA-AD" ;
-    ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/sea-ad/assets/logo.jpg" ;
-    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
-    rdfs:comment "10x 3' v3 & 10x multiome" .
-
-<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2> a ccf:Donor ;
-    rdfs:label "Males, Middle Temporal Gyrus Male" ;
-    ccf:consortium_name "SEA-AD" ;
-    ccf:sex "Male" ;
-    ccf:tissue_provider_name "SEA-AD" ;
-    ccf:tissue_provider_uuid "d97e6b70-5aca-4694-806b-5dc57e4f42c4" ;
-    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
-    rdfs:comment "Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples." .
-
-<https://portal.brain-map.org/explore/seattle-alzheimers-disease#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 1/19/2023, Eitan Kaplan, SEA-AD" ;
-    ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/sea-ad/assets/logo.jpg" ;
-    ccf:url "https://portal.brain-map.org/explore/seattle-alzheimers-disease" ;
-    rdfs:comment "10x 3' v3 & 10x multiome" .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
@@ -6094,12 +6266,14 @@
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: 10x" .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "10X" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -6116,12 +6290,14 @@
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -6138,12 +6314,14 @@
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -6160,12 +6338,14 @@
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -6182,12 +6362,14 @@
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -6204,12 +6386,14 @@
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "Data/Assay Types: SSv4" .
 
 <https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
@@ -6643,17 +6827,6 @@
     dcterms:created "2021-03-16" ;
     dcterms:creator "Peter Hanna" .
 
-<http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002771> ;
-    ccf:creator_first_name "Eitan" ;
-    ccf:creator_last_name "Kaplan" ;
-    ccf:dimension_unit "millimeter" ;
-    ccf:x_dimension 4 ;
-    ccf:y_dimension 5 ;
-    ccf:z_dimension 5 ;
-    dcterms:created "2023-02-20" ;
-    dcterms:creator "Eitan Kaplan" .
-
 <http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
         <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -6819,17 +6992,6 @@
     ccf:z_dimension 10 ;
     dcterms:created "2021-03-16" ;
     dcterms:creator "Peter Hanna" .
-
-<http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002771> ;
-    ccf:creator_first_name "Rebecca" ;
-    ccf:creator_last_name "Hodge" ;
-    ccf:dimension_unit "millimeter" ;
-    ccf:x_dimension 4 ;
-    ccf:y_dimension 5 ;
-    ccf:z_dimension 5 ;
-    dcterms:created "2023-02-20" ;
-    dcterms:creator "Rebecca Hodge" .
 
 <http://purl.org/ccf/1.5/broad-institute/P1600#Donor> a ccf:Donor ;
     rdfs:label "Female, 51" ;
