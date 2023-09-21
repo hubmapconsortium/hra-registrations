@@ -9,6 +9,7 @@ This repository holds static registrations for use in the EUI and other HRA Appl
 * [eye-rob-mullins-macula-and-periphery](https://hubmapconsortium.github.io/hra-registrations/eye-rob-mullins-macula-and-periphery/)
 * [federated](https://hubmapconsortium.github.io/hra-registrations/federated/)
 * [gtex](https://hubmapconsortium.github.io/hra-registrations/gtex/)
+* [hca-centre-for-inflammation-research-liver](https://hubmapconsortium.github.io/hra-registrations/hca-centre-for-inflammation-research-liver/)
 * [hca-heart-nathan-tucker](https://hubmapconsortium.github.io/hra-registrations/hca-heart-nathan-tucker/)
 * [hca-heart-teichmann](https://hubmapconsortium.github.io/hra-registrations/hca-heart-teichmann/)
 * [hca-kerstin-meyer-lung-4x1x1](https://hubmapconsortium.github.io/hra-registrations/hca-kerstin-meyer-lung-4x1x1/)
