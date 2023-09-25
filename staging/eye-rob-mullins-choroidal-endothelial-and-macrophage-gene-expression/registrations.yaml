@@ -7,6 +7,7 @@
     id: https://doi.org/10.1093/hmg/ddac043
     thumbnail: assets/logo.jpg
     link: https://doi.org/10.1093/hmg/ddac043
+    publication: https://doi.org/10.1093/hmg/ddac043
   donors:
     - sex: Female #Donor1
       age: 75
@@ -64,7 +65,7 @@
       age: 77
       samples:
         rui_location: female-left-macula.json
-     - sex: Male #Donor15
+    - sex: Male #Donor15
       age: 90
       samples:
         rui_location: male-left-macula.json
