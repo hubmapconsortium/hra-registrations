@@ -243,7 +243,8 @@
     rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.org/sig/ont/fma/fma7360>,
         <http://purl.org/sig/ont/fma/fma7361>,
         <http://purl.org/sig/ont/fma/fma7401> ;
     ccf:creator_first_name "Allen" ;
@@ -256,7 +257,8 @@
     dcterms:creator "Allen Wang" .
 
 <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.org/sig/ont/fma/fma7360>,
         <http://purl.org/sig/ont/fma/fma7361>,
         <http://purl.org/sig/ont/fma/fma7363>,
         <http://purl.org/sig/ont/fma/fma7401> ;

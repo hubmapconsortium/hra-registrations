@@ -90,6 +90,24 @@
     ccf:z_translation -11 ;
     dcterms:created "5/18/2020 1:30:26 PM" .
 
+<http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFRightEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.4456e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2206e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.874e+00 ;
+    dcterms:created "2023-09-20" .
+
 <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
@@ -594,6 +612,42 @@
     ccf:z_translation 3.374e+00 ;
     dcterms:created "2023-06-28" .
 
+<http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.1456e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.1706e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.374e+00 ;
+    dcterms:created "2023-09-20" .
+
+<http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.3956e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2206e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.374e+00 ;
+    dcterms:created "2023-09-20" .
+
 <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
@@ -720,6 +774,24 @@
     ccf:z_translation 1.30878e+02 ;
     dcterms:created "2023-08-24" .
 
+<http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.2956e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2206e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.874e+00 ;
+    dcterms:created "2023-09-20" .
+
 <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/65bf9340-50c8-4e50-b1d0-72b58bf5505a> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1> ;
@@ -737,6 +809,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 3.9571e+01 ;
     dcterms:created "2023-08-08" .
+
+<http://purl.org/ccf/1.5/65e670b9-0e19-4f99-ae53-a35b7905d3e9_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/65e670b9-0e19-4f99-ae53-a35b7905d3e9> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.2956e+01 ;
+    ccf:y_rotation 90 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2206e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.2874e+01 ;
+    dcterms:created "2023-09-20" .
 
 <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
@@ -827,6 +917,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 6.756e+00 ;
     dcterms:created "2023-08-04" .
+
+<http://purl.org/ccf/1.5/713656a8-6de4-4c9c-95a1-3b93d4bcb68a_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/713656a8-6de4-4c9c-95a1-3b93d4bcb68a> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.3956e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.1706e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.374e+00 ;
+    dcterms:created "2023-09-20" .
 
 <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> ;
@@ -989,6 +1097,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 1.7279e+01 ;
     dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/8dfe6424-9e75-4aef-aa47-f56f9ebb45cf_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/8dfe6424-9e75-4aef-aa47-f56f9ebb45cf> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.456e+00 ;
+    ccf:y_rotation 90 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2207e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.2246e+01 ;
+    dcterms:created "2023-09-20" .
 
 <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc> ;
@@ -1300,6 +1426,42 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 4.2069e+01 ;
     dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/ae578370-ba1b-4787-84e6-3d02f51925fd_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ae578370-ba1b-4787-84e6-3d02f51925fd> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.706e+00 ;
+    ccf:y_rotation 90 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.1648e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.1374e+01 ;
+    dcterms:created "2023-09-20" .
+
+<http://purl.org/ccf/1.5/aed87a98-9e42-49bc-8afc-4a5c3f24008d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/aed87a98-9e42-49bc-8afc-4a5c3f24008d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.3956e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2706e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.874e+00 ;
+    dcterms:created "2023-09-20" .
 
 <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> ;
@@ -1855,6 +2017,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 5.2221e+01 ;
     dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/f07f4f9f-a840-4cfc-b28f-73c79d54994f_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f07f4f9f-a840-4cfc-b28f-73c79d54994f> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMRightEye> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.0456e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.1706e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.874e+00 ;
+    dcterms:created "2023-09-20" .
 
 <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/f0929253-c143-486e-a1dd-d2d8aa14eadd> ;
@@ -3272,6 +3452,86 @@
     ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
     rdfs:comment "Diseased tissue block" .
 
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/713656a8-6de4-4c9c-95a1-3b93d4bcb68a> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor1_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ae578370-ba1b-4787-84e6-3d02f51925fd> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f07f4f9f-a840-4cfc-b28f-73c79d54994f> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor2_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/65e670b9-0e19-4f99-ae53-a35b7905d3e9> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor3_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor3> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/aed87a98-9e42-49bc-8afc-4a5c3f24008d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor3_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor3> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/8dfe6424-9e75-4aef-aa47-f56f9ebb45cf> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor4_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor4> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/aed87a98-9e42-49bc-8afc-4a5c3f24008d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor4_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1016/j.ajpath.2023.01.012#Donor4> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/8dfe6424-9e75-4aef-aa47-f56f9ebb45cf> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-02 ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "8 x 8 x 0.02 millimeter, 0.02 millimeter" .
+
 <https://doi.org/10.1073/pnas.1914143116#Donor1_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 5/27/2023, Robert Mullins, UIowa" ;
     ccf:comes_from <https://doi.org/10.1073/pnas.1914143116#Donor1> ;
@@ -3411,6 +3671,216 @@
     ccf:section_size 1 ;
     ccf:url "https://doi.org/10.1073/pnas.1914143116" ;
     rdfs:comment "10 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor10_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor10> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor11_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor11> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor12_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor12> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor13_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor13> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor14_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor14> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor15_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor15> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor16_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor16> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor17_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor17> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor18_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor18> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor19_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor19> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor20_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor20> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor21_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor21> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor3_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor3> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor4_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor4> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor5_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor5> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor6_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor6> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor7_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor7> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor8_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor8> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor9_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/19/2023, Robert Mullins, UIowa" ;
+    ccf:comes_from <https://doi.org/10.1093/hmg/ddac043#Donor9> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 2e-01 ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "12 x 12 x 0.2 millimeter, 0.2 millimeter" .
 
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
@@ -6813,6 +7283,216 @@ ccf:NAE9 a ccf:Donor ;
     ccf:url "https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1" ;
     rdfs:comment "Data/Assay Types: undefined, " .
 
+<https://doi.org/10.1093/hmg/ddac043#Donor1> a ccf:Donor ;
+    rdfs:label "Female, Age 75" ;
+    ccf:age 75 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor10> a ccf:Donor ;
+    rdfs:label "Male, Age 83" ;
+    ccf:age 83 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor11> a ccf:Donor ;
+    rdfs:label "Female, Age 92" ;
+    ccf:age 92 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor12> a ccf:Donor ;
+    rdfs:label "Male, Age 80" ;
+    ccf:age 80 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor13> a ccf:Donor ;
+    rdfs:label "Male, Age 90" ;
+    ccf:age 90 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor14> a ccf:Donor ;
+    rdfs:label "Female, Age 77" ;
+    ccf:age 77 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor15> a ccf:Donor ;
+    rdfs:label "Male, Age 90" ;
+    ccf:age 90 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor16> a ccf:Donor ;
+    rdfs:label "Male, Age 84" ;
+    ccf:age 84 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor17> a ccf:Donor ;
+    rdfs:label "Female, Age 77" ;
+    ccf:age 77 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor18> a ccf:Donor ;
+    rdfs:label "Male, Age 78" ;
+    ccf:age 78 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor19> a ccf:Donor ;
+    rdfs:label "Female, Age 86" ;
+    ccf:age 86 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor2> a ccf:Donor ;
+    rdfs:label "Male, Age 77" ;
+    ccf:age 77 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor20> a ccf:Donor ;
+    rdfs:label "Female, Age 91" ;
+    ccf:age 91 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor21> a ccf:Donor ;
+    rdfs:label "Female, Age 92" ;
+    ccf:age 92 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor3> a ccf:Donor ;
+    rdfs:label "Male, Age 61" ;
+    ccf:age 61 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor4> a ccf:Donor ;
+    rdfs:label "Female, Age 77" ;
+    ccf:age 77 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor5> a ccf:Donor ;
+    rdfs:label "Male, Age 63" ;
+    ccf:age 63 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor6> a ccf:Donor ;
+    rdfs:label "Female, Age 79" ;
+    ccf:age 79 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor7> a ccf:Donor ;
+    rdfs:label "Male, Age 64" ;
+    ccf:age 64 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor8> a ccf:Donor ;
+    rdfs:label "Female, Age 76" ;
+    ccf:age 76 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1093/hmg/ddac043#Donor9> a ccf:Donor ;
+    rdfs:label "Male, Age 81" ;
+    ccf:age 81 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1093/hmg/ddac043" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
 <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1> a ccf:Donor ;
     rdfs:label "Apical Septum Female" ;
     ccf:consortium_name "SPARC" ;
@@ -7890,6 +8570,19 @@ ccf:NAE9 a ccf:Donor ;
     dcterms:created "2021-03-19" ;
     dcterms:creator "Peter Hanna" .
 
+<http://purl.org/ccf/1.5/65e670b9-0e19-4f99-ae53-a35b7905d3e9> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma58271>,
+        <http://purl.org/sig/ont/fma/fma58299>,
+        <http://purl.org/sig/ont/fma/fma58302> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 8 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2e-02 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
+
 <http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
         <http://purl.obolibrary.org/obo/UBERON_0002084>,
@@ -7933,6 +8626,16 @@ ccf:NAE9 a ccf:Donor ;
     ccf:z_dimension 12 ;
     dcterms:created "2023-08-04" ;
     dcterms:creator "Andrea Radtke" .
+
+<http://purl.org/ccf/1.5/713656a8-6de4-4c9c-95a1-3b93d4bcb68a> a ccf:SpatialEntity ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 8 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2e-02 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
@@ -8076,6 +8779,16 @@ ccf:NAE9 a ccf:Donor ;
     dcterms:created "2021-03-19" ;
     dcterms:creator "Peter Hanna" .
 
+<http://purl.org/ccf/1.5/ae578370-ba1b-4787-84e6-3d02f51925fd> a ccf:SpatialEntity ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 8 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2e-02 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
+
 <http://purl.org/ccf/1.5/allen-brain/H18.30.002> a ccf:Donor ;
     rdfs:label "Male, Age 50" ;
     ccf:age 50 ;
@@ -8211,6 +8924,23 @@ ccf:NAE9 a ccf:Donor ;
     dcterms:created "2021-03-19" ;
     dcterms:creator "Peter Hanna" .
 
+<http://purl.org/ccf/1.5/f07f4f9f-a840-4cfc-b28f-73c79d54994f> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma261236>,
+        <http://purl.org/sig/ont/fma/fma58271>,
+        <http://purl.org/sig/ont/fma/fma58299>,
+        <http://purl.org/sig/ont/fma/fma58302>,
+        <http://purl.org/sig/ont/fma/fma58635>,
+        <http://purl.org/sig/ont/fma/fma58638>,
+        <http://purl.org/sig/ont/fma/fma58661> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 8 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2e-02 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
+
 <http://purl.org/ccf/1.5/f7500931-e3b6-4aab-bed8-735619fe645e> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
         <http://purl.obolibrary.org/obo/UBERON_0002661>,
@@ -8224,6 +8954,46 @@ ccf:NAE9 a ccf:Donor ;
     ccf:z_dimension 10 ;
     dcterms:created "2022-08-29" ;
     dcterms:creator "Raymond Sanchez" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor1> a ccf:Donor ;
+    rdfs:label "Male, Age 54" ;
+    ccf:age 54 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor2> a ccf:Donor ;
+    rdfs:label "Male, Age 87" ;
+    ccf:age 87 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor3> a ccf:Donor ;
+    rdfs:label "Female, Age 91" ;
+    ccf:age 91 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
+
+<https://doi.org/10.1016/j.ajpath.2023.01.012#Donor4> a ccf:Donor ;
+    rdfs:label "Female, Age 67" ;
+    ccf:age 67 ;
+    ccf:consortium_name "UIowa" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UIowa" ;
+    ccf:tissue_provider_uuid "e63aee05-0da5-41e3-9e79-b04ca38eaade" ;
+    ccf:url "https://doi.org/10.1016/j.ajpath.2023.01.012" ;
+    rdfs:comment "Entered 8/19/2023, Robert Mullins, UIowa" .
 
 <https://doi.org/10.1073/pnas.1914143116#Donor1> a ccf:Donor ;
     rdfs:label "Male, 54" ;
@@ -8375,6 +9145,20 @@ ccf:NAE9 a ccf:Donor ;
     dcterms:created "2023-08-08" ;
     dcterms:creator "Kerstin Meyer" .
 
+<http://purl.org/ccf/1.5/8dfe6424-9e75-4aef-aa47-f56f9ebb45cf> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma58272>,
+        <http://purl.org/sig/ont/fma/fma58299>,
+        <http://purl.org/sig/ont/fma/fma58300>,
+        <http://purl.org/sig/ont/fma/fma58303> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 8 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2e-02 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
+
 <http://purl.org/ccf/1.5/912d7c86-4844-459b-8b23-85e627acc2bc> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.org/sig/ont/fma/fma58299> ;
     ccf:creator_first_name "Robert" ;
@@ -8384,6 +9168,24 @@ ccf:NAE9 a ccf:Donor ;
     ccf:y_dimension 10 ;
     ccf:z_dimension 1 ;
     dcterms:created "2023-06-28" ;
+    dcterms:creator "Robert Mullins" .
+
+<http://purl.org/ccf/1.5/aed87a98-9e42-49bc-8afc-4a5c3f24008d> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma261238>,
+        <http://purl.org/sig/ont/fma/fma58272>,
+        <http://purl.org/sig/ont/fma/fma58299>,
+        <http://purl.org/sig/ont/fma/fma58300>,
+        <http://purl.org/sig/ont/fma/fma58303>,
+        <http://purl.org/sig/ont/fma/fma58636>,
+        <http://purl.org/sig/ont/fma/fma58639>,
+        <http://purl.org/sig/ont/fma/fma58663> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 8 ;
+    ccf:y_dimension 8 ;
+    ccf:z_dimension 2e-02 ;
+    dcterms:created "2023-09-20" ;
     dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/allen-brain/H18.30.001> a ccf:Donor ;
@@ -8483,6 +9285,17 @@ ccf:NAE9 a ccf:Donor ;
     dcterms:created "2023-08-08" ;
     dcterms:creator "Kerstin Meyer" .
 
+<http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma58299> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 12 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 2e-01 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
+
 <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
     ccf:creator_first_name "Nathan" ;
@@ -8530,7 +9343,8 @@ ccf:NAE9 a ccf:Donor ;
     dcterms:creator "Kerstin Meyer" .
 
 <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.org/sig/ont/fma/fma7360>,
         <http://purl.org/sig/ont/fma/fma7361>,
         <http://purl.org/sig/ont/fma/fma7401> ;
     ccf:creator_first_name "Allen" ;
@@ -8696,8 +9510,20 @@ ccf:NAE9 a ccf:Donor ;
     ccf:url "https://doi.org/10.1186/s13059-019-1906-x" ;
     rdfs:comment "Entered 7/7/2023, Kerstin Meyer, Wellcome Sanger Institute" .
 
+<http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma58299> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 12 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 2e-01 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
+
 <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.org/sig/ont/fma/fma7360>,
         <http://purl.org/sig/ont/fma/fma7361>,
         <http://purl.org/sig/ont/fma/fma7363>,
         <http://purl.org/sig/ont/fma/fma7401> ;
@@ -8974,6 +9800,24 @@ ccf:NAE9 a ccf:Donor ;
     dcterms:created "2022-06-08" ;
     dcterms:creator "Michela Noseda" .
 
+<http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma261238>,
+        <http://purl.org/sig/ont/fma/fma58272>,
+        <http://purl.org/sig/ont/fma/fma58299>,
+        <http://purl.org/sig/ont/fma/fma58300>,
+        <http://purl.org/sig/ont/fma/fma58303>,
+        <http://purl.org/sig/ont/fma/fma58636>,
+        <http://purl.org/sig/ont/fma/fma58639>,
+        <http://purl.org/sig/ont/fma/fma58663> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 12 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 2e-01 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
+
 <http://purl.org/ccf/1.5/62381536-7923-43da-8703-c744e4de0b25> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001149>,
         <http://purl.obolibrary.org/obo/UBERON_0016479> ;
@@ -8985,6 +9829,24 @@ ccf:NAE9 a ccf:Donor ;
     ccf:z_dimension 10 ;
     dcterms:created "2023-08-24" ;
     dcterms:creator "Jordan Portman" .
+
+<http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma261238>,
+        <http://purl.org/sig/ont/fma/fma58272>,
+        <http://purl.org/sig/ont/fma/fma58299>,
+        <http://purl.org/sig/ont/fma/fma58300>,
+        <http://purl.org/sig/ont/fma/fma58303>,
+        <http://purl.org/sig/ont/fma/fma58636>,
+        <http://purl.org/sig/ont/fma/fma58639>,
+        <http://purl.org/sig/ont/fma/fma58663> ;
+    ccf:creator_first_name "Robert" ;
+    ccf:creator_last_name "Mullins" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 12 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 2e-01 ;
+    dcterms:created "2023-09-20" ;
+    dcterms:creator "Robert Mullins" .
 
 <http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,

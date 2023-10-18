@@ -2,6 +2,7 @@
 
 # Run normalization on all registrations.yaml files
 for f in */registrations.yaml */*/registrations.yaml; do
+  echo $(dirname $f)
   if [ "$1" == "local" ]; then
     node ../hra-rui-locations-processor/src/cli.js normalize `dirname $f`
   else

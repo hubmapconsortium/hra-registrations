@@ -5005,7 +5005,7 @@ ccf:HBM578.ZCCJ.565 a ccf:Dataset ;
     rdfs:comment "Data/Assay Types: snRNAseq, " .
 
 ccf:HBM582.CXXZ.438 a ccf:Dataset ;
-    rdfs:label "Registered 4/30/2023, HuBMAP Process, TMC-UCSD" ;
+    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
     ccf:technology "OTHER" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4369a119a9c06ea304003a5c3cb3a2e0" ;
@@ -7873,7 +7873,8 @@ ccf:fd0f4dec-c243-4231-833f-a2628c4192f9 a ccf:Dataset ;
     dcterms:creator "Andreas Bueckle" .
 
 <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.org/sig/ont/fma/fma7360>,
         <http://purl.org/sig/ont/fma/fma7361>,
         <http://purl.org/sig/ont/fma/fma7401> ;
     ccf:creator_first_name "Allen" ;
@@ -8384,7 +8385,8 @@ ccf:fd0f4dec-c243-4231-833f-a2628c4192f9 a ccf:Dataset ;
     dcterms:creator "Andreas Bueckle" .
 
 <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> a ccf:SpatialEntity ;
-    ccf:collides_with <http://purl.org/sig/ont/fma/fma7360>,
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
+        <http://purl.org/sig/ont/fma/fma7360>,
         <http://purl.org/sig/ont/fma/fma7361>,
         <http://purl.org/sig/ont/fma/fma7363>,
         <http://purl.org/sig/ont/fma/fma7401> ;

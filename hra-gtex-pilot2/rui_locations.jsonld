@@ -6790,7 +6790,7 @@
             {
               "@id": "HBM582.CXXZ.438",
               "@type": "Dataset",
-              "label": "Registered 4/30/2023, HuBMAP Process, TMC-UCSD",
+              "label": "Registered 10/11/2023, HuBMAP Process, TMC-UCSD",
               "description": "Data/Assay Types: salmon_rnaseq_snareseq, ",
               "link": "https://portal.hubmapconsortium.org/browse/dataset/4369a119a9c06ea304003a5c3cb3a2e0",
               "technology": "OTHER",
@@ -10313,6 +10313,7 @@
             "creator_last_name": "Wang",
             "creation_date": "2023-04-25",
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002048",
               "http://purl.org/sig/ont/fma/fma7361",
               "http://purl.org/sig/ont/fma/fma7360",
               "http://purl.org/sig/ont/fma/fma7401",
@@ -10440,6 +10441,7 @@
             "creator_last_name": "Wang",
             "creation_date": "2023-04-25",
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002048",
               "http://purl.org/sig/ont/fma/fma7361",
               "http://purl.org/sig/ont/fma/fma7360",
               "http://purl.org/sig/ont/fma/fma7401"
