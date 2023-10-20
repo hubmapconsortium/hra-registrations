@@ -1,7 +1,7 @@
-dataset_title,publication_link,dataset_link,donor,donor_age,donor_bmi,donor_sex,organ,sample,dataset
-,,,<http://purl.org/ccf/1.5/sennet#Donor5>,69,,Female,VHMLiver,<http://purl.org/ccf/1.5/sennet#Donor5_TissueBlock1>,
-,,,<http://purl.org/ccf/1.5/sennet#Donor6>,37,,Male,VHMLiver,<http://purl.org/ccf/1.5/sennet#Donor6_TissueBlock1>,
-,,,<http://purl.org/ccf/1.5/sennet#Donor1>,69,,Male,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor1_TissueBlock1>,
-,,,<http://purl.org/ccf/1.5/sennet#Donor2>,64,,Male,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor2_TissueBlock1>,
-,,,<http://purl.org/ccf/1.5/sennet#Donor4>,69,,Male,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor4_TissueBlock1>,
-,,,<http://purl.org/ccf/1.5/sennet#Donor3>,64,,Male,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor3_TissueBlock1>,
+dataset_title,publication_link,dataset_link,donor,donor_age,donor_bmi,donor_sex,organ,reference_organ,sample,dataset
+,,,<http://purl.org/ccf/1.5/sennet#Donor5>,69,,Female,VHMLiver,VHMLiver,<http://purl.org/ccf/1.5/sennet#Donor5_TissueBlock1>,
+,,,<http://purl.org/ccf/1.5/sennet#Donor6>,37,,Male,VHMLiver,VHMLiver,<http://purl.org/ccf/1.5/sennet#Donor6_TissueBlock1>,
+,,,<http://purl.org/ccf/1.5/sennet#Donor1>,69,,Male,VHMLung,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor1_TissueBlock1>,
+,,,<http://purl.org/ccf/1.5/sennet#Donor2>,64,,Male,VHMLung,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor2_TissueBlock1>,
+,,,<http://purl.org/ccf/1.5/sennet#Donor4>,69,,Male,VHMLung,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor4_TissueBlock1>,
+,,,<http://purl.org/ccf/1.5/sennet#Donor3>,64,,Male,VHMLung,VHMLungV1.1,<http://purl.org/ccf/1.5/sennet#Donor3_TissueBlock1>,

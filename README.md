@@ -8,6 +8,7 @@ This repository holds static registrations for use in the EUI and other HRA Appl
 * [ctpop](https://hubmapconsortium.github.io/hra-registrations/ctpop/)
 * [federated](https://hubmapconsortium.github.io/hra-registrations/federated/)
 * [gtex-pan-eraslan-2022](https://hubmapconsortium.github.io/hra-registrations/gtex-pan-eraslan-2022/)
+* [gtex](https://hubmapconsortium.github.io/hra-registrations/gtex/)
 * [hca-heart-teichmann-2020](https://hubmapconsortium.github.io/hra-registrations/hca-heart-teichmann-2020/)
 * [hca-heart-tucker-2020](https://hubmapconsortium.github.io/hra-registrations/hca-heart-tucker-2020/)
 * [hca-liver-matchett-2023](https://hubmapconsortium.github.io/hra-registrations/hca-liver-matchett-2023/)

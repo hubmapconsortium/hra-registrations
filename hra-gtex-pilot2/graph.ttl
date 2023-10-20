@@ -7401,7 +7401,7 @@ ccf:fd0f4dec-c243-4231-833f-a2628c4192f9 a ccf:Dataset ;
     rdfs:comment "Entered 2/10/2021, Yiing Lin, TMC-CalTech" .
 
 <https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors> a ccf:Donor ;
-    rdfs:label "Females (n=122), Mean Age 52.9 (range 21-70)" ;
+    rdfs:label "Females (n=138) Mean Age 53.2 (range 21 - 70)" ;
     ccf:consortium_name "GTEx" ;
     ccf:sex "Female" ;
     ccf:tissue_provider_name "GTEx" ;
@@ -7410,7 +7410,7 @@ ccf:fd0f4dec-c243-4231-833f-a2628c4192f9 a ccf:Dataset ;
     rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
 
 <https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors> a ccf:Donor ;
-    rdfs:label "Males (n=253), Mean Age 55.6 (range 20-70)" ;
+    rdfs:label "Males (n=294) Mean Age 54.9 (range 20 - 70)" ;
     ccf:consortium_name "GTEx" ;
     ccf:sex "Male" ;
     ccf:tissue_provider_name "GTEx" ;
@@ -7419,7 +7419,7 @@ ccf:fd0f4dec-c243-4231-833f-a2628c4192f9 a ccf:Dataset ;
     rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
 
 <https://gtexportal.org/home/tissue/Lung#FDonors> a ccf:Donor ;
-    rdfs:label "Females (n=136), Mean Age 48.9 (range 21-70)" ;
+    rdfs:label "Females (n=183) Mean Age 53.7 (range 21 - 70)" ;
     ccf:consortium_name "GTEx" ;
     ccf:sex "Female" ;
     ccf:tissue_provider_name "GTEx" ;
@@ -7428,7 +7428,7 @@ ccf:fd0f4dec-c243-4231-833f-a2628c4192f9 a ccf:Dataset ;
     rdfs:comment "Entered 5/18/2021, Kristin Ardlie, GTEx Project" .
 
 <https://gtexportal.org/home/tissue/Lung#MDonors> a ccf:Donor ;
-    rdfs:label "Males (n=349), Mean Age 53.5 (range 21-70)" ;
+    rdfs:label "Males (n=395) Mean Age 54.1 (range 21 - 70)" ;
     ccf:consortium_name "GTEx" ;
     ccf:sex "Male" ;
     ccf:tissue_provider_name "GTEx" ;
