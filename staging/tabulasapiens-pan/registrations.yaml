@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: Tabula Sapiens
+  provider_name: <Provider Name>
+  provider_uuid: d65cd08e-7d9b-11ee-b962-0242ac120002
+  defaults:
+    id: http://example.com/required/id
+    thumbnail: assets/icons/ico-unknown.svg
+    link: http://example.com/user/link
+  donors:
+    - sex: Male
+      samples:
+      - rui_location: VHM_asc_colon_low_confidence.json
+      - rui_location: VHM_Bladder.json
+      - rui_location: VHM_duodenum_low_confidence.json
+      - rui_location: VHM_ileum_low_confidence.json
+      - rui_location: VHM_jejunum_low_confidence.json
+      - rui_location: VHM_Liver_1.json
+      - rui_location: VHM_Liver_2.json
+      - rui_location: VHM_sigmoid_colon_low_confidence.json
+      - rui_location: VHM_Skin.json
+      - rui_location: VHM_Spleen.json
+    - sex: Female
+      samples:
+      - rui_location: VHF_asc_colon_low_confidence.json
+      - rui_location: VHF_bladder.json
+      - rui_location: VHF_duodenum_low_confidence.json
+      - rui_location: VHF_ileum_low_confidence.json
+      - rui_location: VHF_jejunum_low_confidence.json
+      - rui_location: VHF_Liver_1.json
+      - rui_location: VHF_Liver_2.json
+      - rui_location: VHF_Mammary_Gland_L.json
+      - rui_location: VHF_sigmoid_colon_low_confidence.json
+      - rui_location: VHF_Skin.json
+      - rui_location: VHF_Spleen.json
