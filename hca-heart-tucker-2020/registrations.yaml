@@ -4,248 +4,240 @@
   provider_name: Broad Institute
   provider_uuid: 458fc690-a858-4518-bffa-6a41f2f20af0 
   defaults:
-    id: http://purl.org/ccf/1.5/broad-institute
-    thumbnail: assets/logo.jpg
+    id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401
     link: https://doi.org/10.1161/CIRCULATIONAHA.119.045401
     publication: https://doi.org/10.1161/CIRCULATIONAHA.119.045401
+    publicationTitle: Transcriptional and Cellular Diversity of the Human Heart
+    publicationLeadAuthor: Nathan R. Tucker
   donors:
     - sex: Female #P1221
-      id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor
+      id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_Donor
       age: 52
-      label: Female, 52
       samples:
       - rui_location: female-left-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_LV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_LV_1221_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection/LV_1221_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_LV_1221_1_Dataset
                 technology: OTHER
       - rui_location: female-right-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_RA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_RA_1221_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection/RA_1221_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_RA_1221_1_Dataset
                 technology: OTHER
       - rui_location: female-right-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_RV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_RV_1221_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_RV_1221_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1221_RV_1221_2_Dataset
                 technology: OTHER
     - sex: Female #P1600
-      id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor
+      id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_Donor
       age: 51
-      label: Female, 51
       samples:
       - rui_location: female-left-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_LA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_LA_1600_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_LA_1600_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_LA_1600_2_Dataset
                 technology: OTHER
       - rui_location: female-right-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_RA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_RA_1600_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_RA_1600_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1600_RA_1600_2_Dataset
                 technology: OTHER
     - sex: Male #P1666
-      id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor
+      id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_Donor
       age: 54
       samples:
       - rui_location: male-left-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LA_1666_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LA_1666_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LA_1666_2_Dataset
                 technology: OTHER
       - rui_location: male-left-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LV_1666_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection/LV_1666_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LV_1666_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LVT#issueBlock/LV_1666#TissueSection/LV_1666_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_LV_1666_2_Dataset
                 technology: OTHER
       - rui_location: male-right-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_RV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_RV_1666_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection/RV_1666_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_RV_1666_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RVT#issueBlock/RV_1666#TissueSection/RV_1666_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1666_RV_1666_2_Dataset
                 technology: OTHER
     - sex: Male #P1681
-      id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor
+      id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_Donor
       age: 39
       samples:
       - rui_location: male-left-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LA_1681_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LA_1681_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LA_1681_2_Dataset
                 technology: OTHER
       - rui_location: male-left-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LV_1681_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection/LV_1681_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LV_1681_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LVT#issueBlock/LV_1681#TissueSection/LV_1681_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_LV_1681_2_Dataset
                 technology: OTHER
       - rui_location: male-right-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_RA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_RA_1681_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection/RA_1681_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_RA_1681_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RAT#issueBlock/RA_1681#TissueSection/RA_1681_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1681_RA_1681_2_Dataset
                 technology: OTHER
     - sex: Male #P1702
-      id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor
+      id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_Donor
       age: 59
-      label: Male, 59
       samples:
       - rui_location: male-left-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LA_1702_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LA_1702_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LA_1702_2_Dataset
                 technology: OTHER
       - rui_location: male-left-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LV_1702_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LV_1702_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_LV_1702_2_Dataset
                 technology: OTHER
       - rui_location: male-right-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RA_1702_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RA_1702_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RA_1702_2_Dataset
                 technology: OTHER
       - rui_location: male-right-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RV#TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RV_1702_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RV_1702_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1702_RV_1702_2_Dataset
                 technology: OTHER
     - sex: Female #P1708
-      id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor
+      id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_Donor
       age: 60
-      label: Female, 60
       samples:
       - rui_location: female-left-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LA_1708_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LA_1708_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LA_1708_2_Dataset
                 technology: OTHER
       - rui_location: female-left-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LV_1708_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LV_1708_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_LV_1708_2_Dataset
                 technology: OTHER
       - rui_location: female-right-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RA_1708_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RA_1708_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RA_1708_2_Dataset
                 technology: OTHER
       - rui_location: female-right-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RV_1708_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RV_1708_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1708_RV_1708_2_Dataset
                 technology: OTHER
     - sex: Female #P1723
-      id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor
+      id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_Donor
       age: 60
-      label: Female, 60
       samples:
       - rui_location: female-left-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LA_1723_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LA_1723_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LA_1723_2_Dataset
                 technology: OTHER
       - rui_location: female-left-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LV_1723_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LV_1723_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_LV_1723_2_Dataset
                 technology: OTHER
       - rui_location: female-right-cardiac-atrium.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RA_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RA_1723_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RA_1723_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RA_1723_2_Dataset
                 technology: OTHER
       - rui_location: female-right-ventricle.json
-        id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock
+        id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RV_TissueBlock
         sections:
-          - id:  http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection
+          - id:  https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RV_1723_TissueSection
             datasets:
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_1#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RV_1723_1_Dataset
                 technology: OTHER
-              - id: http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_2#Dataset
+              - id: https://doi.org/10.1161/CIRCULATIONAHA.119.045401#P1723_RV_1723_2_Dataset
                 technology: OTHER
-      
-
-
-
