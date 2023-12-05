@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.001",
+      "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor",
       "@type": "Donor",
       "label": "Female, Age 60",
       "description": "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science",
@@ -14,7 +14,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -63,7 +63,7 @@
           },
           "sections": [
             {
-              "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -72,39 +72,39 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#Dataset",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001.CX48.M1C.001/Block1_10X#Dataset",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: undefined, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: 10x",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset3",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1_Dataset3",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: 10X, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "10X",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
           ]
         },
         {
-          "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -154,7 +154,7 @@
           },
           "sections": [
             {
-              "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -163,30 +163,30 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: 10x",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: 10X, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "10X",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
           ]
         },
         {
-          "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -236,7 +236,7 @@
           },
           "sections": [
             {
-              "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -245,23 +245,23 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.002",
+      "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor",
       "@type": "Donor",
       "label": "Male, Age 50",
       "description": "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science",
@@ -282,7 +282,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -331,7 +331,7 @@
           },
           "sections": [
             {
-              "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -340,30 +340,30 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: 10x",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: 10X, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "10X",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
           ]
         },
         {
-          "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -412,7 +412,7 @@
           },
           "sections": [
             {
-              "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -421,23 +421,23 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1023",
+      "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor",
       "@type": "Donor",
       "label": "Female, Age 43",
       "description": "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science",
@@ -458,7 +458,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -507,7 +507,7 @@
           },
           "sections": [
             {
-              "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -516,30 +516,30 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
           ]
         },
         {
-          "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -590,7 +590,7 @@
           },
           "sections": [
             {
-              "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -599,23 +599,23 @@
               "section_size": 20,
               "datasets": [
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
@@ -624,7 +624,7 @@
       ]
     },
     {
-      "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1025",
+      "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor",
       "@type": "Donor",
       "label": "Male, Age 50",
       "description": "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science",
@@ -636,7 +636,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -686,7 +686,7 @@
           "section_unit": "millimeter",
           "sections": [
             {
-              "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -695,30 +695,30 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
           ]
         },
         {
-          "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -769,7 +769,7 @@
           },
           "sections": [
             {
-              "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -778,23 +778,23 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
@@ -803,7 +803,7 @@
       ]
     },
     {
-      "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1030",
+      "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor",
       "@type": "Donor",
       "label": "Male, Age 54",
       "description": "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science",
@@ -815,7 +815,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -865,7 +865,7 @@
           "section_unit": "millimeter",
           "sections": [
             {
-              "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -874,30 +874,30 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }
           ]
         },
         {
-          "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2",
+          "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -946,7 +946,7 @@
           },
           "sections": [
             {
-              "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2_TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
               "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
@@ -955,23 +955,23 @@
               "section_size": 10,
               "datasets": [
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset1",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2_TissueSection1_Dataset1",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: SSv4",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 },
                 {
-                  "@id": "https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset2",
+                  "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2_TissueSection1_Dataset2",
                   "@type": "Dataset",
                   "label": "Registered 7/28/2022, Raymond Sanchez, Allen Institute",
                   "description": "Data/Assay Types: OTHER, ",
                   "link": "https://www.nature.com/articles/s41586-021-03465-8",
                   "publication": "https://doi.org/10.1038/s41586-021-03465-8",
                   "technology": "OTHER",
-                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg"
+                  "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg"
                 }
               ]
             }

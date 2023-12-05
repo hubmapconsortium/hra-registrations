@@ -4,20 +4,20 @@
   provider_name: Allen Institute
   provider_uuid: 8dca7930-e16b-4301-9ad3-de202225d27f
   defaults:
-    id: https://www.nature.com/articles/s41586-021-03465-8
-    thumbnail: https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg
+    id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee
+    thumbnail: https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg
     link: https://www.nature.com/articles/s41586-021-03465-8
     publication: https://doi.org/10.1038/s41586-021-03465-8
   donors:
     - sex: Female
       age: 60
-      id: http://purl.org/ccf/1.5/allen-brain/H18.30.001
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor
       description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
       samples:
       - rui_location: Block1_10X.json
         sections:
           - datasets:
-              - id: http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#Dataset
+              - id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001.CX48.M1C.001/Block1_10X#Dataset
               - description: "Data/Assay Types: 10x"
               - technology: 10X
       - rui_location: Block2_10X.json
@@ -32,7 +32,7 @@
               - technology: OTHER
     - sex: Male
       age: 50
-      id: http://purl.org/ccf/1.5/allen-brain/H18.30.002
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor
       description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
       samples:
       - rui_location: Block3_10X.json
@@ -47,7 +47,7 @@
               - technology: OTHER          
     - sex: Female
       age: 43
-      id: http://purl.org/ccf/1.5/allen-brain/H200.1023
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor
       description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
       samples:
       - rui_location: Block3_SSv4.json
@@ -62,7 +62,7 @@
               - technology: OTHER
     - sex: Male
       age: 50
-      id: http://purl.org/ccf/1.5/allen-brain/H200.1025
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor
       description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
       samples:
       - rui_location: Block5_SSv4.json
@@ -80,7 +80,7 @@
               - technology: OTHER
     - sex: Male
       age: 54
-      id: http://purl.org/ccf/1.5/allen-brain/H200.1030
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor
       description: "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science"
       samples:
       - rui_location: Block7_SSv4.json
