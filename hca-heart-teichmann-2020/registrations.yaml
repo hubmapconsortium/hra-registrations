@@ -4,624 +4,488 @@
   provider_name: Broad Institute
   provider_uuid: 458fc690-a858-4518-bffa-6a41f2f20af0 
   defaults:
-    id: http://purl.org/ccf/1.5/hca-heart-teichmann
+    id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72
     # thumbnail: assets/logo.jpg # thumbnail does not exist
     link: https://doi.org/10.1038/s41586-020-2797-4
     publication: https://doi.org/10.1038/s41586-020-2797-4
   donors:
     - sex: Female #D1
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1#Donor
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1_Donor
       age: 50
       bmi: 20
       samples:
       - rui_location: female-left-ventricle.json
-        id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV#TissueBlock
+        id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20left%20ventricle_Block
         datasets:
-          - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7664652#Dataset
-            technology: 10X
-          - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LV/HCAHeart7698015#Dataset
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20left%20ventricle
             technology: 10X
       - rui_location: female-apex.json
-        id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX#TissueBlock
+        id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$apex%20of%20heart_Block
         datasets:
-          - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7606896#Dataset
-            technology: 10X          
-          - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/AX/HCAHeart7964513#Dataset
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$apex%20of%20heart
             technology: 10X
       - rui_location: female-right-ventricle.json
-        id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV#TissueBlock
+        id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20right%20ventricle_Block
         datasets:
-          - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/RV/HCAHeart7698016#Dataset
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20right%20ventricle
             technology: 10X
       - rui_location: female-left-atrium.json
-        id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA#TissueBlock
+        id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$left%20cardiac%20atrium_Block
         datasets:
-          - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D1/LA/HCAHeart7698017#Dataset
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$left%20cardiac%20atrium
             technology: 10X
     - sex: Male #D2
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2_Donor     
       age: 60
       bmi: 25
       samples:
         - rui_location: male-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702881#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/AX/HCAHeart7702882#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$apex%20of%20heart
               technology: 10X
         - rui_location: male-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702876#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LA/HCAHeart7702877#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$left%20cardiac%20atrium
               technology: 10X
         - rui_location: male-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7664653#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/LV/HCAHeart7702873#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20left%20ventricle
               technology: 10X
         - rui_location: male-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702878#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RA/HCAHeart7702879#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$right%20cardiac%20atrium
               technology: 10X
         - rui_location: male-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702874#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/RV/HCAHeart7702875#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20right%20ventricle
               technology: 10X
         - rui_location: male-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7656539#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D2/SP/HCAHeart7702880#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$interventricular%20septum
               technology: 10X
     - sex: Male #D3
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3_Donor     
       age: 55
       bmi: 25
       samples:
         - rui_location: male-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7656538#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/AX/HCAHeart7829977#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$apex%20of%20heart
               technology: 10X
         - rui_location: male-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7656536#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7757638#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LA/HCAHeart7985088#Dataset
-              technology: 10X              
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$left%20cardiac%20atrium
+              technology: 10X             
         - rui_location: male-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7656534#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7664654#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7757636#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/LV/HCAHeart7985086#Dataset
-              technology: 10X                       
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20left%20ventricle
+              technology: 10X                     
         - rui_location: male-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7829976#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RA/HCAHeart7985089#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$right%20cardiac%20atrium
               technology: 10X
         - rui_location: male-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7656535#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7757637#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/RV/HCAHeart7985087#Dataset
-              technology: 10X              
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20right%20ventricle
+              technology: 10X            
         - rui_location: male-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7656537#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D3/SP/HCAHeart7757639#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$interventricular%20septum
               technology: 10X
     - sex: Female #D4
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4_Donor     
       age: 70
       bmi: 25
       samples:
         - rui_location: female-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7728609#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/AX/HCAHeart7833855#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$apex%20of%20heart
               technology: 10X
         - rui_location: female-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7728606#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LA/HCAHeart7833852#Dataset
-              technology: 10X            
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$left%20cardiac%20atrium
+              technology: 10X           
         - rui_location: female-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7728604#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/LV/HCAHeart7829978#Dataset
-              technology: 10X    
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20left%20ventricle
+              technology: 10X  
         - rui_location: female-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7728607#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RA/HCAHeart7833853#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$right%20cardiac%20atrium
               technology: 10X
         - rui_location: female-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7728605#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20right%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/RV/HCAHeart7829979#Dataset
-              technology: 10X          
         - rui_location: female-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7728608#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D4/SP/HCAHeart7833854#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$interventricular%20septum
               technology: 10X
     - sex: Female #D5
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5_Donor     
       age: 65
       bmi: 30
       samples:
         - rui_location: female-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7751845#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/AX/HCAHeart7836684#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$apex%20of%20heart
               technology: 10X
         - rui_location: female-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7745968#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$left%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LA/HCAHeart7836681#Dataset
-              technology: 10X            
         - rui_location: female-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7745966#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20left%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/LV/HCAHeart7835148#Dataset
-              technology: 10X    
         - rui_location: female-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7745969#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RA/HCAHeart7836682#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$right%20cardiac%20atrium
               technology: 10X
         - rui_location: female-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7745967#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20right%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/RV/HCAHeart7835149#Dataset
-              technology: 10X          
         - rui_location: female-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7745970#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$interventricular%20septum
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D5/SP/HCAHeart7836683#Dataset
-              technology: 10X              
     - sex: Male #D6
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6_Donor     
       age: 65
       bmi: 30
       samples:
         - rui_location: male-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7844004#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$apex%20of%20heart
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7888927#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/AX/HCAHeart7905332#Dataset
-              technology: 10X              
         - rui_location: male-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7844001#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$left%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7880862#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LA/HCAHeart7905329#Dataset
-              technology: 10X              
         - rui_location: male-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7843999#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20left%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7880860#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/LV/HCAHeart7905327#Dataset
-              technology: 10X                    
         - rui_location: male-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7844002#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$right%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7880863#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RA/HCAHeart7905330#Dataset
-              technology: 10X             
         - rui_location: male-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7844000#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20right%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7880861#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/RV/HCAHeart7905328#Dataset
-              technology: 10X              
         - rui_location: male-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7844003#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$interventricular%20septum
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7888926#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D6/SP/HCAHeart7905331#Dataset
-              technology: 10X              
     - sex: Male #D7
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7_Donor     
       age: 65
       bmi: 20
       samples:
         - rui_location: male-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850544#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$apex%20of%20heart
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7850551#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/AX/HCAHeart7888925#Dataset
-              technology: 10X              
         - rui_location: male-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850541#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$left%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7850547#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LA/HCAHeart7888929#Dataset
-              technology: 10X              
         - rui_location: male-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850539#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20left%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7850545#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/LV/HCAHeart7888922#Dataset
-              technology: 10X                    
         - rui_location: male-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850542#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$right%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7850548#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RA/HCAHeart7888923#Dataset
-              technology: 10X             
         - rui_location: male-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850540#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20right%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7850546#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/RV/HCAHeart7888928#Dataset
-              technology: 10X              
         - rui_location: male-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850543#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7850549#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D7/SP/HCAHeart7888924#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$interventricular%20septum
               technology: 10X
     - sex: Female #D11
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11_Donor     
       age: 60
       bmi: 25
       samples:
         - rui_location: female-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102862#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$apex%20of%20heart
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8102868#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/AX/HCAHeart8287128#Dataset
-              technology: 10X              
         - rui_location: female-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102858#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$left%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8102864#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LA/HCAHeart8287123#Dataset
-              technology: 10X              
         - rui_location: female-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102859#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20left%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8102865#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/LV/HCAHeart8287124#Dataset
-              technology: 10X                    
         - rui_location: female-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102857#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$right%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8102863#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RA/HCAHeart8287125#Dataset
-              technology: 10X             
         - rui_location: female-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102860#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20right%20ventricle
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8102866#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/RV/HCAHeart8287126#Dataset
-              technology: 10X              
         - rui_location: female-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102861#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$interventricular%20septum
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8102867#Dataset
-              technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/D11/SP/HCAHeart8287127#Dataset
-              technology: 10X              
     - sex: Male #H2
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2_Donor     
       age: 50
       bmi: 20
       samples:
         - rui_location: male-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/AX/H0026_apex#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$apex%20of%20heart
               technology: 10X
         - rui_location: male-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LA/H0026_LA#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$left%20cardiac%20atrium
               technology: 10X
         - rui_location: male-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/LV/H0026_LV_V3#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20left%20ventricle
               technology: 10X
         - rui_location: male-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RA/H0026_RA#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$right%20cardiac%20atrium
               technology: 10X
         - rui_location: male-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/RV/H0026_RV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20right%20ventricle
               technology: 10X
         - rui_location: male-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H2/SP/H0026_septum2#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$interventricular%20septum
               technology: 10X
     - sex: Male #H3
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3_Donor     
       age: 50
       bmi: 25
       samples:
         - rui_location: male-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/AX/H0025_apex#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$apex%20of%20heart
               technology: 10X
         - rui_location: male-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LA/H0025_LA#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$left%20cardiac%20atrium
               technology: 10X
         - rui_location: male-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/LV/H0025_LV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20left%20ventricle
               technology: 10X
         - rui_location: male-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RA/H0025_RA#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#$right%20cardiac%20atrium
               technology: 10X
         - rui_location: male-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/RV/H0025_RV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20right%20ventricle
               technology: 10X
         - rui_location: male-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H3/SP/H0025_septum#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$interventricular%20septum
               technology: 10X
     - sex: Male #H4
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4_Donor     
       age: 55
       bmi: 25
       samples:
         - rui_location: male-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/AX/H0037_Apex#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$apex%20of%20heart
               technology: 10X
         - rui_location: male-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA_corr#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$left%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LA/H0037_LA#Dataset
-              technology: 10X              
         - rui_location: male-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/LV/H0037_LV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20left%20ventricle
               technology: 10X
         - rui_location: male-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA_corr#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$right%20cardiac%20atrium
               technology: 10X
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RA/H0037_RA#Dataset
-              technology: 10X              
         - rui_location: male-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/RV/H0037_RV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20right%20ventricle
               technology: 10X
         - rui_location: male-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H4/SP/H0037_septum#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$interventricular%20septum
               technology: 10X
     - sex: Female #H5
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5_Donor     
       age: 50
       bmi: 20
       samples:
         - rui_location: female-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/AX/H0015_apex#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$apex%20of%20heart
               technology: 10X
         - rui_location: female-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LA/H0015_LA_new#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$left%20cardiac%20atrium
               technology: 10X
         - rui_location: female-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/LV/H0015_LV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20left%20ventricle
               technology: 10X
         - rui_location: female-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RA/H0015_RA#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$right%20cardiac%20atrium
               technology: 10X
         - rui_location: female-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/RV/H0015_RV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20right%20ventricle
               technology: 10X
         - rui_location: female-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H5/SP/H0015_septum#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$interventricular%20septum
               technology: 10X
     - sex: Female #H6
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6_Donor     
       age: 40
       bmi: 20
       samples:
         - rui_location: female-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/AX/H0020_apex#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$apex%20of%20heart
               technology: 10X
         - rui_location: female-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LA/H0020_LA_new#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$left%20cardiac%20atrium
               technology: 10X
         - rui_location: female-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/LV/H0020_LV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20left%20ventricle
               technology: 10X
         - rui_location: female-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RA/H0020_RA#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$right%20cardiac%20atrium
               technology: 10X
         - rui_location: female-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/RV/H0020_RV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20right%20ventricle
               technology: 10X
         - rui_location: female-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H6/SP/H0020_septum#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$interventricular%20septum
               technology: 10X
     - sex: Female #H7
-      id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7#Donor     
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7_Donor     
       age: 45
       bmi: 25
       samples:
         - rui_location: female-apex.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$apex%20of%20heart_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/AX/H0035_apex#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$apex%20of%20heart
               technology: 10X
         - rui_location: female-left-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$left%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LA/H0035_LA_new#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$left%20cardiac%20atrium
               technology: 10X
         - rui_location: female-left-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20left%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/LV/H0035_LV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20left%20ventricle
               technology: 10X
         - rui_location: female-right-atrium.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$right%20cardiac%20atrium_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RA/H0035_RA#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$right%20cardiac%20atrium
               technology: 10X
         - rui_location: female-right-ventricle.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20right%20ventricle_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/RV/H0035_RV#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20right%20ventricle
               technology: 10X
         - rui_location: female-septum.json
-          id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP#TissueBlock
+          id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$interventricular%20septum_Block
           datasets:
-            - id: http://purl.org/ccf/1.5/hca-heart-teichmann/H7/SP/H0035_septum#Dataset
+            - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$interventricular%20septum
               technology: 10X                       
