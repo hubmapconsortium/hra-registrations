@@ -66,22 +66,25 @@
           - technology: OTHER
     - sex: Male #D062
       age: 0
-      id: http://purl.org/ccf/1.5/NHLBI/D062#Donor
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D062_Donor
       samples:
       - rui_location: male.json
         datasets:
-          - technology: OTHER
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D062$lung
+            technology: OTHER
     - sex: Male #D088
       age: 0
-      id: http://purl.org/ccf/1.5/NHLBI/D088#Donor
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D088_Donor
       samples:
       - rui_location: female.json
         datasets:
-          - technology: OTHER
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D088$lung
+            technology: OTHER
     - sex: Male #D150
       age: 0
-      id: http://purl.org/ccf/1.5/NHLBI/D150#Donor
+      id: https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D150_Donor
       samples:
       - rui_location: male.json
         datasets:
-          - technology: OTHER
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D150$lung
+            technology: OTHER
