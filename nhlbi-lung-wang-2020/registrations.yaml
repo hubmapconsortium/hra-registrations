@@ -58,3 +58,24 @@
       - rui_location: male.json
         datasets:
           - technology: OTHER
+    - sex: Male #D062
+      age: 0
+      id: http://purl.org/ccf/1.5/NHLBI/D062#Donor
+      samples:
+      - rui_location: male.json
+        datasets:
+          - technology: OTHER
+    - sex: Male #D088
+      age: 0
+      id: http://purl.org/ccf/1.5/NHLBI/D088#Donor
+      samples:
+      - rui_location: female.json
+        datasets:
+          - technology: OTHER
+    - sex: Male #D150
+      age: 0
+      id: http://purl.org/ccf/1.5/NHLBI/D150#Donor
+      samples:
+      - rui_location: male.json
+        datasets:
+          - technology: OTHER
