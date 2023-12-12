@@ -18,22 +18,22 @@
         id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20left%20ventricle_Block
         datasets:
           - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20left%20ventricle
-            technology: 10X
+            technology: 10x
       - rui_location: female-apex.json
         id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$apex%20of%20heart_Block
         datasets:
           - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$apex%20of%20heart
-            technology: 10X
+            technology: 10x
       - rui_location: female-right-ventricle.json
         id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20right%20ventricle_Block
         datasets:
           - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$heart%20right%20ventricle
-            technology: 10X
+            technology: 10x
       - rui_location: female-left-atrium.json
         id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$left%20cardiac%20atrium_Block
         datasets:
           - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D1$left%20cardiac%20atrium
-            technology: 10X
+            technology: 10x
     - sex: Male #D2
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2_Donor     
       age: 60
@@ -43,32 +43,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D2$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Male #D3
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3_Donor     
       age: 55
@@ -78,32 +78,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$left%20cardiac%20atrium
-              technology: 10X             
+              technology: 10x             
         - rui_location: male-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20left%20ventricle
-              technology: 10X                     
+              technology: 10x                     
         - rui_location: male-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$heart%20right%20ventricle
-              technology: 10X            
+              technology: 10x            
         - rui_location: male-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D3$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Female #D4
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4_Donor     
       age: 70
@@ -113,32 +113,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$left%20cardiac%20atrium
-              technology: 10X           
+              technology: 10x           
         - rui_location: female-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20left%20ventricle
-              technology: 10X  
+              technology: 10x  
         - rui_location: female-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D4$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Female #D5
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5_Donor     
       age: 65
@@ -148,32 +148,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D5$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Male #D6
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6_Donor     
       age: 65
@@ -183,32 +183,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D6$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Male #D7
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7_Donor     
       age: 65
@@ -218,32 +218,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D7$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Female #D11
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11_Donor     
       age: 60
@@ -253,32 +253,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#D11$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Male #H2
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2_Donor     
       age: 50
@@ -288,32 +288,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H2$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Male #H3
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3_Donor     
       age: 50
@@ -323,32 +323,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H3$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Male #H4
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4_Donor     
       age: 55
@@ -358,32 +358,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: male-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: male-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H4$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Female #H5
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5_Donor     
       age: 50
@@ -393,32 +393,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H5$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Female #H6
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6_Donor     
       age: 40
@@ -428,32 +428,32 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H6$interventricular%20septum
-              technology: 10X
+              technology: 10x
     - sex: Female #H7
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7_Donor     
       age: 45
@@ -463,29 +463,29 @@
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$apex%20of%20heart_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$apex%20of%20heart
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$left%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$left%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-left-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20left%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20left%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-atrium.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$right%20cardiac%20atrium_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$right%20cardiac%20atrium
-              technology: 10X
+              technology: 10x
         - rui_location: female-right-ventricle.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20right%20ventricle_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$heart%20right%20ventricle
-              technology: 10X
+              technology: 10x
         - rui_location: female-septum.json
           id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$interventricular%20septum_Block
           datasets:
             - id: https://api.cellxgene.cziscience.com/dp/v1/collections/b52eb423-5d0d-4645-b217-e1c6d38b2e72#H7$interventricular%20septum
-              technology: 10X                       
+              technology: 10x                       
