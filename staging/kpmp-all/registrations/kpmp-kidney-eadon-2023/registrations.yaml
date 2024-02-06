@@ -24,11 +24,11 @@
       # age: 50-59 Years
       samples:
       - rui_location: female_cortex.json
-    - id: 21-020
-      sex: .nan
+    # - id: 21-020
+      # sex: .nan
       # age: 70-79 Years
-      samples:
-      - rui_location: female_cortex.json
+      #samples:
+      # - rui_location: female_cortex.json
     - id: 21-019
       sex: Male
       # age: 50-59 Years
@@ -89,11 +89,11 @@
       # age: 60-69 Years
       samples:
       - rui_location: male_cortex.json
-    - id: 21-021
-      sex: .nan
+    # - id: 21-021
+      # sex: .nan
       # age: .nan
-      samples:
-      - rui_location: female_cortex.json
+      # samples:
+      # - rui_location: female_cortex.json
     - id: IU1800006
       sex: Female
       # age: 50-59 Years
@@ -104,11 +104,11 @@
       # age: 40-49 Years
       samples:
       - rui_location: male_cortex.json
-    - id: K1700415-2
-      sex: Female
+    # - id: K1700415-2
+      # sex: Female
       # age: .nan
-      samples:
-      - rui_location: female_cortex.json
+      # samples:
+      # - rui_location: female_cortex.json
     - id: 18-142
       sex: Female
       # age: 60-69 Years
@@ -119,11 +119,11 @@
       # age: 50-59 Years
       samples:
       - rui_location: male_cortex.json
-    - id: 21-016
-      sex: .nan
+    # - id: 21-016
+      # sex: .nan
       # age: 50-59 Years
-      samples:
-      - rui_location: female_cortex.json
+      #samples:
+      # - rui_location: female_cortex.json
     - id: IU1700002
       sex: Female
       # age: 30-39 Years
