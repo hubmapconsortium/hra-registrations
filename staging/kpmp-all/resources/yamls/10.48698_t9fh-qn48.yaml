@@ -1,31 +1,32 @@
-# yaml-langu# age-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
 - consortium_name: KPMP
   provider_name: KPMP
-  provider_uuid: 90f75256-22c9-400b-bbe7-c26a879d897b
+  provider_uuid: 76b6057b-85eb-48ff-853c-0056d9c5604d
   defaults:
     id: http://example.com/required/id
     thumbnail: assets/icons/ico-unknown.svg
-    link: https://doi.org/10.48698/47js-9y38
+    link: https://doi.org/10.48698/t9fh-qn48
+    publication: ''
   donors:
+    - id: 18-162
+      sex: Female
+      # age: 60-69 Years
+      samples:
+        - rui_location: female_cortex.json
     - id: 31-10042
       sex: Female
       # age: 60-69 Years
       samples:
         - rui_location: female_cortex.json
-    - id: 29-10016
-      sex: Female
-      # age: 30-39 Years
-      samples:
-        - rui_location: female_cortex.json
-    - id: 32-10034
-      sex: Male
-      # age: 60-69 Years
-      samples:
-        - rui_location: male_cortex.json
     - id: 31-10000
       sex: Male
       # age: 50-59 Years
+      samples:
+        - rui_location: male_cortex.json
+    - id: 32-10034
+      sex: Male
+      # age: 60-69 Years
       samples:
         - rui_location: male_cortex.json
     - id: 31-10001
@@ -38,29 +39,59 @@
       # age: 60-69 Years
       samples:
         - rui_location: male_cortex.json
-    - id: 32-10074
+    - id: IU-7039
+      sex: Female
+      # age: 50-59 Years
+      samples:
+        - rui_location: female_cortex.json
+    - id: 14-0518
       sex: Male
       # age: 70-79 Years
       samples:
         - rui_location: male_cortex.json
-    - id: 33-10006
+    - id: 31-10006
       sex: Male
-      # age: 20-29 Years
+      # age: 60-69 Years
       samples:
         - rui_location: male_cortex.json
-    - id: 27-10039
+    - id: 18-342
+      sex: Male
+      # age: 60-69 Years
+      samples:
+        - rui_location: male_cortex.json
+    - id: 18-142
       sex: Female
       # age: 60-69 Years
       samples:
         - rui_location: female_cortex.json
+    - id: IU1700002
+      sex: Female
+      # age: 30-39 Years
+      samples:
+        - rui_location: female_cortex.json
+    - id: 17-1606
+      sex: Female
+      # age: 50-59 Years
+      samples:
+        - rui_location: female_cortex.json
+    - id: 14-0577
+      sex: Female
+      # age: 40-49 Years
+      samples:
+        - rui_location: female_cortex.json
+    - id: 32-2
+      sex: Male
+      # age: 60-69 Years
+      samples:
+        - rui_location: male_cortex.json
     - id: 34-10050
       sex: Female
       # age: 60-69 Years
       samples:
         - rui_location: female_cortex.json
-    - id: 30-10123
+    - id: IU-16352
       sex: Male
-      # age: 40-49 Years
+      # age: 50-59 Years
       samples:
         - rui_location: male_cortex.json
     - id: 29-10011
@@ -68,29 +99,14 @@
       # age: 30-39 Years
       samples:
         - rui_location: female_cortex.json
-    - id: 29-10010
-      sex: Male
-      # age: 70-79 Years
-      samples:
-        - rui_location: male_cortex.json
-    - id: 29-10013
+    - id: 30-10044
       sex: Female
-      # age: 60-69 Years
-      samples:
-        - rui_location: female_cortex.json
-    - id: 29-10012
-      sex: Female
-      # age: 50-59 Years
-      samples:
-        - rui_location: female_cortex.json
-    - id: 30-10125
-      sex: Male
-      # age: 50-59 Years
-      samples:
-        - rui_location: male_cortex.json
-    - id: 32-10003
-      sex: Male
       # age: 30-39 Years
+      samples:
+        - rui_location: female_cortex.json
+    - id: 15-0047
+      sex: Male
+      # age: 40-49 Years
       samples:
         - rui_location: male_cortex.json
     - id: 29-10006
@@ -98,48 +114,78 @@
       # age: 60-69 Years
       samples:
         - rui_location: female_cortex.json
+    - id: IU1800006
+      sex: Female
+      # age: 50-59 Years
+      samples:
+        - rui_location: female_cortex.json
     - id: 29-10008
       sex: Female
       # age: 60-69 Years
       samples:
         - rui_location: female_cortex.json
-    - id: 31-10035
+    - id: 29-10007
       sex: Female
-      # age: 70-79 Years
+      # age: 60-69 Years
       samples:
         - rui_location: female_cortex.json
-    - id: 31-10013
+    - id: 15-0418
       sex: Male
-      # age: 60-69 Years
+      # age: 50-59 Years
       samples:
         - rui_location: male_cortex.json
-    - id: 28-10051
+    - id: 16-0600
+      sex: Female
+      # age: .nan
+      samples:
+        - rui_location: female_cortex.json
+    - id: 18-312
       sex: Male
-      # age: 60-69 Years
+      # age: 70-79 Years
       samples:
         - rui_location: male_cortex.json
-    - id: 34-10184
+    - id: 16-0586
+      sex: Male
+      # age: .nan
+      samples:
+        - rui_location: male_cortex.json
+    - id: IU-12602
       sex: Female
       # age: 50-59 Years
       samples:
         - rui_location: female_cortex.json
-    - id: 30-10018
-      sex: Male
-      # age: 30-39 Years
-      samples:
-        - rui_location: male_cortex.json
-    - id: 34-10187
-      sex: Male
-      # age: 20-29 Years
-      samples:
-        - rui_location: male_cortex.json
-    - id: 30-10034
+    - id: IU-16765
       sex: Female
-      # age: 70-79 Years
+      # age: 60-69 Years
       samples:
         - rui_location: female_cortex.json
-    - id: 31-10040
+    - id: 14-0521
+      sex: Male
+      # age: 40-49 Years
+      samples:
+        - rui_location: male_cortex.json
+    - id: IU1700001
       sex: Female
-      # age: 70-79 Years
+      # age: 40-49 Years
       samples:
         - rui_location: female_cortex.json
+    - id: 18-139
+      sex: Male
+      # age: 60-69 Years
+      samples:
+        - rui_location: male_cortex.json
+    - id: IU-33186
+      sex: Female
+      # age: 50-59 Years
+      samples:
+        - rui_location: female_cortex.json
+    - id: IU-23884
+      sex: Female
+      # age: 50-59 Years
+      samples:
+      - rui_location: female_cortex.json
+    - id: IU-6140
+      sex: Female
+      # age: 60-69 Years
+      samples:
+      - rui_location: female_cortex.json
