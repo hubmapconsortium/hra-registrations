@@ -1,0 +1,38 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/44af4c91-5413-404f-a3ef-53a860fa5af0",
+  "@type": "SpatialEntity",
+  "creator": "Kanako Iwasaki",
+  "creator_first_name": "Kanako",
+  "creator_last_name": "Iwasaki",
+  "creation_date": "2023-06-02",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0001151"
+  ],
+  "slice_thickness": 4000,
+  "slice_count": 12,
+  "x_dimension": 40,
+  "y_dimension": 15,
+  "z_dimension": 35,
+  "dimension_units": "millimeter",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/44af4c91-5413-404f-a3ef-53a860fa5af0_placement",
+    "@type": "SpatialPlacement",
+    "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
+    "placement_date": "2023-06-02",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": -11,
+    "y_rotation": 51,
+    "z_rotation": 10,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 88.547,
+    "y_translation": 67.087,
+    "z_translation": 9.937,
+    "translation_units": "millimeter"
+  }
+}

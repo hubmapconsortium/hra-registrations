@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- import_from_csv: https://docs.google.com/spreadsheets/d/1HyUCq8n2zOozOck_Nvrp0RNd1TL4iK9I0C5cb9DuHhY/export?format=csv&gid=2095065964
+  fields:
+    uniqueId: dataset_id
+    endpoint: ccf_api_endpoint
+    paperId: 'link to study'
+    datasetId: dataset_id
+    sampleId: 'HRA sample ID (Tissue Block)'
+    # sectionId: 'sample / tissue section ID'
+    # ruiLocationId: CxG_dataset_id_donor_id_organ
+    donorId: 'donor/participant ID'
+  defaults:
+    baseIri: 'https://cns-iu.github.io/hra-registrations/hta-gtex-pilot2/rui_locations.jsonld'

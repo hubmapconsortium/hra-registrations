@@ -1,0 +1,95 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: UIowa
+  provider_name: UIowa
+  provider_uuid: e63aee05-0da5-41e3-9e79-b04ca38eaade
+  defaults:
+    id: https://doi.org/10.1093/hmg/ddac043
+    thumbnail: assets/logo.jpg
+    link: https://doi.org/10.1093/hmg/ddac043
+    publication: https://doi.org/10.1093/hmg/ddac043
+  donors:
+    - sex: Female #Donor1
+      age: 75
+      samples:
+      - rui_location: female-left-macula.json
+    - sex: Male #Donor2
+      age: 77
+      samples:
+      - rui_location: male-right-macula.json
+    - sex: Male #Donor3
+      age: 61
+      samples:
+      - rui_location: male-left-macula.json
+    - sex: Female #Donor4
+      age: 77
+      samples:
+      - rui_location: female-right-macula.json
+    - sex: Male #Donor5
+      age: 63
+      samples:
+      - rui_location: male-right-macula.json
+    - sex: Female #Donor6
+      age: 79
+      samples:
+      - rui_location: female-left-macula.json
+    - sex: Male #Donor7
+      age: 64
+      samples:
+      - rui_location: male-left-macula.json
+    - sex: Female #Donor8
+      age: 76
+      samples:
+      - rui_location: female-left-macula.json
+    - sex: Male #Donor9
+      age: 81
+      samples:
+      - rui_location: male-left-macula.json
+    - sex: Male #Donor10
+      age: 83
+      samples:
+      - rui_location: male-right-macula.json
+    - sex: Female #Donor11
+      age: 92
+      samples:
+      - rui_location: female-right-macula.json
+    - sex: Male #Donor12
+      age: 80
+      samples:
+      - rui_location: male-left-macula.json
+    - sex: Male #Donor13
+      age: 90
+      samples:
+      - rui_location: male-left-macula.json
+    - sex: Female #Donor14
+      age: 77
+      samples:
+      - rui_location: female-left-macula.json
+    - sex: Male #Donor15
+      age: 90
+      samples:
+      - rui_location: male-left-macula.json
+    - sex: Male #Donor16
+      age: 84
+      samples:
+      - rui_location: male-right-macula.json
+    - sex: Female #Donor17
+      age: 77
+      samples:
+      - rui_location: female-left-macula.json
+    - sex: Male #Donor18
+      age: 78
+      samples:
+      - rui_location: male-left-macula.json
+    - sex: Female #Donor19
+      age: 86
+      samples:
+      - rui_location: female-right-macula.json
+    - sex: Female #Donor20
+      age: 91
+      samples:
+      - rui_location: female-left-macula.json
+    - sex: Female #Donor21
+      age: 92
+      samples:
+      - rui_location: female-left-macula.json

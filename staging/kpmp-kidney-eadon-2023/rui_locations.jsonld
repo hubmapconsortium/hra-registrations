@@ -1,0 +1,1469 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "32-10074",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "32-10074#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "20-688",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "20-688#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "30-11084",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "30-11084#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "21-019",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "21-019#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "17-1606",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "17-1606#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "18-162",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "18-162#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "18-139",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "18-139#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "21-015",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "21-015#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "18-312",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "18-312#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "K2000201_D1",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "K2000201_D1#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "K1800128P-3",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "K1800128P-3#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "s1815183",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "s1815183#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "20-687",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "20-687#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "K1700326-6",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "K1700326-6#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "K2100035_1_D1",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "K2100035_1_D1#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "IU1800006",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "IU1800006#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "27-10166",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "27-10166#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "18-142",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "18-142#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "K1900069_1D6",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "K1900069_1D6#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "IU1700002",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "IU1700002#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "164-14",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "164-14#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 11 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 11,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 39,
+              "y_rotation": -24,
+              "z_rotation": -130,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.71,
+              "y_translation": 20.274,
+              "z_translation": 46.215,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "28-12558",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "28-12558#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "27-10066",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "27-10066#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "IU1700001",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
+      "link": "https://doi.org/10.48698/HHE6-YV15",
+      "consortium_name": "KPMP",
+      "provider_name": "KPMP",
+      "provider_uuid": "965b94e2-a9d2-4ef8-bcce-a6fe46ad7296",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "IU1700001#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+          "description": "1 x 10 x 1 millimeter, 1 millimeter",
+          "link": "https://doi.org/10.48698/HHE6-YV15",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b",
+            "@type": "SpatialEntity",
+            "creator": "Matthias Kretzler",
+            "creator_first_name": "Matthias",
+            "creator_last_name": "Kretzler",
+            "creation_date": "2023-08-24",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 10,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-24",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": 24,
+              "z_rotation": -135,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59.111,
+              "y_translation": 16.928,
+              "z_translation": 47.29,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

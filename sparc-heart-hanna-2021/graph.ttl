@@ -1,0 +1,1565 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -140 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.3072e+01 ;
+    ccf:y_rotation 37 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.2395e+01 ;
+    ccf:z_rotation 86 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.9291e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -148 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.3442e+01 ;
+    ccf:y_rotation -4 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.586e+01 ;
+    ccf:z_rotation 86 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.523e+00 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 34 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.017e+02 ;
+    ccf:y_rotation 51 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.2763e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.1069e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 24 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.7319e+01 ;
+    ccf:y_rotation 134 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.9116e+01 ;
+    ccf:z_rotation 91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.6071e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 34 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 9.8704e+01 ;
+    ccf:y_rotation 51 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.1165e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.5415e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -153 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.8719e+01 ;
+    ccf:y_rotation -28 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.2465e+01 ;
+    ccf:z_rotation 86 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.7739e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 24 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.32122e+02 ;
+    ccf:y_rotation -14 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.8904e+01 ;
+    ccf:z_rotation 7 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.1227e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -39 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.352e+01 ;
+    ccf:y_rotation -163 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.9159e+01 ;
+    ccf:z_rotation -123 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.6743e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.5246e+01 ;
+    ccf:y_rotation 40 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.4222e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.5949e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 37 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 9.6499e+01 ;
+    ccf:y_rotation 147 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2301e+01 ;
+    ccf:z_rotation 91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.0892e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 58 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 9.5608e+01 ;
+    ccf:y_rotation 127 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.5453e+01 ;
+    ccf:z_rotation 55 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.8453e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -89 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.8194e+01 ;
+    ccf:y_rotation -136 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.8614e+01 ;
+    ccf:z_rotation -77 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.7052e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -30 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.0341e+01 ;
+    ccf:y_rotation -180 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.2022e+01 ;
+    ccf:z_rotation -167 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.3773e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -4 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.7586e+01 ;
+    ccf:y_rotation 55 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.2115e+01 ;
+    ccf:z_rotation 97 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.6711e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 4 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.4961e+01 ;
+    ccf:y_rotation 51 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.8218e+01 ;
+    ccf:z_rotation -101 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.3575e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -5 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.2831e+01 ;
+    ccf:y_rotation 69 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.5304e+01 ;
+    ccf:z_rotation -101 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.9699e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 41 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.11584e+02 ;
+    ccf:y_rotation 150 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.2309e+01 ;
+    ccf:z_rotation 69 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.7279e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 29 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.083e+01 ;
+    ccf:y_rotation 156 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.4116e+01 ;
+    ccf:z_rotation 91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.2677e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 23 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 9.8084e+01 ;
+    ccf:y_rotation 74 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.0258e+01 ;
+    ccf:z_rotation 69 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.5428e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -78 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 9.0119e+01 ;
+    ccf:y_rotation -168 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.2505e+01 ;
+    ccf:z_rotation -167 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 9.0754e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 41 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.6913e+01 ;
+    ccf:y_rotation 122 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.0716e+01 ;
+    ccf:z_rotation 68 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.964e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -173 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.0166e+01 ;
+    ccf:y_rotation -140 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.8918e+01 ;
+    ccf:z_rotation -112 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.2069e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 32 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.5359e+01 ;
+    ccf:y_rotation 38 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.8429e+01 ;
+    ccf:z_rotation 94 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.7149e+01 ;
+    dcterms:created "2021-03-16" .
+
+<http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -151 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.8453e+01 ;
+    ccf:y_rotation -177 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.6571e+01 ;
+    ccf:z_rotation -112 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.2966e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -83 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.6897e+01 ;
+    ccf:y_rotation -64 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.4061e+01 ;
+    ccf:z_rotation -28 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.2567e+01 ;
+    dcterms:created "2021-03-19" .
+
+<http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 35 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.502e+01 ;
+    ccf:y_rotation 130 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.0447e+01 ;
+    ccf:z_rotation 91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.2221e+01 ;
+    dcterms:created "2021-03-19" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:comes_from <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9> ;
+    ccf:generates_dataset <https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1> a ccf:Donor ;
+    rdfs:label "Apical Septum Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10> a ccf:Donor ;
+    rdfs:label "Basal Right Ventricle Free Wall Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor10_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11> a ccf:Donor ;
+    rdfs:label "Basal Septum Left Ventricle Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor11_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12> a ccf:Donor ;
+    rdfs:label "Basal Septum Left Ventricle Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor12_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13> a ccf:Donor ;
+    rdfs:label "Left Ventricle Apex Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor13_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14> a ccf:Donor ;
+    rdfs:label "Left Ventricle Apex Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor14_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15> a ccf:Donor ;
+    rdfs:label "Middle Anterior Left Ventricle Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor15_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16> a ccf:Donor ;
+    rdfs:label "Middle Anterior Left Ventricle Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor16_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17> a ccf:Donor ;
+    rdfs:label "Middle Lateral Left Ventricle Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor17_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18> a ccf:Donor ;
+    rdfs:label "Middle Lateral Left Ventricle Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor18_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19> a ccf:Donor ;
+    rdfs:label "Middle posterior Left Ventricle Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor19_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2> a ccf:Donor ;
+    rdfs:label "Apical Septum Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20> a ccf:Donor ;
+    rdfs:label "Middle posterior Left Ventricle Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-16, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor20_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21> a ccf:Donor ;
+    rdfs:label "Middle Septum Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor21_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22> a ccf:Donor ;
+    rdfs:label "Middle Septum Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor22_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23> a ccf:Donor ;
+    rdfs:label "Right Ventricle Apex Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor23_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24> a ccf:Donor ;
+    rdfs:label "Right Ventricle Apex Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor24_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25> a ccf:Donor ;
+    rdfs:label "Right Ventricle OT Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor25_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26> a ccf:Donor ;
+    rdfs:label "Right Ventricle OT Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor26_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/15/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3> a ccf:Donor ;
+    rdfs:label "Basal Anterior Left Ventrical Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4> a ccf:Donor ;
+    rdfs:label "Basal Anterior Left Ventrical Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor4_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5> a ccf:Donor ;
+    rdfs:label "Basal Lateral Left Ventricle Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor5_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6> a ccf:Donor ;
+    rdfs:label "Basal Lateral Left Ventricle Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor6_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7> a ccf:Donor ;
+    rdfs:label "Basal Posterior Left Ventricle Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor7_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8> a ccf:Donor ;
+    rdfs:label "Basal Posterior Left Ventricle Male" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor8_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9> a ccf:Donor ;
+    rdfs:label "Basal Right Ventricle Free Wall Female" ;
+    ccf:consortium_name "SPARC" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "UCLA/SPARC" ;
+    ccf:tissue_provider_uuid "a961a21b-b536-450c-9cd1-b84868251694" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Entered 2021-03-19, Peter Hanna" .
+
+<https://doi.org/10.1161/CIRCRESAHA.120.318458#Donor9_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 2/18/2021, Peter Hanna, UCLA/SPARC" ;
+    ccf:publication "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/thumbnails/sparc_logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCRESAHA.120.318458" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002079>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0002494>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0002494>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0002494>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0002494>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0002494>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002079>,
+        <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0002134>,
+        <http://purl.obolibrary.org/obo/UBERON_0002135>,
+        <http://purl.obolibrary.org/obo/UBERON_0002137>,
+        <http://purl.obolibrary.org/obo/UBERON_0002146>,
+        <http://purl.obolibrary.org/obo/UBERON_0002494>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-16" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002079>,
+        <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0002134>,
+        <http://purl.obolibrary.org/obo/UBERON_0002135>,
+        <http://purl.obolibrary.org/obo/UBERON_0002137>,
+        <http://purl.obolibrary.org/obo/UBERON_0002146>,
+        <http://purl.obolibrary.org/obo/UBERON_0002494>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+
+<http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080>,
+        <http://purl.obolibrary.org/obo/UBERON_0002084>,
+        <http://purl.obolibrary.org/obo/UBERON_0002094>,
+        <http://purl.obolibrary.org/obo/UBERON_0004151> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Hanna" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-03-19" ;
+    dcterms:creator "Peter Hanna" .
+

@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: KPMP
+  provider_name: KPMP
+  provider_uuid: 885cdd09-6012-49a1-85d2-4a4c56332e61
+  defaults:
+    id: https://doi.org/10.1016/j.kint.2020.08.039
+    thumbnail: assets/logo.jpg
+    link: https://doi.org/10.1016/j.kint.2020.08.039
+  donors:
+    - sex: Male
+      label: Male
+      description: Entered 8/24/2023, Matthias Kretzler, UPitt
+      samples:
+      - rui_location: male_cortex.json
+        label: Registered 8/24/2023, Matthias Kretzler, UPitt
+        description: Lower left biopsy with renal cortex and medulla
+        datasets:
+          - technology: OTHER
+          - link: https://www.kpmp.org/available-data
+      # - rui_location: male_cortex_with_renal_structures.json
+      #   label: Registered 8/24/2023, Matthias Kretzler, UPitt
+      #   description: Lower left biopsy of renal cortex
+      #   datasets:
+      #     - technology: OTHER
+      #     - link: https://www.kpmp.org/available-data      
+    - sex: Female
+      label: Female
+      description: Entered 8/24/2023, Matthias Kretzler, UPitt
+      samples:
+      - rui_location: female_cortex.json
+        label: Registered 8/24/2023, Matthias Kretzler, UPitt
+        description: Lower left biopsy of renal cortex
+        datasets:
+          - technology: OTHER
+          - link: https://www.kpmp.org/available-data      
+      # - rui_location: female_cortex_with_renal_structures.json
+      #   label: Registered 8/24/2023, Matthias Kretzler, UPitt
+      #   description: Lower left biopsy with renal cortex and medulla
+      #   datasets:
+      #     - technology: OTHER
+      #     - link: https://www.kpmp.org/available-data        
+      

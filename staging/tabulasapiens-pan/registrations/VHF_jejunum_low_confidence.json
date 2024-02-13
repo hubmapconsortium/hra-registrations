@@ -1,0 +1,39 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1",
+  "@type": "SpatialEntity",
+  "creator": "h s",
+  "creator_first_name": "h",
+  "creator_last_name": "s",
+  "creation_date": "2023-08-28",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0002114",
+    "http://purl.org/sig/ont/fma/fma14930",
+    "http://purl.obolibrary.org/obo/UBERON_0002115",
+    "http://purl.obolibrary.org/obo/UBERON_0002116"
+  ],
+  "x_dimension": 304.8,
+  "y_dimension": 30,
+  "z_dimension": 30,
+  "dimension_units": "millimeter",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1_placement",
+    "@type": "SpatialPlacement",
+    "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine",
+    "placement_date": "2023-08-28",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 57,
+    "y_rotation": 116,
+    "z_rotation": 47,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 125.212,
+    "y_translation": 163.467,
+    "z_translation": 34.926,
+    "translation_units": "millimeter"
+  }
+}

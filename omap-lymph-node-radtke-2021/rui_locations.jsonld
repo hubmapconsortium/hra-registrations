@@ -1,0 +1,82 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "http://purl.org/ccf/1.5/omap-1#Donor1",
+      "@type": "Donor",
+      "label": "Female, Age 38",
+      "description": "Entered 7/3/2023, Andrea Radtke, NIH",
+      "link": "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html",
+      "consortium_name": "HRA",
+      "provider_name": "NIH",
+      "provider_uuid": "2feafcf5-62a1-4ddc-9f93-f0ea2f27d529",
+      "age": 38,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/3/2023, Andrea Radtke, NIH",
+          "description": "19 x 11 x 12 millimeter, 12 millimeter",
+          "link": "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html",
+          "section_count": 95,
+          "section_size": 12,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137",
+            "@type": "SpatialEntity",
+            "creator": "Andrea Radtke",
+            "creator_first_name": "Andrea",
+            "creator_last_name": "Radtke",
+            "creation_date": "2023-08-04",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010396",
+              "http://purl.obolibrary.org/obo/UBERON_0002194",
+              "http://purl.obolibrary.org/obo/UBERON_0010748",
+              "http://purl.obolibrary.org/obo/UBERON_0010397",
+              "http://purl.obolibrary.org/obo/UBERON_0002007",
+              "http://purl.obolibrary.org/obo/UBERON_0010417",
+              "http://purl.obolibrary.org/obo/UBERON_0004536"
+            ],
+            "x_dimension": 19,
+            "y_dimension": 11,
+            "z_dimension": 12,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/70c2341b-2506-4b86-99bb-8e65f5015137_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-04",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 1,
+              "y_rotation": -6,
+              "z_rotation": 6,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 9.632,
+              "y_translation": 5.667,
+              "z_translation": 6.756,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLymphNode"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "http://purl.org/ccf/1.5/omap-1#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/3/2023, Andrea Radtke, NIH",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://hubmapconsortium.github.io/ccf-releases/v1.4/docs/omap/omap-1-human-lymph-node-ibex.html",
+              "technology": "OTHER",
+              "thumbnail": "assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

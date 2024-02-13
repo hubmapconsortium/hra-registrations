@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: KPMP
+  provider_name: KPMP-IU/OSU
+  provider_uuid: 182adaf1-f29b-494a-8868-ac619dd56704
+  defaults:
+    id: http://dx.doi.org/10.1681/ASN.2016091027
+    thumbnail: https://hubmapconsortium.github.io/hra-registrations/kpmp/assets/logo.jpg
+    link: http://dx.doi.org/10.1681/ASN.2016091027
+    publication: http://dx.doi.org/10.1681/ASN.2016091027
+  donors:
+    - sex: Male 
+      label: Patient B Cortical biopsy
+      samples:
+        - rui_location: patient_b_cortical_biopsy.json
+          datasets:
+            - link: http://dx.doi.org/10.1681/ASN.2016091027
+              description: "Data/Assay Types: Cytometry"
+    - sex: Male
+      description: Biopsy from Nephrology biobank-salvaged from pathology in ~2017 
+      label: Patient A Cortical biopsy
+      samples:
+        - rui_location: patient_a_cortical_biopsy.json
+          datasets:
+            - link: http://dx.doi.org/10.1681/ASN.2016091027
+              description: "Data/Assay Types: Cytometry"                    
+    - sex: Male
+      link: http://dx.doi.org/10.1016/j.trsl.2017.07.006
+      description: Biopsy from Nephrology biobank-salvaged from pathology in ~2017 
+      label: Cover Nephrectomy
+      samples:
+        - rui_location: cover_nephrectomy.json  
+          link: http://dx.doi.org/10.1016/j.trsl.2017.07.006
+          datasets:
+            - link: http://dx.doi.org/10.1016/j.trsl.2017.07.006  
+
+
+  

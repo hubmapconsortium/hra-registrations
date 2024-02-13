@@ -1,0 +1,62 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/168abaaf-f115-4606-a655-8821b294d8bb_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/168abaaf-f115-4606-a655-8821b294d8bb> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMPancreas> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 79 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.08477e+02 ;
+    ccf:y_rotation -38 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.5012e+01 ;
+    ccf:z_rotation -39 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.32e+00 ;
+    dcterms:created "2023-06-27" .
+
+<http://purl.org/ccf/1.5/omap-6#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 5/26/2023, Anna Martinez Casals, IsletCore" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/omap-6#Donor1> ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/omap-6#Donor1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/168abaaf-f115-4606-a655-8821b294d8bb> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 5e-03 ;
+    ccf:url "https://zenodo.org/record/7742474" ;
+    rdfs:comment "8.39 x 5.99 x 0.005 millimeter, 0.005 millimeter" .
+
+<http://purl.org/ccf/1.5/omap-6#Donor1> a ccf:Donor ;
+    rdfs:label "Male" ;
+    ccf:consortium_name "HIRN, ESPACE" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "IsletCore" ;
+    ccf:tissue_provider_uuid "51ad23f1-8fc2-4106-97b7-480b676951a9" ;
+    ccf:url "https://zenodo.org/record/7742474" ;
+    rdfs:comment "Entered 5/26/2023, Anna Martinez Casals, IsletCore" .
+
+<http://purl.org/ccf/1.5/omap-6#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 5/26/2023, Anna Martinez Casals, IsletCore" ;
+    ccf:publication "https://doi.org/10.5281/zenodo.7742474" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://zenodo.org/record/7742474" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/168abaaf-f115-4606-a655-8821b294d8bb> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001151> ;
+    ccf:creator_first_name "Anna Martinez" ;
+    ccf:creator_last_name "Casals" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 8.39e+00 ;
+    ccf:y_dimension 5.99e+00 ;
+    ccf:z_dimension 5e-03 ;
+    dcterms:created "2023-06-27" ;
+    dcterms:creator "Anna Martinez Casals" .
+

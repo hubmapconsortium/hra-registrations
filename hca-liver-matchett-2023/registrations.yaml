@@ -1,0 +1,394 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: UEdinburgh
+  provider_name: CIR/UEdinburgh
+  provider_uuid: b27cb053-cf97-498b-b9d6-0854155e9df6
+  defaults:
+    id: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+    thumbnail: assets/logo.jpg
+    link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+  donors:
+    - id: HEA1
+      sex: Female
+      age: 62
+      label: Female, Age 62, Patient HEA1
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+    - id: HEA2
+      sex: Male
+      age: 70
+      label: Male, Age 70, Patient HEA2
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1       
+    - id: HEA3
+      sex: Male
+      age: 39
+      label: Male, Age 39, Patient HEA3
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1             
+    - id: HEA4
+      sex: Male
+      age: 59
+      label: Male, Age 59, Patient HEA4
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1     
+    - id: HEA5
+      sex: Male
+      age: 70
+      label: Male, Age 70, Patient HEA5
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1                        
+    - id: HEA6
+      sex: Male
+      age: 71
+      label: Male, Age 71, Patient HEA6
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1     
+    - id: HEA7
+      sex: Male
+      age: 67
+      label: Male, Age 67, Patient HEA7
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1          
+    - id: HEA8
+      sex: Female
+      age: 64
+      label: Female, Age 64, Patient HEA8
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1    
+    - id: HEA9
+      sex: Female
+      age: 57
+      label: Female, Age 57, Patient HEA9
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+    - id: HEA10
+      sex: Male
+      age: 80
+      label: Male, Age 80, Patient HEA10
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Healthy.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Healthy tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1      
+    - id: APAP1
+      sex: Male
+      age: 19
+      label: Male, Age 19, Patient APAP1
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1    
+    - id: APAP2
+      sex: Female
+      age: 23
+      label: Female, Age 23, Patient APAP2
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1       
+    - id: APAP3
+      sex: Male
+      age: 66
+      label: Male, Age 66, Patient APAP3
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1   
+    - id: APAP4
+      sex: Male
+      age: 38
+      label: Male, Age 38, Patient APAP4
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1            
+    - id: APAP5
+      sex: Female
+      age: 37
+      label: Female, Age 37, Patient APAP5
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1        
+    - id: APAP6
+      sex: Female
+      age: 45
+      label: Female, Age 45, Patient APAP6
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1   
+    - id: APAP7
+      sex: Female
+      age: 48
+      label: Female, Age 48, Patient APAP7
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1       
+    - id: APAP8
+      sex: Female
+      age: 46
+      label: Female, Age 46, Patient APAP8
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1   
+    - id: APAP9
+      sex: Male
+      age: 41
+      label: Male, Age 41, Patient APAP9
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1     
+    - id: APAP10
+      sex: Female
+      age: 48
+      label: Female, Age 48, Patient APAP10
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1        
+    - id: NAE1
+      sex: Male
+      age: 32
+      label: Male, Age 32, Patient NAE1
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1          
+    - id: NAE2
+      sex: Male
+      age: 53
+      label: Male, Age 53, Patient NAE2
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1       
+    - id: NAE3
+      sex: Female
+      age: 48
+      label: Female, Age 48, Patient NAE3
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1        
+    - id: NAE4
+      sex: Female
+      age: 58
+      label: Female, Age 58, Patient NAE4
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1           
+    - id: NAE5
+      sex: Female
+      age: 60
+      label: Female, Age 60, Patient NAE5
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1        
+    - id: NAE6
+      sex: Male
+      age: 29
+      label: Male, Age 29, Patient NAE6
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Male_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+    - id: NAE7
+      sex: Female
+      age: 60
+      label: Female, Age 60, Patient NAE7
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1    
+    - id: NAE8
+      sex: Female
+      age: 59
+      label: Female, Age 59, Patient NAE8
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1   
+    - id: NAE9
+      sex: Female
+      age: 68
+      label: Female, Age 68, Patient NAE9
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+    - id: NAE10
+      sex: Female
+      age: 56
+      label: Female, Age 56, Patient NAE10
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+    - id: NAE11
+      sex: Female
+      age: 61
+      label: Female, Age 61, Patient NAE11
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1
+    - id: NAE12
+      sex: Female
+      age: 50
+      label: Female, Age 50, Patient NAE12
+      description: Entered 8/24/2023, Jordan Portman, UEdinburgh
+      samples:
+      - rui_location: Female_Disease.json
+        label: Registered 8/24/2023, Jordan Portman, UEdinburgh
+        description: Diseased tissue block
+        datasets:
+          - technology: OTHER
+          - link: https://www.biorxiv.org/content/10.1101/2023.02.24.529873v1            

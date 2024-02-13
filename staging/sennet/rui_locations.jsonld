@@ -1,0 +1,369 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "http://purl.org/ccf/1.5/sennet#Donor1",
+      "@type": "Donor",
+      "label": "Male, Age 69",
+      "description": "Entered 6/27/2023, Lorena Rosas, SenNet",
+      "link": "https://data.sennetconsortium.org/",
+      "consortium_name": "SenNet",
+      "provider_name": "SenNet",
+      "provider_uuid": "01764950-d209-4cf6-b8a2-60dd41a1dce1",
+      "age": 69,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "http://purl.org/ccf/1.5/sennet#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/27/2023, Lorena Rosas, SenNet",
+          "description": "SNT926.KXQV.923",
+          "link": "https://data.sennetconsortium.org/",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/38d89d1c-002c-4bd3-a178-9af62b112834",
+            "@type": "SpatialEntity",
+            "creator": "Lorena Rosas",
+            "creator_first_name": "Lorena",
+            "creator_last_name": "Rosas",
+            "creation_date": "2023-07-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002048",
+              "http://purl.obolibrary.org/obo/UBERON_0002168",
+              "http://purl.obolibrary.org/obo/UBERON_0008953"
+            ],
+            "x_dimension": 25,
+            "y_dimension": 25,
+            "z_dimension": 25,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/38d89d1c-002c-4bd3-a178-9af62b112834_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-07-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 183.956,
+              "y_translation": 53.867,
+              "z_translation": 88.913,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLungV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/ccf/1.5/sennet#Donor2",
+      "@type": "Donor",
+      "label": "Male, Age 64",
+      "description": "Entered 6/27/2023, Lorena Rosas, SenNet",
+      "link": "https://data.sennetconsortium.org/",
+      "consortium_name": "SenNet",
+      "provider_name": "SenNet",
+      "provider_uuid": "01764950-d209-4cf6-b8a2-60dd41a1dce1",
+      "age": 64,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "http://purl.org/ccf/1.5/sennet#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/27/2023, Lorena Rosas, SenNet",
+          "description": "SNT863.RGDQ.575",
+          "link": "https://data.sennetconsortium.org/",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/39c5cfa5-60b8-408c-ad92-10be42ece26b",
+            "@type": "SpatialEntity",
+            "creator": "Lorena Rosas",
+            "creator_first_name": "Lorena",
+            "creator_last_name": "Rosas",
+            "creation_date": "2023-07-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002048",
+              "http://purl.obolibrary.org/obo/UBERON_0002167",
+              "http://purl.obolibrary.org/obo/UBERON_0002170"
+            ],
+            "x_dimension": 25,
+            "y_dimension": 25,
+            "z_dimension": 25,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/39c5cfa5-60b8-408c-ad92-10be42ece26b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-07-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 54.105,
+              "y_translation": 184.504,
+              "z_translation": 86.619,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLungV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/ccf/1.5/sennet#Donor3",
+      "@type": "Donor",
+      "label": "Male, Age 64",
+      "description": "Entered 6/27/2023, Lorena Rosas, SenNet",
+      "link": "https://data.sennetconsortium.org/",
+      "consortium_name": "SenNet",
+      "provider_name": "SenNet",
+      "provider_uuid": "01764950-d209-4cf6-b8a2-60dd41a1dce1",
+      "age": 64,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "http://purl.org/ccf/1.5/sennet#Donor3_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/27/2023, Lorena Rosas, SenNet",
+          "description": "SNT857.FRQC.497",
+          "link": "https://data.sennetconsortium.org/",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/123e39e8-8072-45ce-a4f7-8019d60322a5",
+            "@type": "SpatialEntity",
+            "creator": "Lorena Rosas",
+            "creator_first_name": "Lorena",
+            "creator_last_name": "Rosas",
+            "creation_date": "2023-07-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002048",
+              "http://purl.obolibrary.org/obo/UBERON_0002167",
+              "http://purl.obolibrary.org/obo/UBERON_0002170"
+            ],
+            "x_dimension": 25,
+            "y_dimension": 25,
+            "z_dimension": 25,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/123e39e8-8072-45ce-a4f7-8019d60322a5_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-07-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 56.239,
+              "y_translation": 179.609,
+              "z_translation": 86.619,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLungV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/ccf/1.5/sennet#Donor4",
+      "@type": "Donor",
+      "label": "Male, Age 69",
+      "description": "Entered 6/27/2023, Lorena Rosas, SenNet",
+      "link": "https://data.sennetconsortium.org/",
+      "consortium_name": "SenNet",
+      "provider_name": "SenNet",
+      "provider_uuid": "01764950-d209-4cf6-b8a2-60dd41a1dce1",
+      "age": 69,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "http://purl.org/ccf/1.5/sennet#Donor4_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/27/2023, Lorena Rosas, SenNet",
+          "description": "SNT793.BPPZ.269",
+          "link": "https://data.sennetconsortium.org/",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/505bec91-0002-481f-8591-2a44a6b9edb0",
+            "@type": "SpatialEntity",
+            "creator": "Lorena Rosas",
+            "creator_first_name": "Lorena",
+            "creator_last_name": "Rosas",
+            "creation_date": "2023-07-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002048",
+              "http://purl.obolibrary.org/obo/UBERON_0002168",
+              "http://purl.obolibrary.org/obo/UBERON_0008952"
+            ],
+            "x_dimension": 25,
+            "y_dimension": 25,
+            "z_dimension": 25,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/505bec91-0002-481f-8591-2a44a6b9edb0_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-07-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 192.242,
+              "y_translation": 175.954,
+              "z_translation": 86.619,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLungV1.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/ccf/1.5/sennet#Donor5",
+      "@type": "Donor",
+      "label": "Female, Age 69",
+      "description": "Entered 4/10/2023, Matthew Wyczalkowski, SenNet",
+      "link": "https://data.sennetconsortium.org/",
+      "consortium_name": "SenNet",
+      "provider_name": "SenNet",
+      "provider_uuid": "01764950-d209-4cf6-b8a2-60dd41a1dce1",
+      "age": 69,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "http://purl.org/ccf/1.5/sennet#Donor5_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/10/2023, Matthew Wyczalkowski, SenNet",
+          "description": "SNT288.RFFS.368",
+          "link": "https://data.sennetconsortium.org/",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/8eea8795-2c2f-4811-bf19-ceff62be1128",
+            "@type": "SpatialEntity",
+            "creator": "Matthew Wyczalkowski",
+            "creator_first_name": "Matthew",
+            "creator_last_name": "Wyczalkowski",
+            "creation_date": "2023-05-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0016479",
+              "http://purl.obolibrary.org/obo/UBERON_0006727"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 15,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/8eea8795-2c2f-4811-bf19-ceff62be1128_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-05-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 129.547,
+              "y_translation": 75.445,
+              "z_translation": 182.878,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLiver"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/ccf/1.5/sennet#Donor6",
+      "@type": "Donor",
+      "label": "Male, Age 37",
+      "description": "Entered 4/10/2023, Matthew Wyczalkowski, SenNet",
+      "link": "https://data.sennetconsortium.org/",
+      "consortium_name": "SenNet",
+      "provider_name": "SenNet",
+      "provider_uuid": "01764950-d209-4cf6-b8a2-60dd41a1dce1",
+      "age": 37,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "http://purl.org/ccf/1.5/sennet#Donor6_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/10/2023, Matthew Wyczalkowski, SenNet",
+          "description": "SNT269.CCMG.458",
+          "link": "https://data.sennetconsortium.org/",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/67e5f7e1-7b82-4aff-890e-9f8fc1f5c89b",
+            "@type": "SpatialEntity",
+            "creator": "Matthew Wyczalkowski",
+            "creator_first_name": "Matthew",
+            "creator_last_name": "Wyczalkowski",
+            "creation_date": "2023-05-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0016479",
+              "http://purl.obolibrary.org/obo/UBERON_0006727"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 15,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/67e5f7e1-7b82-4aff-890e-9f8fc1f5c89b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-05-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 129.547,
+              "y_translation": 75.445,
+              "z_translation": 182.878,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLiver"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

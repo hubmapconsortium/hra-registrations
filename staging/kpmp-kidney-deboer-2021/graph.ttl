@@ -1,0 +1,133 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 39 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.871e+01 ;
+    ccf:y_rotation -24 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.0274e+01 ;
+    ccf:z_rotation -130 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.6215e+01 ;
+    dcterms:created "2023-08-24" .
+
+<http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.9111e+01 ;
+    ccf:y_rotation 24 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.6928e+01 ;
+    ccf:z_rotation -135 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.729e+01 ;
+    dcterms:created "2023-08-24" .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Matthias Kretzler, UPitt" ;
+    ccf:comes_from <https://doi.org/10.1016/j.kint.2020.08.039#Donor1> ;
+    ccf:generates_dataset <https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1_TissueBlock1_Dataset1>,
+        <https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://doi.org/10.1016/j.kint.2020.08.039" ;
+    rdfs:comment "Lower left biopsy with renal cortex and medulla" .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 8/24/2023, Matthias Kretzler, UPitt" ;
+    ccf:comes_from <https://doi.org/10.1016/j.kint.2020.08.039#Donor2> ;
+    ccf:generates_dataset <https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1_TissueBlock1_Dataset1>,
+        <https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1_TissueBlock1_Dataset2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:url "https://doi.org/10.1016/j.kint.2020.08.039" ;
+    rdfs:comment "Lower left biopsy of renal cortex" .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor1> a ccf:Donor ;
+    rdfs:label "Male" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "885cdd09-6012-49a1-85d2-4a4c56332e61" ;
+    ccf:url "https://doi.org/10.1016/j.kint.2020.08.039" ;
+    rdfs:comment "Entered 8/24/2023, Matthias Kretzler, UPitt" .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1016/j.kint.2020.08.039" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor1_TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.kpmp.org/available-data" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor2> a ccf:Donor ;
+    rdfs:label "Female" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "885cdd09-6012-49a1-85d2-4a4c56332e61" ;
+    ccf:url "https://doi.org/10.1016/j.kint.2020.08.039" ;
+    rdfs:comment "Entered 8/24/2023, Matthias Kretzler, UPitt" .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1016/j.kint.2020.08.039" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.1016/j.kint.2020.08.039#Donor2_TissueBlock1_TissueBlock1_Dataset2> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://www.kpmp.org/available-data" ;
+    rdfs:comment "Data/Assay Types: undefined, " .
+
+<http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Matthias" ;
+    ccf:creator_last_name "Kretzler" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1 ;
+    ccf:y_dimension 11 ;
+    ccf:z_dimension 1 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Matthias Kretzler" .
+
+<http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Matthias" ;
+    ccf:creator_last_name "Kretzler" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 1 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Matthias Kretzler" .
+

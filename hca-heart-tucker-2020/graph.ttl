@@ -1,0 +1,1110 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -28 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.351e+00 ;
+    ccf:y_rotation 34 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.8218e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.6608e+01 ;
+    dcterms:created "2023-04-20" .
+
+<http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 44 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.10351e+02 ;
+    ccf:y_rotation 128 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.9218e+01 ;
+    ccf:z_rotation 62 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.6108e+01 ;
+    dcterms:created "2023-04-20" .
+
+<http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -126 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.1351e+01 ;
+    ccf:y_rotation -14 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.9718e+01 ;
+    ccf:z_rotation -10 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.7108e+01 ;
+    dcterms:created "2023-06-01" .
+
+<http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 46 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.22542e+02 ;
+    ccf:y_rotation 133 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.1492e+01 ;
+    ccf:z_rotation -11 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.8749e+01 ;
+    dcterms:created "2023-04-20" .
+
+<http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -92 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.5542e+01 ;
+    ccf:y_rotation -10 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 9.4992e+01 ;
+    ccf:z_rotation -28 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.2749e+01 ;
+    dcterms:created "2023-04-20" .
+
+<http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -4 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.8542e+01 ;
+    ccf:y_rotation 3 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.9992e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 9.9249e+01 ;
+    dcterms:created "2023-04-20" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1221#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 6 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 6 millimeter, 6 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1221#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1221#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1600#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1600#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1666#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1666#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 7 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 7 millimeter, 7 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1666#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 5 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 5 millimeter, 5 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1681#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1681#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 7 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 7 millimeter, 7 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1681#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1702#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1702#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 7 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 7 millimeter, 7 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1702#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1702#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 5 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 5 millimeter, 5 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1708#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1708#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1708#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23>,
+        <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4,
+        6 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection>,
+        <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter",
+        "5 x 5 x 6 millimeter, 6 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1723#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1723#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 6 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 6 millimeter, 6 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1723#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:comes_from <http://purl.org/ccf/1.5/broad-institute/P1723#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 4 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection> ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMHeart> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -32 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.7351e+01 ;
+    ccf:y_rotation -9 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.0218e+01 ;
+    ccf:z_rotation -9 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.5608e+01 ;
+    dcterms:created "2023-04-20" .
+
+<http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -69 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.542e+00 ;
+    ccf:y_rotation -76 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.5492e+01 ;
+    ccf:z_rotation -4 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.2249e+01 ;
+    dcterms:created "2023-04-25" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection/LV_1221_1#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 6 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 6 millimeter, 6 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/LV#TissueBlock/LV_1221#TissueSection/LV_1221_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection/RA_1221_1#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RA#TissueBlock/RA_1221#TissueSection/RA_1221_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor/RV#TissueBlock/RV_1221#TissueSection/RV_1221_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/LA#TissueBlock/LA_1600#TissueSection/LA_1600_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor/RA#TissueBlock/RA_1600#TissueSection/RA_1600_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LA#TissueBlock/LA_1666#TissueSection/LA_1666_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection/LV_1666_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LVT#issueBlock/LV_1666#TissueSection/LV_1666_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 7 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 7 millimeter, 7 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LV#TissueBlock/LV_1666#TissueSection/LV_1666_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/LVT#issueBlock/LV_1666#TissueSection/LV_1666_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection/RV_1666_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RVT#issueBlock/RV_1666#TissueSection/RV_1666_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 5 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 5 millimeter, 5 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RV#TissueBlock/RV_1666#TissueSection/RV_1666_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor/RVT#issueBlock/RV_1666#TissueSection/RV_1666_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LA#TissueBlock/LA_1681#TissueSection/LA_1681_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection/LV_1681_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LVT#issueBlock/LV_1681#TissueSection/LV_1681_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 7 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 7 millimeter, 7 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LV#TissueBlock/LV_1681#TissueSection/LV_1681_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/LVT#issueBlock/LV_1681#TissueSection/LV_1681_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection/RA_1681_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RAT#issueBlock/RA_1681#TissueSection/RA_1681_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RA#TissueBlock/RA_1681#TissueSection/RA_1681_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor/RAT#issueBlock/RA_1681#TissueSection/RA_1681_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LA#TissueBlock/LA_1702#TissueSection/LA_1702_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 4/31/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 7 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 7 millimeter, 7 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/LV#TissueBlock/LV_1702#TissueSection/LV_1702_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RA#TissueBlock/RA_1702#TissueSection/RA_1702_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 5 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 5 millimeter, 5 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor/RV#TissueBlock/RV_1702#TissueSection/RV_1702_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LA#TissueBlock/LA_1708#TissueSection/LA_1708_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 6 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 6 millimeter, 6 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/LV#TissueBlock/LV_1708#TissueSection/LV_1708_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RA#TissueBlock/RA_1708#TissueSection/RA_1708_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor/RV#TissueBlock/RV_1708#TissueSection/RV_1708_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LA#TissueBlock/LA_1723#TissueSection/LA_1723_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 6 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 6 millimeter, 6 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/LV#TissueBlock/LV_1723#TissueSection/LV_1723_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RA#TissueBlock/RA_1723#TissueSection/RA_1723_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection> a ccf:Sample ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_1#Dataset>,
+        <http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_2#Dataset> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 4 ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "5 x 5 x 4 millimeter, 4 millimeter" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_1#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor/RV#TissueBlock/RV_1723#TissueSection/RV_1723_2#Dataset> a ccf:Dataset ;
+    rdfs:label "Registered 3/19/2023, Nathan Tucker, Broad Institute" ;
+    ccf:publication "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/broad-institute/P1600#Donor> a ccf:Donor ;
+    rdfs:label "Female, 51" ;
+    ccf:age 51 ;
+    ccf:consortium_name "HCA" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "Broad Institute" ;
+    ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Entered 3/19/2023, Nathan Tucker, Broad Institute" .
+
+<http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 4 ;
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1221#Donor> a ccf:Donor ;
+    rdfs:label "Female, 52" ;
+    ccf:age 52 ;
+    ccf:consortium_name "HCA" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "Broad Institute" ;
+    ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Entered 3/19/2023, Nathan Tucker, Broad Institute" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1666#Donor> a ccf:Donor ;
+    rdfs:label "Male, Age 54" ;
+    ccf:age 54 ;
+    ccf:consortium_name "HCA" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "Broad Institute" ;
+    ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Entered 4/31/2023, Nathan Tucker, Broad Institute" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1681#Donor> a ccf:Donor ;
+    rdfs:label "Male, Age 39" ;
+    ccf:age 39 ;
+    ccf:consortium_name "HCA" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "Broad Institute" ;
+    ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Entered 4/31/2023, Nathan Tucker, Broad Institute" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1708#Donor> a ccf:Donor ;
+    rdfs:label "Female, 60" ;
+    ccf:age 60 ;
+    ccf:consortium_name "HCA" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "Broad Institute" ;
+    ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Entered 3/19/2023, Nathan Tucker, Broad Institute" .
+
+<http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 5 ;
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
+
+<http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 7 ;
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
+
+<http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002079> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 4 ;
+    dcterms:created "2023-06-01" ;
+    dcterms:creator "Nathan Tucker" .
+
+<http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002084> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 6 ;
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
+
+<http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002079> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 4 ;
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
+
+<http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002080> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 4 ;
+    dcterms:created "2023-04-20" ;
+    dcterms:creator "Nathan Tucker" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1702#Donor> a ccf:Donor ;
+    rdfs:label "Male, 59" ;
+    ccf:age 59 ;
+    ccf:consortium_name "HCA" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "Broad Institute" ;
+    ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Entered 4/31/2023, Nathan Tucker, Broad Institute" .
+
+<http://purl.org/ccf/1.5/broad-institute/P1723#Donor> a ccf:Donor ;
+    rdfs:label "Female, 60" ;
+    ccf:age 60 ;
+    ccf:consortium_name "HCA" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "Broad Institute" ;
+    ccf:tissue_provider_uuid "458fc690-a858-4518-bffa-6a41f2f20af0" ;
+    ccf:url "https://doi.org/10.1161/CIRCULATIONAHA.119.045401" ;
+    rdfs:comment "Entered 3/19/2023, Nathan Tucker, Broad Institute" .
+
+<http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002078> ;
+    ccf:creator_first_name "Nathan" ;
+    ccf:creator_last_name "Tucker" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 5 ;
+    ccf:y_dimension 5 ;
+    ccf:z_dimension 4 ;
+    dcterms:created "2023-04-25" ;
+    dcterms:creator "Nathan Tucker" .
+

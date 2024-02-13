@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+# - consortium_name: SEA-AD
+#   provider_name: SEA-AD
+#   provider_uuid: d97e6b70-5aca-4694-806b-5dc57e4f42c4
+#   defaults:
+#     id: https://portal.brain-map.org/explore/seattle-alzheimers-disease
+#     thumbnail: https://hubmapconsortium.github.io/hra-registrations/sea-ad/assets/logo.jpg
+#     link: https://portal.brain-map.org/explore/seattle-alzheimers-disease
+  # donors:
+  #   - sex: Female
+  #     label: Females, Middle Temporal Gyrus
+  #     description: Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples. 
+  #     samples:
+  #       - rui_location: female_middle_temporal_gyrus.json
+  #         datasets:
+  #         - description: 10x 3' v3 & 10x multiome
+  #           technology: OTHER
+  #   - sex: Male
+  #     label: Males, Middle Temporal Gyrus Male
+  #     description: Entered 2/20/2023, Rebecca Hodge, SEA-AD. Meta-donor for all SEA-AD samples. 
+  #     samples:
+  #       - rui_location: male_middle_temporal_gyrus.json
+  #         datasets:
+  #         - description: 10x 3' v3 & 10x multiome
+  #           technology: OTHER
+- imports:
+  - 'https://hubmapconsortium.github.io/ccf-ui/assets/allen-institute/data/rui_locations.jsonld'
+
+
+
+
+  

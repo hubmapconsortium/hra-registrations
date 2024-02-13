@@ -1,0 +1,36 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf",
+  "@type": "SpatialEntity",
+  "creator": "h s",
+  "creator_first_name": "h",
+  "creator_last_name": "s",
+  "creation_date": "2023-08-28",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0006082"
+  ],
+  "x_dimension": 20,
+  "y_dimension": 20,
+  "z_dimension": 20,
+  "dimension_units": "millimeter",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf_placement",
+    "@type": "SpatialPlacement",
+    "target": "http://purl.org/ccf/latest/ccf.owl#VHMUrinaryBladder",
+    "placement_date": "2023-08-28",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 29.744,
+    "y_translation": 30.988,
+    "z_translation": 48.726,
+    "translation_units": "millimeter"
+  }
+}
