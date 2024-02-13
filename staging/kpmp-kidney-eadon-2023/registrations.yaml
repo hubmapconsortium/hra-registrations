@@ -26,7 +26,7 @@
       - rui_location: female_cortex.json
     # - id: 21-020
       # sex: .nan
-      label: 70-79 Years
+      # label: 70-79 Years
       #samples:
       # - rui_location: female_cortex.json
     - id: 21-019
@@ -66,7 +66,7 @@
       - rui_location: female_cortex.json
     - id: K1800128P-3
       sex: Male
-      label: .nan
+      # label: .nan
       samples:
       - rui_location: male_cortex.json
     - id: s1815183
@@ -81,7 +81,7 @@
       - rui_location: male_cortex.json
     - id: K1700326-6
       sex: Female
-      label: .nan
+      # label: .nan
       samples:
       - rui_location: female_cortex.json
     - id: K2100035_1_D1
@@ -91,7 +91,7 @@
       - rui_location: male_cortex.json
     # - id: 21-021
       # sex: .nan
-      label: .nan
+      # label: .nan
       # samples:
       # - rui_location: female_cortex.json
     - id: IU1800006
@@ -106,7 +106,7 @@
       - rui_location: male_cortex.json
     # - id: K1700415-2
       # sex: Female
-      label: .nan
+      # label: .nan
       # samples:
       # - rui_location: female_cortex.json
     - id: 18-142
@@ -121,8 +121,8 @@
       - rui_location: male_cortex.json
     # - id: 21-016
       # sex: .nan
-      label: 50-59 Years
-      #samples:
+      # label: 50-59 Years
+      # samples:
       # - rui_location: female_cortex.json
     - id: IU1700002
       sex: Female
