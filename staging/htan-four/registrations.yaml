@@ -1,7 +1,0 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
-
-- imports:
-  - ./hubmap-skin-ginty-2023/rui_locations.jsonld
-  - ./hubmap-intestine-snyder-2023/rui_locations.jsonld
-  - ./htan-intestine-sorger-2023
-  - ./staging/hubmap-spleen-fan-2023
