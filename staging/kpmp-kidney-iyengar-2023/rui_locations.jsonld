@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "29-10012",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10012",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -13,7 +13,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "29-10012#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10012_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -58,12 +58,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10012_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1153-EO3",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO3",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -74,7 +86,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "Sample1153-EO3#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO3_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -119,12 +131,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1158-EO1",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO1",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -135,7 +159,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "Sample1158-EO1#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -180,12 +204,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "33-10006",
+      "@id": "https://doi.org/10.48698/B2XN-D827#33-10006",
       "@type": "Donor",
       "label": "20-29 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -196,7 +232,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "33-10006#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#33-10006_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -241,12 +277,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#33-10006_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE062-1",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE062-1",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -257,7 +305,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "PRE062-1#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE062-1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -302,12 +350,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE062-1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1157-EO1",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO1",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -318,7 +378,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "Sample1157-EO1#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -363,12 +423,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10154",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10154",
       "@type": "Donor",
       "label": "80-89 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -379,7 +451,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "31-10154#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10154_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -424,12 +496,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10154_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10013",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10013",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -440,7 +524,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "31-10013#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10013_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -485,12 +569,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10013_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10016",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10016",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -501,7 +597,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "29-10016#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10016_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -546,12 +642,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10016_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1158-EO2",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO2",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -562,7 +670,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "Sample1158-EO2#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO2_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -607,12 +715,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "33-10005",
+      "@id": "https://doi.org/10.48698/B2XN-D827#33-10005",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -623,7 +743,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "33-10005#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#33-10005_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -668,12 +788,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#33-10005_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE019-4",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE019-4",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -684,7 +816,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "PRE019-4#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE019-4_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -729,12 +861,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE019-4_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE018-1",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE018-1",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -745,7 +889,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "PRE018-1#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE018-1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -790,12 +934,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE018-1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1153-EO2",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO2",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -806,7 +962,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "Sample1153-EO2#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO2_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -851,12 +1007,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1162-EO1",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1162-EO1",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -867,7 +1035,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "Sample1162-EO1#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1162-EO1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -912,12 +1080,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1162-EO1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1157-EO2",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO2",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -928,7 +1108,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "Sample1157-EO2#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO2_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -973,12 +1153,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE038",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE038",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -989,7 +1181,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "PRE038#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE038_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1034,12 +1226,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE038_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "32-10003",
+      "@id": "https://doi.org/10.48698/B2XN-D827#32-10003",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1050,7 +1254,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "32-10003#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#32-10003_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1095,12 +1299,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#32-10003_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1158-EO3",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO3",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1111,7 +1327,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "Sample1158-EO3#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO3_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1156,12 +1372,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1158-EO3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE19-05",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE19-05",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1172,7 +1400,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "PRE19-05#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE19-05_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1217,12 +1445,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE19-05_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10404",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10404",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1233,7 +1473,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "29-10404#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10404_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1278,12 +1518,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10404_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "28-12381",
+      "@id": "https://doi.org/10.48698/B2XN-D827#28-12381",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1294,7 +1546,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "28-12381#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#28-12381_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1339,12 +1591,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#28-12381_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "28-12490",
+      "@id": "https://doi.org/10.48698/B2XN-D827#28-12490",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1355,7 +1619,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "28-12490#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#28-12490_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1400,12 +1664,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#28-12490_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE19-025",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE19-025",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1416,7 +1692,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "PRE19-025#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE19-025_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1461,12 +1737,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE19-025_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1157-EO3",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO3",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1477,7 +1765,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "Sample1157-EO3#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO3_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1522,12 +1810,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1157-EO3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "30-10034",
+      "@id": "https://doi.org/10.48698/B2XN-D827#30-10034",
       "@type": "Donor",
       "label": "70-79 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1538,7 +1838,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "30-10034#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#30-10034_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1583,12 +1883,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#30-10034_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE98sc",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE98sc",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1599,7 +1911,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "PRE98sc#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE98sc_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1644,12 +1956,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE98sc_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10400",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10400",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1660,7 +1984,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "29-10400#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10400_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1705,12 +2029,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10400_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1162-EO2",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1162-EO2",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1721,7 +2057,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "Sample1162-EO2#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1162-EO2_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1766,12 +2102,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1162-EO2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10280",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10280",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1782,7 +2130,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "29-10280#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10280_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1827,12 +2175,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10280_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10380",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10380",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1843,7 +2203,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "29-10380#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10380_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1888,12 +2248,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10380_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10013",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10013",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1904,7 +2276,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "29-10013#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10013_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1949,12 +2321,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10013_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "Sample1153-EO1",
+      "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO1",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -1965,7 +2349,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "Sample1153-EO1#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2010,12 +2394,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#Sample1153-EO1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10236",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10236",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2026,7 +2422,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "31-10236#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10236_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2071,12 +2467,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10236_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "30-10929",
+      "@id": "https://doi.org/10.48698/B2XN-D827#30-10929",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2087,7 +2495,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "30-10929#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#30-10929_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2132,12 +2540,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#30-10929_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "28-11515",
+      "@id": "https://doi.org/10.48698/B2XN-D827#28-11515",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2148,7 +2568,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "28-11515#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#28-11515_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2193,12 +2613,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#28-11515_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "30-11051",
+      "@id": "https://doi.org/10.48698/B2XN-D827#30-11051",
       "@type": "Donor",
       "label": "20-29 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2209,7 +2641,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "30-11051#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#30-11051_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2254,12 +2686,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#30-11051_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10398",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10398",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2270,7 +2714,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "29-10398#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10398_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2315,12 +2759,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10398_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10006",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10006",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2331,7 +2787,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "29-10006#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10006_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2376,12 +2832,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10006_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10210",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10210",
       "@type": "Donor",
       "label": "70-79 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2392,7 +2860,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "31-10210#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10210_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2437,12 +2905,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10210_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "27-10071",
+      "@id": "https://doi.org/10.48698/B2XN-D827#27-10071",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2453,7 +2933,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "27-10071#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#27-10071_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2498,12 +2978,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#27-10071_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10011",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10011",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2514,7 +3006,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "29-10011#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10011_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2559,12 +3051,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10011_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "27-10041",
+      "@id": "https://doi.org/10.48698/B2XN-D827#27-10041",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2575,7 +3079,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "27-10041#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#27-10041_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2620,12 +3124,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#27-10041_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE027",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE027",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2636,7 +3152,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "PRE027#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE027_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2681,12 +3197,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE027_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10406",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10406",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2697,7 +3225,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "29-10406#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10406_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2742,12 +3270,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10406_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "27-10088",
+      "@id": "https://doi.org/10.48698/B2XN-D827#27-10088",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2758,7 +3298,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "27-10088#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#27-10088_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2803,12 +3343,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#27-10088_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "34-10187",
+      "@id": "https://doi.org/10.48698/B2XN-D827#34-10187",
       "@type": "Donor",
       "label": "20-29 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2819,7 +3371,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "34-10187#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#34-10187_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2864,12 +3416,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#34-10187_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10386",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10386",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2880,7 +3444,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "29-10386#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10386_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2925,12 +3489,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10386_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "30-10125",
+      "@id": "https://doi.org/10.48698/B2XN-D827#30-10125",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2941,7 +3517,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "30-10125#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#30-10125_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -2986,12 +3562,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#30-10125_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10042",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10042",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3002,7 +3590,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "31-10042#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10042_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3047,12 +3635,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10042_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10001",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10001",
       "@type": "Donor",
       "label": "70-79 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3063,7 +3663,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "31-10001#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10001_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3108,12 +3708,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10001_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "27-10039",
+      "@id": "https://doi.org/10.48698/B2XN-D827#27-10039",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3124,7 +3736,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "27-10039#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#27-10039_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3169,12 +3781,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#27-10039_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10000",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10000",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3185,7 +3809,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "31-10000#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10000_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3230,12 +3854,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10000_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "PRE055-1",
+      "@id": "https://doi.org/10.48698/B2XN-D827#PRE055-1",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3246,7 +3882,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "PRE055-1#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#PRE055-1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3291,12 +3927,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#PRE055-1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10035",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10035",
       "@type": "Donor",
       "label": "70-79 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3307,7 +3955,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "31-10035#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10035_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3352,12 +4000,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10035_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "34-10184",
+      "@id": "https://doi.org/10.48698/B2XN-D827#34-10184",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3368,7 +4028,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "34-10184#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#34-10184_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3413,12 +4073,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#34-10184_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10010",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10010",
       "@type": "Donor",
       "label": "70-79 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3429,7 +4101,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "29-10010#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10010_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3474,12 +4146,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10010_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "34-10050",
+      "@id": "https://doi.org/10.48698/B2XN-D827#34-10050",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3490,7 +4174,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "34-10050#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#34-10050_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3535,12 +4219,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#34-10050_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "28-12263",
+      "@id": "https://doi.org/10.48698/B2XN-D827#28-12263",
       "@type": "Donor",
       "label": "50-59 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3551,7 +4247,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "28-12263#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#28-12263_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3596,12 +4292,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#28-12263_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "27-10053",
+      "@id": "https://doi.org/10.48698/B2XN-D827#27-10053",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3612,7 +4320,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "27-10053#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#27-10053_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3657,12 +4365,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#27-10053_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10078",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10078",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3673,7 +4393,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "31-10078#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10078_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3718,12 +4438,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10078_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "29-10008",
+      "@id": "https://doi.org/10.48698/B2XN-D827#29-10008",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3734,7 +4466,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "29-10008#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#29-10008_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3779,12 +4511,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#29-10008_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "30-10018",
+      "@id": "https://doi.org/10.48698/B2XN-D827#30-10018",
       "@type": "Donor",
       "label": "30-39 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3795,7 +4539,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "30-10018#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#30-10018_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3840,12 +4584,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#30-10018_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "32-10074",
+      "@id": "https://doi.org/10.48698/B2XN-D827#32-10074",
       "@type": "Donor",
       "label": "70-79 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3856,7 +4612,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "32-10074#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#32-10074_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3901,12 +4657,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#32-10074_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "31-10040",
+      "@id": "https://doi.org/10.48698/B2XN-D827#31-10040",
       "@type": "Donor",
       "label": "70-79 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3917,7 +4685,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "31-10040#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#31-10040_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3962,12 +4730,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#31-10040_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "28-10051",
+      "@id": "https://doi.org/10.48698/B2XN-D827#28-10051",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -3978,7 +4758,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "28-10051#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#28-10051_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -4023,12 +4803,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#28-10051_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "30-10123",
+      "@id": "https://doi.org/10.48698/B2XN-D827#30-10123",
       "@type": "Donor",
       "label": "40-49 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -4039,7 +4831,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "30-10123#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#30-10123_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -4084,12 +4876,24 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#30-10123_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "32-10034",
+      "@id": "https://doi.org/10.48698/B2XN-D827#32-10034",
       "@type": "Donor",
       "label": "60-69 Years",
       "description": "Entered 7/23/2023, Matthias Kretzler, KPMP",
@@ -4100,7 +4904,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "32-10034#TissueBlock1",
+          "@id": "https://doi.org/10.48698/B2XN-D827#32-10034_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
@@ -4145,7 +4949,19 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.48698/B2XN-D827#32-10034_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/23/2023, Matthias Kretzler, KPMP",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://doi.org/10.48698/B2XN-D827",
+              "publication": "https://doi.org/10.1101/2023.05.31.23290681",
+              "technology": "OTHER",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     }
