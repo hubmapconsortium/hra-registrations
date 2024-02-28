@@ -165,10 +165,10 @@
     ccf:z_translation 5.652e+01 ;
     dcterms:created "8/29/2022" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10x#TissueBlock> a ccf:Sample ;
+<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#TissueBlock> a ccf:Sample ;
     rdfs:label "Registered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" ;
     ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.001> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10x#Dataset> ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/a388eebd-02f8-4a5c-ab8e-62405ce34e99> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
@@ -189,10 +189,10 @@
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, .11 millimeter, 1 Sections" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.002/Block2_10x#TissueBlock> a ccf:Sample ;
+<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.002/Block2_10X#TissueBlock> a ccf:Sample ;
     rdfs:label "Registered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" ;
     ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.001> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.002/Block2_10x#Dataset> ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.002/Block2_10X#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/5c78be2e-d36c-4994-ae42-a94ccf935988> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
@@ -213,10 +213,10 @@
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, .11 millimeter, 1 Sections" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.002.CX49.M1C.001/Block3_10x#TissueBlock> a ccf:Sample ;
+<http://purl.org/ccf/1.5/allen-brain/H18.30.002.CX49.M1C.001/Block3_10X#TissueBlock> a ccf:Sample ;
     rdfs:label "Registered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" ;
     ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.002> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.002.CX49.M1C.001/Block3_10x#Dataset> ;
+    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.002.CX49.M1C.001/Block3_10X#Dataset> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/b66043e8-9a0c-4883-93e2-017026659575> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
@@ -333,7 +333,7 @@
     ccf:z_translation 6.6047e+01 ;
     dcterms:created "8/29/2022" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10x#Dataset> a ccf:Dataset ;
+<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10X#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" ;
     ccf:descripition "Data/Assay Types: 10x" ;
     ccf:technology "10x" ;
@@ -347,7 +347,7 @@
     ccf:thumbnail "assets/allen-institute/thumbnails/allen_institute_logo_800x800.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.002/Block2_10x#Dataset> a ccf:Dataset ;
+<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.002/Block2_10X#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" ;
     ccf:descripition "Data/Assay Types: 10x" ;
     ccf:technology "10x" ;
@@ -361,7 +361,7 @@
     ccf:thumbnail "assets/allen-institute/thumbnails/allen_institute_logo_800x800.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.002.CX49.M1C.001/Block3_10x#Dataset> a ccf:Dataset ;
+<http://purl.org/ccf/1.5/allen-brain/H18.30.002.CX49.M1C.001/Block3_10X#Dataset> a ccf:Dataset ;
     rdfs:label "Registered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" ;
     ccf:descripition "Data/Assay Types: 10x" ;
     ccf:technology "10x" ;

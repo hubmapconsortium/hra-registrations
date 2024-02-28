@@ -165,63 +165,6 @@
     ccf:z_translation 5.652e+01 ;
     dcterms:created "2022-08-29" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.001> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/a388eebd-02f8-4a5c-ab8e-62405ce34e99> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 1 ;
-    ccf:section_size 10 ;
-    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1> ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
-
-<http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.002> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/b66043e8-9a0c-4883-93e2-017026659575> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 1 ;
-    ccf:section_size 10 ;
-    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1> ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H200.1023> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/f7500931-e3b6-4aab-bed8-735619fe645e> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 1 ;
-    ccf:section_size 10 ;
-    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1> ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H200.1025> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/117273d2-9291-4665-9a8b-e7420eb1452e> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 1 ;
-    ccf:section_size 10 ;
-    ccf:section_unit "millimeter" ;
-    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1> ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H200.1030> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/0ced68fa-8bff-45d9-949f-3004c3b08d19> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 1 ;
-    ccf:section_size 10 ;
-    ccf:section_unit "millimeter" ;
-    ccf:subdivided_into_sections <http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1> ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "20 x 20 x 10 millimeter, 10 millimeter" .
-
 <http://purl.org/ccf/1.5/b66043e8-9a0c-4883-93e2-017026659575_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/b66043e8-9a0c-4883-93e2-017026659575> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMAllenBrain> ;
@@ -258,343 +201,304 @@
     ccf:z_translation 6.6047e+01 ;
     dcterms:created "2022-08-29" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.001> ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/5c78be2e-d36c-4994-ae42-a94ccf935988> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
     ccf:section_size 10 ;
-    ccf:subdivided_into_sections <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1> ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.001> ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/7739f00f-62bc-4852-8d2b-518ae26a9b4a> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
     ccf:section_size 10 ;
-    ccf:subdivided_into_sections <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1> ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H18.30.002> ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/6e0b9e06-b5a5-4f05-ab2c-6146c5d930b3> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
     ccf:section_size 10 ;
-    ccf:subdivided_into_sections <https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1> ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H200.1023> ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/4e24cfc4-bfea-4233-8fa0-d9967e3bdf7d> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
     ccf:section_size 20 ;
-    ccf:subdivided_into_sections <https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1> ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "20 x 20 x 20 millimeter, 20 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H200.1025> ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/4d483843-3032-4e1d-8edb-b75d2e2377dd> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
     ccf:section_size 10 ;
-    ccf:subdivided_into_sections <https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1> ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/allen-brain/H200.1030> ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/1a3fb7c9-f6ca-45fc-aa1a-d1b9e1a53da0> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
     ccf:section_size 10 ;
-    ccf:subdivided_into_sections <https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1> ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "20 x 20 x 10 millimeter, 10 millimeter" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset2>,
-        <http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset3>,
-        <http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10x#Dataset> ;
-    ccf:sample_type "Tissue Section" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/a388eebd-02f8-4a5c-ab8e-62405ce34e99> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
     ccf:section_size 10 ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x" .
-
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001#TissueBlock1_TissueSection1_Dataset3> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
-
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001.CX48.M1C.001/Block1_10x#Dataset> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: undefined, " .
-
-<http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset1>,
-        <http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset2> ;
-    ccf:sample_type "Tissue Section" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/b66043e8-9a0c-4883-93e2-017026659575> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
     ccf:section_size 10 ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x" .
-
-<http://purl.org/ccf/1.5/allen-brain/H18.30.002#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset1>,
-        <http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset2> ;
-    ccf:sample_type "Tissue Section" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f7500931-e3b6-4aab-bed8-735619fe645e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
     ccf:section_size 10 ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
-<http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1023#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset1>,
-        <http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset2> ;
-    ccf:sample_type "Tissue Section" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/117273d2-9291-4665-9a8b-e7420eb1452e> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
     ccf:section_size 10 ;
+    ccf:section_unit "millimeter" ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
-<http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1025#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset1>,
-        <http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset2> ;
-    ccf:sample_type "Tissue Section" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/0ced68fa-8bff-45d9-949f-3004c3b08d19> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
     ccf:section_size 10 ;
+    ccf:section_unit "millimeter" ;
+    ccf:subdivided_into_sections <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1> ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "20 x 20 x 10 millimeter, 10 millimeter" .
 
-<http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1030#TissueBlock1_TissueSection1_Dataset2> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
-
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1> a ccf:Sample ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset1>,
-        <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset2> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1_Dataset1> ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_size 10 ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x" .
-
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
     ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "10x" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: 10x, " .
+    rdfs:comment "Data/Assay Types: 10x" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset1>,
-        <https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset2> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1_Dataset1> ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_size 10 ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<https://www.nature.com/articles/s41586-021-03465-8#Donor1_TissueBlock3_TissueSection1_Dataset2> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
     ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
+    rdfs:comment "Data/Assay Types: SSv4" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset1>,
-        <https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset2> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1_Dataset1> ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_size 10 ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<https://www.nature.com/articles/s41586-021-03465-8#Donor2_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
     ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
+    rdfs:comment "Data/Assay Types: SSv4" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset1>,
-        <https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset2> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1_Dataset1> ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_size 20 ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "20 x 20 x 20 millimeter, 20 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<https://www.nature.com/articles/s41586-021-03465-8#Donor3_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
     ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
+    rdfs:comment "Data/Assay Types: SSv4" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset1>,
-        <https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset2> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1_Dataset1> ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_size 10 ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<https://www.nature.com/articles/s41586-021-03465-8#Donor4_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
     ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
+    rdfs:comment "Data/Assay Types: SSv4" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1> a ccf:Sample ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2_TissueSection1> a ccf:Sample ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:generates_dataset <https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset1>,
-        <https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset2> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2_TissueSection1_Dataset1> ;
     ccf:sample_type "Tissue Section" ;
     ccf:section_size 10 ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
     rdfs:comment "20 x 20 x 10 millimeter, 10 millimeter" .
 
-<https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
-    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: SSv4" .
-
-<https://www.nature.com/articles/s41586-021-03465-8#Donor5_TissueBlock2_TissueSection1_Dataset2> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor5_TissueBlock2_TissueSection1_Dataset1> a ccf:Dataset ;
     rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
     ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
     ccf:technology "OTHER" ;
-    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-institute/assets/logo.jpg" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
     ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
+    rdfs:comment "Data/Assay Types: SSv4" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1_Dataset1> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
+    ccf:technology "10x" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Data/Assay Types: 10x" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1_Dataset1> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "5 x 5 x 10 millimeter, 10 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
+    ccf:technology "10x" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Data/Assay Types: 10x" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1_Dataset1> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Data/Assay Types: SSv4" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1_Dataset1> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Data/Assay Types: SSv4" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1_Dataset1> ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "20 x 20 x 10 millimeter, 10 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/28/2022, Raymond Sanchez, Allen Institute" ;
+    ccf:publication "https://doi.org/10.1038/s41586-021-03465-8" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Data/Assay Types: SSv4" .
 
 <http://purl.org/ccf/1.5/0ced68fa-8bff-45d9-949f-3004c3b08d19> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002703>,
@@ -728,46 +632,6 @@
     dcterms:created "2022-08-29" ;
     dcterms:creator "Raymond Sanchez" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.002> a ccf:Donor ;
-    rdfs:label "Male, Age 50" ;
-    ccf:age 50 ;
-    ccf:consortium_name "Allen Institute for Brain Science" ;
-    ccf:sex "Male" ;
-    ccf:tissue_provider_name "Allen Institute" ;
-    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1023> a ccf:Donor ;
-    rdfs:label "Female, Age 43" ;
-    ccf:age 43 ;
-    ccf:consortium_name "Allen Institute for Brain Science" ;
-    ccf:sex "Female" ;
-    ccf:tissue_provider_name "Allen Institute" ;
-    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1025> a ccf:Donor ;
-    rdfs:label "Male, Age 50" ;
-    ccf:age 50 ;
-    ccf:consortium_name "Allen Institute for Brain Science" ;
-    ccf:sex "Male" ;
-    ccf:tissue_provider_name "Allen Institute" ;
-    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
-
-<http://purl.org/ccf/1.5/allen-brain/H200.1030> a ccf:Donor ;
-    rdfs:label "Male, Age 54" ;
-    ccf:age 54 ;
-    ccf:consortium_name "Allen Institute for Brain Science" ;
-    ccf:sex "Male" ;
-    ccf:tissue_provider_name "Allen Institute" ;
-    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
-    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
-    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
-
 <http://purl.org/ccf/1.5/b66043e8-9a0c-4883-93e2-017026659575> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002581>,
         <http://purl.obolibrary.org/obo/UBERON_0002703>,
@@ -796,7 +660,47 @@
     dcterms:created "2022-08-29" ;
     dcterms:creator "Raymond Sanchez" .
 
-<http://purl.org/ccf/1.5/allen-brain/H18.30.001> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor> a ccf:Donor ;
+    rdfs:label "Male, Age 50" ;
+    ccf:age 50 ;
+    ccf:consortium_name "Allen Institute for Brain Science" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "Allen Institute" ;
+    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor> a ccf:Donor ;
+    rdfs:label "Female, Age 43" ;
+    ccf:age 43 ;
+    ccf:consortium_name "Allen Institute for Brain Science" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "Allen Institute" ;
+    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor> a ccf:Donor ;
+    rdfs:label "Male, Age 50" ;
+    ccf:age 50 ;
+    ccf:consortium_name "Allen Institute for Brain Science" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "Allen Institute" ;
+    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor> a ccf:Donor ;
+    rdfs:label "Male, Age 54" ;
+    ccf:age 54 ;
+    ccf:consortium_name "Allen Institute for Brain Science" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "Allen Institute" ;
+    ccf:tissue_provider_uuid "8dca7930-e16b-4301-9ad3-de202225d27f" ;
+    ccf:url "https://www.nature.com/articles/s41586-021-03465-8" ;
+    rdfs:comment "Entered 8/29/2022, Raymond Sanchez, Allen Institute for Brain Science" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor> a ccf:Donor ;
     rdfs:label "Female, Age 60" ;
     ccf:age 60 ;
     ccf:consortium_name "Allen Institute for Brain Science" ;

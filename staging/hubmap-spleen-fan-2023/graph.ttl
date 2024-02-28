@@ -1,0 +1,391 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/required/id#Donor1_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0007 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://example.com/required/id#Donor1_TissueBlock2_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0006 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://example.com/required/id#Donor2_TissueBlock2_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor3_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0008 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://example.com/required/id#Donor3_TissueBlock2_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 10 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.135826e+01 ;
+    ccf:y_rotation -22 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.861046e+01 ;
+    ccf:z_rotation -41 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.991174e+01 ;
+    dcterms:created "2021-02-10" .
+
+<http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 5 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.013667e+01 ;
+    ccf:y_rotation -15 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.763318e+01 ;
+    ccf:z_rotation 47 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.088901e+01 ;
+    dcterms:created "2021-02-10" .
+
+<http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -5 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.936954e+01 ;
+    ccf:y_rotation 1 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.229233e+01 ;
+    ccf:z_rotation 49 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.844582e+01 ;
+    dcterms:created "2021-02-10" .
+
+<http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -45 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.870492e+01 ;
+    ccf:y_rotation 31 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.517291e+01 ;
+    ccf:z_rotation 57 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.11675e+01 ;
+    dcterms:created "2021-02-10" .
+
+<http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.773812e+01 ;
+    ccf:y_rotation -3 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.332545e+01 ;
+    ccf:z_rotation -39 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.475294e+01 ;
+    dcterms:created "2021-02-11" .
+
+<http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.865042e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.28693e+01 ;
+    ccf:z_rotation -38 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.631418e+01 ;
+    dcterms:created "2021-02-11" .
+
+<http://purl.org/ccf/UFL0006#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0006 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/UFL0006#TissueBlock1_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://purl.org/ccf/UFL0007#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0007 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/UFL0007#TissueBlock1_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://purl.org/ccf/UFL0008#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0008 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/UFL0008#TissueBlock1_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock2_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0007-SP-1-1-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock2_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0006-SP-1-2-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor3_TissueBlock2_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0008-SP-1-2-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://purl.org/ccf/UFL0006#TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0006-SP-1-3-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+ccf:UFL0006-SP-1-2-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+ccf:UFL0006-SP-1-3-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+<http://purl.org/ccf/UFL0007#TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0007-SP-2-2-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+ccf:UFL0007-SP-1-1-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+ccf:UFL0007-SP-2-2-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+<http://purl.org/ccf/UFL0008#TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0008-SP-2-1-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+ccf:UFL0008-SP-1-2-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+ccf:UFL0008-SP-2-1-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+<http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
+<http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
+<http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
+<http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15838>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
+<http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-11" ;
+    dcterms:creator "Marda Jorgensen" .
+
+<http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-11" ;
+    dcterms:creator "Marda Jorgensen" .
+
+ccf:UFL0006 a ccf:Donor ;
+    rdfs:label "Female, Age 21, BMI 37.1" ;
+    ccf:age 21 ;
+    ccf:bmi 3.71e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "University of Florida TMC" ;
+    ccf:tissue_provider_uuid "f518aa91-f5b8-4d24-8338-629296684790" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Entered 1/10/2021, Marda Jorgensen, University of Florida TMC" .
+
+ccf:UFL0007 a ccf:Donor ;
+    rdfs:label "Male, Age 20, BMI 28.7" ;
+    ccf:age 20 ;
+    ccf:bmi 2.87e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "University of Florida TMC" ;
+    ccf:tissue_provider_uuid "f518aa91-f5b8-4d24-8338-629296684790" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Entered 1/9/2021, Marda Jorgensen, University of Florida TMC" .
+
+ccf:UFL0008 a ccf:Donor ;
+    rdfs:label "Male, Age 10, BMI 22.2" ;
+    ccf:age 10 ;
+    ccf:bmi 2.22e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "University of Florida TMC" ;
+    ccf:tissue_provider_uuid "f518aa91-f5b8-4d24-8338-629296684790" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Entered 1/9/2021, Marda Jorgensen, University of Florida TMC" .
+

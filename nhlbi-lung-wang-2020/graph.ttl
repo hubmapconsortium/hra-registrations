@@ -21,83 +21,6 @@
     ccf:z_translation 8.4071e+01 ;
     dcterms:created "2023-04-25" .
 
-<http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D032#Donor> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 3 ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
-
-<http://purl.org/ccf/1.5/NHLBI/D046#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D046#Donor> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D046#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 3 ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
-
-<http://purl.org/ccf/1.5/NHLBI/D110#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D110#Donor> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D110#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 3 ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
-
-<http://purl.org/ccf/1.5/NHLBI/D122#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D122#Donor> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D122#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 3 ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
-
-<http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D139#Donor> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 3 ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
-
-<http://purl.org/ccf/1.5/NHLBI/D175#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D175#Donor> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D175#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 3 ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
-
-<http://purl.org/ccf/1.5/NHLBI/D231#Donor_TissueBlock1> a ccf:Sample ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:comes_from <http://purl.org/ccf/1.5/NHLBI/D231#Donor> ;
-    ccf:generates_dataset <http://purl.org/ccf/1.5/NHLBI/D231#Donor_TissueBlock1_TissueBlock1_Dataset1> ;
-    ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
-    ccf:sample_type "Tissue Block" ;
-    ccf:section_count 0 ;
-    ccf:section_size 3 ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
-
 <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLung> ;
@@ -116,7 +39,125 @@
     ccf:z_translation 1.10357e+02 ;
     dcterms:created "2023-04-25" .
 
-<http://purl.org/ccf/1.5/NHLBI/D032#Donor> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D032_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D032_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D032$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D046_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D046_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D046$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D062_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D062_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D062$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D088_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D088_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D088$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D110_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D110_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D110_Donor_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D122_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D122_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D122$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D139_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D139_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D139$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D150_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D150_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D150$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D175_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D175_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D175$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D231_Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:comes_from <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D231_Donor> ;
+    ccf:generates_dataset <https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D231$lung> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 3 ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "5 x 5 x 3 millimeter, 3 millimeter" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D032$lung> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D032_Donor> a ccf:Donor ;
     rdfs:label "Male, Age 3" ;
     ccf:age 3 ;
     ccf:consortium_name "NHLBI/LungMap" ;
@@ -126,7 +167,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
-<http://purl.org/ccf/1.5/NHLBI/D032#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D046$lung> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
@@ -134,7 +175,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
-<http://purl.org/ccf/1.5/NHLBI/D046#Donor> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D046_Donor> a ccf:Donor ;
     rdfs:label "Male, Age 3" ;
     ccf:age 3 ;
     ccf:consortium_name "NHLBI/LungMap" ;
@@ -144,7 +185,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
-<http://purl.org/ccf/1.5/NHLBI/D046#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D062$lung> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
@@ -152,7 +193,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
-<http://purl.org/ccf/1.5/NHLBI/D110#Donor> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D062_Donor> a ccf:Donor ;
     rdfs:label "Male" ;
     ccf:age 0 ;
     ccf:consortium_name "NHLBI/LungMap" ;
@@ -162,7 +203,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
-<http://purl.org/ccf/1.5/NHLBI/D110#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D088$lung> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
@@ -170,7 +211,43 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
-<http://purl.org/ccf/1.5/NHLBI/D122#Donor> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D088_Donor> a ccf:Donor ;
+    rdfs:label "Male" ;
+    ccf:age 0 ;
+    ccf:consortium_name "NHLBI/LungMap" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
+    ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D110_Donor> a ccf:Donor ;
+    rdfs:label "Male" ;
+    ccf:age 0 ;
+    ccf:consortium_name "NHLBI/LungMap" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
+    ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D110_Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D122$lung> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D122_Donor> a ccf:Donor ;
     rdfs:label "Male, Age 31" ;
     ccf:age 31 ;
     ccf:consortium_name "NHLBI/LungMap" ;
@@ -180,7 +257,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
-<http://purl.org/ccf/1.5/NHLBI/D122#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D139$lung> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
@@ -188,7 +265,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
-<http://purl.org/ccf/1.5/NHLBI/D139#Donor> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D139_Donor> a ccf:Donor ;
     rdfs:label "Female, Age 3" ;
     ccf:age 3 ;
     ccf:consortium_name "NHLBI/LungMap" ;
@@ -198,7 +275,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
-<http://purl.org/ccf/1.5/NHLBI/D139#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D150$lung> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
@@ -206,7 +283,25 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
-<http://purl.org/ccf/1.5/NHLBI/D175#Donor> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D150_Donor> a ccf:Donor ;
+    rdfs:label "Male" ;
+    ccf:age 0 ;
+    ccf:consortium_name "NHLBI/LungMap" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "NHLBI/LungMap" ;
+    ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D175$lung> a ccf:Dataset ;
+    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
+    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/logo.jpg" ;
+    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D175_Donor> a ccf:Donor ;
     rdfs:label "Male, Age 29" ;
     ccf:age 29 ;
     ccf:consortium_name "NHLBI/LungMap" ;
@@ -216,7 +311,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
 
-<http://purl.org/ccf/1.5/NHLBI/D175#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D231$lung> a ccf:Dataset ;
     rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
     ccf:publication "https://doi.org/10.7554/eLife.62522" ;
     ccf:technology "OTHER" ;
@@ -224,7 +319,7 @@
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Data/Assay Types: OTHER, " .
 
-<http://purl.org/ccf/1.5/NHLBI/D231#Donor> a ccf:Donor ;
+<https://api.cellxgene.cziscience.com/dp/v1/collections/625f6bf4-2f33-4942-962e-35243d284837#D231_Donor> a ccf:Donor ;
     rdfs:label "Female, Age 33" ;
     ccf:age 33 ;
     ccf:consortium_name "NHLBI/LungMap" ;
@@ -233,14 +328,6 @@
     ccf:tissue_provider_uuid "0ec3cf4a-4a28-496a-b66e-df34f4cd32e1" ;
     ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
     rdfs:comment "Entered 3/24/2023, Allen Wang, NHLBI/LungMap" .
-
-<http://purl.org/ccf/1.5/NHLBI/D231#Donor_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
-    rdfs:label "Registered 3/24/2023, Allen Wang, NHLBI/LungMap" ;
-    ccf:publication "https://doi.org/10.7554/eLife.62522" ;
-    ccf:technology "OTHER" ;
-    ccf:thumbnail "assets/logo.jpg" ;
-    ccf:url "https://data-browser.lungmap.net/explore/projects/20037472-ea1d-4ddb-9cd3-56a11a6f0f76" ;
-    rdfs:comment "Data/Assay Types: OTHER, " .
 
 <http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,

@@ -3,6 +3,39 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://example.com/required/id#Donor1_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0007 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://example.com/required/id#Donor1_TissueBlock2_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0006 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://example.com/required/id#Donor2_TissueBlock2_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor3_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0008 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://example.com/required/id#Donor3_TissueBlock2_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
 <http://purl.org/ccf/1.5/09681d25-f08d-40ff-81cb-a731610aa84d_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/09681d25-f08d-40ff-81cb-a731610aa84d> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
@@ -110,6 +143,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 2.1453e+01 ;
     dcterms:created "2022-06-08" .
+
+<http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.82929e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.071762e+03 ;
+    ccf:z_rotation -83 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.632e+01 ;
+    dcterms:created "2021-09-10" .
 
 <http://purl.org/ccf/1.5/3177d8d7-3b26-4aa3-9984-3c112d461446_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/3177d8d7-3b26-4aa3-9984-3c112d461446> ;
@@ -327,6 +378,24 @@
     ccf:z_translation 3.1088e+01 ;
     dcterms:created "2022-02-17" .
 
+<http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.40538e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.062836e+03 ;
+    ccf:z_rotation -92 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.08645e+02 ;
+    dcterms:created "2021-09-10" .
+
 <http://purl.org/ccf/1.5/5b582f69-1a30-49f5-8e80-f6cefe4ea5be_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/5b582f69-1a30-49f5-8e80-f6cefe4ea5be> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine> ;
@@ -398,6 +467,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 1.5419e+01 ;
     dcterms:created "2022-02-16" .
+
+<http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 68 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.9126e+01 ;
+    ccf:y_rotation -82 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.3965e+02 ;
+    ccf:z_rotation 1 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.40422e+02 ;
+    dcterms:created "2023-08-04" .
 
 <http://purl.org/ccf/1.5/63b2f5a9-5914-4c45-9239-139948a93498_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/63b2f5a9-5914-4c45-9239-139948a93498> ;
@@ -488,6 +575,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 4.8203e+01 ;
     dcterms:created "2022-06-08" .
+
+<http://purl.org/ccf/1.5/71888798-9acb-4589-9b39-59a987d048ad_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/71888798-9acb-4589-9b39-59a987d048ad> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.52794e+02 ;
+    ccf:y_rotation -97 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.032276e+03 ;
+    ccf:z_rotation -95 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.65876e+02 ;
+    dcterms:created "2021-09-10" .
 
 <http://purl.org/ccf/1.5/74c8746d-be53-493d-9a2a-1edbe24f0d16_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/74c8746d-be53-493d-9a2a-1edbe24f0d16> ;
@@ -651,6 +756,24 @@
     ccf:z_translation 9.9434e+01 ;
     dcterms:created "2021-10-19" .
 
+<http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 10 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.135826e+01 ;
+    ccf:y_rotation -22 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.861046e+01 ;
+    ccf:z_rotation -41 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.991174e+01 ;
+    dcterms:created "2021-02-10" .
+
 <http://purl.org/ccf/1.5/85765dd5-2197-4361-b4c6-c9d30186044a_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/85765dd5-2197-4361-b4c6-c9d30186044a> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine> ;
@@ -723,6 +846,24 @@
     ccf:z_translation 1.3452e+02 ;
     dcterms:created "2022-06-08" .
 
+<http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 5 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.013667e+01 ;
+    ccf:y_rotation -15 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 4.763318e+01 ;
+    ccf:z_rotation 47 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.088901e+01 ;
+    dcterms:created "2021-02-10" .
+
 <http://purl.org/ccf/1.5/93286ce3-669a-4f3f-a85a-7eaaedc15c59_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/93286ce3-669a-4f3f-a85a-7eaaedc15c59> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFColon> ;
@@ -777,6 +918,24 @@
     ccf:z_translation 2.1022e+01 ;
     dcterms:created "2022-06-08" .
 
+<http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.07086e+02 ;
+    ccf:y_rotation -104 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.12117e+02 ;
+    ccf:z_rotation -91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.46912e+02 ;
+    dcterms:created "2021-09-10" .
+
 <http://purl.org/ccf/1.5/a1fc9d45-5af9-4fc4-b2be-340ef0716e09_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/a1fc9d45-5af9-4fc4-b2be-340ef0716e09> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine> ;
@@ -812,6 +971,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 1.09874e+02 ;
     dcterms:created "2021-10-19" .
+
+<http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.68715e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.075333e+03 ;
+    ccf:z_rotation -91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.09905e+02 ;
+    dcterms:created "2021-09-10" .
 
 <http://purl.org/ccf/1.5/abab52f8-6fd4-4e3f-8f9c-bb9f5f62785f_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/abab52f8-6fd4-4e3f-8f9c-bb9f5f62785f> ;
@@ -849,6 +1026,24 @@
     ccf:z_translation 4.8203e+01 ;
     dcterms:created "2022-02-16" .
 
+<http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -5 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.936954e+01 ;
+    ccf:y_rotation 1 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.229233e+01 ;
+    ccf:z_rotation 49 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.844582e+01 ;
+    dcterms:created "2021-02-10" .
+
 <http://purl.org/ccf/1.5/ba9d007b-c5c7-4231-80f9-42403a98a6df_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/ba9d007b-c5c7-4231-80f9-42403a98a6df> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
@@ -866,6 +1061,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 9.9434e+01 ;
     dcterms:created "2022-06-08" .
+
+<http://purl.org/ccf/1.5/bc7cbfcd-cc52-4e82-a079-e353feb729a1_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/bc7cbfcd-cc52-4e82-a079-e353feb729a1> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.19762e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.364264e+03 ;
+    ccf:z_rotation -92 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.239e+00 ;
+    dcterms:created "2021-09-10" .
 
 <http://purl.org/ccf/1.5/bceacee1-bc17-49ba-ab6f-833a9ccde436_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/bceacee1-bc17-49ba-ab6f-833a9ccde436> ;
@@ -903,6 +1116,24 @@
     ccf:z_translation 1.87504e+02 ;
     dcterms:created "2022-06-08" .
 
+<http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -45 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.870492e+01 ;
+    ccf:y_rotation 31 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.517291e+01 ;
+    ccf:z_rotation 57 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.11675e+01 ;
+    dcterms:created "2021-02-10" .
+
 <http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine> ;
@@ -939,6 +1170,24 @@
     ccf:z_translation 1.5419e+01 ;
     dcterms:created "2022-06-08" .
 
+<http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 6 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.85192e+02 ;
+    ccf:y_rotation -117 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.771597e+03 ;
+    ccf:z_rotation -66 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.83137e+02 ;
+    dcterms:created "2021-09-10" .
+
 <http://purl.org/ccf/1.5/d194f593-af76-4ee7-84a6-00f7531d47cf_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/d194f593-af76-4ee7-84a6-00f7531d47cf> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine> ;
@@ -956,6 +1205,24 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 5.4023e+01 ;
     dcterms:created "2022-06-08" .
+
+<http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.773812e+01 ;
+    ccf:y_rotation -3 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.332545e+01 ;
+    ccf:z_rotation -39 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.475294e+01 ;
+    dcterms:created "2021-02-11" .
 
 <http://purl.org/ccf/1.5/d3b5feb6-910f-4309-a6a8-42c0477227c9_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/d3b5feb6-910f-4309-a6a8-42c0477227c9> ;
@@ -1155,6 +1422,78 @@
     ccf:z_translation 3.1088e+01 ;
     dcterms:created "2022-06-08" .
 
+<http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.03183e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.025466e+03 ;
+    ccf:z_rotation -92 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.01915e+02 ;
+    dcterms:created "2021-09-10" .
+
+<http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -10 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.55704e+02 ;
+    ccf:y_rotation -101 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.330214e+03 ;
+    ccf:z_rotation -97 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.3374e+02 ;
+    dcterms:created "2021-09-10" .
+
+<http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.97144e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.343127e+03 ;
+    ccf:z_rotation -91 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.9299e+01 ;
+    dcterms:created "2021-09-10" .
+
+<http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.865042e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.28693e+01 ;
+    ccf:z_rotation -38 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.631418e+01 ;
+    dcterms:created "2021-02-11" .
+
 <http://purl.org/ccf/1.5/fb4cec06-b147-4277-a6cf-8aa21e294183_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fb4cec06-b147-4277-a6cf-8aa21e294183> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
@@ -1173,6 +1512,24 @@
     ccf:z_translation 9.9434e+01 ;
     dcterms:created "2022-02-16" .
 
+<http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.90625e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.048553e+03 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.70634e+02 ;
+    dcterms:created "2021-09-10" .
+
 <http://purl.org/ccf/1.5/fd76b9bb-85b0-4dd0-8e60-7c6ec7c95d73_placement> a ccf:SpatialPlacement ;
     ccf:placement_for <http://purl.org/ccf/1.5/fd76b9bb-85b0-4dd0-8e60-7c6ec7c95d73> ;
     ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine> ;
@@ -1190,6 +1547,113 @@
     ccf:z_scaling 1 ;
     ccf:z_translation 3.1088e+01 ;
     dcterms:created "2022-02-16" .
+
+<http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkin> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.26224e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.232438e+03 ;
+    ccf:z_rotation -103 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.94355e+02 ;
+    dcterms:created "2021-09-10" .
+
+<http://purl.org/ccf/UFL0006#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0006 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/UFL0006#TissueBlock1_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://purl.org/ccf/UFL0007#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0007 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/UFL0007#TissueBlock1_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://purl.org/ccf/UFL0008#TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:comes_from ccf:UFL0008 ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 1 ;
+    ccf:section_size 10 ;
+    ccf:subdivided_into_sections <http://purl.org/ccf/UFL0008#TissueBlock1_TissueSection1> ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:comes_from <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 106 ;
+    ccf:subdivided_into_sections <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection1>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection10>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection11>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection12>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection13>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection14>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection15>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection16>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection17>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection18>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection19>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection2>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection20>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection21>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection22>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection23>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection24>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection25>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection26>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection27>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection28>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection29>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection3>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection30>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection31>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection32>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection33>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection34>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection35>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection36>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection37>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection38>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection39>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection4>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection40>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection41>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection42>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection43>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection44>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection45>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection46>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection47>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection5>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection6>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection7>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection8>,
+        <https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection9> ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Tumor tissue from cecum - Mixed mucinous and signet ring cell adenocarcinoma" .
 
 <https://entity.api.hubmapconsortium.org/entities/05eae5d5018cf4b09434aaadf5f8a387> a ccf:Sample ;
     rdfs:label "Registered 2/16/2022, daniel Cotter, TMC-Stanford" ;
@@ -1275,6 +1739,18 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/10159dd4cc20e6ec4a61e6f289bfa61f" ;
     rdfs:comment "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections" .
 
+<https://entity.api.hubmapconsortium.org/entities/1176b219b9ca81e0c5adef05ce695302> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/63108adadd97a60ea7bdc84498384069> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM669.GWVL.893> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 4e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/1176b219b9ca81e0c5adef05ce695302" ;
+    rdfs:comment "23 x 14 x 11 millimeter, 0.4 millimeter, 26 Sections" .
+
 <https://entity.api.hubmapconsortium.org/entities/1a97071a7f69470a96ce45cae97b1876> a ccf:Sample ;
     rdfs:label "Registered 10/19/2021, daniel cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0> ;
@@ -1334,6 +1810,18 @@
     ccf:section_size_unit "millimeter" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/26d28342879bc2b31983c4083a46bc1f" ;
     rdfs:comment "3 x 30 x 15 millimeter, 15 millimeter, 0 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/27d32c5c8e5af5bef285fa773beee5b6> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/56d58e095b39bace799a08131d331a99> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM969.VNQL.553> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 3e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/27d32c5c8e5af5bef285fa773beee5b6" ;
+    rdfs:comment "30 x 13 x 7 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://entity.api.hubmapconsortium.org/entities/2a70c0c2648986e08b8c5b81e6561f68> a ccf:Sample ;
     rdfs:label "Registered 9/13/2022, Daniel Cotter, TMC-Stanford" ;
@@ -1611,6 +2099,18 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/7055f185034f03b22983b8950c783905" ;
     rdfs:comment "3 x 30 x 15 millimeter, 15 millimeter, 0 Sections" .
 
+<https://entity.api.hubmapconsortium.org/entities/726f5d11ea3999141d7c3c37ec267d8b> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/e4e4ab805cb51f2c7f3f1f7010220598> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM253.HFDZ.866> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 5e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/726f5d11ea3999141d7c3c37ec267d8b" ;
+    rdfs:comment "36 x 17 x 13 millimeter, 0.5 millimeter, 26 Sections" .
+
 <https://entity.api.hubmapconsortium.org/entities/76fd5ac2f9eb53ceae50f0440a9cef9e> a ccf:Sample ;
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009> ;
@@ -1635,6 +2135,18 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/783690d1f6449bc1042c1c0295d40190" ;
     rdfs:comment "3 x 30 x 20 millimeter, 20 millimeter, 0 Sections" .
 
+<https://entity.api.hubmapconsortium.org/entities/7b7f0c98e666fbbcbc25391bbe12edea> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/332a4331efa6b01784d6044f62bbc1a4> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM755.MZNB.996> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/bc7cbfcd-cc52-4e82-a079-e353feb729a1> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 3e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/7b7f0c98e666fbbcbc25391bbe12edea" ;
+    rdfs:comment "42 x 15 x 8 millimeter, 0.3 millimeter, 26 Sections" .
+
 <https://entity.api.hubmapconsortium.org/entities/7de2b4da1bcc1df5eb305cedb30a20c6> a ccf:Sample ;
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589> ;
@@ -1646,6 +2158,18 @@
     ccf:section_size_unit "millimeter" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/7de2b4da1bcc1df5eb305cedb30a20c6" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/7e54c74b70ad6e71177f1705f2eecafe> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/a0c1a06ebcacd9f4b274797e9ff6703c> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM894.PGJZ.258> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 2e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/7e54c74b70ad6e71177f1705f2eecafe" ;
+    rdfs:comment "21 x 11 x 6 millimeter, 0.2 millimeter, 26 Sections" .
 
 <https://entity.api.hubmapconsortium.org/entities/7fd7eedb4f588e7c7da4dbf91024bcab> a ccf:Sample ;
     rdfs:label "Registered 2/16/2022, daniel cotter, TMC-Stanford" ;
@@ -1694,6 +2218,18 @@
     ccf:section_size_unit "millimeter" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/819a5b3b5c325452ae3c650e50209125" ;
     rdfs:comment "3 x 30 x 20 millimeter, 20 millimeter, 0 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/8360fe86ced2d235571ebcd59ec2d545> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/b5b8b8272d214725072b616b5ca199d7> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM229.HKHH.537> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 3e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/8360fe86ced2d235571ebcd59ec2d545" ;
+    rdfs:comment "17 x 12 x 9 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://entity.api.hubmapconsortium.org/entities/83954762a668b4e81c3707717bdad297> a ccf:Sample ;
     rdfs:label "Registered 6/8/2022, daniel cotter, TMC-Stanford" ;
@@ -1754,6 +2290,30 @@
     ccf:section_size_unit "millimeter" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/8cdf44a106338aada6da04c71eeb767e" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1.7 millimeter, 3 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/8cfd588e5bc4a31ea61d3a11eae0cf61> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/26cc9d6097a5193a5ca647d0b72a1627> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM865.PBJW.845> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 2e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/8cfd588e5bc4a31ea61d3a11eae0cf61" ;
+    rdfs:comment "37 x 24 x 5 millimeter, 0.2 millimeter, 26 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/9778e9d083094862b2874f3007f8fe76> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/25fd10f300c96818d34ffbe38d52d134> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM396.WPKL.954> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 3e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/9778e9d083094862b2874f3007f8fe76" ;
+    rdfs:comment "28 x 12 x 7 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://entity.api.hubmapconsortium.org/entities/9ca2e95cb56ac36d43dcbb3dc4e7860d> a ccf:Sample ;
     rdfs:label "Registered 2/16/2022, daniel Cotter, TMC-Stanford" ;
@@ -1863,6 +2423,18 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/c1a9f7ac0babf65af4a280846c91b7f7" ;
     rdfs:comment "3 x 30 x 15 millimeter, 15 millimeter, 0 Sections" .
 
+<https://entity.api.hubmapconsortium.org/entities/c1cdc5b5cabbe591f63e78273abe1206> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/ab8f70d4776be3821f642e7f6495300c> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM228.BBHS.986> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/71888798-9acb-4589-9b39-59a987d048ad> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 6e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/c1cdc5b5cabbe591f63e78273abe1206" ;
+    rdfs:comment "47 x 21 x 16 millimeter, 0.6 millimeter, 26 Sections" .
+
 <https://entity.api.hubmapconsortium.org/entities/c21fb09022b6695ba8e29bf82e5315e9> a ccf:Sample ;
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589> ;
@@ -1886,6 +2458,18 @@
     ccf:section_size_unit "millimeter" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/c46f3ffa2ad148019ee983453d06b745" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/d78afa907431bb4c943e39de3e994c27> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/c37ed0a5fa384dceb5d8914e221e9f08> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM654.BKGL.942> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 3e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/d78afa907431bb4c943e39de3e994c27" ;
+    rdfs:comment "28 x 11 x 7 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://entity.api.hubmapconsortium.org/entities/db4171ae4cb6ebcfca6479bc2090fd64> a ccf:Sample ;
     rdfs:label "Registered 6/8/2022, daniel cotter, TMC-Stanford" ;
@@ -1935,6 +2519,18 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/e54d820ce002802fa5964b2a2ee841bb" ;
     rdfs:comment "3 x 30 x 15 millimeter, 15 millimeter, 0 Sections" .
 
+<https://entity.api.hubmapconsortium.org/entities/e6a61a2aaec9809abf19f1f7b562f237> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/65efcf004d21d8f2dbadf4bc5f97cb36> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM639.SGGN.469> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 2e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/e6a61a2aaec9809abf19f1f7b562f237" ;
+    rdfs:comment "14 x 12 x 6 millimeter, 0.2 millimeter, 26 Sections" .
+
 <https://entity.api.hubmapconsortium.org/entities/e84915dd0319a303057a37a7796d428b> a ccf:Sample ;
     rdfs:label "Registered 10/19/2021, daniel cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0> ;
@@ -1946,6 +2542,18 @@
     ccf:section_size_unit "millimeter" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/e84915dd0319a303057a37a7796d428b" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections" .
+
+<https://entity.api.hubmapconsortium.org/entities/f187ff9a4631540a9aced9086c512d5e> a ccf:Sample ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/258d4da2e65a189db39d049eecbfca91> ;
+    ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM297.VBLS.984> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 26 ;
+    ccf:section_size 3e-01 ;
+    ccf:section_size_unit "millimeter" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/f187ff9a4631540a9aced9086c512d5e" ;
+    rdfs:comment "43 x 20 x 8 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://entity.api.hubmapconsortium.org/entities/f7b37eff8a36eb3852a373cc4878f50e> a ccf:Sample ;
     rdfs:label "Registered 2/16/2022, daniel cotter, TMC-Stanford" ;
@@ -1983,6 +2591,492 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/fe1fc10cedb9ef2f97986da71c42a1b7" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections" .
 
+<http://example.com/required/id#Donor1_TissueBlock2_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0007-SP-1-1-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock2_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0006-SP-1-2-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://example.com/required/id#Donor3_TissueBlock2_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0008-SP-1-2-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+<http://purl.org/ccf/UFL0006#TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0006-SP-1-3-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+ccf:UFL0006-SP-1-2-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+ccf:UFL0006-SP-1-3-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/10/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+<http://purl.org/ccf/UFL0007#TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0007-SP-2-2-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+ccf:UFL0007-SP-1-1-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+ccf:UFL0007-SP-2-2-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+<http://purl.org/ccf/UFL0008#TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:generates_dataset ccf:UFL0008-SP-2-1-1 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_size 10 ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter" .
+
+ccf:UFL0008-SP-1-2-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+ccf:UFL0008-SP-2-1-1 a ccf:Dataset ;
+    rdfs:label "Registered 1/9/2021, Marda Jorgensen, University of Florida TMC" ;
+    ccf:publication "https://doi.org/10.1101/2023.10.05.560733" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Data/Assay Types: CODEX, " .
+
+ccf:WD-76845-001 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-002 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-006 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-007 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-013 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-014 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-019 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-020 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-024 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-025 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-028 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-029 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-033 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-034 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-038 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-039 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-043 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-044 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-048 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-049 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-050 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-051 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-052 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-053 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-054 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-058 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-059 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-063 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-064 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-068 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-069 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-073 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-074 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-077 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-078 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-083 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-084 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-085 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-086 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-090 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-091 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-096 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-097 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-101 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-102 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-105 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "H&E" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+ccf:WD-76845-106 a ccf:Dataset ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:publication "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    ccf:technology "t-CyCIF" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Multiplexed CyCIF and H&E imaging, combined with scRNA-seq, and GeoMx transcriptomics" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM228.BBHS.986> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/c1cdc5b5cabbe591f63e78273abe1206" ;
+    rdfs:comment "47 x 21 x 16 millimeter, 0.6 millimeter, 26 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM229.HKHH.537> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/8360fe86ced2d235571ebcd59ec2d545" ;
+    rdfs:comment "17 x 12 x 9 millimeter, 0.3 millimeter, 26 Sections" .
+
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM229.NKWB.488> a ccf:Dataset ;
     rdfs:label "Registered 2/16/2022, amir Bahmani, TMC-Stanford" ;
     ccf:technology "OTHER" ;
@@ -1996,6 +3090,13 @@
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/f7b37eff8a36eb3852a373cc4878f50e" ;
     rdfs:comment "10 x 10 x 10 millimeter, 10 millimeter, 1 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM253.HFDZ.866> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/726f5d11ea3999141d7c3c37ec267d8b" ;
+    rdfs:comment "36 x 17 x 13 millimeter, 0.5 millimeter, 26 Sections" .
 
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM254.QFCD.845> a ccf:Dataset ;
     rdfs:label "Registered 10/19/2021, daniel cotter, TMC-Stanford" ;
@@ -2038,6 +3139,13 @@
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/4d09d8397267240454e948505d22b5ff" ;
     rdfs:comment "3 x 30 x 15 millimeter, 15 millimeter, 0 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM297.VBLS.984> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/f187ff9a4631540a9aced9086c512d5e" ;
+    rdfs:comment "43 x 20 x 8 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM352.GKSZ.368> a ccf:Dataset ;
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
@@ -2094,6 +3202,13 @@
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/852dae577b0393aa888f8c3c66cd38ac" ;
     rdfs:comment "3 x 30 x 15 millimeter, 15 millimeter, 0 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM396.WPKL.954> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/9778e9d083094862b2874f3007f8fe76" ;
+    rdfs:comment "28 x 12 x 7 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM432.KLVR.258> a ccf:Dataset ;
     rdfs:label "Registered 2/16/2022, daniel cotter, TMC-Stanford" ;
@@ -2200,6 +3315,20 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/819a5b3b5c325452ae3c650e50209125" ;
     rdfs:comment "3 x 30 x 20 millimeter, 20 millimeter, 0 Sections" .
 
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM639.SGGN.469> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/e6a61a2aaec9809abf19f1f7b562f237" ;
+    rdfs:comment "14 x 12 x 6 millimeter, 0.2 millimeter, 26 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM654.BKGL.942> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/d78afa907431bb4c943e39de3e994c27" ;
+    rdfs:comment "28 x 11 x 7 millimeter, 0.3 millimeter, 26 Sections" .
+
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM655.RKDX.442> a ccf:Dataset ;
     rdfs:label "Registered 2/16/2022, daniel Cotter, TMC-Stanford" ;
     ccf:technology "OTHER" ;
@@ -2235,6 +3364,13 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/0aae451b843a6ac8de1794b2b093ecc5" ;
     rdfs:comment "3 x 30 x 15 millimeter, 15 millimeter, 0 Sections" .
 
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM669.GWVL.893> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/1176b219b9ca81e0c5adef05ce695302" ;
+    rdfs:comment "23 x 14 x 11 millimeter, 0.4 millimeter, 26 Sections" .
+
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM675.PWLX.852> a ccf:Dataset ;
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:technology "OTHER" ;
@@ -2262,6 +3398,13 @@
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/251e2e18951b2be556fcb756f1806f03" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM755.MZNB.996> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/7b7f0c98e666fbbcbc25391bbe12edea" ;
+    rdfs:comment "42 x 15 x 8 millimeter, 0.3 millimeter, 26 Sections" .
 
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM755.PXDD.845> a ccf:Dataset ;
     rdfs:label "Registered 10/19/2021, daniel cotter, TMC-Stanford" ;
@@ -2368,6 +3511,13 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/acdb17a3cd92f28a6eb8ab5904c37dd3" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections" .
 
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM865.PBJW.845> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/8cfd588e5bc4a31ea61d3a11eae0cf61" ;
+    rdfs:comment "37 x 24 x 5 millimeter, 0.2 millimeter, 26 Sections" .
+
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM886.FPXG.398> a ccf:Dataset ;
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:technology "OTHER" ;
@@ -2381,6 +3531,13 @@
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/062bd84696d51e02f670f064879b562d" ;
     rdfs:comment "3 x 30 x 15 millimeter, 7.5 millimeter, 2 Sections" .
+
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM894.PGJZ.258> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/7e54c74b70ad6e71177f1705f2eecafe" ;
+    rdfs:comment "21 x 11 x 6 millimeter, 0.2 millimeter, 26 Sections" .
 
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM895.DMHZ.834> a ccf:Dataset ;
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
@@ -2424,6 +3581,13 @@
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/b086daf9da374bb5422e64326c26012e" ;
     rdfs:comment "3 x 30 x 20 millimeter, 20 millimeter, 1 Sections" .
 
+<https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM969.VNQL.553> a ccf:Dataset ;
+    rdfs:label "Registered 9/10/2021, Liz McDonough, RTI-General Electric" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/sample/27d32c5c8e5af5bef285fa773beee5b6" ;
+    rdfs:comment "30 x 13 x 7 millimeter, 0.3 millimeter, 26 Sections" .
+
 <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM975.XFRZ.636> a ccf:Dataset ;
     rdfs:label "Registered 6/8/2022, daniel cotter, TMC-Stanford" ;
     ccf:technology "OTHER" ;
@@ -2444,6 +3608,569 @@
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/c46f3ffa2ad148019ee983453d06b745" ;
     rdfs:comment "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor> a ccf:Donor ;
+    rdfs:label "Male, 69" ;
+    ccf:age 69 ;
+    ccf:consortium_name "HTAN" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "HTAN" ;
+    ccf:tissue_provider_uuid "db0c82e3-1d4c-42e7-88d2-75e3083ec874" ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "Entered 7/3/2023, Peter Sorger, HTAN" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection1> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-001 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 1 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection10> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-025 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 25 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection11> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-028 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 28 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection12> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-029 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 29 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection13> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-033 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 33 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection14> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-034 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 34 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection15> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-038 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 38 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection16> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-039 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 39 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection17> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-043 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 43 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection18> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-044 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 44 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection19> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-048 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 48 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection2> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-002 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 2 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection20> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-049 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 49 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection21> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-050 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 50 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection22> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-051 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 51 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection23> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-052 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 52 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection24> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-053 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 53 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection25> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-054 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 54 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection26> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-058 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 58 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection27> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-059 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 59 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection28> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-063 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 63 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection29> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-064 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 64 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection3> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-006 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 6 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection30> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-068 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 68 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection31> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-069 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 69 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection32> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-073 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 73 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection33> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-074 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 74 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection34> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-077 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 77 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection35> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-078 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 78 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection36> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-083 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 83 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection37> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-084 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 84 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection38> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-085 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 85 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection39> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-086 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 86 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection4> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-007 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 7 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection40> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-090 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 90 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection41> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-091 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 91 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection42> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-096 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 96 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection43> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-097 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 97 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection44> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-101 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 101 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection45> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-102 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 102 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection46> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-105 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 105 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection47> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-106 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 106 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection5> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-013 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 13 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection6> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-014 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 14 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection7> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-019 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 19 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection8> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-020 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 20 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://doi.org/10.1016/j.cell.2022.12.028/CRC1#Donor_TissueBlock1_TissueSection9> a ccf:Sample ;
+    rdfs:label "Registered 7/3/2023, Peter Sorger, HTAN" ;
+    ccf:generates_dataset ccf:WD-76845-024 ;
+    ccf:sample_type "Tissue Section" ;
+    ccf:section_number 24 ;
+    ccf:section_size 15 ;
+    ccf:url "https://doi.org/10.1016/j.cell.2022.12.028" ;
+    rdfs:comment "62 x 51 x 15 millimeter, 15 millimeter" .
+
+<https://entity.api.hubmapconsortium.org/entities/258d4da2e65a189db39d049eecbfca91> a ccf:Donor ;
+    rdfs:label "Male, Age 60" ;
+    ccf:age 60 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/258d4da2e65a189db39d049eecbfca91" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/25fd10f300c96818d34ffbe38d52d134> a ccf:Donor ;
+    rdfs:label "Male, Age 38, BMI 21.8" ;
+    ccf:age 38 ;
+    ccf:bmi 2.18e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/25fd10f300c96818d34ffbe38d52d134" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/26cc9d6097a5193a5ca647d0b72a1627> a ccf:Donor ;
+    rdfs:label "Male, Age 57, BMI 34.5" ;
+    ccf:age 57 ;
+    ccf:bmi 3.45e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/26cc9d6097a5193a5ca647d0b72a1627" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/332a4331efa6b01784d6044f62bbc1a4> a ccf:Donor ;
+    rdfs:label "Female, Age 42, BMI 20.2" ;
+    ccf:age 42 ;
+    ccf:bmi 2.02e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/332a4331efa6b01784d6044f62bbc1a4" ;
+    rdfs:comment "Entered 3/17/2022, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/56d58e095b39bace799a08131d331a99> a ccf:Donor ;
+    rdfs:label "Female, Age 53, BMI 37.2" ;
+    ccf:age 53 ;
+    ccf:bmi 3.72e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/56d58e095b39bace799a08131d331a99" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/63108adadd97a60ea7bdc84498384069> a ccf:Donor ;
+    rdfs:label "Female, Age 33, BMI 24.3" ;
+    ccf:age 33 ;
+    ccf:bmi 2.43e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/63108adadd97a60ea7bdc84498384069" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/65efcf004d21d8f2dbadf4bc5f97cb36> a ccf:Donor ;
+    rdfs:label "Male, Age 69, BMI 27.3" ;
+    ccf:age 69 ;
+    ccf:bmi 2.73e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/65efcf004d21d8f2dbadf4bc5f97cb36" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/a0c1a06ebcacd9f4b274797e9ff6703c> a ccf:Donor ;
+    rdfs:label "Male, Age 48" ;
+    ccf:age 48 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/a0c1a06ebcacd9f4b274797e9ff6703c" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/ab8f70d4776be3821f642e7f6495300c> a ccf:Donor ;
+    rdfs:label "Female, Age 32, BMI 25.8" ;
+    ccf:age 32 ;
+    ccf:bmi 2.58e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/ab8f70d4776be3821f642e7f6495300c" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/b5b8b8272d214725072b616b5ca199d7> a ccf:Donor ;
+    rdfs:label "Female, Age 41, BMI 29.1" ;
+    ccf:age 41 ;
+    ccf:bmi 2.91e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/b5b8b8272d214725072b616b5ca199d7" ;
+    rdfs:comment "Entered 3/17/2022, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/c37ed0a5fa384dceb5d8914e221e9f08> a ccf:Donor ;
+    rdfs:label "Male, Age 72, BMI 27.4" ;
+    ccf:age 72 ;
+    ccf:bmi 2.74e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/c37ed0a5fa384dceb5d8914e221e9f08" ;
+    rdfs:comment "Entered 4/9/2021, Liz McDonough, RTI-General Electric" .
+
+<https://entity.api.hubmapconsortium.org/entities/e4e4ab805cb51f2c7f3f1f7010220598> a ccf:Donor ;
+    rdfs:label "Female, Age 52, BMI 23.4" ;
+    ccf:age 52 ;
+    ccf:bmi 2.34e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "RTI-General Electric" ;
+    ccf:tissue_provider_uuid "5c106f29-ea2d-11e9-85e8-0efb3ba9a670" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/donor/e4e4ab805cb51f2c7f3f1f7010220598" ;
+    rdfs:comment "Entered 3/17/2022, Liz McDonough, RTI-General Electric" .
 
 <http://purl.org/ccf/1.5/09681d25-f08d-40ff-81cb-a731610aa84d> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001156>,
@@ -2523,6 +4250,17 @@
     ccf:z_dimension 20 ;
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
+
+<http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 36 ;
+    ccf:y_dimension 17 ;
+    ccf:z_dimension 13 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/3177d8d7-3b26-4aa3-9984-3c112d461446> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002115> ;
@@ -2692,6 +4430,17 @@
     dcterms:created "2022-02-17" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 28 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 7 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
+
 <http://purl.org/ccf/1.5/5b582f69-1a30-49f5-8e80-f6cefe4ea5be> a ccf:SpatialEntity ;
     ccf:creator_first_name "daniel" ;
     ccf:creator_last_name "cotter" ;
@@ -2737,6 +4486,17 @@
     ccf:z_dimension 15 ;
     dcterms:created "2022-02-16" ;
     dcterms:creator "Yiing Lin" .
+
+<http://purl.org/ccf/1.5/615aa60c-0a0a-4614-bae2-f85112479919> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001156> ;
+    ccf:creator_first_name "Peter" ;
+    ccf:creator_last_name "Sorger" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 62 ;
+    ccf:y_dimension 51 ;
+    ccf:z_dimension 15 ;
+    dcterms:created "2023-08-04" ;
+    dcterms:creator "Peter Sorger" .
 
 <http://purl.org/ccf/1.5/63b2f5a9-5914-4c45-9239-139948a93498> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14928>,
@@ -2797,6 +4557,17 @@
     ccf:z_dimension 15 ;
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
+
+<http://purl.org/ccf/1.5/71888798-9acb-4589-9b39-59a987d048ad> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 47 ;
+    ccf:y_dimension 21 ;
+    ccf:z_dimension 16 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/74c8746d-be53-493d-9a2a-1edbe24f0d16> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002115> ;
@@ -2928,6 +4699,20 @@
     dcterms:created "2021-10-19" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/84c769c9-6a7e-4ab2-8985-ae34173283a7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
 <http://purl.org/ccf/1.5/85765dd5-2197-4361-b4c6-c9d30186044a> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14928>,
         <http://purl.obolibrary.org/obo/UBERON_0002114> ;
@@ -2985,6 +4770,20 @@
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/928b0a83-fd10-4d44-a369-e46023d91e0b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
 <http://purl.org/ccf/1.5/93286ce3-669a-4f3f-a85a-7eaaedc15c59> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001052>,
         <http://purl.obolibrary.org/obo/UBERON_0001154>,
@@ -3033,6 +4832,17 @@
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 30 ;
+    ccf:y_dimension 13 ;
+    ccf:z_dimension 7 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
+
 <http://purl.org/ccf/1.5/a1fc9d45-5af9-4fc4-b2be-340ef0716e09> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002115> ;
     ccf:creator_first_name "Yiing" ;
@@ -3057,6 +4867,17 @@
     ccf:z_dimension 5 ;
     dcterms:created "2021-10-19" ;
     dcterms:creator "Yiing Lin" .
+
+<http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 43 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 8 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/abab52f8-6fd4-4e3f-8f9c-bb9f5f62785f> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001052>,
@@ -3091,6 +4912,20 @@
     dcterms:created "2022-02-16" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/b730bf41-6de9-423a-bfe6-6da81191d821> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
 <http://purl.org/ccf/1.5/ba9d007b-c5c7-4231-80f9-42403a98a6df> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001157>,
         <http://purl.obolibrary.org/obo/UBERON_0001158>,
@@ -3105,6 +4940,17 @@
     ccf:z_dimension 5 ;
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
+
+<http://purl.org/ccf/1.5/bc7cbfcd-cc52-4e82-a079-e353feb729a1> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 42 ;
+    ccf:y_dimension 15 ;
+    ccf:z_dimension 8 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
 
 <http://purl.org/ccf/1.5/bceacee1-bc17-49ba-ab6f-833a9ccde436> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14966>,
@@ -3141,6 +4987,21 @@
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/cd2f7613-97dc-4fd1-a10e-2343295d76a7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15838>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-10" ;
+    dcterms:creator "Marda Jorgensen" .
+
 <http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001052>,
         <http://purl.obolibrary.org/obo/UBERON_0001154>,
@@ -3169,6 +5030,17 @@
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 28 ;
+    ccf:y_dimension 11 ;
+    ccf:z_dimension 7 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
+
 <http://purl.org/ccf/1.5/d194f593-af76-4ee7-84a6-00f7531d47cf> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002115>,
         <http://purl.obolibrary.org/obo/UBERON_0002116> ;
@@ -3180,6 +5052,20 @@
     ccf:z_dimension 15 ;
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
+
+<http://purl.org/ccf/1.5/d3416c86-078f-4c01-858c-f77892b237e1> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-11" ;
+    dcterms:creator "Marda Jorgensen" .
 
 <http://purl.org/ccf/1.5/d3b5feb6-910f-4309-a6a8-42c0477227c9> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001052>,
@@ -3323,6 +5209,51 @@
     dcterms:created "2022-06-08" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela " ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 23 ;
+    ccf:y_dimension 14 ;
+    ccf:z_dimension 11 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela  Noseda" .
+
+<http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 17 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 9 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
+
+<http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 37 ;
+    ccf:y_dimension 24 ;
+    ccf:z_dimension 5 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
+
+<http://purl.org/ccf/1.5/f87cbf39-cfd2-4ebc-8729-1fba1cf52851> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "Marda" ;
+    ccf:creator_last_name "Jorgensen" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 10 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 10 ;
+    dcterms:created "2021-02-11" ;
+    dcterms:creator "Marda Jorgensen" .
+
 <http://purl.org/ccf/1.5/fb4cec06-b147-4277-a6cf-8aa21e294183> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/FMA_14966>,
         <http://purl.obolibrary.org/obo/UBERON_0001157>,
@@ -3342,6 +5273,17 @@
     dcterms:created "2022-02-16" ;
     dcterms:creator "Yiing Lin" .
 
+<http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 14 ;
+    ccf:y_dimension 12 ;
+    ccf:z_dimension 6 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
+
 <http://purl.org/ccf/1.5/fd76b9bb-85b0-4dd0-8e60-7c6ec7c95d73> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002115> ;
     ccf:creator_first_name "Yiing" ;
@@ -3352,6 +5294,50 @@
     ccf:z_dimension 15 ;
     dcterms:created "2022-02-16" ;
     dcterms:creator "Yiing Lin" .
+
+<http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "Michela" ;
+    ccf:creator_last_name "Noseda" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 21 ;
+    ccf:y_dimension 11 ;
+    ccf:z_dimension 6 ;
+    dcterms:created "2021-09-10" ;
+    dcterms:creator "Michela Noseda" .
+
+ccf:UFL0006 a ccf:Donor ;
+    rdfs:label "Female, Age 21, BMI 37.1" ;
+    ccf:age 21 ;
+    ccf:bmi 3.71e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "University of Florida TMC" ;
+    ccf:tissue_provider_uuid "f518aa91-f5b8-4d24-8338-629296684790" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Entered 1/10/2021, Marda Jorgensen, University of Florida TMC" .
+
+ccf:UFL0007 a ccf:Donor ;
+    rdfs:label "Male, Age 20, BMI 28.7" ;
+    ccf:age 20 ;
+    ccf:bmi 2.87e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "University of Florida TMC" ;
+    ccf:tissue_provider_uuid "f518aa91-f5b8-4d24-8338-629296684790" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Entered 1/9/2021, Marda Jorgensen, University of Florida TMC" .
+
+ccf:UFL0008 a ccf:Donor ;
+    rdfs:label "Male, Age 10, BMI 22.2" ;
+    ccf:age 10 ;
+    ccf:bmi 2.22e+01 ;
+    ccf:consortium_name "HuBMAP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "University of Florida TMC" ;
+    ccf:tissue_provider_uuid "f518aa91-f5b8-4d24-8338-629296684790" ;
+    ccf:url "https://doi.org/10.1101/2023.10.05.560733" ;
+    rdfs:comment "Entered 1/9/2021, Marda Jorgensen, University of Florida TMC" .
 
 <https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0> a ccf:Donor ;
     rdfs:label "Female, Age 67, BMI 30.2" ;

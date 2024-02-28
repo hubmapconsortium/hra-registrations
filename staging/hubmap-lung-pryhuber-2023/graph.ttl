@@ -217,108 +217,108 @@
 
 <https://entity.api.hubmapconsortium.org/entities/01160f557b3544a163184137530ededf> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/01160f557b3544a163184137530ededf" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/05197e30394fd88affff0a9c214c8c4c> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/05197e30394fd88affff0a9c214c8c4c" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/053e22db35108fe558d1ad47ba479c3d> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/053e22db35108fe558d1ad47ba479c3d" ;
-    rdfs:comment "Data/Assay Types: sc_atac_seq_snare, " .
+    rdfs:comment "Dataset Type: ATACseq [SnapATAC]" .
 
 <https://entity.api.hubmapconsortium.org/entities/065295e6e58b1d3555a261c1bfe3b3fe> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/065295e6e58b1d3555a261c1bfe3b3fe" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/0736735768692d6ca0cd96149b743be1> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/0736735768692d6ca0cd96149b743be1" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/0b590c9e3a62178da592e85572e2f1bf> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/0b590c9e3a62178da592e85572e2f1bf" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/0dbe5d6e150f9de0f186db25996d24b3> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/0dbe5d6e150f9de0f186db25996d24b3" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/11c92e3b876f5f79cd46a93eb90e074b> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/11c92e3b876f5f79cd46a93eb90e074b" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1238ca1a8f793d10a43a65b28cc98e0d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1238ca1a8f793d10a43a65b28cc98e0d" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/12adb09fef9ef119227ecbe87b41dcc2> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/12adb09fef9ef119227ecbe87b41dcc2" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/15b1eebc7acb6ec29c6375fd5ac9eadf> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/15b1eebc7acb6ec29c6375fd5ac9eadf" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1636bc3f5388bb309733f7b7423ed9f6> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1636bc3f5388bb309733f7b7423ed9f6" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/171bd6114652ce2a1ff0e4757b5eaef9> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/171bd6114652ce2a1ff0e4757b5eaef9" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/176edb4b0e16059522f6f087576fbeec> a ccf:Dataset ;
-    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/176edb4b0e16059522f6f087576fbeec" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/179b836ebc9fa8a4cfd87b592e39478c> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/179b836ebc9fa8a4cfd87b592e39478c" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/17ac424c174ba2d48d8ad4d23c611273> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -343,17 +343,17 @@
 
 <https://entity.api.hubmapconsortium.org/entities/18f644163d1114f46dc67cc75f0a8edd> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/18f644163d1114f46dc67cc75f0a8edd" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/19274e67c639a003ffe17953fd6b55db> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/19274e67c639a003ffe17953fd6b55db" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1a903281a63d708070a0cba270638b1f> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -376,80 +376,80 @@
 
 <https://entity.api.hubmapconsortium.org/entities/1bb63db033b3f7206a4d8c4ac4db1564> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1bb63db033b3f7206a4d8c4ac4db1564" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1daf880dc1e795b49a94d45f84b1596d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1daf880dc1e795b49a94d45f84b1596d" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1ebb8c979c90d0c214f3ebc7aaaa2207> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1ebb8c979c90d0c214f3ebc7aaaa2207" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1ee969676fc2b7081e6d4c6db6eccd74> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1ee969676fc2b7081e6d4c6db6eccd74" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1f03636598bfb7d3bb0bfccf0a252e36> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1f03636598bfb7d3bb0bfccf0a252e36" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/1fb5bcc68099ff64c34809153de0c5cc> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/1fb5bcc68099ff64c34809153de0c5cc" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/21cfe966008f784c47d0638e80b55ee0> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/21cfe966008f784c47d0638e80b55ee0" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/2274ffb25522c618f93af171afa73e59> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/2274ffb25522c618f93af171afa73e59" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/237b8f24c23821690519af862cf25a9f> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/237b8f24c23821690519af862cf25a9f" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/26b642ddbae00e7ff6570ddd57557e26> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/26b642ddbae00e7ff6570ddd57557e26" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/26f87ae1022484a3d16677865752abc0> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/26f87ae1022484a3d16677865752abc0" ;
-    rdfs:comment "Data/Assay Types: sc_atac_seq_snare, " .
+    rdfs:comment "Dataset Type: ATACseq [SnapATAC]" .
 
 <https://entity.api.hubmapconsortium.org/entities/27997171ea74885abbd91a99cac360d9> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -522,17 +522,17 @@
 
 <https://entity.api.hubmapconsortium.org/entities/293d9f9a1a076c616ed91d7251ec831c> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/293d9f9a1a076c616ed91d7251ec831c" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/2dac500177620d78ca174c2c1d36a6c8> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/2dac500177620d78ca174c2c1d36a6c8" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/2fc813d446a6ffc4d49d30f9dc77e5eb> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -554,60 +554,60 @@
     rdfs:comment "15 x 10 x 5 millimeter, 5 millimeter, block" .
 
 <https://entity.api.hubmapconsortium.org/entities/3152ddcb811d362113ebb119602f2cd4> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3152ddcb811d362113ebb119602f2cd4" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/322b6e23ffaf69aff3c840c1a180bfa1> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/322b6e23ffaf69aff3c840c1a180bfa1" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/37ccf28cb5c06e8ba076f587ee4e50be> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/37ccf28cb5c06e8ba076f587ee4e50be" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/395481b0db2d3a226b22cd0f8c9284ff> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/395481b0db2d3a226b22cd0f8c9284ff" ;
-    rdfs:comment "Data/Assay Types: sc_atac_seq_snare, " .
+    rdfs:comment "Dataset Type: ATACseq [SnapATAC]" .
 
 <https://entity.api.hubmapconsortium.org/entities/3a4b776346bfc561712eaf915dda6200> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3a4b776346bfc561712eaf915dda6200" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/3b1490026022f850e4d3c3fb5e2283c9> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3b1490026022f850e4d3c3fb5e2283c9" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/3b3c773e7b5761c51fc57f75516a62e5> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3b3c773e7b5761c51fc57f75516a62e5" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/3c3daa288cf42d1b9c93b908c4d4ee14> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3c3daa288cf42d1b9c93b908c4d4ee14" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/3d5f33d0d1f2772ae9b24ef7402a1e77> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -632,318 +632,318 @@
 
 <https://entity.api.hubmapconsortium.org/entities/3fe18ec025f612ca2c5308d4c234da50> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3fe18ec025f612ca2c5308d4c234da50" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/3febd011f193673c6f87a60718dd8f96> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/3febd011f193673c6f87a60718dd8f96" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/40599eed684166887fbca7c5514cd00e> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/40599eed684166887fbca7c5514cd00e" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/40d4bd83ffc4c9c9f27bfe31db5a46af> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/40d4bd83ffc4c9c9f27bfe31db5a46af" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0> a ccf:Dataset ;
-    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4369a119a9c06ea304003a5c3cb3a2e0" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/493ee03949873fdcdd6ae19b28c1337f> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/493ee03949873fdcdd6ae19b28c1337f" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/4b16c24a3997ea8754921b0f1d60bc4d> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4b16c24a3997ea8754921b0f1d60bc4d" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/4bc9b335040544bc76d87acb189e594a> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4bc9b335040544bc76d87acb189e594a" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/4e05a05ac94074678b8e85846503e0fe> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4e05a05ac94074678b8e85846503e0fe" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/4e0db07bfcc7b36e195a67cbdc48ed9e> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4e0db07bfcc7b36e195a67cbdc48ed9e" ;
-    rdfs:comment "Data/Assay Types: sc_atac_seq_snare, " .
+    rdfs:comment "Dataset Type: ATACseq [SnapATAC]" .
 
 <https://entity.api.hubmapconsortium.org/entities/4ea28b66fb08185a484df0fa0b9543dc> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4ea28b66fb08185a484df0fa0b9543dc" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/500af39b83bfa9eb27f78746734f3db9> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/500af39b83bfa9eb27f78746734f3db9" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/522946aff94472407987b9ffb9d1b971> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/522946aff94472407987b9ffb9d1b971" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/53fe8a84564b313d4e8ee90f337129dc> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/53fe8a84564b313d4e8ee90f337129dc" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/56ebc2ebc5446a039cb0a86ace68bd32> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/56ebc2ebc5446a039cb0a86ace68bd32" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/58167d0f778284d5b95af782bd8132da> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/58167d0f778284d5b95af782bd8132da" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/59da4436e52d9cacc743c1a9bbdd566f> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/59da4436e52d9cacc743c1a9bbdd566f" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/5d111a1db2f18d507d23e79b993e1e4a> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/5d111a1db2f18d507d23e79b993e1e4a" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/5d12053959438773b92035c222c3e033> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/5d12053959438773b92035c222c3e033" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/63213069b4020401bf2bf7aaf028e655> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/63213069b4020401bf2bf7aaf028e655" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/653442dbfa883918f5bf1dae5ae04dc6> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/653442dbfa883918f5bf1dae5ae04dc6" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/65d2efa642fb92caafaadd39a663b8cf> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/65d2efa642fb92caafaadd39a663b8cf" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/676d7aa78c6ff2b18aca7c7d020d0928> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/676d7aa78c6ff2b18aca7c7d020d0928" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/685ac71429ccbe6b8b2c77eea106bc4e> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/685ac71429ccbe6b8b2c77eea106bc4e" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/6873e5b594b051716eccd1bfb8fb8e54> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/6873e5b594b051716eccd1bfb8fb8e54" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/68e6dfa4807ca615883f73a5067115cb> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/68e6dfa4807ca615883f73a5067115cb" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/6936bb8d0a1a1f07c4def2dbd1f1279f> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/6936bb8d0a1a1f07c4def2dbd1f1279f" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/6acf389e79b08bdd4c7f94019348868e> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/6acf389e79b08bdd4c7f94019348868e" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/6ae8dd70fa2de19016fcb9c81afc11c7> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/6ae8dd70fa2de19016fcb9c81afc11c7" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/725f400ab765dce867505cfa435c95a2> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/725f400ab765dce867505cfa435c95a2" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/765bea41af0234c8cd0db762cbe7a456> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/765bea41af0234c8cd0db762cbe7a456" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/79f087ae551dd72997f174646bb0d5e0> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/79f087ae551dd72997f174646bb0d5e0" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/7e452891b83ca984a2f210312d90495d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/7e452891b83ca984a2f210312d90495d" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/8039d84a87da24a6917aae5623daff19> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8039d84a87da24a6917aae5623daff19" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/8114e44eb6db2811bd22b87393831c5f> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8114e44eb6db2811bd22b87393831c5f" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/812f9da67f2775d21d2aa820e9aeb39d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/812f9da67f2775d21d2aa820e9aeb39d" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/838a481d4970d865de933429868a06bc> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/838a481d4970d865de933429868a06bc" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/8464b72f60b42590266834f9049055f4> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8464b72f60b42590266834f9049055f4" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/84db9a72aba9ae0ef740192ad8747ee3> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/84db9a72aba9ae0ef740192ad8747ee3" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/8574788d347648a14d5e55274f0b24ad> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8574788d347648a14d5e55274f0b24ad" ;
-    rdfs:comment "Data/Assay Types: sc_atac_seq_snare, " .
+    rdfs:comment "Dataset Type: ATACseq [SnapATAC]" .
 
 <https://entity.api.hubmapconsortium.org/entities/85fa094cbdb29173e0a3463dce0790fc> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/85fa094cbdb29173e0a3463dce0790fc" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/88a335560ab0bc16c7d63c01d6480f3d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/88a335560ab0bc16c7d63c01d6480f3d" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/8df15cb20f5e127d102a73d0ec5682a0> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8df15cb20f5e127d102a73d0ec5682a0" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/8e5c8f0cc61aad4fcbc5cc119bdf4c96> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/8e5c8f0cc61aad4fcbc5cc119bdf4c96" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/9305d53ae8c0dd565a088cd45f20e0c8> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9305d53ae8c0dd565a088cd45f20e0c8" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/93ae03ede0ff261a8cb1f27345fabd3c> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -968,115 +968,115 @@
 
 <https://entity.api.hubmapconsortium.org/entities/96c782b502cdb23122b2e7fb376d949d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/96c782b502cdb23122b2e7fb376d949d" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/9aed52d22e30b893045fd1f79b3663fb> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/9aed52d22e30b893045fd1f79b3663fb" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/a2bf1303a535bba11900932213b0f987> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a2bf1303a535bba11900932213b0f987" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/a39fed027b51d97f83cec90c63c44744> a ccf:Dataset ;
-    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a39fed027b51d97f83cec90c63c44744" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/a5e8f05a2dec8abf88ffe588adf8565e> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a5e8f05a2dec8abf88ffe588adf8565e" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/a7612d7bb369391b04eeca67f46df883> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a7612d7bb369391b04eeca67f46df883" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/a8652e9e3c545e61e1ffe9d54a8f1fd2> a ccf:Dataset ;
     rdfs:label "Registered 3/6/2023, Blue Lake, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a8652e9e3c545e61e1ffe9d54a8f1fd2" ;
-    rdfs:comment "Data/Assay Types: snRNAseq, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/a8959b401a2a5fd70a85651404068b73> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a8959b401a2a5fd70a85651404068b73" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/a8b5f09ae183be8731349bbb72a55a4f> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a8b5f09ae183be8731349bbb72a55a4f" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/ab3df69d522e29ca793bae7495e1b301> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ab3df69d522e29ca793bae7495e1b301" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/ac42e6c447aa0498bef641d945586d02> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ac42e6c447aa0498bef641d945586d02" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/ae1cf3212a4e98bfa807db7c9e4c20de> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ae1cf3212a4e98bfa807db7c9e4c20de" ;
-    rdfs:comment "Data/Assay Types: sc_atac_seq_snare, " .
+    rdfs:comment "Dataset Type: ATACseq [SnapATAC]" .
 
 <https://entity.api.hubmapconsortium.org/entities/b0f51c557f05bcff69c9eed090c93b79> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b0f51c557f05bcff69c9eed090c93b79" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/b340bb5715f967aa74d1b8eaeec0d475> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b340bb5715f967aa74d1b8eaeec0d475" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/b4a975cb708bf442ceeb4ad2377024f4> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b4a975cb708bf442ceeb4ad2377024f4" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/b525fda5057ae6875e4af5544a91f3b3> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b525fda5057ae6875e4af5544a91f3b3" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/b583ee68bbd0e00987292f837d519800> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -1087,38 +1087,38 @@
 
 <https://entity.api.hubmapconsortium.org/entities/b81345aee12cda9ff3acd8bfc4a9ed5f> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b81345aee12cda9ff3acd8bfc4a9ed5f" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/b8f2f968030b16280a77795a6babaf16> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b8f2f968030b16280a77795a6babaf16" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/b94df37c7a261274840750d994bc42a9> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/b94df37c7a261274840750d994bc42a9" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/bd3dd6ae2a61805ad1fd49cf7e36432e> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/bd3dd6ae2a61805ad1fd49cf7e36432e" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/c1a4f36c30ac3b3e8ac4010a8b5b427b> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c1a4f36c30ac3b3e8ac4010a8b5b427b" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/c1b4529ef342cc35aca0ddf247c9a6cc> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -1141,157 +1141,157 @@
 
 <https://entity.api.hubmapconsortium.org/entities/c277864db8e229bb4336428b5e1e096d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c277864db8e229bb4336428b5e1e096d" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/c391f9351952a3eb3ce4b68b39f12970> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c391f9351952a3eb3ce4b68b39f12970" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/c5d41ef8e0233c3eef02296cff84d6de> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c5d41ef8e0233c3eef02296cff84d6de" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/c820345b025ff959e531db797030a399> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/c820345b025ff959e531db797030a399" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/ca35382d67c90d4d9bca1ee16526b1d3> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/6/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ca35382d67c90d4d9bca1ee16526b1d3" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/cf8ca5b0efe2007d65a39638c4e8b4d4> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/cf8ca5b0efe2007d65a39638c4e8b4d4" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/cfdc5faaa8df7fcbdd809989edd6ebd5> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/cfdc5faaa8df7fcbdd809989edd6ebd5" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d0c1bd09443c301413f44f7108d20e08> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d0c1bd09443c301413f44f7108d20e08" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/d171ff8d83f707ecca64ff159c7160a7> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d171ff8d83f707ecca64ff159c7160a7" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/d25c82a75e24ea430ac185abd36d03b3> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d25c82a75e24ea430ac185abd36d03b3" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d2a5974f9fbc2d489970b199ee007578> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d2a5974f9fbc2d489970b199ee007578" ;
-    rdfs:comment "Data/Assay Types: sc_atac_seq_snare, " .
+    rdfs:comment "Dataset Type: ATACseq [SnapATAC]" .
 
 <https://entity.api.hubmapconsortium.org/entities/d2f1ba23eddf1484f4a794444a6536ee> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d2f1ba23eddf1484f4a794444a6536ee" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d30dbf14acc068fe615cb3d24ef7a495> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d30dbf14acc068fe615cb3d24ef7a495" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d615cc96a8606bb6819bed2a8d7f24ac> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d615cc96a8606bb6819bed2a8d7f24ac" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d68eb55a484036b3575043bdecd64a52> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d68eb55a484036b3575043bdecd64a52" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d74c1643f3f4c22a4758e5931029ed75> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d74c1643f3f4c22a4758e5931029ed75" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d8ec264c4660ef7053764f71ae1789d0> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d8ec264c4660ef7053764f71ae1789d0" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/d90737b6f1563e164f8a30b4315205a0> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d90737b6f1563e164f8a30b4315205a0" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/d960e39e0fcd8c979c08e03d26f984a5> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/d960e39e0fcd8c979c08e03d26f984a5" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/dd648e4648238b25a7d1062669ea89af> a ccf:Dataset ;
-    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/dd648e4648238b25a7d1062669ea89af" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/dd7adfb071228435eb2bb1699148a1de> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/dd7adfb071228435eb2bb1699148a1de" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/e0d7eaffb0da948ed150d1cfc94db74b> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e0d7eaffb0da948ed150d1cfc94db74b" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/e36bd55671b708b849bece16139552f5> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
@@ -1301,102 +1301,102 @@
     rdfs:comment "10 x 10 x 1.7 millimeter, 1.7 millimeter, block" .
 
 <https://entity.api.hubmapconsortium.org/entities/e81c9c9753998b2ca69e8bceadf2409d> a ccf:Dataset ;
-    rdfs:label "Registered 8/7/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    rdfs:label "Registered 11/7/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e81c9c9753998b2ca69e8bceadf2409d" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/e8efba8d06360eeba199f195da80f01d> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e8efba8d06360eeba199f195da80f01d" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/e9e74364d8d9eeaba7a7f094d33c0a66> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e9e74364d8d9eeaba7a7f094d33c0a66" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/e9ea23ec5a0dbf788fc66ecea4441550> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/e9ea23ec5a0dbf788fc66ecea4441550" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/ed630484e46ea49b319c0e1f92140059> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ed630484e46ea49b319c0e1f92140059" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/ee14de43eba29d0c55481a998bc3e4e1> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ee14de43eba29d0c55481a998bc3e4e1" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/ee6e44b3e6cb77ef1806e722390a01a8> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/ee6e44b3e6cb77ef1806e722390a01a8" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/eea962dabda0cec78f8f909494e0e775> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/eea962dabda0cec78f8f909494e0e775" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/f114e3d8566762ef25ae76018859a3b7> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f114e3d8566762ef25ae76018859a3b7" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/f716e995918d7780d46ad4df44d41678> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f716e995918d7780d46ad4df44d41678" ;
-    rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+    rdfs:comment "Dataset Type: RNAseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/f7a8e78dea9cf70735059e8b4a179701> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "RNAseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f7a8e78dea9cf70735059e8b4a179701" ;
-    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/f90b5f84189588fdcde86381df1e205f> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Joel Welling, TMC-UCSD" ;
-    ccf:technology "OTHER" ;
+    ccf:technology "ATACseq" ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f90b5f84189588fdcde86381df1e205f" ;
-    rdfs:comment "Data/Assay Types: SNAREseq, " .
+    rdfs:comment "Dataset Type: ATACseq" .
 
 <https://entity.api.hubmapconsortium.org/entities/f9848244883f6c70972acef16680431a> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/f9848244883f6c70972acef16680431a" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <https://entity.api.hubmapconsortium.org/entities/faa1acc13943ee9d365b6cc6a3ea889f> a ccf:Dataset ;
     rdfs:label "Registered 11/3/2023, HuBMAP Process, TMC-UCSD" ;
-    ccf:technology "10x" ;
-    ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
+    ccf:technology "RNAseq" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/faa1acc13943ee9d365b6cc6a3ea889f" ;
-    rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+    rdfs:comment "Dataset Type: RNAseq [Salmon]" .
 
 <http://purl.org/ccf/1.5/594902fb-c4c1-47c3-b98e-3101b93a73e4> a ccf:SpatialEntity ;
     ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002048>,
@@ -1548,6 +1548,7 @@
     rdfs:label "Male, Age 37" ;
     ccf:age 37 ;
     ccf:consortium_name "HuBMAP" ;
+    ccf:race "Black or African American" ;
     ccf:sex "Male" ;
     ccf:tissue_provider_name "TMC-UCSD" ;
     ccf:tissue_provider_uuid "03b3d854-ed44-11e8-8bce-0e368f3075e8" ;

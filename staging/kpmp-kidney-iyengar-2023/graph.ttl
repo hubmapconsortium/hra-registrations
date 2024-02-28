@@ -1,0 +1,1971 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 39 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.871e+01 ;
+    ccf:y_rotation -24 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.0274e+01 ;
+    ccf:z_rotation -130 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.6215e+01 ;
+    dcterms:created "2023-08-24" .
+
+<http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 5.9111e+01 ;
+    ccf:y_rotation 24 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.6928e+01 ;
+    ccf:z_rotation -135 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.729e+01 ;
+    dcterms:created "2023-08-24" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10039_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#27-10039> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#27-10039_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10041_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#27-10041> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#27-10041_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10053_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#27-10053> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#27-10053_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10071_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#27-10071> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#27-10071_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10088_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#27-10088> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#27-10088_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#28-10051_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#28-10051> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#28-10051_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#28-11515_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#28-11515> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#28-11515_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#28-12263_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#28-12263> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#28-12263_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#28-12381_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#28-12381> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#28-12381_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#28-12490_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#28-12490> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#28-12490_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10006_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10006> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10006_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10008_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10008> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10008_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10010_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10010> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10010_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10011_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10011> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10011_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10012_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10012> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10012_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10013_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10013> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10013_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10016_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10016> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10016_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10280_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10280> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10280_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10380_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10380> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10380_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10386_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10386> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10386_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10398_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10398> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10398_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10400_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10400> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10400_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10404_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10404> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10404_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10406_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#29-10406> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#29-10406_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10018_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#30-10018> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#30-10018_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10034_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#30-10034> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#30-10034_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10123_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#30-10123> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#30-10123_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10125_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#30-10125> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#30-10125_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10929_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#30-10929> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#30-10929_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#30-11051_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#30-11051> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#30-11051_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10000_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10000> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10000_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10001_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10001> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10001_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10013_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10013> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10013_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10035_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10035> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10035_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10040_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10040> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10040_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10042_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10042> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10042_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10078_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10078> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10078_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10154_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10154> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10154_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10210_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10210> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10210_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10236_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#31-10236> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#31-10236_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#32-10003_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#32-10003> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#32-10003_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#32-10034_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#32-10034> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#32-10034_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#32-10074_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#32-10074> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#32-10074_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#33-10005_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#33-10005> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#33-10005_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#33-10006_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#33-10006> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#33-10006_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#34-10050_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#34-10050> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#34-10050_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#34-10184_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#34-10184> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#34-10184_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#34-10187_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#34-10187> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#34-10187_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE018-1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE018-1> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE018-1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE019-4_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE019-4> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE019-4_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE027_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE027> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE027_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE038_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE038> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE038_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE055-1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE055-1> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE055-1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE062-1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE062-1> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE062-1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE19-025_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE19-025> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE19-025_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE19-05_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE19-05> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE19-05_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE98sc_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#PRE98sc> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#PRE98sc_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1153-EO1> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1153-EO1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1153-EO2> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1153-EO2_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO3_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1153-EO3> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1153-EO3_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1157-EO1> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1157-EO1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1157-EO2> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1157-EO2_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO3_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1157-EO3> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1157-EO3_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1158-EO1> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1158-EO1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1158-EO2> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1158-EO2_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO3_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1158-EO3> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1158-EO3_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 10 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1162-EO1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1162-EO1> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1162-EO1_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1162-EO2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:comes_from <https://doi.org/10.48698/B2XN-D827#Sample1162-EO2> ;
+    ccf:generates_dataset <https://doi.org/10.48698/B2XN-D827#Sample1162-EO2_TissueBlock1_TissueBlock1_Dataset1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1 ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "1 x 11 x 1 millimeter, 1 millimeter" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10039> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10039_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#27-10041> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10041_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#27-10053> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10053_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#27-10071> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10071_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#27-10088> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#27-10088_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#28-10051> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#28-10051_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#28-11515> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#28-11515_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#28-12263> a ccf:Donor ;
+    rdfs:label "Male, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#28-12263_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#28-12381> a ccf:Donor ;
+    rdfs:label "Male, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#28-12381_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#28-12490> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#28-12490_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10006> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10006_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10008> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10008_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10010> a ccf:Donor ;
+    rdfs:label "Male, 70-79 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10010_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10011> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10011_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10012> a ccf:Donor ;
+    rdfs:label "Female, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10012_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10013> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10013_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10016> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10016_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10280> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10280_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10380> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10380_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10386> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10386_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10398> a ccf:Donor ;
+    rdfs:label "Male, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10398_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10400> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10400_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10404> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10404_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#29-10406> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#29-10406_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#30-10018> a ccf:Donor ;
+    rdfs:label "Male, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10018_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#30-10034> a ccf:Donor ;
+    rdfs:label "Female, 70-79 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10034_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#30-10123> a ccf:Donor ;
+    rdfs:label "Male, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10123_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#30-10125> a ccf:Donor ;
+    rdfs:label "Male, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10125_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#30-10929> a ccf:Donor ;
+    rdfs:label "Male, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#30-10929_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#30-11051> a ccf:Donor ;
+    rdfs:label "Male, 20-29 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#30-11051_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10000> a ccf:Donor ;
+    rdfs:label "Male, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10000_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10001> a ccf:Donor ;
+    rdfs:label "Male, 70-79 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10001_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10013> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10013_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10035> a ccf:Donor ;
+    rdfs:label "Female, 70-79 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10035_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10040> a ccf:Donor ;
+    rdfs:label "Female, 70-79 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10040_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10042> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10042_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10078> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10078_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10154> a ccf:Donor ;
+    rdfs:label "Male, 80-89 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10154_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10210> a ccf:Donor ;
+    rdfs:label "Female, 70-79 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10210_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#31-10236> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#31-10236_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#32-10003> a ccf:Donor ;
+    rdfs:label "Male, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#32-10003_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#32-10034> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#32-10034_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#32-10074> a ccf:Donor ;
+    rdfs:label "Male, 70-79 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#32-10074_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#33-10005> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#33-10005_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#33-10006> a ccf:Donor ;
+    rdfs:label "Male, 20-29 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#33-10006_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#34-10050> a ccf:Donor ;
+    rdfs:label "Female, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#34-10050_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#34-10184> a ccf:Donor ;
+    rdfs:label "Female, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#34-10184_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#34-10187> a ccf:Donor ;
+    rdfs:label "Male, 20-29 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#34-10187_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE018-1> a ccf:Donor ;
+    rdfs:label "Male, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE018-1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE019-4> a ccf:Donor ;
+    rdfs:label "Female, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE019-4_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE027> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE027_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE038> a ccf:Donor ;
+    rdfs:label "Female, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE038_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE055-1> a ccf:Donor ;
+    rdfs:label "Male, 60-69 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE055-1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE062-1> a ccf:Donor ;
+    rdfs:label "Female, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE062-1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE19-025> a ccf:Donor ;
+    rdfs:label "Female, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE19-025_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE19-05> a ccf:Donor ;
+    rdfs:label "Female, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE19-05_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#PRE98sc> a ccf:Donor ;
+    rdfs:label "Female, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#PRE98sc_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO1> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO2> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO3> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1153-EO3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO1> a ccf:Donor ;
+    rdfs:label "Male, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO2> a ccf:Donor ;
+    rdfs:label "Female, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO3> a ccf:Donor ;
+    rdfs:label "Male, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1157-EO3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO1> a ccf:Donor ;
+    rdfs:label "Female, 40-49 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO2> a ccf:Donor ;
+    rdfs:label "Male, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO3> a ccf:Donor ;
+    rdfs:label "Female, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1158-EO3_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1162-EO1> a ccf:Donor ;
+    rdfs:label "Male, 30-39 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1162-EO1_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1162-EO2> a ccf:Donor ;
+    rdfs:label "Male, 50-59 Years" ;
+    ccf:consortium_name "KPMP" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "KPMP" ;
+    ccf:tissue_provider_uuid "5d93e0ef-3be3-4393-a463-81757b3e8e5a" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Entered 7/23/2023, Matthias Kretzler, KPMP" .
+
+<https://doi.org/10.48698/B2XN-D827#Sample1162-EO2_TissueBlock1_TissueBlock1_Dataset1> a ccf:Dataset ;
+    rdfs:label "Registered 7/23/2023, Matthias Kretzler, KPMP" ;
+    ccf:publication "https://doi.org/10.1101/2023.05.31.23290681" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://doi.org/10.48698/B2XN-D827" ;
+    rdfs:comment "Data/Assay Types: OTHER, " .
+
+<http://purl.org/ccf/1.5/2b922426-d192-47fb-ba8e-1921ea21fe4c> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Matthias" ;
+    ccf:creator_last_name "Kretzler" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1 ;
+    ccf:y_dimension 11 ;
+    ccf:z_dimension 1 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Matthias Kretzler" .
+
+<http://purl.org/ccf/1.5/461a8adc-10d3-4518-8dd2-d2daccaa128b> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189> ;
+    ccf:creator_first_name "Matthias" ;
+    ccf:creator_last_name "Kretzler" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1 ;
+    ccf:y_dimension 10 ;
+    ccf:z_dimension 1 ;
+    dcterms:created "2023-08-24" ;
+    dcterms:creator "Matthias Kretzler" .
+

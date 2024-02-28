@@ -1,0 +1,947 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/required/id#Donor1_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/99ac7242-14d9-4efe-b6d9-b44cab80d84d> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 50 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 40 x 50 millimeter, 50 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock10> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/32aa316e-7b68-4d4e-ac4d-4194787529ea> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1.27e+01 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "20 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock3> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2023, h h, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/8adcc2aa-6d36-4fab-a745-7a097a732768> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "104.8 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock4> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2023, h h, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/5df42986-8bb8-4715-93ac-a1ac2daec853> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock5> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2023, h h, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f7d210ee-f773-4ba1-a897-a1cbe8d2f158> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock6> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d8165754-8e35-4921-9ce3-9a8b280b9ced> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 60 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "80 x 40 x 60 millimeter, 60 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock7> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/211b8d3e-01b4-40b3-9de6-4feca0a16238> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 40 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "50 x 40 x 40 millimeter, 40 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock8> a ccf:Sample ;
+    rdfs:label "Registered 7/28/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 50 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 40 x 50 millimeter, 50 millimeter" .
+
+<http://example.com/required/id#Donor1_TissueBlock9> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor1> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "20 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock1> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 50 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 40 x 50 millimeter, 50 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock10> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "20 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock11> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 1.27e+01 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock2> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "20 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock3> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 30 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 30 x 30 millimeter, 30 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock4> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/e07ea320-ff6e-4f05-a2a0-75ae2e966ef7> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 30 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 30 x 30 millimeter, 30 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock5> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 30 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 30 x 30 millimeter, 30 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock6> a ccf:Sample ;
+    rdfs:label "Registered 7/26/2023, h h, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/fcba0377-177c-4a35-ac11-bc60224c1104> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 40 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "100 x 40 x 40 millimeter, 40 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock7> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h h, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/6094746b-66e4-4355-972f-afa173204bd4> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 40 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "110 x 40 x 40 millimeter, 40 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock8> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 20 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "20 x 20 x 20 millimeter, 20 millimeter" .
+
+<http://example.com/required/id#Donor2_TissueBlock9> a ccf:Sample ;
+    rdfs:label "Registered 7/27/2023, h s, <Provider Name>" ;
+    ccf:comes_from <http://example.com/required/id#Donor2> ;
+    ccf:has_registration_location <http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab> ;
+    ccf:sample_type "Tissue Block" ;
+    ccf:section_count 0 ;
+    ccf:section_size 50 ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "304.8 x 40 x 50 millimeter, 50 millimeter" .
+
+<http://purl.org/ccf/1.5/211b8d3e-01b4-40b3-9de6-4feca0a16238_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/211b8d3e-01b4-40b3-9de6-4feca0a16238> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -25 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.35328e+02 ;
+    ccf:y_rotation -26 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.1396e+01 ;
+    ccf:z_rotation -5 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.86679e+02 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/32aa316e-7b68-4d4e-ac4d-4194787529ea_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/32aa316e-7b68-4d4e-ac4d-4194787529ea> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSpleen> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.3467e+01 ;
+    ccf:y_rotation -20 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 9.0731e+01 ;
+    ccf:z_rotation 34 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.7417e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFUrinaryBladder> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.6735e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.6004e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.102e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMUrinaryBladder> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.9744e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.0988e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 4.8726e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/5df42986-8bb8-4715-93ac-a1ac2daec853_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/5df42986-8bb8-4715-93ac-a1ac2daec853> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.4911e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 6.3854e+01 ;
+    ccf:z_rotation -31 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.1081e+01 ;
+    dcterms:created "2023-08-29" .
+
+<http://purl.org/ccf/1.5/6094746b-66e4-4355-972f-afa173204bd4_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/6094746b-66e4-4355-972f-afa173204bd4> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.50232e+02 ;
+    ccf:y_rotation 2 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.7279e+01 ;
+    ccf:z_rotation -2 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.50896e+02 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 11 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.43497e+02 ;
+    ccf:y_rotation 57 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.25163e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.36645e+02 ;
+    dcterms:created "2023-08-29" .
+
+<http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 11 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.19763e+02 ;
+    ccf:y_rotation 31 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 8.5628e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 9.8584e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.40568e+02 ;
+    ccf:y_rotation -20 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.210077e+03 ;
+    ccf:z_rotation 34 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.58112e+02 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/8adcc2aa-6d36-4fab-a745-7a097a732768_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/8adcc2aa-6d36-4fab-a745-7a097a732768> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.027e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.19417e+02 ;
+    ccf:z_rotation -31 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 2.736e+01 ;
+    dcterms:created "2023-08-29" .
+
+<http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 57 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 4.3436e+01 ;
+    ccf:y_rotation 98 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.79866e+02 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation -2.817e+00 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/99ac7242-14d9-4efe-b6d9-b44cab80d84d_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/99ac7242-14d9-4efe-b6d9-b44cab80d84d> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMColon> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 11 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.9841e+01 ;
+    ccf:y_rotation 70 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.59472e+02 ;
+    ccf:z_rotation 75 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.23743e+02 ;
+    dcterms:created "2023-08-29" .
+
+<http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 24 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 3.5809e+01 ;
+    ccf:y_rotation 83 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 3.16233e+02 ;
+    ccf:z_rotation 49 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 5.4732e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/d8165754-8e35-4921-9ce3-9a8b280b9ced_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d8165754-8e35-4921-9ce3-9a8b280b9ced> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -13 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.68371e+02 ;
+    ccf:y_rotation -15 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.39592e+02 ;
+    ccf:z_rotation -8 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.26992e+02 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLeftMammaryGland> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.8932e+01 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 2.4366e+01 ;
+    ccf:z_rotation 0 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 7.1969e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 8.04099e+02 ;
+    ccf:y_rotation 3 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.028479e+03 ;
+    ccf:z_rotation 26 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 1.64643e+02 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 57 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.25212e+02 ;
+    ccf:y_rotation 116 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.63467e+02 ;
+    ccf:z_rotation 47 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.4926e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/e07ea320-ff6e-4f05-a2a0-75ae2e966ef7_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/e07ea320-ff6e-4f05-a2a0-75ae2e966ef7> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 51 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 7.9082e+01 ;
+    ccf:y_rotation 118 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 7.4654e+01 ;
+    ccf:z_rotation 47 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 8.9443e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFSpleenV1.1> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 2 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 6.7687e+01 ;
+    ccf:y_rotation -20 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 5.507e+01 ;
+    ccf:z_rotation 34 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 3.5471e+01 ;
+    dcterms:created "2023-08-28" .
+
+<http://purl.org/ccf/1.5/f7d210ee-f773-4ba1-a897-a1cbe8d2f158_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/f7d210ee-f773-4ba1-a897-a1cbe8d2f158> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation 0 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 1.03057e+02 ;
+    ccf:y_rotation 0 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.60321e+02 ;
+    ccf:z_rotation -31 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 6.7171e+01 ;
+    dcterms:created "2023-08-29" .
+
+<http://purl.org/ccf/1.5/fcba0377-177c-4a35-ac11-bc60224c1104_placement> a ccf:SpatialPlacement ;
+    ccf:placement_for <http://purl.org/ccf/1.5/fcba0377-177c-4a35-ac11-bc60224c1104> ;
+    ccf:placement_relative_to <http://purl.org/ccf/latest/ccf.owl#VHFLiver> ;
+    ccf:rotation_order "XYZ" ;
+    ccf:rotation_unit "degree" ;
+    ccf:scaling_unit "ratio" ;
+    ccf:translation_unit "millimeter" ;
+    ccf:x_rotation -39 ;
+    ccf:x_scaling 1 ;
+    ccf:x_translation 2.14447e+02 ;
+    ccf:y_rotation 7 ;
+    ccf:y_scaling 1 ;
+    ccf:y_translation 1.2044e+02 ;
+    ccf:z_rotation -38 ;
+    ccf:z_scaling 1 ;
+    ccf:z_translation 9.1716e+01 ;
+    dcterms:created "2023-08-27" .
+
+<http://purl.org/ccf/1.5/211b8d3e-01b4-40b3-9de6-4feca0a16238> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001115>,
+        <http://purl.obolibrary.org/obo/UBERON_0001116>,
+        <http://purl.obolibrary.org/obo/UBERON_0001247>,
+        <http://purl.obolibrary.org/obo/UBERON_0006588>,
+        <http://purl.obolibrary.org/obo/UBERON_0006727>,
+        <http://purl.obolibrary.org/obo/UBERON_0006728>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479>,
+        <http://purl.org/sig/ont/fma/fma14487>,
+        <http://purl.org/sig/ont/fma/fma15729> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 50 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 40 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/32aa316e-7b68-4d4e-ac4d-4194787529ea> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1.27e+01 ;
+    ccf:y_dimension 1.27e+01 ;
+    ccf:z_dimension 1.27e+01 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0006082> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0006082> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/5df42986-8bb8-4715-93ac-a1ac2daec853> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002114>,
+        <http://purl.obolibrary.org/obo/UBERON_0002115>,
+        <http://purl.obolibrary.org/obo/UBERON_0002116>,
+        <http://purl.obolibrary.org/obo/UBERON_0004914>,
+        <http://purl.obolibrary.org/obo/UBERON_0013644>,
+        <http://purl.org/sig/ont/fma/fma14926>,
+        <http://purl.org/sig/ont/fma/fma14928>,
+        <http://purl.org/sig/ont/fma/fma14929>,
+        <http://purl.org/sig/ont/fma/fma14930>,
+        <http://purl.org/sig/ont/fma/fma14966>,
+        <http://purl.org/sig/ont/fma/fma15077> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "h" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-29" ;
+    dcterms:creator "h h" .
+
+<http://purl.org/ccf/1.5/6094746b-66e4-4355-972f-afa173204bd4> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001114>,
+        <http://purl.obolibrary.org/obo/UBERON_0001115>,
+        <http://purl.obolibrary.org/obo/UBERON_0001116>,
+        <http://purl.obolibrary.org/obo/UBERON_0001247>,
+        <http://purl.obolibrary.org/obo/UBERON_0006588>,
+        <http://purl.obolibrary.org/obo/UBERON_0006727>,
+        <http://purl.obolibrary.org/obo/UBERON_0006728>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479>,
+        <http://purl.org/sig/ont/fma/fma14484>,
+        <http://purl.org/sig/ont/fma/fma14487>,
+        <http://purl.org/sig/ont/fma/fma15729> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "h" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 110 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 40 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h h" .
+
+<http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001052>,
+        <http://purl.obolibrary.org/obo/UBERON_0001153>,
+        <http://purl.obolibrary.org/obo/UBERON_0001154>,
+        <http://purl.obolibrary.org/obo/UBERON_0001158>,
+        <http://purl.obolibrary.org/obo/UBERON_0001159> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 50 ;
+    dcterms:created "2023-08-29" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001052>,
+        <http://purl.obolibrary.org/obo/UBERON_0001153>,
+        <http://purl.obolibrary.org/obo/UBERON_0001154>,
+        <http://purl.obolibrary.org/obo/UBERON_0001158>,
+        <http://purl.obolibrary.org/obo/UBERON_0001159> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 50 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/8adcc2aa-6d36-4fab-a745-7a097a732768> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002114>,
+        <http://purl.obolibrary.org/obo/UBERON_0002115>,
+        <http://purl.obolibrary.org/obo/UBERON_0004914>,
+        <http://purl.org/sig/ont/fma/fma14926>,
+        <http://purl.org/sig/ont/fma/fma14928>,
+        <http://purl.org/sig/ont/fma/fma14929>,
+        <http://purl.org/sig/ont/fma/fma14930>,
+        <http://purl.org/sig/ont/fma/fma15077> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "h" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1.048e+02 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-29" ;
+    dcterms:creator "h h" .
+
+<http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002114>,
+        <http://purl.obolibrary.org/obo/UBERON_0002115>,
+        <http://purl.obolibrary.org/obo/UBERON_0013644>,
+        <http://purl.org/sig/ont/fma/fma14926>,
+        <http://purl.org/sig/ont/fma/fma14928>,
+        <http://purl.org/sig/ont/fma/fma14929>,
+        <http://purl.org/sig/ont/fma/fma15077> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 30 ;
+    ccf:z_dimension 30 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/99ac7242-14d9-4efe-b6d9-b44cab80d84d> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0000569>,
+        <http://purl.obolibrary.org/obo/UBERON_0001153>,
+        <http://purl.obolibrary.org/obo/UBERON_0001154>,
+        <http://purl.obolibrary.org/obo/UBERON_0001156>,
+        <http://purl.obolibrary.org/obo/UBERON_0001157>,
+        <http://purl.obolibrary.org/obo/UBERON_0022277> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 50 ;
+    dcterms:created "2023-08-29" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001156>,
+        <http://purl.obolibrary.org/obo/UBERON_0001157>,
+        <http://purl.obolibrary.org/obo/UBERON_0022277> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 50 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/d8165754-8e35-4921-9ce3-9a8b280b9ced> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001115>,
+        <http://purl.obolibrary.org/obo/UBERON_0001117>,
+        <http://purl.obolibrary.org/obo/UBERON_0001149>,
+        <http://purl.obolibrary.org/obo/UBERON_0006587>,
+        <http://purl.obolibrary.org/obo/UBERON_0006727>,
+        <http://purl.obolibrary.org/obo/UBERON_0013138>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479>,
+        <http://purl.obolibrary.org/obo/UBERON_0035444>,
+        <http://purl.org/sig/ont/fma/fma14486>,
+        <http://purl.org/sig/ont/fma/fma14487>,
+        <http://purl.org/sig/ont/fma/fma15729> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 80 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 60 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0018140>,
+        <http://purl.org/sig/ont/fma/fma223679>,
+        <http://purl.org/sig/ont/fma/fma62102>,
+        <http://purl.org/sig/ont/fma/fma73119>,
+        <http://purl.org/sig/ont/fma/fma73166> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002097> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 20 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002114>,
+        <http://purl.obolibrary.org/obo/UBERON_0002115>,
+        <http://purl.obolibrary.org/obo/UBERON_0002116>,
+        <http://purl.org/sig/ont/fma/fma14930> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 30 ;
+    ccf:z_dimension 30 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/e07ea320-ff6e-4f05-a2a0-75ae2e966ef7> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002114>,
+        <http://purl.obolibrary.org/obo/UBERON_0002115>,
+        <http://purl.obolibrary.org/obo/UBERON_0002116>,
+        <http://purl.obolibrary.org/obo/UBERON_0013644>,
+        <http://purl.org/sig/ont/fma/fma14926>,
+        <http://purl.org/sig/ont/fma/fma14930>,
+        <http://purl.org/sig/ont/fma/fma14966> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 30 ;
+    ccf:z_dimension 30 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001248>,
+        <http://purl.org/sig/ont/fma/fma15828>,
+        <http://purl.org/sig/ont/fma/fma15837>,
+        <http://purl.org/sig/ont/fma/fma15838>,
+        <http://purl.org/sig/ont/fma/fma15839> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "s" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 1.27e+01 ;
+    ccf:y_dimension 1.27e+01 ;
+    ccf:z_dimension 1.27e+01 ;
+    dcterms:created "2023-08-28" ;
+    dcterms:creator "h s" .
+
+<http://purl.org/ccf/1.5/f7d210ee-f773-4ba1-a897-a1cbe8d2f158> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0002114>,
+        <http://purl.obolibrary.org/obo/UBERON_0002115>,
+        <http://purl.obolibrary.org/obo/UBERON_0002116>,
+        <http://purl.obolibrary.org/obo/UBERON_0004914>,
+        <http://purl.obolibrary.org/obo/UBERON_0013644>,
+        <http://purl.org/sig/ont/fma/fma14926>,
+        <http://purl.org/sig/ont/fma/fma14928>,
+        <http://purl.org/sig/ont/fma/fma14929>,
+        <http://purl.org/sig/ont/fma/fma14930>,
+        <http://purl.org/sig/ont/fma/fma14966>,
+        <http://purl.org/sig/ont/fma/fma15077> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "h" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 3.048e+02 ;
+    ccf:y_dimension 20 ;
+    ccf:z_dimension 20 ;
+    dcterms:created "2023-08-29" ;
+    dcterms:creator "h h" .
+
+<http://purl.org/ccf/1.5/fcba0377-177c-4a35-ac11-bc60224c1104> a ccf:SpatialEntity ;
+    ccf:collides_with <http://purl.obolibrary.org/obo/UBERON_0001114>,
+        <http://purl.obolibrary.org/obo/UBERON_0001115>,
+        <http://purl.obolibrary.org/obo/UBERON_0001117>,
+        <http://purl.obolibrary.org/obo/UBERON_0001149>,
+        <http://purl.obolibrary.org/obo/UBERON_0006587>,
+        <http://purl.obolibrary.org/obo/UBERON_0006727>,
+        <http://purl.obolibrary.org/obo/UBERON_0013138>,
+        <http://purl.obolibrary.org/obo/UBERON_0016479>,
+        <http://purl.obolibrary.org/obo/UBERON_0035444>,
+        <http://purl.org/sig/ont/fma/fma14486>,
+        <http://purl.org/sig/ont/fma/fma14487>,
+        <http://purl.org/sig/ont/fma/fma15729> ;
+    ccf:creator_first_name "h" ;
+    ccf:creator_last_name "h" ;
+    ccf:dimension_unit "millimeter" ;
+    ccf:x_dimension 100 ;
+    ccf:y_dimension 40 ;
+    ccf:z_dimension 40 ;
+    dcterms:created "2023-08-27" ;
+    dcterms:creator "h h" .
+
+<http://example.com/required/id#Donor1> a ccf:Donor ;
+    rdfs:label "Male" ;
+    ccf:consortium_name "Tabula Sapiens" ;
+    ccf:sex "Male" ;
+    ccf:tissue_provider_name "<Provider Name>" ;
+    ccf:tissue_provider_uuid "d65cd08e-7d9b-11ee-b962-0242ac120002" ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "Entered 7/28/2023, h s, <Provider Name>" .
+
+<http://example.com/required/id#Donor2> a ccf:Donor ;
+    rdfs:label "Female" ;
+    ccf:consortium_name "Tabula Sapiens" ;
+    ccf:sex "Female" ;
+    ccf:tissue_provider_name "<Provider Name>" ;
+    ccf:tissue_provider_uuid "d65cd08e-7d9b-11ee-b962-0242ac120002" ;
+    ccf:url "http://example.com/user/link" ;
+    rdfs:comment "Entered 7/27/2023, h s, <Provider Name>" .
+
