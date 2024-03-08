@@ -19,16 +19,19 @@
           - datasets:
               - description: "Data/Assay Types: 10x"
                 technology: 10x
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1_Dataset1
       - rui_location: Block2_10X.json
         sections:
           - datasets:
               - description: "Data/Assay Types: 10x"
                 technology: 10x
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1_Dataset1
       - rui_location: Block1_SSv4.json
         sections:
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock3_TissueSection1_Dataset1
     - sex: Male
       age: 50
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor
@@ -39,11 +42,13 @@
           - datasets:
               - description: "Data/Assay Types: 10x"
                 technology: 10x  
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1_Dataset1
       - rui_location: Block2_SSv4.json
         sections:
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER          
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor2_TissueBlock2_TissueSection1_Dataset1
     - sex: Female
       age: 43
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor
@@ -54,11 +59,13 @@
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1023_Donor_TissueBlock1_TissueSection1_Dataset1
       - rui_location: Block4_SSv4.json
         sections:
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor3_TissueBlock2_TissueSection1_Dataset1
     - sex: Male
       age: 50
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor
@@ -72,11 +79,13 @@
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1025_Donor_TissueBlock1_TissueSection1_Dataset1
       - rui_location: Block6_SSv4.json
         sections:
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor4_TissueBlock2_TissueSection1_Dataset1
     - sex: Male
       age: 54
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor
@@ -90,8 +99,10 @@
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1_Dataset1
       - rui_location: Block8_SSv4.json
         sections:
           - datasets:
               - description: "Data/Assay Types: SSv4"
                 technology: OTHER    
+                id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H200.1030_Donor_TissueBlock1_TissueSection1_Dataset1
