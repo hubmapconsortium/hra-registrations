@@ -6,7 +6,7 @@
   defaults:
     id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91
     thumbnail: assets/logo.jpg
-    link: https://doi.org/10.1186/s13059-019-1906-x
+    link: https://cellxgene.cziscience.com/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91
     publication: https://doi.org/10.1186/s13059-019-1906-x
   donors:
     - sex: Female
@@ -16,15 +16,19 @@
         - rui_location: female1_closest_to_center_plane.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#343B_Donor_TissueBlock1_TissueBlock1_Dataset1
         - rui_location: female2.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor1_TissueBlock2_TissueBlock2_Dataset1
         - rui_location: female3.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor1_TissueBlock3_TissueBlock3_Dataset1
         - rui_location: female4.json      
           datasets:
-            - technology: OTHER          
+            - technology: OTHER   
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor1_TissueBlock4_TissueBlock4_Dataset1       
     - sex: Female
       age: 40
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#356C_Donor
@@ -32,15 +36,19 @@
         - rui_location: female1_closest_to_center_plane.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#356C_Donor_TissueBlock1_TissueBlock1_Dataset1
         - rui_location: female2.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor2_TissueBlock2_TissueBlock2_Dataset1
         - rui_location: female3.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor2_TissueBlock3_TissueBlock3_Dataset1
         - rui_location: female4.json          
           datasets:
-            - technology: OTHER 
+            - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor2_TissueBlock4_TissueBlock4_Dataset1
     - sex: Male
       age: 65
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#367C_Donor
@@ -48,15 +56,19 @@
         - rui_location: male1_closest_to_center_plane.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#367C_Donor_TissueBlock1_TissueBlock1_Dataset1
         - rui_location: male2.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor3_TissueBlock2_TissueBlock2_Dataset1
         - rui_location: male3.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor3_TissueBlock3_TissueBlock3_Dataset1
         - rui_location: male4.json      
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor3_TissueBlock4_TissueBlock4_Dataset1
     - sex: Male
       age: 55
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#368C_Donor
@@ -64,15 +76,19 @@
         - rui_location: male1_closest_to_center_plane.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#368C_Donor_TissueBlock1_TissueBlock1_Dataset1
         - rui_location: male2.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor4_TissueBlock2_TissueBlock2_Dataset1
         - rui_location: male3.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor4_TissueBlock3_TissueBlock3_Dataset1
         - rui_location: male4.json     
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor4_TissueBlock4_TissueBlock4_Dataset1
     - sex: Female
       age: 65
       id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#390C_Donor
@@ -80,12 +96,16 @@
         - rui_location: female1_closest_to_center_plane.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#390C_Donor_TissueBlock1_TissueBlock1_Dataset1
         - rui_location: female2.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor5_TissueBlock2_TissueBlock2_Dataset1
         - rui_location: female3.json
           datasets:
             - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor5_TissueBlock3_TissueBlock3_Dataset1
         - rui_location: female4.json            
           datasets:
-            - technology: OTHER            
+            - technology: OTHER
+              id: https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#Donor5_TissueBlock4_TissueBlock4_Dataset1        
