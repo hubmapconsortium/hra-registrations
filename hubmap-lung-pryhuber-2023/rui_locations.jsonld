@@ -21,7 +21,7 @@
           "label": "Registered 2/11/2024, Gloria S Pryhuber, University of California San Diego TMC",
           "description": "Donor D265 left lung lower lobe",
           "link": "https://portal.hubmapconsortium.org/browse/sample/539b8dd38698d191ec284f9f061e7441",
-          "section_count": 0,
+          "section_count": 1,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/fb73e18b-9ddc-4fdf-b9a6-4b7735e5017b",
@@ -60,7 +60,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLungV1.1"
             }
-          }
+          },
+          "sections": [
+            {
+              "@id": "http://purl.org/ccf/1.5/fb73e18b-9ddc-4fdf-b9a6-4b7735e5017b#TissueSection1",
+              "@type": "Sample",
+              "sample_type": "Tissue Section",
+              "label": "Registered 2/11/2024, Gloria S Pryhuber, University of California San Diego TMC",
+              "description": "10 x 10 x 5 millimeter, 5 millimeter",
+              "link": "https://portal.hubmapconsortium.org/browse/sample/0f1ddcb41a484adbda759c0c79097a02",
+              "section_size": 5
+            }
+          ]
         }
       ]
     },
