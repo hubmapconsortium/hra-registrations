@@ -17,8 +17,8 @@
       - description: "Donor D265 left lung lower lobe"
         id: http://purl.org/ccf/1.5/fb73e18b-9ddc-4fdf-b9a6-4b7735e5017b
         link: https://portal.hubmapconsortium.org/browse/sample/539b8dd38698d191ec284f9f061e7441 
-        rui_location: Male - LLL.json
-        sections:
+        rui_location: Male - LLL.json 
+        sections: #no datasets
         - link: https://portal.hubmapconsortium.org/browse/sample/0f1ddcb41a484adbda759c0c79097a02
     - sex: Female
       description: "1.6 year old, White, Female, BPD with Pulmonary hypertension"
@@ -29,6 +29,6 @@
         id: http://purl.org/ccf/1.5/aed760ae-295a-43fc-b6cd-abdf6f012975
         link: https://portal.hubmapconsortium.org/browse/sample/9d944eb8a61bf85f70762ae3f2b0e22e
         rui_location: Female - LRL.json
-        sections:
+        sections: #no datasets
         - link: https://portal.hubmapconsortium.org/browse/sample/bff180755a5da7c036e5250c94f1ebd7
       
