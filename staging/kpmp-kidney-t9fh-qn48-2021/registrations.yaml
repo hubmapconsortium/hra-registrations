@@ -1,4 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
 - consortium_name: KPMP
+  provider_name: KPMP
+  provider_uuid: 87e9b71d-142f-4c32-86d9-b0e80611d902
   defaults:
     id: https://doi.org/10.48698/t9fh-qn48
     link: https://doi.org/10.48698/t9fh-qn48
@@ -6,254 +10,254 @@
     thumbnail: assets/icons/ico-unknown.svg
   donors:
   - id: https://doi.org/10.48698/t9fh-qn48#18-162
-    label: Female, 60-69 Years
+    label: 18-162, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#31-10042
-    label: Female, 60-69 Years
+    label: 31-10042, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#31-10000
-    label: Male, 50-59 Years
+    label: 31-10000, Male, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#32-10034
-    label: Male, 60-69 Years
+    label: 32-10034, Male, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#31-10001
-    label: Male, 70-79 Years
+    label: 31-10001, Male, 70-79 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#33-10005
-    label: Male, 60-69 Years
+    label: 33-10005, Male, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#IU-7039
-    label: Female, 50-59 Years
+    label: IU-7039, Female, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#14-0518
-    label: Male, 70-79 Years
+    label: 14-0518, Male, 70-79 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#31-10006
-    label: Male, 60-69 Years
+    label: 31-10006, Male, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#18-342
-    label: Male, 60-69 Years
+    label: 18-342, Male, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#18-142
-    label: Female, 60-69 Years
+    label: 18-142, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#IU1700002
-    label: Female, 30-39 Years
+    label: IU1700002, Female, 30-39 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#17-1606
-    label: Female, 50-59 Years
+    label: 17-1606, Female, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#14-0577
-    label: Female, 40-49 Years
+    label: 14-0577, Female, 40-49 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#32-2
-    label: Male, 60-69 Years
+    label: 32-2, Male, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#34-10050
-    label: Female, 60-69 Years
+    label: 34-10050, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#IU-16352
-    label: Male, 50-59 Years
+    label: IU-16352, Male, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#29-10011
-    label: Female, 30-39 Years
+    label: 29-10011, Female, 30-39 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#30-10044
-    label: Female, 30-39 Years
+    label: 30-10044, Female, 30-39 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#15-0047
-    label: Male, 40-49 Years
+    label: 15-0047, Male, 40-49 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#29-10006
-    label: Female, 60-69 Years
+    label: 29-10006, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#IU1800006
-    label: Female, 50-59 Years
+    label: IU1800006, Female, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#29-10008
-    label: Female, 60-69 Years
+    label: 29-10008, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#29-10007
-    label: Female, 60-69 Years
+    label: 29-10007, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#15-0418
-    label: Male, 50-59 Years
+    label: 15-0418, Male, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#16-0600
+    label: 16-0600, None
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#18-312
-    label: Male, 70-79 Years
+    label: 18-312, Male, 70-79 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#16-0586
+    label: 16-0586, None
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#IU-12602
-    label: Female, 50-59 Years
+    label: IU-12602, Female, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#IU-16765
-    label: Female, 60-69 Years
+    label: IU-16765, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#14-0521
-    label: Male, 40-49 Years
+    label: 14-0521, Male, 40-49 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#IU1700001
-    label: Female, 40-49 Years
+    label: IU1700001, Female, 40-49 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#18-139
-    label: Male, 60-69 Years
+    label: 18-139, Male, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: male_cortex.json
     sex: Male
   - id: https://doi.org/10.48698/t9fh-qn48#IU-33186
-    label: Female, 50-59 Years
+    label: IU-33186, Female, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#IU-23884
-    label: Female, 50-59 Years
+    label: IU-23884, Female, 50-59 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
   - id: https://doi.org/10.48698/t9fh-qn48#IU-6140
-    label: Female, 60-69 Years
+    label: IU-6140, Female, 60-69 Years
     samples:
     - datasets:
       - technology: OTHER
       rui_location: female_cortex.json
     sex: Female
-  provider_name: KPMP
-  provider_uuid: 76b6057b-85eb-48ff-853c-0056d9c5604d
