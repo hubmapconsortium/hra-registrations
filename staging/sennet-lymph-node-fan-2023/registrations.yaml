@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: SenNet
+  provider_name: Yale-TMC
+  provider_uuid: 6FB69112-2DB8-11EF-B58D-20E2A8B75C6B
+  defaults:
+    id: http://example.com/required/id
+    thumbnail: assets/icons/ico-unknown.svg
+    link: http://example.com/user/link
+  donors:
+    - sex: Female
+      age: 55
+      bmi: 31.8
+      samples:
+      - rui_location: SNT323.GLNZ.236.json
+        datasets:
+          - link: https://data.sennetconsortium.org/dataset?uuid=857567b04796566e6ed7f639bfe093e4/
+            technology: PhenoCycler
+    - sex: Male
+      age: 65
+      bmi: 24.6
+      samples:
+      - rui_location: SNT835.DCTC.698.json
+        datasets:
+          - link: https://data.sennetconsortium.org/sample?uuid=c2af14a9891047237a2a2457fa4b9d07/
+            technology: PhenoCycler
+    - sex: Male
+      age: 50
+      bmi: 22.4
+      samples:
+      - rui_location: SNT423.GZGS.997.json
+        datasets:
+        - link: https://data.sennetconsortium.org/dataset?uuid=5c4319dcd6b8cb0b9b52c8fd868610d4/
+          technology: PhenoCycler
+    - sex: Female 
+      age: 25
+      bmi: 21
+      samples:
+      - rui_location: SNT633.QPLM.829.json
+        datasets:
+        - link: https://data.sennetconsortium.org/sample?uuid=7024d33d0675505567e3fcd260bad26c/
+          technology: PhenoCycler
+    - sex: Male 
+      age: 86
+      bmi: 25.9
+      samples:
+      - rui_location: SNT273.WMKM.437.json
+        datasets:
+        - link: https://data.sennetconsortium.org/dataset?uuid=241ed228217fc2ff2a7fbc54c1a1f152/
+          technology: PhenoCycler
+    - sex: Female 
+      age: 22
+      bmi: 23.8
+      samples:
+      - rui_location: SNT744.WLQS.695.json
+        datasets:
+        - link: https://data.sennetconsortium.org/dataset?uuid=744bf132b596f09935413fae10374909/
+          technology: PhenoCycler

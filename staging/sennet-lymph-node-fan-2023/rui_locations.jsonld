@@ -1,0 +1,455 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "http://example.com/required/id#Donor1",
+      "@type": "Donor",
+      "label": "Female, Age 55, BMI 31.8",
+      "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
+      "link": "http://example.com/user/link",
+      "consortium_name": "SenNet",
+      "provider_name": "Yale-TMC",
+      "provider_uuid": "6FB69112-2DB8-11EF-B58D-20E2A8B75C6B",
+      "age": 55,
+      "sex": "Female",
+      "bmi": 31.8,
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+          "description": "15 x 7 x 6.5 millimeter, 6.5 millimeter",
+          "link": "http://example.com/user/link",
+          "section_count": 0,
+          "section_size": 6.5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d498378e-8682-45f3-9bfd-11b48023125c",
+            "@type": "SpatialEntity",
+            "creator": "Yao Lu",
+            "creator_first_name": "Yao",
+            "creator_last_name": "Lu",
+            "creation_date": "2024-06-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002194",
+              "http://purl.obolibrary.org/obo/UBERON_0010748",
+              "http://purl.obolibrary.org/obo/UBERON_0002007",
+              "http://purl.obolibrary.org/obo/UBERON_0010417"
+            ],
+            "x_dimension": 15,
+            "y_dimension": 7,
+            "z_dimension": 6.5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d498378e-8682-45f3-9bfd-11b48023125c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-06-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 10.312,
+              "y_translation": 6.113,
+              "z_translation": 6.483,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLymphNode"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "http://example.com/required/id#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+              "description": "Data/Assay Types: PhenoCycler, ",
+              "link": "https://data.sennetconsortium.org/dataset?uuid=857567b04796566e6ed7f639bfe093e4/",
+              "technology": "PhenoCycler",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://example.com/required/id#Donor2",
+      "@type": "Donor",
+      "label": "Male, Age 65, BMI 24.6",
+      "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
+      "link": "http://example.com/user/link",
+      "consortium_name": "SenNet",
+      "provider_name": "Yale-TMC",
+      "provider_uuid": "6FB69112-2DB8-11EF-B58D-20E2A8B75C6B",
+      "age": 65,
+      "sex": "Male",
+      "bmi": 24.6,
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+          "description": "10 x 15 x 6.5 millimeter, 6.5 millimeter",
+          "link": "http://example.com/user/link",
+          "section_count": 0,
+          "section_size": 6.5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/513a5005-f9e5-4a00-a08a-15b5d47c5ea0",
+            "@type": "SpatialEntity",
+            "creator": "Yao Lu",
+            "creator_first_name": "Yao",
+            "creator_last_name": "Lu",
+            "creation_date": "2024-06-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002194",
+              "http://purl.obolibrary.org/obo/UBERON_0010748",
+              "http://purl.obolibrary.org/obo/UBERON_0002007",
+              "http://purl.obolibrary.org/obo/UBERON_0010417"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 15,
+            "z_dimension": 6.5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/513a5005-f9e5-4a00-a08a-15b5d47c5ea0_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-06-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -82,
+              "y_rotation": 0,
+              "z_rotation": -91,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 9.332,
+              "y_translation": 5.813,
+              "z_translation": 6.483,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLymphNode"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "http://example.com/required/id#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+              "description": "Data/Assay Types: PhenoCycler, ",
+              "link": "https://data.sennetconsortium.org/sample?uuid=c2af14a9891047237a2a2457fa4b9d07/",
+              "technology": "PhenoCycler",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://example.com/required/id#Donor3",
+      "@type": "Donor",
+      "label": "Male, Age 50, BMI 22.4",
+      "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
+      "link": "http://example.com/user/link",
+      "consortium_name": "SenNet",
+      "provider_name": "Yale-TMC",
+      "provider_uuid": "6FB69112-2DB8-11EF-B58D-20E2A8B75C6B",
+      "age": 50,
+      "sex": "Male",
+      "bmi": 22.4,
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor3_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+          "description": "10 x 15 x 6.5 millimeter, 6.5 millimeter",
+          "link": "http://example.com/user/link",
+          "section_count": 0,
+          "section_size": 6.5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6ed1eb65-077b-4c7d-925a-14fb1d6b66ae",
+            "@type": "SpatialEntity",
+            "creator": "Yao Lu",
+            "creator_first_name": "Yao",
+            "creator_last_name": "Lu",
+            "creation_date": "2024-06-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002194",
+              "http://purl.obolibrary.org/obo/UBERON_0010748",
+              "http://purl.obolibrary.org/obo/UBERON_0002007",
+              "http://purl.obolibrary.org/obo/UBERON_0010417"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 15,
+            "z_dimension": 6.5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6ed1eb65-077b-4c7d-925a-14fb1d6b66ae_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-06-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -92,
+              "y_rotation": 2,
+              "z_rotation": 89,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 8.986,
+              "y_translation": 5.899,
+              "z_translation": 6.483,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLymphNode"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "http://example.com/required/id#Donor3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+              "description": "Data/Assay Types: PhenoCycler, ",
+              "link": "https://data.sennetconsortium.org/dataset?uuid=5c4319dcd6b8cb0b9b52c8fd868610d4/",
+              "technology": "PhenoCycler",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://example.com/required/id#Donor4",
+      "@type": "Donor",
+      "label": "Female, Age 25, BMI 21",
+      "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
+      "link": "http://example.com/user/link",
+      "consortium_name": "SenNet",
+      "provider_name": "Yale-TMC",
+      "provider_uuid": "6FB69112-2DB8-11EF-B58D-20E2A8B75C6B",
+      "age": 25,
+      "sex": "Female",
+      "bmi": 21,
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor4_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+          "description": "5 x 6.5 x 6.5 millimeter, 6.5 millimeter",
+          "link": "http://example.com/user/link",
+          "section_count": 0,
+          "section_size": 6.5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/e30fdc54-9fd4-4b57-ad9f-1c121c9c9a1c",
+            "@type": "SpatialEntity",
+            "creator": "Yao Lu",
+            "creator_first_name": "Yao",
+            "creator_last_name": "Lu",
+            "creation_date": "2024-06-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002194",
+              "http://purl.obolibrary.org/obo/UBERON_0010748",
+              "http://purl.obolibrary.org/obo/UBERON_0002007",
+              "http://purl.obolibrary.org/obo/UBERON_0010417"
+            ],
+            "x_dimension": 5,
+            "y_dimension": 6.5,
+            "z_dimension": 6.5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/e30fdc54-9fd4-4b57-ad9f-1c121c9c9a1c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-06-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 9.073,
+              "y_translation": 5.726,
+              "z_translation": 6.483,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLymphNode"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "http://example.com/required/id#Donor4_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+              "description": "Data/Assay Types: PhenoCycler, ",
+              "link": "https://data.sennetconsortium.org/sample?uuid=7024d33d0675505567e3fcd260bad26c/",
+              "technology": "PhenoCycler",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://example.com/required/id#Donor5",
+      "@type": "Donor",
+      "label": "Male, Age 86, BMI 25.9",
+      "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
+      "link": "http://example.com/user/link",
+      "consortium_name": "SenNet",
+      "provider_name": "Yale-TMC",
+      "provider_uuid": "6FB69112-2DB8-11EF-B58D-20E2A8B75C6B",
+      "age": 86,
+      "sex": "Male",
+      "bmi": 25.9,
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor5_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+          "description": "14 x 11 x 6.5 millimeter, 6.5 millimeter",
+          "link": "http://example.com/user/link",
+          "section_count": 0,
+          "section_size": 6.5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/f5f662ff-2ba4-4442-b7ae-0f48fcadb79e",
+            "@type": "SpatialEntity",
+            "creator": "Yao Lu",
+            "creator_first_name": "Yao",
+            "creator_last_name": "Lu",
+            "creation_date": "2024-06-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002194",
+              "http://purl.obolibrary.org/obo/UBERON_0010748",
+              "http://purl.obolibrary.org/obo/UBERON_0002007",
+              "http://purl.obolibrary.org/obo/UBERON_0010417"
+            ],
+            "x_dimension": 14,
+            "y_dimension": 11,
+            "z_dimension": 6.5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/f5f662ff-2ba4-4442-b7ae-0f48fcadb79e_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-06-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 9.07,
+              "y_translation": 6.18,
+              "z_translation": 6.483,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLymphNode"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "http://example.com/required/id#Donor5_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+              "description": "Data/Assay Types: PhenoCycler, ",
+              "link": "https://data.sennetconsortium.org/dataset?uuid=241ed228217fc2ff2a7fbc54c1a1f152/",
+              "technology": "PhenoCycler",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://example.com/required/id#Donor6",
+      "@type": "Donor",
+      "label": "Female, Age 22, BMI 23.8",
+      "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
+      "link": "http://example.com/user/link",
+      "consortium_name": "SenNet",
+      "provider_name": "Yale-TMC",
+      "provider_uuid": "6FB69112-2DB8-11EF-B58D-20E2A8B75C6B",
+      "age": 22,
+      "sex": "Female",
+      "bmi": 23.8,
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor6_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+          "description": "15 x 10 x 6.5 millimeter, 6.5 millimeter",
+          "link": "http://example.com/user/link",
+          "section_count": 0,
+          "section_size": 6.5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/64f4282f-8782-4a46-a647-20a76b09f83b",
+            "@type": "SpatialEntity",
+            "creator": "Yao Lu",
+            "creator_first_name": "Yao",
+            "creator_last_name": "Lu",
+            "creation_date": "2024-06-11",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002194",
+              "http://purl.obolibrary.org/obo/UBERON_0010748",
+              "http://purl.obolibrary.org/obo/UBERON_0002007",
+              "http://purl.obolibrary.org/obo/UBERON_0010417"
+            ],
+            "x_dimension": 15,
+            "y_dimension": 10,
+            "z_dimension": 6.5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/64f4282f-8782-4a46-a647-20a76b09f83b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-06-11",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 10.432,
+              "y_translation": 6.239,
+              "z_translation": 6.483,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLymphNode"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "http://example.com/required/id#Donor6_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
+              "description": "Data/Assay Types: PhenoCycler, ",
+              "link": "https://data.sennetconsortium.org/dataset?uuid=744bf132b596f09935413fae10374909/",
+              "technology": "PhenoCycler",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

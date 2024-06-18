@@ -1,0 +1,41 @@
+{
+"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+"@id": "http://purl.org/ccf/1.5/f5f662ff-2ba4-4442-b7ae-0f48fcadb79e",
+"@type": "SpatialEntity",
+"ccf_annotations": [
+"http://purl.obolibrary.org/obo/UBERON_0002194",
+"http://purl.obolibrary.org/obo/UBERON_0010748",
+"http://purl.obolibrary.org/obo/UBERON_0002007",
+"http://purl.obolibrary.org/obo/UBERON_0010417"
+],
+"creation_date": "2024-06-11",
+"creator": "Yao Lu",
+"creator_first_name": "Yao",
+"creator_last_name": "Lu",
+"dimension_units": "millimeter",
+"placement": {
+"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+"@id": "http://purl.org/ccf/1.5/f5f662ff-2ba4-4442-b7ae-0f48fcadb79e_placement",
+"@type": "SpatialPlacement",
+"placement_date": "2024-06-11",
+"rotation_order": "XYZ",
+"rotation_units": "degree",
+"scaling_units": "ratio",
+"target": "http://purl.org/ccf/latest/ccf.owl#VHMLymphNode",
+"translation_units": "millimeter",
+"x_rotation": 0,
+"x_scaling": 1,
+"x_translation": 9.07,
+"y_rotation": 0,
+"y_scaling": 1,
+"y_translation": 6.18,
+"z_rotation": 0,
+"z_scaling": 1,
+"z_translation": 6.483
+},
+"slice_count": 1,
+"slice_thickness": 7,
+"x_dimension": 14,
+"y_dimension": 11,
+"z_dimension": 6.5
+}
