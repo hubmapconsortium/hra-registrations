@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
 - consortium_name: HTAN
-  provider_name: Yale University
+  provider_name: Harvard University
   provider_uuid: 996292CC-4AF5-11EF-BB9C-7E6DEE00831D
   defaults:
     id: http://example.com/required/id
@@ -12,3 +12,7 @@
       age: 61.8
       samples:
       - rui_location: skin.json
+        datasets:
+          - technology: CyCIF
+          - link: https://www.biorxiv.org/content/10.1101/2023.11.10.566670v3
+          
