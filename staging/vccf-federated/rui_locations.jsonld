@@ -7495,6 +7495,66 @@
           }
         }
       ]
+    },
+    {
+      "@id": "http://example.com/required/id#Donor1",
+      "@type": "Donor",
+      "label": "Male, Age 61.8",
+      "description": "Entered 6/24/2024, Clarence Yapp, Yale University",
+      "link": "https://www.biorxiv.org/content/10.1101/2023.11.10.566670v3",
+      "consortium_name": "HTAN",
+      "provider_name": "Yale University",
+      "provider_uuid": "996292CC-4AF5-11EF-BB9C-7E6DEE00831D",
+      "age": 61.8,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "http://example.com/required/id#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/24/2024, Clarence Yapp, Yale University",
+          "description": "59 x 57 x 8 millimeter, 8 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2023.11.10.566670v3",
+          "section_count": 0,
+          "section_size": 8,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/80e52433-fc23-459c-be91-c02b4a466135",
+            "@type": "SpatialEntity",
+            "creator": "Clarence Yapp",
+            "creator_first_name": "Clarence",
+            "creator_last_name": "Yapp",
+            "creation_date": "2024-07-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 59,
+            "y_dimension": 57,
+            "z_dimension": 8,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/80e52433-fc23-459c-be91-c02b4a466135_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-07-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -64,
+              "y_rotation": -61,
+              "z_rotation": -64,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 146.862,
+              "y_translation": 1087.182,
+              "z_translation": 152.95,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
+            }
+          }
+        }
+      ]
     }
   ]
 }
