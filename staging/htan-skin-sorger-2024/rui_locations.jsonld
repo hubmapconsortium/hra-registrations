@@ -5,10 +5,10 @@
       "@id": "http://example.com/required/id#Donor1",
       "@type": "Donor",
       "label": "Male, Age 61.8",
-      "description": "Entered 6/24/2024, Clarence Yapp, Harvard University",
+      "description": "Entered 6/24/2024, Peter Sorger, HTAN",
       "link": "https://www.biorxiv.org/content/10.1101/2023.11.10.566670v3",
       "consortium_name": "HTAN",
-      "provider_name": "Harvard University",
+      "provider_name": "HTAN",
       "provider_uuid": "996292CC-4AF5-11EF-BB9C-7E6DEE00831D",
       "age": 61.8,
       "sex": "Male",
@@ -17,7 +17,7 @@
           "@id": "http://example.com/required/id#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 6/24/2024, Clarence Yapp, Harvard University",
+          "label": "Registered 6/24/2024, Peter Sorger, HTAN",
           "description": "59 x 57 x 8 millimeter, 8 millimeter",
           "link": "https://www.biorxiv.org/content/10.1101/2023.11.10.566670v3",
           "section_count": 0,
@@ -26,9 +26,9 @@
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/80e52433-fc23-459c-be91-c02b4a466135",
             "@type": "SpatialEntity",
-            "creator": "Clarence Yapp",
-            "creator_first_name": "Clarence",
-            "creator_last_name": "Yapp",
+            "creator": "Peter Sorger",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Sorger",
             "creation_date": "2024-07-25",
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0002097"
@@ -62,7 +62,7 @@
             {
               "@id": "http://example.com/required/id#Donor1_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 6/24/2024, Clarence Yapp, Harvard University",
+              "label": "Registered 6/24/2024, Peter Sorger, HTAN",
               "description": "Data/Assay Types: CyCIF, ",
               "link": "https://www.biorxiv.org/content/10.1101/2023.11.10.566670v3",
               "technology": "CyCIF",
@@ -71,7 +71,7 @@
             {
               "@id": "http://example.com/required/id#Donor1_TissueBlock1_TissueBlock1_Dataset2",
               "@type": "Dataset",
-              "label": "Registered 6/24/2024, Clarence Yapp, Harvard University",
+              "label": "Registered 6/24/2024, Peter Sorger, HTAN",
               "description": "Data/Assay Types: undefined, ",
               "link": "https://www.cycif.org/data/mel-3d-mis-2/#s=0#w=0#g=0#m=-1#a=-100_-100#v=1_0.9902_0.5#o=-100_-100_1_1#p=Q#r=100",
               "thumbnail": "assets/icons/ico-unknown.svg"
