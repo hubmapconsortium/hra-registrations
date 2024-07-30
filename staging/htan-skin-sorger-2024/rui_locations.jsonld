@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "http://example.com/required/id#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-skin-sorger-2024#Donor1",
       "@type": "Donor",
       "label": "Male, Age 61.8",
       "description": "Entered 6/24/2024, Peter Sorger, HTAN",
@@ -14,7 +14,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-skin-sorger-2024#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 6/24/2024, Peter Sorger, HTAN",
@@ -60,7 +60,7 @@
           },
           "datasets": [
             {
-              "@id": "http://example.com/required/id#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-skin-sorger-2024#Donor1_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 6/24/2024, Peter Sorger, HTAN",
               "description": "Data/Assay Types: CyCIF, ",
@@ -69,7 +69,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg"
             },
             {
-              "@id": "http://example.com/required/id#Donor1_TissueBlock1_TissueBlock1_Dataset2",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-skin-sorger-2024#Donor1_TissueBlock1_TissueBlock1_Dataset2",
               "@type": "Dataset",
               "label": "Registered 6/24/2024, Peter Sorger, HTAN",
               "description": "Data/Assay Types: undefined, ",

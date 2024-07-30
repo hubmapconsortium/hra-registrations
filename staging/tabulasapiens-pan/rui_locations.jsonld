@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "http://example.com/required/id#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1",
       "@type": "Donor",
       "label": "Male",
       "description": "Entered 7/28/2023, h s, <Provider Name>",
@@ -13,7 +13,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2023, h s, <Provider Name>",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock2",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -110,7 +110,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock3",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2023, h h, <Provider Name>",
@@ -163,7 +163,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock4",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock4",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2023, h h, <Provider Name>",
@@ -219,7 +219,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock5",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock5",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2023, h h, <Provider Name>",
@@ -275,7 +275,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock6",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -331,7 +331,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock7",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -385,7 +385,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock8",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock8",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/28/2023, h s, <Provider Name>",
@@ -435,7 +435,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock9",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -481,7 +481,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock10",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock10",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "@id": "http://example.com/required/id#Donor2",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2",
       "@type": "Donor",
       "label": "Female",
       "description": "Entered 7/27/2023, h s, <Provider Name>",
@@ -541,7 +541,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -589,7 +589,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock2",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -635,7 +635,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock3",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -687,7 +687,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock4",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock4",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -739,7 +739,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock5",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock5",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -788,7 +788,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock6",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/26/2023, h h, <Provider Name>",
@@ -845,7 +845,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock7",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h h, <Provider Name>",
@@ -901,7 +901,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock8",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock8",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -951,7 +951,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock9",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -1001,7 +1001,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock10",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock10",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",
@@ -1047,7 +1047,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock11",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock11",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/27/2023, h s, <Provider Name>",

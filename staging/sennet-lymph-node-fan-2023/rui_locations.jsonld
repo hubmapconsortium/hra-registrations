@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "http://example.com/required/id#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor1",
       "@type": "Donor",
       "label": "Female, Age 55, BMI 31.8",
       "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
@@ -15,7 +15,7 @@
       "bmi": 31.8,
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
@@ -64,7 +64,7 @@
           },
           "datasets": [
             {
-              "@id": "http://example.com/required/id#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor1_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
               "description": "Data/Assay Types: PhenoCycler, ",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "@id": "http://example.com/required/id#Donor2",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor2",
       "@type": "Donor",
       "label": "Male, Age 65, BMI 24.6",
       "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
@@ -90,7 +90,7 @@
       "bmi": 24.6,
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor2_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor2_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
@@ -139,7 +139,7 @@
           },
           "datasets": [
             {
-              "@id": "http://example.com/required/id#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor2_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
               "description": "Data/Assay Types: PhenoCycler, ",
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "@id": "http://example.com/required/id#Donor3",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor3",
       "@type": "Donor",
       "label": "Male, Age 50, BMI 22.4",
       "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
@@ -165,7 +165,7 @@
       "bmi": 22.4,
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor3_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor3_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
@@ -214,7 +214,7 @@
           },
           "datasets": [
             {
-              "@id": "http://example.com/required/id#Donor3_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor3_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
               "description": "Data/Assay Types: PhenoCycler, ",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "@id": "http://example.com/required/id#Donor4",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor4",
       "@type": "Donor",
       "label": "Female, Age 25, BMI 21",
       "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
@@ -240,7 +240,7 @@
       "bmi": 21,
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor4_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor4_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
@@ -289,7 +289,7 @@
           },
           "datasets": [
             {
-              "@id": "http://example.com/required/id#Donor4_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor4_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
               "description": "Data/Assay Types: PhenoCycler, ",
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "@id": "http://example.com/required/id#Donor5",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor5",
       "@type": "Donor",
       "label": "Male, Age 86, BMI 25.9",
       "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
@@ -315,7 +315,7 @@
       "bmi": 25.9,
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor5_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor5_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
@@ -364,7 +364,7 @@
           },
           "datasets": [
             {
-              "@id": "http://example.com/required/id#Donor5_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor5_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
               "description": "Data/Assay Types: PhenoCycler, ",
@@ -377,7 +377,7 @@
       ]
     },
     {
-      "@id": "http://example.com/required/id#Donor6",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor6",
       "@type": "Donor",
       "label": "Female, Age 22, BMI 23.8",
       "description": "Entered 5/10/2024, Yao Lu, Yale-TMC",
@@ -390,7 +390,7 @@
       "bmi": 23.8,
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor6_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor6_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
@@ -439,7 +439,7 @@
           },
           "datasets": [
             {
-              "@id": "http://example.com/required/id#Donor6_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/sennet-lymph-node-fan-2023#Donor6_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 5/10/2024, Yao Lu, Yale-TMC",
               "description": "Data/Assay Types: PhenoCycler, ",

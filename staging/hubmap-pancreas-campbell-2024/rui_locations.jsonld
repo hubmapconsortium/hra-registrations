@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "http://example.com/required/id#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1",
       "@type": "Donor",
       "label": "Male, Age 18",
       "description": "Entered 5/8/2024, Jing Chen, UFL",
@@ -14,7 +14,7 @@
       "sex": "Male",
       "samples": [
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/8/2024, Jing Chen, UFL",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock2",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/8/2024, Jing Chen, UFL",
@@ -106,7 +106,7 @@
           }
         },
         {
-          "@id": "http://example.com/required/id#Donor1_TissueBlock3",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/8/2024, Jing Chen, UFL",

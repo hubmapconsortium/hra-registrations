@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "http://example.com/required/id#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-lung-pryhuber-2023/rui_locations.jsonld#Donor1",
       "@type": "Donor",
       "label": "Male, Age 23, BMI 23.1",
       "description": "23.8 year old, White, Male, Brain Injury",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "@id": "http://example.com/required/id#Donor2",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-lung-pryhuber-2023/rui_locations.jsonld#Donor2",
       "@type": "Donor",
       "label": "Female, Age 1",
       "description": "1.6 year old, White, Female, BPD with Pulmonary hypertension",
