@@ -2,9 +2,9 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor1",
       "@type": "Donor",
-      "label": "Male, Age 18",
+      "label": "Male, Age 18, BMI 21.05",
       "description": "Entered 5/8/2024, Jing Chen, UFL",
       "link": "https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a",
       "consortium_name": "HuBMAP",
@@ -12,9 +12,10 @@
       "provider_uuid": "e8bd9a47-c92c-4d33-a0f2-459d04c34054",
       "age": 18,
       "sex": "Male",
+      "bmi": 21.05,
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/8/2024, Jing Chen, UFL",
@@ -60,7 +61,7 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1_TissueBlock2",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor1_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/8/2024, Jing Chen, UFL",
@@ -106,7 +107,7 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024#Donor1_TissueBlock3",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor1_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 5/8/2024, Jing Chen, UFL",

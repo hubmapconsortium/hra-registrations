@@ -3,12 +3,13 @@
   provider_name: UFL
   provider_uuid: e8bd9a47-c92c-4d33-a0f2-459d04c34054
   defaults:
-    id: https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024
+    id: https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld
     thumbnail: assets/icons/ico-unknown.svg
     link: http://example.com/user/link
   donors:
     - sex: Male
       age: 18
+      bmi: 21.05
       link: https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a
       samples:
       - rui_location: HBM332.XCRS.456.json
