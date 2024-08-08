@@ -2,10 +2,10 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "http://example.com/required/label#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/hubmap-pancreas-millitome-spraggins-2024/rui_locations.jsonld#Donor1",
       "@type": "Donor",
       "label": "DON530",
-      "description": "Entered 6/29/2024, Bhargav Desai, HuBMAP",
+      "description": "Entered 7/6/2024, Bhargav Snehal Desai, HuBMAP",
       "link": "http://example.com/user/link",
       "consortium_name": "HuBMAP",
       "provider_name": "HuBMAP",
@@ -36,23 +36,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -38.79045,
+              "x_translation": 15.1908,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 250.6053,
+              "y_translation": 13.072,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -62.07594,
-              "placement_date": "2024-07-30"
+              "z_translation": 50.00928,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 11.3606,
             "y_dimension": 18.34146,
             "z_dimension": 13.5662,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -78,23 +83,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -36.81979,
+              "x_translation": 17.16146,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 259.7136,
+              "y_translation": 22.18026,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -61.06531,
-              "placement_date": "2024-07-30"
+              "z_translation": 51.01991,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.18919,
             "y_dimension": 23.07206,
             "z_dimension": 15.58746,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -120,23 +130,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -42.33896,
+              "x_translation": 11.6423,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 265.5004,
+              "y_translation": 27.9671,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -58.06676,
-              "placement_date": "2024-07-30"
+              "z_translation": 54.01846,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.46675,
             "y_dimension": 18.77496,
             "z_dimension": 21.58455,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -162,23 +176,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -44.45656,
+              "x_translation": 9.524694,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 259.4998,
+              "y_translation": 21.96647,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -59.72439,
-              "placement_date": "2024-07-30"
+              "z_translation": 52.36083,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 18.68413,
             "y_dimension": 21.65043,
             "z_dimension": 18.2693,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -204,23 +223,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -32.18503,
+              "x_translation": 21.79623,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 249.5608,
+              "y_translation": 12.02745,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -65.1795,
-              "placement_date": "2024-07-30"
+              "z_translation": 46.90573,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 16.93247,
             "y_dimension": 25.03784,
             "z_dimension": 24.15895,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -246,23 +270,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -32.41366,
+              "x_translation": 21.56759,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 261.3499,
+              "y_translation": 23.81659,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -65.87721,
-              "placement_date": "2024-07-30"
+              "z_translation": 46.20801,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 16.4752,
             "y_dimension": 28.15749,
             "z_dimension": 22.76353,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -288,23 +317,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -38.55774,
+              "x_translation": 15.42351,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 268.3718,
+              "y_translation": 30.83851,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -64.17559,
-              "placement_date": "2024-07-30"
+              "z_translation": 47.90963,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 26.87598,
             "y_dimension": 17.19156,
             "z_dimension": 26.16676,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -330,23 +363,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -38.58208,
+              "x_translation": 15.39918,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 258.911,
+              "y_translation": 21.37772,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -66.15408,
-              "placement_date": "2024-07-30"
+              "z_translation": 45.93114,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 27.00621,
             "y_dimension": 25.45501,
             "z_dimension": 22.20978,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -372,23 +410,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -26.49341,
+              "x_translation": 27.48785,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 250.1678,
+              "y_translation": 12.6345,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -64.16871,
-              "placement_date": "2024-07-30"
+              "z_translation": 47.91651,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 21.48101,
             "y_dimension": 26.64561,
             "z_dimension": 29.7174,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -414,23 +457,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -28.97997,
+              "x_translation": 25.00129,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 263.8081,
+              "y_translation": 26.27479,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -64.40801,
-              "placement_date": "2024-07-30"
+              "z_translation": 47.67722,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 16.50789,
             "y_dimension": 32.14452,
             "z_dimension": 29.23881,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -456,23 +504,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -32.58804,
+              "x_translation": 21.39322,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 271.3051,
+              "y_translation": 33.77173,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -68.6171,
-              "placement_date": "2024-07-30"
+              "z_translation": 43.46812,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.10306,
             "y_dimension": 18.45074,
             "z_dimension": 20.82062,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -498,23 +550,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -30.3337,
+              "x_translation": 23.64756,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 258.0266,
+              "y_translation": 20.49328,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -71.40662,
-              "placement_date": "2024-07-30"
+              "z_translation": 40.6786,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 25.90818,
             "y_dimension": 25.59769,
             "z_dimension": 15.24159,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -540,23 +597,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -21.07362,
+              "x_translation": 32.90763,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 251.4615,
+              "y_translation": 13.92815,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -62.94959,
-              "placement_date": "2024-07-30"
+              "z_translation": 49.13563,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 24.47658,
             "y_dimension": 27.81569,
             "z_dimension": 32.15565,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -582,23 +645,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -25.8458,
+              "x_translation": 28.13546,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 267.4633,
+              "y_translation": 29.93,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -62.77728,
-              "placement_date": "2024-07-30"
+              "z_translation": 49.30794,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.93223,
             "y_dimension": 35.02486,
             "z_dimension": 32.50026,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -624,23 +693,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -28.70943,
+              "x_translation": 25.27183,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 274.6206,
+              "y_translation": 37.08726,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -68.3384,
-              "placement_date": "2024-07-30"
+              "z_translation": 43.74682,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 19.35382,
             "y_dimension": 22.25991,
             "z_dimension": 21.37802,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -666,23 +739,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -23.9844,
+              "x_translation": 29.99685,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 255.9534,
+              "y_translation": 18.42004,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -71.2045,
-              "placement_date": "2024-07-30"
+              "z_translation": 40.88073,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 26.55454,
             "y_dimension": 21.56894,
             "z_dimension": 15.64583,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -708,23 +786,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -16.59982,
+              "x_translation": 37.38143,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 254.2888,
+              "y_translation": 16.75547,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -60.71321,
-              "placement_date": "2024-07-30"
+              "z_translation": 51.37202,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 25.00856,
             "y_dimension": 28.65531,
             "z_dimension": 30.69102,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -750,23 +834,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -23.19434,
+              "x_translation": 30.78691,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 270.526,
+              "y_translation": 32.99266,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -59.3238,
-              "placement_date": "2024-07-30"
+              "z_translation": 52.76142,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 11.81953,
             "y_dimension": 35.40075,
             "z_dimension": 33.46983,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -792,23 +882,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -27.31152,
+              "x_translation": 26.66973,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 277.1943,
+              "y_translation": 39.66095,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -67.59694,
-              "placement_date": "2024-07-30"
+              "z_translation": 44.48828,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 19.00594,
             "y_dimension": 25.10348,
             "z_dimension": 20.61592,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -834,23 +928,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -21.18316,
+              "x_translation": 32.7981,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 257.1621,
+              "y_translation": 19.62873,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -71.14693,
-              "placement_date": "2024-07-30"
+              "z_translation": 40.93829,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 31.26267,
             "y_dimension": 22.9088,
             "z_dimension": 15.12933,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -876,23 +975,30 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -13.14638,
+              "x_translation": 40.83487,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 258.8371,
+              "y_translation": 21.30381,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -57.46611,
-              "placement_date": "2024-07-30"
+              "z_translation": 54.61911,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 23.23582,
             "y_dimension": 28.98608,
             "z_dimension": 28.02421,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -918,23 +1024,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -20.00253,
+              "x_translation": 33.97873,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 272.9474,
+              "y_translation": 35.41405,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -54.95354,
-              "placement_date": "2024-07-30"
+              "z_translation": 57.13169,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 9.52353,
             "y_dimension": 35.04858,
             "z_dimension": 33.04936,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -960,23 +1072,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -26.52561,
+              "x_translation": 27.45565,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 279.5025,
+              "y_translation": 41.96917,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -66.79535,
-              "placement_date": "2024-07-30"
+              "z_translation": 45.28987,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 20.57776,
             "y_dimension": 27.28193,
             "z_dimension": 22.2191,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1002,23 +1118,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -19.443,
+              "x_translation": 34.53826,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 260.8661,
+              "y_translation": 23.33281,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -71.78226,
-              "placement_date": "2024-07-30"
+              "z_translation": 40.30297,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 34.74298,
             "y_dimension": 24.92807,
             "z_dimension": 13.85868,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1044,23 +1165,30 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -10.74089,
+              "x_translation": 43.24037,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 263.8287,
+              "y_translation": 26.29539,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -54.68922,
-              "placement_date": "2024-07-30"
+              "z_translation": 57.39601,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 19.06462,
             "y_dimension": 30.83968,
             "z_dimension": 24.99778,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1086,23 +1214,30 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -15.40709,
+              "x_translation": 38.57417,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 273.9769,
+              "y_translation": 36.44359,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -51.07692,
-              "placement_date": "2024-07-30"
+              "z_translation": 61.0083,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 9.732221,
             "y_dimension": 34.27817,
             "z_dimension": 32.22236,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1128,23 +1263,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -23.93266,
+              "x_translation": 30.0486,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 282.0602,
+              "y_translation": 44.52683,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -64.90651,
-              "placement_date": "2024-07-30"
+              "z_translation": 47.17871,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 20.1034,
             "y_dimension": 26.55478,
             "z_dimension": 24.90897,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1170,23 +1310,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -17.59647,
+              "x_translation": 36.38479,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 265.2417,
+              "y_translation": 27.70839,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -70.60376,
-              "placement_date": "2024-07-30"
+              "z_translation": 41.48147,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 32.77578,
             "y_dimension": 28.01369,
             "z_dimension": 14.42352,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1212,23 +1357,30 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -9.170339,
+              "x_translation": 44.81092,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 269.1082,
+              "y_translation": 31.57491,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -53.58707,
-              "placement_date": "2024-07-30"
+              "z_translation": 58.49815,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.89868,
             "y_dimension": 33.31616,
             "z_dimension": 23.53843,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1254,23 +1406,30 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -10.39649,
+              "x_translation": 43.58477,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 274.5356,
+              "y_translation": 37.00224,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -48.19157,
-              "placement_date": "2024-07-30"
+              "z_translation": 63.89365,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 10.91636,
             "y_dimension": 33.16087,
             "z_dimension": 30.40085,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1296,23 +1455,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -18.99474,
+              "x_translation": 34.98652,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 283.7612,
+              "y_translation": 46.22791,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -61.51361,
-              "placement_date": "2024-07-30"
+              "z_translation": 50.57162,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 16.78042,
             "y_dimension": 23.9063,
             "z_dimension": 27.62492,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1338,23 +1502,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -14.12193,
+              "x_translation": 39.85933,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 270.0172,
+              "y_translation": 32.48389,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -67.56548,
-              "placement_date": "2024-07-30"
+              "z_translation": 44.51974,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 25.80186,
             "y_dimension": 31.49818,
             "z_dimension": 15.61849,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1380,23 +1549,30 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -9.407007,
+              "x_translation": 44.57425,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 274.4866,
+              "y_translation": 36.95324,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -52.2585,
-              "placement_date": "2024-07-30"
+              "z_translation": 59.82672,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 11.95185,
             "y_dimension": 34.03014,
             "z_dimension": 21.5031,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1422,23 +1598,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -5.601933,
+              "x_translation": 48.37932,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 275.8308,
+              "y_translation": 38.29745,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -45.47306,
-              "placement_date": "2024-07-30"
+              "z_translation": 66.61217,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 12.82208,
             "y_dimension": 31.34171,
             "z_dimension": 28.56637,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1464,23 +1646,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -13.30382,
+              "x_translation": 40.67744,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 285.1847,
+              "y_translation": 47.65133,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -57.65635,
-              "placement_date": "2024-07-30"
+              "z_translation": 54.42888,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.17352,
             "y_dimension": 21.05946,
             "z_dimension": 30.66117,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1506,23 +1694,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -10.22515,
+              "x_translation": 43.75611,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 275.0167,
+              "y_translation": 37.48338,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -64.58678,
-              "placement_date": "2024-07-30"
+              "z_translation": 47.49844,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 17.05572,
             "y_dimension": 32.96987,
             "z_dimension": 16.80029,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1548,23 +1741,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -5.799521,
+              "x_translation": 48.18173,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 278.7674,
+              "y_translation": 41.23412,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -50.25027,
-              "placement_date": "2024-07-30"
+              "z_translation": 61.83496,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.83379,
             "y_dimension": 31.53026,
             "z_dimension": 18.85115,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1590,23 +1789,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -1.196925,
+              "x_translation": 52.78433,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 278.7399,
+              "y_translation": 41.20658,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -42.90951,
-              "placement_date": "2024-07-30"
+              "z_translation": 69.17571,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.36081,
             "y_dimension": 31.58534,
             "z_dimension": 26.55425,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1632,23 +1837,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -8.025344,
+              "x_translation": 45.95591,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 286.3339,
+              "y_translation": 48.80061,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -54.65134,
-              "placement_date": "2024-07-30"
+              "z_translation": 57.43388,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.85662,
             "y_dimension": 17.26171,
             "z_dimension": 33.82988,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1674,23 +1885,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -6.92422,
+              "x_translation": 47.05704,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 279.3887,
+              "y_translation": 41.85533,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -62.06235,
-              "placement_date": "2024-07-30"
+              "z_translation": 50.02287,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 11.13045,
             "y_dimension": 30.28782,
             "z_dimension": 19.00788,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1716,23 +1932,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -1.060459,
+              "x_translation": 52.9208,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 279.7915,
+              "y_translation": 42.25818,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -48.07894,
-              "placement_date": "2024-07-30"
+              "z_translation": 64.00628,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 20.6981,
             "y_dimension": 29.48214,
             "z_dimension": 16.70971,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1758,23 +1980,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 3.186485,
+              "x_translation": 57.16774,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 279.5941,
+              "y_translation": 42.06074,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -40.77088,
-              "placement_date": "2024-07-30"
+              "z_translation": 71.31434,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 17.59158,
             "y_dimension": 29.87701,
             "z_dimension": 23.57506,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ]
           }
         },
         {
@@ -1800,23 +2027,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -2.277962,
+              "x_translation": 51.70329,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 288.018,
+              "y_translation": 50.48468,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -52.87945,
-              "placement_date": "2024-07-30"
+              "z_translation": 59.20577,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 17.32449,
             "y_dimension": 13.02914,
             "z_dimension": 36.18464,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1842,23 +2075,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -5.791633,
+              "x_translation": 48.18962,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 282.6649,
+              "y_translation": 45.13157,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -59.8246,
-              "placement_date": "2024-07-30"
+              "z_translation": 52.26063,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 10.12812,
             "y_dimension": 23.73535,
             "z_dimension": 22.46182,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1884,23 +2123,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 3.4147,
+              "x_translation": 57.39596,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 279.3799,
+              "y_translation": 41.84659,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -45.95644,
-              "placement_date": "2024-07-30"
+              "z_translation": 66.12879,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 27.17972,
             "y_dimension": 28.41219,
             "z_dimension": 15.44269,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -1926,23 +2171,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 8.662374,
+              "x_translation": 62.64363,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 279.3021,
+              "y_translation": 41.76879,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -38.78852,
-              "placement_date": "2024-07-30"
+              "z_translation": 73.29671,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 18.77989,
             "y_dimension": 28.56779,
             "z_dimension": 19.61034,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ]
           }
         },
         {
@@ -1968,23 +2218,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 4.726659,
+              "x_translation": 58.70791,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 286.8696,
+              "y_translation": 49.33627,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -52.04683,
-              "placement_date": "2024-07-30"
+              "z_translation": 60.03839,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 19.65636,
             "y_dimension": 15.78938,
             "z_dimension": 36.09251,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -2010,23 +2266,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": -2.022815,
+              "x_translation": 51.95844,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 284.9062,
+              "y_translation": 47.37286,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -57.6555,
-              "placement_date": "2024-07-30"
+              "z_translation": 54.42972,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 17.47362,
             "y_dimension": 17.35964,
             "z_dimension": 26.25855,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -2052,23 +2314,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 10.51142,
+              "x_translation": 64.49267,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 275.4945,
+              "y_translation": 37.96121,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -44.07968,
-              "placement_date": "2024-07-30"
+              "z_translation": 68.00555,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 30.40529,
             "y_dimension": 26.99384,
             "z_dimension": 14.1131,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ]
           }
         },
         {
@@ -2094,23 +2361,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 16.21403,
+              "x_translation": 70.19529,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 275.5103,
+              "y_translation": 37.97698,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -36.96982,
-              "placement_date": "2024-07-30"
+              "z_translation": 75.11541,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 19.00007,
             "y_dimension": 26.96229,
             "z_dimension": 15.11282,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2136,23 +2407,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 12.97909,
+              "x_translation": 66.96034,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 285.8157,
+              "y_translation": 48.28234,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -50.82766,
-              "placement_date": "2024-07-30"
+              "z_translation": 61.25756,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.53854,
             "y_dimension": 18.49525,
             "z_dimension": 33.65416,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2178,23 +2453,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 3.993632,
+              "x_translation": 57.97489,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 283.8815,
+              "y_translation": 46.34815,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -55.04873,
-              "placement_date": "2024-07-30"
+              "z_translation": 57.0365,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 24.17036,
             "y_dimension": 15.75493,
             "z_dimension": 27.1463,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -2220,23 +2501,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 19.88995,
+              "x_translation": 73.87121,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 269.9789,
+              "y_translation": 32.44558,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -43.39298,
-              "placement_date": "2024-07-30"
+              "z_translation": 68.69224,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 29.00851,
             "y_dimension": 24.82175,
             "z_dimension": 12.73971,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2262,23 +2547,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 25.02362,
+              "x_translation": 79.00488,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 270.6487,
+              "y_translation": 33.11537,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -36.10703,
-              "placement_date": "2024-07-30"
+              "z_translation": 75.97819,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 17.88962,
             "y_dimension": 23.48218,
             "z_dimension": 10.73709,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2304,23 +2593,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 20.96597,
+              "x_translation": 74.94723,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 285.3716,
+              "y_translation": 47.83823,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -49.91602,
-              "placement_date": "2024-07-30"
+              "z_translation": 62.1692,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 23.88882,
             "y_dimension": 19.38347,
             "z_dimension": 29.28367,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2346,23 +2639,29 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 11.86241,
+              "x_translation": 65.84366,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 280.6668,
+              "y_translation": 43.1335,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -52.94024,
-              "placement_date": "2024-07-30"
+              "z_translation": 59.14498,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 26.85639,
             "y_dimension": 22.18424,
             "z_dimension": 24.63705,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0001069"
+            ]
           }
         },
         {
@@ -2388,23 +2687,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 29.54884,
+              "x_translation": 83.53009,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 264.9222,
+              "y_translation": 27.38883,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -44.47935,
-              "placement_date": "2024-07-30"
+              "z_translation": 67.60587,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 24.3568,
             "y_dimension": 21.51533,
             "z_dimension": 14.33533,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2430,23 +2733,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 32.76033,
+              "x_translation": 86.74158,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 266.9201,
+              "y_translation": 29.3868,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -38.55076,
-              "placement_date": "2024-07-30"
+              "z_translation": 73.53446,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.93945,
             "y_dimension": 18.5466,
             "z_dimension": 9.88083,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2472,23 +2779,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 26.91133,
+              "x_translation": 80.89259,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 282.0923,
+              "y_translation": 44.55892,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -51.38209,
-              "placement_date": "2024-07-30"
+              "z_translation": 60.70313,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 23.17653,
             "y_dimension": 23.63157,
             "z_dimension": 25.31224,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2514,23 +2825,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 19.53406,
+              "x_translation": 73.51532,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 277.0381,
+              "y_translation": 39.5048,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -52.09788,
-              "placement_date": "2024-07-30"
+              "z_translation": 59.98735,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 25.54837,
             "y_dimension": 28.36315,
             "z_dimension": 22.95231,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2556,23 +2871,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 37.6646,
+              "x_translation": 91.64585,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 261.2854,
+              "y_translation": 23.75211,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -47.16455,
-              "placement_date": "2024-07-30"
+              "z_translation": 64.92067,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 18.55983,
             "y_dimension": 17.98205,
             "z_dimension": 15.55283,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2598,23 +2917,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 38.54854,
+              "x_translation": 92.52979,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 267.3036,
+              "y_translation": 29.77031,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -43.14381,
-              "placement_date": "2024-07-30"
+              "z_translation": 68.94141,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 12.48058,
             "y_dimension": 19.31364,
             "z_dimension": 10.63311,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2640,23 +2963,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 30.87089,
+              "x_translation": 84.85215,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 278.6889,
+              "y_translation": 41.15553,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -54.43668,
-              "placement_date": "2024-07-30"
+              "z_translation": 57.64854,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.70907,
             "y_dimension": 23.58887,
             "z_dimension": 24.60996,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2682,23 +3009,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 25.50466,
+              "x_translation": 79.48591,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 272.9656,
+              "y_translation": 35.43228,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -53.55257,
-              "placement_date": "2024-07-30"
+              "z_translation": 58.53265,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.52233,
             "y_dimension": 29.96679,
             "z_dimension": 22.84173,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2724,23 +3055,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 43.96545,
+              "x_translation": 97.94671,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 258.9937,
+              "y_translation": 21.4604,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -51.51061,
-              "placement_date": "2024-07-30"
+              "z_translation": 60.57461,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.10817,
             "y_dimension": 15.8014,
             "z_dimension": 17.35141,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -2766,23 +3102,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 43.02904,
+              "x_translation": 97.01029,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 268.0075,
+              "y_translation": 30.47416,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -48.08655,
-              "placement_date": "2024-07-30"
+              "z_translation": 63.99867,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 12.52643,
             "y_dimension": 20.46882,
             "z_dimension": 11.3411,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2808,23 +3148,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 34.20982,
+              "x_translation": 88.19108,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 275.7376,
+              "y_translation": 38.20431,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -57.43255,
-              "placement_date": "2024-07-30"
+              "z_translation": 54.65268,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 23.63633,
             "y_dimension": 20.5338,
             "z_dimension": 24.25462,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -2850,23 +3195,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 30.75314,
+              "x_translation": 84.7344,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 269.2278,
+              "y_translation": 31.69445,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -56.06203,
-              "placement_date": "2024-07-30"
+              "z_translation": 56.02319,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.34444,
             "y_dimension": 27.99425,
             "z_dimension": 21.51359,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150"
+            ]
           }
         },
         {
@@ -2892,23 +3241,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 48.00565,
+              "x_translation": 101.9869,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 258.0024,
+              "y_translation": 20.46908,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -56.49645,
-              "placement_date": "2024-07-30"
+              "z_translation": 55.58877,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.69624,
             "y_dimension": 14.93666,
             "z_dimension": 18.86059,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -2934,23 +3288,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 47.20921,
+              "x_translation": 101.1905,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 268.7833,
+              "y_translation": 31.24993,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -53.4639,
-              "placement_date": "2024-07-30"
+              "z_translation": 58.62132,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.10334,
             "y_dimension": 21.09367,
             "z_dimension": 12.89671,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -2976,23 +3335,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 38.09219,
+              "x_translation": 92.07344,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 274.2568,
+              "y_translation": 36.72345,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -60.86257,
-              "placement_date": "2024-07-30"
+              "z_translation": 51.22265,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 25.05582,
             "y_dimension": 18.00951,
             "z_dimension": 22.49789,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3018,23 +3382,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 35.53924,
+              "x_translation": 89.5205,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 266.8155,
+              "y_translation": 29.28213,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -59.25979,
-              "placement_date": "2024-07-30"
+              "z_translation": 52.82544,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.50706,
             "y_dimension": 25.22804,
             "z_dimension": 19.29232,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3060,23 +3429,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 52.23253,
+              "x_translation": 106.2138,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 257.9651,
+              "y_translation": 20.4318,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -61.39353,
-              "placement_date": "2024-07-30"
+              "z_translation": 50.69169,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.90027,
             "y_dimension": 14.72151,
             "z_dimension": 18.71182,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3102,23 +3476,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 52.37436,
+              "x_translation": 106.3556,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 269.175,
+              "y_translation": 31.64167,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -59.44261,
-              "placement_date": "2024-07-30"
+              "z_translation": 52.64261,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 16.18393,
             "y_dimension": 20.84466,
             "z_dimension": 14.78406,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3144,23 +3523,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 42.94375,
+              "x_translation": 96.925,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 274.7388,
+              "y_translation": 37.20542,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -64.68758,
-              "placement_date": "2024-07-30"
+              "z_translation": 47.39764,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 26.16352,
             "y_dimension": 18.97346,
             "z_dimension": 19.4164,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3186,23 +3570,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 40.7888,
+              "x_translation": 94.77005,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 266.2838,
+              "y_translation": 28.75052,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -63.08768,
-              "placement_date": "2024-07-30"
+              "z_translation": 48.99754,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 22.85415,
             "y_dimension": 24.25668,
             "z_dimension": 16.21659,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3228,23 +3617,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 57.3151,
+              "x_translation": 111.2964,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 257.7472,
+              "y_translation": 20.2139,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -66.49647,
-              "placement_date": "2024-07-30"
+              "z_translation": 45.58875,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.40615,
             "y_dimension": 15.15731,
             "z_dimension": 17.64946,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3270,23 +3664,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 58.288,
+              "x_translation": 112.2693,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 269.0606,
+              "y_translation": 31.52731,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -65.6236,
-              "placement_date": "2024-07-30"
+              "z_translation": 46.46162,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 17.35195,
             "y_dimension": 21.14282,
             "z_dimension": 15.35156,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3312,23 +3711,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 48.45534,
+              "x_translation": 102.4366,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 275.1337,
+              "y_translation": 37.60033,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -68.27771,
-              "placement_date": "2024-07-30"
+              "z_translation": 43.80751,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 27.24165,
             "y_dimension": 19.65039,
             "z_dimension": 14.63355,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3354,23 +3758,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 46.54321,
+              "x_translation": 100.5245,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 266.5027,
+              "y_translation": 28.96939,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -68.3859,
-              "placement_date": "2024-07-30"
+              "z_translation": 43.69932,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 23.91302,
             "y_dimension": 24.5086,
             "z_dimension": 14.84993,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3396,23 +3805,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 62.78949,
+              "x_translation": 116.7707,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 257.891,
+              "y_translation": 20.35767,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -71.15127,
-              "placement_date": "2024-07-30"
+              "z_translation": 40.93396,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.63598,
             "y_dimension": 15.44485,
             "z_dimension": 16.69547,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3438,23 +3851,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 64.49118,
+              "x_translation": 118.4724,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 268.9101,
+              "y_translation": 31.37681,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -70.72891,
-              "placement_date": "2024-07-30"
+              "z_translation": 41.35632,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 18.03937,
             "y_dimension": 21.44382,
             "z_dimension": 14.62032,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3480,23 +3897,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 54.01654,
+              "x_translation": 107.9978,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 275.1005,
+              "y_translation": 37.56719,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -72.216,
-              "placement_date": "2024-07-30"
+              "z_translation": 39.86922,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 28.70508,
             "y_dimension": 19.58411,
             "z_dimension": 11.47199,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3522,23 +3944,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 52.41403,
+              "x_translation": 106.3953,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 266.8418,
+              "y_translation": 29.30852,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -73.20623,
-              "placement_date": "2024-07-30"
+              "z_translation": 38.87899,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 25.97605,
             "y_dimension": 23.54746,
             "z_dimension": 13.45244,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3564,23 +3991,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 68.88937,
+              "x_translation": 122.8706,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 258.825,
+              "y_translation": 21.29172,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -75.25152,
-              "placement_date": "2024-07-30"
+              "z_translation": 36.8337,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 14.18982,
             "y_dimension": 16.80488,
             "z_dimension": 16.87128,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3606,23 +4037,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 70.96249,
+              "x_translation": 124.9437,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 268.6608,
+              "y_translation": 31.12748,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -74.3369,
-              "placement_date": "2024-07-30"
+              "z_translation": 37.74832,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 18.33605,
             "y_dimension": 20.94514,
             "z_dimension": 13.71325,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3648,23 +4083,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 60.13597,
+              "x_translation": 114.1172,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 274.6549,
+              "y_translation": 37.12155,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -76.13777,
-              "placement_date": "2024-07-30"
+              "z_translation": 35.94746,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 31.02319,
             "y_dimension": 18.08291,
             "z_dimension": 10.11153,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3690,23 +4130,28 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 58.79051,
+              "x_translation": 112.7718,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 267.5376,
+              "y_translation": 30.00428,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -77.37016,
-              "placement_date": "2024-07-30"
+              "z_translation": 34.71507,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 28.74995,
             "y_dimension": 19.2867,
             "z_dimension": 13.5783,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3732,23 +4177,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 77.73296,
+              "x_translation": 131.7142,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 262.5924,
+              "y_translation": 25.05907,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -80.68596,
-              "placement_date": "2024-07-30"
+              "z_translation": 31.39927,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 15.04878,
             "y_dimension": 17.15679,
             "z_dimension": 19.11572,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3774,23 +4223,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 80.25899,
+              "x_translation": 134.2402,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 269.0038,
+              "y_translation": 31.47052,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -78.55654,
-              "placement_date": "2024-07-30"
+              "z_translation": 33.52868,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 20.10083,
             "y_dimension": 19.92172,
             "z_dimension": 14.15526,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3816,23 +4269,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 68.59467,
+              "x_translation": 122.5759,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 274.5924,
+              "y_translation": 37.05911,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -80.3697,
-              "placement_date": "2024-07-30"
+              "z_translation": 31.71553,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 34.98645,
             "y_dimension": 14.72991,
             "z_dimension": 11.42032,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3858,23 +4315,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 67.13032,
+              "x_translation": 121.1116,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 270.3879,
+              "y_translation": 32.85459,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -82.67772,
-              "placement_date": "2024-07-30"
+              "z_translation": 29.4075,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 32.2529,
             "y_dimension": 14.14364,
             "z_dimension": 16.78451,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3900,23 +4361,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 91.7737,
+              "x_translation": 145.755,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 268.0694,
+              "y_translation": 30.53609,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -88.18108,
-              "placement_date": "2024-07-30"
+              "z_translation": 23.90415,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 18.01792,
             "y_dimension": 19.08403,
             "z_dimension": 23.73711,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3942,23 +4407,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 93.51687,
+              "x_translation": 147.4981,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 272.0716,
+              "y_translation": 34.53823,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -86.34394,
-              "placement_date": "2024-07-30"
+              "z_translation": 25.74129,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 21.50425,
             "y_dimension": 21.90219,
             "z_dimension": 20.06283,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -3984,23 +4453,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 81.19213,
+              "x_translation": 135.1734,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 278.5911,
+              "y_translation": 41.05781,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -90.01851,
-              "placement_date": "2024-07-30"
+              "z_translation": 22.06671,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 38.62301,
             "y_dimension": 14.8407,
             "z_dimension": 14.50089,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -4026,23 +4499,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 80.59075,
+              "x_translation": 134.572,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 276.4713,
+              "y_translation": 38.93799,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -92.34471,
-              "placement_date": "2024-07-30"
+              "z_translation": 19.74051,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 37.42025,
             "y_dimension": 13.19872,
             "z_dimension": 19.1533,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         },
         {
@@ -4068,23 +4545,27 @@
               "translation_units": "millimeter",
               "x_rotation": 0,
               "x_scaling": 1,
-              "x_translation": 98.22833,
+              "x_translation": 152.2096,
               "y_rotation": 0,
               "y_scaling": 1,
-              "y_translation": 276.9685,
+              "y_translation": 39.43519,
               "z_rotation": 0,
               "z_scaling": 1,
-              "z_translation": -99.01218,
-              "placement_date": "2024-07-30"
+              "z_translation": 13.07304,
+              "placement_date": "2024-08-07"
             },
             "@type": "SpatialEntity",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
             "dimension_units": "millimeter",
             "x_dimension": 37.81435,
             "y_dimension": 22.67769,
             "z_dimension": 26.06753,
-            "creation_date": "2024-07-30",
-            "creator": "Bhargav Desai",
-            "ccf_annotations": []
+            "creation_date": "2024-08-07",
+            "creator": "Bhargav Snehal Desai",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ]
           }
         }
       ]
