@@ -4,8 +4,7 @@
   provider_name: HuBMAP
   provider_uuid: 9F5C8F46-4DF4-11EF-A985-7E6DEE00831D
   defaults:
-    id: http://example.com/required/label
-    thumbnail: assets/icons/ico-unknown.svg
+    id: https://hubmapconsortium.github.io/hra-registrations/hubmap-pancreas-millitome-spraggins-2024/rui_locations.jsonld
     link: http://example.com/user/link
   donors:
     - sex: Male
