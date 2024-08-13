@@ -29,22 +29,24 @@ def generate_yaml(kpmp_csv_path):
     # Read the CSV file into a DataFrame
     kpmp_csv = pd.read_csv(kpmp_csv_path)
     
-    yaml_content = {
-        "yaml_schema": "https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json",
-        "consortium_name": "KPMP",
-        "provider_name": "KPMP",
-        "provider_uuid": generate_uuid(),
-        "defaults": {
-            "id": generate_uuid(),
-            "thumbnail": "assets/icons/ico-unknown.svg",
-        },
-        "donors": []
-    }
+    yaml_content = [
+        {
+            "consortium_name": "KPMP",
+            "provider_name": "KPMP",
+            "provider_uuid": generate_uuid(),
+            "defaults": {
+                "id": generate_uuid(),
+                "thumbnail": "assets/icons/ico-unknown.svg",
+                "link": "https://atlas.kpmp.org/"
+            },
+            "donors": []
+        }
+    ]
         
     for _, pub_row in kpmp_csv.iterrows():
         rui_location = get_rui_location(pub_row["Sex"], pub_row["Location"], pub_row["Laterality"])
         donor = {
-            "id": pub_row["Participant ID"],
+            "id": "https://atlas.kpmp.org/" + "#" + pub_row["Participant ID"],
             "sex": pub_row["Sex"],
             "label": pub_row["Participant ID"] + ", " + pub_row["Age (Years) (Binned)"],
             "link": pub_row["Atlas Repository Link"],
@@ -53,15 +55,17 @@ def generate_yaml(kpmp_csv_path):
                 "rui_location": rui_location
             }]
         }
-        yaml_content["donors"].append(donor)
+        yaml_content[0]["donors"].append(donor)
 
     # Create the YAML file in the current working directory
     current_directory = os.getcwd()
     filename = "registrations.yaml"
     filepath = os.path.join(current_directory, filename)
     
+    # Write the YAML content with the desired format
     with open(filepath, 'w') as file:
-        yaml.dump(yaml_content, file, allow_unicode=True, sort_keys=False)
+        file.write("# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json\n\n")
+        yaml.dump(yaml_content, file, allow_unicode=True, sort_keys=False, default_flow_style=False)
 
     print(f"YAML file created at: {filepath}")
 
