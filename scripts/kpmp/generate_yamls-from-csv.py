@@ -46,13 +46,13 @@ def generate_yamls(participant_csv, publication_csv, output_dir):
             if 'Publication DOI' in pub_row and pub_row['Publication DOI']:
                 yaml_content["defaults"]["publication"] = f"https://doi.org/{pub_row['Publication DOI']}"
             matching_participant_rows = participants_df[participants_df['Participant ID'] == participant_id]
-            for _, part_row in matching_participant_rows.iterrows():
+            for _, pub_row  in matching_participant_rows.iterrows():
                 donor = {
-                    "id": part_row["Participant ID"],
-                    "sex": part_row["Sex"],
-                    "age": part_row["Age (Years) (Binned)"],
+                    "id": pub_row ["Participant ID"],
+                    "sex": pub_row ["Sex"],
+                    "age": pub_row ["Age (Years) (Binned)"],
                     "samples": [{
-                        "rui_location": "male_cortex.json" if part_row["Sex"] == "Male" else "female_cortex.json"
+                        "rui_location": "male_cortex.json" if pub_row ["Sex"] == "Male" else "female_cortex.json"
                     }]
                 }
                 yaml_content["donors"].append(donor)
