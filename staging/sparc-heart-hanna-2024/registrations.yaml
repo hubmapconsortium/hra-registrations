@@ -1,13 +1,61 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: SPARC
+  provider_name: SPARC
+  provider_uuid: D55648EA-5B31-11EF-B379-20E2A8B75C6B
   defaults:
-    id: http://example.com/required/id
+    id: https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020
     thumbnail: assets/icons/ico-unknown.svg
-    link: http://example.com/user/link
+    link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020
   donors:
-    - sex: Male
+    - sex: Female
+      age: 49
       samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+      - rui_location: RA_trabmyo_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201213-RATrabMyo
+      - rui_location: RAGP_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201214-RAGP
+      - rui_location: RAA_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201215-RAA
+      - rui_location: SAN_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201219-SAN
+      - rui_location: IVCIAGP_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201220-IVCIAGP
+      - rui_location: Sinus_venarum_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210102-SinusVenarum
+      - rui_location: Base_of_LAA_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210103-BaseofLAA
+      - rui_location: LAA_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210106-LAA
+      - rui_location: LV_apex_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210201-LVApex
+      - rui_location: Basal_RVFreeWall_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210203-BasalRVFW
+      - rui_location: Apical_septum_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210204-ApicalSeptum
+      - rui_location: Mid_ant_LV_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210205-MidAntLV
+      - rui_location: Basal_sept_LV_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210206-BasalSeptum
+      - rui_location: Basal_post_LV_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210207-BasalPostLV
+      - rui_location: RVapex_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210208-RVApex
+      - rui_location: Basal_lat_LV_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210209-BasalLatLV
+      - rui_location: Basal_ant_LV_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210211-BasalAntLV
+      - rui_location: Inferomedial_papillary_muscle_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210212-IMPap
+      - rui_location: Mid_post_LV_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210215-MidPostLV
+      - rui_location: Mid_septum_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210216-MidSeptum
+      - rui_location: RV_inflow_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210217-RVInflow
+      - rui_location: RVOT_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210405-RVOT
+      - rui_location: VIVGP_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210409-VIVGP
+      - rui_location: AVN_F_registration-data.json
+        link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210417-AVN
