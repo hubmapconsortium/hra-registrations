@@ -5,10 +5,10 @@
       "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1",
       "@type": "Donor",
       "label": "Female, Age 49",
-      "description": "Entered 7/7/2024, Peter Hanna, SPARC",
+      "description": "Entered 7/7/2024, Peter Hanna, UCLA/SPARC",
       "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
       "consortium_name": "SPARC",
-      "provider_name": "SPARC",
+      "provider_name": "UCLA/SPARC",
       "provider_uuid": "D55648EA-5B31-11EF-B379-20E2A8B75C6B",
       "age": 49,
       "sex": "Female",
@@ -17,7 +17,7 @@
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201213-RATrabMyo",
           "section_count": 0,
@@ -57,13 +57,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201213-RATrabMyo",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 15 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201214-RAGP",
           "section_count": 0,
@@ -104,13 +116,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201214-RAGP",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201215-RAA",
           "section_count": 0,
@@ -150,13 +174,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201215-RAA",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock4",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201219-SAN",
           "section_count": 0,
@@ -196,13 +232,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock4_TissueBlock4_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201219-SAN",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock5",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201220-IVCIAGP",
           "section_count": 0,
@@ -243,13 +291,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock5_TissueBlock5_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201220-IVCIAGP",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210102-SinusVenarum",
           "section_count": 0,
@@ -289,13 +349,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock6_TissueBlock6_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210102-SinusVenarum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210103-BaseofLAA",
           "section_count": 0,
@@ -335,13 +407,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock7_TissueBlock7_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210103-BaseofLAA",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock8",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210106-LAA",
           "section_count": 0,
@@ -381,13 +465,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock8_TissueBlock8_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210106-LAA",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/15/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210201-LVApex",
           "section_count": 0,
@@ -428,13 +524,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock9_TissueBlock9_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210201-LVApex",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock10",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210203-BasalRVFW",
           "section_count": 0,
@@ -476,13 +584,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock10_TissueBlock10_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210203-BasalRVFW",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock11",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/15/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210204-ApicalSeptum",
           "section_count": 0,
@@ -526,13 +646,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock11_TissueBlock11_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210204-ApicalSeptum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock12",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/15/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210205-MidAntLV",
           "section_count": 0,
@@ -573,13 +705,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock12_TissueBlock12_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210205-MidAntLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock13",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210206-BasalSeptum",
           "section_count": 0,
@@ -629,13 +773,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock13_TissueBlock13_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210206-BasalSeptum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock14",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210207-BasalPostLV",
           "section_count": 0,
@@ -677,13 +833,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock14_TissueBlock14_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210207-BasalPostLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock15",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210208-RVApex",
           "section_count": 0,
@@ -727,13 +895,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock15_TissueBlock15_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210208-RVApex",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock16",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210209-BasalLatLV",
           "section_count": 0,
@@ -776,13 +956,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock16_TissueBlock16_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210209-BasalLatLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock17",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210211-BasalAntLV",
           "section_count": 0,
@@ -824,13 +1016,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock17_TissueBlock17_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210211-BasalAntLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock18",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210212-IMPap",
           "section_count": 0,
@@ -872,13 +1076,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock18_TissueBlock18_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210212-IMPap",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock19",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/15/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210215-MidPostLV",
           "section_count": 0,
@@ -919,13 +1135,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock19_TissueBlock19_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210215-MidPostLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock20",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210216-MidSeptum",
           "section_count": 0,
@@ -969,13 +1197,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock20_TissueBlock20_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210216-MidSeptum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock21",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 5 millimeter, 5 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210217-RVInflow",
           "section_count": 0,
@@ -1015,13 +1255,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock21_TissueBlock21_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210217-RVInflow",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock22",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/18/2021, Peter Hanna, SPARC",
+          "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210405-RVOT",
           "section_count": 0,
@@ -1065,13 +1317,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock22_TissueBlock22_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210405-RVOT",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock23",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210409-VIVGP",
           "section_count": 0,
@@ -1111,13 +1375,25 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock23_TissueBlock23_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210409-VIVGP",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         },
         {
           "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock24",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/7/2024, Peter Hanna, SPARC",
+          "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
           "description": "5 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210417-AVN",
           "section_count": 0,
@@ -1157,7 +1433,19 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock24_TissueBlock24_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA/SPARC",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210417-AVN",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
         }
       ]
     }

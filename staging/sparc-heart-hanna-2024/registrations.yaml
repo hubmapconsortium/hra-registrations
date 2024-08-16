@@ -1,61 +1,110 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
 - consortium_name: SPARC
-  provider_name: SPARC
+  provider_name: UCLA/SPARC
   provider_uuid: D55648EA-5B31-11EF-B379-20E2A8B75C6B
   defaults:
     id: https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020
-    thumbnail: assets/icons/ico-unknown.svg
+    thumbnail: assets/thumbnails/sparc_logo.jpg
     link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020
+    publication: https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020
   donors:
     - sex: Female
       age: 49
       samples:
       - rui_location: RA_trabmyo_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201213-RATrabMyo
+        datasets:
+          - technology: OTHER
       - rui_location: RAGP_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201214-RAGP
+        datasets:
+          - technology: OTHER
       - rui_location: RAA_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201215-RAA
+        datasets:
+          - technology: OTHER
       - rui_location: SAN_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201219-SAN
+        datasets:
+          - technology: OTHER
       - rui_location: IVCIAGP_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201220-IVCIAGP
+        datasets:
+          - technology: OTHER
       - rui_location: Sinus_venarum_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210102-SinusVenarum
+        datasets:
+          - technology: OTHER
       - rui_location: Base_of_LAA_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210103-BaseofLAA
+        datasets:
+          - technology: OTHER
       - rui_location: LAA_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210106-LAA
+        datasets:
+          - technology: OTHER
       - rui_location: LV_apex_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210201-LVApex
+        datasets:
+          - technology: OTHER
       - rui_location: Basal_RVFreeWall_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210203-BasalRVFW
+        datasets:
+          - technology: OTHER
       - rui_location: Apical_septum_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210204-ApicalSeptum
+        datasets:
+          - technology: OTHER
       - rui_location: Mid_ant_LV_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210205-MidAntLV
+        datasets:
+          - technology: OTHER
       - rui_location: Basal_sept_LV_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210206-BasalSeptum
+        datasets:
+          - technology: OTHER
       - rui_location: Basal_post_LV_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210207-BasalPostLV
+        datasets:
+          - technology: OTHER
       - rui_location: RVapex_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210208-RVApex
+        datasets:
+          - technology: OTHER
       - rui_location: Basal_lat_LV_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210209-BasalLatLV
+        datasets:
+          - technology: OTHER
       - rui_location: Basal_ant_LV_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210211-BasalAntLV
+        datasets:
+          - technology: OTHER
       - rui_location: Inferomedial_papillary_muscle_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210212-IMPap
+        datasets:
+          - technology: OTHER
       - rui_location: Mid_post_LV_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210215-MidPostLV
+        datasets:
+          - technology: OTHER
       - rui_location: Mid_septum_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210216-MidSeptum
+        datasets:
+          - technology: OTHER
       - rui_location: RV_inflow_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210217-RVInflow
+        datasets:
+          - technology: OTHER
       - rui_location: RVOT_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210405-RVOT
+        datasets:
+          - technology: OTHER
       - rui_location: VIVGP_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210409-VIVGP
+        datasets:
+          - technology: OTHER
       - rui_location: AVN_F_registration-data.json
         link: https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210417-AVN
+        datasets:
+          - technology: OTHER
