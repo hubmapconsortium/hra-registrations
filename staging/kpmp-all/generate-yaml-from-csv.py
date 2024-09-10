@@ -49,9 +49,9 @@ def generate_yaml(kpmp_csv_path):
             "id": "https://atlas.kpmp.org/" + "#" + pub_row["Participant ID"],
             "sex": pub_row["Sex"],
             "label": pub_row["Participant ID"] + ", " + pub_row["Age (Years) (Binned)"],
-            "link": pub_row["Atlas Repository Link"],
+            "link": pub_row["KPMP Atlas Repository Link"],
             "samples": [{
-                "link": pub_row["Spatial Viewer Link"],
+                "link": pub_row["KPMP Atlas Spatial Viewer Link"],
                 "rui_location": rui_location
             }]
         }
