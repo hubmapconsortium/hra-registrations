@@ -18,8 +18,10 @@
         id: http://purl.org/ccf/1.5/fb73e18b-9ddc-4fdf-b9a6-4b7735e5017b
         link: https://portal.hubmapconsortium.org/browse/sample/539b8dd38698d191ec284f9f061e7441 
         rui_location: Male - LLL.json 
-        sections: #no datasets
+        sections:
         - link: https://portal.hubmapconsortium.org/browse/sample/0f1ddcb41a484adbda759c0c79097a02
+          datasets: 
+          - id: 0f1ddcb41a484adbda759c0c79097a02#D265-LLL-7A7-12
     - sex: Female
       description: "1.6 year old, White, Female, BPD with Pulmonary hypertension"
       age: 1
@@ -29,6 +31,8 @@
         id: http://purl.org/ccf/1.5/aed760ae-295a-43fc-b6cd-abdf6f012975
         link: https://portal.hubmapconsortium.org/browse/sample/9d944eb8a61bf85f70762ae3f2b0e22e
         rui_location: Female - LRL.json
-        sections: #no datasets
+        sections:
         - link: https://portal.hubmapconsortium.org/browse/sample/bff180755a5da7c036e5250c94f1ebd7
+          datasets:
+          - id: bff180755a5da7c036e5250c94f1ebd7#D115-RLL-10A3-40
       
