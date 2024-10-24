@@ -5,17 +5,45 @@
   defaults:
     id: https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld
     thumbnail: assets/icons/ico-unknown.svg
-    link: https://atlas.kpmp.org/
+    link: http://example.com/user/link
   donors:
     - sex: Male
-      age: 18
-      bmi: 21.05
-      link: https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a
+      #age: 18
+      #bmi: 21.05
+      id: https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P2
+      #link: https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a
       samples:
-      - rui_location: HBM332.XCRS.456.json
-        link: https://portal.hubmapconsortium.org/browse/sample/035a310cd14e264cb4775e807f734f1c
-      - rui_location: HBM435.NRDL.279.json
-        link: https://portal.hubmapconsortium.org/browse/sample/8baf0293d297265c279ea2dd6ca7580f
-      - rui_location: HBM923.RXXX.693.json
-        link: https://portal.hubmapconsortium.org/browse/sample/0f54612e33e86e0d8caeebc29c8d5ff9
-
+      - rui_location: P2_4A.json
+        #link:
+      - rui_location: P2-7A_v20241022.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/8baf0293d297265c279ea2dd6ca7580f
+      - rui_location: P2-19A2.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/0f54612e33e86e0d8caeebc29c8d5ff9
+      - rui_location: P2_13_whole.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/0f54612e33e86e0d8caeebc29c8d5ff9
+    - sex: Male
+      #age: 18
+      #bmi: 21.05
+      id: https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P3
+      #link: https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a
+      samples:
+      - rui_location: P3-3A_v20241022.json
+        #link:
+      - rui_location: P3-7A_v20241022.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/8baf0293d297265c279ea2dd6ca7580f
+      - rui_location: P3-9A_v20241022.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/0f54612e33e86e0d8caeebc29c8d5ff9
+    - sex: Male
+      #age: 18
+      #bmi: 21.05
+      id: https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P4
+      #link: https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a
+      samples:
+      - rui_location: P4-3A.json
+        #link:
+      - rui_location: P4-6A.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/8baf0293d297265c279ea2dd6ca7580f
+      - rui_location: P4-12A.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/0f54612e33e86e0d8caeebc29c8d5ff9
+      - rui_location: P4-22.json
+        #link: https://portal.hubmapconsortium.org/browse/sample/0f54612e33e86e0d8caeebc29c8d5ff9
