@@ -7426,21 +7426,23 @@
     {
       "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P2",
       "@type": "Donor",
-      "label": "Male",
+      "label": "Male, Age 18, BMI 21.05",
       "description": "Entered 1/22/2023, Demi Awosika-Olumo, University of Florida",
-      "link": "http://example.com/user/link",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a",
       "consortium_name": "HuBMAP",
       "provider_name": "University of Florida",
       "provider_uuid": "e8bd9a47-c92c-4d33-a0f2-459d04c34054",
+      "age": 18,
       "sex": "Male",
+      "bmi": 21.05,
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P2_TissueBlock1",
+          "@id": "2f06d89dc9a0fb76cc3e12ba16b5a75a",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 1/22/2023, Demi Awosika-Olumo, University of Florida",
           "description": "12.015 x 11.227 x 7.73 millimeter, 7.73 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/2f06d89dc9a0fb76cc3e12ba16b5a75a",
           "section_count": 0,
           "section_size": 7.73,
           "rui_location": {
@@ -7484,12 +7486,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor1_TissueBlock2",
+          "@id": "ebe3f6ee1a1a092b5a72663af667919b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/21/2024, Jing Chen, University of Florida",
           "description": "10.623 x 13 x 5 millimeter, 5 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/ebe3f6ee1a1a092b5a72663af667919b",
           "section_count": 0,
           "section_size": 5,
           "rui_location": {
@@ -7530,12 +7532,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor1_TissueBlock3",
+          "@id": "d48a302fc360b6a959b56f88c81858b1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/21/2024, James Carson, University of Florida",
           "description": "12 x 15 x 3.85 millimeter, 3.85 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/d48a302fc360b6a959b56f88c81858b1",
           "section_count": 0,
           "section_size": 3.85,
           "rui_location": {
@@ -7576,12 +7578,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor1_TissueBlock4",
+          "@id": "e68e345199b25c1d6d94c2fa25e9b13b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 1/22/2023, Demi Awosika-Olumo, University of Florida",
           "description": "24.96 x 42.33 x 7.73 millimeter, 7.73 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/e68e345199b25c1d6d94c2fa25e9b13b",
           "section_count": 0,
           "section_size": 7.73,
           "rui_location": {
@@ -7630,21 +7632,23 @@
     {
       "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P3",
       "@type": "Donor",
-      "label": "Male",
+      "label": "Female, Age 39, BMI 18.443",
       "description": "Entered 9/22/2024, James Carson, University of Florida",
-      "link": "http://example.com/user/link",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/0ff5f50f37df84538fce22af13120fb1",
       "consortium_name": "HuBMAP",
       "provider_name": "University of Florida",
       "provider_uuid": "e8bd9a47-c92c-4d33-a0f2-459d04c34054",
-      "sex": "Male",
+      "age": 39,
+      "sex": "Female",
+      "bmi": 18.443,
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P3_TissueBlock1",
+          "@id": "8bc9ab0285419fe165605349602710ec",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/22/2024, James Carson, University of Florida",
           "description": "20 x 20 x 5 millimeter, 5 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/8bc9ab0285419fe165605349602710ec",
           "section_count": 0,
           "section_size": 5,
           "rui_location": {
@@ -7685,12 +7689,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor2_TissueBlock2",
+          "@id": "ad3e61806f5ba9593787559560c050ea",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/22/2024, James Carson, University of Florida",
           "description": "13 x 13 x 5 millimeter, 5 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/ad3e61806f5ba9593787559560c050ea",
           "section_count": 0,
           "section_size": 5,
           "rui_location": {
@@ -7731,12 +7735,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor2_TissueBlock3",
+          "@id": "3e0ebb9f67f8a412de5453f15f66401b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/22/2024, James Carson, University of Florida",
           "description": "15 x 15 x 10 millimeter, 10 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/3e0ebb9f67f8a412de5453f15f66401b",
           "section_count": 0,
           "section_size": 10,
           "rui_location": {
@@ -7775,27 +7779,75 @@
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
             }
           }
+        },
+        {
+          "@id": "4aef7a78f4290e812eae82a58b141edc",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/22/2024, James Carson, University of Florida",
+          "description": "10 x 15 x 10 millimeter, 10 millimeter",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/4aef7a78f4290e812eae82a58b141edc",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/8f035ca4-5d5f-455d-a17a-c8c2390e7285",
+            "@type": "SpatialEntity",
+            "creator": "James Carson",
+            "creator_first_name": "James",
+            "creator_last_name": "Carson",
+            "creation_date": "2024-10-23",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 15,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/8f035ca4-5d5f-455d-a17a-c8c2390e7285_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-10-23",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 19,
+              "y_rotation": -71,
+              "z_rotation": 17,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 118.532,
+              "y_translation": 39.269,
+              "z_translation": 42.687,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
+            }
+          }
         }
       ]
     },
     {
       "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P4",
       "@type": "Donor",
-      "label": "Male",
+      "label": "Female, Age 21, BMI 27.094",
       "description": "Entered 9/22/2024, James Carson, University of Florida",
-      "link": "http://example.com/user/link",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/4fb6fba90db308fcbaf51b67d02f25f3",
       "consortium_name": "HuBMAP",
       "provider_name": "University of Florida",
       "provider_uuid": "e8bd9a47-c92c-4d33-a0f2-459d04c34054",
-      "sex": "Male",
+      "age": 21,
+      "sex": "Female",
+      "bmi": 27.094,
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#P4_TissueBlock1",
+          "@id": "c0de9cca87decbe94f944ea14f9aa064",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/22/2024, James Carson, University of Florida",
           "description": "20 x 20 x 5 millimeter, 5 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/c0de9cca87decbe94f944ea14f9aa064",
           "section_count": 0,
           "section_size": 5,
           "rui_location": {
@@ -7836,12 +7888,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor3_TissueBlock2",
+          "@id": "580822997e338060aa922e195b43e8c4",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/22/2024, James Carson, University of Florida",
           "description": "13 x 13 x 5 millimeter, 5 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/580822997e338060aa922e195b43e8c4",
           "section_count": 0,
           "section_size": 5,
           "rui_location": {
@@ -7882,12 +7934,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor3_TissueBlock3",
+          "@id": "fecce9c24249d05363bff6e63292bbb8",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/22/2024, James Carson, University of Florida",
           "description": "15 x 15 x 5 millimeter, 5 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/fecce9c24249d05363bff6e63292bbb8",
           "section_count": 0,
           "section_size": 5,
           "rui_location": {
@@ -7928,12 +7980,12 @@
           }
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld#Donor3_TissueBlock4",
+          "@id": "571759f0f5a8dae5838a7c1911e5cb87",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 9/22/2024, James Carson, University of Florida",
           "description": "20 x 20 x 5 millimeter, 5 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/571759f0f5a8dae5838a7c1911e5cb87",
           "section_count": 0,
           "section_size": 5,
           "rui_location": {
