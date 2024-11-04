@@ -1,0 +1,36 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/165e57a5-be19-48f7-9358-e90263f6e39e",
+  "@type": "SpatialEntity",
+  "creator": "James Carson",
+  "creator_first_name": "James",
+  "creator_last_name": "Carson",
+  "creation_date": "2024-10-22",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0001151"
+  ],
+  "x_dimension": 12,
+  "y_dimension": 15,
+  "z_dimension": 3.85,
+  "dimension_units": "millimeter",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/165e57a5-be19-48f7-9358-e90263f6e39e_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+    "placement_date": "2024-10-22",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 21,
+    "y_rotation": 133,
+    "z_rotation": 9,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 97.88,
+    "y_translation": 63.618,
+    "z_translation": 20.82,
+    "translation_units": "millimeter"
+  }
+}

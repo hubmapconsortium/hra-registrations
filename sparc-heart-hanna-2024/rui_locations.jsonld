@@ -1,0 +1,1453 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1",
+      "@type": "Donor",
+      "label": "Female, Age 49",
+      "description": "Entered 7/7/2024, Peter Hanna, UCLA",
+      "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+      "consortium_name": "SPARC",
+      "provider_name": "UCLA",
+      "provider_uuid": "D55648EA-5B31-11EF-B379-20E2A8B75C6B",
+      "age": 49,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "RA Trabmyo",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201213-RATrabMyo",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6eb4b90c-1e6f-4569-9d7c-39597ac473fa",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6eb4b90c-1e6f-4569-9d7c-39597ac473fa_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -29,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 22.214,
+              "y_translation": 58.21,
+              "z_translation": 83.749,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201213-RATrabMyo",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "RAGP",
+          "description": "10 x 15 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201214-RAGP",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ca1a3a63-73a4-43f5-9f50-7ead87e794e6",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002079",
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 15,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ca1a3a63-73a4-43f5-9f50-7ead87e794e6_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 33,
+              "y_rotation": -90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12.714,
+              "y_translation": 66.71,
+              "z_translation": 33.249,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201214-RAGP",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "RAA",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201215-RAA",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/b7dfa61c-6913-40a7-86b2-9dda7d70da66",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/b7dfa61c-6913-40a7-86b2-9dda7d70da66_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -15,
+              "y_rotation": -48,
+              "z_rotation": -26,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 30.714,
+              "y_translation": 82.21,
+              "z_translation": 80.249,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201215-RAA",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock4",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "SAN F",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201219-SAN",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/cbab45d3-6a15-49b4-a908-2fb15c19fee8",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/cbab45d3-6a15-49b4-a908-2fb15c19fee8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -12,
+              "y_rotation": -84,
+              "z_rotation": -59,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 8.714,
+              "y_translation": 65.71,
+              "z_translation": 53.249,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock4_TissueBlock4_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201219-SAN",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "IVCIAGP",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201220-IVCIAGP",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ea8c359b-30d5-45ae-ba52-361c509cdf4d",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ea8c359b-30d5-45ae-ba52-361c509cdf4d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -26,
+              "y_rotation": -15,
+              "z_rotation": -115,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 48.214,
+              "y_translation": 37.21,
+              "z_translation": 21.749,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock5_TissueBlock5_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20201220-IVCIAGP",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Sinus Venarum",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210102-SinusVenarum",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/727ef0bb-6a39-441c-bca1-a295eb9dddd8",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/727ef0bb-6a39-441c-bca1-a295eb9dddd8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 16,
+              "y_rotation": 43,
+              "z_rotation": -87,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 7.214,
+              "y_translation": 53.71,
+              "z_translation": 34.749,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock6_TissueBlock6_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210102-SinusVenarum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock7",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Base of LAA",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210103-BaseofLAA",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/e66ea49c-d918-404b-bad3-f145027203fe",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002079"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/e66ea49c-d918-404b-bad3-f145027203fe_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 79,
+              "y_rotation": -26,
+              "z_rotation": -59,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 55.714,
+              "y_translation": 107.71,
+              "z_translation": 33.249,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock7_TissueBlock7_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210103-BaseofLAA",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock8",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "LAA",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210106-LAA",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/1ece4b6a-05d0-4f85-a620-d60eea9b7880",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002079"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/1ece4b6a-05d0-4f85-a620-d60eea9b7880_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 79,
+              "y_rotation": -29,
+              "z_rotation": -36,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 66.214,
+              "y_translation": 97.71,
+              "z_translation": 49.749,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock8_TissueBlock8_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210106-LAA",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock9",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "LV Apex",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210201-LVApex",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 24,
+              "y_rotation": -14,
+              "z_rotation": 7,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 132.122,
+              "y_translation": 28.904,
+              "z_translation": 61.227,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock9_TissueBlock9_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210201-LVApex",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock10",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Basal RVFreewall",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210203-BasalRVFW",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -5,
+              "y_rotation": 69,
+              "z_rotation": -101,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 42.831,
+              "y_translation": 45.304,
+              "z_translation": 89.699,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock10_TissueBlock10_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210203-BasalRVFW",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock11",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Apical Septum",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210204-ApicalSeptum",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002094",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002080",
+              "http://purl.obolibrary.org/obo/UBERON_0002494"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 34,
+              "y_rotation": 51,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 101.7,
+              "y_translation": 22.763,
+              "z_translation": 61.069,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock11_TissueBlock11_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210204-ApicalSeptum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock12",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Mid Ant LV",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210205-MidAntLV",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 23,
+              "y_rotation": 74,
+              "z_rotation": 69,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 98.084,
+              "y_translation": 70.258,
+              "z_translation": 45.428,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock12_TissueBlock12_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210205-MidAntLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock13",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Basal Sept",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210206-BasalSeptum",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002094",
+              "http://purl.obolibrary.org/obo/UBERON_0002079",
+              "http://purl.obolibrary.org/obo/UBERON_0002078",
+              "http://purl.obolibrary.org/obo/UBERON_0002080",
+              "http://purl.obolibrary.org/obo/UBERON_0002494",
+              "http://purl.obolibrary.org/obo/UBERON_0002137",
+              "http://purl.obolibrary.org/obo/UBERON_0002135",
+              "http://purl.obolibrary.org/obo/UBERON_0002146",
+              "http://purl.obolibrary.org/obo/UBERON_0002134"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -151,
+              "y_rotation": -177,
+              "z_rotation": -112,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 58.453,
+              "y_translation": 46.571,
+              "z_translation": 52.966,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock13_TissueBlock13_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210206-BasalSeptum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock14",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Basal Post LV",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210207-BasalPostLV",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/e1a870bc-d965-4324-b691-55ebac9f2f89_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -83,
+              "y_rotation": -64,
+              "z_rotation": -28,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 66.897,
+              "y_translation": 14.061,
+              "z_translation": 22.567,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock14_TissueBlock14_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210207-BasalPostLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock15",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "RV Apex",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210208-RVApex",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002094",
+              "http://purl.obolibrary.org/obo/UBERON_0002080",
+              "http://purl.obolibrary.org/obo/UBERON_0002494"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a3e6d018-4e28-41b8-9ea7-6a3f8dc33f6c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -78,
+              "y_rotation": -168,
+              "z_rotation": -167,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 90.119,
+              "y_translation": 22.505,
+              "z_translation": 90.754,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock15_TissueBlock15_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210208-RVApex",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock16",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Basal Lat LV",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210209-BasalLatLV",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002079",
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -148,
+              "y_rotation": -4,
+              "z_rotation": 86,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 73.442,
+              "y_translation": 55.86,
+              "z_translation": 6.523,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock16_TissueBlock16_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210209-BasalLatLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock17",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Basal Ant LV",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210211-BasalAntLV",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -4,
+              "y_rotation": 55,
+              "z_rotation": 97,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 87.586,
+              "y_translation": 72.115,
+              "z_translation": 36.711,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock17_TissueBlock17_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210211-BasalAntLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock18",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Inferomedial Papillary Muscle",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210212-IMPap",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/5e6f98f7-50ae-4dae-9ded-035826213f52",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002494",
+              "http://purl.org/sig/ont/fma/fma7265",
+              "http://purl.org/sig/ont/fma/fma7267"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/5e6f98f7-50ae-4dae-9ded-035826213f52_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 79,
+              "y_rotation": -29,
+              "z_rotation": -36,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 90.714,
+              "y_translation": 41.71,
+              "z_translation": 49.249,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock18_TissueBlock18_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210212-IMPap",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock19",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Mid Post LV",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210215-MidPostLV",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 37,
+              "y_rotation": 147,
+              "z_rotation": 91,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 96.499,
+              "y_translation": 12.301,
+              "z_translation": 20.892,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock19_TissueBlock19_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/15/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210215-MidPostLV",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock20",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Mid Septum",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210216-MidSeptum",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002094",
+              "http://purl.obolibrary.org/obo/UBERON_0002080",
+              "http://purl.obolibrary.org/obo/UBERON_0002494"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 29,
+              "y_rotation": 156,
+              "z_rotation": 91,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 80.83,
+              "y_translation": 34.116,
+              "z_translation": 62.677,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock20_TissueBlock20_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210216-MidSeptum",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock21",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "RV Inflow",
+          "description": "10 x 10 x 5 millimeter, 5 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210217-RVInflow",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/554338ef-c514-41c6-b696-a6d11e00cd3e",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/554338ef-c514-41c6-b696-a6d11e00cd3e_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 97,
+              "y_rotation": -15,
+              "z_rotation": -84,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 57.214,
+              "y_translation": 10.21,
+              "z_translation": 58.249,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock21_TissueBlock21_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210217-RVInflow",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock22",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "RVOT",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210405-RVOT",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2021-03-19",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0004151",
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002094",
+              "http://purl.obolibrary.org/obo/UBERON_0002078",
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-03-19",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -39,
+              "y_rotation": -163,
+              "z_rotation": -123,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 63.52,
+              "y_translation": 69.159,
+              "z_translation": 86.743,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock22_TissueBlock22_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/18/2021, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210405-RVOT",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock23",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "VIVGP",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210409-VIVGP",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/aa38865a-54c3-4523-9e56-65b5be52f5a4",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/aa38865a-54c3-4523-9e56-65b5be52f5a4_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 93,
+              "y_rotation": 4,
+              "z_rotation": -87,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 67.714,
+              "y_translation": 85.21,
+              "z_translation": 46.749,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock23_TissueBlock23_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210409-VIVGP",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        },
+        {
+          "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock24",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "AVN",
+          "description": "5 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210417-AVN",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/726422c3-7f56-4d16-8c3e-d761dc83d614",
+            "@type": "SpatialEntity",
+            "creator": "Peter Hanna",
+            "creator_first_name": "Peter",
+            "creator_last_name": "Hanna",
+            "creation_date": "2024-08-08",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 5,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/726422c3-7f56-4d16-8c3e-d761dc83d614_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-08-08",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 118,
+              "y_rotation": 5,
+              "z_rotation": -22,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 44.214,
+              "y_translation": 41.71,
+              "z_translation": 37.249,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020#Donor1_TissueBlock24_TissueBlock24_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/7/2024, Peter Hanna, UCLA",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=files&path=files/primary/sub-DH09292020/sam-20210417-AVN",
+              "publication": "https://sparc.science/datasets/390/version/1?datasetDetailsTab=abstract&path=files/primary/sub-DH09292020",
+              "technology": "OTHER",
+              "thumbnail": "assets/thumbnails/sparc_logo.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
