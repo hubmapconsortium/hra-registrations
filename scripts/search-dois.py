@@ -3,9 +3,10 @@ import json
 import csv
 import yaml
 import argparse
+from collections import defaultdict
 
 def search_files(directory, doi_file):
-    found_dois = []
+    found_dois = defaultdict(set)
     with open(doi_file, 'r') as f:
         doilist = [line.strip() for line in f.readlines()]
     
@@ -24,7 +25,7 @@ def search_files(directory, doi_file):
                             content_str = json.dumps(content)
                             for doi in doilist:
                                 if doi in content_str:
-                                    found_dois.append(doi)
+                                    found_dois[doi].add(file_path)
                         except Exception as e:
                             print(f"Error reading {file_path}: {e}")
                 elif file.endswith('.csv'):
@@ -34,8 +35,8 @@ def search_files(directory, doi_file):
                             row_str = ','.join(row)
                             for doi in doilist:
                                 if doi in row_str:
-                                    found_dois.append(doi)
-    return list(set(found_dois))
+                                    found_dois[doi].add(file_path)
+    return found_dois
 
 def main():
     parser = argparse.ArgumentParser(description='Search for DOIs in files within a directory.')
@@ -44,7 +45,9 @@ def main():
     args = parser.parse_args()
 
     marked_dois = search_files(args.directory, args.doi_file)
-    print("Marked DOIs found in files:", marked_dois)
+    print("Marked DOIs found in files:")
+    for (doi, files) in marked_dois.items():
+        print(f"{doi}:\n\t{', '.join(sorted(files))}")
 
 if __name__ == "__main__":
     main()
