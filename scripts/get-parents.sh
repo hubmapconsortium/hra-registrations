@@ -175,7 +175,7 @@ for id in "${ids[@]}"
 do
   current_id=${id}
   while true; do
-    response=$(curl -s -w "\n%{http_code}" -X GET "${base_url}/entities/${current_id}" -H "Accept: application/json" -H "Authorization: Bearer AgMNpnNPrVj4Yga1OvzwMKKVggymYdaye3Xb0VoDYPQpmVE9MJhOC2ybm670wjYnGKba57jrj0kenGca8DrG0cd0KyX")
+    response=$(curl -s -w "\n%{http_code}" -X GET "${base_url}/entities/${current_id}" -H "Accept: application/json" -H "Authorization: Bearer API_TOKEN_HERE")
     http_code=$(echo "$response" | tail -n 1)
     body=$(echo "$response" | sed '$d')
 
