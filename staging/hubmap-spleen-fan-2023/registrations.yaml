@@ -12,11 +12,13 @@
     - sex: Male
       age: 20
       bmi: 28.7
-      id: UFL0007
+      label: UFL0007
+      id: https://entity.api.hubmapconsortium.org/entities/1785aae4f0fb8f13a56d79957d1cbedf#UFL0007
       link: https://portal.hubmapconsortium.org/browse/donor/1785aae4f0fb8f13a56d79957d1cbedf
       samples:
         - rui_location: spleen1.json
           link: https://portal.hubmapconsortium.org/browse/sample/5e84677c3dc53f5fd10dbd4c0c707121
+          id: https://entity.api.hubmapconsortium.org/entities/5e84677c3dc53f5fd10dbd4c0c707121
           sections:
             - datasets:
               - id: https://entity.api.hubmapconsortium.org/entities/1393ff7729eff13cd2f4d5d58af96fdb
@@ -24,6 +26,7 @@
                 link:  https://portal.hubmapconsortium.org/browse/dataset/1393ff7729eff13cd2f4d5d58af96fdb
         - rui_location: spleen2.json
           link: https://portal.hubmapconsortium.org/browse/sample/2dbbe0a335c233801e860414d9b974a9
+          id: https://entity.api.hubmapconsortium.org/entities/2dbbe0a335c233801e860414d9b974a9
           sections:
             - datasets:
               - id: https://entity.api.hubmapconsortium.org/entities/d73a864f5ad6bdffdf148f43423e2a01
@@ -32,10 +35,12 @@
     - sex: Female
       age: 21
       bmi: 37.1
-      id: UFL0006
+      label: UFL0006
+      id: https://entity.api.hubmapconsortium.org/entities/d386672d8d067ee117a086710cfbde5a#UFL0006
       link:  https://portal.hubmapconsortium.org/browse/donor/d386672d8d067ee117a086710cfbde5a
       samples:
         - rui_location: spleen3.json
+          id: https://entity.api.hubmapconsortium.org/entities/64e13907edf7eba3099d130c27278fa2
           link: https://portal.hubmapconsortium.org/browse/sample/64e13907edf7eba3099d130c27278fa2
           sections:
             - datasets:
@@ -43,6 +48,7 @@
                 link: https://portal.hubmapconsortium.org/browse/dataset/00d1a3623dac388773bc7780fcb42797
                 technology: CODEX
         - rui_location: spleen4.json
+          id: https://entity.api.hubmapconsortium.org/entities/2283c507fdbb47ae8981f9e5d3fc7364
           link: https://portal.hubmapconsortium.org/browse/sample/2283c507fdbb47ae8981f9e5d3fc7364
           sections:
             - datasets:
@@ -53,9 +59,11 @@
       age: 10
       bmi: 22.2
       link: https://portal.hubmapconsortium.org/browse/donor/95a62662006235867084078a1e10bebf
+      id: https://entity.api.hubmapconsortium.org/entities/95a62662006235867084078a1e10bebf
       label: UFL0008
       samples:
         - rui_location: spleen5.json
+          id: https://entity.api.hubmapconsortium.org/entities/8b09621e0749c27758b3a4e208488181
           link: https://portal.hubmapconsortium.org/browse/sample/8b09621e0749c27758b3a4e208488181
           sections:
             - datasets:
@@ -63,6 +71,8 @@
                 link: https://portal.hubmapconsortium.org/browse/dataset/2b57ac6fea7aa96d26d2685a297a4e7a
                 technology: CODEX
         - rui_location: spleen6.json
+          link: https://portal.hubmapconsortium.org/browse/sample/bf7db5748c79ce21ff2fbdea95643a0e
+          id: https://entity.api.hubmapconsortium.org/entities/bf7db5748c79ce21ff2fbdea95643a0e
           sections:
             - datasets:
               - id: https://entity.api.hubmapconsortium.org/entities/3de2804ec3219228758dba8382d33423
