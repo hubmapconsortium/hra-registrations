@@ -1046,17 +1046,19 @@
         "sample_type": "Tissue Block",
         "rui_location": {
           "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-          "@id": "http://purl.org/ccf/1.5/5b582f69-1a30-49f5-8e80-f6cefe4ea5be",
+          "@id": "http://purl.org/ccf/1.5/b195f78a-28c0-48d3-8b23-a92d38131d55",
           "@type": "SpatialEntity",
-          "ccf_annotations": [],
+          "ccf_annotations": [
+            "http://purl.obolibrary.org/obo/UBERON_0002115"
+          ],
           "creation_date": "2022-02-16",
-          "creator": "daniel cotter",
-          "creator_first_name": "daniel",
-          "creator_last_name": "cotter",
+          "creator": "Yiing Lin",
+          "creator_first_name": "Yiing",
+          "creator_last_name": "Lin",
           "dimension_units": "millimeter",
           "placement": {
             "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/5b582f69-1a30-49f5-8e80-f6cefe4ea5be_placement",
+            "@id": "http://purl.org/ccf/1.5/b195f78a-28c0-48d3-8b23-a92d38131d55_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-02-16",
             "rotation_order": "XYZ",
@@ -1066,17 +1068,17 @@
             "translation_units": "millimeter",
             "x_rotation": 0,
             "x_scaling": 1,
-            "x_translation": 181.571,
+            "x_translation": 130.806,
             "y_rotation": 0,
             "y_scaling": 1,
-            "y_translation": 108.616,
-            "z_rotation": 0,
+            "y_translation": 111.09,
+            "z_rotation": 86,
             "z_scaling": 1,
-            "z_translation": 49.997
+            "z_translation": 54.023
           },
-          "x_dimension": 10,
-          "y_dimension": 10,
-          "z_dimension": 10
+          "x_dimension": 3,
+          "y_dimension": 30,
+          "z_dimension": 15
         },
         "@id": "https://entity.api.hubmapconsortium.org/entities/f7b37eff8a36eb3852a373cc4878f50e",
         "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
