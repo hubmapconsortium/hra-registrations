@@ -1,5 +1,5 @@
 {
-  "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@id": "http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4",
   "@type": "SpatialEntity",
   "creator": "Peter Hanna",
@@ -18,7 +18,7 @@
   "z_dimension": 10,
   "dimension_units": "millimeter",
   "placement": {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4_placement",
     "@type": "SpatialPlacement",
     "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",

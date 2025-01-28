@@ -1,6 +1,6 @@
 [
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/dd258063b8389612a9596af734143906",
     "@type": "Donor",
     "label": "Male, Age 58, BMI 22.0",
@@ -17,7 +17,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/0.5/a92ad611-c3c6-43d9-bfd6-00ff906fa541",
           "@type": "SpatialEntity",
           "ccf_annotations": [],
@@ -28,7 +28,7 @@
           "dimension_units": "millimeter",
           "label": "SpatialEntity for Male, Age 58, BMI 22.0",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/0.5/a92ad611-c3c6-43d9-bfd6-00ff906fa541_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2/12/2020 11:50:03 AM",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/2510644405f4e7fd86d31af0001b840f",
     "@type": "Donor",
     "label": "Male, Age 56, BMI 32.5",
@@ -91,7 +91,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/0.5/43a81423-74d2-4803-a805-d745093c2376",
           "@type": "SpatialEntity",
           "ccf_annotations": [],
@@ -102,7 +102,7 @@
           "dimension_units": "millimeter",
           "label": "SpatialEntity for Male, Age 56, BMI 32.5",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/0.5/43a81423-74d2-4803-a805-d745093c2376_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2/12/2020 11:54:58 AM",
@@ -148,7 +148,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/aa97d20b4a8f3c1198826091bc5455d9",
     "@type": "Donor",
     "label": "Female, Age 44, BMI 28.0",
@@ -165,7 +165,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/0.5/6264c640-fadc-4852-b395-8a0bdc3d99bf",
           "@type": "SpatialEntity",
           "ccf_annotations": [],
@@ -176,7 +176,7 @@
           "dimension_units": "millimeter",
           "label": "SpatialEntity for Female, Age 44, BMI 28.0",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/0.5/6264c640-fadc-4852-b395-8a0bdc3d99bf_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2/12/2020 10:26:06 AM",
@@ -222,7 +222,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/866a78fd1ac8d4db740ebbb49a205b8d",
     "@type": "Donor",
     "label": "Female, Age 66, BMI 25.4",
@@ -239,7 +239,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/0.5/47f89696-e96a-41cc-8a88-cf4c4b3b8967",
           "@type": "SpatialEntity",
           "ccf_annotations": [],
@@ -250,7 +250,7 @@
           "dimension_units": "millimeter",
           "label": "SpatialEntity for Female, Age 66, BMI 25.4",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/0.5/47f89696-e96a-41cc-8a88-cf4c4b3b8967_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2/12/2020 10:30:12 AM",
@@ -296,7 +296,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/14fe19053a863e17b397bf4acb465c03",
     "@type": "Donor",
     "label": "Male, Age 56, BMI 27.7",
@@ -313,7 +313,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/0.5/812d2c8e-557a-48b9-8780-a5c1f53008cb",
           "@type": "SpatialEntity",
           "ccf_annotations": [],
@@ -324,7 +324,7 @@
           "dimension_units": "millimeter",
           "label": "SpatialEntity for Male, Age 56, BMI 27.7",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/0.5/812d2c8e-557a-48b9-8780-a5c1f53008cb_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2/12/2020 10:38:21 AM",
@@ -370,7 +370,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/a767eb82765b1a96a69e6fe28b6a387d",
     "@type": "Donor",
     "label": "Female, Age 56, BMI 45.5",
@@ -387,7 +387,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/0.5/ad6486c5-ee24-4c25-8c74-677ffb35a189",
           "@type": "SpatialEntity",
           "ccf_annotations": [],
@@ -398,7 +398,7 @@
           "dimension_units": "millimeter",
           "label": "SpatialEntity for Female, Age 56, BMI 45.5",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/0.5/ad6486c5-ee24-4c25-8c74-677ffb35a189_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2/12/2020 12:48:57 PM",
@@ -444,7 +444,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/ae36b667325281a00d66eed4c43c585f",
     "@type": "Donor",
     "label": "Male, Age 62, BMI 34.9",
@@ -461,7 +461,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/0.5/89386c4b-280e-4656-86c8-9dfd6b7de99a",
           "@type": "SpatialEntity",
           "ccf_annotations": [],
@@ -472,7 +472,7 @@
           "dimension_units": "millimeter",
           "label": "SpatialEntity for Male, Age 62, BMI 34.9",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/0.5/89386c4b-280e-4656-86c8-9dfd6b7de99a_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2/12/2020 12:50:08 PM",
@@ -518,7 +518,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/ca10ede410dee22a4eb8a1f8cbbd526b",
     "@type": "Donor",
     "label": "Male, Age 43",
@@ -534,7 +534,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/8ae7c9f9-b138-4b44-8aaf-944b7544ff8a",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -552,7 +552,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/8ae7c9f9-b138-4b44-8aaf-944b7544ff8a_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-08-01",
@@ -598,7 +598,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/171fc88db789ff330b0d7a420b642a23",
     "@type": "Donor",
     "label": "Female, Age 77, BMI 28.2",
@@ -615,7 +615,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/bf36d893-81ff-4f38-a6ba-97c9d870c841",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -633,7 +633,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/bf36d893-81ff-4f38-a6ba-97c9d870c841_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-06-20",
@@ -680,7 +680,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/0af69e70-3ec3-4d0b-a008-89a4186f4452",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -698,7 +698,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/0af69e70-3ec3-4d0b-a008-89a4186f4452_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-06-20",
@@ -744,7 +744,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/3432d3713adbbb51f52973d137a0d7ed",
     "@type": "Donor",
     "label": "Male, Age 66, BMI 31.4",
@@ -761,7 +761,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/a619c5f7-b1b1-427d-b76d-846caab056d0",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -777,7 +777,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/a619c5f7-b1b1-427d-b76d-846caab056d0_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-06-15",
@@ -824,7 +824,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/02ae63f0-4a35-4ff5-858e-689242c26828",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -841,7 +841,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/02ae63f0-4a35-4ff5-858e-689242c26828_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-06-15",
@@ -887,7 +887,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/2fbcffe20abbb7b7d8efe3437e9d2811",
     "@type": "Donor",
     "label": "Female, Age 51",
@@ -903,7 +903,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/643688a1-d062-4198-b804-326484c11f70",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -920,7 +920,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/643688a1-d062-4198-b804-326484c11f70_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-06-15",
@@ -966,7 +966,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/06ce4ac9632a3f861913b51a9b1ad06d",
     "@type": "Donor",
     "label": "Female, Age 57, BMI 33.6",
@@ -983,7 +983,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -1004,7 +1004,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-06-14",
@@ -1050,7 +1050,7 @@
     ]
   },
   {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/bfbcdea6a2b709fd0d3aa71b5a47d924",
     "@type": "Donor",
     "label": "Male, Age 20",
@@ -1066,7 +1066,7 @@
         "@type": "Sample",
         "sample_type": "Tissue Block",
         "rui_location": {
-          "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+          "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
           "@id": "http://purl.org/ccf/1.5/e6c247f7-694a-4477-8ba7-84d04bc9c3bd",
           "@type": "SpatialEntity",
           "ccf_annotations": [
@@ -1084,7 +1084,7 @@
           "creator_last_name": "Allen",
           "dimension_units": "millimeter",
           "placement": {
-            "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/e6c247f7-694a-4477-8ba7-84d04bc9c3bd_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-09-22",

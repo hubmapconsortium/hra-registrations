@@ -1,5 +1,5 @@
 {
-  "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@id": "http://purl.org/ccf/1.5/d386cdea-8d3c-46a2-9900-fbd5237cba80",
   "@type": "SpatialEntity",
   "creator": "Kristin Ardlie",
@@ -16,7 +16,7 @@
   "z_dimension": 7,
   "dimension_units": "millimeter",
   "placement": {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "http://purl.org/ccf/1.5/d386cdea-8d3c-46a2-9900-fbd5237cba80_placement",
     "@type": "SpatialPlacement",
     "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",

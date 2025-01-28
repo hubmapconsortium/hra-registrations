@@ -1,5 +1,5 @@
 {
-  "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
   "@type": "SpatialEntity",
   "creator": "Michela Noseda",
@@ -15,7 +15,7 @@
   "z_dimension": 24,
   "dimension_units": "millimeter",
   "placement": {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895_placement",
     "@type": "SpatialPlacement",
     "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",

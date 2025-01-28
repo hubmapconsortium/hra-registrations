@@ -1,5 +1,5 @@
 {
-  "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@id": "http://purl.org/ccf/1.5/4e24cfc4-bfea-4233-8fa0-d9967e3bdf7d",
   "@type": "SpatialEntity",
   "creator": "Raymond Sanchez",
@@ -21,7 +21,7 @@
   "z_dimension": 20,
   "dimension_units": "millimeter",
   "placement": {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "http://purl.org/ccf/1.5/4e24cfc4-bfea-4233-8fa0-d9967e3bdf7d_placement",
     "@type": "SpatialPlacement",
     "target": "http://purl.org/ccf/latest/ccf.owl#VHFAllenBrain",

@@ -190,7 +190,7 @@ for (const dataset of allDatasets) {
     const donorId = result.donor['@id'];
     if (!donors[donorId]) {
       donors[donorId] = {
-        '@context': 'https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld',
+        '@context': 'https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld',
         ...result.donor,
         samples: []
       };

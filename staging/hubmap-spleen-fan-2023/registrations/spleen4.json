@@ -1,5 +1,5 @@
 {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "http://purl.org/ccf/1.5/6febbcea-502d-466e-bb26-6e3eb8240902",
     "@type": "SpatialEntity",
     "ccf_annotations": [
@@ -24,7 +24,7 @@
     "creator_last_name": "Hakimian",
     "dimension_units": "millimeter",
     "placement": {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "http://purl.org/ccf/1.5/6febbcea-502d-466e-bb26-6e3eb8240902_placement",
     "@type": "SpatialPlacement",
     "placement_date": "2022-06-06",
