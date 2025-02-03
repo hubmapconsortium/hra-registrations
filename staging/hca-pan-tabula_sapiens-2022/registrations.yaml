@@ -8,8 +8,34 @@
     thumbnail: assets/icons/ico-unknown.svg
     link: http://example.com/user/link
   donors:
-    - sex: Male
+    - sex: Female
+      age: 59
+      label: TSP1
+      bmi: 23
       samples:
+
+    - sex: Female
+      age: 61
+      bmi: 41
+      label: TSP2
+      samples:
+
+    - sex: Female
+      age: 69
+      label: TSP7
+      bmi: 29
+      samples:
+
+    - sex: Male
+      age: 59
+      bmi: 18
+      label: TSP14
+      samples:
+
+
+
+
+
       - rui_location: VHM_asc_colon_low_confidence.json
       - rui_location: VHM_Bladder.json
       - rui_location: VHM_duodenum_low_confidence.json
@@ -20,8 +46,7 @@
       - rui_location: VHM_sigmoid_colon_low_confidence.json
       - rui_location: VHM_Skin.json
       - rui_location: VHM_Spleen.json
-    - sex: Female
-      samples:
+
       - rui_location: VHF_asc_colon_low_confidence.json
       - rui_location: VHF_bladder.json
       - rui_location: VHF_duodenum_low_confidence.json
