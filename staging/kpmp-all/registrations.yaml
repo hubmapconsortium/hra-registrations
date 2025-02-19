@@ -15,6 +15,9 @@
     samples:
     - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any
       rui_location: male-upper-left-pole.json
+      datasets:
+      - link: https://metaspace2020.org/dataset/2021-11-30_18h08m54s
+        technology: OTHER
   - id: https://atlas.kpmp.org/#164-10
     sex: Female
     label: 164-10, 40-49 Years
