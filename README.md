@@ -1,8 +1,8 @@
-# Human Reference Atlas Static Registrations
+# Human Reference Atlas Static Dataset Graphs
 
 This repository holds static registrations for use in the EUI and other HRA Applications. All registration digital-objects are published to <https://hubmapconsortium.github.io/hra-registrations/>. A registrations are at https://hubmapconsortium.github.io/hra-registrations/**name-in-root-folder**/rui_locations.jsonld
 
-## Hosted Registration Sets:
+## Hosted Dataset Graphs:
 
 * [allen-brain-bakken-2021](https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/)
 * [ctpop](https://hubmapconsortium.github.io/hra-registrations/ctpop/)
