@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: KPMP
+  provider_name: Indiana University
+  provider_uuid: FBB5FF4E-F87A-11EF-AC12-20E2A8B75C6B
   defaults:
     id: https://zenodo.org/records/7653239
     thumbnail: assets/icons/ico-unknown.svg
@@ -18,6 +18,7 @@
         datasets:
         - id: https://zenodo.org/records/7653239#Donor1_TissueBlock1_Dataset1
           link: https://zenodo.org/records/7653239
+          technology: CODEX
     - sex: Female
       label: "Age Range: 51-55"
       id: https://zenodo.org/records/7653239#Donor2
@@ -27,3 +28,4 @@
         datasets:
         - id: https://zenodo.org/records/7653239#Donor2_TissueBlock1_Dataset1
           link: https://zenodo.org/records/7653239
+          technology: CODEX

@@ -5,18 +5,18 @@
       "@id": "https://zenodo.org/records/7653239#Donor1",
       "@type": "Donor",
       "label": "Age Range: 46-50",
-      "description": "Entered 1/23/2025, Angela Sabo, <Provider Name>",
+      "description": "Entered 1/23/2025, Angela Sabo, Indiana University",
       "link": "https://zenodo.org/records/7653239",
-      "consortium_name": "<Consortium Name>",
-      "provider_name": "<Provider Name>",
-      "provider_uuid": "<uuid>",
+      "consortium_name": "KPMP",
+      "provider_name": "Indiana University",
+      "provider_uuid": "FBB5FF4E-F87A-11EF-AC12-20E2A8B75C6B",
       "sex": "Male",
       "samples": [
         {
           "@id": "https://zenodo.org/records/7653239#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 1/23/2025, Angela Sabo, <Provider Name>",
+          "label": "Registered 1/23/2025, Angela Sabo, Indiana University",
           "description": "3 x 3 x 3 millimeter, 3 millimeter",
           "link": "https://zenodo.org/records/7653239",
           "section_count": 0,
@@ -62,10 +62,11 @@
             {
               "@id": "https://zenodo.org/records/7653239#Donor1_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 1/23/2025, Angela Sabo, <Provider Name>",
-              "description": "Data/Assay Types: undefined, ",
+              "label": "Registered 1/23/2025, Angela Sabo, Indiana University",
+              "description": "Data/Assay Types: CODEX, ",
               "link": "https://zenodo.org/records/7653239",
               "publication": "https://www.nature.com/articles/s41467-023-38975-8",
+              "technology": "CODEX",
               "thumbnail": "assets/icons/ico-unknown.svg"
             }
           ]
@@ -76,18 +77,18 @@
       "@id": "https://zenodo.org/records/7653239#Donor2",
       "@type": "Donor",
       "label": "Age Range: 51-55",
-      "description": "Entered 1/20/2025, Angela Sabo, <Provider Name>",
+      "description": "Entered 1/20/2025, Angela Sabo, Indiana University",
       "link": "https://zenodo.org/records/7653239",
-      "consortium_name": "<Consortium Name>",
-      "provider_name": "<Provider Name>",
-      "provider_uuid": "<uuid>",
+      "consortium_name": "KPMP",
+      "provider_name": "Indiana University",
+      "provider_uuid": "FBB5FF4E-F87A-11EF-AC12-20E2A8B75C6B",
       "sex": "Female",
       "samples": [
         {
           "@id": "https://zenodo.org/records/7653239#Donor2_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 1/20/2025, Angela Sabo, <Provider Name>",
+          "label": "Registered 1/20/2025, Angela Sabo, Indiana University",
           "description": "3 x 2 x 2 millimeter, 2 millimeter",
           "link": "https://zenodo.org/records/7653239",
           "section_count": 0,
@@ -133,10 +134,11 @@
             {
               "@id": "https://zenodo.org/records/7653239#Donor2_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 1/20/2025, Angela Sabo, <Provider Name>",
-              "description": "Data/Assay Types: undefined, ",
+              "label": "Registered 1/20/2025, Angela Sabo, Indiana University",
+              "description": "Data/Assay Types: CODEX, ",
               "link": "https://zenodo.org/records/7653239",
               "publication": "https://www.nature.com/articles/s41467-023-38975-8",
+              "technology": "CODEX",
               "thumbnail": "assets/icons/ico-unknown.svg"
             }
           ]
