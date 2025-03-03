@@ -1,0 +1,43 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/d298b152-9d40-4592-949f-078173ff6166",
+  "@type": "SpatialEntity",
+  "creator": "Colin Chu",
+  "creator_first_name": "Colin",
+  "creator_last_name": "Chu",
+  "creator_email": "y.meng.22@ucl.ac.uk",
+  "creator_orcid": "",
+  "creation_date": "2025-03-03",
+  "ccf_annotations": [
+    "http://purl.org/sig/ont/fma/fma58303",
+    "http://purl.org/sig/ont/fma/fma261238"
+  ],
+  "slice_thickness": 14,
+  "slice_count": 25,
+  "x_dimension": 1,
+  "y_dimension": 2,
+  "z_dimension": 1,
+  "dimension_units": "millimeter",
+  "publication_doi": "https://doi.org/10.48539/hbm635.wjhb.325",
+  "consortium": "HuBMAP",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/d298b152-9d40-4592-949f-078173ff6166_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary",
+    "placement_date": "2025-03-03",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 30,
+    "y_rotation": -1,
+    "z_rotation": -24,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 9,
+    "y_translation": 19,
+    "z_translation": 4,
+    "translation_units": "millimeter"
+  }
+}

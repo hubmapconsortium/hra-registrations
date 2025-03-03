@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HuBMAP
+  provider_name: UCL
+  provider_uuid: D998986A-F850-11EF-99B4-20E2A8B75C6B
+  defaults:
+    id: https://lod.humanatlas.io/omap/12-eye-retina-ibex/v1.1/
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://lod.humanatlas.io/omap/12-eye-retina-ibex/v1.1/
+  donors:
+    - sex: Female
+      age: 59
+      id: https://doi.org/10.5281/zenodo.7777285#Donor1
+      samples:
+      - rui_location: retina.json
+        id: https://doi.org/10.5281/zenodo.7777285#Donor1_TissueBlock1
+        datasets:
+        - id: https://doi.org/10.5281/zenodo.7777285
+          link: https://zenodo.org/records/7777286
+          technology: IBEX

@@ -1,0 +1,40 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/2865c409-c19f-4475-b102-ba3cfc9b72a5",
+  "@type": "SpatialEntity",
+  "creator": "d d",
+  "creator_first_name": "d",
+  "creator_last_name": "d",
+  "creator_email": "",
+  "creator_orcid": "",
+  "creation_date": "2025-02-26",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0005457",
+    "http://purl.obolibrary.org/obo/UBERON_0005469"
+  ],
+  "x_dimension": 90,
+  "y_dimension": 130,
+  "z_dimension": 50,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/2865c409-c19f-4475-b102-ba3cfc9b72a5_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary",
+    "placement_date": "2025-02-26",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 41.134,
+    "y_translation": 63.442,
+    "z_translation": 26.881,
+    "translation_units": "millimeter"
+  }
+}

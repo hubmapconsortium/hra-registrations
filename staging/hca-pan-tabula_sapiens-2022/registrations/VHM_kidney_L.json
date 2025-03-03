@@ -1,0 +1,42 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/dea9970c-13b8-4cde-85a7-c328eca511cf",
+  "@type": "SpatialEntity",
+  "creator": "s s",
+  "creator_first_name": "s",
+  "creator_last_name": "s",
+  "creator_email": "",
+  "creator_orcid": "",
+  "creation_date": "2025-02-26",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0002015",
+    "http://purl.obolibrary.org/obo/UBERON_0001284",
+    "http://purl.obolibrary.org/obo/UBERON_0002189",
+    "http://purl.obolibrary.org/obo/UBERON_0004200"
+  ],
+  "x_dimension": 10,
+  "y_dimension": 10,
+  "z_dimension": 2,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/dea9970c-13b8-4cde-85a7-c328eca511cf_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+    "placement_date": "2025-02-26",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 67.456,
+    "y_translation": 57.485,
+    "z_translation": 41.215,
+    "translation_units": "millimeter"
+  }
+}

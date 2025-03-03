@@ -1,0 +1,39 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed",
+  "@type": "SpatialEntity",
+  "creator": "f f",
+  "creator_first_name": "f",
+  "creator_last_name": "f",
+  "creator_email": "",
+  "creator_orcid": "",
+  "creation_date": "2025-02-26",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0002119"
+  ],
+  "x_dimension": 12,
+  "y_dimension": 25,
+  "z_dimension": 10,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary",
+    "placement_date": "2025-02-26",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 6.255,
+    "y_translation": 12.484,
+    "z_translation": 5.267,
+    "translation_units": "millimeter"
+  }
+}

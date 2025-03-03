@@ -1,0 +1,78 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.7777285#Donor1",
+      "@type": "Donor",
+      "label": "Female, Age 59",
+      "description": "Entered 2/2/2025, Colin Chu, UCL",
+      "link": "https://lod.humanatlas.io/omap/12-eye-retina-ibex/v1.1/",
+      "consortium_name": "HuBMAP",
+      "provider_name": "UCL",
+      "provider_uuid": "D998986A-F850-11EF-99B4-20E2A8B75C6B",
+      "age": 59,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.5281/zenodo.7777285#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/2/2025, Colin Chu, UCL",
+          "description": "1 x 2 x 1 millimeter, 1 millimeter",
+          "link": "https://lod.humanatlas.io/omap/12-eye-retina-ibex/v1.1/",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d298b152-9d40-4592-949f-078173ff6166",
+            "@type": "SpatialEntity",
+            "creator": "Colin Chu",
+            "creator_first_name": "Colin",
+            "creator_last_name": "Chu",
+            "creator_orcid": "",
+            "creation_date": "2025-03-03",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma58303",
+              "http://purl.org/sig/ont/fma/fma261238"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 2,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d298b152-9d40-4592-949f-078173ff6166_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-03",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 30,
+              "y_rotation": -1,
+              "z_rotation": -24,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 9,
+              "y_translation": 19,
+              "z_translation": 4,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7777285",
+              "@type": "Dataset",
+              "label": "Registered 2/2/2025, Colin Chu, UCL",
+              "description": "Data/Assay Types: IBEX, ",
+              "link": "https://zenodo.org/records/7777286",
+              "technology": "IBEX",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

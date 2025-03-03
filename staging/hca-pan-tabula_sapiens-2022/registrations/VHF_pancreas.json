@@ -1,0 +1,43 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/d5fa4625-5ecd-4994-a1fe-f76b9c5769fa",
+  "@type": "SpatialEntity",
+  "creator": "h s",
+  "creator_first_name": "h",
+  "creator_last_name": "s",
+  "creator_email": "",
+  "creator_orcid": "",
+  "creation_date": "2025-02-26",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0001151",
+    "http://purl.obolibrary.org/obo/UBERON_0001150",
+    "http://purl.obolibrary.org/obo/UBERON_0010373",
+    "http://purl.obolibrary.org/obo/UBERON_0001069",
+    "http://purl.org/sig/ont/fma/fma14517"
+  ],
+  "x_dimension": 175,
+  "y_dimension": 50,
+  "z_dimension": 100,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/d5fa4625-5ecd-4994-a1fe-f76b9c5769fa_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+    "placement_date": "2025-02-26",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 86.317,
+    "y_translation": 31.053,
+    "z_translation": 42.187,
+    "translation_units": "millimeter"
+  }
+}

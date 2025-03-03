@@ -1,0 +1,42 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/2ba5b803-1162-4a7e-9371-e1c445deb97f",
+  "@type": "SpatialEntity",
+  "creator": "f f",
+  "creator_first_name": "f",
+  "creator_last_name": "f",
+  "creator_email": "",
+  "creator_orcid": "",
+  "creation_date": "2025-02-26",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0002015",
+    "http://purl.obolibrary.org/obo/UBERON_0004200",
+    "http://purl.obolibrary.org/obo/UBERON_0001284",
+    "http://purl.obolibrary.org/obo/UBERON_0002189"
+  ],
+  "x_dimension": 10,
+  "y_dimension": 10,
+  "z_dimension": 2,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/2ba5b803-1162-4a7e-9371-e1c445deb97f_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+    "placement_date": "2025-02-26",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 63.854,
+    "y_translation": 72.011,
+    "z_translation": 38.79,
+    "translation_units": "millimeter"
+  }
+}
