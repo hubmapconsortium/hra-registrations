@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: <Consortium Name>
+  provider_name: <Provider Name>
+  provider_uuid: <uuid>
+  defaults:
+    id: https://zenodo.org/records/7653239
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://zenodo.org/records/7653239
+    publication: https://www.nature.com/articles/s41467-023-38975-8
+  donors:
+    - sex: Male
+      label: "Age Range: 46-50"
+      id: https://zenodo.org/records/7653239#Donor1
+      samples:
+      - rui_location: 20-0046.json
+        id: https://zenodo.org/records/7653239#Donor1_TissueBlock1
+        datasets:
+        - id: https://zenodo.org/records/7653239#Donor1_TissueBlock1_Dataset1
+          link: https://zenodo.org/records/7653239
+    - sex: Female
+      label: "Age Range: 51-55"
+      id: https://zenodo.org/records/7653239#Donor2
+      samples:
+      - rui_location: KRP428.json
+        id: https://zenodo.org/records/7653239#Donor2_TissueBlock1
+        datasets:
+        - id: https://zenodo.org/records/7653239#Donor2_TissueBlock1_Dataset1
+          link: https://zenodo.org/records/7653239
