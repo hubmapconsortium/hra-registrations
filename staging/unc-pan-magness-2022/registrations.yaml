@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: <Consortium Name>
+  provider_name: UNC
+  provider_uuid: B79E37AC-FA11-11EF-8176-20E2A8B75C6B
+  defaults:
+    id: http://example.com/required/id
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub
+    publication: https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub
+  donors:
+    - sex: Male
+      age: 29
+      bmi: 36.4
+      samples:
+      - rui_location: ascending-colon.json
+      - rui_location: descending-colon.json
+      - rui_location: transverse-colon.json
+      - rui_location: duodenum.json
+      - rui_location: ileum.json
+      - rui_location: jejunum.json
+    - sex: Male
+      age: 45
+      bmi: 52.2
+      samples:
+      - rui_location: ascending-colon.json
+      - rui_location: descending-colon.json
+      - rui_location: transverse-colon.json
+      - rui_location: duodenum.json
+      - rui_location: ileum.json
+      - rui_location: jejunum.json
+    - sex: Male
+      age: 53
+      bmi: 25
+      samples:
+      - rui_location: ascending-colon.json
+      - rui_location: descending-colon.json
+      - rui_location: transverse-colon.json
+      - rui_location: duodenum.json
+      - rui_location: ileum.json
+      - rui_location: jejunum.json
