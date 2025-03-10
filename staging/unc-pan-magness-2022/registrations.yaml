@@ -9,126 +9,87 @@
     link: https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub
     publication: https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub
   donors:
-    - sex: Male
-      id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1
-      age: 29
-      bmi: 36.4
-      samples:
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock1
-        rui_location: ascending-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock1_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock2
-        rui_location: descending-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock2_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock3
-        rui_location: transverse-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock3_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock4
-        rui_location: duodenum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock4_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock5
-        rui_location: ileum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock5_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock6
-        rui_location: jejunum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock6_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-    - sex: Male
-      id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2
-      age: 45
-      bmi: 52.2
-      samples:
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock1
-        rui_location: ascending-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock1_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock2
-        rui_location: descending-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock2_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock3
-        rui_location: transverse-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock3_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS  
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock4
-        rui_location: duodenum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock4_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock5
-        rui_location: ileum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock5_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock6
-        rui_location: jejunum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock6_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-    - sex: Male
-      id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3
-      age: 53
-      bmi: 25
-      samples:
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock1
-        rui_location: ascending-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock1_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock2
-        rui_location: descending-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock2_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock3
-        rui_location: transverse-colon.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock3_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock4
-        rui_location: duodenum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock4_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock5
-        rui_location: ileum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock5_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
-      - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock6
-        rui_location: jejunum.json
-        datasets:
-        - id: https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock6_Dataset1
-          link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
-          technology: FACS
+  - sex: Male
+    age: 29
+    bmi: 36.4
+    samples:
+    - rui_location: ascending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: descending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: transverse-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: duodenum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: ileum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: jejunum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+  - sex: Male
+    age: 45
+    bmi: 52.2
+    samples:
+    - rui_location: ascending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: descending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: transverse-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS  
+    - rui_location: duodenum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: ileum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: jejunum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+  - sex: Male
+    age: 53
+    bmi: 25
+    samples:
+    - rui_location: ascending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: descending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: transverse-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: duodenum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: ileum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: jejunum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
