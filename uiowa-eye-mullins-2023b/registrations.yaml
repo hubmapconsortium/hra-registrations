@@ -15,49 +15,91 @@
       description: Entered 8/4/2023, Robert Mullins, UIowa
       samples:
         - rui_location: male_right_macula.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
         - rui_location: male_right_periphery.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
     - sex: Female
       age: 82
       label: Female, 82
       description: Entered 8/4/2023, Robert Mullins, UIowa
       samples:
         - rui_location: female_right_macula.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
         - rui_location: female_right_periphery.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
     - sex: Male
       age: 79
       label: Male, 79
       description: Entered 8/4/2023, Robert Mullins, UIowa
       samples:
         - rui_location: male_left_macula.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
         - rui_location: male_left_periphery.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
     - sex: Female
       age: 92
       label: Female, 92
       description: Entered 8/4/2023, Robert Mullins, UIowa
       samples:
         - rui_location: female_right_macula.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
         - rui_location: female_right_periphery.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
     - sex: Male
       age: 80
       label: Male, 80
       description: Entered 8/4/2023, Robert Mullins, UIowa
       samples:
         - rui_location: male_left_macula.json
-        - rui_location: male_left_periphery.json     
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
+        - rui_location: male_left_periphery.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file     
     - sex: Female
       age: 75
       label: Female, 75
       description: Entered 8/4/2023, Robert Mullins, UIowa
       samples:
         - rui_location: female_left_macula.json
-        - rui_location: female_left_periphery.json  
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
+        - rui_location: female_left_periphery.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file  
     - sex: Male
       age: 77
       label: Male, 77
       description: Entered 8/4/2023, Robert Mullins, UIowa
       samples:
         - rui_location: male_right_macula.json
-        - rui_location: male_right_periphery.json              
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
+        - rui_location: male_right_periphery.json
+          datasets:
+          - technology: 10x
+            link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE135922&format=file
 
 
   

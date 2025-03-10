@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- imports: 
+  - ./hubmap-kidney-jain-2024/rui_locations.jsonld
+  - ./hubmap-kidney-winfree-2017/rui_locations.jsonld

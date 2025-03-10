@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- imports: 
+  - ./hca-lung-meyer-2020/rui_locations.jsonld
+  - ./hubmap-lung-pryhuber-2021/rui_locations.jsonld
+  - ./nhlbi-lung-wang-2020/rui_locations.jsonld
