@@ -1,0 +1,1232 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1",
+      "@type": "Donor",
+      "label": "Male, Age 29, BMI 36.4",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "age": 29,
+      "sex": "Male",
+      "bmi": 36.4,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001153"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -25,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 252,
+              "z_translation": 162,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 148,
+              "y_translation": 348,
+              "z_translation": 213,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 22,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 146,
+              "y_translation": 341,
+              "z_translation": 173,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock4",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ea69603c-9dbc-4725-b53c-9c80f69f3e00",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.org/sig/ont/fma/fma14929"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ea69603c-9dbc-4725-b53c-9c80f69f3e00_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59,
+              "y_translation": 185,
+              "z_translation": 31,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock4_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock4_TissueBlock4_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/7d5ef335-8c53-4950-9cee-b0517b8c127b",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/7d5ef335-8c53-4950-9cee-b0517b8c127b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 67,
+              "y_rotation": -35,
+              "z_rotation": -100,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 111,
+              "y_translation": 60,
+              "z_translation": 48,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock5_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock5_TissueBlock5_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/174d6ef1-f12d-4cc8-987e-24637acd8adb",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/174d6ef1-f12d-4cc8-987e-24637acd8adb_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": -87,
+              "z_rotation": 17,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 164,
+              "y_translation": 148,
+              "z_translation": 60,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock6_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock6_TissueBlock6_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2",
+      "@type": "Donor",
+      "label": "Male, Age 45, BMI 52.2",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "age": 45,
+      "sex": "Male",
+      "bmi": 52.2,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001153"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -25,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 252,
+              "z_translation": 162,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 148,
+              "y_translation": 348,
+              "z_translation": 213,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 22,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 146,
+              "y_translation": 341,
+              "z_translation": 173,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock4",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ea69603c-9dbc-4725-b53c-9c80f69f3e00",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.org/sig/ont/fma/fma14929"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ea69603c-9dbc-4725-b53c-9c80f69f3e00_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59,
+              "y_translation": 185,
+              "z_translation": 31,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock4_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock4_TissueBlock4_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/7d5ef335-8c53-4950-9cee-b0517b8c127b",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/7d5ef335-8c53-4950-9cee-b0517b8c127b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 67,
+              "y_rotation": -35,
+              "z_rotation": -100,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 111,
+              "y_translation": 60,
+              "z_translation": 48,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock5_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock5_TissueBlock5_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/174d6ef1-f12d-4cc8-987e-24637acd8adb",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/174d6ef1-f12d-4cc8-987e-24637acd8adb_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": -87,
+              "z_rotation": 17,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 164,
+              "y_translation": 148,
+              "z_translation": 60,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock6_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock6_TissueBlock6_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3",
+      "@type": "Donor",
+      "label": "Male, Age 53, BMI 25",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "age": 53,
+      "sex": "Male",
+      "bmi": 25,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001153"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -25,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 252,
+              "z_translation": 162,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 148,
+              "y_translation": 348,
+              "z_translation": 213,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 22,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 146,
+              "y_translation": 341,
+              "z_translation": 173,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock4",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ea69603c-9dbc-4725-b53c-9c80f69f3e00",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.org/sig/ont/fma/fma14929"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ea69603c-9dbc-4725-b53c-9c80f69f3e00_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59,
+              "y_translation": 185,
+              "z_translation": 31,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock4_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock4_TissueBlock4_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/7d5ef335-8c53-4950-9cee-b0517b8c127b",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/7d5ef335-8c53-4950-9cee-b0517b8c127b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 67,
+              "y_rotation": -35,
+              "z_rotation": -100,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 111,
+              "y_translation": 60,
+              "z_translation": 48,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock5_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock5_TissueBlock5_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/174d6ef1-f12d-4cc8-987e-24637acd8adb",
+            "@type": "SpatialEntity",
+            "creator": "Joseph Burclaff",
+            "creator_first_name": "Joseph",
+            "creator_last_name": "Burclaff",
+            "creator_orcid": "",
+            "creation_date": "2025-03-05",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/174d6ef1-f12d-4cc8-987e-24637acd8adb_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-05",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -2,
+              "y_rotation": -87,
+              "z_rotation": 17,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 164,
+              "y_translation": 148,
+              "z_translation": 60,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock6_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: undefined, ",
+              "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock6_TissueBlock6_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+              "description": "Data/Assay Types: FACS, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz",
+              "publication": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+              "technology": "FACS",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
