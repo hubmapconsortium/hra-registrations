@@ -16,11 +16,16 @@
     <template id="eui-template">
       <ccf-eui
         home-url="HOME_URL"
-        data-sources='["SOURCE"]'
+        data-sources='[
+          "https://apps.humanatlas.io/api/ds-graph/hubmap",
+          "https://apps.humanatlas.io/api/ds-graph/sennet",
+          "SOURCE"
+        ]'
+        filter='{"ontologyTerms": ["http://purl.obolibrary.org/obo/UBERON_0001264"]}'
         logo-tooltip=""
         theme="hubmap"
         login-disabled="true"
-        selected-organs='["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0001264", "http://purl.obolibrary.org/obo/UBERON_0001264"]'
+        selected-organs='["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0001264"]'
       ></ccf-eui>
     </template>
     <script>
