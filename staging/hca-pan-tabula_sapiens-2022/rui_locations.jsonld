@@ -2,23 +2,1391 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1",
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP1",
       "@type": "Donor",
-      "label": "Male",
-      "description": "Entered 7/28/2023, h s, <Provider Name>",
-      "link": "http://example.com/user/link",
-      "consortium_name": "Tabula Sapiens",
-      "provider_name": "<Provider Name>",
+      "label": "TSP1",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP1",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
       "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 59,
+      "sex": "Female",
+      "bmi": 23,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP1_Bladder",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP1",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 26.735,
+              "y_translation": 36.004,
+              "z_translation": 41.02,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFUrinaryBladder"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$bladder%20organ_Block",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP1_Pancreas",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, h s, Tabula Sapiens",
+          "description": "175 x 50 x 100 millimeter, 100 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP1",
+          "section_count": 0,
+          "section_size": 100,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d5fa4625-5ecd-4994-a1fe-f76b9c5769fa",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
+            "x_dimension": 175,
+            "y_dimension": 50,
+            "z_dimension": 100,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d5fa4625-5ecd-4994-a1fe-f76b9c5769fa_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 86.317,
+              "y_translation": 31.053,
+              "z_translation": 42.187,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$endocrine%20pancreas",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/ff45e623-7f5f-46e3-b47d-56be0341f66b.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP10",
+      "@type": "Donor",
+      "label": "TSP10",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP10",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 33,
       "sex": "Male",
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock1",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP10_Skin",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/28/2023, h s, <Provider Name>",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP10",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 840.568,
+              "y_translation": 1210.077,
+              "z_translation": 158.112,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20abdomen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: smartseq, ",
+              "link": "https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/",
+              "technology": "smartseq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP10_Skin",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP10",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 840.568,
+              "y_translation": 1210.077,
+              "z_translation": 158.112,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20chest",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: smartseq, ",
+              "link": "https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/",
+              "technology": "smartseq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP10_Skin",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP10",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 840.568,
+              "y_translation": 1210.077,
+              "z_translation": 158.112,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body_Block",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP14",
+      "@type": "Donor",
+      "label": "TSP14",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP14",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 59,
+      "sex": "Male",
+      "bmi": 18,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP14_Bladder",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP14",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 29.744,
+              "y_translation": 30.988,
+              "z_translation": 48.726,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMUrinaryBladder"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$bladder%20organ",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP14_Prostate",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+          "description": "30 x 40 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP14",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/66e31648-94e6-4c22-ac76-2fdef2133aff",
+            "@type": "SpatialEntity",
+            "creator": "d d",
+            "creator_first_name": "d",
+            "creator_last_name": "d",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0011199",
+              "http://purl.org/sig/ont/fma/fma19719",
+              "http://purl.obolibrary.org/obo/UBERON_0002485",
+              "http://purl.obolibrary.org/obo/UBERON_0035441",
+              "http://purl.obolibrary.org/obo/UBERON_0035331",
+              "http://purl.obolibrary.org/obo/UBERON_8410026",
+              "http://purl.obolibrary.org/obo/UBERON_8410025",
+              "http://purl.obolibrary.org/obo/UBERON_8410027",
+              "http://purl.org/sig/ont/fma/fma74238"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 40,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/66e31648-94e6-4c22-ac76-2fdef2133aff_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 38.549,
+              "y_translation": 17.777,
+              "z_translation": 17,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$prostate%20gland",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/d77ec7d6-ef2e-49d6-9e79-05b7f8881484.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP14_Skin",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP14",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 840.568,
+              "y_translation": 1210.077,
+              "z_translation": 158.112,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20abdomen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP14_Skin",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP14",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 840.568,
+              "y_translation": 1210.077,
+              "z_translation": 158.112,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20chest",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP14_Spleen",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP14",
+          "section_count": 0,
+          "section_size": 12.7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/32aa316e-7b68-4d4e-ac4d-4194787529ea",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma15828",
+              "http://purl.org/sig/ont/fma/fma15837"
+            ],
+            "x_dimension": 12.7,
+            "y_dimension": 12.7,
+            "z_dimension": 12.7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/32aa316e-7b68-4d4e-ac4d-4194787529ea_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 73.467,
+              "y_translation": 90.731,
+              "z_translation": 27.417,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSpleen"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$spleen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP14_Thymus",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+          "description": "40 x 80 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP14",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/5fb93ab2-0fa8-4583-af2c-c3b8dfeb2a44",
+            "@type": "SpatialEntity",
+            "creator": "d d",
+            "creator_first_name": "d",
+            "creator_last_name": "d",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 40,
+            "y_dimension": 80,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/5fb93ab2-0fa8-4583-af2c-c3b8dfeb2a44_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 18,
+              "y_translation": 40,
+              "z_translation": 18,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$thymus",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP2",
+      "@type": "Donor",
+      "label": "TSP2",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 61,
+      "sex": "Female",
+      "bmi": 41,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Bladder",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 26.735,
+              "y_translation": 36.004,
+              "z_translation": 41.02,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFUrinaryBladder"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$bladder",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Kidney",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+          "description": "10 x 10 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2ba5b803-1162-4a7e-9371-e1c445deb97f",
+            "@type": "SpatialEntity",
+            "creator": "f f",
+            "creator_first_name": "f",
+            "creator_last_name": "f",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2ba5b803-1162-4a7e-9371-e1c445deb97f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 63.854,
+              "y_translation": 72.011,
+              "z_translation": 38.79,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$kidney",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+              "description": "Data/Assay Types: smartseq, ",
+              "link": "https://cellxgene.cziscience.com/e/2423ce2c-3149-4cca-a2ff-cf682ea29b5f.cxg/",
+              "technology": "smartseq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Skin",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 3,
+              "z_rotation": 26,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 804.099,
+              "y_translation": 1028.479,
+              "z_translation": 164.643,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$skin",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: smartseq, ",
+              "link": "https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/",
+              "technology": "smartseq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Small_Intestine%2FDuodenum",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "304.8 x 30 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.org/sig/ont/fma/fma14926",
+              "http://purl.obolibrary.org/obo/UBERON_0013644",
+              "http://purl.org/sig/ont/fma/fma14928",
+              "http://purl.org/sig/ont/fma/fma15077",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 304.8,
+            "y_dimension": 30,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 57,
+              "y_rotation": 98,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 43.436,
+              "y_translation": 279.866,
+              "z_translation": -2.817,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine_Block",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Small_Intestine%2FJejunum",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "304.8 x 30 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.obolibrary.org/obo/UBERON_0002115",
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 304.8,
+            "y_dimension": 30,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 57,
+              "y_rotation": 116,
+              "z_rotation": 47,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 125.212,
+              "y_translation": 163.467,
+              "z_translation": 34.926,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine_Block",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Spleen",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+          "section_count": 0,
+          "section_size": 12.7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma15837",
+              "http://purl.org/sig/ont/fma/fma15828",
+              "http://purl.org/sig/ont/fma/fma15838",
+              "http://purl.obolibrary.org/obo/UBERON_0001248",
+              "http://purl.org/sig/ont/fma/fma15839"
+            ],
+            "x_dimension": 12.7,
+            "y_dimension": 12.7,
+            "z_dimension": 12.7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 67.687,
+              "y_translation": 55.07,
+              "z_translation": 35.471,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSpleenV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$spleen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Thymus",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+          "description": "90 x 130 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP2",
+          "section_count": 0,
+          "section_size": 50,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2865c409-c19f-4475-b102-ba3cfc9b72a5",
+            "@type": "SpatialEntity",
+            "creator": "d d",
+            "creator_first_name": "d",
+            "creator_last_name": "d",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 90,
+            "y_dimension": 130,
+            "z_dimension": 50,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2865c409-c19f-4475-b102-ba3cfc9b72a5_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 41.134,
+              "y_translation": 63.442,
+              "z_translation": 26.881,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$thymus",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP21",
+      "@type": "Donor",
+      "label": "TSP21",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP21",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 45,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP21_Bladder",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP21",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 26.735,
+              "y_translation": 36.004,
+              "z_translation": 41.02,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFUrinaryBladder"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP21$bladder",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP21_Skin",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP21",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002097"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 3,
+              "z_rotation": 26,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 804.099,
+              "y_translation": 1028.479,
+              "z_translation": 164.643,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP21$skin",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP21_Spleen",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP21",
+          "section_count": 0,
+          "section_size": 12.7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma15837",
+              "http://purl.org/sig/ont/fma/fma15828",
+              "http://purl.org/sig/ont/fma/fma15838",
+              "http://purl.obolibrary.org/obo/UBERON_0001248",
+              "http://purl.org/sig/ont/fma/fma15839"
+            ],
+            "x_dimension": 12.7,
+            "y_dimension": 12.7,
+            "z_dimension": 12.7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 67.687,
+              "y_translation": 55.07,
+              "z_translation": 35.471,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSpleenV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP21$spleen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP25",
+      "@type": "Donor",
+      "label": "TSP25",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP25",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 60,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Bladder",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 29.744,
+              "y_translation": 30.988,
+              "z_translation": 48.726,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMUrinaryBladder"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$bladder",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fasc_colon",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/28/2023, h s, Tabula Sapiens",
           "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
           "section_count": 0,
           "section_size": 50,
           "rui_location": {
@@ -61,37 +1429,118 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$large%20intestine%2Fasc%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/28/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock2",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fsigmoid_colon",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
-          "description": "20 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
+          "label": "Registered 7/28/2023, h s, Tabula Sapiens",
+          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
           "section_count": 0,
-          "section_size": 20,
+          "section_size": 50,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf",
+            "@id": "http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd",
             "@type": "SpatialEntity",
             "creator": "h s",
             "creator_first_name": "h",
             "creator_last_name": "s",
-            "creation_date": "2023-08-28",
+            "creation_date": "2023-08-29",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0006082"
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001154"
             ],
-            "x_dimension": 20,
-            "y_dimension": 20,
-            "z_dimension": 20,
+            "x_dimension": 304.8,
+            "y_dimension": 40,
+            "z_dimension": 50,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/4f6471ec-f891-40a4-a5a2-e4eeda8cb2bf_placement",
+              "@id": "http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd_placement",
               "@type": "SpatialPlacement",
-              "placement_date": "2023-08-28",
+              "placement_date": "2023-08-29",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 11,
+              "y_rotation": 57,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 143.497,
+              "y_translation": 125.163,
+              "z_translation": 136.645,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$large%20intestine%2Fsigmoid%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/28/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Prostate",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+          "description": "30 x 40 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/66e31648-94e6-4c22-ac76-2fdef2133aff",
+            "@type": "SpatialEntity",
+            "creator": "d d",
+            "creator_first_name": "d",
+            "creator_last_name": "d",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0011199",
+              "http://purl.org/sig/ont/fma/fma19719",
+              "http://purl.obolibrary.org/obo/UBERON_0002485",
+              "http://purl.obolibrary.org/obo/UBERON_0035441",
+              "http://purl.obolibrary.org/obo/UBERON_0035331",
+              "http://purl.obolibrary.org/obo/UBERON_8410026",
+              "http://purl.obolibrary.org/obo/UBERON_8410025",
+              "http://purl.obolibrary.org/obo/UBERON_8410027",
+              "http://purl.org/sig/ont/fma/fma74238"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 40,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/66e31648-94e6-4c22-ac76-2fdef2133aff_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
@@ -101,21 +1550,32 @@
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 29.744,
-              "y_translation": 30.988,
-              "z_translation": 48.726,
+              "x_translation": 38.549,
+              "y_translation": 17.777,
+              "z_translation": 17,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHMUrinaryBladder"
+              "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$prostate",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/d77ec7d6-ef2e-49d6-9e79-05b7f8881484.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock3",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Duodenum",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/28/2023, h h, <Provider Name>",
+          "label": "Registered 7/28/2023, h h, Tabula Sapiens",
           "description": "104.8 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
           "section_count": 0,
           "section_size": 20,
           "rui_location": {
@@ -160,15 +1620,26 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$small%20intestine%2Fduodenum",
+              "@type": "Dataset",
+              "label": "Registered 7/28/2023, h h, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock4",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_ileum",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/28/2023, h h, <Provider Name>",
+          "label": "Registered 7/28/2023, h h, Tabula Sapiens",
           "description": "304.8 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
           "section_count": 0,
           "section_size": 20,
           "rui_location": {
@@ -216,277 +1687,26 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine"
             }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock5",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/28/2023, h h, <Provider Name>",
-          "description": "304.8 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 20,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/f7d210ee-f773-4ba1-a897-a1cbe8d2f158",
-            "@type": "SpatialEntity",
-            "creator": "h h",
-            "creator_first_name": "h",
-            "creator_last_name": "h",
-            "creation_date": "2023-08-29",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0002116",
-              "http://purl.org/sig/ont/fma/fma14966",
-              "http://purl.obolibrary.org/obo/UBERON_0002115",
-              "http://purl.obolibrary.org/obo/UBERON_0002114",
-              "http://purl.org/sig/ont/fma/fma14930",
-              "http://purl.org/sig/ont/fma/fma14928",
-              "http://purl.org/sig/ont/fma/fma14929",
-              "http://purl.org/sig/ont/fma/fma14926",
-              "http://purl.obolibrary.org/obo/UBERON_0013644",
-              "http://purl.org/sig/ont/fma/fma15077",
-              "http://purl.obolibrary.org/obo/UBERON_0004914"
-            ],
-            "x_dimension": 304.8,
-            "y_dimension": 20,
-            "z_dimension": 20,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/f7d210ee-f773-4ba1-a897-a1cbe8d2f158_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-29",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": 0,
-              "y_rotation": 0,
-              "z_rotation": -31,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 103.057,
-              "y_translation": 160.321,
-              "z_translation": 67.171,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine"
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$small%20intestine%2Fileum",
+              "@type": "Dataset",
+              "label": "Registered 7/28/2023, h h, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
             }
-          }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock6",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Spleen",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
-          "description": "80 x 40 x 60 millimeter, 60 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 60,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/d8165754-8e35-4921-9ce3-9a8b280b9ced",
-            "@type": "SpatialEntity",
-            "creator": "h s",
-            "creator_first_name": "h",
-            "creator_last_name": "s",
-            "creation_date": "2023-08-28",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001149",
-              "http://purl.obolibrary.org/obo/UBERON_0016479",
-              "http://purl.org/sig/ont/fma/fma15729",
-              "http://purl.org/sig/ont/fma/fma14487",
-              "http://purl.org/sig/ont/fma/fma14486",
-              "http://purl.obolibrary.org/obo/UBERON_0001117",
-              "http://purl.obolibrary.org/obo/UBERON_0001115",
-              "http://purl.obolibrary.org/obo/UBERON_0006727",
-              "http://purl.obolibrary.org/obo/UBERON_0006587",
-              "http://purl.obolibrary.org/obo/UBERON_0035444",
-              "http://purl.obolibrary.org/obo/UBERON_0013138"
-            ],
-            "x_dimension": 80,
-            "y_dimension": 40,
-            "z_dimension": 60,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/d8165754-8e35-4921-9ce3-9a8b280b9ced_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-28",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": -13,
-              "y_rotation": -15,
-              "z_rotation": -8,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 168.371,
-              "y_translation": 139.592,
-              "z_translation": 126.992,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLiver"
-            }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock7",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
-          "description": "50 x 40 x 40 millimeter, 40 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 40,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/211b8d3e-01b4-40b3-9de6-4feca0a16238",
-            "@type": "SpatialEntity",
-            "creator": "h s",
-            "creator_first_name": "h",
-            "creator_last_name": "s",
-            "creation_date": "2023-08-28",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0016479",
-              "http://purl.org/sig/ont/fma/fma15729",
-              "http://purl.org/sig/ont/fma/fma14487",
-              "http://purl.obolibrary.org/obo/UBERON_0001115",
-              "http://purl.obolibrary.org/obo/UBERON_0006727",
-              "http://purl.obolibrary.org/obo/UBERON_0006728",
-              "http://purl.obolibrary.org/obo/UBERON_0001116",
-              "http://purl.obolibrary.org/obo/UBERON_0006588",
-              "http://purl.obolibrary.org/obo/UBERON_0001247"
-            ],
-            "x_dimension": 50,
-            "y_dimension": 40,
-            "z_dimension": 40,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/211b8d3e-01b4-40b3-9de6-4feca0a16238_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-28",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": -25,
-              "y_rotation": -26,
-              "z_rotation": -5,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 135.328,
-              "y_translation": 81.396,
-              "z_translation": 186.679,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHMLiver"
-            }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock8",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/28/2023, h s, <Provider Name>",
-          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 50,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd",
-            "@type": "SpatialEntity",
-            "creator": "h s",
-            "creator_first_name": "h",
-            "creator_last_name": "s",
-            "creation_date": "2023-08-29",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001159",
-              "http://purl.obolibrary.org/obo/UBERON_0001153",
-              "http://purl.obolibrary.org/obo/UBERON_0001154"
-            ],
-            "x_dimension": 304.8,
-            "y_dimension": 40,
-            "z_dimension": 50,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-29",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": 11,
-              "y_rotation": 57,
-              "z_rotation": 0,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 143.497,
-              "y_translation": 125.163,
-              "z_translation": 136.645,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
-            }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock9",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
-          "description": "20 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 20,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43",
-            "@type": "SpatialEntity",
-            "creator": "h s",
-            "creator_first_name": "h",
-            "creator_last_name": "s",
-            "creation_date": "2023-08-28",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0002097"
-            ],
-            "x_dimension": 20,
-            "y_dimension": 20,
-            "z_dimension": 20,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/830da174-80d2-436e-ae02-4e36a3eedd43_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-28",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": 2,
-              "y_rotation": -20,
-              "z_rotation": 34,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 840.568,
-              "y_translation": 1210.077,
-              "z_translation": 158.112,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1"
-            }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor1_TissueBlock10",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
           "section_count": 0,
           "section_size": 12.7,
           "rui_location": {
@@ -525,28 +1745,99 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMSpleen"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$spleen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Thymus",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+          "description": "40 x 80 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP25",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/5fb93ab2-0fa8-4583-af2c-c3b8dfeb2a44",
+            "@type": "SpatialEntity",
+            "creator": "d d",
+            "creator_first_name": "d",
+            "creator_last_name": "d",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 40,
+            "y_dimension": 80,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/5fb93ab2-0fa8-4583-af2c-c3b8dfeb2a44_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 18,
+              "y_translation": 40,
+              "z_translation": 18,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$thymus",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2",
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP26",
       "@type": "Donor",
-      "label": "Female",
-      "description": "Entered 7/27/2023, h s, <Provider Name>",
-      "link": "http://example.com/user/link",
-      "consortium_name": "Tabula Sapiens",
-      "provider_name": "<Provider Name>",
+      "label": "TSP26",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP26",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
       "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 37,
       "sex": "Female",
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock1",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fasc_colon",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP26",
           "section_count": 0,
           "section_size": 50,
           "rui_location": {
@@ -586,61 +1877,87 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$large%20intestine%2Fasc%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock2",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fsigmoid_colon",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
-          "description": "20 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP26",
           "section_count": 0,
-          "section_size": 20,
+          "section_size": 50,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182",
+            "@id": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab",
             "@type": "SpatialEntity",
             "creator": "h s",
             "creator_first_name": "h",
             "creator_last_name": "s",
             "creation_date": "2023-08-28",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0006082"
+              "http://purl.obolibrary.org/obo/UBERON_0001154",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
             ],
-            "x_dimension": 20,
-            "y_dimension": 20,
-            "z_dimension": 20,
+            "x_dimension": 304.8,
+            "y_dimension": 40,
+            "z_dimension": 50,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182_placement",
+              "@id": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2023-08-28",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
               "scaling_units": "ratio",
-              "x_rotation": 0,
-              "y_rotation": 0,
+              "x_rotation": 11,
+              "y_rotation": 31,
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 26.735,
-              "y_translation": 36.004,
-              "z_translation": 41.02,
+              "x_translation": 119.763,
+              "y_translation": 85.628,
+              "z_translation": 98.584,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFUrinaryBladder"
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$large%20intestine%2Fsigmoid%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock3",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP26_Small_Intestine%2Fduodenum",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "304.8 x 30 x 30 millimeter, 30 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP26",
           "section_count": 0,
           "section_size": 30,
           "rui_location": {
@@ -684,15 +2001,26 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$small%20intestine%2duodenum",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock4",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP26_Small_Intestine%2Fileum",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "304.8 x 30 x 30 millimeter, 30 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP26",
           "section_count": 0,
           "section_size": 30,
           "rui_location": {
@@ -736,193 +2064,52 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
             }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock5",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
-          "description": "304.8 x 30 x 30 millimeter, 30 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 30,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1",
-            "@type": "SpatialEntity",
-            "creator": "h s",
-            "creator_first_name": "h",
-            "creator_last_name": "s",
-            "creation_date": "2023-08-28",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0002114",
-              "http://purl.org/sig/ont/fma/fma14930",
-              "http://purl.obolibrary.org/obo/UBERON_0002115",
-              "http://purl.obolibrary.org/obo/UBERON_0002116"
-            ],
-            "x_dimension": 304.8,
-            "y_dimension": 30,
-            "z_dimension": 30,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/dac50a34-5b99-4f66-9623-7d800ed63be1_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-28",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": 57,
-              "y_rotation": 116,
-              "z_rotation": 47,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 125.212,
-              "y_translation": 163.467,
-              "z_translation": 34.926,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$small%20intestine%2ileum",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
             }
-          }
-        },
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP27",
+      "@type": "Donor",
+      "label": "TSP27",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 56,
+      "sex": "Female",
+      "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock6",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Bladder",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/26/2023, h h, <Provider Name>",
-          "description": "100 x 40 x 40 millimeter, 40 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 40,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/fcba0377-177c-4a35-ac11-bc60224c1104",
-            "@type": "SpatialEntity",
-            "creator": "h h",
-            "creator_first_name": "h",
-            "creator_last_name": "h",
-            "creation_date": "2023-08-27",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14487",
-              "http://purl.org/sig/ont/fma/fma14486",
-              "http://purl.obolibrary.org/obo/UBERON_0016479",
-              "http://purl.obolibrary.org/obo/UBERON_0001149",
-              "http://purl.org/sig/ont/fma/fma15729",
-              "http://purl.obolibrary.org/obo/UBERON_0001115",
-              "http://purl.obolibrary.org/obo/UBERON_0006727",
-              "http://purl.obolibrary.org/obo/UBERON_0001114",
-              "http://purl.obolibrary.org/obo/UBERON_0001117",
-              "http://purl.obolibrary.org/obo/UBERON_0013138",
-              "http://purl.obolibrary.org/obo/UBERON_0035444",
-              "http://purl.obolibrary.org/obo/UBERON_0006587"
-            ],
-            "x_dimension": 100,
-            "y_dimension": 40,
-            "z_dimension": 40,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/fcba0377-177c-4a35-ac11-bc60224c1104_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-27",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": -39,
-              "y_rotation": 7,
-              "z_rotation": -38,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 214.447,
-              "y_translation": 120.44,
-              "z_translation": 91.716,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLiver"
-            }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock7",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h h, <Provider Name>",
-          "description": "110 x 40 x 40 millimeter, 40 millimeter",
-          "link": "http://example.com/user/link",
-          "section_count": 0,
-          "section_size": 40,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/6094746b-66e4-4355-972f-afa173204bd4",
-            "@type": "SpatialEntity",
-            "creator": "h h",
-            "creator_first_name": "h",
-            "creator_last_name": "h",
-            "creation_date": "2023-08-28",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14487",
-              "http://purl.org/sig/ont/fma/fma14484",
-              "http://purl.obolibrary.org/obo/UBERON_0016479",
-              "http://purl.org/sig/ont/fma/fma15729",
-              "http://purl.obolibrary.org/obo/UBERON_0001115",
-              "http://purl.obolibrary.org/obo/UBERON_0006727",
-              "http://purl.obolibrary.org/obo/UBERON_0006728",
-              "http://purl.obolibrary.org/obo/UBERON_0001116",
-              "http://purl.obolibrary.org/obo/UBERON_0001114",
-              "http://purl.obolibrary.org/obo/UBERON_0001247",
-              "http://purl.obolibrary.org/obo/UBERON_0006588"
-            ],
-            "x_dimension": 110,
-            "y_dimension": 40,
-            "z_dimension": 40,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/6094746b-66e4-4355-972f-afa173204bd4_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2023-08-28",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": 2,
-              "y_rotation": 2,
-              "z_rotation": -2,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 150.232,
-              "y_translation": 17.279,
-              "z_translation": 150.896,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLiver"
-            }
-          }
-        },
-        {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock8",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "20 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
           "section_count": 0,
           "section_size": 20,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc",
+            "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182",
             "@type": "SpatialEntity",
             "creator": "h s",
             "creator_first_name": "h",
             "creator_last_name": "s",
             "creation_date": "2023-08-28",
             "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma73166",
-              "http://purl.org/sig/ont/fma/fma223679",
-              "http://purl.obolibrary.org/obo/UBERON_0018140",
-              "http://purl.org/sig/ont/fma/fma62102",
-              "http://purl.org/sig/ont/fma/fma73119"
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
             ],
             "x_dimension": 20,
             "y_dimension": 20,
@@ -930,7 +2117,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc_placement",
+              "@id": "http://purl.org/ccf/1.5/469d1e65-af1f-4964-9646-0ace770ab182_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2023-08-28",
               "x_scaling": 1,
@@ -942,21 +2129,208 @@
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 88.932,
-              "y_translation": 24.366,
-              "z_translation": 71.969,
+              "x_translation": 26.735,
+              "y_translation": 36.004,
+              "z_translation": 41.02,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftMammaryGland"
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFUrinaryBladder"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$bladder",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock9",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Heart%2Fright_cardiac",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 1/26/2025, x s, Tabula Sapiens",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/df2e5e19-48af-46b1-aa9a-84bfcaa9415a",
+            "@type": "SpatialEntity",
+            "creator": "x s",
+            "creator_first_name": "x",
+            "creator_last_name": "s",
+            "creator_orcid": "",
+            "creation_date": "2025-02-27",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002078"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/df2e5e19-48af-46b1-aa9a-84bfcaa9415a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-27",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 20,
+              "y_translation": 79,
+              "z_translation": 73,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart",
+              "@type": "Dataset",
+              "label": "Registered 1/26/2025, x s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Heart%2Fright_ventricle",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/26/2025, x s, Tabula Sapiens",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/adb13ed6-5236-419c-b9c1-c516f3c7471d",
+            "@type": "SpatialEntity",
+            "creator": "x s",
+            "creator_first_name": "x",
+            "creator_last_name": "s",
+            "creator_orcid": "",
+            "creation_date": "2025-02-27",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084",
+              "http://purl.obolibrary.org/obo/UBERON_0002080"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/adb13ed6-5236-419c-b9c1-c516f3c7471d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-27",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 115.205,
+              "y_translation": 10.173,
+              "z_translation": 73,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart",
+              "@type": "Dataset",
+              "label": "Registered 1/26/2025, x s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_asc_colon",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 50,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0022277",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ],
+            "x_dimension": 304.8,
+            "y_dimension": 40,
+            "z_dimension": 50,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 24,
+              "y_rotation": 83,
+              "z_rotation": 49,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 35.809,
+              "y_translation": 316.233,
+              "z_translation": 54.732,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$large%20intestine%2asc%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_sigmoid_colon",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
           "section_count": 0,
           "section_size": 50,
           "rui_location": {
@@ -998,27 +2372,42 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$large%20intestine%2sigmoid%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock10",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Mammary",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "20 x 20 x 20 millimeter, 20 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
           "section_count": 0,
           "section_size": 20,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c",
+            "@id": "http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc",
             "@type": "SpatialEntity",
             "creator": "h s",
             "creator_first_name": "h",
             "creator_last_name": "s",
             "creation_date": "2023-08-28",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0002097"
+              "http://purl.org/sig/ont/fma/fma73166",
+              "http://purl.org/sig/ont/fma/fma223679",
+              "http://purl.obolibrary.org/obo/UBERON_0018140",
+              "http://purl.org/sig/ont/fma/fma62102",
+              "http://purl.org/sig/ont/fma/fma73119"
             ],
             "x_dimension": 20,
             "y_dimension": 20,
@@ -1026,7 +2415,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/d909ef30-ba7f-4a04-b6d5-bdf9f8f4164c_placement",
+              "@id": "http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2023-08-28",
               "x_scaling": 1,
@@ -1034,25 +2423,340 @@
               "z_scaling": 1,
               "scaling_units": "ratio",
               "x_rotation": 0,
-              "y_rotation": 3,
-              "z_rotation": 26,
+              "y_rotation": 0,
+              "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 804.099,
-              "y_translation": 1028.479,
-              "z_translation": 164.643,
+              "x_translation": 88.932,
+              "y_translation": 24.366,
+              "z_translation": 71.969,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1"
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftMammaryGland"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$mammary%20gland",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/2ba40233-8576-4dec-a5f1-2adfa115e2dc.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/tabulasapiens-pan/rui_locations.jsonld#Donor2_TissueBlock11",
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Ovary_L",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, h s, <Provider Name>",
+          "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+          "description": "12 x 25 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed",
+            "@type": "SpatialEntity",
+            "creator": "f f",
+            "creator_first_name": "f",
+            "creator_last_name": "f",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002119"
+            ],
+            "x_dimension": 12,
+            "y_dimension": 25,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 6.255,
+              "y_translation": 12.484,
+              "z_translation": 5.267,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ovary",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Ovary_R",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+          "description": "15 x 25 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/931a38d3-d2f2-4f12-9db4-3c9b3d5fa534",
+            "@type": "SpatialEntity",
+            "creator": "f f",
+            "creator_first_name": "f",
+            "creator_last_name": "f",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002118"
+            ],
+            "x_dimension": 15,
+            "y_dimension": 25,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/931a38d3-d2f2-4f12-9db4-3c9b3d5fa534_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 5.923,
+              "y_translation": 12.968,
+              "z_translation": 5.314,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ovary",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Pancreas",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, h s, Tabula Sapiens",
+          "description": "175 x 50 x 100 millimeter, 100 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 100,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d5fa4625-5ecd-4994-a1fe-f76b9c5769fa",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
+            "x_dimension": 175,
+            "y_dimension": 50,
+            "z_dimension": 100,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d5fa4625-5ecd-4994-a1fe-f76b9c5769fa_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 86.317,
+              "y_translation": 31.053,
+              "z_translation": 42.187,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$pancreas",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/ff45e623-7f5f-46e3-b47d-56be0341f66b.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_duodenum",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "304.8 x 30 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.org/sig/ont/fma/fma14926",
+              "http://purl.obolibrary.org/obo/UBERON_0013644",
+              "http://purl.org/sig/ont/fma/fma14928",
+              "http://purl.org/sig/ont/fma/fma15077",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 304.8,
+            "y_dimension": 30,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/977c2ba3-463f-449d-b2da-c52c3a4bd4ee_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 57,
+              "y_rotation": 98,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 43.436,
+              "y_translation": 279.866,
+              "z_translation": -2.817,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$small%20intestine%2Fduodenum",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Ileum",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "304.8 x 30 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/e07ea320-ff6e-4f05-a2a0-75ae2e966ef7",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.org/sig/ont/fma/fma14926",
+              "http://purl.obolibrary.org/obo/UBERON_0013644",
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.obolibrary.org/obo/UBERON_0002115",
+              "http://purl.obolibrary.org/obo/UBERON_0002116",
+              "http://purl.org/sig/ont/fma/fma14966"
+            ],
+            "x_dimension": 304.8,
+            "y_dimension": 30,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/e07ea320-ff6e-4f05-a2a0-75ae2e966ef7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 51,
+              "y_rotation": 118,
+              "z_rotation": 47,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 79.082,
+              "y_translation": 74.654,
+              "z_translation": 89.443,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$small%20intestine%2Fileum",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Spleen",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
           "description": "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
           "section_count": 0,
           "section_size": 12.7,
           "rui_location": {
@@ -1094,7 +2798,644 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFSpleenV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$spleen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_Thymus",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+          "description": "90 x 130 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP27",
+          "section_count": 0,
+          "section_size": 50,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2865c409-c19f-4475-b102-ba3cfc9b72a5",
+            "@type": "SpatialEntity",
+            "creator": "d d",
+            "creator_first_name": "d",
+            "creator_last_name": "d",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 90,
+            "y_dimension": 130,
+            "z_dimension": 50,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2865c409-c19f-4475-b102-ba3cfc9b72a5_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 41.134,
+              "y_translation": 63.442,
+              "z_translation": 26.881,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$thymus",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP28",
+      "@type": "Donor",
+      "label": "TSP28",
+      "description": "Entered 1/25/2025, f f, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP28",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 55,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP28_Ovary_L",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+          "description": "12 x 25 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP28",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed",
+            "@type": "SpatialEntity",
+            "creator": "f f",
+            "creator_first_name": "f",
+            "creator_last_name": "f",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002119"
+            ],
+            "x_dimension": 12,
+            "y_dimension": 25,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 6.255,
+              "y_translation": 12.484,
+              "z_translation": 5.267,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$ovary",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP28_Ovary_R",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+          "description": "15 x 25 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP28",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/931a38d3-d2f2-4f12-9db4-3c9b3d5fa534",
+            "@type": "SpatialEntity",
+            "creator": "f f",
+            "creator_first_name": "f",
+            "creator_last_name": "f",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002118"
+            ],
+            "x_dimension": 15,
+            "y_dimension": 25,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/931a38d3-d2f2-4f12-9db4-3c9b3d5fa534_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 5.923,
+              "y_translation": 12.968,
+              "z_translation": 5.314,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$ovary",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP30",
+      "@type": "Donor",
+      "label": "TSP30",
+      "description": "Entered 1/25/2025, f f, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP30",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 26,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP30_Ovary_L",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+          "description": "12 x 25 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP30",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed",
+            "@type": "SpatialEntity",
+            "creator": "f f",
+            "creator_first_name": "f",
+            "creator_last_name": "f",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002119"
+            ],
+            "x_dimension": 12,
+            "y_dimension": 25,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/46cd2681-b0f1-455b-a508-5bf7b806a3ed_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 6.255,
+              "y_translation": 12.484,
+              "z_translation": 5.267,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$ovary",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP30_Ovary_R",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+          "description": "15 x 25 x 10 millimeter, 10 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP30",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/931a38d3-d2f2-4f12-9db4-3c9b3d5fa534",
+            "@type": "SpatialEntity",
+            "creator": "f f",
+            "creator_first_name": "f",
+            "creator_last_name": "f",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002118"
+            ],
+            "x_dimension": 15,
+            "y_dimension": 25,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/931a38d3-d2f2-4f12-9db4-3c9b3d5fa534_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 5.923,
+              "y_translation": 12.968,
+              "z_translation": 5.314,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$ovary",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, f f, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP4",
+      "@type": "Donor",
+      "label": "TSP4",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP4",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 38,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP4_Mammary_L",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP4",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma73166",
+              "http://purl.org/sig/ont/fma/fma223679",
+              "http://purl.obolibrary.org/obo/UBERON_0018140",
+              "http://purl.org/sig/ont/fma/fma62102",
+              "http://purl.org/sig/ont/fma/fma73119"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d8ed19a3-2960-472f-a1ed-189cdbb71fdc_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 88.932,
+              "y_translation": 24.366,
+              "z_translation": 71.969,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftMammaryGland"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP4$mammary%20gland",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/2ba40233-8576-4dec-a5f1-2adfa115e2dc.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP7",
+      "@type": "Donor",
+      "label": "TSP7",
+      "description": "Entered 7/27/2023, h s, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP7",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 69,
+      "sex": "Female",
+      "bmi": 29,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP7_Spleen",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+          "description": "12.7 x 12.7 x 12.7 millimeter, 12.7 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP7",
+          "section_count": 0,
+          "section_size": 12.7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a",
+            "@type": "SpatialEntity",
+            "creator": "h s",
+            "creator_first_name": "h",
+            "creator_last_name": "s",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma15837",
+              "http://purl.org/sig/ont/fma/fma15828",
+              "http://purl.org/sig/ont/fma/fma15838",
+              "http://purl.obolibrary.org/obo/UBERON_0001248",
+              "http://purl.org/sig/ont/fma/fma15839"
+            ],
+            "x_dimension": 12.7,
+            "y_dimension": 12.7,
+            "z_dimension": 12.7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/f45ddb55-6427-4f10-932e-1e8b8c12e05a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 2,
+              "y_rotation": -20,
+              "z_rotation": 34,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 67.687,
+              "y_translation": 55.07,
+              "z_translation": 35.471,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFSpleenV1.1"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP7$spleen",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, h s, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP8",
+      "@type": "Donor",
+      "label": "TSP8",
+      "description": "Entered 1/25/2025, d d, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP8",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 56,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP8_Prostate",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+          "description": "30 x 40 x 30 millimeter, 30 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP8",
+          "section_count": 0,
+          "section_size": 30,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/66e31648-94e6-4c22-ac76-2fdef2133aff",
+            "@type": "SpatialEntity",
+            "creator": "d d",
+            "creator_first_name": "d",
+            "creator_last_name": "d",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0011199",
+              "http://purl.org/sig/ont/fma/fma19719",
+              "http://purl.obolibrary.org/obo/UBERON_0002485",
+              "http://purl.obolibrary.org/obo/UBERON_0035441",
+              "http://purl.obolibrary.org/obo/UBERON_0035331",
+              "http://purl.obolibrary.org/obo/UBERON_8410026",
+              "http://purl.obolibrary.org/obo/UBERON_8410025",
+              "http://purl.obolibrary.org/obo/UBERON_8410027",
+              "http://purl.org/sig/ont/fma/fma74238"
+            ],
+            "x_dimension": 30,
+            "y_dimension": 40,
+            "z_dimension": 30,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/66e31648-94e6-4c22-ac76-2fdef2133aff_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 38.549,
+              "y_translation": 17.777,
+              "z_translation": 17,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP8$prostate%20gland",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, d d, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/d77ec7d6-ef2e-49d6-9e79-05b7f8881484.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP9",
+      "@type": "Donor",
+      "label": "TSP9",
+      "description": "Entered 1/25/2025, c c, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896#TSP9",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "age": 37,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP9_Pancreas",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/25/2025, c c, Tabula Sapiens",
+          "description": "125 x 90 x 100 millimeter, 100 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896#TSP9",
+          "section_count": 0,
+          "section_size": 100,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/c053f62c-af03-42de-904a-fde28761f348",
+            "@type": "SpatialEntity",
+            "creator": "c c",
+            "creator_first_name": "c",
+            "creator_last_name": "c",
+            "creator_orcid": "",
+            "creation_date": "2025-02-26",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.org/sig/ont/fma/fma14517",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
+            "x_dimension": 125,
+            "y_dimension": 90,
+            "z_dimension": 100,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/c053f62c-af03-42de-904a-fde28761f348_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-02-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 55.929,
+              "y_translation": 36.376,
+              "z_translation": 41.808,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP9$exocrine%20pancreas",
+              "@type": "Dataset",
+              "label": "Registered 1/25/2025, c c, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/ff45e623-7f5f-46e3-b47d-56be0341f66b.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     }
