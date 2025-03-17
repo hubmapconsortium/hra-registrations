@@ -1,5 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
+## The IDs for small and large intestine blocks do not match HRApop. This is because HRApop mostly generates organ-level IDs (although see heart)
+## which works for most organs but not for the intestines. Those IDs were generated manually using url encoding conventions
+
 - consortium_name: HCA
   provider_name: Tabula Sapiens
   provider_uuid: d65cd08e-7d9b-11ee-b962-0242ac120002
@@ -136,14 +139,14 @@
       sample_type: Tissue Block
       rui_location: VHF_duodenum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine_Block
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine%2Fduodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Small_Intestine%2FJejunum
       sample_type: Tissue Block
       rui_location: VHF_jejunum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine_Block
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine%2Fjejunum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Spleen
