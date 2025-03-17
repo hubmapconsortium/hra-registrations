@@ -1,0 +1,3027 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor1",
+      "@type": "Donor",
+      "label": "D1, Age Range: 70-75",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 27.58,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor1_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor1_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor1_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor1_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor2",
+      "@type": "Donor",
+      "label": "D2, Age Range: 70-75",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 28.47,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor2_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor2_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3",
+      "@type": "Donor",
+      "label": "D3, Age Range: 60-65",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 31.48,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor3_TissueBlock3_TissueBlock3_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor4",
+      "@type": "Donor",
+      "label": "D4, Age Range: 50-55",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 21.45,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor4_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor4_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor4_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor4_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor4_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor4_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5",
+      "@type": "Donor",
+      "label": "D5, Age Range: 60-65",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 22.73,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor5_TissueBlock3_TissueBlock3_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6",
+      "@type": "Donor",
+      "label": "D6, Age Range: 60-65",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 26.74,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor6_TissueBlock3_TissueBlock3_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor7",
+      "@type": "Donor",
+      "label": "D7, Age Range: 60-65",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 31.31,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor7_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor7_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor7_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor7_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor8",
+      "@type": "Donor",
+      "label": "D9, Age Range: 45-50",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 26.67,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor8_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor8_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor8_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor8_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor9",
+      "@type": "Donor",
+      "label": "D10, Age Range: 40-45",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 53.35,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor9_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor9_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor9_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor9_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor10",
+      "@type": "Donor",
+      "label": "D11, Age Range: 35-40",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 28.03,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor10_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor10_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor10_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor10_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor10_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor10_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor11",
+      "@type": "Donor",
+      "label": "D12, Age Range: 40-45",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 28.03,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor11_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor11_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor11_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor11_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor11_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor11_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor12",
+      "@type": "Donor",
+      "label": "D13, Age Range: 35-40",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 26.41,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor12_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor12_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor12_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor12_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor12_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor12_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor13",
+      "@type": "Donor",
+      "label": "D14, Age Range: 30-35",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 32.33,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor13_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor13_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor13_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor13_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor13_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor13_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor14",
+      "@type": "Donor",
+      "label": "D15, Age Range: 40-45",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 19.55,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor14_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor14_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor14_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor14_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor14_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor14_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15",
+      "@type": "Donor",
+      "label": "D16, Age Range: 45-50",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 33.11,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor15_TissueBlock3_TissueBlock3_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16",
+      "@type": "Donor",
+      "label": "D17, Age Range: 40-45",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 41.01,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor16_TissueBlock3_TissueBlock3_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17",
+      "@type": "Donor",
+      "label": "D18, Age Range: 40-45",
+      "description": "Entered 2/11/2025, Anindita Basu, University of Chicago",
+      "link": "https://www.nature.com/articles/s41467-024-55440-2",
+      "consortium_name": "<Consortium Name>",
+      "provider_name": "University of Chicago",
+      "provider_uuid": "B53DE4A2-FF85-11EF-B047-20E2A8B75C6B",
+      "sex": "Female",
+      "bmi": 28.62,
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/043373cc-8063-40fe-95ed-d0bd5e17d4c3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 44,
+              "y_rotation": 70,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32,
+              "y_translation": 23,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18490",
+              "http://purl.org/sig/ont/fma/fma18498"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 54,
+              "y_rotation": 82,
+              "z_rotation": -56,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 27,
+              "y_translation": 42,
+              "z_translation": 3,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock2_TissueBlock2_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+          "description": "7 x 33 x 7 millimeter, 7 millimeter",
+          "link": "https://www.nature.com/articles/s41467-024-55440-2",
+          "section_count": 0,
+          "section_size": 7,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d",
+            "@type": "SpatialEntity",
+            "creator": "Anindita Basu",
+            "creator_first_name": "Anindita",
+            "creator_last_name": "Basu",
+            "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+            "creation_date": "2025-03-12",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18494"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 33,
+            "z_dimension": 7,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68b3a47f-cd9a-4176-978f-ed3fffe8cc6d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-03-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 50,
+              "y_rotation": 16,
+              "z_rotation": -68,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 12,
+              "y_translation": 5,
+              "z_translation": 13,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x Drop-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/",
+              "technology": "10x Drop-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1038/s41467-024-55440-2#Donor17_TissueBlock3_TissueBlock3_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 2/11/2025, Anindita Basu, University of Chicago",
+              "description": "Data/Assay Types: 10x ATAC-seq, ",
+              "link": "https://www.nature.com/articles/s41467-024-55440-2",
+              "technology": "10x ATAC-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

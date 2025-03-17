@@ -1,0 +1,40 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936",
+  "@type": "SpatialEntity",
+  "creator": "Anindita Basu",
+  "creator_first_name": "Anindita",
+  "creator_last_name": "Basu",
+  "creator_email": "",
+  "creator_orcid": "https://orcid.org/0000-0001-9468-3727",
+  "creation_date": "2025-03-12",
+  "ccf_annotations": [
+    "http://purl.org/sig/ont/fma/fma18490",
+    "http://purl.org/sig/ont/fma/fma18498"
+  ],
+  "x_dimension": 7,
+  "y_dimension": 33,
+  "z_dimension": 7,
+  "dimension_units": "millimeter",
+  "publication_doi": "https://doi.org/10.1016/j.celrep.2022.111838",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/ed624189-7e46-4537-99a8-0d3e6f01a936_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+    "placement_date": "2025-03-12",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 54,
+    "y_rotation": 82,
+    "z_rotation": -56,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 27,
+    "y_translation": 42,
+    "z_translation": 3,
+    "translation_units": "millimeter"
+  }
+}
