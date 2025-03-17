@@ -44,17 +44,9 @@
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20abdomen
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
         technology: smartseq
-    - id: https://doi.org/10.1126/science.abl4896#TSP10_Skin
-      sample_type: Tissue Block
-      rui_location: VHM_Skin.json
-      datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20chest
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
         technology: smartseq
-    - id: https://doi.org/10.1126/science.abl4896#TSP10_Skin
-      sample_type: Tissue Block
-      rui_location: VHM_Skin.json
-      datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body_Block
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
         technology: 10X
@@ -86,10 +78,6 @@
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20abdomen
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
         technology: 10X
-    - id: https://doi.org/10.1126/science.abl4896#TSP14_Skin
-      sample_type: Tissue Block
-      rui_location: VHM_Skin.json
-      datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20chest
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
         technology: 10X
