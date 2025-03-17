@@ -4,10 +4,20 @@
   provider_name: <Provider Name>
   provider_uuid: <uuid>
   defaults:
-    id: http://example.com/required/id
+    id: 10.1038/s41556-023-01337-z
     thumbnail: assets/icons/ico-unknown.svg
-    link: http://example.com/user/link
+    link: https://doi.org/10.1038/s41556-023-01337-z
   donors:
-    - sex: Male
+    - sex: Female
+      bmi: 27
+      age: 44
       samples:
       - rui_location: <name-of-rui-location in registrations folder>.json
+        datasets:
+          - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+    - sex: Male
+      bmi: 25
+      age: 30
+      samples:
+      - rui_location: <name-of-rui-location in registrations folder>.json
+
