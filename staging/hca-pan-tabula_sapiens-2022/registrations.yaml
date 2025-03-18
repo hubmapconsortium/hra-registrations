@@ -291,14 +291,14 @@
       sample_type: Tissue Block
       rui_location: VHF_heart_right_cardiac_atrium.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%2right%20cardiac%20atrium
         link: https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Heart%2Fright_ventricle
       sample_type: Tissue Block
       rui_location: VHF_heart_right_ventricle.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%2right%20ventricle
         link: https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_asc_colon
