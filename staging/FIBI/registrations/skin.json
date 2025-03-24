@@ -1,0 +1,41 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/1bf68459-b833-4d0e-8b2b-27b488b1c7dd",
+  "@type": "SpatialEntity",
+  "creator": "Nathan Anderson",
+  "creator_first_name": "Nathan",
+  "creator_last_name": "Anderson",
+  "creator_email": "naanderson@ucdavis.edu",
+  "creator_orcid": "https://orcid.org/0009-0000-5404-6344",
+  "creation_date": "2025-03-12",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0002097"
+  ],
+  "slice_thickness": 4,
+  "slice_count": 1,
+  "x_dimension": 14,
+  "y_dimension": 12,
+  "z_dimension": 8,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/1bf68459-b833-4d0e-8b2b-27b488b1c7dd_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/skin-male/v1.3#primary",
+    "placement_date": "2025-03-12",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 55,
+    "y_rotation": -12,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 554,
+    "y_translation": 1793,
+    "z_translation": 106,
+    "translation_units": "millimeter"
+  }
+}
