@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: <Consortium Name>
+  provider_name: Naftali Kaminski
+  provider_uuid: <uuid>
+  defaults:
+    id: 10.1126/sciadv.aba1983
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://www.science.org/doi/10.1126/sciadv.aba1983
+  donors:
+    - sex: Male
+      samples:
+      - rui_location: <name-of-rui-location in registrations folder>.json
+
+#dataset link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164829

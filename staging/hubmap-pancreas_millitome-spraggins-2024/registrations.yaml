@@ -1,0 +1,498 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HuBMAP
+  provider_name: Vanderbilt University
+  provider_uuid: 9F5C8F46-4DF4-11EF-A985-7E6DEE00831D
+  defaults:
+    id: https://hubmapconsortium.github.io/hra-registrations/hubmap-pancreas-millitome-spraggins-2024/rui_locations.jsonld
+    link: http://example.com/user/link
+  donors:
+    - sex: Male
+      age: 56
+      label: DON530
+      samples:
+        - sample_type: Tissue Block
+          label: PE-1A
+          link: https://portal.hubmapconsortium.org/browse/HBM625.ZFTZ.894
+          id: https://portal.hubmapconsortium.org/browse/HBM625.ZFTZ.894
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A1
+        - sample_type: Tissue Block
+          label: PE-1B
+          link: https://portal.hubmapconsortium.org/browse/HBM859.DZPK.256
+          id: https://portal.hubmapconsortium.org/browse/HBM859.DZPK.256
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B1
+        - sample_type: Tissue Block
+          label: PE-1C
+          link: https://portal.hubmapconsortium.org/browse/HBM527.VMNR.723
+          id: https://portal.hubmapconsortium.org/browse/HBM527.VMNR.723
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C1
+        - sample_type: Tissue Block
+          label: PE-1D
+          link: https://portal.hubmapconsortium.org/browse/HBM685.VJVH.785
+          id: https://portal.hubmapconsortium.org/browse/HBM685.VJVH.785
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D1
+        - sample_type: Tissue Block
+          label: CLR-2A
+          link: https://portal.hubmapconsortium.org/browse/HBM833.JPZG.893
+          id: https://portal.hubmapconsortium.org/browse/HBM833.JPZG.893
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A2
+        - sample_type: Tissue Block
+          label: CLR-2B
+          link: https://portal.hubmapconsortium.org/browse/HBM329.BFHH.463
+          id: https://portal.hubmapconsortium.org/browse/HBM329.BFHH.463
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B2
+        - sample_type: Tissue Block
+          label: CLR-2C
+          link: https://portal.hubmapconsortium.org/browse/HBM958.LBJH.999
+          id: https://portal.hubmapconsortium.org/browse/HBM958.LBJH.999
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C2
+        - sample_type: Tissue Block
+          label: CLR-2D
+          link: https://portal.hubmapconsortium.org/browse/HBM377.WDKH.475
+          id: https://portal.hubmapconsortium.org/browse/HBM377.WDKH.475
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D2
+        - sample_type: Tissue Block
+          label: PCMC-3A
+          link: https://portal.hubmapconsortium.org/browse/HBM869.FJXG.495
+          id: https://portal.hubmapconsortium.org/browse/HBM869.FJXG.495
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A3
+        - sample_type: Tissue Block
+          label: PCMC-3B
+          link: https://portal.hubmapconsortium.org/browse/HBM927.QBZP.837
+          id: https://portal.hubmapconsortium.org/browse/HBM927.QBZP.837
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B3
+        - sample_type: Tissue Block
+          label: PCMC-3C
+          link: https://portal.hubmapconsortium.org/browse/HBM293.ZZWZ.357
+          id: https://portal.hubmapconsortium.org/browse/HBM293.ZZWZ.357
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C3
+        - sample_type: Tissue Block
+          label: PCMC-3D
+          link: https://portal.hubmapconsortium.org/browse/HBM442.TVMK.429
+          id: https://portal.hubmapconsortium.org/browse/HBM442.TVMK.429
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D3
+        - sample_type: Tissue Block
+          label: FCMC-4A
+          link: https://portal.hubmapconsortium.org/browse/HBM484.CKHP.546
+          id: https://portal.hubmapconsortium.org/browse/HBM484.CKHP.546
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A4
+        - sample_type: Tissue Block
+          label: FCMC-4B
+          link: https://portal.hubmapconsortium.org/browse/HBM385.FTLT.493
+          id: https://portal.hubmapconsortium.org/browse/HBM385.FTLT.493
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B4
+        - sample_type: Tissue Block
+          label: FCMC-4C
+          link: https://portal.hubmapconsortium.org/browse/HBM279.ZBFG.324
+          id: https://portal.hubmapconsortium.org/browse/HBM279.ZBFG.324
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C4
+        - sample_type: Tissue Block
+          label: FCMC-4D
+          link: https://portal.hubmapconsortium.org/browse/HBM674.MWZD.688
+          id: https://portal.hubmapconsortium.org/browse/HBM674.MWZD.688
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D4
+        - sample_type: Tissue Block
+          label: FF-5A
+          link: https://portal.hubmapconsortium.org/browse/HBM883.PSDQ.427
+          id: https://portal.hubmapconsortium.org/browse/HBM883.PSDQ.427
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A5
+        - sample_type: Tissue Block
+          label: FF-5B
+          link: https://portal.hubmapconsortium.org/browse/HBM527.NKKJ.929
+          id: https://portal.hubmapconsortium.org/browse/HBM527.NKKJ.929
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B5
+        - sample_type: Tissue Block
+          label: FF-5C
+          link: https://portal.hubmapconsortium.org/browse/HBM973.ZLKQ.336
+          id: https://portal.hubmapconsortium.org/browse/HBM973.ZLKQ.336
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C5
+        - sample_type: Tissue Block
+          label: FF-5D
+          link: https://portal.hubmapconsortium.org/browse/HBM876.MXVS.964
+          id: https://portal.hubmapconsortium.org/browse/HBM876.MXVS.964
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D5
+        - sample_type: Tissue Block
+          label: RNA-6A
+          link: https://portal.hubmapconsortium.org/browse/HBM246.CHBX.834
+          id: https://portal.hubmapconsortium.org/browse/HBM246.CHBX.834
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A6
+        - sample_type: Tissue Block
+          label: RNA-6B
+          link: https://portal.hubmapconsortium.org/browse/HBM766.MZBD.225
+          id: https://portal.hubmapconsortium.org/browse/HBM766.MZBD.225
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B6
+        - sample_type: Tissue Block
+          label: RNA-6C
+          link: https://portal.hubmapconsortium.org/browse/HBM757.TRPD.633
+          id: https://portal.hubmapconsortium.org/browse/HBM757.TRPD.633
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C6
+        - sample_type: Tissue Block
+          label: RNA-6D
+          link: https://portal.hubmapconsortium.org/browse/HBM557.HCGR.966
+          id: https://portal.hubmapconsortium.org/browse/HBM557.HCGR.966
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D6
+        - sample_type: Tissue Block
+          label: PE-7A
+          link: https://portal.hubmapconsortium.org/browse/HBM649.JXXJ.663
+          id: https://portal.hubmapconsortium.org/browse/HBM649.JXXJ.663
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A7
+        - sample_type: Tissue Block
+          label: PE-7B
+          link: https://portal.hubmapconsortium.org/browse/HBM585.QZJW.757
+          id: https://portal.hubmapconsortium.org/browse/HBM585.QZJW.757
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B7
+        - sample_type: Tissue Block
+          label: PE-7C
+          link: https://portal.hubmapconsortium.org/browse/HBM976.ZRGZ.727
+          id: https://portal.hubmapconsortium.org/browse/HBM976.ZRGZ.727
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C7
+        - sample_type: Tissue Block
+          label: PE-7D
+          link: https://portal.hubmapconsortium.org/browse/HBM546.DGDM.997
+          id: https://portal.hubmapconsortium.org/browse/HBM546.DGDM.997
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D7
+        - sample_type: Tissue Block
+          label: CLR-8A
+          link: https://portal.hubmapconsortium.org/browse/HBM553.NXDC.839
+          id: https://portal.hubmapconsortium.org/browse/HBM553.NXDC.839
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A8
+        - sample_type: Tissue Block
+          label: CLR-8B
+          link: https://portal.hubmapconsortium.org/browse/HBM729.SWHH.556
+          id: https://portal.hubmapconsortium.org/browse/HBM729.SWHH.556
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B8
+        - sample_type: Tissue Block
+          label: CLR-8C
+          link: https://portal.hubmapconsortium.org/browse/HBM982.QJXL.457
+          id: https://portal.hubmapconsortium.org/browse/HBM982.QJXL.457
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C8
+        - sample_type: Tissue Block
+          label: CLR-8D
+          link: https://portal.hubmapconsortium.org/browse/HBM358.RPHN.988
+          id: https://portal.hubmapconsortium.org/browse/HBM358.RPHN.988
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D8
+        - sample_type: Tissue Block
+          label: PCMC-9A
+          link: https://portal.hubmapconsortium.org/browse/HBM682.GXDW.332
+          id: https://portal.hubmapconsortium.org/browse/HBM682.GXDW.332
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A9
+        - sample_type: Tissue Block
+          label: PCMC-9B
+          link: https://portal.hubmapconsortium.org/browse/HBM625.GBWK.235
+          id: https://portal.hubmapconsortium.org/browse/HBM625.GBWK.235
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B9
+        - sample_type: Tissue Block
+          label: PCMC-9C
+          link: https://portal.hubmapconsortium.org/browse/HBM946.VMFS.285
+          id: https://portal.hubmapconsortium.org/browse/HBM946.VMFS.285
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C9
+        - sample_type: Tissue Block
+          label: PCMC-9D
+          link: https://portal.hubmapconsortium.org/browse/HBM684.XGCJ.236
+          id: https://portal.hubmapconsortium.org/browse/HBM684.XGCJ.236
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D9
+        - sample_type: Tissue Block
+          label: FCMC-10A
+          link: https://portal.hubmapconsortium.org/browse/HBM226.VMCQ.457
+          id: https://portal.hubmapconsortium.org/browse/HBM226.VMCQ.457
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A10
+        - sample_type: Tissue Block
+          label: FCMC-10B
+          link: https://portal.hubmapconsortium.org/browse/HBM468.BSFF.497
+          id: https://portal.hubmapconsortium.org/browse/HBM468.BSFF.497
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B10
+        - sample_type: Tissue Block
+          label: FCMC-10C
+          link: https://portal.hubmapconsortium.org/browse/HBM885.NMZD.498
+          id: https://portal.hubmapconsortium.org/browse/HBM885.NMZD.498
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C10
+        - sample_type: Tissue Block
+          label: FCMC-10D
+          link: https://portal.hubmapconsortium.org/browse/HBM934.DSKM.373
+          id: https://portal.hubmapconsortium.org/browse/HBM934.DSKM.373
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D10
+        - sample_type: Tissue Block
+          label: FF-11A
+          link: https://portal.hubmapconsortium.org/browse/HBM477.DNSQ.482
+          id: https://portal.hubmapconsortium.org/browse/HBM477.DNSQ.482
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A11
+        - sample_type: Tissue Block
+          label: FF-11B
+          link: https://portal.hubmapconsortium.org/browse/HBM777.XKJR.955
+          id: https://portal.hubmapconsortium.org/browse/HBM777.XKJR.955
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B11
+        - sample_type: Tissue Block
+          label: FF-11C
+          link: https://portal.hubmapconsortium.org/browse/HBM932.BDDF.488
+          id: https://portal.hubmapconsortium.org/browse/HBM932.BDDF.488
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C11
+        - sample_type: Tissue Block
+          label: FF-11D
+          link: https://portal.hubmapconsortium.org/browse/HBM654.BRMR.499
+          id: https://portal.hubmapconsortium.org/browse/HBM654.BRMR.499
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D11
+        - sample_type: Tissue Block
+          label: RNA-12A
+          link: https://portal.hubmapconsortium.org/browse/HBM334.CKDR.378
+          id: https://portal.hubmapconsortium.org/browse/HBM334.CKDR.378
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A12
+        - sample_type: Tissue Block
+          label: RNA-12B
+          link: https://portal.hubmapconsortium.org/browse/HBM282.HRBR.725
+          id: https://portal.hubmapconsortium.org/browse/HBM282.HRBR.725
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B12
+        - sample_type: Tissue Block
+          label: RNA-12C
+          link: https://portal.hubmapconsortium.org/browse/HBM636.FSWJ.233
+          id: https://portal.hubmapconsortium.org/browse/HBM636.FSWJ.233
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C12
+        - sample_type: Tissue Block
+          label: RNA-12D
+          link: https://portal.hubmapconsortium.org/browse/HBM942.QCTR.435
+          id: https://portal.hubmapconsortium.org/browse/HBM942.QCTR.435
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D12
+        - sample_type: Tissue Block
+          label: PE-13A
+          link: https://portal.hubmapconsortium.org/browse/HBM664.CBCV.737
+          id: https://portal.hubmapconsortium.org/browse/HBM664.CBCV.737
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A13
+        - sample_type: Tissue Block
+          label: PE-13B
+          link: https://portal.hubmapconsortium.org/browse/HBM425.ZVGH.827
+          id: https://portal.hubmapconsortium.org/browse/HBM425.ZVGH.827
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B13
+        - sample_type: Tissue Block
+          label: PE-13C
+          link: https://portal.hubmapconsortium.org/browse/HBM395.JSFQ.926
+          id: https://portal.hubmapconsortium.org/browse/HBM395.JSFQ.926
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C13
+        - sample_type: Tissue Block
+          label: PE-13D
+          link: https://portal.hubmapconsortium.org/browse/HBM687.SHQR.253
+          id: https://portal.hubmapconsortium.org/browse/HBM687.SHQR.253
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D13
+        - sample_type: Tissue Block
+          label: CLR-14A
+          link: https://portal.hubmapconsortium.org/browse/HBM324.MGBM.394
+          id: https://portal.hubmapconsortium.org/browse/HBM324.MGBM.394
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A14
+        - sample_type: Tissue Block
+          label: CLR-14B
+          link: https://portal.hubmapconsortium.org/browse/HBM788.QJCW.535
+          id: https://portal.hubmapconsortium.org/browse/HBM788.QJCW.535
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B14
+        - sample_type: Tissue Block
+          label: CLR-14C
+          link: https://portal.hubmapconsortium.org/browse/HBM767.VGMG.745
+          id: https://portal.hubmapconsortium.org/browse/HBM767.VGMG.745
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C14
+        - sample_type: Tissue Block
+          label: CLR-14D
+          link: https://portal.hubmapconsortium.org/browse/HBM352.VWZK.846
+          id: https://portal.hubmapconsortium.org/browse/HBM352.VWZK.846
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D14
+        - sample_type: Tissue Block
+          label: PCMC-15A
+          link: https://portal.hubmapconsortium.org/browse/HBM838.QTSC.464
+          id: https://portal.hubmapconsortium.org/browse/HBM838.QTSC.464
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A15
+        - sample_type: Tissue Block
+          label: PCMC-15B
+          link: https://portal.hubmapconsortium.org/browse/HBM295.KDDN.578
+          id: https://portal.hubmapconsortium.org/browse/HBM295.KDDN.578
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B15
+        - sample_type: Tissue Block
+          label: PCMC-15C
+          link: https://portal.hubmapconsortium.org/browse/HBM555.HCPS.767
+          id: https://portal.hubmapconsortium.org/browse/HBM555.HCPS.767
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C15
+        - sample_type: Tissue Block
+          label: PCMC-15D
+          link: https://portal.hubmapconsortium.org/browse/HBM736.VNGX.794
+          id: https://portal.hubmapconsortium.org/browse/HBM736.VNGX.794
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D15
+        - sample_type: Tissue Block
+          label: FCMC-16A
+          link: https://portal.hubmapconsortium.org/browse/HBM935.CMXN.233
+          id: https://portal.hubmapconsortium.org/browse/HBM935.CMXN.233
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A16
+        - sample_type: Tissue Block
+          label: FCMC-16B
+          link: https://portal.hubmapconsortium.org/browse/HBM796.WWBF.666
+          id: https://portal.hubmapconsortium.org/browse/HBM796.WWBF.666
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B16
+        - sample_type: Tissue Block
+          label: FCMC-16C
+          link: https://portal.hubmapconsortium.org/browse/HBM825.CZWX.579
+          id: https://portal.hubmapconsortium.org/browse/HBM825.CZWX.579
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C16
+        - sample_type: Tissue Block
+          label: FCMC-16D
+          link: https://portal.hubmapconsortium.org/browse/HBM755.CTKR.399
+          id: https://portal.hubmapconsortium.org/browse/HBM755.CTKR.399
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D16
+        - sample_type: Tissue Block
+          label: FF-17A
+          link: https://portal.hubmapconsortium.org/browse/HBM432.XXDB.622
+          id: https://portal.hubmapconsortium.org/browse/HBM432.XXDB.622
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A17
+        - sample_type: Tissue Block
+          label: FF-17B
+          link: https://portal.hubmapconsortium.org/browse/HBM755.HBKW.434
+          id: https://portal.hubmapconsortium.org/browse/HBM755.HBKW.434
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B17
+        - sample_type: Tissue Block
+          label: FF-17C
+          link: https://portal.hubmapconsortium.org/browse/HBM995.KHXV.747
+          id: https://portal.hubmapconsortium.org/browse/HBM995.KHXV.747
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C17
+        - sample_type: Tissue Block
+          label: FF-17D
+          link: https://portal.hubmapconsortium.org/browse/HBM933.SVHX.434
+          id: https://portal.hubmapconsortium.org/browse/HBM933.SVHX.434
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D17
+        - sample_type: Tissue Block
+          label: RNA-18A
+          link: https://portal.hubmapconsortium.org/browse/HBM384.KLJF.772
+          id: https://portal.hubmapconsortium.org/browse/HBM384.KLJF.772
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A18
+        - sample_type: Tissue Block
+          label: RNA-18B
+          link: https://portal.hubmapconsortium.org/browse/HBM253.KNDT.482
+          id: https://portal.hubmapconsortium.org/browse/HBM253.KNDT.482
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B18
+        - sample_type: Tissue Block
+          label: RNA-18C
+          link: https://portal.hubmapconsortium.org/browse/HBM999.MHNH.368
+          id: https://portal.hubmapconsortium.org/browse/HBM999.MHNH.368
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C18
+        - sample_type: Tissue Block
+          label: RNA-18D
+          link: https://portal.hubmapconsortium.org/browse/HBM263.GPWC.874
+          id: https://portal.hubmapconsortium.org/browse/HBM263.GPWC.874
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D18
+        - sample_type: Tissue Block
+          label: PE-19A
+          link: https://portal.hubmapconsortium.org/browse/HBM846.JGXK.835
+          id: https://portal.hubmapconsortium.org/browse/HBM846.JGXK.835
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A19
+        - sample_type: Tissue Block
+          label: PE-19B
+          link: https://portal.hubmapconsortium.org/browse/HBM764.MVCB.754
+          id: https://portal.hubmapconsortium.org/browse/HBM764.MVCB.754
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B19
+        - sample_type: Tissue Block
+          label: PE-19C
+          link: https://portal.hubmapconsortium.org/browse/HBM677.BDRD.667
+          id: https://portal.hubmapconsortium.org/browse/HBM677.BDRD.667
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C19
+        - sample_type: Tissue Block
+          label: PE-19D
+          link: https://portal.hubmapconsortium.org/browse/HBM386.SFSR.799
+          id: https://portal.hubmapconsortium.org/browse/HBM386.SFSR.799
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D19
+        - sample_type: Tissue Block
+          label: CLR-20A
+          link: https://portal.hubmapconsortium.org/browse/HBM439.JJRL.379
+          id: https://portal.hubmapconsortium.org/browse/HBM439.JJRL.379
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A20
+        - sample_type: Tissue Block
+          label: CLR-20B
+          link: https://portal.hubmapconsortium.org/browse/HBM932.PBSW.589
+          id: https://portal.hubmapconsortium.org/browse/HBM932.PBSW.589
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B20
+        - sample_type: Tissue Block
+          label: CLR-20C
+          link: https://portal.hubmapconsortium.org/browse/HBM798.NQQL.444
+          id: https://portal.hubmapconsortium.org/browse/HBM798.NQQL.444
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C20
+        - sample_type: Tissue Block
+          label: CLR-20D
+          link: https://portal.hubmapconsortium.org/browse/HBM934.XMWH.474
+          id: https://portal.hubmapconsortium.org/browse/HBM934.XMWH.474
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D20
+        - sample_type: Tissue Block
+          label: PCMC-21A
+          link: https://portal.hubmapconsortium.org/browse/HBM523.LJDP.788
+          id: https://portal.hubmapconsortium.org/browse/HBM523.LJDP.788
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A21
+        - sample_type: Tissue Block
+          label: PCMC-21B
+          link: https://portal.hubmapconsortium.org/browse/HBM298.ZGSD.633
+          id: https://portal.hubmapconsortium.org/browse/HBM298.ZGSD.633
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B21
+        - sample_type: Tissue Block
+          label: PCMC-21C
+          link: https://portal.hubmapconsortium.org/browse/HBM662.BVNR.532
+          id: https://portal.hubmapconsortium.org/browse/HBM662.BVNR.532
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C21
+        - sample_type: Tissue Block
+          label: PCMC-21D
+          link: https://portal.hubmapconsortium.org/browse/HBM529.MJXG.897
+          id: https://portal.hubmapconsortium.org/browse/HBM529.MJXG.897
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D21
+        - sample_type: Tissue Block
+          label: FCMC-22A
+          link: https://portal.hubmapconsortium.org/browse/HBM693.WRFR.798
+          id: https://portal.hubmapconsortium.org/browse/HBM693.WRFR.798
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A22
+        - sample_type: Tissue Block
+          label: FCMC-22B
+          link: https://portal.hubmapconsortium.org/browse/HBM652.JZJM.672
+          id: https://portal.hubmapconsortium.org/browse/HBM652.JZJM.672
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B22
+        - sample_type: Tissue Block
+          label: FCMC-22C
+          link: https://portal.hubmapconsortium.org/browse/HBM986.ZTSL.433
+          id: https://portal.hubmapconsortium.org/browse/HBM986.ZTSL.433
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C22
+        - sample_type: Tissue Block
+          label: FCMC-22D
+          link: https://portal.hubmapconsortium.org/browse/HBM834.CKNS.258
+          id: https://portal.hubmapconsortium.org/browse/HBM834.CKNS.258
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D22
+        - sample_type: Tissue Block
+          label: FF-23A
+          link: https://portal.hubmapconsortium.org/browse/HBM785.PJSJ.638
+          id: https://portal.hubmapconsortium.org/browse/HBM785.PJSJ.638
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A23
+        - sample_type: Tissue Block
+          label: FF-23B
+          link: https://portal.hubmapconsortium.org/browse/HBM967.LFWL.562
+          id: https://portal.hubmapconsortium.org/browse/HBM967.LFWL.562
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B23
+        - sample_type: Tissue Block
+          label: FF-23C
+          link: https://portal.hubmapconsortium.org/browse/HBM657.KJJZ.262
+          id: https://portal.hubmapconsortium.org/browse/HBM657.KJJZ.262
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C23
+        - sample_type: Tissue Block
+          label: FF-23D
+          link: https://portal.hubmapconsortium.org/browse/HBM586.FJPR.395
+          id: https://portal.hubmapconsortium.org/browse/HBM586.FJPR.395
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D23
+        - sample_type: Tissue Block
+          label: RNA-24A
+          link: https://portal.hubmapconsortium.org/browse/HBM234.CXDK.624
+          id: https://portal.hubmapconsortium.org/browse/HBM234.CXDK.624
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#A24
+        - sample_type: Tissue Block
+          label: RNA-24B
+          link: https://portal.hubmapconsortium.org/browse/HBM556.LCHZ.242
+          id: https://portal.hubmapconsortium.org/browse/HBM556.LCHZ.242
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#B24
+        - sample_type: Tissue Block
+          label: RNA-24C
+          link: https://portal.hubmapconsortium.org/browse/HBM779.QWGV.396
+          id: https://portal.hubmapconsortium.org/browse/HBM779.QWGV.396
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#C24
+        - sample_type: Tissue Block
+          label: RNA-24D
+          link: https://portal.hubmapconsortium.org/browse/HBM733.MVMH.924
+          id: https://portal.hubmapconsortium.org/browse/HBM733.MVMH.924
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#D24
+        - sample_type: Tissue Block
+          label: PE-25
+          link: https://portal.hubmapconsortium.org/browse/HBM324.XBHH.364
+          id: https://portal.hubmapconsortium.org/browse/HBM324.XBHH.364
+          rui_location: https://purl.humanatlas.io/millitome/generic-pancreas-male#25

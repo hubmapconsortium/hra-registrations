@@ -1,1 +1,5 @@
 *.stl filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
+=======
+*.nii filter=lfs diff=lfs merge=lfs -text
+>>>>>>> dafffb792dc19ca4bb43f66bc2d84046b8ead666
