@@ -60,7 +60,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-1",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -68,7 +79,7 @@
       "@id": "https://atlas.kpmp.org/#164-10",
       "@type": "Donor",
       "label": "164-10, 40-49 Years",
-      "description": "Entered 7/12/2024, Jennifer Schaub, KPMP",
+      "description": "Entered 7/14/2024, Jennifer Schaub, KPMP",
       "link": "https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcap_id&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-10&filters%5B0%5D%5Btype%5D=any",
       "consortium_name": "KPMP",
       "provider_name": "KPMP",
@@ -124,7 +135,27 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#164-10",
+              "@type": "Dataset",
+              "label": "Registered 7/14/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-10",
+              "@type": "Dataset",
+              "label": "Registered 7/14/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -195,8 +226,8 @@
       "@id": "https://atlas.kpmp.org/#164-12",
       "@type": "Donor",
       "label": "164-12, 30-39 Years",
-      "description": "Entered 7/12/2024, Jennifer Schaub, KPMP",
-      "link": "https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcap_id&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any",
+      "description": "Entered 7/14/2024, Jennifer Schaub, KPMP",
+      "link": "https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any",
       "consortium_name": "KPMP",
       "provider_name": "KPMP",
       "provider_uuid": "c9678bd5-62aa-4b09-8cf0-42f2d84e5f8b",
@@ -259,7 +290,7 @@
       "@id": "https://atlas.kpmp.org/#164-13",
       "@type": "Donor",
       "label": "164-13, 40-49 Years",
-      "description": "Entered 7/12/2024, Jennifer Schaub, KPMP",
+      "description": "Entered 7/14/2024, Jennifer Schaub, KPMP",
       "link": "https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcap_id&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-13&filters%5B0%5D%5Btype%5D=any",
       "consortium_name": "KPMP",
       "provider_name": "KPMP",
@@ -386,7 +417,7 @@
       "@id": "https://atlas.kpmp.org/#164-15",
       "@type": "Donor",
       "label": "164-15, 40-49 Years",
-      "description": "Entered 7/12/2024, Jennifer Schaub, KPMP",
+      "description": "Entered 7/14/2024, Jennifer Schaub, KPMP",
       "link": "https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcap_id&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-15&filters%5B0%5D%5Btype%5D=any",
       "consortium_name": "KPMP",
       "provider_name": "KPMP",
@@ -639,7 +670,7 @@
       "@id": "https://atlas.kpmp.org/#164-19",
       "@type": "Donor",
       "label": "164-19, 50-59 Years",
-      "description": "Entered 7/12/2024, Jennifer Schaub, KPMP",
+      "description": "Entered 7/14/2024, Jennifer Schaub, KPMP",
       "link": "https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcap_id&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-19&filters%5B0%5D%5Btype%5D=any",
       "consortium_name": "KPMP",
       "provider_name": "KPMP",
@@ -766,7 +797,7 @@
       "@id": "https://atlas.kpmp.org/#164-21",
       "@type": "Donor",
       "label": "164-21, 40-49 Years",
-      "description": "Entered 7/12/2024, Jennifer Schaub, KPMP",
+      "description": "Entered 7/14/2024, Jennifer Schaub, KPMP",
       "link": "https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcap_id&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any",
       "consortium_name": "KPMP",
       "provider_name": "KPMP",
@@ -948,7 +979,27 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#164-3",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-3",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1011,7 +1062,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-5",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1074,7 +1136,27 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#164-6",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-6",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1137,7 +1219,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-7",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1200,7 +1293,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-8",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1326,7 +1430,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#164-10",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1704,7 +1819,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#165-7",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1767,7 +1893,27 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#165-9",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#165-9",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1893,7 +2039,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#163-2",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -1956,7 +2113,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMRightKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#163-3",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -2019,7 +2187,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#163-4",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -2082,7 +2261,27 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/#163-5",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/dea717d4-7bc0-4e46-950f-fd7e1cc8df7d.cxg/",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#163-5",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
@@ -2091,7 +2290,7 @@
       "@type": "Donor",
       "label": "163-6, 40-49 Years",
       "description": "Entered 7/12/2024, Jennifer Schaub, KPMP",
-      "link": "https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcap_id&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-6&filters%5B0%5D%5Btype%5D=any",
+      "link": "https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-6&filters%5B0%5D%5Btype%5D=any",
       "consortium_name": "KPMP",
       "provider_name": "KPMP",
       "provider_uuid": "c9678bd5-62aa-4b09-8cf0-42f2d84e5f8b",
@@ -2145,7 +2344,18 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/#163-6",
+              "@type": "Dataset",
+              "label": "Registered 7/12/2024, Jennifer Schaub, KPMP",
+              "description": "Data/Assay Types: snRNA-seq, ",
+              "link": "https://cellxgene.cziscience.com/e/a12ccb9b-4fbe-457d-8590-ac78053259ef.cxg/",
+              "technology": "snRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
