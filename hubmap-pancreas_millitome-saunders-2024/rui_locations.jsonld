@@ -5,16 +5,16 @@
       "@id": "https://hubmapconsortium.github.io/hra-registrations/hubmap-pancreas-millitome-spraggins-2024/rui_locations.jsonld#Donor1",
       "@type": "Donor",
       "label": "DON530",
-      "description": "Entered 7/14/2024, Bhargav Snehal Desai, HuBMAP",
+      "description": "Entered 7/14/2024, Bhargav Snehal Desai, Vanderbilt University",
       "link": "http://example.com/user/link",
       "consortium_name": "HuBMAP",
-      "provider_name": "HuBMAP",
+      "provider_name": "Vanderbilt University",
       "provider_uuid": "9F5C8F46-4DF4-11EF-A985-7E6DEE00831D",
       "age": 56,
       "sex": "Male",
       "samples": [
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM625.ZFTZ.894",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/cae16120c9edd555aa7d811fe94d39de",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1A",
@@ -24,9 +24,9 @@
           "section_size": 18.53051,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A1",
+            "@id": "http://purl.org/ccf/1.5/c1bb2cc0-a287-44d6-aaba-8d66ee869d9f",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A1_placement",
+              "@id": "http://purl.org/ccf/1.5/c1bb2cc0-a287-44d6-aaba-8d66ee869d9f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A1",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -46,6 +46,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -54,14 +59,11 @@
             "z_dimension": 18.53051,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A1"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM859.DZPK.256",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/eb078d1f28854320d220ce4d27d53c99",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1B",
@@ -71,9 +73,9 @@
           "section_size": 17.89365,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B1",
+            "@id": "http://purl.org/ccf/1.5/c659da0d-e168-47e9-a20c-ecad2208b716",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B1_placement",
+              "@id": "http://purl.org/ccf/1.5/c659da0d-e168-47e9-a20c-ecad2208b716_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B1",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -93,6 +95,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -101,14 +108,11 @@
             "z_dimension": 17.89365,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B1"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM527.VMNR.723",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/3721e16c401a2e36ad45d66677073d9b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1C",
@@ -118,9 +122,9 @@
           "section_size": 13.02857,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C1",
+            "@id": "http://purl.org/ccf/1.5/90430567-735b-4216-9dd0-9aacd4843c56",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C1_placement",
+              "@id": "http://purl.org/ccf/1.5/90430567-735b-4216-9dd0-9aacd4843c56_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C1",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -140,6 +144,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -148,14 +157,11 @@
             "z_dimension": 13.02857,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C1"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM685.VJVH.785",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8bec21a27cb0070999acc37f9f349d46",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1D",
@@ -165,9 +171,9 @@
           "section_size": 14.53067,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D1",
+            "@id": "http://purl.org/ccf/1.5/4ccaf638-a7f0-4d60-bd2a-c2d72c54c200",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D1_placement",
+              "@id": "http://purl.org/ccf/1.5/4ccaf638-a7f0-4d60-bd2a-c2d72c54c200_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D1",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -187,6 +193,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -195,14 +206,11 @@
             "z_dimension": 14.53067,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D1"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM833.JPZG.893",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/244e1bd8ce8122f7146d50ed35e0f961",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-2A",
@@ -212,9 +220,9 @@
           "section_size": 21.70672,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A2",
+            "@id": "http://purl.org/ccf/1.5/dc9feb84-8a58-48eb-a43d-e596a566f29c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A2_placement",
+              "@id": "http://purl.org/ccf/1.5/dc9feb84-8a58-48eb-a43d-e596a566f29c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A2",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -234,6 +242,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -242,14 +255,11 @@
             "z_dimension": 21.70672,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A2"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM329.BFHH.463",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/d201729d1d1cbea321f9d78060e6a530",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-2B",
@@ -259,9 +269,9 @@
           "section_size": 22.13033,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B2",
+            "@id": "http://purl.org/ccf/1.5/07f08bf8-d094-4d9e-83f1-56d35b402c07",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B2_placement",
+              "@id": "http://purl.org/ccf/1.5/07f08bf8-d094-4d9e-83f1-56d35b402c07_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B2",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -281,6 +291,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -289,14 +304,11 @@
             "z_dimension": 22.13033,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B2"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM958.LBJH.999",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/82c08dbb7323fa80fb0b98dd7fde71b7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-2C",
@@ -306,9 +318,9 @@
           "section_size": 18.98925,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C2",
+            "@id": "http://purl.org/ccf/1.5/35431006-47e1-4b24-b533-ce74fb635bc1",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C2_placement",
+              "@id": "http://purl.org/ccf/1.5/35431006-47e1-4b24-b533-ce74fb635bc1_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C2",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -328,6 +340,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -336,13 +352,11 @@
             "z_dimension": 18.98925,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C2"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM377.WDKH.475",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/9d8e5028f58be5d08eca4e557cc98aae",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-2D",
@@ -352,9 +366,9 @@
           "section_size": 20.46209,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D2",
+            "@id": "http://purl.org/ccf/1.5/f0e43df0-9573-4d99-9f30-cbb2df64c108",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D2_placement",
+              "@id": "http://purl.org/ccf/1.5/f0e43df0-9573-4d99-9f30-cbb2df64c108_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D2",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -374,6 +388,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -382,14 +401,11 @@
             "z_dimension": 20.46209,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D2"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM869.FJXG.495",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/456f8822686aaab8423833134a2baadf",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-3A",
@@ -399,9 +415,9 @@
           "section_size": 20.42685,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A3",
+            "@id": "http://purl.org/ccf/1.5/0cbc39fd-3214-4983-b7d2-aafa206efdd4",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A3_placement",
+              "@id": "http://purl.org/ccf/1.5/0cbc39fd-3214-4983-b7d2-aafa206efdd4_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A3",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -421,6 +437,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -429,15 +451,11 @@
             "z_dimension": 20.42685,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A3"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM927.QBZP.837",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/88616809f6b7be0d4eda618a47c902c7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-3B",
@@ -447,9 +465,9 @@
           "section_size": 23.75876,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B3",
+            "@id": "http://purl.org/ccf/1.5/54f5462f-f37a-43df-8522-6de48aaf62b9",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B3_placement",
+              "@id": "http://purl.org/ccf/1.5/54f5462f-f37a-43df-8522-6de48aaf62b9_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B3",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -469,6 +487,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -477,13 +499,11 @@
             "z_dimension": 23.75876,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B3"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM293.ZZWZ.357",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/87eb82c89c8deaf520b86821f8a0d08b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-3C",
@@ -493,9 +513,9 @@
           "section_size": 22.60559,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C3",
+            "@id": "http://purl.org/ccf/1.5/b657984f-0e87-4ed0-bb81-07a01206ed59",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C3_placement",
+              "@id": "http://purl.org/ccf/1.5/b657984f-0e87-4ed0-bb81-07a01206ed59_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C3",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -515,6 +535,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -523,13 +547,11 @@
             "z_dimension": 22.60559,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C3"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM442.TVMK.429",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/6f1eec00e00da909ebf6dfd5c08be131",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-3D",
@@ -539,9 +561,9 @@
           "section_size": 23.36139,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D3",
+            "@id": "http://purl.org/ccf/1.5/7dd7599d-5c89-418c-bc91-e90e08d4beb2",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D3_placement",
+              "@id": "http://purl.org/ccf/1.5/7dd7599d-5c89-418c-bc91-e90e08d4beb2_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D3",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -561,6 +583,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -569,14 +596,11 @@
             "z_dimension": 23.36139,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D3"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM484.CKHP.546",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/3cd25adbc9de256a133d11fbc8cb106b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-4A",
@@ -586,9 +610,9 @@
           "section_size": 17.8208,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A4",
+            "@id": "http://purl.org/ccf/1.5/4d6b8a2b-8f95-498b-81b5-2ac1525a27e6",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A4_placement",
+              "@id": "http://purl.org/ccf/1.5/4d6b8a2b-8f95-498b-81b5-2ac1525a27e6_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A4",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -608,6 +632,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -616,15 +646,11 @@
             "z_dimension": 17.8208,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A4"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM385.FTLT.493",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a029d23e0c6199f55a04e7af11f06b70",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-4B",
@@ -634,9 +660,9 @@
           "section_size": 25.62202,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B4",
+            "@id": "http://purl.org/ccf/1.5/0760a2da-5008-4aa0-87f7-abb361c4b40d",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B4_placement",
+              "@id": "http://purl.org/ccf/1.5/0760a2da-5008-4aa0-87f7-abb361c4b40d_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B4",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -656,6 +682,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -664,13 +694,11 @@
             "z_dimension": 25.62202,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B4"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM279.ZBFG.324",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/59b9b6006f0fc32c5eb3093f701575d5",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-4C",
@@ -680,9 +708,9 @@
           "section_size": 23.83558,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C4",
+            "@id": "http://purl.org/ccf/1.5/44dd9ecd-2527-4366-821a-0c6f543ecd6a",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C4_placement",
+              "@id": "http://purl.org/ccf/1.5/44dd9ecd-2527-4366-821a-0c6f543ecd6a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C4",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -702,6 +730,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -710,13 +742,11 @@
             "z_dimension": 23.83558,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C4"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM674.MWZD.688",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/9b3f1fd5c2fc5329922da8288fcd209a",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-4D",
@@ -726,9 +756,9 @@
           "section_size": 23.87931,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D4",
+            "@id": "http://purl.org/ccf/1.5/0ccba2e4-3802-415e-87a8-08bf09014e1a",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D4_placement",
+              "@id": "http://purl.org/ccf/1.5/0ccba2e4-3802-415e-87a8-08bf09014e1a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D4",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -748,6 +778,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -756,14 +791,11 @@
             "z_dimension": 23.87931,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D4"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM883.PSDQ.427",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/67b471f21ef9c96cf715a7bf21c5dc93",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-5A",
@@ -773,9 +805,9 @@
           "section_size": 20.91861,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A5",
+            "@id": "http://purl.org/ccf/1.5/37eee8db-aed6-47b7-91bc-2140a7bb1c7c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A5_placement",
+              "@id": "http://purl.org/ccf/1.5/37eee8db-aed6-47b7-91bc-2140a7bb1c7c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A5",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -795,6 +827,13 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -803,16 +842,11 @@
             "z_dimension": 20.91861,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A5"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM527.NKKJ.929",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a65abda3a052081a8068af0536a56cc1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-5B",
@@ -822,9 +856,9 @@
           "section_size": 26.57732,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B5",
+            "@id": "http://purl.org/ccf/1.5/dd06b77a-26ae-486c-b565-89831801d54f",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B5_placement",
+              "@id": "http://purl.org/ccf/1.5/dd06b77a-26ae-486c-b565-89831801d54f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B5",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -844,6 +878,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -852,13 +890,11 @@
             "z_dimension": 26.57732,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B5"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM973.ZLKQ.336",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/715d4b88df3fe11f64e305a33843c7e2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-5C",
@@ -868,9 +904,9 @@
           "section_size": 23.44616,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C5",
+            "@id": "http://purl.org/ccf/1.5/ba02cb15-fd92-4d7d-a378-246cb35b4ffa",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C5_placement",
+              "@id": "http://purl.org/ccf/1.5/ba02cb15-fd92-4d7d-a378-246cb35b4ffa_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C5",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -890,6 +926,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -898,13 +938,11 @@
             "z_dimension": 23.44616,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C5"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM876.MXVS.964",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/43786919f48b12bbca5566b7cccfe8f3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-5D",
@@ -914,9 +952,9 @@
           "section_size": 23.44616,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D5",
+            "@id": "http://purl.org/ccf/1.5/52c37c35-788f-49a4-8464-ca2587f64b3f",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D5_placement",
+              "@id": "http://purl.org/ccf/1.5/52c37c35-788f-49a4-8464-ca2587f64b3f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D5",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -936,6 +974,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.obolibrary.org/obo/UBERON_0010373"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -944,14 +987,11 @@
             "z_dimension": 23.44616,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0010373",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D5"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM246.CHBX.834",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/02985efbb6e454bd64f02d4c7f75d8b6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-6A",
@@ -961,9 +1001,9 @@
           "section_size": 26.2815,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A6",
+            "@id": "http://purl.org/ccf/1.5/c99690be-e2a0-4285-a6b6-b705bc0fadf7",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A6_placement",
+              "@id": "http://purl.org/ccf/1.5/c99690be-e2a0-4285-a6b6-b705bc0fadf7_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A6",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -983,6 +1023,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -991,15 +1037,11 @@
             "z_dimension": 26.2815,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A6"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM766.MZBD.225",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/58e464090240432eaf50b43119228913",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-6B",
@@ -1009,9 +1051,9 @@
           "section_size": 25.77002,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B6",
+            "@id": "http://purl.org/ccf/1.5/20d30885-dd4a-4ebc-af19-d208fb69ca83",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B6_placement",
+              "@id": "http://purl.org/ccf/1.5/20d30885-dd4a-4ebc-af19-d208fb69ca83_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B6",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1031,6 +1073,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1039,13 +1085,11 @@
             "z_dimension": 25.77002,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B6"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM757.TRPD.633",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/6b64d0a71bc2788588deffb4896f6e30",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-6C",
@@ -1055,9 +1099,9 @@
           "section_size": 21.27968,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6",
+            "@id": "http://purl.org/ccf/1.5/df436e19-d619-4a67-b477-31562dee1432",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6_placement",
+              "@id": "http://purl.org/ccf/1.5/df436e19-d619-4a67-b477-31562dee1432_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1077,6 +1121,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1085,14 +1134,11 @@
             "z_dimension": 21.27968,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM557.HCGR.966",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/32316fb52f130412c35ff1c8afb77942",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-6D",
@@ -1102,9 +1148,9 @@
           "section_size": 21.27968,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D6",
+            "@id": "http://purl.org/ccf/1.5/f45f93c5-996c-4ddd-aac6-36147f191b74",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D6_placement",
+              "@id": "http://purl.org/ccf/1.5/f45f93c5-996c-4ddd-aac6-36147f191b74_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D6",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1124,6 +1170,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1132,14 +1183,11 @@
             "z_dimension": 21.27968,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D6"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM649.JXXJ.663",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/1830a207f7a8d0936a9b805f79c74f00",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-7A",
@@ -1149,9 +1197,9 @@
           "section_size": 28.48925,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A7",
+            "@id": "http://purl.org/ccf/1.5/dc6ef9e6-7b77-441c-baad-789622b2c20d",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A7_placement",
+              "@id": "http://purl.org/ccf/1.5/dc6ef9e6-7b77-441c-baad-789622b2c20d_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A7",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1171,6 +1219,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1179,14 +1232,11 @@
             "z_dimension": 28.48925,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A7"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM585.QZJW.757",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/d08013a7ec1aff93aa6bc7ca19041aaf",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-7B",
@@ -1196,9 +1246,9 @@
           "section_size": 24.07525,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B7",
+            "@id": "http://purl.org/ccf/1.5/da90257e-9a13-44a0-be80-07dfaeff412f",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B7_placement",
+              "@id": "http://purl.org/ccf/1.5/da90257e-9a13-44a0-be80-07dfaeff412f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B7",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1218,6 +1268,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1226,14 +1281,11 @@
             "z_dimension": 24.07525,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B7"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM976.ZRGZ.727",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/d34015973fcec9f340ddf76b590ccbd2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-7C",
@@ -1243,9 +1295,9 @@
           "section_size": 19.14123,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C7",
+            "@id": "http://purl.org/ccf/1.5/22ee9d46-f280-4420-b255-b409769c902e",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C7_placement",
+              "@id": "http://purl.org/ccf/1.5/22ee9d46-f280-4420-b255-b409769c902e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C7",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1265,6 +1317,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1273,14 +1330,11 @@
             "z_dimension": 19.14123,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C7"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM546.DGDM.997",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/1666f7341d302842c20435bcff790b7f",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-7D",
@@ -1290,9 +1344,9 @@
           "section_size": 19.84964,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D7",
+            "@id": "http://purl.org/ccf/1.5/ba1e943e-d1d2-439e-b97b-e3b00e0a9cb9",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D7_placement",
+              "@id": "http://purl.org/ccf/1.5/ba1e943e-d1d2-439e-b97b-e3b00e0a9cb9_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D7",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1312,6 +1366,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1320,13 +1378,11 @@
             "z_dimension": 19.84964,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D7"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM553.NXDC.839",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/fd738c7ccc74fec6090e0d9a346ff4f7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-8A",
@@ -1336,9 +1392,9 @@
           "section_size": 28.12308,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A8",
+            "@id": "http://purl.org/ccf/1.5/11136a3a-7c21-48ef-9943-510359699932",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A8_placement",
+              "@id": "http://purl.org/ccf/1.5/11136a3a-7c21-48ef-9943-510359699932_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A8",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1358,6 +1414,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1366,14 +1427,11 @@
             "z_dimension": 28.12308,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A8"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM729.SWHH.556",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/291ca079e04507836c337585dc08872b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-8B",
@@ -1383,9 +1441,9 @@
           "section_size": 21.29747,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B8",
+            "@id": "http://purl.org/ccf/1.5/6a32bd41-6799-446a-b8ea-7d8caabb4414",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B8_placement",
+              "@id": "http://purl.org/ccf/1.5/6a32bd41-6799-446a-b8ea-7d8caabb4414_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B8",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1405,6 +1463,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1413,14 +1476,11 @@
             "z_dimension": 21.29747,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B8"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM982.QJXL.457",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/801b8561317488a82c2cb8c0eab20d42",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-8C",
@@ -1430,9 +1490,9 @@
           "section_size": 18.81834,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C8",
+            "@id": "http://purl.org/ccf/1.5/9215fdd3-e9e1-42c3-b512-e53f6090c4ef",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C8_placement",
+              "@id": "http://purl.org/ccf/1.5/9215fdd3-e9e1-42c3-b512-e53f6090c4ef_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C8",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1452,6 +1512,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1460,14 +1525,11 @@
             "z_dimension": 18.81834,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C8"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM358.RPHN.988",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/54478af997368c6201ae230cb2b73b8b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-8D",
@@ -1477,9 +1539,9 @@
           "section_size": 19.89856,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D8",
+            "@id": "http://purl.org/ccf/1.5/34f9ffc0-f677-4c6f-98d6-5bc8543d8387",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D8_placement",
+              "@id": "http://purl.org/ccf/1.5/34f9ffc0-f677-4c6f-98d6-5bc8543d8387_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D8",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1499,6 +1561,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1507,14 +1574,11 @@
             "z_dimension": 19.89856,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D8"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM682.GXDW.332",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/7610f640a22c10ed1b6675d854548ad1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-9A",
@@ -1524,9 +1588,9 @@
           "section_size": 24.34271,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A9",
+            "@id": "http://purl.org/ccf/1.5/2dd5275d-4c20-4f3d-ac79-c5ffd0be963a",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A9_placement",
+              "@id": "http://purl.org/ccf/1.5/2dd5275d-4c20-4f3d-ac79-c5ffd0be963a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A9",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1546,6 +1610,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1554,14 +1623,11 @@
             "z_dimension": 24.34271,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A9"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM625.GBWK.235",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/320c795889c5c65f2a8dde8541a4f94c",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-9B",
@@ -1571,9 +1637,9 @@
           "section_size": 19.29427,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B9",
+            "@id": "http://purl.org/ccf/1.5/42f03597-686a-4a38-8321-d069edc2ad51",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B9_placement",
+              "@id": "http://purl.org/ccf/1.5/42f03597-686a-4a38-8321-d069edc2ad51_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B9",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1593,6 +1659,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1601,15 +1673,11 @@
             "z_dimension": 19.29427,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B9"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM946.VMFS.285",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f4eb0e2cbdb288a03d8f2ae3d2d1e5d2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-9C",
@@ -1619,9 +1687,9 @@
           "section_size": 17.67496,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C9",
+            "@id": "http://purl.org/ccf/1.5/c0eeae52-d1cc-43af-970d-899c53cd7d2c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C9_placement",
+              "@id": "http://purl.org/ccf/1.5/c0eeae52-d1cc-43af-970d-899c53cd7d2c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C9",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1641,6 +1709,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1649,15 +1723,11 @@
             "z_dimension": 17.67496,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C9"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM684.XGCJ.236",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/744ed32e4154fe246cd0fef5fc7d763a",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-9D",
@@ -1667,9 +1737,9 @@
           "section_size": 20.49279,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D9",
+            "@id": "http://purl.org/ccf/1.5/018ec6e8-0df2-478b-9882-63f7e57d608e",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D9_placement",
+              "@id": "http://purl.org/ccf/1.5/018ec6e8-0df2-478b-9882-63f7e57d608e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D9",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1689,6 +1759,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1697,15 +1773,11 @@
             "z_dimension": 20.49279,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D9"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM226.VMCQ.457",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a173c9f8453c7a7cf88001017058ee5c",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-10A",
@@ -1715,9 +1787,9 @@
           "section_size": 18.09352,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A10",
+            "@id": "http://purl.org/ccf/1.5/e2bf03a9-de69-4ab5-a7a7-9f538912e0ff",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A10_placement",
+              "@id": "http://purl.org/ccf/1.5/e2bf03a9-de69-4ab5-a7a7-9f538912e0ff_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A10",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1737,6 +1809,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1745,15 +1823,11 @@
             "z_dimension": 18.09352,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A10"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM468.BSFF.497",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/aa43c557da6096a3fe37635931f058ed",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-10B",
@@ -1763,9 +1837,9 @@
           "section_size": 16.17463,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B10",
+            "@id": "http://purl.org/ccf/1.5/85752928-406f-41f0-bd56-8e4a3c375e10",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B10_placement",
+              "@id": "http://purl.org/ccf/1.5/85752928-406f-41f0-bd56-8e4a3c375e10_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B10",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1785,6 +1859,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1793,15 +1873,11 @@
             "z_dimension": 16.17463,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B10"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM885.NMZD.498",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/cc1f06cc5df74561031f516580e15504",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-10C",
@@ -1811,9 +1887,9 @@
           "section_size": 14.51202,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C10",
+            "@id": "http://purl.org/ccf/1.5/d396e467-524f-41b9-92b0-33b5dd555418",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C10_placement",
+              "@id": "http://purl.org/ccf/1.5/d396e467-524f-41b9-92b0-33b5dd555418_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C10",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1833,6 +1909,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1841,15 +1923,11 @@
             "z_dimension": 14.51202,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C10"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM934.DSKM.373",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/5b409f2c0d031ed7c80bd1cc66b0a4c3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-10D",
@@ -1859,9 +1937,9 @@
           "section_size": 18.36298,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D10",
+            "@id": "http://purl.org/ccf/1.5/fe09d6f3-2ff1-4210-843b-644ff10b0f1b",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D10_placement",
+              "@id": "http://purl.org/ccf/1.5/fe09d6f3-2ff1-4210-843b-644ff10b0f1b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D10",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1881,6 +1959,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1889,15 +1973,11 @@
             "z_dimension": 18.36298,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D10"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM477.DNSQ.482",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8bb3ffed4c1aca8d3e3aab36ed4363d2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-11A",
@@ -1907,9 +1987,9 @@
           "section_size": 13.484,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A11",
+            "@id": "http://purl.org/ccf/1.5/df5510df-9b35-486a-b309-29cf771f5ec6",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A11_placement",
+              "@id": "http://purl.org/ccf/1.5/df5510df-9b35-486a-b309-29cf771f5ec6_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A11",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1929,6 +2009,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1937,15 +2023,11 @@
             "z_dimension": 13.484,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A11"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM777.XKJR.955",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/12d6ce983ec47faf2bf3632392cb20cd",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-11B",
@@ -1955,9 +2037,9 @@
           "section_size": 14.41355,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B11",
+            "@id": "http://purl.org/ccf/1.5/b36585df-eae1-457a-b34e-0b029dd35ae9",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B11_placement",
+              "@id": "http://purl.org/ccf/1.5/b36585df-eae1-457a-b34e-0b029dd35ae9_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B11",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -1977,6 +2059,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -1985,15 +2073,11 @@
             "z_dimension": 14.41355,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B11"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM932.BDDF.488",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8994f3c8aef53d340ecc4478e52294ff",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-11C",
@@ -2003,9 +2087,9 @@
           "section_size": 11.91886,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C11",
+            "@id": "http://purl.org/ccf/1.5/fcdb15e3-cfeb-4040-a026-208796018c12",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C11_placement",
+              "@id": "http://purl.org/ccf/1.5/fcdb15e3-cfeb-4040-a026-208796018c12_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C11",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2025,6 +2109,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2033,15 +2123,11 @@
             "z_dimension": 11.91886,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C11"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM654.BRMR.499",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/e142fc571183f7ccb2f8d469067780e6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-11D",
@@ -2051,9 +2137,9 @@
           "section_size": 14.00876,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D11",
+            "@id": "http://purl.org/ccf/1.5/adb225d2-7e6b-4df9-a460-c709b5290e61",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D11_placement",
+              "@id": "http://purl.org/ccf/1.5/adb225d2-7e6b-4df9-a460-c709b5290e61_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D11",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2073,6 +2159,12 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001069",
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2081,15 +2173,11 @@
             "z_dimension": 14.00876,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D11"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM334.CKDR.378",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/61b826f33193695dea7d684aa10fc4c9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-12A",
@@ -2099,9 +2187,9 @@
           "section_size": 14.09733,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A12",
+            "@id": "http://purl.org/ccf/1.5/2cd827f0-c6e0-42a4-9cec-1c8d4f47f0ae",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A12_placement",
+              "@id": "http://purl.org/ccf/1.5/2cd827f0-c6e0-42a4-9cec-1c8d4f47f0ae_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A12",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2121,6 +2209,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2129,14 +2222,11 @@
             "z_dimension": 14.09733,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A12"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM282.HRBR.725",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/c18987792aa400c193ebcc11fedae69a",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-12B",
@@ -2146,9 +2236,9 @@
           "section_size": 13.48021,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B12",
+            "@id": "http://purl.org/ccf/1.5/39e620e5-eb23-4d05-9dd6-ddd1916e29c0",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B12_placement",
+              "@id": "http://purl.org/ccf/1.5/39e620e5-eb23-4d05-9dd6-ddd1916e29c0_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B12",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2168,6 +2258,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2176,14 +2271,11 @@
             "z_dimension": 13.48021,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B12"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM636.FSWJ.233",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/4679bdb0d7696958e42aae93505c109f",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-12C",
@@ -2193,9 +2285,9 @@
           "section_size": 13.61611,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C12",
+            "@id": "http://purl.org/ccf/1.5/1c61572d-63a4-45a6-aa78-4b71ef180d0b",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C12_placement",
+              "@id": "http://purl.org/ccf/1.5/1c61572d-63a4-45a6-aa78-4b71ef180d0b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C12",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2215,6 +2307,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2223,14 +2320,11 @@
             "z_dimension": 13.61611,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C12"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM942.QCTR.435",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/0038b29113cd689466071325bcd65f1d",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-12D",
@@ -2240,9 +2334,9 @@
           "section_size": 11.80382,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D12",
+            "@id": "http://purl.org/ccf/1.5/20857e25-c5c0-48c2-9ea1-16525cb1b929",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D12_placement",
+              "@id": "http://purl.org/ccf/1.5/20857e25-c5c0-48c2-9ea1-16525cb1b929_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D12",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2262,6 +2356,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2270,14 +2369,11 @@
             "z_dimension": 11.80382,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D12"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM664.CBCV.737",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/dd3ba732c4b310f787fe839e4cf5a00c",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-13A",
@@ -2287,9 +2383,9 @@
           "section_size": 17.4302,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A13",
+            "@id": "http://purl.org/ccf/1.5/544d1577-6c0c-477c-9088-891d7fa7d58c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A13_placement",
+              "@id": "http://purl.org/ccf/1.5/544d1577-6c0c-477c-9088-891d7fa7d58c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A13",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2309,6 +2405,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2317,13 +2417,11 @@
             "z_dimension": 17.4302,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A13"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM425.ZVGH.827",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/6e3ba02580af92c2e049819de3cbb7dc",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-13B",
@@ -2333,9 +2431,9 @@
           "section_size": 12.43657,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B13",
+            "@id": "http://purl.org/ccf/1.5/0a86fc18-c491-4b36-a43c-1e262e509ba9",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B13_placement",
+              "@id": "http://purl.org/ccf/1.5/0a86fc18-c491-4b36-a43c-1e262e509ba9_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B13",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2355,6 +2453,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2363,14 +2466,11 @@
             "z_dimension": 12.43657,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B13"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM395.JSFQ.926",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a4ce5ff9d1024ffe92dc8d3e20cf38be",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-13C",
@@ -2380,9 +2480,9 @@
           "section_size": 14.94565,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C13",
+            "@id": "http://purl.org/ccf/1.5/ce8183a6-f833-4e4b-950c-b3bca48e90ce",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C13_placement",
+              "@id": "http://purl.org/ccf/1.5/ce8183a6-f833-4e4b-950c-b3bca48e90ce_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C13",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2402,6 +2502,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264",
+              "http://purl.org/sig/ont/fma/fma14517"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2410,14 +2515,11 @@
             "z_dimension": 14.94565,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma14517",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C13"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM687.SHQR.253",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/c5cd005b06d59d19335c5951b9f6620f",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-13D",
@@ -2427,9 +2529,9 @@
           "section_size": 15.75708,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D13",
+            "@id": "http://purl.org/ccf/1.5/97683825-5b79-492b-aa04-0ef1198b6421",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D13_placement",
+              "@id": "http://purl.org/ccf/1.5/97683825-5b79-492b-aa04-0ef1198b6421_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D13",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2449,6 +2551,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2457,13 +2563,11 @@
             "z_dimension": 15.75708,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D13"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM324.MGBM.394",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f55ca90912dbfa88d2cc99f9aef51a54",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-14A",
@@ -2473,9 +2577,9 @@
           "section_size": 21.98468,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A14",
+            "@id": "http://purl.org/ccf/1.5/5268053a-0b31-43b8-ad31-68a9ea013473",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A14_placement",
+              "@id": "http://purl.org/ccf/1.5/5268053a-0b31-43b8-ad31-68a9ea013473_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A14",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2495,6 +2599,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2503,13 +2611,11 @@
             "z_dimension": 21.98468,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A14"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM788.QJCW.535",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/c5afce6e34e5bd268b3c5ddd63a07ac3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-14B",
@@ -2519,9 +2625,9 @@
           "section_size": 12.39173,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B14",
+            "@id": "http://purl.org/ccf/1.5/eb0c9e1b-2b86-4f34-96dd-86d915d44b84",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B14_placement",
+              "@id": "http://purl.org/ccf/1.5/eb0c9e1b-2b86-4f34-96dd-86d915d44b84_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B14",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2541,6 +2647,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2549,13 +2659,11 @@
             "z_dimension": 12.39173,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B14"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM767.VGMG.745",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/acd89d0cfd802748c55496325d0111d2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-14C",
@@ -2565,9 +2673,9 @@
           "section_size": 16.58815,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C14",
+            "@id": "http://purl.org/ccf/1.5/42cefdf7-384d-4472-a57b-a369b92587c6",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C14_placement",
+              "@id": "http://purl.org/ccf/1.5/42cefdf7-384d-4472-a57b-a369b92587c6_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C14",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2587,6 +2695,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2595,13 +2707,11 @@
             "z_dimension": 16.58815,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C14"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM352.VWZK.846",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a86dee0d23ba06f48767277e72efdc11",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-14D",
@@ -2611,9 +2721,9 @@
           "section_size": 20.69156,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D14",
+            "@id": "http://purl.org/ccf/1.5/8503bfd0-aa98-49a8-9618-b196b6c2d43e",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D14_placement",
+              "@id": "http://purl.org/ccf/1.5/8503bfd0-aa98-49a8-9618-b196b6c2d43e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D14",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2633,6 +2743,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2641,13 +2755,11 @@
             "z_dimension": 20.69156,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D14"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM838.QTSC.464",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a45a151a163362a30414475741452238",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-15A",
@@ -2657,9 +2769,9 @@
           "section_size": 25.48168,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A15",
+            "@id": "http://purl.org/ccf/1.5/145a8069-79f3-4dbf-bf89-db706f55b395",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A15_placement",
+              "@id": "http://purl.org/ccf/1.5/145a8069-79f3-4dbf-bf89-db706f55b395_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2679,6 +2791,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2687,13 +2803,11 @@
             "z_dimension": 25.48168,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A15"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM295.KDDN.578",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/ee4529e9364d997d0b4b31c1092c0a6a",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-15B",
@@ -2703,9 +2817,9 @@
           "section_size": 14.77075,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B15",
+            "@id": "http://purl.org/ccf/1.5/1fc9c37b-eecc-4a8e-9586-d0111dd857fd",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B15_placement",
+              "@id": "http://purl.org/ccf/1.5/1fc9c37b-eecc-4a8e-9586-d0111dd857fd_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2725,6 +2839,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2733,13 +2851,11 @@
             "z_dimension": 14.77075,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B15"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM555.HCPS.767",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/d156f6eaf8e496654ab07b0f5668a3ce",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-15C",
@@ -2749,9 +2865,9 @@
           "section_size": 19.81119,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C15",
+            "@id": "http://purl.org/ccf/1.5/921ba2e8-dc99-4611-a671-5e7251624e6b",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C15_placement",
+              "@id": "http://purl.org/ccf/1.5/921ba2e8-dc99-4611-a671-5e7251624e6b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2771,6 +2887,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2779,13 +2899,11 @@
             "z_dimension": 19.81119,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C15"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM736.VNGX.794",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8b20a6b6d0f594b6542555f4699ff0c1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-15D",
@@ -2795,9 +2913,9 @@
           "section_size": 24.9039,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D15",
+            "@id": "http://purl.org/ccf/1.5/d10fe5e2-cabb-40e0-a5b2-2f00aa3b4590",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D15_placement",
+              "@id": "http://purl.org/ccf/1.5/d10fe5e2-cabb-40e0-a5b2-2f00aa3b4590_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2817,6 +2935,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2825,13 +2947,11 @@
             "z_dimension": 24.9039,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D15"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM935.CMXN.233",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f8335b71de168b569737e0b766ecc294",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-16A",
@@ -2841,9 +2961,9 @@
           "section_size": 26.16344,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A16",
+            "@id": "http://purl.org/ccf/1.5/e80872c6-68b3-4b11-baef-98ef893d4223",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A16_placement",
+              "@id": "http://purl.org/ccf/1.5/e80872c6-68b3-4b11-baef-98ef893d4223_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A16",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2863,6 +2983,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2871,13 +2995,11 @@
             "z_dimension": 26.16344,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A16"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM796.WWBF.666",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/552696ba5c2102ea1c2b288244b1ff15",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-16B",
@@ -2887,9 +3009,9 @@
           "section_size": 16.74589,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B16",
+            "@id": "http://purl.org/ccf/1.5/8178d451-7fdf-4b4e-bc61-a9a08c13e64f",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B16_placement",
+              "@id": "http://purl.org/ccf/1.5/8178d451-7fdf-4b4e-bc61-a9a08c13e64f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B16",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2909,6 +3031,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2917,13 +3043,11 @@
             "z_dimension": 16.74589,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B16"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM825.CZWX.579",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/eefcff07c565a272d53f8cebefa72548",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-16C",
@@ -2933,9 +3057,9 @@
           "section_size": 24.52814,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C16",
+            "@id": "http://purl.org/ccf/1.5/5ca3cc8e-cb09-40da-a062-799757b4fa3c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C16_placement",
+              "@id": "http://purl.org/ccf/1.5/5ca3cc8e-cb09-40da-a062-799757b4fa3c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C16",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -2955,6 +3079,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -2963,13 +3091,11 @@
             "z_dimension": 24.52814,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C16"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM755.CTKR.399",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/c8ff050641e9e5a24ffcbfed54df33d9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-16D",
@@ -2979,9 +3105,9 @@
           "section_size": 27.99991,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D16",
+            "@id": "http://purl.org/ccf/1.5/36f71166-f2f2-47e3-8aac-7b3c02a5f70c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D16_placement",
+              "@id": "http://purl.org/ccf/1.5/36f71166-f2f2-47e3-8aac-7b3c02a5f70c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D16",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3001,6 +3127,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3009,14 +3140,11 @@
             "z_dimension": 27.99991,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D16"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM432.XXDB.622",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f3bc7892e097b690b220e67f779c3979",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-17A",
@@ -3026,9 +3154,9 @@
           "section_size": 24.23501,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A17",
+            "@id": "http://purl.org/ccf/1.5/2f418c29-4c24-40a5-8e44-8e9de075eef3",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A17_placement",
+              "@id": "http://purl.org/ccf/1.5/2f418c29-4c24-40a5-8e44-8e9de075eef3_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A17",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3048,6 +3176,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3056,13 +3188,11 @@
             "z_dimension": 24.23501,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A17"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM755.HBKW.434",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/84fcf3906a4af89eaad4c4550f9d2351",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-17B",
@@ -3072,9 +3202,9 @@
           "section_size": 17.85764,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B17",
+            "@id": "http://purl.org/ccf/1.5/3d830d38-cb9e-49b3-82c1-f9b576dc6a1f",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B17_placement",
+              "@id": "http://purl.org/ccf/1.5/3d830d38-cb9e-49b3-82c1-f9b576dc6a1f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B17",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3094,6 +3224,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3102,13 +3236,11 @@
             "z_dimension": 17.85764,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B17"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM995.KHXV.747",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a7ef50c398d3d81fc1fda58e290ae915",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-17C",
@@ -3118,9 +3250,9 @@
           "section_size": 28.17015,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C17",
+            "@id": "http://purl.org/ccf/1.5/21916825-99f2-4c34-b84d-63b6a7d983fe",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C17_placement",
+              "@id": "http://purl.org/ccf/1.5/21916825-99f2-4c34-b84d-63b6a7d983fe_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C17",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3140,6 +3272,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3148,14 +3285,11 @@
             "z_dimension": 28.17015,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C17"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM933.SVHX.434",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/5b1c34ca2223edaab35003aeedce1dac",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-17D",
@@ -3165,9 +3299,9 @@
           "section_size": 29.74209,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D17",
+            "@id": "http://purl.org/ccf/1.5/cb9d6b1f-3d34-4f15-a729-dc7c62e0e0c7",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D17_placement",
+              "@id": "http://purl.org/ccf/1.5/cb9d6b1f-3d34-4f15-a729-dc7c62e0e0c7_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D17",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3187,6 +3321,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3195,14 +3334,11 @@
             "z_dimension": 29.74209,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D17"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM384.KLJF.772",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/31a20888e1b5d261250bd22a14f80bec",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-18A",
@@ -3212,9 +3348,9 @@
           "section_size": 21.53139,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A18",
+            "@id": "http://purl.org/ccf/1.5/8e8aad21-f037-4b1a-a3c7-57cac8587dd1",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A18_placement",
+              "@id": "http://purl.org/ccf/1.5/8e8aad21-f037-4b1a-a3c7-57cac8587dd1_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A18",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3234,6 +3370,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3242,14 +3383,11 @@
             "z_dimension": 21.53139,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A18"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM253.KNDT.482",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a7ad6d6504e6b1faa01274b1f5e985ff",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-18B",
@@ -3259,9 +3397,9 @@
           "section_size": 19.04139,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B18",
+            "@id": "http://purl.org/ccf/1.5/3898b409-25eb-4c03-946e-dfb7cf1de062",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B18_placement",
+              "@id": "http://purl.org/ccf/1.5/3898b409-25eb-4c03-946e-dfb7cf1de062_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B18",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3281,6 +3419,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3289,13 +3431,11 @@
             "z_dimension": 19.04139,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B18"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM999.MHNH.368",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/88cd2496ca49bd3057018395af20bf11",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-18C",
@@ -3305,9 +3445,9 @@
           "section_size": 29.84335,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C18",
+            "@id": "http://purl.org/ccf/1.5/899b233b-4ae8-40f2-aa26-301c81db6de4",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C18_placement",
+              "@id": "http://purl.org/ccf/1.5/899b233b-4ae8-40f2-aa26-301c81db6de4_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C18",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3327,6 +3467,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3335,14 +3480,11 @@
             "z_dimension": 29.84335,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C18"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM263.GPWC.874",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/4696245e254de77fe74ad12909375849",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-18D",
@@ -3352,9 +3494,9 @@
           "section_size": 30.28209,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D18",
+            "@id": "http://purl.org/ccf/1.5/4852e13b-fc32-4f2c-a8dc-b74b64307bfd",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D18_placement",
+              "@id": "http://purl.org/ccf/1.5/4852e13b-fc32-4f2c-a8dc-b74b64307bfd_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D18",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3374,6 +3516,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3382,14 +3529,11 @@
             "z_dimension": 30.28209,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D18"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM846.JGXK.835",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/84ba6418c32bdcb88eee3a6f7f1191a9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-19A",
@@ -3399,9 +3543,9 @@
           "section_size": 20.38503,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A19",
+            "@id": "http://purl.org/ccf/1.5/ca796912-7480-4573-a998-587c21694480",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A19_placement",
+              "@id": "http://purl.org/ccf/1.5/ca796912-7480-4573-a998-587c21694480_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A19",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3421,6 +3565,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3429,14 +3578,11 @@
             "z_dimension": 20.38503,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A19"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM764.MVCB.754",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/e1b505e82988cfbb4e5060073cbdbbda",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-19B",
@@ -3446,9 +3592,9 @@
           "section_size": 20.50832,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B19",
+            "@id": "http://purl.org/ccf/1.5/3ed7a35c-798e-4abe-8f00-8ef9cc64abf5",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B19_placement",
+              "@id": "http://purl.org/ccf/1.5/3ed7a35c-798e-4abe-8f00-8ef9cc64abf5_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B19",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3468,6 +3614,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3476,14 +3627,11 @@
             "z_dimension": 20.50832,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B19"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM677.BDRD.667",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/579006e37b4f2e78ef261348ef21a347",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-19C",
@@ -3493,9 +3641,9 @@
           "section_size": 30.37533,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C19",
+            "@id": "http://purl.org/ccf/1.5/bb6017e4-2e2c-4439-ae50-af0dfa059feb",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C19_placement",
+              "@id": "http://purl.org/ccf/1.5/bb6017e4-2e2c-4439-ae50-af0dfa059feb_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C19",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3515,6 +3663,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3523,14 +3676,11 @@
             "z_dimension": 30.37533,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C19"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM386.SFSR.799",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/1a34e38526844c841ee7620803cdb1ee",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-19D",
@@ -3540,9 +3690,9 @@
           "section_size": 29.90617,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D19",
+            "@id": "http://purl.org/ccf/1.5/31be451a-6a68-4d73-990e-e7c5089dfff3",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D19_placement",
+              "@id": "http://purl.org/ccf/1.5/31be451a-6a68-4d73-990e-e7c5089dfff3_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D19",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3562,6 +3712,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3570,14 +3725,11 @@
             "z_dimension": 29.90617,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D19"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM439.JJRL.379",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/847f02b55f68d0a856aaa3503e7a202e",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-20A",
@@ -3587,9 +3739,9 @@
           "section_size": 22.54316,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A20",
+            "@id": "http://purl.org/ccf/1.5/faf58c0f-3c36-4e27-a9c0-5b819618115c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A20_placement",
+              "@id": "http://purl.org/ccf/1.5/faf58c0f-3c36-4e27-a9c0-5b819618115c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A20",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3609,6 +3761,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3617,14 +3774,11 @@
             "z_dimension": 22.54316,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A20"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM932.PBSW.589",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/bcb7f2a577506012f1ce818888f9b56e",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-20B",
@@ -3634,9 +3788,9 @@
           "section_size": 22.54316,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B20",
+            "@id": "http://purl.org/ccf/1.5/4153ed4a-e420-4a38-8bb9-b051a91f6552",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B20_placement",
+              "@id": "http://purl.org/ccf/1.5/4153ed4a-e420-4a38-8bb9-b051a91f6552_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B20",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3656,6 +3810,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3664,14 +3823,11 @@
             "z_dimension": 22.54316,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B20"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM798.NQQL.444",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/d542e5b1acbd9b66cd6caf7db03b1066",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-20C",
@@ -3681,9 +3837,9 @@
           "section_size": 30.42614,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C20",
+            "@id": "http://purl.org/ccf/1.5/5eb8c9a9-1399-498d-a7e5-55a9a2e9bb3c",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C20_placement",
+              "@id": "http://purl.org/ccf/1.5/5eb8c9a9-1399-498d-a7e5-55a9a2e9bb3c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C20",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3703,6 +3859,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3711,14 +3872,11 @@
             "z_dimension": 30.42614,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C20"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM934.XMWH.474",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/3f09aa699a5aa5c6317a68a407238386",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "CLR-20D",
@@ -3728,9 +3886,9 @@
           "section_size": 29.61846,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D20",
+            "@id": "http://purl.org/ccf/1.5/7b161bf3-0cdd-4949-ac97-9c491e90a64e",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D20_placement",
+              "@id": "http://purl.org/ccf/1.5/7b161bf3-0cdd-4949-ac97-9c491e90a64e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D20",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3750,6 +3908,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3758,14 +3921,11 @@
             "z_dimension": 29.61846,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D20"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM523.LJDP.788",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/eea33d941fbe55633a1fc0af77a69ea6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-21A",
@@ -3775,9 +3935,9 @@
           "section_size": 25.57757,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A21",
+            "@id": "http://purl.org/ccf/1.5/a71d243f-2ad3-46aa-8f2d-503712f9383d",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A21_placement",
+              "@id": "http://purl.org/ccf/1.5/a71d243f-2ad3-46aa-8f2d-503712f9383d_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A21",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3797,6 +3957,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3805,14 +3970,11 @@
             "z_dimension": 25.57757,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A21"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM298.ZGSD.633",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/0892597d05d069f9d5838ca4bbdf6c15",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-21B",
@@ -3822,9 +3984,9 @@
           "section_size": 25.57757,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B21",
+            "@id": "http://purl.org/ccf/1.5/4fd7ba91-bb55-4d5f-ba0f-0c418535db22",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B21_placement",
+              "@id": "http://purl.org/ccf/1.5/4fd7ba91-bb55-4d5f-ba0f-0c418535db22_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B21",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3844,6 +4006,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3852,14 +4019,11 @@
             "z_dimension": 25.57757,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B21"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM662.BVNR.532",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/b59813fa80a5a20ee2dc810b6b27f45e",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-21C",
@@ -3869,9 +4033,9 @@
           "section_size": 29.8874,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C21",
+            "@id": "http://purl.org/ccf/1.5/7362eb47-f680-4b94-b1e1-7775b31fca10",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C21_placement",
+              "@id": "http://purl.org/ccf/1.5/7362eb47-f680-4b94-b1e1-7775b31fca10_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C21",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3891,6 +4055,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3899,14 +4068,11 @@
             "z_dimension": 29.8874,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C21"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM529.MJXG.897",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/35ad9ea0167891ca50c5c4f293711416",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PCMC-21D",
@@ -3916,9 +4082,9 @@
           "section_size": 29.79263,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D21",
+            "@id": "http://purl.org/ccf/1.5/e3d219d1-e323-4a82-a2b4-03b9b2b293f6",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D21_placement",
+              "@id": "http://purl.org/ccf/1.5/e3d219d1-e323-4a82-a2b4-03b9b2b293f6_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D21",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3938,6 +4104,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3946,13 +4116,11 @@
             "z_dimension": 29.79263,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D21"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM693.WRFR.798",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/06c8f93dc949a53319beabe57a9c1e39",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-22A",
@@ -3962,9 +4130,9 @@
           "section_size": 29.00265,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A22",
+            "@id": "http://purl.org/ccf/1.5/0d6b6ac6-4802-47f7-a51c-f9c30239d890",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A22_placement",
+              "@id": "http://purl.org/ccf/1.5/0d6b6ac6-4802-47f7-a51c-f9c30239d890_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A22",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -3984,6 +4152,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -3992,14 +4165,11 @@
             "z_dimension": 29.00265,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A22"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM652.JZJM.672",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/df4fd9579131bf1e74db433826349427",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-22B",
@@ -4009,9 +4179,9 @@
           "section_size": 29.00265,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B22",
+            "@id": "http://purl.org/ccf/1.5/230d9f69-befb-46bf-9350-00f3347b2dba",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B22_placement",
+              "@id": "http://purl.org/ccf/1.5/230d9f69-befb-46bf-9350-00f3347b2dba_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B22",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4031,6 +4201,11 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001150",
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4039,14 +4214,11 @@
             "z_dimension": 29.00265,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001150"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B22"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM986.ZTSL.433",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/91d5deb61cc132abcdec413063d0750f",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-22C",
@@ -4056,9 +4228,9 @@
           "section_size": 28.9357,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C22",
+            "@id": "http://purl.org/ccf/1.5/47c58edd-8897-4f57-b0ca-d69fc688c0bd",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C22_placement",
+              "@id": "http://purl.org/ccf/1.5/47c58edd-8897-4f57-b0ca-d69fc688c0bd_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C22",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4078,6 +4250,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4086,13 +4262,11 @@
             "z_dimension": 28.9357,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C22"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM834.CKNS.258",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f3c07a64b3ee905fcbe5a00a7c67ecec",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FCMC-22D",
@@ -4102,9 +4276,9 @@
           "section_size": 26.58782,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D22",
+            "@id": "http://purl.org/ccf/1.5/c808b852-104d-4d8e-b725-06b4b5d94fae",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D22_placement",
+              "@id": "http://purl.org/ccf/1.5/c808b852-104d-4d8e-b725-06b4b5d94fae_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D22",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4124,6 +4298,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4132,13 +4310,11 @@
             "z_dimension": 26.58782,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D22"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM785.PJSJ.638",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/ca3f2fe496c1f3573b873dd8568c2c72",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-23A",
@@ -4148,9 +4324,9 @@
           "section_size": 29.22214,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A23",
+            "@id": "http://purl.org/ccf/1.5/413c5088-6f8e-4eb3-a4eb-d67885a6f40b",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A23_placement",
+              "@id": "http://purl.org/ccf/1.5/413c5088-6f8e-4eb3-a4eb-d67885a6f40b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A23",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4170,6 +4346,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4178,13 +4358,11 @@
             "z_dimension": 29.22214,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A23"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM967.LFWL.562",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/b9dcf7ed529edc35b4906660381675e7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-23B",
@@ -4194,9 +4372,9 @@
           "section_size": 29.30019,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B23",
+            "@id": "http://purl.org/ccf/1.5/476662d2-a5c8-4b31-acb2-9954986a03a4",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B23_placement",
+              "@id": "http://purl.org/ccf/1.5/476662d2-a5c8-4b31-acb2-9954986a03a4_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B23",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4216,6 +4394,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4224,13 +4406,11 @@
             "z_dimension": 29.30019,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B23"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM657.KJJZ.262",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a9e7773655e38a0699e313892623b2ca",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-23C",
@@ -4240,9 +4420,9 @@
           "section_size": 25.09426,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C23",
+            "@id": "http://purl.org/ccf/1.5/09d528ca-cbd4-4c88-afd6-68d2216a4515",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C23_placement",
+              "@id": "http://purl.org/ccf/1.5/09d528ca-cbd4-4c88-afd6-68d2216a4515_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C23",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4262,6 +4442,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4270,13 +4454,11 @@
             "z_dimension": 25.09426,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C23"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM586.FJPR.395",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/c669ba4bf4d5c69fb1ec47d75784440d",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "FF-23D",
@@ -4286,9 +4468,9 @@
           "section_size": 21.27949,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D23",
+            "@id": "http://purl.org/ccf/1.5/97d3feb2-1bae-44a7-b9fa-92f29b9f48c0",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D23_placement",
+              "@id": "http://purl.org/ccf/1.5/97d3feb2-1bae-44a7-b9fa-92f29b9f48c0_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D23",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4308,6 +4490,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4316,13 +4502,11 @@
             "z_dimension": 21.27949,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D23"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM234.CXDK.624",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/3f754292cba10dcda7132ec9abbee076",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-24A",
@@ -4332,9 +4516,9 @@
           "section_size": 27.73987,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A24",
+            "@id": "http://purl.org/ccf/1.5/dcab0030-152e-4157-be4a-961d774b79a7",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A24_placement",
+              "@id": "http://purl.org/ccf/1.5/dcab0030-152e-4157-be4a-961d774b79a7_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A24",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4354,6 +4538,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4362,13 +4550,11 @@
             "z_dimension": 27.73987,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A24"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM556.LCHZ.242",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/10f16f0781e27a9027c02af6883b1107",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-24B",
@@ -4378,9 +4564,9 @@
           "section_size": 27.73987,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B24",
+            "@id": "http://purl.org/ccf/1.5/910b86b7-d20a-4b13-8ca3-108220f86aae",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B24_placement",
+              "@id": "http://purl.org/ccf/1.5/910b86b7-d20a-4b13-8ca3-108220f86aae_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B24",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4400,6 +4586,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4408,13 +4598,11 @@
             "z_dimension": 27.73987,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B24"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM779.QWGV.396",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/9dfc0460cfa7609c96d74ff24927322a",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-24C",
@@ -4424,9 +4612,9 @@
           "section_size": 18.36121,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C24",
+            "@id": "http://purl.org/ccf/1.5/62a188b7-2dfc-4ac3-969c-d7e29f93d532",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C24_placement",
+              "@id": "http://purl.org/ccf/1.5/62a188b7-2dfc-4ac3-969c-d7e29f93d532_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C24",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4446,6 +4634,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4454,13 +4646,11 @@
             "z_dimension": 18.36121,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C24"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM733.MVMH.924",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a232b912d002ac193e29f41daac19a13",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "RNA-24D",
@@ -4470,9 +4660,9 @@
           "section_size": 16.91988,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D24",
+            "@id": "http://purl.org/ccf/1.5/77b00156-1ba5-4b8f-96bc-a0d69ec3689e",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D24_placement",
+              "@id": "http://purl.org/ccf/1.5/77b00156-1ba5-4b8f-96bc-a0d69ec3689e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D24",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4492,6 +4682,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4500,13 +4694,11 @@
             "z_dimension": 16.91988,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D24"
           }
         },
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/HBM324.XBHH.364",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/6e9ef7440414c1209f6ffd86a15960c1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-25",
@@ -4516,9 +4708,9 @@
           "section_size": 26.83708,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#25",
+            "@id": "http://purl.org/ccf/1.5/2235b505-6435-4f51-b4b0-8611c4fa5955",
             "placement": {
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#25_placement",
+              "@id": "http://purl.org/ccf/1.5/2235b505-6435-4f51-b4b0-8611c4fa5955_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/generic-pancreas-male#25",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
@@ -4538,6 +4730,10 @@
               "placement_date": "2024-08-15"
             },
             "@type": "SpatialEntity",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001151",
+              "http://purl.obolibrary.org/obo/UBERON_0001264"
+            ],
             "creator_first_name": "Bhargav Snehal",
             "creator_last_name": "Desai",
             "dimension_units": "millimeter",
@@ -4546,9 +4742,7 @@
             "z_dimension": 26.83708,
             "creation_date": "2024-08-15",
             "creator": "Bhargav Snehal Desai",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151"
-            ]
+            "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/generic-pancreas-male#25"
           }
         }
       ]
