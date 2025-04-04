@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HuBMAP
+  provider_name: <Provider Name>
+  provider_uuid: 01960289-a813-771d-bae4-eb77138d627f
+  defaults:
+    id: http://example.com/required/id
+    thumbnail: assets/icons/ico-unknown.svg
+    link: http://example.com/user/link
+  donors:
+    - sex: Male
+      age: 28
+      samples:
+      - rui_location: skin.json
+    - sex: Male
+      age: 36
+      samples:
+      - rui_location: small_intestine.json
+    - sex: Male
+      age: 18
+      link: https://portal.hubmapconsortium.org/browse/donor/b71e9526347aac28c8e9089592cab44a
+      id: https://entity.api.hubmapconsortium.org/entities/b71e9526347aac28c8e9089592cab44a
+      samples: 
+      - rui_location: Pancreas-HBM923.RXXX.693.json
+        link: https://portal.hubmapconsortium.org/browse/sample/0f54612e33e86e0d8caeebc29c8d5ff9
+        id:  https://entity.api.hubmapconsortium.org/entities/0f54612e33e86e0d8caeebc29c8d5ff9
+      - rui_location: Pancreas-HBM923.RXXX.693.json
+        link: https://portal.hubmapconsortium.org/browse/sample/8baf0293d297265c279ea2dd6ca7580f
+        id:  https://entity.api.hubmapconsortium.org/entities/8baf0293d297265c279ea2dd6ca7580f
+      - rui_location: Pancreas-HBM332.XCRS.456.json
+        link: https://portal.hubmapconsortium.org/browse/sample/035a310cd14e264cb4775e807f734f1c
+        id:  https://entity.api.hubmapconsortium.org/entities/8baf0293d297265c279ea2dd6ca7580f
+    
