@@ -1,13 +1,15 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: HuBMAP
+  provider_name: Columbia University
+  provider_uuid: 3A0757DE-2779-11F0-B8CA-20E2A8B75C6B
   defaults:
     id: http://example.com/required/id
     thumbnail: assets/icons/ico-unknown.svg
     link: http://example.com/user/link
   donors:
-    - sex: Male
+    - sex: Female
+      age: 51
+      id: https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5
       samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+      - rui_location: liver-omap.json
