@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: University of California San Francisco
+  provider_name: Rachel Zwick
+  provider_uuid: A6FF5FF8-2AB7-11F0-9E9C-20E2A8B75C6B
   defaults:
     id: 10.1038/s41556-023-01337-z
     thumbnail: assets/icons/ico-unknown.svg
@@ -12,12 +12,188 @@
       bmi: 27
       age: 44
       samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
-        datasets:
-          - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (1).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (2).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (3).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (4).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (5).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (6).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (7).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (8).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (9).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (10).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (11).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (12).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (13).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (14).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (15).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (16).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (17).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (18).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (19).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (20).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (21).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (22).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (23).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (24).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (25).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (26).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (27).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (28).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (29).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: female-intestine (30).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+
     - sex: Male
       bmi: 25
       age: 30
       samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
-
+        - rui_location: male-intestine (1).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (2).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (3).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (4).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (5).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (6).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (7).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (8).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (9).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (10).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (11).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (12).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (13).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (14).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (15).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (16).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (17).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (18).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (19).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (20).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (21).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (22).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (23).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (24).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (25).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (26).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (27).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (28).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (29).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/
+        - rui_location: male-intestine (30).json
+          datasets:
+            - link: https://cellxgene.cziscience.com/e/b6ee0939-b5b9-4e03-9d69-96fb6bf5d434.cxg/

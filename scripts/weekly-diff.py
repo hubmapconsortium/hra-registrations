@@ -12,25 +12,48 @@ GOOGLE_CREDENTIALS_FILE = "/Users/dequeue/Desktop/GitHub.nosync/hra1231-c39c9597
 
 # ---- Step 1: Count donors, samples, blocks, datasets ----
 def count_all_entities():
-    donors, samples, blocks, datasets = set(), set(), set(), set()
+    donor_count = 0
+    sample_count = 0
+    section_count = 0
+    dataset_count = 0
 
     for root, dirs, files in os.walk(GITHUB_REPO_PATH):
         for file in files:
             if file == REGISTRATION_FILENAME:
                 file_path = os.path.join(root, file)
+                print(f"Parsing: {file_path}")
                 with open(file_path, 'r') as f:
                     try:
                         data = yaml.safe_load(f)
+                        if not isinstance(data, list):
+                            print("  ⚠️ Unexpected structure: not a list.")
+                            continue
+
                         for entry in data:
-                            donors.add(entry.get('donor_id'))
-                            samples.add(entry.get('tissue_sample_id'))
-                            blocks.add(entry.get('rui_location', {}).get('ccf_annotation_id'))
-                            for ds in entry.get('datasets', []):
-                                datasets.add(ds.get('dataset_id'))
+                            donors = entry.get("donors", [])
+                            donor_count += len(donors)
+
+                            for donor in donors:
+                                samples = donor.get("samples", [])
+                                sample_count += len(samples)
+
+                                for sample in samples:
+                                    sections = sample.get("sections", [])
+                                    section_count += len(sections)
+
+                                    for section in sections:
+                                        datasets = section.get("datasets", [])
+                                        dataset_count += len(datasets)
+
                     except Exception as e:
                         print(f"Error parsing {file_path}: {e}")
 
-    return len(donors), len(samples), len(blocks), len(datasets)
+    print(f"\nFinal Counts:")
+    print(f"  Donors:   {donor_count}")
+    print(f"  Samples:  {sample_count}")
+    print(f"  Sections: {section_count}")
+    print(f"  Datasets: {dataset_count}")
+    return donor_count, sample_count, section_count, dataset_count
 
 # ---- Step 2: Write to Google Sheet ----
 def write_to_google_sheet(date_str, donors, samples, blocks, datasets):
@@ -60,7 +83,7 @@ def write_to_google_sheet(date_str, donors, samples, blocks, datasets):
     sheet.update_cell(1, 2, date_str)
 
     # Set metric values
-    values = [donors, samples, blocks, datasets]
+    values = [donors, samples, sections, datasets]
     for i, val in enumerate(values):
         sheet.update_cell(i + 2, 2, val)
 
@@ -69,5 +92,5 @@ def write_to_google_sheet(date_str, donors, samples, blocks, datasets):
 # ---- Run all steps ----
 if __name__ == "__main__":
     today = date.today().isoformat()
-    donors, samples, blocks, datasets = count_all_entities()
-    write_to_google_sheet(today, donors, samples, blocks, datasets)
+    donors, samples, sections, datasets = count_all_entities()
+    write_to_google_sheet(today, donors, samples, sections, datasets)

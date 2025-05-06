@@ -1,0 +1,40 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/a141def1-7f0f-4ece-872c-b050dfc41674",
+  "@type": "SpatialEntity",
+  "creator": "Rachel Zwick",
+  "creator_first_name": "Rachel",
+  "creator_last_name": "Zwick",
+  "creator_email": "Rachel.Zwick@nyulangone.org",
+  "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+  "creation_date": "2025-05-06",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0002116"
+  ],
+  "x_dimension": 6,
+  "y_dimension": 6,
+  "z_dimension": 2,
+  "dimension_units": "millimeter",
+  "publication_doi": "https://doi.org/10.1038/s41556-023-01337-z",
+  "consortium": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/a141def1-7f0f-4ece-872c-b050dfc41674_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+    "placement_date": "2025-05-06",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": -67,
+    "y_rotation": -176,
+    "z_rotation": 180,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 59,
+    "y_translation": 55,
+    "z_translation": 26,
+    "translation_units": "millimeter"
+  }
+}
