@@ -21,7 +21,7 @@
       sample_type: Tissue Block
       rui_location: VHF_bladder.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$bladder%20organ_Block
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$bladder%20organ
         link: https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP1_Pancreas
@@ -45,7 +45,7 @@
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20chest
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
         technology: smartseq
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body_Block
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
         technology: 10X
   - id: https://doi.org/10.1126/science.abl4896#TSP14
@@ -98,6 +98,20 @@
     sex: Female
     bmi: 41.0
     samples:
+    - id: https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fasc_colon
+      sample_type: Tissue Block
+      rui_location: VHF_asc_colon_low_confidence.json
+      datasets:
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$ascending%20colon
+        link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
+        technology: 10X
+    - id: https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fsigmoid_colon
+      sample_type: Tissue Block
+      rui_location: VHF_sigmoid_colon_low_confidence.json
+      datasets:
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$sigmoid%20colon
+        link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
+        technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Bladder
       sample_type: Tissue Block
       rui_location: VHF_bladder.json
@@ -123,14 +137,14 @@
       sample_type: Tissue Block
       rui_location: VHF_duodenum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine%2Fduodenum
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Small_Intestine%2FJejunum
       sample_type: Tissue Block
       rui_location: VHF_jejunum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine%2Fjejunum
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$jejunum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Spleen
@@ -189,14 +203,14 @@
       sample_type: Tissue Block
       rui_location: VHM_asc_colon_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$large%20intestine%2Fasc%20colon
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$ascending%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fsigmoid_colon
       sample_type: Tissue Block
       rui_location: VHM_sigmoid_colon_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$large%20intestine%2Fsigmoid%20colon
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$sigmoid%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Prostate
@@ -210,14 +224,14 @@
       sample_type: Tissue Block
       rui_location: VHM_duodenum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$small%20intestine%2Fduodenum
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP25_ileum
       sample_type: Tissue Block
       rui_location: VHM_ileum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$small%20intestine%2Fileum
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$ileum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Spleen
@@ -243,28 +257,28 @@
       sample_type: Tissue Block
       rui_location: VHF_asc_colon_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$large%20intestine%2Fasc%20colon
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ascending%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fsigmoid_colon
       sample_type: Tissue Block
       rui_location: VHF_sigmoid_colon_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$large%20intestine%2Fsigmoid%20colon
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$sigmoid%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP26_Small_Intestine%2Fduodenum
       sample_type: Tissue Block
       rui_location: VHF_duodenum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$small%20intestine%2duodenum
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP26_Small_Intestine%2Fileum
       sample_type: Tissue Block
       rui_location: VHF_ileum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$small%20intestine%2ileum
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ileum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
   - id: https://doi.org/10.1126/science.abl4896#TSP27
@@ -283,49 +297,49 @@
       sample_type: Tissue Block
       rui_location: VHF_heart_right_cardiac_atrium.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%2right%20cardiac%20atrium
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$right%20cardiac%20atrium
         link: https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Heart%2Fright_ventricle
       sample_type: Tissue Block
       rui_location: VHF_heart_right_ventricle.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%2right%20ventricle
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%20right%20ventricle
         link: https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_asc_colon
       sample_type: Tissue Block
       rui_location: VHF_asc_colon_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$large%20intestine%2asc%20colon
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ascending%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_sigmoid_colon
       sample_type: Tissue Block
       rui_location: VHF_sigmoid_colon_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$large%20intestine%2sigmoid%20colon
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$sigmoid%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Mammary
       sample_type: Tissue Block
       rui_location: VHF_Mammary_Gland_L.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$mammary%20gland
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$mammary%20gland 
         link: https://cellxgene.cziscience.com/e/2ba40233-8576-4dec-a5f1-2adfa115e2dc.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Ovary_L
       sample_type: Tissue Block
       rui_location: VHF_ovary_L.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ovary_L
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$left%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Ovary_R
       sample_type: Tissue Block
       rui_location: VHF_ovary_R.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ovary_R
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$right%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Pancreas
@@ -339,14 +353,14 @@
       sample_type: Tissue Block
       rui_location: VHF_duodenum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$small%20intestine%2Fduodenum
+      - id: hhttps://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Ileum
       sample_type: Tissue Block
       rui_location: VHF_ileum_low_confidence.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$small%20intestine%2Fileum
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ileum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Spleen
@@ -372,14 +386,14 @@
       sample_type: Tissue Block
       rui_location: VHF_ovary_L.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$ovary_L
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$left%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP28_Ovary_R
       sample_type: Tissue Block
       rui_location: VHF_ovary_R.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$ovary_R
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$right%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
         technology: 10X
   - id: https://doi.org/10.1126/science.abl4896#TSP30
@@ -391,14 +405,14 @@
       sample_type: Tissue Block
       rui_location: VHF_ovary_L.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$ovary_L
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$left%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
         technology: 10X
     - id: https://doi.org/10.1126/science.abl4896#TSP30_Ovary_R
       sample_type: Tissue Block
       rui_location: VHF_ovary_R.json
       datasets:
-      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$ovary_R
+      - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$right%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
         technology: 10X
   - id: https://doi.org/10.1126/science.abl4896#TSP4

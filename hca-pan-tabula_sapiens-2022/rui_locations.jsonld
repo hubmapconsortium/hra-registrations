@@ -61,7 +61,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$bladder%20organ_Block",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$bladder%20organ",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -212,7 +212,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg"
             },
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body_Block",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -559,6 +559,126 @@
       "bmi": 41,
       "samples": [
         {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fasc_colon",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
+          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896",
+          "section_count": 0,
+          "section_size": 50,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478",
+            "@type": "SpatialEntity",
+            "creator": "Heidi Schlehlein",
+            "creator_first_name": "Heidi",
+            "creator_last_name": "Schlehlein",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0022277",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ],
+            "x_dimension": 304.8,
+            "y_dimension": 40,
+            "z_dimension": 50,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 24,
+              "y_rotation": 83,
+              "z_rotation": 49,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 35.809,
+              "y_translation": 316.233,
+              "z_translation": 54.732,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$ascending%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fsigmoid_colon",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
+          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896",
+          "section_count": 0,
+          "section_size": 50,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab",
+            "@type": "SpatialEntity",
+            "creator": "Heidi Schlehlein",
+            "creator_first_name": "Heidi",
+            "creator_last_name": "Schlehlein",
+            "creation_date": "2023-08-28",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001154",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
+            ],
+            "x_dimension": 304.8,
+            "y_dimension": 40,
+            "z_dimension": 50,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2023-08-28",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 11,
+              "y_rotation": 31,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 119.763,
+              "y_translation": 85.628,
+              "z_translation": 98.584,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$sigmoid%20colon",
+              "@type": "Dataset",
+              "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
+              "description": "Data/Assay Types: 10X, ",
+              "link": "https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/",
+              "technology": "10X",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
           "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Bladder",
           "@type": "Sample",
           "sample_type": "Tissue Block",
@@ -786,7 +906,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine%2Fduodenum",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$duodenum",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -846,7 +966,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$small%20intestine%2Fjejunum",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$jejunum",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1288,7 +1408,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$large%20intestine%2Fasc%20colon",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$ascending%20colon",
               "@type": "Dataset",
               "label": "Registered 7/28/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1349,7 +1469,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$large%20intestine%2Fsigmoid%20colon",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$sigmoid%20colon",
               "@type": "Dataset",
               "label": "Registered 7/28/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1479,7 +1599,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$small%20intestine%2Fduodenum",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$duodenum",
               "@type": "Dataset",
               "label": "Registered 7/28/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1546,7 +1666,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$small%20intestine%2Fileum",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$ileum",
               "@type": "Dataset",
               "label": "Registered 7/28/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1736,7 +1856,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$large%20intestine%2Fasc%20colon",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ascending%20colon",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1797,7 +1917,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$large%20intestine%2Fsigmoid%20colon",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$sigmoid%20colon",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1860,7 +1980,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$small%20intestine%2duodenum",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$duodenum",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -1923,7 +2043,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$small%20intestine%2ileum",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ileum",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2052,7 +2172,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%2right%20cardiac%20atrium",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$right%20cardiac%20atrium",
               "@type": "Dataset",
               "label": "Registered 1/26/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2111,7 +2231,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%2right%20ventricle",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%20right%20ventricle",
               "@type": "Dataset",
               "label": "Registered 1/26/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2170,7 +2290,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$large%20intestine%2asc%20colon",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ascending%20colon",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2231,7 +2351,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$large%20intestine%2sigmoid%20colon",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$sigmoid%20colon",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2350,7 +2470,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ovary_L",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$left%20ovary",
               "@type": "Dataset",
               "label": "Registered 1/25/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2408,7 +2528,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ovary_R",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$right%20ovary",
               "@type": "Dataset",
               "label": "Registered 1/25/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2533,7 +2653,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$small%20intestine%2Fduodenum",
+              "@id": "hhttps://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$duodenum",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2596,7 +2716,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$small%20intestine%2Fileum",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ileum",
               "@type": "Dataset",
               "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2788,7 +2908,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$ovary_L",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$left%20ovary",
               "@type": "Dataset",
               "label": "Registered 1/25/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2846,7 +2966,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$ovary_R",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$right%20ovary",
               "@type": "Dataset",
               "label": "Registered 1/25/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2918,7 +3038,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$ovary_L",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$left%20ovary",
               "@type": "Dataset",
               "label": "Registered 1/25/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
@@ -2976,7 +3096,7 @@
           },
           "datasets": [
             {
-              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$ovary_R",
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$right%20ovary",
               "@type": "Dataset",
               "label": "Registered 1/25/2025, Heidi Schlehlein, Tabula Sapiens",
               "description": "Data/Assay Types: 10X, ",
