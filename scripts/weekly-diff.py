@@ -8,7 +8,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 GITHUB_REPO_PATH = "../"  # 🔁 Replace this with your local repo path
 REGISTRATION_FILENAME = "registrations.yaml"
 GOOGLE_SHEET_NAME = "RUI Dashboard"
-GOOGLE_CREDENTIALS_FILE = "/Users/dequeue/Desktop/GitHub.nosync/hra1231-c39c9597adfb.json"
+GOOGLE_CREDENTIALS_FILE = "/Users/dequeue/Desktop/RUI.nosync/hra1231-c39c9597adfb.json"
 
 # ---- Step 1: Count donors, samples, blocks, datasets ----
 def count_all_entities():
@@ -38,13 +38,16 @@ def count_all_entities():
                                 sample_count += len(samples)
 
                                 for sample in samples:
+                                    # Count datasets directly under sample
+                                    sample_datasets = sample.get("datasets", [])
+                                    dataset_count += len(sample_datasets)
+
                                     sections = sample.get("sections", [])
                                     section_count += len(sections)
 
                                     for section in sections:
-                                        datasets = section.get("datasets", [])
-                                        dataset_count += len(datasets)
-
+                                        section_datasets = section.get("datasets", [])
+                                        dataset_count += len(section_datasets)
                     except Exception as e:
                         print(f"Error parsing {file_path}: {e}")
 
