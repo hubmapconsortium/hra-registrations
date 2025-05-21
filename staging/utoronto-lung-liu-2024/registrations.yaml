@@ -1,13 +1,90 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: University of Toronto
+  provider_name: Aaron Wong
+  provider_uuid: 3be2a290-53dd-4d16-839e-f2d9f1533d57
   defaults:
-    id: http://example.com/required/id
+    id: 10.1016/j.ajt.2024.08.019
     thumbnail: assets/icons/ico-unknown.svg
-    link: http://example.com/user/link
+    link: https://doi.org/10.1016/j.ajt.2024.08.019
   donors:
-    - sex: Male
-      samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+  - sex: Male
+    age: 28
+    samples: 
+    - label: "case_1_CIT"
+      rui_location: lung-RLL.json 
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+    - label: "case_1_2hR"
+      rui_location: lung-RML.json 
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+  - sex: Male
+    age: 19
+    samples:
+    - label: "case_2_CIT"
+      rui_location: lung-Lingula.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+    - label: "case_2_2hR"
+      rui_location: lung-RLL.json 
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+  - sex: Male
+    age: 66
+    samples:
+    - label: "case_3_CIT"
+      rui_location: lung-RLL.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+    - label: "case_3_2hR"
+      rui_location: lung-LUL.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+  - sex: Male
+    age: 37
+    samples:
+    - label: "case_4_CIT"
+      rui_location: lung-RML.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+    - label: "case_4_2hR"
+      rui_location: lung-RML.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+  - sex: Male
+    age: 36
+    samples:
+    - label: "case_5_CIT"
+      rui_location: lung-RML.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+    - label: "case_5_2hR"
+      rui_location: lung-RML.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+  - sex: Male
+    age: 51
+    samples:
+    - label: "case_6_CIT"
+      rui_location: lung-RML.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+    - label: "case_6_2hR"
+      rui_location: lung-RUL.json
+      datasets:
+      - link: https://cellxgene.cziscience.com/collections/9f29fcd0-7075-4420-bd61-e2ec1aebad89
+        technology: scRNA-seq
+
+

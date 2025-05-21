@@ -1,0 +1,41 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/c68a0f06-63ae-4d90-812e-06224830aac3",
+  "@type": "SpatialEntity",
+  "creator": "Aaron Wong",
+  "creator_first_name": "Aaron",
+  "creator_last_name": "Wong",
+  "creator_email": "",
+  "creator_orcid": "https://orcid.org/0000-0001-8745-2154",
+  "creation_date": "2025-05-21",
+  "ccf_annotations": [
+    "http://purl.org/sig/ont/fma/fma62662",
+    "http://purl.org/sig/ont/fma/fma7403"
+  ],
+  "x_dimension": 10,
+  "y_dimension": 4,
+  "z_dimension": 1,
+  "dimension_units": "millimeter",
+  "publication_doi": "https://doi.org/10.1016/j.ajt.2024.08.019",
+  "consortium": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/c68a0f06-63ae-4d90-812e-06224830aac3_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary",
+    "placement_date": "2025-05-21",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 73,
+    "y_translation": 94,
+    "z_translation": 125,
+    "translation_units": "millimeter"
+  }
+}
