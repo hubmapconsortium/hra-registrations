@@ -20,14 +20,13 @@
         logo-tooltip=""
         theme="hubmap"
         login-disabled="true"
-        selected-organs='["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0002108"]'
       ></ccf-eui>
     </template>
     <script>
       window.addEventListener('DOMContentLoaded', () => {
         const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
         const homeUrl = location.href;
-        const source = `${basePath}rui_locations.jsonld#3881bd9b21ec8424fd5d562d85442ac3`;
+        const source = `${basePath}rui_locations.jsonld#1d493cdd82651ee36692adcb106979bc`;
         const euiTemplate = document.getElementById('eui-template');
         const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
         document.body.innerHTML = eui;
