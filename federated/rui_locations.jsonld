@@ -872,6 +872,3519 @@
       ]
     },
     {
+      "@id": "10.1038/s41556-023-01337-z#Donor1",
+      "@type": "Donor",
+      "label": "Female, Age 44, BMI 27",
+      "description": "Entered 4/5/2025, Rachel Zwick, Rachel Zwick",
+      "link": "https://doi.org/10.1038/s41556-023-01337-z",
+      "consortium_name": "University of California San Francisco",
+      "provider_name": "Rachel Zwick",
+      "provider_uuid": "A6FF5FF8-2AB7-11F0-9E9C-20E2A8B75C6B",
+      "age": 44,
+      "sex": "Female",
+      "bmi": 27,
+      "samples": [
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2a61ef48-f0fc-45f0-807c-fdc287e0bb74",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma7206"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2a61ef48-f0fc-45f0-807c-fdc287e0bb74_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -36,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 61,
+              "y_translation": 192,
+              "z_translation": 68,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/8ce5b6e9-49e9-4499-9aeb-6ebea15cfddb",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma7206",
+              "http://purl.org/sig/ont/fma/fma14928"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/8ce5b6e9-49e9-4499-9aeb-6ebea15cfddb_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": -57,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 29,
+              "y_translation": 197,
+              "z_translation": 14,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9dac781f-55f1-4160-b2b3-0c3eee3bbf03",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14929"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9dac781f-55f1-4160-b2b3-0c3eee3bbf03_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": -3,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 63,
+              "y_translation": 142,
+              "z_translation": 21,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock4",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/595a8bcb-e5f5-48eb-a023-afca8a222c24",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/595a8bcb-e5f5-48eb-a023-afca8a222c24_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": -3,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 97,
+              "y_translation": 160,
+              "z_translation": 46,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock4_TissueBlock4_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/3f3721b8-4ff1-4b55-a489-1f03b92a21f0",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930",
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/3f3721b8-4ff1-4b55-a489-1f03b92a21f0_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -91,
+              "y_rotation": 39,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 57,
+              "y_translation": 129,
+              "z_translation": 48,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock5_TissueBlock5_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a9025559-e1a7-4aef-b01e-22ec8c9a0fd6",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a9025559-e1a7-4aef-b01e-22ec8c9a0fd6_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 67,
+              "y_rotation": 129,
+              "z_rotation": -16,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 34,
+              "y_translation": 115,
+              "z_translation": 26,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock6_TissueBlock6_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock7",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ab078005-6f58-4451-89db-aa089b9d5aa8",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ab078005-6f58-4451-89db-aa089b9d5aa8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 86,
+              "y_rotation": 5,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 92,
+              "y_translation": 101,
+              "z_translation": 58,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock7_TissueBlock7_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock8",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/aac7bdcc-86e2-4a8a-8868-87be516beb8a",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/aac7bdcc-86e2-4a8a-8868-87be516beb8a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 86,
+              "y_rotation": 5,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 146,
+              "y_translation": 105,
+              "z_translation": 58,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock8_TissueBlock8_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock9",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/7d23fcc9-6773-446b-9d5a-f3236e92fe56",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/7d23fcc9-6773-446b-9d5a-f3236e92fe56_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 92,
+              "y_rotation": -46,
+              "z_rotation": 22,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 137,
+              "y_translation": 137,
+              "z_translation": 30,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock9_TissueBlock9_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock10",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/5c6d6cab-4aef-4c93-8334-08606677faa8",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/5c6d6cab-4aef-4c93-8334-08606677faa8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 16,
+              "y_rotation": -8,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 152,
+              "y_translation": 111,
+              "z_translation": 11,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock10_TissueBlock10_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock11",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9e19b05c-0326-4a0b-96df-7bc05f4764c0",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9e19b05c-0326-4a0b-96df-7bc05f4764c0_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -109,
+              "y_rotation": 8,
+              "z_rotation": -40,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 137,
+              "y_translation": 60,
+              "z_translation": 37,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock11_TissueBlock11_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock12",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ecffff86-ba26-4f9d-a7c3-c8a59047cd22",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ecffff86-ba26-4f9d-a7c3-c8a59047cd22_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 93,
+              "y_rotation": -8,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 97,
+              "y_translation": 87,
+              "z_translation": 37,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock12_TissueBlock12_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock13",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/3228161e-cd48-49a7-8a76-2247b6ac97a2",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/3228161e-cd48-49a7-8a76-2247b6ac97a2_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 105,
+              "y_rotation": -22,
+              "z_rotation": 26,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 121,
+              "y_translation": 56,
+              "z_translation": 36,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock13_TissueBlock13_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock14",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/e852ebea-a83a-496e-9eed-722d73be7deb",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/e852ebea-a83a-496e-9eed-722d73be7deb_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 99,
+              "y_rotation": 117,
+              "z_rotation": 111,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 153,
+              "y_translation": 86,
+              "z_translation": 69,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock14_TissueBlock14_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock15",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/02174b87-8293-48f0-9372-2b38f4053e86",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/02174b87-8293-48f0-9372-2b38f4053e86_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 57,
+              "y_rotation": -83,
+              "z_rotation": 51,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 138,
+              "y_translation": 70,
+              "z_translation": 75,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock15_TissueBlock15_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock16",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d8bd4977-6e98-4b7d-a1b9-17969beff548",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d8bd4977-6e98-4b7d-a1b9-17969beff548_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 94,
+              "y_rotation": 0,
+              "z_rotation": 15,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 101,
+              "y_translation": 20,
+              "z_translation": 52,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock16_TissueBlock16_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock17",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ac946085-4b09-4b87-8192-b1e46a7d0137",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ac946085-4b09-4b87-8192-b1e46a7d0137_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 3,
+              "y_rotation": 0,
+              "z_rotation": 64,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 103,
+              "y_translation": 45,
+              "z_translation": 87,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock17_TissueBlock17_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock18",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/63f92f6d-ebf4-4d50-b66a-aded2a26d8b5",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/63f92f6d-ebf4-4d50-b66a-aded2a26d8b5_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -94,
+              "y_rotation": 0,
+              "z_rotation": 61,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 90,
+              "y_translation": 93,
+              "z_translation": 84,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock18_TissueBlock18_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock19",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/13b7043b-5697-48c3-9f63-460c2f3486c4",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/13b7043b-5697-48c3-9f63-460c2f3486c4_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -94,
+              "y_rotation": 0,
+              "z_rotation": 70,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 82,
+              "y_translation": 65,
+              "z_translation": 69,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock19_TissueBlock19_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock20",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/b0192163-6b87-4ea3-86e8-a624f1adc078",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/b0192163-6b87-4ea3-86e8-a624f1adc078_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -94,
+              "y_rotation": 0,
+              "z_rotation": 61,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 87,
+              "y_translation": 40,
+              "z_translation": 55,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock20_TissueBlock20_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock21",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a141def1-7f0f-4ece-872c-b050dfc41674",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a141def1-7f0f-4ece-872c-b050dfc41674_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -67,
+              "y_rotation": -176,
+              "z_rotation": 180,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59,
+              "y_translation": 55,
+              "z_translation": 26,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock21_TissueBlock21_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock22",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d179ac72-3a4c-4751-913e-7e8cedb09a4a",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d179ac72-3a4c-4751-913e-7e8cedb09a4a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 88,
+              "y_rotation": -52,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 45,
+              "y_translation": 70,
+              "z_translation": 56,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock22_TissueBlock22_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock23",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/3446b0de-94b6-463c-8ceb-6cf481301674",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/3446b0de-94b6-463c-8ceb-6cf481301674_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 97,
+              "y_rotation": -46,
+              "z_rotation": 30,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 40,
+              "y_translation": 116,
+              "z_translation": 61,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock23_TissueBlock23_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock24",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/c2b08ce1-b751-4abd-8fd1-4e8db9ea4aa1",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/c2b08ce1-b751-4abd-8fd1-4e8db9ea4aa1_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 73,
+              "y_rotation": -18,
+              "z_rotation": 30,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 24,
+              "y_translation": 122,
+              "z_translation": 18,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock24_TissueBlock24_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock25",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/134d7bc3-32d3-4bbf-a8fe-15d319bbcc0d",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/134d7bc3-32d3-4bbf-a8fe-15d319bbcc0d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 133,
+              "y_rotation": 0,
+              "z_rotation": 152,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 18,
+              "y_translation": 108,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock25_TissueBlock25_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock26",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/e0d17b96-86e5-4295-81fc-a0810c07a347",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/e0d17b96-86e5-4295-81fc-a0810c07a347_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 100,
+              "y_rotation": -37,
+              "z_rotation": 21,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 38,
+              "y_translation": 65,
+              "z_translation": 35,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock26_TissueBlock26_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock27",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/97a63c6d-072b-4f69-82d0-ec934066911d",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/97a63c6d-072b-4f69-82d0-ec934066911d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 100,
+              "y_rotation": -40,
+              "z_rotation": 21,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 63,
+              "y_translation": 31,
+              "z_translation": 71,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock27_TissueBlock27_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock28",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/05d4c8cc-1f52-42bb-87e7-d7c711dde10f",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/05d4c8cc-1f52-42bb-87e7-d7c711dde10f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -91,
+              "y_rotation": -9,
+              "z_rotation": 61,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 113,
+              "y_translation": 14,
+              "z_translation": 60,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock28_TissueBlock28_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock29",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/28117bc9-379e-47b8-b066-0d4ec42eacad",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/28117bc9-379e-47b8-b066-0d4ec42eacad_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 97,
+              "y_rotation": -18,
+              "z_rotation": 73,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 82,
+              "y_translation": 23,
+              "z_translation": 41,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock29_TissueBlock29_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock30",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/b6be5381-691c-402d-aa88-06922b2daca3",
+            "@type": "SpatialEntity",
+            "creator": "Rachel Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-05-06",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14966"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/b6be5381-691c-402d-aa88-06922b2daca3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-05-06",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 87,
+              "y_rotation": -52,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 29,
+              "y_translation": 54,
+              "z_translation": 44,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor1_TissueBlock30_TissueBlock30_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 4/5/2025, Rachel Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "10.1038/s41556-023-01337-z#Donor2",
+      "@type": "Donor",
+      "label": "Male, Age 30, BMI 25",
+      "description": "Entered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+      "link": "https://doi.org/10.1038/s41556-023-01337-z",
+      "consortium_name": "University of California San Francisco",
+      "provider_name": "Rachel Zwick",
+      "provider_uuid": "A6FF5FF8-2AB7-11F0-9E9C-20E2A8B75C6B",
+      "age": 30,
+      "sex": "Male",
+      "bmi": 25,
+      "samples": [
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/2bc122be-7096-4c2e-bc5e-4ce22c39f68b",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma7206"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/2bc122be-7096-4c2e-bc5e-4ce22c39f68b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": 0,
+              "z_rotation": 38,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 47,
+              "y_translation": 263,
+              "z_translation": 49,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/7dfb5b9a-efad-4b70-a110-a17ca74e7f08",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14929"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/7dfb5b9a-efad-4b70-a110-a17ca74e7f08_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": 32,
+              "z_rotation": 76,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 35,
+              "y_translation": 183,
+              "z_translation": 22,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock2_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9aca7940-5636-45c6-b04d-000a63adfc31",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14930"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9aca7940-5636-45c6-b04d-000a63adfc31_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -86,
+              "y_rotation": -46,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 98,
+              "y_translation": 227,
+              "z_translation": 32,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock3_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock4",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/8cdc58bb-0bb8-47f4-9d04-dcabcafe8680",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/8cdc58bb-0bb8-47f4-9d04-dcabcafe8680_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -86,
+              "y_rotation": 75,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 93,
+              "y_translation": 223,
+              "z_translation": 55,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock4_TissueBlock4_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/4ad9db5d-01de-4eb5-9b2f-c6d7de4ff9d7",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/4ad9db5d-01de-4eb5-9b2f-c6d7de4ff9d7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -102,
+              "y_rotation": 86,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 129,
+              "y_translation": 227,
+              "z_translation": 49,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock5_TissueBlock5_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/5e1c5a76-00b1-496f-8754-1a14165ea3ed",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/5e1c5a76-00b1-496f-8754-1a14165ea3ed_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -102,
+              "y_rotation": 86,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 99,
+              "y_translation": 202,
+              "z_translation": 26,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock6_TissueBlock6_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock7",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/3169a06f-0476-444d-8f24-b9794908aa09",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/3169a06f-0476-444d-8f24-b9794908aa09_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 47,
+              "y_rotation": 9,
+              "z_rotation": -19,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 155,
+              "y_translation": 223,
+              "z_translation": 33,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock7_TissueBlock7_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock8",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/eeac35c7-8bbc-4ced-b6a2-41d495cb2cf8",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/eeac35c7-8bbc-4ced-b6a2-41d495cb2cf8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -81,
+              "y_rotation": -51,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 168,
+              "y_translation": 181,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock8_TissueBlock8_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock9",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6099d1dc-102b-4aeb-aa7e-8aebe7180ba2",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6099d1dc-102b-4aeb-aa7e-8aebe7180ba2_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": 0,
+              "z_rotation": 38,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 160,
+              "y_translation": 176,
+              "z_translation": 72,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock9_TissueBlock9_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock10",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/b619a365-a3e2-4985-ad2b-946597d4653f",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/b619a365-a3e2-4985-ad2b-946597d4653f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": 0,
+              "z_rotation": 65,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 153,
+              "y_translation": 135,
+              "z_translation": 77,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock10_TissueBlock10_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock11",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ad94afb7-aa51-40d6-85ad-cd16c03194af",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ad94afb7-aa51-40d6-85ad-cd16c03194af_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 17,
+              "y_rotation": 0,
+              "z_rotation": 90,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 138,
+              "y_translation": 149,
+              "z_translation": 21,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock11_TissueBlock11_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock12",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6b6fb92e-8985-44c4-95f3-289fb6debd35",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6b6fb92e-8985-44c4-95f3-289fb6debd35_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -89,
+              "y_rotation": -107,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 109,
+              "y_translation": 147,
+              "z_translation": 33,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock12_TissueBlock12_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock13",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/c1913c9d-d975-4ee4-a97e-8aa47927e1a1",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/c1913c9d-d975-4ee4-a97e-8aa47927e1a1_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -77,
+              "y_rotation": -4,
+              "z_rotation": 17,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 127,
+              "y_translation": 105,
+              "z_translation": 66,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock13_TissueBlock13_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock14",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/c5135738-05c0-4f55-b2ea-4d5b575b26b4",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/c5135738-05c0-4f55-b2ea-4d5b575b26b4_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -80,
+              "y_rotation": -37,
+              "z_rotation": 38,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 113,
+              "y_translation": 146,
+              "z_translation": 97,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock14_TissueBlock14_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock15",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/5a1d286b-e813-4e5f-bf4a-82c15e7f18ff",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/5a1d286b-e813-4e5f-bf4a-82c15e7f18ff_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 96,
+              "y_rotation": -59,
+              "z_rotation": -13,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 62,
+              "y_translation": 137,
+              "z_translation": 96,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock15_TissueBlock15_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock16",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/68e7423a-d9c6-43f3-aa86-cd428fb7eae0",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002115"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/68e7423a-d9c6-43f3-aa86-cd428fb7eae0_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 23,
+              "y_rotation": 84,
+              "z_rotation": 41,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 66,
+              "y_translation": 151,
+              "z_translation": 78,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock16_TissueBlock16_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock17",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ddec051e-b04f-44c4-acd9-f426fb55f90e",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ddec051e-b04f-44c4-acd9-f426fb55f90e_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -92,
+              "y_rotation": 0,
+              "z_rotation": -44,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 59,
+              "y_translation": 121,
+              "z_translation": 56,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock17_TissueBlock17_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock18",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/faf8502d-678f-4ebf-b576-158f54b1d60d",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/faf8502d-678f-4ebf-b576-158f54b1d60d_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -95,
+              "y_rotation": 11,
+              "z_rotation": -19,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 61,
+              "y_translation": 134,
+              "z_translation": 111,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock18_TissueBlock18_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock19",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/c8b9c732-ab48-4fb9-a4c2-fcbda72de4b2",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/c8b9c732-ab48-4fb9-a4c2-fcbda72de4b2_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -68,
+              "y_rotation": 29,
+              "z_rotation": -37,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 72,
+              "y_translation": 89,
+              "z_translation": 78,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock19_TissueBlock19_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock20",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/214d63b0-27d1-473a-903b-4ae06c0d0a9a",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/214d63b0-27d1-473a-903b-4ae06c0d0a9a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -129,
+              "y_rotation": 38,
+              "z_rotation": 93,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 112,
+              "y_translation": 108,
+              "z_translation": 65,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock20_TissueBlock20_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock21",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/61d0e116-5ab7-4e9e-a325-9713df847eb8",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/61d0e116-5ab7-4e9e-a325-9713df847eb8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 102,
+              "y_rotation": -132,
+              "z_rotation": 29,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 127,
+              "y_translation": 83,
+              "z_translation": 85,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock21_TissueBlock21_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock22",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d6cfeb1d-eec7-4717-b7ec-858edf8ae5b3",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d6cfeb1d-eec7-4717-b7ec-858edf8ae5b3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 81,
+              "y_rotation": -53,
+              "z_rotation": 81,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 91,
+              "y_translation": 69,
+              "z_translation": 45,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock22_TissueBlock22_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock23",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6a78cb1b-8809-4ee5-bfaa-1abb3f70e610",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6a78cb1b-8809-4ee5-bfaa-1abb3f70e610_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 94,
+              "y_rotation": -19,
+              "z_rotation": 27,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 99,
+              "y_translation": 53,
+              "z_translation": 43,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock23_TissueBlock23_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock24",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/36f503a6-1a09-451a-809b-c06a568c7786",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/36f503a6-1a09-451a-809b-c06a568c7786_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 94,
+              "y_rotation": -19,
+              "z_rotation": 78,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 104,
+              "y_translation": 27,
+              "z_translation": 51,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock24_TissueBlock24_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock25",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/00dcf623-8fa4-414a-bd53-a31555c61434",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/00dcf623-8fa4-414a-bd53-a31555c61434_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 58,
+              "y_rotation": -19,
+              "z_rotation": 78,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 76,
+              "y_translation": 34,
+              "z_translation": 90,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock25_TissueBlock25_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock26",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/605ce6a9-84ce-4afc-a879-ba0d37295a12",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/605ce6a9-84ce-4afc-a879-ba0d37295a12_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 93,
+              "y_rotation": -19,
+              "z_rotation": 78,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 45,
+              "y_translation": 97,
+              "z_translation": 52,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock26_TissueBlock26_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock27",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/0129a68c-24d3-4da4-8174-02abc52e562e",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/0129a68c-24d3-4da4-8174-02abc52e562e_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 93,
+              "y_rotation": -19,
+              "z_rotation": 78,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 18,
+              "y_translation": 99,
+              "z_translation": 83,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock27_TissueBlock27_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock28",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/4a13b61f-58dd-4eb2-a304-4141a169aee0",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/4a13b61f-58dd-4eb2-a304-4141a169aee0_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 93,
+              "z_rotation": 11,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 21,
+              "y_translation": 48,
+              "z_translation": 85,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock28_TissueBlock28_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock29",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/8d25b89e-c164-4cf9-a202-1bb69f584ba8",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002116"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/8d25b89e-c164-4cf9-a202-1bb69f584ba8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 89,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 76,
+              "y_translation": 3,
+              "z_translation": 46,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock29_TissueBlock29_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        },
+        {
+          "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock30",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+          "description": "6 x 6 x 2 millimeter, 2 millimeter",
+          "link": "https://doi.org/10.1038/s41556-023-01337-z",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9fcd8ea1-fdf1-4c29-9679-48dd73874aad",
+            "@type": "SpatialEntity",
+            "creator": "Rachel    Zwick",
+            "creator_first_name": "Rachel",
+            "creator_last_name": " Zwick",
+            "creator_orcid": "https://orcid.org/0000-0003-2012-5890",
+            "creation_date": "2025-04-25",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma14966"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 6,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9fcd8ea1-fdf1-4c29-9679-48dd73874aad_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-04-25",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 105,
+              "y_rotation": 102,
+              "z_rotation": 8,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 47,
+              "y_translation": 61,
+              "z_translation": 44,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "10.1038/s41556-023-01337-z#Donor2_TissueBlock30_TissueBlock30_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/24/2025, Rachel    Zwick, Rachel Zwick",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6077233",
+              "technology": "scRNA-seq",
+              "thumbnail": "assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "@id": "D7",
       "@type": "Donor",
       "label": "Male, Age 17, Donor ID D7",
