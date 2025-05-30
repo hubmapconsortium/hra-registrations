@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HRA SPARQL Results</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>Human Reference Atlas: SPARQL Results</h1>
+<p>This table shows donor, sample, and dataset metadata pulled from the HRA knowledge graph.</p>
+
+<table id="resultsTable">
+  <thead>
+    <tr>
+      <th>Dataset Title</th>
+      <th>Publication</th>
+      <th>Dataset URL</th>
+      <th>Donor</th>
+      <th>Age</th>
+      <th>BMI</th>
+      <th>Sex</th>
+      <th>Organ</th>
+      <th>Reference Organ</th>
+      <th>Sample</th>
+      <th>RUI Location</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+const endpointUrl = "https://lod.humanatlas.io/sparql";
+const queryFilePath = "./dataset-report.rq";
+
+// Load the SPARQL query from the file
+fetch(queryFilePath)
+  .then(response => response.text())
+  .then(query => {
+    return fetch(endpointUrl + '?query=' + encodeURIComponent(query), {
+      headers: { 'Accept': 'application/sparql-results+json' }
+    });
+  })
+  .then(response => response.json())
+  .then(data => {
+    const tbody = document.querySelector("#resultsTable tbody");
+    data.results.bindings.forEach(row => {
+      const tr = document.createElement("tr");
+      [
+        'dataset_title', 'publication_link', 'dataset_link', 'donor', 'donor_age',
+        'donor_bmi', 'donor_sex', 'organ', 'reference_organ', 'sample', 'rui_location'
+      ].forEach(field => {
+        const td = document.createElement("td");
+        if (row[field]) {
+          td.innerHTML = row[field].value.startsWith("http")
+            ? `<a href="${row[field].value}" target="_blank">${row[field].value}</a>`
+            : row[field].value;
+        } else {
+          td.textContent = '';
+        }
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+  })
+  .catch(error => {
+    console.error("Failed to load query or results:", error);
+  });
+</script>
+
+</body>
+</html>
