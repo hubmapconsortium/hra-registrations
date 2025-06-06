@@ -1,7 +1,0 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
-
-- imports: 
-  - ./omap-pancreas-bjoerklund-2023/rui_locations.jsonld
-  - ./staging/hubmap-pancreas-campbell-2024/rui_locations.jsonld
-  - ./hubmap-pancreas-spraggins-2024/rui_locations.jsonld
-  - ./staging/sennet-pancreas-iawsaki-2023/rui_locations.jsonld
