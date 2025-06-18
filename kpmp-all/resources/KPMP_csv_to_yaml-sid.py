@@ -37,7 +37,7 @@ def process_kpmp_csv(input_csv_path, output_yaml_path):
         "provider_uuid": generate_uuid(),
         "defaults": {
             "id": generate_uuid(),
-            "thumbnail": "assets/icons/ico-unknown.svg",
+            "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg",
             "link": "https://atlas.kpmp.org/"
         },
         "donors": []

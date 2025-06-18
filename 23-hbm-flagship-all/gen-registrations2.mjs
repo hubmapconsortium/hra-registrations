@@ -227,7 +227,7 @@ for (const dataset of allDatasets) {
         description: block.description,
         link: dataset.paper_id || block.link,
         technology: 'OTHER',
-        thumbnail: 'assets/icons/ico-unknown.svg' 
+        thumbnail: 'https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg' 
       }
     }
     block.datasets.push(hraDataset);

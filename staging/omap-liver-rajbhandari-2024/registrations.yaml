@@ -5,7 +5,7 @@
   provider_uuid: 3A0757DE-2779-11F0-B8CA-20E2A8B75C6B
   defaults:
     id: http://example.com/required/id
-    thumbnail: assets/icons/ico-unknown.svg
+    thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
     link: http://example.com/user/link
   donors:
     - sex: Female
