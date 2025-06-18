@@ -1,511 +1,639 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: HRA
-  provider_name: MC-IU
-  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+- consortium_name: HuBMAP
+  provider_name: University of Pennsylvania
+  provider_uuid: 18460CE4-4BB4-11F0-A2B2-20E2A8B75C6B
   defaults:
-    id: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl
+    id: https://hubmapconsortium.github.io/hra-registrations/hubmap-fallopian_tube-millitome-fisher-2024/rui_locations.jsonld
     thumbnail: assets/icons/ico-unknown.svg
-    link: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl
+    link: http://example.com/user/link
   donors:
-  - sex: Female
+  - id: https://portal.hubmapconsortium.org/browse/e71689fb01e59f5f57cc3ec250ba9609
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/e71689fb01e59f5f57cc3ec250ba9609
     age: 29
-    bmi: 31.71
-    link: https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896
-    id: https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3
+    - sample_type: Tissue Block
       label: 14-1
       link: https://portal.hubmapconsortium.org/browse/HBM252.QVCK.893
-      id: https://portal.hubmapconsortium.org/browse/HBM252.QVCK.893
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24
+      id: https://entity.api.hubmapconsortium.org/entities/ecdfaf78a3a7ba008d36034d228e35c6
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
       label: 14-13
       link: https://portal.hubmapconsortium.org/browse/HBM495.WLDR.795
-      id: https://portal.hubmapconsortium.org/browse/HBM495.WLDR.795
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#27
+      id: https://entity.api.hubmapconsortium.org/entities/d1112bfafa84458a9a1f320b65e10dbc
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#24
+    - sample_type: Tissue Block
       label: 14-25
       link: https://portal.hubmapconsortium.org/browse/HBM588.TNGJ.868
-      id: https://portal.hubmapconsortium.org/browse/HBM588.TNGJ.868
-  - sex: Female
+      id: https://entity.api.hubmapconsortium.org/entities/dd943ec6c1ae5c6956889ba483969833
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#27
+  - id: https://portal.hubmapconsortium.org/browse/8c3a4460e5da93daa87f5f834cafcb43
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/8c3a4460e5da93daa87f5f834cafcb43
     age: 34
-    link: https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646
-    id: https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3
+    - sample_type: Tissue Block
       label: 17-3
       link: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884
-      id: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884#3
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#6
+      id: https://entity.api.hubmapconsortium.org/entities/563ee116d6d4f5e287d7a6a34ea54de4
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
       label: 17-3
       link: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884
-      id: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884#6
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#9
+      id: https://entity.api.hubmapconsortium.org/entities/563ee116d6d4f5e287d7a6a34ea54de4
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
       label: 17-3
       link: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884
-      id: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884#9 
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12
+      id: https://entity.api.hubmapconsortium.org/entities/563ee116d6d4f5e287d7a6a34ea54de4
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
       label: 17-3
       link: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884
-      id: https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884#12
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#15
+      id: https://entity.api.hubmapconsortium.org/entities/563ee116d6d4f5e287d7a6a34ea54de4
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#12
+    - sample_type: Tissue Block
       label: 17-6
       link: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945
-      id: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945#15      
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#18
+      id: https://entity.api.hubmapconsortium.org/entities/1fdbe9b37a26b00b744c2b6604de74b0
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#15
+    - sample_type: Tissue Block
       label: 17-6
       link: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945
-      id: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945#18
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#21
+      id: https://entity.api.hubmapconsortium.org/entities/1fdbe9b37a26b00b744c2b6604de74b0
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#18
+    - sample_type: Tissue Block
       label: 17-6
       link: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945
-      id: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945#21
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24
+      id: https://entity.api.hubmapconsortium.org/entities/1fdbe9b37a26b00b744c2b6604de74b0
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#21
+    - sample_type: Tissue Block
       label: 17-6
       link: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945
-      id: https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945#24
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#27
+      id: https://entity.api.hubmapconsortium.org/entities/1fdbe9b37a26b00b744c2b6604de74b0
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#24
+    - sample_type: Tissue Block
       label: 17-9
       link: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864
-      id: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864#27
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#30
+      id: https://entity.api.hubmapconsortium.org/entities/d125387553aa038ed7664547bfd4aa2a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#27
+    - sample_type: Tissue Block
       label: 17-9
       link: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864
-      id: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864#30
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#33
+      id: https://entity.api.hubmapconsortium.org/entities/d125387553aa038ed7664547bfd4aa2a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#30
+    - sample_type: Tissue Block
       label: 17-9
       link: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864
-      id: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864#33
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#36
+      id: https://entity.api.hubmapconsortium.org/entities/d125387553aa038ed7664547bfd4aa2a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#33
+    - sample_type: Tissue Block
       label: 17-9
       link: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864
-      id: https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864#36
-  - sex: Female
+      id: https://entity.api.hubmapconsortium.org/entities/d125387553aa038ed7664547bfd4aa2a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#36
+  - id: https://portal.hubmapconsortium.org/browse/239e9468a163caab397d642847d5f893
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/239e9468a163caab397d642847d5f893
     age: 22
-    bmi: 20.15
-    link: https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335
-    id: https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#39
+    - sample_type: Tissue Block
       label: 15-1
-      link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#39
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#42
+      link: https://portal.hubmapconsortium.org/browse/HBM696.HWTM.483
+      id: https://entity.api.hubmapconsortium.org/entities/447a73cbfaf4aeb0633237e923d1c22a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#39
+    - sample_type: Tissue Block
       label: 15-1
-      link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#42
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#45
+      link: https://portal.hubmapconsortium.org/browse/HBM696.HWTM.483
+      id: https://entity.api.hubmapconsortium.org/entities/447a73cbfaf4aeb0633237e923d1c22a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#42
+    - sample_type: Tissue Block
       label: 15-1
-      link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#45
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#48
+      link: https://portal.hubmapconsortium.org/browse/HBM696.HWTM.483
+      id: https://entity.api.hubmapconsortium.org/entities/447a73cbfaf4aeb0633237e923d1c22a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#45
+    - sample_type: Tissue Block
       label: 15-1
-      link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#48
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3
+      link: https://portal.hubmapconsortium.org/browse/HBM696.HWTM.483
+      id: https://entity.api.hubmapconsortium.org/entities/447a73cbfaf4aeb0633237e923d1c22a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#48
+    - sample_type: Tissue Block
       label: 15-12
       link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#3
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#6
+      id: https://entity.api.hubmapconsortium.org/entities/2fd3e97060385365900de69b5f8b8c2f
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
       label: 15-12
       link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#6
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#9
+      id: https://entity.api.hubmapconsortium.org/entities/2fd3e97060385365900de69b5f8b8c2f
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
       label: 15-12
       link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#9
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12
+      id: https://entity.api.hubmapconsortium.org/entities/2fd3e97060385365900de69b5f8b8c2f
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
       label: 15-12
       link: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786
-      id: https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786#12
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#15
+      id: https://entity.api.hubmapconsortium.org/entities/2fd3e97060385365900de69b5f8b8c2f
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#12
+    - sample_type: Tissue Block
       label: 15-15
       link: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372
-      id: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372#15
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#18
+      id: https://entity.api.hubmapconsortium.org/entities/f4baefe89131510ecd76b27cfd7ad1cd
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#15
+    - sample_type: Tissue Block
       label: 15-15
       link: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372
-      id: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372#18
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#21
+      id: https://entity.api.hubmapconsortium.org/entities/f4baefe89131510ecd76b27cfd7ad1cd
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#18
+    - sample_type: Tissue Block
       label: 15-15
       link: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372
-      id: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372#21
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24
+      id: https://entity.api.hubmapconsortium.org/entities/f4baefe89131510ecd76b27cfd7ad1cd
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#21
+    - sample_type: Tissue Block
       label: 15-15
       link: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372
-      id: https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372#24
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#27
+      id: https://entity.api.hubmapconsortium.org/entities/f4baefe89131510ecd76b27cfd7ad1cd
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#24
+    - sample_type: Tissue Block
       label: 15-18
       link: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837
-      id: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837#27
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#30
+      id: https://entity.api.hubmapconsortium.org/entities/0369cc4727f10b7e3b986e60ad12d7c7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#27
+    - sample_type: Tissue Block
       label: 15-18
       link: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837
-      id: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837#30
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#33
+      id: https://entity.api.hubmapconsortium.org/entities/0369cc4727f10b7e3b986e60ad12d7c7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#30
+    - sample_type: Tissue Block
       label: 15-18
       link: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837
-      id: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837#33
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#36
+      id: https://entity.api.hubmapconsortium.org/entities/0369cc4727f10b7e3b986e60ad12d7c7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#33
+    - sample_type: Tissue Block
       label: 15-18
       link: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837
-      id: https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837#36
-  - sex: Female
+      id: https://entity.api.hubmapconsortium.org/entities/0369cc4727f10b7e3b986e60ad12d7c7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#36
+    - sample_type: Tissue Block
+      label: 15-9
+      link: https://portal.hubmapconsortium.org/browse/HBM476.NQXM.289
+      id: https://entity.api.hubmapconsortium.org/entities/0fa929b0691922bcaf8f5fadb3fd2025
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#63
+    - sample_type: Tissue Block
+      label: 15-9
+      link: https://portal.hubmapconsortium.org/browse/HBM476.NQXM.289
+      id: https://entity.api.hubmapconsortium.org/entities/0fa929b0691922bcaf8f5fadb3fd2025
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#66
+    - sample_type: Tissue Block
+      label: 15-9
+      link: https://portal.hubmapconsortium.org/browse/HBM476.NQXM.289
+      id: https://entity.api.hubmapconsortium.org/entities/0fa929b0691922bcaf8f5fadb3fd2025
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#69
+    - sample_type: Tissue Block
+      label: 15-9
+      link: https://portal.hubmapconsortium.org/browse/HBM476.NQXM.289
+      id: https://entity.api.hubmapconsortium.org/entities/0fa929b0691922bcaf8f5fadb3fd2025
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#72
+  - id: https://portal.hubmapconsortium.org/browse/3ad74c9d10ccf828672b2ba990f915a8
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/3ad74c9d10ccf828672b2ba990f915a8
     age: 19
-    bmi: 23.13
-    link: https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622
-    id: https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#37
-      label: 13-7
-      link: https://portal.hubmapconsortium.org/browse/HBM285.SRTL.889
-      id: https://portal.hubmapconsortium.org/browse/HBM285.SRTL.889
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#39
-      label: 13-3
-      link: https://portal.hubmapconsortium.org/browse/HBM487.BBDJ.936
-      id: https://portal.hubmapconsortium.org/browse/HBM487.BBDJ.936
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#40
-      label: 13-8
-      link: https://portal.hubmapconsortium.org/browse/HBM353.WXCP.267
-      id: https://portal.hubmapconsortium.org/browse/HBM353.WXCP.267
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#42
-      label: 13-4
-      link: https://portal.hubmapconsortium.org/browse/HBM924.RGDG.483
-      id: https://portal.hubmapconsortium.org/browse/HBM924.RGDG.483
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#43
-      label: 13-6
-      link: https://portal.hubmapconsortium.org/browse/HBM623.KJGR.642
-      id: https://portal.hubmapconsortium.org/browse/HBM623.KJGR.642
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#45
-      label: 13-2
-      link: https://portal.hubmapconsortium.org/browse/HBM278.XLBD.662
-      id: https://portal.hubmapconsortium.org/browse/HBM278.XLBD.662
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#46
-      label: 13-5
-      link: https://portal.hubmapconsortium.org/browse/HBM533.XLXF.795
-      id: https://portal.hubmapconsortium.org/browse/HBM533.XLXF.795
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#48
+    - sample_type: Tissue Block
       label: 13-1
       link: https://portal.hubmapconsortium.org/browse/HBM872.TSRG.986
-      id: https://portal.hubmapconsortium.org/browse/HBM872.TSRG.986
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#49
-      label: 13-19
-      link: https://portal.hubmapconsortium.org/browse/HBM269.BZSG.442
-      id: https://portal.hubmapconsortium.org/browse/HBM269.BZSG.442
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#51
-      label: 13-16
-      link: https://portal.hubmapconsortium.org/browse/HBM399.TBPX.343
-      id: https://portal.hubmapconsortium.org/browse/HBM399.TBPX.343
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#52
-      label: 13-20
-      link: https://portal.hubmapconsortium.org/browse/HBM235.XDSM.559
-      id: https://portal.hubmapconsortium.org/browse/HBM235.XDSM.559
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#54
-      label: 13-15
-      link: https://portal.hubmapconsortium.org/browse/HBM779.SKXG.842
-      id: https://portal.hubmapconsortium.org/browse/HBM779.SKXG.842
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#55
-      label: 13-18
-      link: https://portal.hubmapconsortium.org/browse/HBM324.HZVF.467
-      id: https://portal.hubmapconsortium.org/browse/HBM324.HZVF.467
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#57
-      label: 13-14
-      link: https://portal.hubmapconsortium.org/browse/HBM567.DVNV.954
-      id: https://portal.hubmapconsortium.org/browse/HBM567.DVNV.954
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#58
-      label: 13-17
-      link: https://portal.hubmapconsortium.org/browse/HBM337.QSBH.972
-      id: https://portal.hubmapconsortium.org/browse/HBM337.QSBH.972
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#60
+      id: https://entity.api.hubmapconsortium.org/entities/6fe3d1282410e0d4e21f28e35f27e91b
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#48
+    - sample_type: Tissue Block
       label: 13-13
       link: https://portal.hubmapconsortium.org/browse/HBM997.HRCG.585
-      id: https://portal.hubmapconsortium.org/browse/HBM997.HRCG.585
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#61
-      label: 13-31
-      link: https://portal.hubmapconsortium.org/browse/HBM794.WZTX.678
-      id: https://portal.hubmapconsortium.org/browse/HBM794.WZTX.678
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#63
-      label: 13-27
-      link: https://portal.hubmapconsortium.org/browse/HBM224.TTJB.522
-      id: https://portal.hubmapconsortium.org/browse/HBM224.TTJB.522
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#64
-      label: 13-32
-      link: https://portal.hubmapconsortium.org/browse/HBM946.VQKL.632
-      id: https://portal.hubmapconsortium.org/browse/HBM946.VQKL.632
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#66
-      label: 13-28
-      link: https://portal.hubmapconsortium.org/browse/HBM367.VSDK.374
-      id: https://portal.hubmapconsortium.org/browse/HBM367.VSDK.374
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#67
-      label: 13-30
-      link: https://portal.hubmapconsortium.org/browse/HBM864.QFTF.838
-      id: https://portal.hubmapconsortium.org/browse/HBM864.QFTF.838
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#69
-      label: 13-26
-      link: https://portal.hubmapconsortium.org/browse/HBM369.WRDC.345
-      id: https://portal.hubmapconsortium.org/browse/HBM369.WRDC.345
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#70
-      label: 13-29
-      link: https://portal.hubmapconsortium.org/browse/HBM353.RTXH.756
-      id: https://portal.hubmapconsortium.org/browse/HBM353.RTXH.756
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#72
+      id: https://entity.api.hubmapconsortium.org/entities/6f02330666b913dff9a82d89f8ea5628
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#60
+    - sample_type: Tissue Block
+      label: 13-14
+      link: https://portal.hubmapconsortium.org/browse/HBM567.DVNV.954
+      id: https://entity.api.hubmapconsortium.org/entities/00149d1450ae558e2354936b13045f1d
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#57
+    - sample_type: Tissue Block
+      label: 13-15
+      link: https://portal.hubmapconsortium.org/browse/HBM779.SKXG.842
+      id: https://entity.api.hubmapconsortium.org/entities/9681d55578af572c25f9a3a389aeaf58
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 13-16
+      link: https://portal.hubmapconsortium.org/browse/HBM399.TBPX.343
+      id: https://entity.api.hubmapconsortium.org/entities/d57bdfc722cfb9956385a8d575ee65c5
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#51
+    - sample_type: Tissue Block
+      label: 13-17
+      link: https://portal.hubmapconsortium.org/browse/HBM337.QSBH.972
+      id: https://entity.api.hubmapconsortium.org/entities/dba56622906eebe8221994d12809fd51
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#58
+    - sample_type: Tissue Block
+      label: 13-18
+      link: https://portal.hubmapconsortium.org/browse/HBM324.HZVF.467
+      id: https://entity.api.hubmapconsortium.org/entities/bf7e9f64effe2e89599ed6cc4e29add4
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#55
+    - sample_type: Tissue Block
+      label: 13-19
+      link: https://portal.hubmapconsortium.org/browse/HBM269.BZSG.442
+      id: https://entity.api.hubmapconsortium.org/entities/d3266ebd639c53e54de3dd02d01b6c24
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#49
+    - sample_type: Tissue Block
+      label: 13-2
+      link: https://portal.hubmapconsortium.org/browse/HBM278.XLBD.662
+      id: https://entity.api.hubmapconsortium.org/entities/c49fe2856f3e106c0a0e6b3bd2fb2d8b
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#45
+    - sample_type: Tissue Block
+      label: 13-20
+      link: https://portal.hubmapconsortium.org/browse/HBM235.XDSM.559
+      id: https://entity.api.hubmapconsortium.org/entities/73fec528cd2ab2e46cd783fcc51a2778
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#52
+    - sample_type: Tissue Block
       label: 13-25
       link: https://portal.hubmapconsortium.org/browse/HBM727.WSZX.242
-      id: https://portal.hubmapconsortium.org/browse/HBM727.WSZX.242
-  - sex: Female
-    link: https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223
-    id: https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223
+      id: https://entity.api.hubmapconsortium.org/entities/e58cc57bc6885af6294c58b1b3ebb4fa
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#72
+    - sample_type: Tissue Block
+      label: 13-26
+      link: https://portal.hubmapconsortium.org/browse/HBM369.WRDC.345
+      id: https://entity.api.hubmapconsortium.org/entities/6837084b51e1ee58a850a29afce7c4f7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#69
+    - sample_type: Tissue Block
+      label: 13-27
+      link: https://portal.hubmapconsortium.org/browse/HBM224.TTJB.522
+      id: https://entity.api.hubmapconsortium.org/entities/a252a2961d74fbaa0bc6d0e59f88d4e7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#63
+    - sample_type: Tissue Block
+      label: 13-28
+      link: https://portal.hubmapconsortium.org/browse/HBM367.VSDK.374
+      id: https://entity.api.hubmapconsortium.org/entities/a7b56acd6851a3646c333aabecaf4f04
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#66
+    - sample_type: Tissue Block
+      label: 13-29
+      link: https://portal.hubmapconsortium.org/browse/HBM353.RTXH.756
+      id: https://entity.api.hubmapconsortium.org/entities/679d00274f2ff3ead9bbd4f216d0f8fd
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#70
+    - sample_type: Tissue Block
+      label: 13-3
+      link: https://portal.hubmapconsortium.org/browse/HBM487.BBDJ.936
+      id: https://entity.api.hubmapconsortium.org/entities/f266defa3994d77e2a051bbf90b0ddc5
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#39
+    - sample_type: Tissue Block
+      label: 13-30
+      link: https://portal.hubmapconsortium.org/browse/HBM864.QFTF.838
+      id: https://entity.api.hubmapconsortium.org/entities/572310d9ed94cc4a255359720b6d1efe
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#67
+    - sample_type: Tissue Block
+      label: 13-31
+      link: https://portal.hubmapconsortium.org/browse/HBM794.WZTX.678
+      id: https://entity.api.hubmapconsortium.org/entities/273cf409b3b9e4b63916fdbbe156aba8
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#61
+    - sample_type: Tissue Block
+      label: 13-32
+      link: https://portal.hubmapconsortium.org/browse/HBM946.VQKL.632
+      id: https://entity.api.hubmapconsortium.org/entities/5cf7cf92ced5db2bcfe4d320b12fa3c8
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#64
+    - sample_type: Tissue Block
+      label: 13-4
+      link: https://portal.hubmapconsortium.org/browse/HBM924.RGDG.483
+      id: https://entity.api.hubmapconsortium.org/entities/3174e47ceb1e5914b748ff2dab33e9fc
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#42
+    - sample_type: Tissue Block
+      label: 13-5
+      link: https://portal.hubmapconsortium.org/browse/HBM533.XLXF.795
+      id: https://entity.api.hubmapconsortium.org/entities/046ccee2025e7d63db4d8ce12861e9ac
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#46
+    - sample_type: Tissue Block
+      label: 13-6
+      link: https://portal.hubmapconsortium.org/browse/HBM623.KJGR.642
+      id: https://entity.api.hubmapconsortium.org/entities/a84d1c849c7ab34f0ee5e6feafd9eb35
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#43
+    - sample_type: Tissue Block
+      label: 13-7
+      link: https://portal.hubmapconsortium.org/browse/HBM285.SRTL.889
+      id: https://entity.api.hubmapconsortium.org/entities/28b425e5dda83f0a6bf02e141f93ec53
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#37
+    - sample_type: Tissue Block
+      label: 13-8
+      link: https://portal.hubmapconsortium.org/browse/HBM353.WXCP.267
+      id: https://entity.api.hubmapconsortium.org/entities/183b112f104b07e5b837243f317cac99
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#40
+  - id: https://portal.hubmapconsortium.org/browse/328e93d9da04436d228a5c3264c84ed2
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/328e93d9da04436d228a5c3264c84ed2
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3
+    - sample_type: Tissue Block
       label: 18-3
       link: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966
-      id: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966#3
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#6
+      id: https://entity.api.hubmapconsortium.org/entities/fdb0d78678d5e81f00e9e6e71e812631
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
       label: 18-3
       link: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966
-      id: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966#6
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#9
+      id: https://entity.api.hubmapconsortium.org/entities/fdb0d78678d5e81f00e9e6e71e812631
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
       label: 18-3
       link: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966
-      id: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966#9
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12
+      id: https://entity.api.hubmapconsortium.org/entities/fdb0d78678d5e81f00e9e6e71e812631
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
       label: 18-3
       link: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966
-      id: https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966#12
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#15
+      id: https://entity.api.hubmapconsortium.org/entities/fdb0d78678d5e81f00e9e6e71e812631
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#12
+    - sample_type: Tissue Block
       label: 18-6
       link: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244
-      id: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244#15
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#18
+      id: https://entity.api.hubmapconsortium.org/entities/23912d9b882dcaa649740a6265b53018
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#15
+    - sample_type: Tissue Block
       label: 18-6
       link: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244
-      id: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244#18
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#21
+      id: https://entity.api.hubmapconsortium.org/entities/23912d9b882dcaa649740a6265b53018
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#18
+    - sample_type: Tissue Block
       label: 18-6
       link: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244
-      id: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244#21
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24
+      id: https://entity.api.hubmapconsortium.org/entities/23912d9b882dcaa649740a6265b53018
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#21
+    - sample_type: Tissue Block
       label: 18-6
       link: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244
-      id: https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244#24
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#27
+      id: https://entity.api.hubmapconsortium.org/entities/23912d9b882dcaa649740a6265b53018
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#24
+    - sample_type: Tissue Block
       label: 18-9
       link: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259
-      id: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259#27
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#30
+      id: https://entity.api.hubmapconsortium.org/entities/8a739e1187a99367c1a0f83beefddf34
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#27
+    - sample_type: Tissue Block
       label: 18-9
       link: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259
-      id: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259#30
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#33
+      id: https://entity.api.hubmapconsortium.org/entities/8a739e1187a99367c1a0f83beefddf34
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#30
+    - sample_type: Tissue Block
       label: 18-9
       link: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259
-      id: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259#33
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#36
+      id: https://entity.api.hubmapconsortium.org/entities/8a739e1187a99367c1a0f83beefddf34
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#33
+    - sample_type: Tissue Block
       label: 18-9
       link: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259
-      id: https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259#36
-  - sex: Female
+      id: https://entity.api.hubmapconsortium.org/entities/8a739e1187a99367c1a0f83beefddf34
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#36
+  - id: https://portal.hubmapconsortium.org/browse/e3e625f5f072d99a5d9e31927787f23d
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/e3e625f5f072d99a5d9e31927787f23d
     age: 45
-    bmi: 21.67
-    link: https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738
-    id: https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12
+    - sample_type: Tissue Block
+      label: 11-14
+      link: https://portal.hubmapconsortium.org/browse/HBM749.KLJP.222
+      id: https://entity.api.hubmapconsortium.org/entities/e003ad04f1405fae01f263436e5df523
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#24
+    - sample_type: Tissue Block
       label: 11-2
       link: https://portal.hubmapconsortium.org/browse/HBM777.LWJN.259
-      id: https://portal.hubmapconsortium.org/browse/HBM777.LWJN.259
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24
-      label: 11-4
-      link: https://portal.hubmapconsortium.org/browse/HBM749.KLJP.222
-      id: https://portal.hubmapconsortium.org/browse/HBM749.KLJP.222
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#36
+      id: https://entity.api.hubmapconsortium.org/entities/067784d5884a2362f38bf2b25f051d49
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#12
+    - sample_type: Tissue Block
       label: 11-26
       link: https://portal.hubmapconsortium.org/browse/HBM764.TCJN.573
-      id: https://portal.hubmapconsortium.org/browse/HBM764.TCJN.573
-  - sex: Female
+      id: https://entity.api.hubmapconsortium.org/entities/18ef8fb02c15a0ca7957e62a0be3e774
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#36
+  - id: https://portal.hubmapconsortium.org/browse/6d285926ae00557deb66d30b1bcf6649
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/6d285926ae00557deb66d30b1bcf6649
     age: 33
-    bmi: 34.06
-    link: https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448
-    id: https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3
+    - sample_type: Tissue Block
       label: 16-12
       link: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387
-      id: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387#3
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#6
+      id: https://entity.api.hubmapconsortium.org/entities/2e564c2fb3a51d0525aabf57a9172043
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
       label: 16-12
       link: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387
-      id: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387#6
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#9
+      id: https://entity.api.hubmapconsortium.org/entities/2e564c2fb3a51d0525aabf57a9172043
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
       label: 16-12
       link: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387
-      id: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387#9
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12
+      id: https://entity.api.hubmapconsortium.org/entities/2e564c2fb3a51d0525aabf57a9172043
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
       label: 16-12
       link: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387
-      id: https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387#12
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#15
+      id: https://entity.api.hubmapconsortium.org/entities/2e564c2fb3a51d0525aabf57a9172043
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#12
+    - sample_type: Tissue Block
       label: 16-15
       link: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573
-      id: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573#15
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#18
+      id: https://entity.api.hubmapconsortium.org/entities/ded2291fa74d80af99f03df66fea338b
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#15
+    - sample_type: Tissue Block
       label: 16-15
       link: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573
-      id: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573#18
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#21
+      id: https://entity.api.hubmapconsortium.org/entities/ded2291fa74d80af99f03df66fea338b
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#18
+    - sample_type: Tissue Block
       label: 16-15
       link: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573
-      id: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573#21
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24
+      id: https://entity.api.hubmapconsortium.org/entities/ded2291fa74d80af99f03df66fea338b
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#21
+    - sample_type: Tissue Block
       label: 16-15
       link: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573
-      id: https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573#24
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#27
+      id: https://entity.api.hubmapconsortium.org/entities/ded2291fa74d80af99f03df66fea338b
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#24
+    - sample_type: Tissue Block
       label: 16-18
       link: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282
-      id: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282#27
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#30
+      id: https://entity.api.hubmapconsortium.org/entities/5536d439c1f32a21db08681d86de3ad9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#27
+    - sample_type: Tissue Block
       label: 16-18
       link: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282
-      id: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282#30
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#33
+      id: https://entity.api.hubmapconsortium.org/entities/5536d439c1f32a21db08681d86de3ad9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#30
+    - sample_type: Tissue Block
       label: 16-18
       link: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282
-      id: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282#33
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#36
+      id: https://entity.api.hubmapconsortium.org/entities/5536d439c1f32a21db08681d86de3ad9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#33
+    - sample_type: Tissue Block
       label: 16-18
       link: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282
-      id: https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282#36
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#39
+      id: https://entity.api.hubmapconsortium.org/entities/5536d439c1f32a21db08681d86de3ad9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#36
+    - sample_type: Tissue Block
       label: 16-3
       link: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746
-      id: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746#39
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#42
-      label: 16-12
+      id: https://entity.api.hubmapconsortium.org/entities/bf7360f8417699e320a5c1d754ab09b7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#39
+    - sample_type: Tissue Block
+      label: 16-3
       link: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746
-      id: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746#42
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#45
-      label: 16-12
+      id: https://entity.api.hubmapconsortium.org/entities/bf7360f8417699e320a5c1d754ab09b7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#42
+    - sample_type: Tissue Block
+      label: 16-3
       link: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746
-      id: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746#45
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#48
-      label: 16-12
+      id: https://entity.api.hubmapconsortium.org/entities/bf7360f8417699e320a5c1d754ab09b7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#45
+    - sample_type: Tissue Block
+      label: 16-3
       link: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746
-      id: https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746#48
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#51
+      id: https://entity.api.hubmapconsortium.org/entities/bf7360f8417699e320a5c1d754ab09b7
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#48
+    - sample_type: Tissue Block
       label: 16-6
       link: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657
-      id: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657#15
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#54
+      id: https://entity.api.hubmapconsortium.org/entities/7891c6e9b039d7a4d3dde18029218bf9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#51
+    - sample_type: Tissue Block
       label: 16-6
       link: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657
-      id: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657#18
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#57
+      id: https://entity.api.hubmapconsortium.org/entities/7891c6e9b039d7a4d3dde18029218bf9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#54
+    - sample_type: Tissue Block
       label: 16-6
       link: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657
-      id: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657#21
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#60
+      id: https://entity.api.hubmapconsortium.org/entities/7891c6e9b039d7a4d3dde18029218bf9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#57
+    - sample_type: Tissue Block
       label: 16-6
       link: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657
-      id: https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657#60
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#63
+      id: https://entity.api.hubmapconsortium.org/entities/7891c6e9b039d7a4d3dde18029218bf9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#60
+    - sample_type: Tissue Block
       label: 16-9
       link: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444
-      id: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444#63
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#66
+      id: https://entity.api.hubmapconsortium.org/entities/6e8add46f5f920423ef60f612d762b10
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#63
+    - sample_type: Tissue Block
       label: 16-9
       link: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444
-      id: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444#66
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#69
+      id: https://entity.api.hubmapconsortium.org/entities/6e8add46f5f920423ef60f612d762b10
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#66
+    - sample_type: Tissue Block
       label: 16-9
       link: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444
-      id: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444#69
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#72
+      id: https://entity.api.hubmapconsortium.org/entities/6e8add46f5f920423ef60f612d762b10
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#69
+    - sample_type: Tissue Block
       label: 16-9
       link: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444
-      id: https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444#72
-  - sex: Female
+      id: https://entity.api.hubmapconsortium.org/entities/6e8add46f5f920423ef60f612d762b10
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#72
+  - id: https://portal.hubmapconsortium.org/browse/b5b4de30c90e4cb3def65407292942e9
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/b5b4de30c90e4cb3def65407292942e9
     age: 30
-    bmi: 34.9
-    link: https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427
-    id: https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427
     samples:
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12
-      label: 9ORM.A3
-      link: https://portal.hubmapconsortium.org/browse/HBM489.JQWW.586
-      id: https://portal.hubmapconsortium.org/browse/HBM489.JQWW.586
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#9
-      label: 9ORM.I3
-      link: https://portal.hubmapconsortium.org/browse/HBM466.LBZB.849
-      id: https://portal.hubmapconsortium.org/browse/HBM466.LBZB.849
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3
-      label: 9ORM.P3
-      link: https://portal.hubmapconsortium.org/browse/HBM379.LNSK.525
-      id: https://portal.hubmapconsortium.org/browse/HBM379.LNSK.525
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#6
-      label: 9ORM.S3
-      link: https://portal.hubmapconsortium.org/browse/HBM648.HNMT.824
-      id: https://portal.hubmapconsortium.org/browse/HBM648.HNMT.824
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#49
-      label: 9OLC.P4
-      link: https://portal.hubmapconsortium.org/browse/HBM635.XWKL.465
-      id: https://portal.hubmapconsortium.org/browse/HBM635.XWKL.465
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#51
-      label: 9OLC.S3
-      link: https://portal.hubmapconsortium.org/browse/HBM344.WNWT.887
-      id: https://portal.hubmapconsortium.org/browse/HBM344.WNWT.887
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#54
-      label: 9OLC.P3
-      link: https://portal.hubmapconsortium.org/browse/HBM726.SXHR.776
-      id: https://portal.hubmapconsortium.org/browse/HBM726.SXHR.776
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#57
-      label: 9OLC.I2
-      link: https://portal.hubmapconsortium.org/browse/HBM952.WQNQ.772
-      id: https://portal.hubmapconsortium.org/browse/HBM952.WQNQ.772
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#57
-      label: 9OLC.I4
-      link: https://portal.hubmapconsortium.org/browse/HBM779.WMBJ.259
-      id: https://portal.hubmapconsortium.org/browse/HBM779.WMBJ.259
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#60
+    - sample_type: Tissue Block
       label: 9OLC.A2
       link: https://portal.hubmapconsortium.org/browse/HBM472.TKPC.695
-      id: https://portal.hubmapconsortium.org/browse/HBM472.TKPC.695
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#60
+      id: https://entity.api.hubmapconsortium.org/entities/42db2b3605694275c8756c2b663ffc0c
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#60
+    - sample_type: Tissue Block
       label: 9OLC.A4
       link: https://portal.hubmapconsortium.org/browse/HBM524.JPDZ.355
-      id: https://portal.hubmapconsortium.org/browse/HBM524.JPDZ.355
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#16
-      label: 9ORC.S4
-      link: https://portal.hubmapconsortium.org/browse/HBM848.NRQS.525
-      id: https://portal.hubmapconsortium.org/browse/HBM848.NRQS.525
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#10
-      label: 9ORM.A4_2slice
-      link: https://portal.hubmapconsortium.org/browse/HBM943.BCDD.564
-      id: https://portal.hubmapconsortium.org/browse/HBM943.BCDD.564
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#7
-      label: 9ORM.I4_2slice
-      link: https://portal.hubmapconsortium.org/browse/HBM775.NSFR.938
-      id: https://portal.hubmapconsortium.org/browse/HBM775.NSFR.938
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#1
-      label: 9ORM.P4_2slice
-      link: https://portal.hubmapconsortium.org/browse/HBM266.FTVW.363
-      id: https://portal.hubmapconsortium.org/browse/HBM266.FTVW.363
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#4
-      label: 9ORM.S1_2slice
-      link: https://portal.hubmapconsortium.org/browse/HBM454.KDVK.822
-      id: https://portal.hubmapconsortium.org/browse/HBM454.KDVK.822
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#63
-      label: 9OLL.P2
-      link: https://portal.hubmapconsortium.org/browse/HBM787.XVBB.778
-      id: https://portal.hubmapconsortium.org/browse/HBM787.XVBB.778
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#66
-      label: 9OLL.S2
-      link: https://portal.hubmapconsortium.org/browse/HBM888.FVGP.722
-      id: https://portal.hubmapconsortium.org/browse/HBM888.FVGP.722
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#69
-      label: 9OLL.I3
-      link: https://portal.hubmapconsortium.org/browse/HBM824.BCPM.928
-      id: https://portal.hubmapconsortium.org/browse/HBM824.BCPM.928
-    - rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-pnnl#72
+      id: https://entity.api.hubmapconsortium.org/entities/eb1087fcbeedebdc2200804d8ea19c37
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#60
+    - sample_type: Tissue Block
+      label: 9OLC.I2
+      link: https://portal.hubmapconsortium.org/browse/HBM952.WQNQ.772
+      id: https://entity.api.hubmapconsortium.org/entities/51b99cc5ee080378f16d80ef672835e4
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#57
+    - sample_type: Tissue Block
+      label: 9OLC.I4
+      link: https://portal.hubmapconsortium.org/browse/HBM779.WMBJ.259
+      id: https://entity.api.hubmapconsortium.org/entities/173ba352676115f41fedce488a58a61a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#57
+    - sample_type: Tissue Block
+      label: 9OLC.P3
+      link: https://portal.hubmapconsortium.org/browse/HBM726.SXHR.776
+      id: https://entity.api.hubmapconsortium.org/entities/4b5430775e5cb4e8c9a664738db2f39b
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 9OLC.P4
+      link: https://portal.hubmapconsortium.org/browse/HBM635.XWKL.465
+      id: https://entity.api.hubmapconsortium.org/entities/ac5393192e93f8a438228cf7d7eff4ca
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#49
+    - sample_type: Tissue Block
+      label: 9OLC.S3
+      link: https://portal.hubmapconsortium.org/browse/HBM344.WNWT.887
+      id: https://entity.api.hubmapconsortium.org/entities/d16f4bf5e7c3ef542b6da7e990a43dfa
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#51
+    - sample_type: Tissue Block
       label: 9OLL.A3
       link: https://portal.hubmapconsortium.org/browse/HBM229.KRZG.433
-      id: https://portal.hubmapconsortium.org/browse/HBM229.KRZG.433
+      id: https://entity.api.hubmapconsortium.org/entities/469296098421f5c0d96468aa64df69dc
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#72
+    - sample_type: Tissue Block
+      label: 9OLL.I3
+      link: https://portal.hubmapconsortium.org/browse/HBM824.BCPM.928
+      id: https://entity.api.hubmapconsortium.org/entities/70826a861a00175ea1a89fdb0914272d
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#69
+    - sample_type: Tissue Block
+      label: 9OLL.P2
+      link: https://portal.hubmapconsortium.org/browse/HBM787.XVBB.778
+      id: https://entity.api.hubmapconsortium.org/entities/4bd0dbd648ce125aa489fe8fe75ccc7d
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#63
+    - sample_type: Tissue Block
+      label: 9OLL.S2
+      link: https://portal.hubmapconsortium.org/browse/HBM888.FVGP.722
+      id: https://entity.api.hubmapconsortium.org/entities/0124d846cc36c40d3ce9b40cc697875f
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#66
+    - sample_type: Tissue Block
+      label: 9ORC.S4
+      link: https://portal.hubmapconsortium.org/browse/HBM848.NRQS.525
+      id: https://entity.api.hubmapconsortium.org/entities/5aa60dc6496d57ff72ec0c562da09961
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#16
+    - sample_type: Tissue Block
+      label: 9ORM.A3
+      link: https://portal.hubmapconsortium.org/browse/HBM489.JQWW.586
+      id: https://entity.api.hubmapconsortium.org/entities/a39c3acb774317c95b6b2d423fc2055e
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#12
+    - sample_type: Tissue Block
+      label: 9ORM.A4_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM943.BCDD.564
+      id: https://entity.api.hubmapconsortium.org/entities/a1ab89b77502fc06a67c82918e5bbfc9
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#10
+    - sample_type: Tissue Block
+      label: 9ORM.I3
+      link: https://portal.hubmapconsortium.org/browse/HBM466.LBZB.849
+      id: https://entity.api.hubmapconsortium.org/entities/493f4ecfc830acde9ef2c97182ca67c3
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 9ORM.I4_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM775.NSFR.938
+      id: https://entity.api.hubmapconsortium.org/entities/6bc48671dbac581081db8c18560f116a
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#7
+    - sample_type: Tissue Block
+      label: 9ORM.P3
+      link: https://portal.hubmapconsortium.org/browse/HBM379.LNSK.525
+      id: https://entity.api.hubmapconsortium.org/entities/b621211449ef7ec36fbac9c80863447f
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 9ORM.P4_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM266.FTVW.363
+      id: https://entity.api.hubmapconsortium.org/entities/95aad18b9ae7f4d12992da67be9d866e
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#1
+    - sample_type: Tissue Block
+      label: 9ORM.S1_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM454.KDVK.822
+      id: https://entity.api.hubmapconsortium.org/entities/5462d5fd64262776b1e0f3131104c8f0
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#4
+    - sample_type: Tissue Block
+      label: 9ORM.S3
+      link: https://portal.hubmapconsortium.org/browse/HBM648.HNMT.824
+      id: https://entity.api.hubmapconsortium.org/entities/ec275e8d73a0a81c6a8df0af00e28f8e
+      rui_location: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#6

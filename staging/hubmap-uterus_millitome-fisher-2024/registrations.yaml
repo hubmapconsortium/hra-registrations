@@ -1,13 +1,399 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: HuBMAP
+  provider_name: University of Pennsylvania
+  provider_uuid: 18460CE4-4BB4-11F0-A2B2-20E2A8B75C6B
   defaults:
-    id: http://example.com/required/id
+    id: https://hubmapconsortium.github.io/hra-registrations/hubmap-fallopian_tube-millitome-fisher-2024/rui_locations.jsonld
     thumbnail: assets/icons/ico-unknown.svg
     link: http://example.com/user/link
   donors:
-    - sex: Male
-      samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+  - id: https://portal.hubmapconsortium.org/browse/e71689fb01e59f5f57cc3ec250ba9609
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/e71689fb01e59f5f57cc3ec250ba9609
+    age: 29
+    samples:
+    - sample_type: Tissue Block
+      label: 14-102
+      link: https://portal.hubmapconsortium.org/browse/HBM634.TSZQ.288
+      id: https://entity.api.hubmapconsortium.org/entities/1d4dd0c82ab32855591e011eff28794c
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 14-115
+      link: https://portal.hubmapconsortium.org/browse/HBM236.RPHZ.924
+      id: https://entity.api.hubmapconsortium.org/entities/05fad7134a50c799b72c006fe8e75e1a
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#21
+    - sample_type: Tissue Block
+      label: 14-121
+      link: https://portal.hubmapconsortium.org/browse/HBM387.BHCS.282
+      id: https://entity.api.hubmapconsortium.org/entities/26e282ccc66545288f3d1e400d418b93
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#53
+    - sample_type: Tissue Block
+      label: 14-121
+      link: https://portal.hubmapconsortium.org/browse/HBM387.BHCS.282
+      id: https://entity.api.hubmapconsortium.org/entities/26e282ccc66545288f3d1e400d418b93
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 14-139
+      link: https://portal.hubmapconsortium.org/browse/HBM953.DKKW.389
+      id: https://entity.api.hubmapconsortium.org/entities/f7def2f21683b6dbedd5f71857f58746
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#71
+    - sample_type: Tissue Block
+      label: 14-139
+      link: https://portal.hubmapconsortium.org/browse/HBM953.DKKW.389
+      id: https://entity.api.hubmapconsortium.org/entities/f7def2f21683b6dbedd5f71857f58746
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#72
+    - sample_type: Tissue Block
+      label: 14-157
+      link: https://portal.hubmapconsortium.org/browse/HBM235.FZDT.382
+      id: https://entity.api.hubmapconsortium.org/entities/e0070d5d94af1fe3890e22d6318f9d47
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 14-157
+      link: https://portal.hubmapconsortium.org/browse/HBM235.FZDT.382
+      id: https://entity.api.hubmapconsortium.org/entities/e0070d5d94af1fe3890e22d6318f9d47
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#36
+    - sample_type: Tissue Block
+      label: 14-166
+      link: https://portal.hubmapconsortium.org/browse/HBM978.MDWW.278
+      id: https://entity.api.hubmapconsortium.org/entities/5af77c8af2252f678167de2c459aec4b
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#107
+    - sample_type: Tissue Block
+      label: 14-166
+      link: https://portal.hubmapconsortium.org/browse/HBM978.MDWW.278
+      id: https://entity.api.hubmapconsortium.org/entities/5af77c8af2252f678167de2c459aec4b
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#108
+  - id: https://portal.hubmapconsortium.org/browse/8c3a4460e5da93daa87f5f834cafcb43
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/8c3a4460e5da93daa87f5f834cafcb43
+    age: 34
+    samples:
+    - sample_type: Tissue Block
+      label: 17-102
+      link: https://portal.hubmapconsortium.org/browse/HBM496.KWGJ.958
+      id: https://entity.api.hubmapconsortium.org/entities/1cad9962efcb75b03e9b55e41a01178f
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#53
+    - sample_type: Tissue Block
+      label: 17-102
+      link: https://portal.hubmapconsortium.org/browse/HBM496.KWGJ.958
+      id: https://entity.api.hubmapconsortium.org/entities/1cad9962efcb75b03e9b55e41a01178f
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 17-111
+      link: https://portal.hubmapconsortium.org/browse/HBM897.DBTQ.278
+      id: https://entity.api.hubmapconsortium.org/entities/c1b7b2a9c2e8e4f09397adfb8d96be52
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#71
+    - sample_type: Tissue Block
+      label: 17-111
+      link: https://portal.hubmapconsortium.org/browse/HBM897.DBTQ.278
+      id: https://entity.api.hubmapconsortium.org/entities/c1b7b2a9c2e8e4f09397adfb8d96be52
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#72
+    - sample_type: Tissue Block
+      label: 17-183
+      link: https://portal.hubmapconsortium.org/browse/HBM589.LCLB.675
+      id: https://entity.api.hubmapconsortium.org/entities/12a20a76150d11de0b320cc431d796c6
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#107
+    - sample_type: Tissue Block
+      label: 17-183
+      link: https://portal.hubmapconsortium.org/browse/HBM589.LCLB.675
+      id: https://entity.api.hubmapconsortium.org/entities/12a20a76150d11de0b320cc431d796c6
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#108
+    - sample_type: Tissue Block
+      label: 17-93
+      link: https://portal.hubmapconsortium.org/browse/HBM274.XLXT.396
+      id: https://entity.api.hubmapconsortium.org/entities/1e4370d95353dc9dec29fa7918837529
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 17-93
+      link: https://portal.hubmapconsortium.org/browse/HBM274.XLXT.396
+      id: https://entity.api.hubmapconsortium.org/entities/1e4370d95353dc9dec29fa7918837529
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#36
+  - id: https://portal.hubmapconsortium.org/browse/239e9468a163caab397d642847d5f893
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/239e9468a163caab397d642847d5f893
+    age: 22
+    samples:
+    - sample_type: Tissue Block
+      label: 15-102
+      link: https://portal.hubmapconsortium.org/browse/HBM575.MXPN.969
+      id: https://entity.api.hubmapconsortium.org/entities/514b6e2573a84ca235982e19be2be41d
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#53
+    - sample_type: Tissue Block
+      label: 15-102
+      link: https://portal.hubmapconsortium.org/browse/HBM575.MXPN.969
+      id: https://entity.api.hubmapconsortium.org/entities/514b6e2573a84ca235982e19be2be41d
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 15-111
+      link: https://portal.hubmapconsortium.org/browse/HBM259.PRLN.377
+      id: https://entity.api.hubmapconsortium.org/entities/24c7b9a03c96c9807b9b370f55bc9a84
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#71
+    - sample_type: Tissue Block
+      label: 15-111
+      link: https://portal.hubmapconsortium.org/browse/HBM259.PRLN.377
+      id: https://entity.api.hubmapconsortium.org/entities/24c7b9a03c96c9807b9b370f55bc9a84
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#72
+    - sample_type: Tissue Block
+      label: 15-183
+      link: https://portal.hubmapconsortium.org/browse/HBM847.JWMZ.742
+      id: https://entity.api.hubmapconsortium.org/entities/dc62b6c7069011784ba14f17f7703e5d
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#107
+    - sample_type: Tissue Block
+      label: 15-183
+      link: https://portal.hubmapconsortium.org/browse/HBM847.JWMZ.742
+      id: https://entity.api.hubmapconsortium.org/entities/dc62b6c7069011784ba14f17f7703e5d
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#108
+    - sample_type: Tissue Block
+      label: 15-93
+      link: https://portal.hubmapconsortium.org/browse/HBM734.QQXM.932
+      id: https://entity.api.hubmapconsortium.org/entities/a9fe09600deb2345bef7f024b574464e
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 15-93
+      link: https://portal.hubmapconsortium.org/browse/HBM734.QQXM.932
+      id: https://entity.api.hubmapconsortium.org/entities/a9fe09600deb2345bef7f024b574464e
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#36
+  - id: https://portal.hubmapconsortium.org/browse/3ad74c9d10ccf828672b2ba990f915a8
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/3ad74c9d10ccf828672b2ba990f915a8
+    age: 19
+    samples:
+    - sample_type: Tissue Block
+      label: 13-101
+      link: https://portal.hubmapconsortium.org/browse/HBM374.SRZD.953
+      id: https://entity.api.hubmapconsortium.org/entities/0129caf0e66fe67754475dc71e6706de
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#108
+    - sample_type: Tissue Block
+      label: 13-102
+      link: https://portal.hubmapconsortium.org/browse/HBM762.SPJF.928
+      id: https://entity.api.hubmapconsortium.org/entities/2838f8c587f4c4ff07649c443c4c934a
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#104
+    - sample_type: Tissue Block
+      label: 13-50
+      link: https://portal.hubmapconsortium.org/browse/HBM299.VQZH.986
+      id: https://entity.api.hubmapconsortium.org/entities/28841e914e2c6bcde538190f6e5e0f00
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#1
+    - sample_type: Tissue Block
+      label: 13-62
+      link: https://portal.hubmapconsortium.org/browse/HBM256.ZGQF.566
+      id: https://entity.api.hubmapconsortium.org/entities/8e9688ec287d9e80f963231e30dfe7dc
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#13
+    - sample_type: Tissue Block
+      label: 13-74
+      link: https://portal.hubmapconsortium.org/browse/HBM758.KNGF.866
+      id: https://entity.api.hubmapconsortium.org/entities/b6004e6704db940e31cd5c788b5544e3
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 13-75
+      link: https://portal.hubmapconsortium.org/browse/HBM327.HPJM.473
+      id: https://entity.api.hubmapconsortium.org/entities/5237977f3eebca44d6222425bfdf1276
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#25
+    - sample_type: Tissue Block
+      label: 13-82
+      link: https://portal.hubmapconsortium.org/browse/HBM479.GRRC.878
+      id: https://entity.api.hubmapconsortium.org/entities/4ddcb18d3e987b8ff2dd676cd5e0e946
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 13-85
+      link: https://portal.hubmapconsortium.org/browse/HBM366.WHRH.745
+      id: https://entity.api.hubmapconsortium.org/entities/03044a4aca2fef3666434544955a37d4
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#50
+    - sample_type: Tissue Block
+      label: 13-94
+      link: https://portal.hubmapconsortium.org/browse/HBM332.QKWS.625
+      id: https://entity.api.hubmapconsortium.org/entities/9dcc761cdf9049b7290cb9a2cceff5e6
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#71
+    - sample_type: Tissue Block
+      label: 13-95
+      link: https://portal.hubmapconsortium.org/browse/HBM366.BVQC.294
+      id: https://entity.api.hubmapconsortium.org/entities/55125d3fcec99dccdb72b13a3961fd9c
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#67
+  - id: https://portal.hubmapconsortium.org/browse/328e93d9da04436d228a5c3264c84ed2
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/328e93d9da04436d228a5c3264c84ed2
+    samples:
+    - sample_type: Tissue Block
+      label: 18-102
+      link: https://portal.hubmapconsortium.org/browse/HBM559.ZTZP.945
+      id: https://entity.api.hubmapconsortium.org/entities/b890ef38058b4c9285144250d59d29e8
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#53
+    - sample_type: Tissue Block
+      label: 18-102
+      link: https://portal.hubmapconsortium.org/browse/HBM559.ZTZP.945
+      id: https://entity.api.hubmapconsortium.org/entities/b890ef38058b4c9285144250d59d29e8
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 18-111
+      link: https://portal.hubmapconsortium.org/browse/HBM353.GFJR.228
+      id: https://entity.api.hubmapconsortium.org/entities/0cf6a21d894c998799ad443300d758d7
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#71
+    - sample_type: Tissue Block
+      label: 18-111
+      link: https://portal.hubmapconsortium.org/browse/HBM353.GFJR.228
+      id: https://entity.api.hubmapconsortium.org/entities/0cf6a21d894c998799ad443300d758d7
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#72
+    - sample_type: Tissue Block
+      label: 18-183
+      link: https://portal.hubmapconsortium.org/browse/HBM973.DQTR.568
+      id: https://entity.api.hubmapconsortium.org/entities/86d0e031e6179995a7007f84ecb94686
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#107
+    - sample_type: Tissue Block
+      label: 18-183
+      link: https://portal.hubmapconsortium.org/browse/HBM973.DQTR.568
+      id: https://entity.api.hubmapconsortium.org/entities/86d0e031e6179995a7007f84ecb94686
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#108
+    - sample_type: Tissue Block
+      label: 18-93
+      link: https://portal.hubmapconsortium.org/browse/HBM275.HNJP.353
+      id: https://entity.api.hubmapconsortium.org/entities/96c1d5bea920dbed2780963a4817d89f
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 18-93
+      link: https://portal.hubmapconsortium.org/browse/HBM275.HNJP.353
+      id: https://entity.api.hubmapconsortium.org/entities/96c1d5bea920dbed2780963a4817d89f
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#36
+  - id: https://portal.hubmapconsortium.org/browse/e3e625f5f072d99a5d9e31927787f23d
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/e3e625f5f072d99a5d9e31927787f23d
+    age: 45
+    samples:
+    - sample_type: Tissue Block
+      label: 11-106
+      link: https://portal.hubmapconsortium.org/browse/HBM692.LCNB.765
+      id: https://entity.api.hubmapconsortium.org/entities/b406b6179f920d2cf00b2c5e2ef52835
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 11-110
+      link: https://portal.hubmapconsortium.org/browse/HBM792.WJLJ.923
+      id: https://entity.api.hubmapconsortium.org/entities/dc8846a8b3d71adfc79e1c84fe92bbe2
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 11-119
+      link: https://portal.hubmapconsortium.org/browse/HBM256.MTWQ.585
+      id: https://entity.api.hubmapconsortium.org/entities/95a6836e2b53eef8cc79d89b455c0a87
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#71
+    - sample_type: Tissue Block
+      label: 11-128
+      link: https://portal.hubmapconsortium.org/browse/HBM568.LZHR.425
+      id: https://entity.api.hubmapconsortium.org/entities/1a244380c0450b8fd6c704506e9b6afc
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#108
+    - sample_type: Tissue Block
+      label: 11-81
+      link: https://portal.hubmapconsortium.org/browse/HBM995.CQKZ.339
+      id: https://entity.api.hubmapconsortium.org/entities/819fc78b496e84c62e24c442229ad4f2
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 11-93
+      link: https://portal.hubmapconsortium.org/browse/HBM966.WGFQ.597
+      id: https://entity.api.hubmapconsortium.org/entities/d619359bda48f48086afbcfceefad526
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#21
+  - id: https://portal.hubmapconsortium.org/browse/6d285926ae00557deb66d30b1bcf6649
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/6d285926ae00557deb66d30b1bcf6649
+    age: 33
+    samples:
+    - sample_type: Tissue Block
+      label: 16-120
+      link: https://portal.hubmapconsortium.org/browse/HBM835.QGBN.256
+      id: https://entity.api.hubmapconsortium.org/entities/3551580b4c5172e679c19fbcf1b3da72
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#71
+    - sample_type: Tissue Block
+      label: 16-120
+      link: https://portal.hubmapconsortium.org/browse/HBM835.QGBN.256
+      id: https://entity.api.hubmapconsortium.org/entities/3551580b4c5172e679c19fbcf1b3da72
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#72
+    - sample_type: Tissue Block
+      label: 16-174
+      link: https://portal.hubmapconsortium.org/browse/HBM724.NCFV.667
+      id: https://entity.api.hubmapconsortium.org/entities/d99ca4a0289df5a0c8ab4574b947f46f
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#107
+    - sample_type: Tissue Block
+      label: 16-174
+      link: https://portal.hubmapconsortium.org/browse/HBM724.NCFV.667
+      id: https://entity.api.hubmapconsortium.org/entities/d99ca4a0289df5a0c8ab4574b947f46f
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#108
+    - sample_type: Tissue Block
+      label: 16-66
+      link: https://portal.hubmapconsortium.org/browse/HBM983.HJCH.728
+      id: https://entity.api.hubmapconsortium.org/entities/296977e33459c42dd5dca10c3b027b17
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 16-66
+      link: https://portal.hubmapconsortium.org/browse/HBM983.HJCH.728
+      id: https://entity.api.hubmapconsortium.org/entities/296977e33459c42dd5dca10c3b027b17
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#36
+    - sample_type: Tissue Block
+      label: 16-93
+      link: https://portal.hubmapconsortium.org/browse/HBM258.LPXQ.626
+      id: https://entity.api.hubmapconsortium.org/entities/e9657058022729cb75c5d757e7c56c7d
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#53
+    - sample_type: Tissue Block
+      label: 16-93
+      link: https://portal.hubmapconsortium.org/browse/HBM258.LPXQ.626
+      id: https://entity.api.hubmapconsortium.org/entities/e9657058022729cb75c5d757e7c56c7d
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+  - id: https://portal.hubmapconsortium.org/browse/b5b4de30c90e4cb3def65407292942e9
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/b5b4de30c90e4cb3def65407292942e9
+    age: 30
+    samples:
+    - sample_type: Tissue Block
+      label: 9ECTC.A4
+      link: https://portal.hubmapconsortium.org/browse/HBM389.ZDTG.259
+      id: https://entity.api.hubmapconsortium.org/entities/d6ceb466c5c69278c26044143a305f8d
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#1
+    - sample_type: Tissue Block
+      label: 9ECTC.B4
+      link: https://portal.hubmapconsortium.org/browse/HBM946.XPHR.294
+      id: https://entity.api.hubmapconsortium.org/entities/d580307308e203aad8fe5ba1bc98b211
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#4
+    - sample_type: Tissue Block
+      label: 9ENDC.A4
+      link: https://portal.hubmapconsortium.org/browse/HBM569.QFBX.255
+      id: https://entity.api.hubmapconsortium.org/entities/b07c38f5497330900cd74effb1468aa5
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#13
+    - sample_type: Tissue Block
+      label: 9ENDC.B4
+      link: https://portal.hubmapconsortium.org/browse/HBM469.WBDB.236
+      id: https://entity.api.hubmapconsortium.org/entities/d0e1bb89705d69fb4aa27134d8a799b6
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#14
+    - sample_type: Tissue Block
+      label: 9UABSE.C
+      link: https://portal.hubmapconsortium.org/browse/HBM859.TQFB.675
+      id: https://entity.api.hubmapconsortium.org/entities/11d12841fc67eca6f72b0f8fccb28973
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#50
+    - sample_type: Tissue Block
+      label: 9UABSE.C2
+      link: https://portal.hubmapconsortium.org/browse/HBM959.HTRP.236
+      id: https://entity.api.hubmapconsortium.org/entities/ae9cfc7d88d0887e4e5883592be468e9
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#54
+    - sample_type: Tissue Block
+      label: 9UAFSM.C
+      link: https://portal.hubmapconsortium.org/browse/HBM275.JHHR.485
+      id: https://entity.api.hubmapconsortium.org/entities/bad6e22cc13bcaeb905636529f5c295b
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#67
+    - sample_type: Tissue Block
+      label: 9UAFSM.L
+      link: https://portal.hubmapconsortium.org/browse/HBM337.XFSG.666
+      id: https://entity.api.hubmapconsortium.org/entities/7734ddb3eef068845ed5bdd3b64d1332
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#65
+    - sample_type: Tissue Block
+      label: 9UALSM.C2
+      link: https://portal.hubmapconsortium.org/browse/HBM428.BWRD.925
+      id: https://entity.api.hubmapconsortium.org/entities/33c0fd1c5ef60f54a50c2e63720784f5
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#35
+    - sample_type: Tissue Block
+      label: 9UALSM.L4
+      link: https://portal.hubmapconsortium.org/browse/HBM372.ZGVB.958
+      id: https://entity.api.hubmapconsortium.org/entities/c2bbeaebdad85b7c3f0d64257b25f370
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#25
+    - sample_type: Tissue Block
+      label: 9UPBSE.C
+      link: https://portal.hubmapconsortium.org/browse/HBM634.KXMR.248
+      id: https://entity.api.hubmapconsortium.org/entities/5ee405afd7ff8527187e6ffa67d6a51f
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#104
+    - sample_type: Tissue Block
+      label: 9UPBSE.L
+      link: https://portal.hubmapconsortium.org/browse/HBM765.PNFD.598
+      id: https://entity.api.hubmapconsortium.org/entities/6b2395f14151514224930698997d2cca
+      rui_location: https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#102

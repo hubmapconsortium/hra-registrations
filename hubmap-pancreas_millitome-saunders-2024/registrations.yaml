@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 - consortium_name: HuBMAP
   provider_name: Vanderbilt University
   provider_uuid: 9F5C8F46-4DF4-11EF-A985-7E6DEE00831D
@@ -8,6 +9,7 @@
   - sex: Male
     age: 56
     label: DON530
+    link: https://portal.hubmapconsortium.org/browse/donor/3a0960c7cc8864dcc003165cef9ca040
     samples:
     - sample_type: Tissue Block
       label: PE-1A
@@ -20,7 +22,7 @@
       id: https://entity.api.hubmapconsortium.org/entities/eb078d1f28854320d220ce4d27d53c99
       rui_location: https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#B1
     - sample_type: Tissue Block
-      label: PE-1C
+      label: PE-1C  
       link: https://portal.hubmapconsortium.org/browse/HBM527.VMNR.723
       id: https://entity.api.hubmapconsortium.org/entities/3721e16c401a2e36ad45d66677073d9b
       rui_location: https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#C1

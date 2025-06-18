@@ -1,13 +1,249 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: HuBMAP
+  provider_name: University of Pennsylvania
+  provider_uuid: 18460CE4-4BB4-11F0-A2B2-20E2A8B75C6B
   defaults:
-    id: http://example.com/required/id
+    id: https://hubmapconsortium.github.io/hra-registrations/hubmap-fallopian_tube-millitome-fisher-2024/rui_locations.jsonld
     thumbnail: assets/icons/ico-unknown.svg
     link: http://example.com/user/link
   donors:
-    - sex: Male
-      samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+  - id: https://portal.hubmapconsortium.org/browse/e71689fb01e59f5f57cc3ec250ba9609
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/e71689fb01e59f5f57cc3ec250ba9609
+    age: 29
+    samples:
+    - sample_type: Tissue Block
+      label: 14-73
+      link: https://portal.hubmapconsortium.org/browse/HBM924.KTQF.774
+      id: https://entity.api.hubmapconsortium.org/entities/dd8daf0d82aca31e66133c5de341f086
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 14-79
+      link: https://portal.hubmapconsortium.org/browse/HBM298.NXHR.528
+      id: https://entity.api.hubmapconsortium.org/entities/3a3a06766935c5fb37f4298863bb0681
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
+      label: 14-83
+      link: https://portal.hubmapconsortium.org/browse/HBM455.DCGV.562
+      id: https://entity.api.hubmapconsortium.org/entities/1ab8ea4bfabb7fb3fe5ceaba1e12ac8c
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 14-86
+      link: https://portal.hubmapconsortium.org/browse/HBM754.LXMB.975
+      id: https://entity.api.hubmapconsortium.org/entities/ca4a35cc8fa126335d7d6961800812c9
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#12
+  - id: https://portal.hubmapconsortium.org/browse/8c3a4460e5da93daa87f5f834cafcb43
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/8c3a4460e5da93daa87f5f834cafcb43
+    age: 34
+    samples:
+    - sample_type: Tissue Block
+      label: 17-21
+      link: https://portal.hubmapconsortium.org/browse/HBM932.LWTP.253
+      id: https://entity.api.hubmapconsortium.org/entities/69507654f0aca227b07cf09a87354f3e
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 17-24
+      link: https://portal.hubmapconsortium.org/browse/HBM288.ZRRP.837
+      id: https://entity.api.hubmapconsortium.org/entities/67db506a10e7ab898e95361f1c42c8ff
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
+      label: 17-27
+      link: https://portal.hubmapconsortium.org/browse/HBM393.CWNW.323
+      id: https://entity.api.hubmapconsortium.org/entities/a81d8e572d9da7c8e9104ac98aa909df
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 17-30
+      link: https://portal.hubmapconsortium.org/browse/HBM527.XDKX.652
+      id: https://entity.api.hubmapconsortium.org/entities/ab88be074b95bd390361df2a24125624
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#12
+  - id: https://portal.hubmapconsortium.org/browse/239e9468a163caab397d642847d5f893
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/239e9468a163caab397d642847d5f893
+    age: 22
+    samples:
+    - sample_type: Tissue Block
+      label: 15-21
+      link: https://portal.hubmapconsortium.org/browse/HBM264.TKQN.626
+      id: https://entity.api.hubmapconsortium.org/entities/189a3aae26d73aca7f2275c67d6e3f16
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 15-24b
+      link: https://portal.hubmapconsortium.org/browse/HBM495.CHDG.737
+      id: https://entity.api.hubmapconsortium.org/entities/edc95da9a8255c0be7a6e98784e6a6ed
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
+      label: 15-27
+      link: https://portal.hubmapconsortium.org/browse/HBM553.HRBR.567
+      id: https://entity.api.hubmapconsortium.org/entities/f6fbc16b6a125e3fec9e12e1f4c5021d
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 15-30
+      link: https://portal.hubmapconsortium.org/browse/HBM888.ZGTM.434
+      id: https://entity.api.hubmapconsortium.org/entities/daf072e567fcb813f1614954e9ecc406
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#12
+  - id: https://portal.hubmapconsortium.org/browse/3ad74c9d10ccf828672b2ba990f915a8
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/3ad74c9d10ccf828672b2ba990f915a8
+    age: 19
+    samples:
+    - sample_type: Tissue Block
+      label: 13-37
+      link: https://portal.hubmapconsortium.org/browse/HBM927.XWTL.358
+      id: https://entity.api.hubmapconsortium.org/entities/58fc721e2ac88bc4122c6c50295ded68
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#15
+    - sample_type: Tissue Block
+      label: 13-38
+      link: https://portal.hubmapconsortium.org/browse/HBM255.FFJQ.856
+      id: https://entity.api.hubmapconsortium.org/entities/30f1ef626f76d9f9609f472e0be68913
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#13
+    - sample_type: Tissue Block
+      label: 13-40
+      link: https://portal.hubmapconsortium.org/browse/HBM724.GMZM.797
+      id: https://entity.api.hubmapconsortium.org/entities/036b4b8383698bce1b43f870efc78899
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#18
+    - sample_type: Tissue Block
+      label: 13-41
+      link: https://portal.hubmapconsortium.org/browse/HBM474.TQQQ.496
+      id: https://entity.api.hubmapconsortium.org/entities/b4e037a5c0557406c91aaa1622a0391a
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#16
+    - sample_type: Tissue Block
+      label: 13-43
+      link: https://portal.hubmapconsortium.org/browse/HBM367.JCKP.625
+      id: https://entity.api.hubmapconsortium.org/entities/b59fc762b63cec2e46b810ac7d768174
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#21
+    - sample_type: Tissue Block
+      label: 13-44
+      link: https://portal.hubmapconsortium.org/browse/HBM785.MVWL.456
+      id: https://entity.api.hubmapconsortium.org/entities/976bb7a105fcd1004bf69d39ab4da317
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#19
+    - sample_type: Tissue Block
+      label: 13-46
+      link: https://portal.hubmapconsortium.org/browse/HBM773.MKCR.985
+      id: https://entity.api.hubmapconsortium.org/entities/58a3e44a26929001eba18db945d83df8
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#24
+    - sample_type: Tissue Block
+      label: 13-47
+      link: https://portal.hubmapconsortium.org/browse/HBM827.MZXW.224
+      id: https://entity.api.hubmapconsortium.org/entities/45b40131c54d168ffe550ea637bb1b43
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#22
+  - id: https://portal.hubmapconsortium.org/browse/328e93d9da04436d228a5c3264c84ed2
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/328e93d9da04436d228a5c3264c84ed2
+    samples:
+    - sample_type: Tissue Block
+      label: 18-21
+      link: https://portal.hubmapconsortium.org/browse/HBM359.LMMX.954
+      id: https://entity.api.hubmapconsortium.org/entities/be91fef84a82df2ea61d3c2d8a787378
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 18-24
+      link: https://portal.hubmapconsortium.org/browse/HBM699.HPRM.256
+      id: https://entity.api.hubmapconsortium.org/entities/54d5bde1b9b4ed6676c14b41abdeeab9
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
+      label: 18-27
+      link: https://portal.hubmapconsortium.org/browse/HBM236.SCJT.743
+      id: https://entity.api.hubmapconsortium.org/entities/e821fe88fc8a9a202076539aac418445
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 18-30
+      link: https://portal.hubmapconsortium.org/browse/HBM756.LMDM.653
+      id: https://entity.api.hubmapconsortium.org/entities/ff60fc6d14455d8f843ed5bac9e7b9f4
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#12
+  - id: https://portal.hubmapconsortium.org/browse/e3e625f5f072d99a5d9e31927787f23d
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/e3e625f5f072d99a5d9e31927787f23d
+    age: 45
+    samples:
+    - sample_type: Tissue Block
+      label: 11-59
+      link: https://portal.hubmapconsortium.org/browse/HBM644.XFGJ.857
+      id: https://entity.api.hubmapconsortium.org/entities/95255d52fdaa9285109d1707dea30c23
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 11-62
+      link: https://portal.hubmapconsortium.org/browse/HBM385.QFHD.475
+      id: https://entity.api.hubmapconsortium.org/entities/1f29b084d5d9de4d9bf6bb8656a8941a
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
+      label: 11-65
+      link: https://portal.hubmapconsortium.org/browse/HBM334.CHVK.238
+      id: https://entity.api.hubmapconsortium.org/entities/81c6ac9a2904b89699c7b914e146a2bf
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 11-69
+      link: https://portal.hubmapconsortium.org/browse/HBM587.DFCW.749
+      id: https://entity.api.hubmapconsortium.org/entities/cad4fdaae4959b866d03ac5cafd5e09d
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#12
+  - id: https://portal.hubmapconsortium.org/browse/6d285926ae00557deb66d30b1bcf6649
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/6d285926ae00557deb66d30b1bcf6649
+    age: 33
+    samples:
+    - sample_type: Tissue Block
+      label: 16-21
+      link: https://portal.hubmapconsortium.org/browse/HBM589.ZMGW.584
+      id: https://entity.api.hubmapconsortium.org/entities/5103b82d3f597745fd61b64d7a83507f
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 16-24
+      link: https://portal.hubmapconsortium.org/browse/HBM765.LQQR.483
+      id: https://entity.api.hubmapconsortium.org/entities/d2fde51b66eefd51aa948b5d9e352ab2
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
+      label: 16-27
+      link: https://portal.hubmapconsortium.org/browse/HBM924.MLQQ.543
+      id: https://entity.api.hubmapconsortium.org/entities/28ce57d7b4652776adb6b6f9138dc560
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 16-30
+      link: https://portal.hubmapconsortium.org/browse/HBM254.FFSR.893
+      id: https://entity.api.hubmapconsortium.org/entities/5d2d3783fe76a3669814910b9521c87c
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#12
+  - id: https://portal.hubmapconsortium.org/browse/b5b4de30c90e4cb3def65407292942e9
+    sex: Female
+    link: https://portal.hubmapconsortium.org/browse/b5b4de30c90e4cb3def65407292942e9
+    age: 30
+    samples:
+    - sample_type: Tissue Block
+      label: 9RTAMP3
+      link: https://portal.hubmapconsortium.org/browse/HBM939.ZDBQ.785
+      id: https://entity.api.hubmapconsortium.org/entities/832650bfb8c3631143439361f98508f5
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#6
+    - sample_type: Tissue Block
+      label: 9RTAMP4_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM657.BWGV.752
+      id: https://entity.api.hubmapconsortium.org/entities/e92fe3ad72248a9ad99b1cd029e12803
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#4
+    - sample_type: Tissue Block
+      label: 9RTF3
+      link: https://portal.hubmapconsortium.org/browse/HBM695.FRXZ.228
+      id: https://entity.api.hubmapconsortium.org/entities/8d1aeac3a5c58c103b7202cfe247369e
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#12
+    - sample_type: Tissue Block
+      label: 9RTF4_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM374.KHMG.723
+      id: https://entity.api.hubmapconsortium.org/entities/95b439865f19c1fac7f93e9c110c9e88
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#10
+    - sample_type: Tissue Block
+      label: 9RTINF3
+      link: https://portal.hubmapconsortium.org/browse/HBM287.SBVS.723
+      id: https://entity.api.hubmapconsortium.org/entities/25869cc536079d9470e092fb7642d780
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#9
+    - sample_type: Tissue Block
+      label: 9RTINF4_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM757.HGNZ.577
+      id: https://entity.api.hubmapconsortium.org/entities/a605fc29a11d141d41372e89dfd44228
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#7
+    - sample_type: Tissue Block
+      label: 9RTIS3
+      link: https://portal.hubmapconsortium.org/browse/HBM865.JCSK.882
+      id: https://entity.api.hubmapconsortium.org/entities/aebc76fa86768544c983ef567254100c
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#3
+    - sample_type: Tissue Block
+      label: 9RTIS4_2slice
+      link: https://portal.hubmapconsortium.org/browse/HBM263.FMSF.843
+      id: https://entity.api.hubmapconsortium.org/entities/8ddba30d9fd5eea4b316a3f35995974d
+      rui_location: https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#1
