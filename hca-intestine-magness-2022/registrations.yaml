@@ -1,0 +1,95 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HCA
+  provider_name: UNC
+  provider_uuid: B79E37AC-FA11-11EF-8176-20E2A8B75C6B
+  defaults:
+    id: https://doi.org/10.1016/j.jcmgh.2022.02.007
+    thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
+    link: https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub
+    publication: https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub
+  donors:
+  - sex: Male
+    age: 29
+    bmi: 36.4
+    samples:
+    - rui_location: ascending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: descending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: transverse-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: duodenum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: ileum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: jejunum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+  - sex: Male
+    age: 45
+    bmi: 52.2
+    samples:
+    - rui_location: ascending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: descending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: transverse-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS  
+    - rui_location: duodenum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: ileum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: jejunum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+  - sex: Male
+    age: 53
+    bmi: 25
+    samples:
+    - rui_location: ascending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: descending-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: transverse-colon.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: duodenum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: ileum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
+    - rui_location: jejunum.json
+      datasets:
+      - link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE185224&format=file&file=GSE185224%5Fclustered%5Fannotated%5Fadata%5Fk10%5Flr0%2E92%5Fv1%2E7%2Eh5ad%2Egz
+        technology: FACS
