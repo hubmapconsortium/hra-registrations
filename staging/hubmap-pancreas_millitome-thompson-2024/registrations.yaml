@@ -6,7 +6,7 @@
   defaults:
     id: https://hubmapconsortium.github.io/hra-registrations/hubmap-pancreas-millitome-thompson-2024/rui_locations.jsonld
     thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
-    link: http://example.com/user/link
+    link: https://purl.humanatlas.io/millitome/pancreas-male-uf/
   donors:
   - id: https://portal.hubmapconsortium.org/browse/donor/49ad2ea74168cf6ce1d68a3f49d03945
     sex: Male
@@ -590,22 +590,22 @@
       label: P3-1A1
       id: https://entity.api.hubmapconsortium.org/entities/7e5070fc11fd6f5922be0ae8af349e51
       link: https://portal.hubmapconsortium.org/browse/HBM487.CTDM.769
-      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1A1
+      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1A
     - sample_type: Tissue Block
       label: P3-1A2
       id: https://entity.api.hubmapconsortium.org/entities/f9d96a9ca6bb4eef19f7dd3471756ed7
       link: https://portal.hubmapconsortium.org/browse/HBM885.ZQBG.766
-      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1A2
+      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1A
     - sample_type: Tissue Block
       label: P3-1B1
       id: https://entity.api.hubmapconsortium.org/entities/aaf42bb91b2fa11135a23acd736bff52
       link: https://portal.hubmapconsortium.org/browse/HBM638.RPFF.257
-      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1B1
+      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1B
     - sample_type: Tissue Block
       label: P3-1B2
       id: https://entity.api.hubmapconsortium.org/entities/47482cc8e67fe9b94951fda3baafac51
       link: https://portal.hubmapconsortium.org/browse/HBM224.RDMJ.322
-      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1B2
+      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1B
     - sample_type: Tissue Block
       label: P3-2A
       id: https://entity.api.hubmapconsortium.org/entities/c706f993734eac76f561e1b1b7818c66
@@ -856,8 +856,7 @@
       label: P4-1  NBF first 8hr then 4%PFA
       id: https://entity.api.hubmapconsortium.org/entities/2f746e1205c82879a15f6cffe71ec089
       link: https://portal.hubmapconsortium.org/browse/HBM425.ZGDN.378
-      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1  NBF
-        first 8hr then 4%PFA
+      rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#1
     - sample_type: Tissue Block
       label: P4-2A
       id: https://entity.api.hubmapconsortium.org/entities/c93bf09cf463e130515d84afaa56c4a2
@@ -904,11 +903,10 @@
       link: https://portal.hubmapconsortium.org/browse/HBM976.SNJT.993
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#4
     - sample_type: Tissue Block
-      label: P4-4 dosal
+      label: P4-4 dorsal
       id: https://entity.api.hubmapconsortium.org/entities/8da07dcbe6a425c123294897157bd678
       link: https://portal.hubmapconsortium.org/browse/HBM454.FGMP.269
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#4
-        dosal
     - sample_type: Tissue Block
       label: P4-4 ventral
       id: https://entity.api.hubmapconsortium.org/entities/c6ac65532c6e007706c2f81e13f3093b
@@ -985,19 +983,16 @@
       id: https://entity.api.hubmapconsortium.org/entities/53c7d01c45d4c0fef46590223d93e551
       link: https://portal.hubmapconsortium.org/browse/HBM555.VZJH.584
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#9
-        NBF first 8hr then 4%PFA
     - sample_type: Tissue Block
       label: P4-9A NBF first 8hr then 4%PFA
       id: https://entity.api.hubmapconsortium.org/entities/47ffc85e0e23e96b0a9a360f0a275fcc
       link: https://portal.hubmapconsortium.org/browse/HBM752.KVPQ.387
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#9A
-        NBF first 8hr then 4%PFA
     - sample_type: Tissue Block
       label: P4-9B NBF first 8hr then 4%PFA
       id: https://entity.api.hubmapconsortium.org/entities/32c33925a9249e22581c4e42109dd622
       link: https://portal.hubmapconsortium.org/browse/HBM746.FHFH.688
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#9B
-        NBF first 8hr then 4%PFA
     - sample_type: Tissue Block
       label: P4-10
       id: https://entity.api.hubmapconsortium.org/entities/b050c683ee0dedb6cec363f16369960d
@@ -1091,7 +1086,7 @@
     - sample_type: Tissue Block
       label: P4-15B
       id: https://entity.api.hubmapconsortium.org/entities/009237c460c7f8466dd89701379ec1c6
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM674.PFPZ.939"
+      link: https://portal.hubmapconsortium.org/browse/HBM674.PFPZ.939
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#15B
     - sample_type: Tissue Block
       label: P4-15C
@@ -1342,7 +1337,7 @@
     - sample_type: Tissue Block
       label: P5-10
       id: https://entity.api.hubmapconsortium.org/entities/0f0d0d1dbc2aaf37d313ff098868fd28
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM787.DNXX.875"
+      link: https://portal.hubmapconsortium.org/browse/HBM787.DNXX.875
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#10
     - sample_type: Tissue Block
       label: P5-11A
@@ -1407,7 +1402,7 @@
     - sample_type: Tissue Block
       label: P5-17B
       id: https://entity.api.hubmapconsortium.org/entities/171483be6342e8e60ce1bdea479f194e
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM855.RHKB.463"
+      link: https://portal.hubmapconsortium.org/browse/HBM855.RHKB.463
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#17B
     - sample_type: Tissue Block
       label: P5-17C
@@ -1622,7 +1617,7 @@
     - sample_type: Tissue Block
       label: P5-10
       id: https://entity.api.hubmapconsortium.org/entities/0f0d0d1dbc2aaf37d313ff098868fd28
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM787.DNXX.875"
+      link: https://portal.hubmapconsortium.org/browse/HBM787.DNXX.875
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#10
     - sample_type: Tissue Block
       label: P5-11A
@@ -1687,7 +1682,7 @@
     - sample_type: Tissue Block
       label: P5-17B
       id: https://entity.api.hubmapconsortium.org/entities/171483be6342e8e60ce1bdea479f194e
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM855.RHKB.463"
+      link: https://portal.hubmapconsortium.org/browse/HBM855.RHKB.463
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#17B
     - sample_type: Tissue Block
       label: P5-17C
@@ -1818,7 +1813,7 @@
     - sample_type: Tissue Block
       label: P6-2-D
       id: https://entity.api.hubmapconsortium.org/entities/cb475f2fcb558d94a10071d58fc3805b
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM546.BGDQ.785"
+      link: https://portal.hubmapconsortium.org/browse/HBM546.BGDQ.785
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#2-D
     - sample_type: Tissue Block
       label: P6-3
@@ -1903,12 +1898,12 @@
     - sample_type: Tissue Block
       label: P6-17
       id: https://entity.api.hubmapconsortium.org/entities/b61e5dccfaf5a5658d44dcc95e6ed9c3
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM449.RGCS.654"
+      link: https://portal.hubmapconsortium.org/browse/HBM449.RGCS.654
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#17
     - sample_type: Tissue Block
       label: P6-20
       id: https://entity.api.hubmapconsortium.org/entities/379938ec779c431961d7364cfa31b47d
-      link: "https://portal.hubmapconsortium.org/browse/\_HBM456.CPRL.729"
+      link: https://portal.hubmapconsortium.org/browse/HBM456.CPRL.729
       rui_location: https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#20
     - sample_type: Tissue Block
       label: P6-23A
