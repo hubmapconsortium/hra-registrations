@@ -1,13 +1,446 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+- consortium_name: HuBMAP
+  provider_name: Vanderbilt University Medical Center
+  provider_uuid: CC392264-5D3A-4C95-946F-0618F06A4F28
   defaults:
-    id: http://example.com/required/id
+    id: https://hubmapconsortium.github.io/hra-registrations/hubmap-kidney_millitome-spraggins-2024/rui_locations.jsonld
     thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
     link: http://example.com/user/link
   donors:
-    - sex: Male
-      samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+  - id: https://entity.api.hubmapconsortium.org/entities/296cea7d8e005cb990de413119450931
+    sex: Male
+    link: https://portal.hubmapconsortium.org/browse/donor/296cea7d8e005cb990de413119450931
+    age: 44
+    bmi: 18.6
+    samples:
+    - sample_type: Tissue Block
+      label: VAN0112-RK-5
+      link: https://portal.hubmapconsortium.org/browse/sample/11b666fa2b50d8182ddd844ee79556c5
+      id: https://entity.api.hubmapconsortium.org/entities/11b666fa2b50d8182ddd844ee79556c5
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-4-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-6
+      link: https://portal.hubmapconsortium.org/browse/sample/2980c7f3165d8ac91b2bbacb12ba0858
+      id: https://entity.api.hubmapconsortium.org/entities/2980c7f3165d8ac91b2bbacb12ba0858
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-4-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-2
+      link: https://portal.hubmapconsortium.org/browse/sample/e32cbb97da0e78dd4b38f08bca46ebbd
+      id: https://entity.api.hubmapconsortium.org/entities/e32cbb97da0e78dd4b38f08bca46ebbd
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-3-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-1
+      link: https://portal.hubmapconsortium.org/browse/sample/c1f22d9526dcf07ecec8fc8656d180fb
+      id: https://entity.api.hubmapconsortium.org/entities/c1f22d9526dcf07ecec8fc8656d180fb
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-3-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-8
+      link: https://portal.hubmapconsortium.org/browse/sample/60eb4f8851112b6db6ae1f4f8cc5b83e
+      id: https://entity.api.hubmapconsortium.org/entities/60eb4f8851112b6db6ae1f4f8cc5b83e
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-4-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-4
+      link: https://portal.hubmapconsortium.org/browse/sample/234ab139ed7c88e99f9b17d4afbee6f9
+      id: https://entity.api.hubmapconsortium.org/entities/234ab139ed7c88e99f9b17d4afbee6f9
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-4-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-7
+      link: https://portal.hubmapconsortium.org/browse/sample/4d243dc8aa88be83e54973fe548e9d6b
+      id: https://entity.api.hubmapconsortium.org/entities/4d243dc8aa88be83e54973fe548e9d6b
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-4-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-3
+      link: https://portal.hubmapconsortium.org/browse/sample/bef826ec59ad9d3d3d081857508fd51a
+      id: https://entity.api.hubmapconsortium.org/entities/bef826ec59ad9d3d3d081857508fd51a
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-3-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-13
+      link: https://portal.hubmapconsortium.org/browse/sample/1e69297deaa5c3022ab9608763b158ec
+      id: https://entity.api.hubmapconsortium.org/entities/1e69297deaa5c3022ab9608763b158ec
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-5-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-14
+      link: https://portal.hubmapconsortium.org/browse/sample/211e12217cb202b39d58dd72ce96796f
+      id: https://entity.api.hubmapconsortium.org/entities/211e12217cb202b39d58dd72ce96796f
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-6-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-17
+      link: https://portal.hubmapconsortium.org/browse/sample/f9edce3448aee94e41067897e4096293
+      id: https://entity.api.hubmapconsortium.org/entities/f9edce3448aee94e41067897e4096293
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-6-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-16
+      link: https://portal.hubmapconsortium.org/browse/sample/28f1b9723f8a9e368803568e4e800cc9
+      id: https://entity.api.hubmapconsortium.org/entities/28f1b9723f8a9e368803568e4e800cc9
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-6-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-11
+      link: https://portal.hubmapconsortium.org/browse/sample/9824a07bc6c91cdf2dd19d237873e764
+      id: https://entity.api.hubmapconsortium.org/entities/9824a07bc6c91cdf2dd19d237873e764
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-5-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-12
+      link: https://portal.hubmapconsortium.org/browse/sample/0d6da62ddab9e5ccf4c19f012c9c98db
+      id: https://entity.api.hubmapconsortium.org/entities/0d6da62ddab9e5ccf4c19f012c9c98db
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-5-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-10
+      link: https://portal.hubmapconsortium.org/browse/sample/2fffa152d33964ad79e38f6bcee73fcb
+      id: https://entity.api.hubmapconsortium.org/entities/2fffa152d33964ad79e38f6bcee73fcb
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-5-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-15
+      link: https://portal.hubmapconsortium.org/browse/sample/82544a03150f8a8c26e3882c709c0424
+      id: https://entity.api.hubmapconsortium.org/entities/82544a03150f8a8c26e3882c709c0424
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-6-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-9
+      link: https://portal.hubmapconsortium.org/browse/sample/0ed2ba89c85c09914aa9ebcf868775c2
+      id: https://entity.api.hubmapconsortium.org/entities/0ed2ba89c85c09914aa9ebcf868775c2
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-5-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-19
+      link: https://portal.hubmapconsortium.org/browse/sample/0270434921c8385547f5788e0a09244a
+      id: https://entity.api.hubmapconsortium.org/entities/0270434921c8385547f5788e0a09244a
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-7-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-20
+      link: https://portal.hubmapconsortium.org/browse/sample/a0099881914e2e078354b1afd771a86e
+      id: https://entity.api.hubmapconsortium.org/entities/a0099881914e2e078354b1afd771a86e
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-7-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-21
+      link: https://portal.hubmapconsortium.org/browse/sample/0cd36a9bc90d4f94815f85c264a69902
+      id: https://entity.api.hubmapconsortium.org/entities/0cd36a9bc90d4f94815f85c264a69902
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-7-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-18
+      link: https://portal.hubmapconsortium.org/browse/sample/816853515c0f55f0e6591a76d4b2d587
+      id: https://entity.api.hubmapconsortium.org/entities/816853515c0f55f0e6591a76d4b2d587
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-7-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-24
+      link: https://portal.hubmapconsortium.org/browse/sample/f3eb3254965e2a770d60ed906d884869
+      id: https://entity.api.hubmapconsortium.org/entities/f3eb3254965e2a770d60ed906d884869
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-8-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-22
+      link: https://portal.hubmapconsortium.org/browse/sample/85c9d751ca0e526d1b57123b7d7d60c8
+      id: https://entity.api.hubmapconsortium.org/entities/85c9d751ca0e526d1b57123b7d7d60c8
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-7-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-25
+      link: https://portal.hubmapconsortium.org/browse/sample/8f0d3d097d6267eeb27ec23fc22d56e9
+      id: https://entity.api.hubmapconsortium.org/entities/8f0d3d097d6267eeb27ec23fc22d56e9
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-8-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-23
+      link: https://portal.hubmapconsortium.org/browse/sample/92bb386707f5bfc7a0f3ad4edbadc5eb
+      id: https://entity.api.hubmapconsortium.org/entities/92bb386707f5bfc7a0f3ad4edbadc5eb
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-8-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-26
+      link: https://portal.hubmapconsortium.org/browse/sample/ad42bbaacdf79fde68ea4ea636a233d6
+      id: https://entity.api.hubmapconsortium.org/entities/ad42bbaacdf79fde68ea4ea636a233d6
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-8-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-30
+      link: https://portal.hubmapconsortium.org/browse/sample/49d8bfb6742b65ff974da5c3368a276b
+      id: https://entity.api.hubmapconsortium.org/entities/49d8bfb6742b65ff974da5c3368a276b
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-9-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-29
+      link: https://portal.hubmapconsortium.org/browse/sample/e2f8033fcc0e3277f2a9bcfc3610ea6f
+      id: https://entity.api.hubmapconsortium.org/entities/e2f8033fcc0e3277f2a9bcfc3610ea6f
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-9-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-33
+      link: https://portal.hubmapconsortium.org/browse/sample/2f6b179287276e5bb13bfa44e8dfb9e6
+      id: https://entity.api.hubmapconsortium.org/entities/2f6b179287276e5bb13bfa44e8dfb9e6
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-10-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-32
+      link: https://portal.hubmapconsortium.org/browse/sample/70f7aa4b996f83cf5d7c2425e2010348
+      id: https://entity.api.hubmapconsortium.org/entities/70f7aa4b996f83cf5d7c2425e2010348
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-10-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-31
+      link: https://portal.hubmapconsortium.org/browse/sample/b3873cb14e354ad7c2e94704f9f5a88d
+      id: https://entity.api.hubmapconsortium.org/entities/b3873cb14e354ad7c2e94704f9f5a88d
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-9-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-27
+      link: https://portal.hubmapconsortium.org/browse/sample/d1e33f4eecbe865190d52b9bff9638da
+      id: https://entity.api.hubmapconsortium.org/entities/d1e33f4eecbe865190d52b9bff9638da
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-9-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-35
+      link: https://portal.hubmapconsortium.org/browse/sample/231b228464511dbe70ec858b697e7be9
+      id: https://entity.api.hubmapconsortium.org/entities/231b228464511dbe70ec858b697e7be9
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-10-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-34
+      link: https://portal.hubmapconsortium.org/browse/sample/412b2ded0594b92578da38d1166eb972
+      id: https://entity.api.hubmapconsortium.org/entities/412b2ded0594b92578da38d1166eb972
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-10-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-28
+      link: https://portal.hubmapconsortium.org/browse/sample/aae836490fdb4f6f0348348b7f101bdb
+      id: https://entity.api.hubmapconsortium.org/entities/aae836490fdb4f6f0348348b7f101bdb
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-9-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-45
+      link: https://portal.hubmapconsortium.org/browse/sample/9b8bdb724e134660936eca33e87487ba
+      id: https://entity.api.hubmapconsortium.org/entities/9b8bdb724e134660936eca33e87487ba
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-3-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-42
+      link: https://portal.hubmapconsortium.org/browse/sample/963ffd4d0aa9d2feb07eb2ca827ffee0
+      id: https://entity.api.hubmapconsortium.org/entities/963ffd4d0aa9d2feb07eb2ca827ffee0
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-12-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-38
+      link: https://portal.hubmapconsortium.org/browse/sample/cd23d226f4bbcf561c1c6b8e88a81fd8
+      id: https://entity.api.hubmapconsortium.org/entities/cd23d226f4bbcf561c1c6b8e88a81fd8
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-11-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-37
+      link: https://portal.hubmapconsortium.org/browse/sample/5af958dd296b3aca6b2248d48c03416c
+      id: https://entity.api.hubmapconsortium.org/entities/5af958dd296b3aca6b2248d48c03416c
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-11-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-39
+      link: https://portal.hubmapconsortium.org/browse/sample/ef966798f6df00ae6d3cb435a105700f
+      id: https://entity.api.hubmapconsortium.org/entities/ef966798f6df00ae6d3cb435a105700f
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-11-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-36
+      link: https://portal.hubmapconsortium.org/browse/sample/9001e221f84b3c3dcfc52a6781b8b1f3
+      id: https://entity.api.hubmapconsortium.org/entities/9001e221f84b3c3dcfc52a6781b8b1f3
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-10-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-40
+      link: https://portal.hubmapconsortium.org/browse/sample/6d7de0264d7f42151c06d208c6643266
+      id: https://entity.api.hubmapconsortium.org/entities/6d7de0264d7f42151c06d208c6643266
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-12-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-41
+      link: https://portal.hubmapconsortium.org/browse/sample/a7324c38bc6f422e40d20c39bc278bda
+      id: https://entity.api.hubmapconsortium.org/entities/a7324c38bc6f422e40d20c39bc278bda
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-12-I
+    - sample_type: Tissue Block
+      label: VAN0112-RK-44
+      link: https://portal.hubmapconsortium.org/browse/sample/c78aafed9b0f564520c16580c450d9d1
+      id: https://entity.api.hubmapconsortium.org/entities/c78aafed9b0f564520c16580c450d9d1
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-2-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-43
+      link: https://portal.hubmapconsortium.org/browse/sample/43f632296773dcdc4d50bddee1aa865d
+      id: https://entity.api.hubmapconsortium.org/entities/43f632296773dcdc4d50bddee1aa865d
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-2-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-48
+      link: https://portal.hubmapconsortium.org/browse/sample/0d31aa2c3fca1c8e2eca5758770d23c0
+      id: https://entity.api.hubmapconsortium.org/entities/0d31aa2c3fca1c8e2eca5758770d23c0
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-4-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-51
+      link: https://portal.hubmapconsortium.org/browse/sample/317ab611176159a94b4e180ccd8ed985
+      id: https://entity.api.hubmapconsortium.org/entities/317ab611176159a94b4e180ccd8ed985
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-5-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-46
+      link: https://portal.hubmapconsortium.org/browse/sample/3c36b13813f18a269226bcac19c29847
+      id: https://entity.api.hubmapconsortium.org/entities/3c36b13813f18a269226bcac19c29847
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-3-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-49
+      link: https://portal.hubmapconsortium.org/browse/sample/2ce024504a8270c8d275e41a7f9a5b60
+      id: https://entity.api.hubmapconsortium.org/entities/2ce024504a8270c8d275e41a7f9a5b60
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-4-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-50
+      link: https://portal.hubmapconsortium.org/browse/sample/0b7a1f825541be74f045eae6554cbd38
+      id: https://entity.api.hubmapconsortium.org/entities/0b7a1f825541be74f045eae6554cbd38
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-4-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-47
+      link: https://portal.hubmapconsortium.org/browse/sample/806e9c1a210e6876dcfe89e257944186
+      id: https://entity.api.hubmapconsortium.org/entities/806e9c1a210e6876dcfe89e257944186
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-4-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-52
+      link: https://portal.hubmapconsortium.org/browse/sample/7d514d60121057cb0fa24d30de2ea508
+      id: https://entity.api.hubmapconsortium.org/entities/7d514d60121057cb0fa24d30de2ea508
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-5-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-53
+      link: https://portal.hubmapconsortium.org/browse/sample/d5c69841c0e4de138fc09fea6ea378e3
+      id: https://entity.api.hubmapconsortium.org/entities/d5c69841c0e4de138fc09fea6ea378e3
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-5-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-55
+      link: https://portal.hubmapconsortium.org/browse/sample/007b43b037073238211241fe3e83f032
+      id: https://entity.api.hubmapconsortium.org/entities/007b43b037073238211241fe3e83f032
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-6-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-54
+      link: https://portal.hubmapconsortium.org/browse/sample/c41cb3b7944e99d41ae227dadcac379d
+      id: https://entity.api.hubmapconsortium.org/entities/c41cb3b7944e99d41ae227dadcac379d
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-5-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-57
+      link: https://portal.hubmapconsortium.org/browse/sample/12167b97279b16122c6e63a38c355344
+      id: https://entity.api.hubmapconsortium.org/entities/12167b97279b16122c6e63a38c355344
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-6-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-56
+      link: https://portal.hubmapconsortium.org/browse/sample/0cfdb96301cec53e6d35023016e725b9
+      id: https://entity.api.hubmapconsortium.org/entities/0cfdb96301cec53e6d35023016e725b9
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-6-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-60
+      link: https://portal.hubmapconsortium.org/browse/sample/80f7ba9ece3a1895c9219b679620249f
+      id: https://entity.api.hubmapconsortium.org/entities/80f7ba9ece3a1895c9219b679620249f
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-7-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-58
+      link: https://portal.hubmapconsortium.org/browse/sample/9685af67d64109ad330d264bdc9eceee
+      id: https://entity.api.hubmapconsortium.org/entities/9685af67d64109ad330d264bdc9eceee
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-6-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-59
+      link: https://portal.hubmapconsortium.org/browse/sample/29d3094d1daba8a2cbb0112b0db120f5
+      id: https://entity.api.hubmapconsortium.org/entities/29d3094d1daba8a2cbb0112b0db120f5
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-7-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-69
+      link: https://portal.hubmapconsortium.org/browse/sample/a5072ac81e9731574d647749096dbcdf
+      id: https://entity.api.hubmapconsortium.org/entities/a5072ac81e9731574d647749096dbcdf
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-9-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-63
+      link: https://portal.hubmapconsortium.org/browse/sample/e6c553eddf12f8c7eb778d0d5ce48164
+      id: https://entity.api.hubmapconsortium.org/entities/e6c553eddf12f8c7eb778d0d5ce48164
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-8-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-67
+      link: https://portal.hubmapconsortium.org/browse/sample/77edf69c07fea27b95ac5a2d4d3ee5b8
+      id: https://entity.api.hubmapconsortium.org/entities/77edf69c07fea27b95ac5a2d4d3ee5b8
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-9-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-64
+      link: https://portal.hubmapconsortium.org/browse/sample/75ba8b24c86ecb3574cf50959c746d39
+      id: https://entity.api.hubmapconsortium.org/entities/75ba8b24c86ecb3574cf50959c746d39
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-8-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-65
+      link: https://portal.hubmapconsortium.org/browse/sample/3b5ceff7e90134e7c5488aaaa69ecb62
+      id: https://entity.api.hubmapconsortium.org/entities/3b5ceff7e90134e7c5488aaaa69ecb62
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-8-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-66
+      link: https://portal.hubmapconsortium.org/browse/sample/046705f18362f54b7395a31c5149f1f3
+      id: https://entity.api.hubmapconsortium.org/entities/046705f18362f54b7395a31c5149f1f3
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-8-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-61
+      link: https://portal.hubmapconsortium.org/browse/sample/a92ddfeaea7990b898960d80ab1421c0
+      id: https://entity.api.hubmapconsortium.org/entities/a92ddfeaea7990b898960d80ab1421c0
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-7-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-68
+      link: https://portal.hubmapconsortium.org/browse/sample/1308aa56834ed471717c8ef58f0223fd
+      id: https://entity.api.hubmapconsortium.org/entities/1308aa56834ed471717c8ef58f0223fd
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-9-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-62
+      link: https://portal.hubmapconsortium.org/browse/sample/1b5b5a1c40a5e975ebb87e5287c9259c
+      id: https://entity.api.hubmapconsortium.org/entities/1b5b5a1c40a5e975ebb87e5287c9259c
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-7-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-72
+      link: https://portal.hubmapconsortium.org/browse/sample/f3002dc149581b5b1b01acb2ec913b83
+      id: https://entity.api.hubmapconsortium.org/entities/f3002dc149581b5b1b01acb2ec913b83
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-10-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-74
+      link: https://portal.hubmapconsortium.org/browse/sample/5c159cc1a85c633928e4295d79117e83
+      id: https://entity.api.hubmapconsortium.org/entities/5c159cc1a85c633928e4295d79117e83
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-10-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-71
+      link: https://portal.hubmapconsortium.org/browse/sample/709ebd97e30dee2cc98e91125188dea3
+      id: https://entity.api.hubmapconsortium.org/entities/709ebd97e30dee2cc98e91125188dea3
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-9-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-77
+      link: https://portal.hubmapconsortium.org/browse/sample/0f444ce20b4847634ebe4bb405445664
+      id: https://entity.api.hubmapconsortium.org/entities/0f444ce20b4847634ebe4bb405445664
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-11-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-79
+      link: https://portal.hubmapconsortium.org/browse/sample/4b82a9d27c67e19cfcc62ec29b6c73da
+      id: https://entity.api.hubmapconsortium.org/entities/4b82a9d27c67e19cfcc62ec29b6c73da
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-11-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-75
+      link: https://portal.hubmapconsortium.org/browse/sample/c20fc50bee959129b635ed2b176d65ef
+      id: https://entity.api.hubmapconsortium.org/entities/c20fc50bee959129b635ed2b176d65ef
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-10-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-78
+      link: https://portal.hubmapconsortium.org/browse/sample/282159f95ef84949e4197b8cec60239a
+      id: https://entity.api.hubmapconsortium.org/entities/282159f95ef84949e4197b8cec60239a
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-11-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-76
+      link: https://portal.hubmapconsortium.org/browse/sample/3e309c333e438526d2891f93df14f647
+      id: https://entity.api.hubmapconsortium.org/entities/3e309c333e438526d2891f93df14f647
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-10-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-70
+      link: https://portal.hubmapconsortium.org/browse/sample/3af79f07dda49f4bbd979a65fac180a6
+      id: https://entity.api.hubmapconsortium.org/entities/3af79f07dda49f4bbd979a65fac180a6
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-9-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-73
+      link: https://portal.hubmapconsortium.org/browse/sample/cbdda7e391eed15980fad4e31f23441b
+      id: https://entity.api.hubmapconsortium.org/entities/cbdda7e391eed15980fad4e31f23441b
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-10-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-83
+      link: https://portal.hubmapconsortium.org/browse/sample/8291df74dbdacd84c5d5d854ed356a75
+      id: https://entity.api.hubmapconsortium.org/entities/8291df74dbdacd84c5d5d854ed356a75
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#C-12-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-82
+      link: https://portal.hubmapconsortium.org/browse/sample/2bb3e0e178804f594796c2270978230a
+      id: https://entity.api.hubmapconsortium.org/entities/2bb3e0e178804f594796c2270978230a
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#B-12-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-81
+      link: https://portal.hubmapconsortium.org/browse/sample/d77a790a4133eeb5fc9f50db8c000d82
+      id: https://entity.api.hubmapconsortium.org/entities/d77a790a4133eeb5fc9f50db8c000d82
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-11-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-85
+      link: https://portal.hubmapconsortium.org/browse/sample/037b4a1ce5ed02d6fe030800de600d35
+      id: https://entity.api.hubmapconsortium.org/entities/037b4a1ce5ed02d6fe030800de600d35
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-12-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-86
+      link: https://portal.hubmapconsortium.org/browse/sample/e0e621ffe82d1d11ba254b75b02985f6
+      id: https://entity.api.hubmapconsortium.org/entities/e0e621ffe82d1d11ba254b75b02985f6
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#F-12-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-80
+      link: https://portal.hubmapconsortium.org/browse/sample/6fb45dfad1a308244e17dfed359a1076
+      id: https://entity.api.hubmapconsortium.org/entities/6fb45dfad1a308244e17dfed359a1076
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#E-11-II
+    - sample_type: Tissue Block
+      label: VAN0112-RK-84
+      link: https://portal.hubmapconsortium.org/browse/sample/f5c632f6fa19b72d84fdb987bdb082fd
+      id: https://entity.api.hubmapconsortium.org/entities/f5c632f6fa19b72d84fdb987bdb082fd
+      rui_location: https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#D-12-II
