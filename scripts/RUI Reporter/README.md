@@ -1,53 +1,57 @@
 # RUI Registration Daily Tracker
 
-This script automatically tracks RUI location registration coverage for both HuBMAP and SenNet datasets over time. It collects daily counts for total, supported, and registered datasets and saves them to a CSV file for trend analysis.
+This script tracks RUI location registration coverage for both HuBMAP and SenNet datasets over time.
 
-## Files
+## What it does
 
-- `combined_daily_tracker.py` - Main script that collects data
-- `setup_cron.sh` - Script to setup automatic daily execution via cron
-- `test_tracker.sh` - Test script to verify environment and dependencies
-- `README.md` - This documentation
+The script generates daily counts for:
+- **Total datasets** - All datasets in each consortium
+- **Supported datasets** - Datasets from organs covered by reference anatomy
+- **Registered datasets** - Datasets with RUI locations
 
-## Features
+Results are saved to a CSV file with dates as columns and metrics as rows for time-series analysis.
 
-- **Interactive Token Input**: Prompts for API tokens each time (no stored credentials)
-- **Dual Consortium Support**: Tracks both HuBMAP and SenNet datasets
-- **Time Series Data**: Saves results as CSV with dates as columns
-- **Automatic Scheduling**: Runs weekdays at 5 PM via cron job
-- **Error Handling**: Robust error handling and logging
-- **Coverage Calculation**: Displays registration percentages
+## How to run
 
-## Quick Start
+1. Make sure you have your API tokens ready:
+   - HuBMAP API Token
+   - SenNet API Token
 
-### 1. Test the Environment
-```bash
-./test_tracker.sh
-```
+2. Run the script:
+   ```bash
+   ./combined_daily_tracker.py
+   ```
 
-### 2. Setup Automatic Execution
-```bash
-./setup_cron.sh
-```
+3. When prompted, enter your API tokens securely (they won't be displayed as you type)
 
-### 3. Manual Testing (Optional)
-```bash
-python3 combined_daily_tracker.py
-```
+4. The script will:
+   - Query both consortium APIs
+   - Display current counts and coverage percentages
+   - Save results to `combined_daily_counts.csv` in the main hra-registrations folder
 
-## Requirements
+## Output
+
+- **CSV File**: `/Users/dequeue/Desktop/RUI.nosync/hra-registrations/combined_daily_counts.csv`
+- **Format**: Each row is a metric, each column is a date
+- **Metrics tracked**:
+  - HuBMAP Total Datasets
+  - HuBMAP Supported Datasets  
+  - HuBMAP Registered Datasets
+  - SenNet Total Datasets
+  - SenNet Supported Datasets
+  - SenNet Registered Datasets
+
+## Dependencies
 
 - Python 3.6+
-- `requests` library (`pip3 install requests`)
-- Valid HuBMAP and SenNet API tokens
-- macOS/Linux with cron support
+- `requests` library (install with `pip install requests`)
+- `metadata.js` file in the same directory
 
-## Cron Schedule
+## Security
 
-The script is configured to run:
-- **Time**: 5:00 PM (17:00)
-- **Days**: Monday through Friday (weekdays only)
-- **Logs**: Saved to `tracker.log`
+- API tokens are entered securely using `getpass` (no echo to terminal)
+- Tokens are not stored anywhere
+- You'll need to enter them each time you run the script
 
 ## Output
 

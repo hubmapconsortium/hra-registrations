@@ -44,11 +44,11 @@ def setup_configuration(hubmap_token, sennet_token):
         'hubmap_token': hubmap_token,
         'sennet_token': sennet_token,
         'hubmap_api_url': "https://search.api.hubmapconsortium.org/v3/search",
-        'sennet_api_url': "https://search.api.sennetconsortium.org/v3/search",
+        'sennet_api_url': "https://search.api.sennetconsortium.org/search",
         'reference_organs_url': "https://apps.humanatlas.io/api/v1/reference-organs",
         'hubmap_headers': {"Authorization": f"Bearer {hubmap_token}"},
         'sennet_headers': {"Authorization": f"Bearer {sennet_token}"},
-        'csv_output_path': "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/scripts/combined_daily_counts.csv",
+        'csv_output_path': "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/combined_daily_counts.csv",
         'metadata_path': "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/scripts/RUI Reporter/metadata.js"
     }
     
@@ -129,46 +129,134 @@ def filter_supported_codes(code_to_uberon, reference_uberon_ids):
 def query_consortium_datasets(api_url, headers, filtered_supported_codes, consortium_name):
     """Query API for dataset counts"""
     
-    # 1. Total count of all datasets
-    total_query = {
-        "query": {
-            "bool": {
-                "filter": [
-                    {"match": {"entity_type.keyword": "Dataset"}}
-                ]
+    if consortium_name == "HuBMAP":
+        # HuBMAP queries (existing working queries)
+        # 1. Total count of all datasets
+        total_query = {
+            "query": {
+                "bool": {
+                    "filter": [
+                        {"match": {"entity_type.keyword": "Dataset"}}
+                    ]
+                }
+            },
+            "size": 0
+        }
+        
+        # 2. Count of datasets where organ matches supported codes
+        supported_query = {
+            "query": {
+                "bool": {
+                    "filter": [
+                        {"match": {"entity_type.keyword": "Dataset"}},
+                        {"terms": {"origin_samples.organ.keyword": filtered_supported_codes}},
+                        {"match": {"origin_samples.sample_category.keyword": "organ"}}
+                    ]
+                }
+            },
+            "size": 0
+        }
+        
+        # 3. Count of datasets with organ in supported codes AND rui_location present
+        registered_query = {
+            "query": {
+                "bool": {
+                    "filter": [
+                        {"match": {"entity_type.keyword": "Dataset"}},
+                        {"terms": {"origin_samples.organ.keyword": filtered_supported_codes}},
+                        {"match": {"origin_samples.sample_category.keyword": "organ"}},
+                        {"exists": {"field": "ancestors.rui_location"}}
+                    ]
+                }
+            },
+            "size": 0
+        }
+        
+    else:  # SenNet
+        # SenNet queries (copied from working notebook)
+        # 1. Total count of all datasets
+        total_query = {
+            "version": True,
+            "size": 0,
+            "track_total_hits": True,
+            "query": {
+                "bool": {
+                    "filter": [
+                        {"term": {"entity_type.keyword": "Dataset"}},
+                        {"term": {"creation_action.keyword": "Create Dataset Activity"}}
+                    ]
+                }
             }
-        },
-        "size": 0
-    }
-    
-    # 2. Count of datasets where organ matches supported codes
-    supported_query = {
-        "query": {
-            "bool": {
-                "filter": [
-                    {"match": {"entity_type.keyword": "Dataset"}},
-                    {"terms": {"origin_samples.organ.keyword": filtered_supported_codes}},
-                    {"match": {"origin_samples.sample_category.keyword": "organ"}}
-                ]
-            }
-        },
-        "size": 0
-    }
-    
-    # 3. Count of datasets with organ in supported codes AND rui_location present
-    registered_query = {
-        "query": {
-            "bool": {
-                "filter": [
-                    {"match": {"entity_type.keyword": "Dataset"}},
-                    {"terms": {"origin_samples.organ.keyword": filtered_supported_codes}},
-                    {"match": {"origin_samples.sample_category.keyword": "organ"}},
-                    {"exists": {"field": "ancestors.rui_location"}}
-                ]
-            }
-        },
-        "size": 0
-    }
+        }
+        
+        # 2. Count of supported datasets (with or without RUI information)
+        supported_query = {
+            "query": {
+                "bool": {
+                    "filter": [
+                        {
+                            "terms": {
+                                "entity_type.keyword": [
+                                    "Dataset"
+                                ]
+                            }
+                        },
+                        {
+                            "terms": {
+                                "creation_action.keyword": [
+                                    "Create Dataset Activity"
+                                ]
+                            }
+                        },
+                        {
+                            "terms": {
+                                "has_rui_information.keyword": [
+                                    "True",
+                                    "False"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "from": 0,
+            "size": 0,
+            "track_total_hits": True
+        }
+        
+        # 3. Count of registered datasets (with RUI information)
+        registered_query = {
+            "query": {
+                "bool": {
+                    "filter": [
+                        {
+                            "terms": {
+                                "entity_type.keyword": [
+                                    "Dataset"
+                                ]
+                            }
+                        },
+                        {
+                            "terms": {
+                                "creation_action.keyword": [
+                                    "Create Dataset Activity"
+                                ]
+                            }
+                        },
+                        {
+                            "terms": {
+                                "has_rui_information.keyword": [
+                                    "True"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "from": 0,
+            "size": 0,
+            "track_total_hits": True
+        }
     
     try:
         # Execute queries
