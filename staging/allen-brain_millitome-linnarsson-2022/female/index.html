@@ -10,23 +10,27 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
     <script src="wc.js" type="module"></script>
-    <script>
-      (async () => {
-        const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
-        const ruiLocations1 = await fetch(`${basePath}female/rui_locations.jsonld`).then((r) => r.json());
-        const ruiLocations2 = await fetch(`${basePath}male/rui_locations.jsonld`).then((r) => r.json());
-
-        const eui = document.createElement('ccf-eui');
-        eui.homeUrl = location.href;
-        eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations1), JSON.stringify(ruiLocations2)]);
-        eui.selectedOrgans = [
-          // 'http://purl.obolibrary.org/obo/UBERON_0002097',
-          'http://purl.obolibrary.org/obo/UBERON_0000955',
-        ];
-        document.body.appendChild(eui);
-      })();
-    </script>
   </head>
 
-  <body></body>
+  <body>
+    <template id="eui-template">
+      <ccf-eui
+        home-url="HOME_URL"
+        data-sources='["SOURCE"]'
+        logo-tooltip=""
+        theme="hubmap"
+        login-disabled="true"
+      ></ccf-eui>
+    </template>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
+        const homeUrl = location.href;
+        const source = `${basePath}rui_locations.jsonld#c2524510c1e2ef6ed3aaa452205382f8`;
+        const euiTemplate = document.getElementById('eui-template');
+        const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
+        document.body.innerHTML = eui;
+      });
+    </script>
+  </body>
 </html>
