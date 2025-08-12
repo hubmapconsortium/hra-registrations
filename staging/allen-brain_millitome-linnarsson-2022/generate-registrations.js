@@ -10,7 +10,6 @@ const ES_PREFIX = 'https://doi.org/10.1126/science.add7046#';
 const HRA_MALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-male/latest/graph.json';
 const HRA_FEMALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-female/latest/graph.json';
 const ALLEN_PIN_COORDS_CSV = './resources/atlas_pin_coords_ICBM.csv';
-const THICKNESS = 10;
 
 const CONSORTIUM_NAME = 'Allen Institute for Brain Science';
 const PROVIDER_NAME = 'Allen Institute';
@@ -18,6 +17,10 @@ const PROVIDER_UUID = '8dca7930-e16b-4301-9ad3-de202225d27f';
 const ALLEN_THUMBNAIL = 'https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg';
 const ALLEN_LINK = 'https://doi.org/10.1126/science.add7046';
 const ALLEN_PUBLICATION = 'https://doi.org/10.1126/science.add7046';
+
+const SLAB_THICKNESS = 10;
+const MNI_ORIGIN = { x: 98.0, y: 72.0, z: 134.0, width: 180, height: 180, depth: 224};
+// const MNI_ORIGIN = { x: 90.0, y: 72.0, z: 126.0, width: 180, height: 180, depth: 216};
 
 /**
  * Calculate the dimensions of a brain slice based on its volume and thickness.
@@ -27,10 +30,10 @@ const ALLEN_PUBLICATION = 'https://doi.org/10.1126/science.add7046';
  */
 function getDimensions(slice, hraBrain) {
   const volume = parseFloat(slice['polygon_volume(mm^3)']);
-  const x = Math.sqrt(volume / THICKNESS);
-  const y = Math.sqrt(volume / THICKNESS);
+  const x = Math.sqrt(volume / SLAB_THICKNESS);
+  const y = Math.sqrt(volume / SLAB_THICKNESS);
 
-  return { x: x, y: y, z: THICKNESS };
+  return { x: x, y: y, z: SLAB_THICKNESS };
 }
 
 /**
@@ -40,17 +43,19 @@ function getDimensions(slice, hraBrain) {
  * @returns {Object} Translation {x, y, z} in millimeters.
  */
 function getTranslation(slice, hraBrain) {
-  let { pin_MNI_x: x, pin_MNI_y: z, pin_MNI_z: y } = slice;
+  let { pin_HCP_x: x, pin_HCP_y: y, pin_HCP_z: z } = slice;
+  const brainWidth = hraBrain.data[0].x_dimension;
+  const brainHeight = hraBrain.data[0].y_dimension; 
   const brainDepth = hraBrain.data[0].z_dimension;
-  const scaling = 0.5;
 
   // x = parseFloat(x) * scaling;
   // y = parseFloat(y) * scaling;
   // z = brainDepth - parseFloat(z) * scaling + THICKNESS * 2;
 
-  x = parseFloat(x) * scaling;
-  y = parseFloat(y) * scaling;
-  z = parseFloat(z) * scaling;
+  x = Math.abs((parseFloat(x) - MNI_ORIGIN.x) / MNI_ORIGIN.width) * brainWidth;
+  y = Math.abs(1 - (parseFloat(y) - MNI_ORIGIN.y) / MNI_ORIGIN.height) * brainHeight;
+  z = Math.abs((parseFloat(z) - MNI_ORIGIN.z) / MNI_ORIGIN.depth) * brainDepth;
+
   return { x, y, z };
 }
 
