@@ -1,13 +1,13 @@
 {
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-  "@id": "http://purl.org/ccf/1.5/13b34d46-4de7-48c4-866c-5f860f795b6b",
+  "@id": "http://purl.org/ccf/1.5/06f12432-600a-4c62-b129-24af804083f4",
   "@type": "SpatialEntity",
-  "creator": "Hua Tian",
-  "creator_first_name": "Hua",
-  "creator_last_name": "Tian",
-  "creator_email": "HUT17@pitt.edu",
-  "creator_orcid": "https://orcid.org/0000-0002-3598-0219",
-  "creation_date": "2025-05-02",
+  "creator": "Presha Rajbhandari",
+  "creator_first_name": "Presha",
+  "creator_last_name": "Rajbhandari",
+  "creator_email": "pr2162@columbia.edu",
+  "creator_orcid": "https://orcid.org/0000-0003-2184-7238",
+  "creation_date": "2025-09-09",
   "ccf_annotations": [
     "http://purl.obolibrary.org/obo/UBERON_0001115",
     "http://purl.obolibrary.org/obo/UBERON_0016479"
@@ -17,12 +17,13 @@
   "z_dimension": 10,
   "dimension_units": "millimeter",
   "publication_doi": "https://doi.org/10.1101/2022.09.26.508878",
+  "consortium": "OMAP",
   "placement": {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "http://purl.org/ccf/1.5/13b34d46-4de7-48c4-866c-5f860f795b6b_placement",
+    "@id": "http://purl.org/ccf/1.5/06f12432-600a-4c62-b129-24af804083f4_placement",
     "@type": "SpatialPlacement",
     "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary",
-    "placement_date": "2025-05-02",
+    "placement_date": "2025-09-09",
     "x_scaling": 1,
     "y_scaling": 1,
     "z_scaling": 1,
@@ -32,9 +33,9 @@
     "z_rotation": 0,
     "rotation_order": "XYZ",
     "rotation_units": "degree",
-    "x_translation": 179,
-    "y_translation": 33,
-    "z_translation": 148,
+    "x_translation": 176,
+    "y_translation": 37,
+    "z_translation": 142,
     "translation_units": "millimeter"
   }
 }
