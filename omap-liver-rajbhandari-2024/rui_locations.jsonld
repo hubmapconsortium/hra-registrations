@@ -2,11 +2,11 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/34a06f973f6f62344f1dad922589b1b5",
       "@type": "Donor",
       "label": "Female, Age 51",
       "description": "Entered 8/8/2025, Presha Rajbhandari, Columbia University",
-      "link": "http://example.com/user/link",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5",
       "consortium_name": "HuBMAP",
       "provider_name": "Columbia University",
       "provider_uuid": "3A0757DE-2779-11F0-B8CA-20E2A8B75C6B",
@@ -14,12 +14,12 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5#TissueBlock1",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f7e4cbe847ced8c439321df5d9285db0",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 8/8/2025, Presha Rajbhandari, Columbia University",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
-          "link": "http://example.com/user/link",
+          "link": "https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5",
           "section_count": 0,
           "section_size": 10,
           "rui_location": {

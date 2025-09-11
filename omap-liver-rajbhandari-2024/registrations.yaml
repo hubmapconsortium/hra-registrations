@@ -4,12 +4,21 @@
   provider_name: Columbia University
   provider_uuid: 3A0757DE-2779-11F0-B8CA-20E2A8B75C6B
   defaults:
-    id: http://example.com/required/id
+    id: https://entity.api.hubmapconsortium.org/entities/34a06f973f6f62344f1dad922589b1b5
     thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
-    link: http://example.com/user/link
+    link: https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5
   donors:
     - sex: Female
       age: 51
-      id: https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5
+      id: https://entity.api.hubmapconsortium.org/entities/34a06f973f6f62344f1dad922589b1b5
       samples:
       - rui_location: liver-omap.json
+        id: https://entity.api.hubmapconsortium.org/entities/f7e4cbe847ced8c439321df5d9285db0
+      sections:
+       - link: https://portal.hubmapconsortium.org/browse/sample/4e0587f8d65619b8cb539600dddc6df8
+         id: https://entity.api.hubmapconsortium.org/entities/4e0587f8d65619b8cb539600dddc6df8
+         datasets:
+          - id: https://entity.api.hubmapconsortium.org/entities/ab181e8ef53fcf893acb838c893befbf
+            link: https://portal.hubmapconsortium.org/browse/dataset/ab181e8ef53fcf893acb838c893befbf
+          - id: https://entity.api.hubmapconsortium.org/entities/160dd6240d67b221711
+            link: https://portal.hubmapconsortium.org/browse/dataset/5528d177fbaec160dd6240d67b221711
