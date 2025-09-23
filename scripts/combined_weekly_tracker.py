@@ -48,8 +48,8 @@ def setup_configuration(hubmap_token, sennet_token):
         'reference_organs_url': "https://apps.humanatlas.io/api/v1/reference-organs",
         'hubmap_headers': {"Authorization": f"Bearer {hubmap_token}"},
         'sennet_headers': {"Authorization": f"Bearer {sennet_token}"},
-        'csv_output_path': "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/combined_weekly_counts.csv",
-        'metadata_path': "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/scripts/RUI Reporter/metadata.js"
+        'csv_output_path': "../combined_weekly_counts.csv",
+        'metadata_path': "./RUI Reporter/metadata.js"
     }
     
     print(f"Configuration setup complete:")
