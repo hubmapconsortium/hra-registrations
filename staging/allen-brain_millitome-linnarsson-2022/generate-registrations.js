@@ -9,7 +9,7 @@ const OUTPUT_DIR = dirname(fileURLToPath(import.meta.url));
 const ES_PREFIX = 'https://doi.org/10.1126/science.add7046#';
 const HRA_MALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-male/latest/graph.json';
 const HRA_FEMALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-female/latest/graph.json';
-const ALLEN_PIN_COORDS_CSV = './resources/atlas_pin_coords_ICBM.csv';
+const ALLEN_PIN_COORDS_CSV = './resources/atlas_pin_coords_MNI_physical_coordinates.csv';
 
 const CONSORTIUM_NAME = 'Allen Institute for Brain Science';
 const PROVIDER_NAME = 'Allen Institute';
@@ -19,7 +19,7 @@ const ALLEN_LINK = 'https://doi.org/10.1126/science.add7046';
 const ALLEN_PUBLICATION = 'https://doi.org/10.1126/science.add7046';
 
 const SLAB_THICKNESS = 10;
-const MNI_ORIGIN = { x: 98.0, y: 72.0, z: 134.0, width: 180, height: 180, depth: 224};
+const MNI_ORIGIN = { x: 98.0, y: 72.0, z: 134.0, width: 180, height: 180, depth: 224 };
 // const MNI_ORIGIN = { x: 90.0, y: 72.0, z: 126.0, width: 180, height: 180, depth: 216};
 
 /**
@@ -36,6 +36,25 @@ function getDimensions(slice, hraBrain) {
   return { x: x, y: y, z: SLAB_THICKNESS };
 }
 
+function getMNIOrigin(hraBrain) {
+  const brain = hraBrain.data[0];
+  // Find the left anterior commissure
+  const ac = hraBrain.data.find(
+    (entity) =>
+      entity.representation_of === 'UBERON:0000935' &&
+      entity.object_reference.file_subpath === 'Allen_anterior_commissure_L'
+  );
+
+  const bp = brain.object_reference.placement;
+  const acp = ac.object_reference.placement;
+
+  return {
+    x: bp.x_translation - acp.x_translation + ac.x_dimension,
+    y: bp.y_translation - acp.y_translation + ac.y_dimension / 2,
+    z: bp.z_translation - acp.z_translation + ac.z_dimension / 2,
+  };
+}
+
 /**
  * Calculate the translation coordinates for a brain slice.
  * @param {Object} slice - The slice data object.
@@ -43,18 +62,27 @@ function getDimensions(slice, hraBrain) {
  * @returns {Object} Translation {x, y, z} in millimeters.
  */
 function getTranslation(slice, hraBrain) {
-  let { pin_HCP_x: x, pin_HCP_y: y, pin_HCP_z: z } = slice;
-  const brainWidth = hraBrain.data[0].x_dimension;
-  const brainHeight = hraBrain.data[0].y_dimension; 
-  const brainDepth = hraBrain.data[0].z_dimension;
+  let { MNI_x_mm: x, MNI_y_mm: y, MNI_z_mm: z } = slice;
+
+  // const brainWidth = hraBrain.data[0].x_dimension;
+  // const brainHeight = hraBrain.data[0].y_dimension;
+  // const brainDepth = hraBrain.data[0].z_dimension;
 
   // x = parseFloat(x) * scaling;
   // y = parseFloat(y) * scaling;
   // z = brainDepth - parseFloat(z) * scaling + THICKNESS * 2;
 
-  x = Math.abs((parseFloat(x) - MNI_ORIGIN.x) / MNI_ORIGIN.width) * brainWidth;
-  y = Math.abs(1 - (parseFloat(y) - MNI_ORIGIN.y) / MNI_ORIGIN.height) * brainHeight;
-  z = Math.abs((parseFloat(z) - MNI_ORIGIN.z) / MNI_ORIGIN.depth) * brainDepth;
+  // x = Math.abs((parseFloat(x) - MNI_ORIGIN.x) / MNI_ORIGIN.width) * brainWidth;
+  // y = Math.abs(1 - (parseFloat(y) - MNI_ORIGIN.y) / MNI_ORIGIN.height) * brainHeight;
+  // z = Math.abs((parseFloat(z) - MNI_ORIGIN.z) / MNI_ORIGIN.depth) * brainDepth;
+
+  const origin = getMNIOrigin(hraBrain);
+  // const origin = { x: 0, y: 0, z: 0}
+  // console.log(origin);
+
+  x = (parseFloat(x) + origin.x);
+  y = (parseFloat(y) + origin.y);
+  z = (parseFloat(z) + origin.z);
 
   return { x, y, z };
 }
@@ -69,7 +97,7 @@ function getTranslation(slice, hraBrain) {
  */
 function processSlice(slice, sex, target, hraBrain) {
   const today = new Date().toISOString().split('T')[0];
-  const { 'Unnamed: 0': id } = slice;
+  const { pin_nhash_id: id } = slice;
   const { x: x_dimension, y: y_dimension, z: z_dimension } = getDimensions(slice, hraBrain);
   const { x: x_translation, y: y_translation, z: z_translation } = getTranslation(slice, hraBrain);
   const iri = `${ES_PREFIX}${id}_${sex}`;
@@ -77,7 +105,7 @@ function processSlice(slice, sex, target, hraBrain) {
     id: `${iri}_DONOR`,
     sex,
     label: `${sex} ${slice['block_id']} ${slice['slice_id']} ${slice['color']}`,
-    description: `${id} ${slice['slab_name']}`,
+    description: `${slice['local_name']} ${id} ${slice['slab_name']}`,
     samples: [
       {
         id: `${iri}_Block`,
