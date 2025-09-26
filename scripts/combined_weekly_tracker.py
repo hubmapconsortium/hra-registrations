@@ -19,6 +19,8 @@ import sys
 from datetime import datetime
 from collections import Counter
 import getpass
+import pandas as pd
+import cellxgene_census
 
 def get_api_tokens():
     """Prompt user for API tokens"""
@@ -81,6 +83,64 @@ def extract_organ_mappings(metadata_path):
         print(f"Error parsing metadata.js: {e}")
     
     return code_to_uberon
+
+def filter_by_organ_metadata_cellxgene(df: pd.DataFrame, metadata_path: str) -> pd.DataFrame:
+    """
+    Reads a metadata.js file and keeps only rows in the DataFrame
+    where tissue_general_ontology_term_id matches one of the organ_id entries.
+    
+    Args:
+        df: pandas DataFrame containing a column 'tissue_general_ontology_term_id'
+        metadata_path: path to the metadata.js file
+    
+    Returns:
+        Filtered pandas DataFrame
+    """
+    organ_ids = set()
+    
+    try:
+        with open(metadata_path, "r") as f:
+            content = f.read()
+            # Extract all organ_id values using regex
+            matches = re.findall(r"organ_id:\s*'([^']+)'", content)
+            organ_ids.update(matches)
+        
+        print(f"Extracted {len(organ_ids)} organ IDs from {metadata_path}")
+    
+    except FileNotFoundError:
+        print(f"Warning: metadata.js file not found at {metadata_path}")
+        print("No filtering will be applied.")
+        return df
+    except Exception as e:
+        print(f"Error parsing metadata.js: {e}")
+        return df
+
+    # Filter DataFrame
+    filtered_df = df[df["tissue_general_ontology_term_id"].isin(organ_ids)].copy()
+    # print(f"Filtered DataFrame to {len(filtered_df)} rows matching organ IDs")
+    
+    return filtered_df
+
+def call_cellxgene_api(metadata_path):
+        with cellxgene_census.open_soma(census_version="2025-01-30") as census:
+            # Read the obs DataFrame
+            cell_metadata = census["census_data"]["homo_sapiens"].obs.read(
+                column_names = ['dataset_id','tissue_general_ontology_term_id'
+                ]
+            )
+            cell_metadata = cell_metadata.concat().to_pandas()
+
+        unique_df = cell_metadata[["dataset_id", "tissue_general_ontology_term_id"]].drop_duplicates() 
+        cellxgene_counts = len(unique_df) #total count
+        print(f"Total unique rows after removing duplicates: {len(unique_df)}")
+
+        # Filter using metadata.js organ mapping
+        filtered_df = filter_by_organ_metadata_cellxgene(unique_df, metadata_path)
+
+        cellxgene_supported_counts = len(filtered_df) #supported counts
+
+        return [cellxgene_counts, cellxgene_supported_counts]
+
 
 def iri_to_curie(iri):
     """Convert UBERON IRI to CURIE format (e.g., UBERON:0001234)"""
@@ -288,7 +348,7 @@ def query_consortium_datasets(api_url, headers, filtered_supported_codes, consor
         print(f"Unexpected error querying {consortium_name}: {e}")
         return 0, 0, 0
 
-def write_counts_to_csv(csv_output_path, hubmap_counts, sennet_counts):
+def write_counts_to_csv(csv_output_path, hubmap_counts, sennet_counts, cellxgene_counts):
     """Write the collected counts to CSV with dates as columns"""
     
     # Get current timestamp for column header
@@ -301,7 +361,9 @@ def write_counts_to_csv(csv_output_path, hubmap_counts, sennet_counts):
         'HuBMAP Registered Datasets': hubmap_counts[2],
         'SenNet Total Datasets': sennet_counts[0],
         'SenNet Supported Datasets': sennet_counts[1],
-        'SenNet Registered Datasets': sennet_counts[2]
+        'SenNet Registered Datasets': sennet_counts[2],
+        'CellXGene Total Datasets': cellxgene_counts[0],
+        'CellXGene Supported Datasets':cellxgene_counts[1]
     }
     
     # Ensure output directory exists
@@ -335,7 +397,8 @@ def write_counts_to_csv(csv_output_path, hubmap_counts, sennet_counts):
             # Empty file, treat as new
             rows = [['Metric'], ['HuBMAP Total Datasets'], ['HuBMAP Supported Datasets'], 
                    ['HuBMAP Registered Datasets'], ['SenNet Total Datasets'], 
-                   ['SenNet Supported Datasets'], ['SenNet Registered Datasets']]
+                   ['SenNet Supported Datasets'], ['SenNet Registered Datasets'],['CellXGene Total Datasets'],
+                   ['CellXGene Supported Datasets']]
         
         # Check if today's data already exists (avoid duplicates)
         if current_date in rows[0]:
@@ -423,10 +486,13 @@ def main():
             filtered_supported_codes, 
             "SenNet"
         )
-        
+
+        #Query CELLXGENE datasets
+        print("\\nQuerying CELLXGENE datasets...")
+        cell_x_gene_counts = call_cellxgene_api(config['metadata_path'])
         # Write results to CSV
         print("\\nWriting results to CSV...")
-        write_counts_to_csv(config['csv_output_path'], hubmap_counts, sennet_counts)
+        write_counts_to_csv(config['csv_output_path'], hubmap_counts, sennet_counts,cell_x_gene_counts)
         
         print(f"\\nScript completed successfully at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         
