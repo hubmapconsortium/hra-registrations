@@ -19,16 +19,13 @@ const ALLEN_LINK = 'https://doi.org/10.1126/science.add7046';
 const ALLEN_PUBLICATION = 'https://doi.org/10.1126/science.add7046';
 
 const SLAB_THICKNESS = 10;
-const MNI_ORIGIN = { x: 98.0, y: 72.0, z: 134.0, width: 180, height: 180, depth: 224 };
-// const MNI_ORIGIN = { x: 90.0, y: 72.0, z: 126.0, width: 180, height: 180, depth: 216};
 
 /**
  * Calculate the dimensions of a brain slice based on its volume and thickness.
  * @param {Object} slice - The slice data object.
- * @param {Object} hraBrain - The HRA brain reference object.
  * @returns {Object} Dimensions {x, y, z} in millimeters.
  */
-function getDimensions(slice, hraBrain) {
+function getDimensions(slice) {
   const volume = parseFloat(slice['polygon_volume(mm^3)']);
   const x = Math.sqrt(volume / SLAB_THICKNESS);
   const y = Math.sqrt(volume / SLAB_THICKNESS);
@@ -62,29 +59,18 @@ function getMNIOrigin(hraBrain) {
  * @returns {Object} Translation {x, y, z} in millimeters.
  */
 function getTranslation(slice, hraBrain) {
-  let { MNI_x_mm: x, MNI_y_mm: y, MNI_z_mm: z } = slice;
-
-  // const brainWidth = hraBrain.data[0].x_dimension;
-  // const brainHeight = hraBrain.data[0].y_dimension;
-  // const brainDepth = hraBrain.data[0].z_dimension;
-
-  // x = parseFloat(x) * scaling;
-  // y = parseFloat(y) * scaling;
-  // z = brainDepth - parseFloat(z) * scaling + THICKNESS * 2;
-
-  // x = Math.abs((parseFloat(x) - MNI_ORIGIN.x) / MNI_ORIGIN.width) * brainWidth;
-  // y = Math.abs(1 - (parseFloat(y) - MNI_ORIGIN.y) / MNI_ORIGIN.height) * brainHeight;
-  // z = Math.abs((parseFloat(z) - MNI_ORIGIN.z) / MNI_ORIGIN.depth) * brainDepth;
-
+  // Coordinates are in MNI / LPS space in mm from the AC
+  // - LPS: +x = Left,  +y = Posterior, +z = Superior
+  // - CCF: +X = Right, +Y = Superior,  +Z = Anterior
+  const { MNI_x_mm: x, MNI_y_mm: y, MNI_z_mm: z } = slice;
   const origin = getMNIOrigin(hraBrain);
-  // const origin = { x: 0, y: 0, z: 0}
-  // console.log(origin);
+  const scalar = 0.9;
 
-  x = (parseFloat(x) + origin.x);
-  y = (parseFloat(y) + origin.y);
-  z = (parseFloat(z) + origin.z);
-
-  return { x, y, z };
+  return {
+    x: -x * scalar + origin.x, // flip Left→Right
+    y: +z * scalar + origin.y, // Superior is shared, remap axis
+    z: -y * scalar + origin.z, // flip Posterior→Anterior
+  };
 }
 
 /**
@@ -98,14 +84,14 @@ function getTranslation(slice, hraBrain) {
 function processSlice(slice, sex, target, hraBrain) {
   const today = new Date().toISOString().split('T')[0];
   const { pin_nhash_id: id } = slice;
-  const { x: x_dimension, y: y_dimension, z: z_dimension } = getDimensions(slice, hraBrain);
+  const { x: x_dimension, y: y_dimension, z: z_dimension } = getDimensions(slice);
   const { x: x_translation, y: y_translation, z: z_translation } = getTranslation(slice, hraBrain);
   const iri = `${ES_PREFIX}${id}_${sex}`;
   return {
     id: `${iri}_DONOR`,
     sex,
-    label: `${sex} ${slice['block_id']} ${slice['slice_id']} ${slice['color']}`,
-    description: `${slice['local_name']} ${id} ${slice['slab_name']}`,
+    label: `${sex} ${slice['structure_name']} ${id}`,
+    description: `${slice['local_name']} ${slice['slab_name']}`,
     samples: [
       {
         id: `${iri}_Block`,
@@ -190,7 +176,7 @@ ${dump(results)}`
   const extraction_sites = results[0].donors.map((donor) => donor.samples[0].rui_location);
   writeFileSync(join(outputDir, 'extraction_sites.json'), JSON.stringify(extraction_sites, null, 2));
 
-  sh.exec(`npx -y github:hubmapconsortium/hra-rui-locations-processor normalize ${outputDir}`);
+  sh.exec(`npx -y github:hubmapconsortium/hra-rui-locations-processor normalize --add-collisions ${outputDir}`);
 }
 
 await buildRegistrations(HRA_FEMALE_BRAIN_JSON);

@@ -12,8 +12,8 @@
   donors:
     - id: https://doi.org/10.1126/science.add7046#RI-FXDWEY874480_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.BN.003 RI-FXDWEY874480 H18.30.002.CX.46
+      label: Female external segment of globus pallidus RI-FXDWEY874480
+      description: H18.30.002.10x.BN.003 H18.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FXDWEY874480_Female_Block
           description: RI-FXDWEY874480
@@ -49,13 +49,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 67.06207550000005
-              z_translation: 106.4100914
+              x_translation: 56.075763
+              y_translation: 73.11207550000005
+              z_translation: 103.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-TTTRXS536318_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.BL RI-TTTRXS536318 H19.30.002.CX.48
+      label: Female white matter of forebrain RI-TTTRXS536318
+      description: H19.30.002.10x.BL H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TTTRXS536318_Female_Block
           description: RI-TTTRXS536318
@@ -91,13 +91,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 76.56207550000005
-              z_translation: 77.9100914
+              x_translation: 50.225763
+              y_translation: 47.46207550000005
+              z_translation: 95.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-VSWNST420173_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.Pu RI-VSWNST420173 H19.30.001.CX.48
+      label: Female white matter of forebrain RI-VSWNST420173
+      description: H19.30.001.10x.Pu H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-VSWNST420173_Female_Block
           description: RI-VSWNST420173
@@ -133,13 +133,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 88.56207550000005
-              z_translation: 107.9100914
+              x_translation: 50.225763
+              y_translation: 74.46207550000005
+              z_translation: 84.3600914
     - id: https://doi.org/10.1126/science.add7046#RI-MJQLPN352905_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A19 RI-MJQLPN352905 H19.30.001.CX.55
+      label: Female middle temporal gyrus RI-MJQLPN352905
+      description: H19.30.001.10x.A19 H19.30.001.CX.55
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MJQLPN352905_Female_Block
           description: RI-MJQLPN352905
@@ -175,13 +175,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 131.975763
-              y_translation: 134.06207550000005
-              z_translation: 112.4100914
+              x_translation: 15.125763
+              y_translation: 78.51207550000005
+              z_translation: 43.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-OOOVSN362349_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A44-A45 RI-OOOVSN362349 H19.30.001.CX.44
+      label: Female white matter of forebrain RI-OOOVSN362349
+      description: H19.30.001.10x.A44-A45 H19.30.001.CX.44
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-OOOVSN362349_Female_Block
           description: RI-OOOVSN362349
@@ -217,13 +217,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 38.06207550000005
-              z_translation: 100.4100914
+              x_translation: 44.825762999999995
+              y_translation: 67.71207550000005
+              z_translation: 129.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-AWYZXA651477_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.ACC RI-AWYZXA651477 H18.30.002.CX.44
+      label: Female cingulate gyrus, rostral (anterior) part RI-AWYZXA651477
+      description: H18.30.002.10x.ACC H18.30.002.CX.44
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-AWYZXA651477_Female_Block
           description: RI-AWYZXA651477
@@ -259,13 +259,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.975763
-              y_translation: 42.56207550000005
-              z_translation: 91.4100914
+              x_translation: 70.925763
+              y_translation: 59.612075500000046
+              z_translation: 125.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-PLIJJO690126_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.CoA RI-PLIJJO690126 H18.30.002.CX.47
+      label: Female anterior cortical nucleus RI-PLIJJO690126
+      description: H18.30.002.10x.CoA H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PLIJJO690126_Female_Block
           description: RI-PLIJJO690126
@@ -301,13 +301,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 73.06207550000005
-              z_translation: 86.4100914
+              x_translation: 56.075763
+              y_translation: 55.112075500000046
+              z_translation: 98.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-IIJLKL636616_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A23 RI-IIJLKL636616 H18.30.002.CX.50
+      label: Female outside_brain RI-IIJLKL636616
+      description: H18.30.002.10x.A23 H18.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-IIJLKL636616_Female_Block
           description: RI-IIJLKL636616
@@ -343,13 +343,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.975763
-              y_translation: 110.56207550000005
-              z_translation: 134.9100914
+              x_translation: 70.925763
+              y_translation: 98.76207550000005
+              z_translation: 64.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-BXZDBF698331_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.PAG RI-BXZDBF698331 H18.30.002.CX.51
+      label: Female pontine tegmentum RI-BXZDBF698331
+      description: H18.30.002.10x.PAG H18.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BXZDBF698331_Female_Block
           description: RI-BXZDBF698331
@@ -385,13 +385,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 68.475763
-              y_translation: 103.06207550000005
-              z_translation: 83.9100914
+              x_translation: 72.275763
+              y_translation: 52.862075500000046
+              z_translation: 71.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-EMLDGG381969_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.PnRF RI-EMLDGG381969 H18.30.002.CX.52
+      label: Female pontine tegmentum RI-EMLDGG381969
+      description: H18.30.002.10x.PnRF H18.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-EMLDGG381969_Female_Block
           description: RI-EMLDGG381969
@@ -427,13 +427,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 108.06207550000005
-              z_translation: 60.9100914
+              x_translation: 66.875763
+              y_translation: 32.16207550000005
+              z_translation: 66.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-BDZGII603147_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.CbDN.003 RI-BDZGII603147 H18.30.002.CX.54
+      label: Female white matter of hindbrain RI-BDZGII603147
+      description: H18.30.002.10x.CbDN.003 H18.30.002.CX.54
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BDZGII603147_Female_Block
           description: RI-BDZGII603147
@@ -469,13 +469,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.475763
-              y_translation: 128.56207550000005
-              z_translation: 69.4100914
+              x_translation: 50.675763
+              y_translation: 39.81207550000005
+              z_translation: 48.360091399999995
     - id: https://doi.org/10.1126/science.add7046#RI-XZVXVW260827_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX51.M1C RI-XZVXVW260827 H19.30.002.CX.51
+      label: Female white matter of forebrain RI-XZVXVW260827
+      description: H19.30.002.CX51.M1C H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XZVXVW260827_Female_Block
           description: RI-XZVXVW260827
@@ -511,13 +511,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 120.56207550000005
-              z_translation: 174.9100914
+              x_translation: 58.775763
+              y_translation: 134.76207550000004
+              z_translation: 55.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-WTCXTA809737_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX51.MTC RI-WTCXTA809737 H19.30.001.CX.51
+      label: Female middle temporal gyrus RI-WTCXTA809737
+      description: H19.30.001.CX51.MTC H19.30.001.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WTCXTA809737_Female_Block
           description: RI-WTCXTA809737
@@ -553,13 +553,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 135.975763
-              y_translation: 103.56207550000005
-              z_translation: 86.4100914
+              x_translation: 11.525762999999998
+              y_translation: 55.112075500000046
+              z_translation: 70.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-LFFMKI964369_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A32 RI-LFFMKI964369 H19.30.001.CX.43
+      label: Female white matter of forebrain RI-LFFMKI964369
+      description: H19.30.001.10x.A32 H19.30.001.CX.43
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-LFFMKI964369_Female_Block
           description: RI-LFFMKI964369
@@ -595,13 +595,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 35.56207550000005
-              z_translation: 116.9100914
+              x_translation: 58.775763
+              y_translation: 82.56207550000005
+              z_translation: 132.0600914
     - id: https://doi.org/10.1126/science.add7046#RI-FDEZZF607931_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A32 RI-FDEZZF607931 H18.30.002.CX.44
+      label: Female rostral gyrus RI-FDEZZF607931
+      description: H18.30.002.10x.A32 H18.30.002.CX.44
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FDEZZF607931_Female_Block
           description: RI-FDEZZF607931
@@ -637,13 +637,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 42.06207550000005
-              z_translation: 82.4100914
+              x_translation: 66.875763
+              y_translation: 51.51207550000005
+              z_translation: 126.2100914
     - id: https://doi.org/10.1126/science.add7046#RI-KJFHEG241050_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.Pir RI-KJFHEG241050 H18.30.002.CX.47
+      label: Female anterior amygdaloid area RI-KJFHEG241050
+      description: H18.30.002.10x.Pir H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KJFHEG241050_Female_Block
           description: RI-KJFHEG241050
@@ -679,13 +679,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 70.56207550000005
-              z_translation: 85.4100914
+              x_translation: 50.225763
+              y_translation: 54.21207550000005
+              z_translation: 100.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-VRVTTT214725_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.Pul RI-VRVTTT214725 H18.30.002.CX.50
+      label: Female tail of hippocampus RI-VRVTTT214725
+      description: H18.30.002.10x.Pul H18.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-VRVTTT214725_Female_Block
           description: RI-VRVTTT214725
@@ -721,13 +721,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 101.56207550000005
-              z_translation: 93.9100914
+              x_translation: 50.225763
+              y_translation: 61.862075500000046
+              z_translation: 72.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-KFHHIH611497_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.PnRF.003 RI-KFHHIH611497 H18.30.002.CX.51
+      label: Female basilar part of pons RI-KFHHIH611497
+      description: H18.30.002.10x.PnRF.003 H18.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KFHHIH611497_Female_Block
           description: RI-KFHHIH611497
@@ -763,13 +763,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 102.06207550000005
-              z_translation: 65.9100914
+              x_translation: 66.875763
+              y_translation: 36.66207550000005
+              z_translation: 72.2100914
     - id: https://doi.org/10.1126/science.add7046#RI-GJEHLD815596_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.PB RI-GJEHLD815596 H18.30.002.CX.52
+      label: Female white matter of hindbrain RI-GJEHLD815596
+      description: H18.30.002.10x.PB H18.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-GJEHLD815596_Female_Block
           description: RI-GJEHLD815596
@@ -805,13 +805,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 85.975763
-              y_translation: 112.56207550000005
-              z_translation: 71.4100914
+              x_translation: 56.525763
+              y_translation: 41.612075500000046
+              z_translation: 62.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-AWYXWV902583_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.CBV RI-AWYXWV902583 H18.30.002.CX.53
+      label: Female cerebellar vermis RI-AWYXWV902583
+      description: H18.30.002.10x.CBV H18.30.002.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-AWYXWV902583_Female_Block
           description: RI-AWYXWV902583
@@ -847,13 +847,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 123.56207550000005
-              z_translation: 82.4100914
+              x_translation: 66.875763
+              y_translation: 51.51207550000005
+              z_translation: 52.860091399999995
     - id: https://doi.org/10.1126/science.add7046#RI-LEFJEH855428_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.MoAN RI-LEFJEH855428 H18.30.002.CX.54
+      label: Female paravermis of cerebellum RI-LEFJEH855428
+      description: H18.30.002.10x.MoAN H18.30.002.CX.54
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-LEFJEH855428_Female_Block
           description: RI-LEFJEH855428
@@ -889,13 +889,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 80.475763
-              y_translation: 126.06207550000005
-              z_translation: 49.4100914
+              x_translation: 61.475763
+              y_translation: 21.81207550000005
+              z_translation: 50.610091399999995
     - id: https://doi.org/10.1126/science.add7046#RI-PNMIMI826678_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A25 RI-PNMIMI826678 H19.30.002.CX.45
+      label: Female cingulate gyrus, rostral (anterior) part RI-PNMIMI826678
+      description: H19.30.002.10x.A25 H19.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PNMIMI826678_Female_Block
           description: RI-PNMIMI826678
@@ -931,13 +931,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 51.56207550000005
-              z_translation: 89.4100914
+              x_translation: 66.875763
+              y_translation: 57.81207550000005
+              z_translation: 117.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-PNMIMI826678_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX45.A25 RI-PNMIMI826678 H19.30.002.CX.45
+      label: Female cingulate gyrus, rostral (anterior) part RI-PNMIMI826678
+      description: H19.30.002.CX45.A25 H19.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PNMIMI826678_Female_Block
           description: RI-PNMIMI826678
@@ -973,13 +973,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 51.56207550000005
-              z_translation: 90.4100914
+              x_translation: 66.875763
+              y_translation: 58.71207550000005
+              z_translation: 117.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-MJKORM777772_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Gpe.003 RI-MJKORM777772 H19.30.002.CX.49
+      label: Female white matter of forebrain RI-MJKORM777772
+      description: H19.30.002.10x.Gpe.003 H19.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MJKORM777772_Female_Block
           description: RI-MJKORM777772
@@ -1015,13 +1015,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 93.56207550000005
-              z_translation: 102.4100914
+              x_translation: 44.825762999999995
+              y_translation: 69.51207550000005
+              z_translation: 79.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-BBEGHC893595_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.LP.003 RI-BBEGHC893595 H19.30.002.CX.51
+      label: Female thalamus RI-BBEGHC893595
+      description: H19.30.002.10x.LP.003 H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BBEGHC893595_Female_Block
           description: RI-BBEGHC893595
@@ -1057,13 +1057,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 99.56207550000005
-              z_translation: 108.9100914
+              x_translation: 50.225763
+              y_translation: 75.36207550000005
+              z_translation: 74.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-FCBBYF169777_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Pul RI-FCBBYF169777 H19.30.002.CX.52
+      label: Female thalamus RI-FCBBYF169777
+      description: H19.30.002.10x.Pul H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FCBBYF169777_Female_Block
           description: RI-FCBBYF169777
@@ -1099,13 +1099,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 102.56207550000005
-              z_translation: 99.4100914
+              x_translation: 50.225763
+              y_translation: 66.81207550000005
+              z_translation: 71.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-FELEGJ583624_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX53.MTC RI-FELEGJ583624 H19.30.002.CX.53
+      label: Female middle temporal gyrus RI-FELEGJ583624
+      description: H19.30.002.CX53.MTC H19.30.002.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FELEGJ583624_Female_Block
           description: RI-FELEGJ583624
@@ -1141,13 +1141,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 135.975763
-              y_translation: 115.06207550000005
-              z_translation: 87.9100914
+              x_translation: 11.525762999999998
+              y_translation: 56.46207550000005
+              z_translation: 60.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-HFEMKE903868_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A19 RI-HFEMKE903868 H19.30.002.CX.57
+      label: Female superior occipital gyrus RI-HFEMKE903868
+      description: H19.30.002.10x.A19 H19.30.002.CX.57
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-HFEMKE903868_Female_Block
           description: RI-HFEMKE903868
@@ -1183,13 +1183,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 150.56207550000005
-              z_translation: 139.9100914
+              x_translation: 44.825762999999995
+              y_translation: 103.26207550000005
+              z_translation: 28.56009139999999
     - id: https://doi.org/10.1126/science.add7046#RI-QSXRXQ724530_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.S1C.003 RI-QSXRXQ724530 H19.30.001.CX.50
+      label: Female outside_brain RI-QSXRXQ724530
+      description: H19.30.001.10x.S1C.003 H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-QSXRXQ724530_Female_Block
           description: RI-QSXRXQ724530
@@ -1225,13 +1225,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 108.56207550000005
-              z_translation: 174.9100914
+              x_translation: 44.825762999999995
+              y_translation: 134.76207550000004
+              z_translation: 66.36009139999999
     - id: https://doi.org/10.1126/science.add7046#RI-UVVUQU625004_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX51.PPHC RI-UVVUQU625004 H19.30.001.CX.51
+      label: Female posterior parahippocampal gyrus RI-UVVUQU625004
+      description: H19.30.001.CX51.PPHC H19.30.001.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-UVVUQU625004_Female_Block
           description: RI-UVVUQU625004
@@ -1267,13 +1267,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 100.56207550000005
-              z_translation: 83.9100914
+              x_translation: 48.875763
+              y_translation: 52.862075500000046
+              z_translation: 73.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-TQNLOQ754504_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A13 RI-TQNLOQ754504 H19.30.001.CX.44
+      label: Female posterior intermediate orbital gyrus RI-TQNLOQ754504
+      description: H19.30.001.10x.A13 H19.30.001.CX.44
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TQNLOQ754504_Female_Block
           description: RI-TQNLOQ754504
@@ -1309,13 +1309,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 47.56207550000005
-              z_translation: 77.9100914
+              x_translation: 44.825762999999995
+              y_translation: 47.46207550000005
+              z_translation: 121.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-YQQVSS184018_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.CX49.M1C.10x.001 RI-YQQVSS184018 H18.30.002.CX.49
+      label: Female precuneus RI-YQQVSS184018
+      description: H18.30.002.CX49.M1C.10x.001 H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YQQVSS184018_Female_Block
           description: RI-YQQVSS184018
@@ -1351,13 +1351,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 119.06207550000005
-              z_translation: 171.4100914
+              x_translation: 66.875763
+              y_translation: 131.61207550000006
+              z_translation: 56.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-XWZATY678488_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.IC RI-XWZATY678488 H18.30.002.CX.51
+      label: Female pontine tegmentum RI-XWZATY678488
+      description: H18.30.002.10x.IC H18.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XWZATY678488_Female_Block
           description: RI-XWZATY678488
@@ -1393,13 +1393,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 103.56207550000005
-              z_translation: 84.4100914
+              x_translation: 66.875763
+              y_translation: 53.31207550000005
+              z_translation: 70.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-NPQPQP106248_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.DTg RI-NPQPQP106248 H18.30.002.CX.52
+      label: Female middle cerebellar peduncle RI-NPQPQP106248
+      description: H18.30.002.10x.DTg H18.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NPQPQP106248_Female_Block
           description: RI-NPQPQP106248
@@ -1435,13 +1435,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 108.56207550000005
-              z_translation: 63.4100914
+              x_translation: 58.775763
+              y_translation: 34.41207550000005
+              z_translation: 66.36009139999999
     - id: https://doi.org/10.1126/science.add7046#RI-PXYYUS141403_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A19 RI-PXYYUS141403 H18.30.002.CX.54
+      label: Female inferior occipital gyrus RI-PXYYUS141403
+      description: H18.30.002.10x.A19 H18.30.002.CX.54
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PXYYUS141403_Female_Block
           description: RI-PXYYUS141403
@@ -1477,13 +1477,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 107.975763
-              y_translation: 141.06207550000005
-              z_translation: 116.4100914
+              x_translation: 36.725763
+              y_translation: 82.11207550000005
+              z_translation: 37.1100914
     - id: https://doi.org/10.1126/science.add7046#RI-TKPPMN978234_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.MD RI-TKPPMN978234 H19.30.002.CX.50
+      label: Female ventral posterior medial nucleus RI-TKPPMN978234
+      description: H19.30.002.10x.MD H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TKPPMN978234_Female_Block
           description: RI-TKPPMN978234
@@ -1519,13 +1519,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 89.56207550000005
-              z_translation: 105.9100914
+              x_translation: 58.775763
+              y_translation: 72.66207550000004
+              z_translation: 83.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-PMQNOS788200_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.MG RI-PMQNOS788200 H19.30.002.CX.51
+      label: Female dorsal lateral geniculate nucleus RI-PMQNOS788200
+      description: H19.30.002.10x.MG H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PMQNOS788200_Female_Block
           description: RI-PMQNOS788200
@@ -1561,13 +1561,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 97.06207550000005
-              z_translation: 94.9100914
+              x_translation: 50.225763
+              y_translation: 62.76207550000005
+              z_translation: 76.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-RSMNKL143217_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX51.M1C RI-RSMNKL143217 H19.30.001.CX.51
+      label: Female paracentral lobule, caudal part RI-RSMNKL143217
+      description: H19.30.001.CX51.M1C H19.30.001.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-RSMNKL143217_Female_Block
           description: RI-RSMNKL143217
@@ -1603,13 +1603,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 113.06207550000005
-              z_translation: 164.9100914
+              x_translation: 66.875763
+              y_translation: 125.76207550000005
+              z_translation: 62.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-JJIKFI380697_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.TF RI-JJIKFI380697 H19.30.001.CX.52
+      label: Female white matter of forebrain RI-JJIKFI380697
+      description: H19.30.001.10x.TF H19.30.001.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-JJIKFI380697_Female_Block
           description: RI-JJIKFI380697
@@ -1645,13 +1645,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 107.475763
-              y_translation: 113.06207550000005
-              z_translation: 93.4100914
+              x_translation: 37.175762999999996
+              y_translation: 61.41207550000005
+              z_translation: 62.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-DDBGIZ498211_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX56.V1C RI-DDBGIZ498211 H19.30.001.CX.56
+      label: Female lingual gyrus RI-DDBGIZ498211
+      description: H19.30.001.CX56.V1C H19.30.001.CX.56
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DDBGIZ498211_Female_Block
           description: RI-DDBGIZ498211
@@ -1687,13 +1687,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 139.06207550000005
-              z_translation: 106.9100914
+              x_translation: 56.075763
+              y_translation: 73.56207550000005
+              z_translation: 38.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-PRPQRT152089_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.Pir RI-PRPQRT152089 H19.30.001.CX.46
+      label: Female white matter of forebrain RI-PRPQRT152089
+      description: H19.30.001.10x.Pir H19.30.001.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PRPQRT152089_Female_Block
           description: RI-PRPQRT152089
@@ -1729,13 +1729,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 107.975763
-              y_translation: 68.06207550000005
-              z_translation: 76.4100914
+              x_translation: 36.725763
+              y_translation: 46.112075500000046
+              z_translation: 102.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-RVVUTR886175_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A46 RI-RVVUTR886175 H18.30.002.CX.43
+      label: Female middle frontal gyrus RI-RVVUTR886175
+      description: H18.30.002.10x.A46 H18.30.002.CX.43
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-RVVUTR886175_Female_Block
           description: RI-RVVUTR886175
@@ -1771,13 +1771,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 56.56207550000005
-              z_translation: 158.4100914
+              x_translation: 33.575763
+              y_translation: 119.91207550000004
+              z_translation: 113.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-JEFKJM652526_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A14 RI-JEFKJM652526 H18.30.002.CX.45
+      label: Female outside_brain RI-JEFKJM652526
+      description: H18.30.002.10x.A14 H18.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-JEFKJM652526_Female_Block
           description: RI-JEFKJM652526
@@ -1813,13 +1813,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.975763
-              y_translation: 53.56207550000005
-              z_translation: 77.4100914
+              x_translation: 70.925763
+              y_translation: 47.01207550000005
+              z_translation: 115.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-NQOTLQ743402_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.S1C.003 RI-NQOTLQ743402 H18.30.002.CX.49
+      label: Female postcentral gyrus RI-NQOTLQ743402
+      description: H18.30.002.10x.S1C.003 H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NQOTLQ743402_Female_Block
           description: RI-NQOTLQ743402
@@ -1855,13 +1855,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 105.56207550000005
-              z_translation: 175.9100914
+              x_translation: 44.825762999999995
+              y_translation: 135.66207550000007
+              z_translation: 69.0600914
     - id: https://doi.org/10.1126/science.add7046#RI-HPIPPP377293_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A5-A7 RI-HPIPPP377293 H18.30.002.CX.51
+      label: Female supraparietal lobule RI-HPIPPP377293
+      description: H18.30.002.10x.A5-A7 H18.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-HPIPPP377293_Female_Block
           description: RI-HPIPPP377293
@@ -1897,13 +1897,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.475763
-              y_translation: 140.06207550000005
-              z_translation: 161.4100914
+              x_translation: 50.675763
+              y_translation: 122.61207550000006
+              z_translation: 38.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-YAXCEA296838_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.PnEN RI-YAXCEA296838 H18.30.002.CX.52
+      label: Female white matter of hindbrain RI-YAXCEA296838
+      description: H18.30.002.10x.PnEN H18.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YAXCEA296838_Female_Block
           description: RI-YAXCEA296838
@@ -1939,13 +1939,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 82.975763
-              y_translation: 115.56207550000005
-              z_translation: 66.9100914
+              x_translation: 59.225763
+              y_translation: 37.56207550000005
+              z_translation: 60.0600914
     - id: https://doi.org/10.1126/science.add7046#RI-MNMMRR105598_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.CBL RI-MNMMRR105598 H18.30.002.CX.53
+      label: Female white matter of hindbrain RI-MNMMRR105598
+      description: H18.30.002.10x.CBL H18.30.002.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MNMMRR105598_Female_Block
           description: RI-MNMMRR105598
@@ -1981,13 +1981,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 117.06207550000005
-              z_translation: 60.9100914
+              x_translation: 48.875763
+              y_translation: 32.16207550000005
+              z_translation: 58.710091399999996
     - id: https://doi.org/10.1126/science.add7046#RI-XWYZWU295666_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.MoSR RI-XWYZWU295666 H18.30.002.CX.54
+      label: Female paravermis of cerebellum RI-XWYZWU295666
+      description: H18.30.002.10x.MoSR H18.30.002.CX.54
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XWYZWU295666_Female_Block
           description: RI-XWYZWU295666
@@ -2023,13 +2023,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 124.06207550000005
-              z_translation: 48.4100914
+              x_translation: 66.875763
+              y_translation: 20.91207550000005
+              z_translation: 52.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-CDFFFL804624_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A13.001 RI-CDFFFL804624 H19.30.002.CX.45
+      label: Female posterior intermediate orbital gyrus RI-CDFFFL804624
+      description: H19.30.002.10x.A13.001 H19.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-CDFFFL804624_Female_Block
           description: RI-CDFFFL804624
@@ -2065,13 +2065,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 50.56207550000005
-              z_translation: 77.9100914
+              x_translation: 48.875763
+              y_translation: 47.46207550000005
+              z_translation: 118.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-AXYFEE689464_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.AON.001 RI-AXYFEE689464 H19.30.002.CX.46
+      label: Female white matter of forebrain RI-AXYFEE689464
+      description: H19.30.002.10x.AON.001 H19.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-AXYFEE689464_Female_Block
           description: RI-AXYFEE689464
@@ -2107,13 +2107,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 59.06207550000005
-              z_translation: 86.9100914
+              x_translation: 56.075763
+              y_translation: 55.56207550000005
+              z_translation: 110.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-MMLPPT504358_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.S1C.004 RI-MMLPPT504358 H19.30.002.CX.51
+      label: Female outside_brain RI-MMLPPT504358
+      description: H19.30.002.10x.S1C.004 H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MMLPPT504358_Female_Block
           description: RI-MMLPPT504358
@@ -2149,13 +2149,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 109.06207550000005
-              z_translation: 174.4100914
+              x_translation: 44.825762999999995
+              y_translation: 134.31207550000005
+              z_translation: 65.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-NURROO325377_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.SC RI-NURROO325377 H19.30.002.CX.52
+      label: Female midbrain tegmentum RI-NURROO325377
+      description: H19.30.002.10x.SC H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NURROO325377_Female_Block
           description: RI-NURROO325377
@@ -2191,13 +2191,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 98.06207550000005
-              z_translation: 87.9100914
+              x_translation: 66.875763
+              y_translation: 56.46207550000005
+              z_translation: 75.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-OTTMLL628716_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX55.A7 RI-OTTMLL628716 H19.30.002.CX.55
+      label: Female supraparietal lobule RI-OTTMLL628716
+      description: H19.30.002.CX55.A7 H19.30.002.CX.55
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-OTTMLL628716_Female_Block
           description: RI-OTTMLL628716
@@ -2233,13 +2233,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 82.475763
-              y_translation: 147.56207550000005
-              z_translation: 160.9100914
+              x_translation: 59.675763
+              y_translation: 122.16207550000004
+              z_translation: 31.260091399999993
     - id: https://doi.org/10.1126/science.add7046#RI-RMRNLJ552769_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX56.V2 RI-RMRNLJ552769 H19.30.002.CX.56
+      label: Female lingual gyrus RI-RMRNLJ552769
+      description: H19.30.002.CX56.V2 H19.30.002.CX.56
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-RMRNLJ552769_Female_Block
           description: RI-RMRNLJ552769
@@ -2275,13 +2275,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 123.56207550000005
-              z_translation: 95.4100914
+              x_translation: 56.075763
+              y_translation: 63.21207550000005
+              z_translation: 52.860091399999995
     - id: https://doi.org/10.1126/science.add7046#RI-EFHKGI270792_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX57.PSC RI-EFHKGI270792 H19.30.002.CX.57
+      label: Female cuneus RI-EFHKGI270792
+      description: H19.30.002.CX57.PSC H19.30.002.CX.57
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-EFHKGI270792_Female_Block
           description: RI-EFHKGI270792
@@ -2317,13 +2317,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 146.06207550000005
-              z_translation: 130.9100914
+              x_translation: 56.075763
+              y_translation: 95.16207550000004
+              z_translation: 32.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-MIHLQQ354569_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.Pul RI-MIHLQQ354569 H19.30.001.CX.50
+      label: Female pulvinar of thalamus RI-MIHLQQ354569
+      description: H19.30.001.10x.Pul H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MIHLQQ354569_Female_Block
           description: RI-MIHLQQ354569
@@ -2359,13 +2359,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 101.06207550000005
-              z_translation: 106.4100914
+              x_translation: 56.075763
+              y_translation: 73.11207550000005
+              z_translation: 73.1100914
     - id: https://doi.org/10.1126/science.add7046#RI-CFJBHD262132_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A13 RI-CFJBHD262132 H18.30.002.CX.45
+      label: Female medial orbital gyrus RI-CFJBHD262132
+      description: H18.30.002.10x.A13 H18.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-CFJBHD262132_Female_Block
           description: RI-CFJBHD262132
@@ -2401,13 +2401,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 56.06207550000005
-              z_translation: 76.4100914
+              x_translation: 56.075763
+              y_translation: 46.112075500000046
+              z_translation: 113.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-ECAFFE468390_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.GPi RI-ECAFFE468390 H18.30.002.CX.47
+      label: Female internal segment of globus pallidus RI-ECAFFE468390
+      description: H18.30.002.10x.GPi H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ECAFFE468390_Female_Block
           description: RI-ECAFFE468390
@@ -2443,13 +2443,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 73.06207550000005
-              z_translation: 99.9100914
+              x_translation: 56.075763
+              y_translation: 67.26207550000005
+              z_translation: 98.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-XDYAZV139146_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.MD-Re RI-XDYAZV139146 H18.30.002.CX.49
+      label: Female ventral posterior lateral nucleus RI-XDYAZV139146
+      description: H18.30.002.10x.MD-Re H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XDYAZV139146_Female_Block
           description: RI-XDYAZV139146
@@ -2485,13 +2485,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 90.06207550000005
-              z_translation: 106.9100914
+              x_translation: 56.075763
+              y_translation: 73.56207550000005
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-XYTWRT507459_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A29-A30 RI-XYTWRT507459 H18.30.002.CX.50
+      label: Female white matter of forebrain RI-XYTWRT507459
+      description: H18.30.002.10x.A29-A30 H18.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XYTWRT507459_Female_Block
           description: RI-XYTWRT507459
@@ -2527,13 +2527,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 108.56207550000005
-              z_translation: 129.4100914
+              x_translation: 58.775763
+              y_translation: 93.81207550000005
+              z_translation: 66.36009139999999
     - id: https://doi.org/10.1126/science.add7046#RI-DAXAYA796558_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX45.A38 RI-DAXAYA796558 H19.30.002.CX.45
+      label: Female temporal pole RI-DAXAYA796558
+      description: H19.30.002.CX45.A38 H19.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DAXAYA796558_Female_Block
           description: RI-DAXAYA796558
@@ -2569,13 +2569,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 45.06207550000005
-              z_translation: 73.4100914
+              x_translation: 33.575763
+              y_translation: 43.41207550000004
+              z_translation: 123.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-TYSQYY126661_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.FI RI-TYSQYY126661 H19.30.002.CX.46
+      label: Female white matter of forebrain RI-TYSQYY126661
+      description: H19.30.002.10x.FI H19.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TYSQYY126661_Female_Block
           description: RI-TYSQYY126661
@@ -2611,13 +2611,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 60.06207550000005
-              z_translation: 88.4100914
+              x_translation: 44.825762999999995
+              y_translation: 56.91207550000005
+              z_translation: 110.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-KIHGOO537036_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.BNST RI-KIHGOO537036 H19.30.002.CX.47
+      label: Female external segment of globus pallidus RI-KIHGOO537036
+      description: H19.30.002.10x.BNST H19.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KIHGOO537036_Female_Block
           description: RI-KIHGOO537036
@@ -2653,13 +2653,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 65.06207550000005
-              z_translation: 102.9100914
+              x_translation: 56.075763
+              y_translation: 69.96207550000005
+              z_translation: 105.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-KIHGOO537036_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX47.BNST RI-KIHGOO537036 H19.30.002.CX.47
+      label: Female external segment of globus pallidus RI-KIHGOO537036
+      description: H19.30.002.CX47.BNST H19.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KIHGOO537036_Female_Block
           description: RI-KIHGOO537036
@@ -2695,13 +2695,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 65.06207550000005
-              z_translation: 102.4100914
+              x_translation: 56.075763
+              y_translation: 69.51207550000005
+              z_translation: 105.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-DEDAFA482427_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.LP RI-DEDAFA482427 H19.30.002.CX.50
+      label: Female body of lateral ventricle RI-DEDAFA482427
+      description: H19.30.002.10x.LP H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DEDAFA482427_Female_Block
           description: RI-DEDAFA482427
@@ -2737,13 +2737,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 87.975763
-              y_translation: 99.56207550000005
-              z_translation: 116.9100914
+              x_translation: 54.725763
+              y_translation: 82.56207550000005
+              z_translation: 74.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-CDDFJD828854_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Ig RI-CDDFJD828854 H19.30.002.CX.51
+      label: Female white matter of forebrain RI-CDDFJD828854
+      description: H19.30.002.10x.Ig H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-CDDFJD828854_Female_Block
           description: RI-CDDFJD828854
@@ -2779,13 +2779,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 100.975763
-              y_translation: 100.56207550000005
-              z_translation: 107.4100914
+              x_translation: 43.025763
+              y_translation: 74.01207550000005
+              z_translation: 73.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-IKDMDG987483_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.BL RI-IKDMDG987483 H19.30.001.CX.47
+      label: Female basolateral nucleus (basal nucleus) RI-IKDMDG987483
+      description: H19.30.001.10x.BL H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-IKDMDG987483_Female_Block
           description: RI-IKDMDG987483
@@ -2821,13 +2821,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 75.06207550000005
-              z_translation: 83.4100914
+              x_translation: 50.225763
+              y_translation: 52.41207550000004
+              z_translation: 96.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-DACDUV309966_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.SN RI-DACDUV309966 H19.30.001.CX.48
+      label: Female midbrain tegmentum RI-DACDUV309966
+      description: H19.30.001.10x.SN H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DACDUV309966_Female_Block
           description: RI-DACDUV309966
@@ -2863,13 +2863,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 82.975763
-              y_translation: 79.56207550000005
-              z_translation: 91.9100914
+              x_translation: 59.225763
+              y_translation: 60.06207550000005
+              z_translation: 92.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-ONRTUS988923_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.VPL RI-ONRTUS988923 H19.30.001.CX.50
+      label: Female white matter of forebrain RI-ONRTUS988923
+      description: H19.30.001.10x.VPL H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ONRTUS988923_Female_Block
           description: RI-ONRTUS988923
@@ -2905,13 +2905,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 102.06207550000005
-              z_translation: 108.4100914
+              x_translation: 50.225763
+              y_translation: 74.91207550000004
+              z_translation: 72.2100914
     - id: https://doi.org/10.1126/science.add7046#RI-MLONPM904083_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX45.A38 RI-MLONPM904083 H19.30.001.CX.45
+      label: Female temporal pole RI-MLONPM904083
+      description: H19.30.001.CX45.A38 H19.30.001.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MLONPM904083_Female_Block
           description: RI-MLONPM904083
@@ -2947,13 +2947,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 108.475763
-              y_translation: 53.56207550000005
-              z_translation: 74.9100914
+              x_translation: 36.275763
+              y_translation: 44.76207550000005
+              z_translation: 115.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-MPOQLQ721147_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.BN.004 RI-MPOQLQ721147 H18.30.002.CX.46
+      label: Female anterior horn of lateral ventricle RI-MPOQLQ721147
+      description: H18.30.002.10x.BN.004 H18.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MPOQLQ721147_Female_Block
           description: RI-MPOQLQ721147
@@ -2989,13 +2989,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 67.56207550000005
-              z_translation: 127.4100914
+              x_translation: 56.075763
+              y_translation: 92.01207550000005
+              z_translation: 103.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-WVWTXU141407_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.ITG RI-WVWTXU141407 H18.30.002.CX.49
+      label: Female outside_brain RI-WVWTXU141407
+      description: H18.30.002.10x.ITG H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WVWTXU141407_Female_Block
           description: RI-WVWTXU141407
@@ -3031,13 +3031,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 123.475763
-              y_translation: 84.56207550000005
-              z_translation: 58.4100914
+              x_translation: 22.775762999999998
+              y_translation: 29.91207550000005
+              z_translation: 87.9600914
     - id: https://doi.org/10.1126/science.add7046#RI-IJEJBD680187_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A40 RI-IJEJBD680187 H18.30.002.CX.50
+      label: Female supramarginal gyrus RI-IJEJBD680187
+      description: H18.30.002.10x.A40 H18.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-IJEJBD680187_Female_Block
           description: RI-IJEJBD680187
@@ -3073,13 +3073,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 137.475763
-              y_translation: 105.06207550000005
-              z_translation: 123.9100914
+              x_translation: 10.175762999999996
+              y_translation: 88.86207550000005
+              z_translation: 69.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-KKHIHH685237_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX46.A46 RI-KKHIHH685237 H19.30.002.CX.46
+      label: Female outside_brain RI-KKHIHH685237
+      description: H19.30.002.CX46.A46 H19.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KKHIHH685237_Female_Block
           description: RI-KKHIHH685237
@@ -3115,13 +3115,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 123.475763
-              y_translation: 56.56207550000005
-              z_translation: 138.4100914
+              x_translation: 22.775762999999998
+              y_translation: 101.91207550000004
+              z_translation: 113.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-RPSRTU385491_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Pir RI-RPSRTU385491 H19.30.002.CX.47
+      label: Female white matter of forebrain RI-RPSRTU385491
+      description: H19.30.002.10x.Pir H19.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-RPSRTU385491_Female_Block
           description: RI-RPSRTU385491
@@ -3157,13 +3157,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 66.06207550000005
-              z_translation: 90.4100914
+              x_translation: 50.225763
+              y_translation: 58.71207550000005
+              z_translation: 104.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-IHJLMI973161_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.GPe RI-IHJLMI973161 H19.30.002.CX.48
+      label: Female white matter of forebrain RI-IHJLMI973161
+      description: H19.30.002.10x.GPe H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-IHJLMI973161_Female_Block
           description: RI-IHJLMI973161
@@ -3199,13 +3199,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 80.06207550000005
-              z_translation: 102.9100914
+              x_translation: 50.225763
+              y_translation: 69.96207550000005
+              z_translation: 92.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-NKQRMJ198388_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.VLN.003 RI-NKQRMJ198388 H19.30.002.CX.50
+      label: Female thalamus RI-NKQRMJ198388
+      description: H19.30.002.10x.VLN.003 H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NKQRMJ198388_Female_Block
           description: RI-NKQRMJ198388
@@ -3241,13 +3241,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 94.56207550000005
-              z_translation: 104.4100914
+              x_translation: 48.875763
+              y_translation: 71.31207550000005
+              z_translation: 78.9600914
     - id: https://doi.org/10.1126/science.add7046#RI-JNMNKR865835_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.PTR RI-JNMNKR865835 H19.30.002.CX.51
+      label: Female midbrain tegmentum RI-JNMNKR865835
+      description: H19.30.002.10x.PTR H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-JNMNKR865835_Female_Block
           description: RI-JNMNKR865835
@@ -3283,13 +3283,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 89.06207550000005
-              z_translation: 95.4100914
+              x_translation: 58.775763
+              y_translation: 63.21207550000005
+              z_translation: 83.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-AWZUWY335316_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A29-A30 RI-AWZUWY335316 H19.30.002.CX.52
+      label: Female white matter of forebrain RI-AWZUWY335316
+      description: H19.30.002.10x.A29-A30 H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-AWZUWY335316_Female_Block
           description: RI-AWZUWY335316
@@ -3325,13 +3325,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 82.975763
-              y_translation: 112.06207550000005
-              z_translation: 130.4100914
+              x_translation: 59.225763
+              y_translation: 94.71207550000005
+              z_translation: 63.210091399999996
     - id: https://doi.org/10.1126/science.add7046#RI-TQRPOP329094_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.CMN RI-TQRPOP329094 H19.30.001.CX.47
+      label: Female posterior cortical nucleus RI-TQRPOP329094
+      description: H19.30.001.10x.CMN H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TQRPOP329094_Female_Block
           description: RI-TQRPOP329094
@@ -3367,13 +3367,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 77.06207550000005
-              z_translation: 87.4100914
+              x_translation: 56.075763
+              y_translation: 56.01207550000005
+              z_translation: 94.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-LPPLQR197949_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.PAG RI-LPPLQR197949 H19.30.001.CX.50
+      label: Female red nucleus RI-LPPLQR197949
+      description: H19.30.001.10x.PAG H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-LPPLQR197949_Female_Block
           description: RI-LPPLQR197949
@@ -3409,13 +3409,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 67.975763
-              y_translation: 92.06207550000005
-              z_translation: 90.4100914
+              x_translation: 72.725763
+              y_translation: 58.71207550000005
+              z_translation: 81.2100914
     - id: https://doi.org/10.1126/science.add7046#RI-CDKGHI632686_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.NAC RI-CDKGHI632686 H19.30.001.CX.45
+      label: Female white matter of forebrain RI-CDKGHI632686
+      description: H19.30.001.10x.NAC H19.30.001.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-CDKGHI632686_Female_Block
           description: RI-CDKGHI632686
@@ -3451,13 +3451,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 58.06207550000005
-              z_translation: 97.9100914
+              x_translation: 58.775763
+              y_translation: 65.46207550000005
+              z_translation: 111.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-CDKGHI632686_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX45.NAC RI-CDKGHI632686 H19.30.001.CX.45
+      label: Female white matter of forebrain RI-CDKGHI632686
+      description: H19.30.001.CX45.NAC H19.30.001.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-CDKGHI632686_Female_Block
           description: RI-CDKGHI632686
@@ -3493,13 +3493,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 56.06207550000005
-              z_translation: 96.9100914
+              x_translation: 58.775763
+              y_translation: 64.56207550000005
+              z_translation: 113.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-YZBZDZ804464_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.BNST RI-YZBZDZ804464 H19.30.001.CX.46
+      label: Female bed nucleus of stria terminalis RI-YZBZDZ804464
+      description: H19.30.001.10x.BNST H19.30.001.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YZBZDZ804464_Female_Block
           description: RI-YZBZDZ804464
@@ -3535,13 +3535,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 75.975763
-              y_translation: 67.06207550000005
-              z_translation: 103.4100914
+              x_translation: 65.525763
+              y_translation: 70.41207550000004
+              z_translation: 103.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-ZCEABA894893_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.V1C RI-ZCEABA894893 H18.30.002.CX.55
+      label: Female posterior horn of lateral ventricle RI-ZCEABA894893
+      description: H18.30.002.10x.V1C H18.30.002.CX.55
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ZCEABA894893_Female_Block
           description: RI-ZCEABA894893
@@ -3577,13 +3577,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.475763
-              y_translation: 141.56207550000005
-              z_translation: 107.9100914
+              x_translation: 50.675763
+              y_translation: 74.46207550000005
+              z_translation: 36.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-MRMJIL935722_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.V2 RI-MRMJIL935722 H18.30.002.CX.54
+      label: Female cuneus RI-MRMJIL935722
+      description: H18.30.002.10x.V2 H18.30.002.CX.54
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MRMJIL935722_Female_Block
           description: RI-MRMJIL935722
@@ -3619,13 +3619,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 142.56207550000005
-              z_translation: 116.9100914
+              x_translation: 58.775763
+              y_translation: 82.56207550000005
+              z_translation: 35.76009139999999
     - id: https://doi.org/10.1126/science.add7046#RI-NNKILJ295263_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A32 RI-NNKILJ295263 H19.30.002.CX.43
+      label: Female white matter of forebrain RI-NNKILJ295263
+      description: H19.30.002.10x.A32 H19.30.002.CX.43
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NNKILJ295263_Female_Block
           description: RI-NNKILJ295263
@@ -3661,13 +3661,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.975763
-              y_translation: 36.06207550000005
-              z_translation: 120.4100914
+              x_translation: 55.625763
+              y_translation: 85.71207550000005
+              z_translation: 131.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-HLCELE815674_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A1C.004 RI-HLCELE815674 H19.30.002.CX.51
+      label: Female white matter of forebrain RI-HLCELE815674
+      description: H19.30.002.10x.A1C.004 H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-HLCELE815674_Female_Block
           description: RI-HLCELE815674
@@ -3703,13 +3703,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 104.975763
-              y_translation: 104.06207550000005
-              z_translation: 115.4100914
+              x_translation: 39.425763
+              y_translation: 81.21207550000005
+              z_translation: 70.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-BGJCAI827398_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A7 RI-BGJCAI827398 H19.30.002.CX.55
+      label: Female supraparietal lobule RI-BGJCAI827398
+      description: H19.30.002.10x.A7 H19.30.002.CX.55
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BGJCAI827398_Female_Block
           description: RI-BGJCAI827398
@@ -3745,13 +3745,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 146.06207550000005
-              z_translation: 153.4100914
+              x_translation: 56.075763
+              y_translation: 115.41207550000004
+              z_translation: 32.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-HDLFCI802258_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.DGR-CA4Rpy RI-HDLFCI802258 H19.30.001.CX.50
+      label: Female body of hippocampus RI-HDLFCI802258
+      description: H19.30.001.10x.DGR-CA4Rpy H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-HDLFCI802258_Female_Block
           description: RI-HDLFCI802258
@@ -3787,13 +3787,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 94.06207550000005
-              z_translation: 89.4100914
+              x_translation: 44.825762999999995
+              y_translation: 57.81207550000005
+              z_translation: 79.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-TOOSSV537798_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A40 RI-TOOSSV537798 H19.30.001.CX.52
+      label: Female angular gyrus RI-TOOSSV537798
+      description: H19.30.001.10x.A40 H19.30.001.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TOOSSV537798_Female_Block
           description: RI-TOOSSV537798
@@ -3829,13 +3829,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 129.475763
-              y_translation: 129.56207550000005
-              z_translation: 138.9100914
+              x_translation: 17.375763
+              y_translation: 102.36207550000006
+              z_translation: 47.460091399999996
     - id: https://doi.org/10.1126/science.add7046#RI-BAGXXX365869_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A44-A45 RI-BAGXXX365869 H19.30.002.CX.44
+      label: Female white matter of forebrain RI-BAGXXX365869
+      description: H19.30.002.10x.A44-A45 H19.30.002.CX.44
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BAGXXX365869_Female_Block
           description: RI-BAGXXX365869
@@ -3871,13 +3871,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 123.475763
-              y_translation: 45.56207550000005
-              z_translation: 119.4100914
+              x_translation: 22.775762999999998
+              y_translation: 84.81207550000005
+              z_translation: 123.0600914
     - id: https://doi.org/10.1126/science.add7046#RI-KRNKOO423757_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.ITG RI-KRNKOO423757 H19.30.002.CX.49
+      label: Female outside_brain RI-KRNKOO423757
+      description: H19.30.002.10x.ITG H19.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KRNKOO423757_Female_Block
           description: RI-KRNKOO423757
@@ -3913,13 +3913,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 107.975763
-              y_translation: 82.06207550000005
-              z_translation: 55.4100914
+              x_translation: 36.725763
+              y_translation: 27.212075500000047
+              z_translation: 90.2100914
     - id: https://doi.org/10.1126/science.add7046#RI-VZYVWS290177_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A40 RI-VZYVWS290177 H19.30.002.CX.52
+      label: Female supramarginal gyrus RI-VZYVWS290177
+      description: H19.30.002.10x.A40 H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-VZYVWS290177_Female_Block
           description: RI-VZYVWS290177
@@ -3955,13 +3955,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 135.975763
-              y_translation: 103.56207550000005
-              z_translation: 121.9100914
+              x_translation: 11.525762999999998
+              y_translation: 87.06207550000005
+              z_translation: 70.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-PROLNS612309_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.La RI-PROLNS612309 H19.30.001.CX.47
+      label: Female basolateral nucleus (basal nucleus) RI-PROLNS612309
+      description: H19.30.001.10x.La H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PROLNS612309_Female_Block
           description: RI-PROLNS612309
@@ -3997,13 +3997,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 73.56207550000005
-              z_translation: 83.9100914
+              x_translation: 48.875763
+              y_translation: 52.862075500000046
+              z_translation: 97.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-EJCFDD764453_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX55.PSC RI-EJCFDD764453 H19.30.001.CX.55
+      label: Female precuneus RI-EJCFDD764453
+      description: H19.30.001.CX55.PSC H19.30.001.CX.55
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-EJCFDD764453_Female_Block
           description: RI-EJCFDD764453
@@ -4039,13 +4039,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 75.975763
-              y_translation: 139.06207550000005
-              z_translation: 135.9100914
+              x_translation: 65.525763
+              y_translation: 99.66207550000004
+              z_translation: 38.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-KKMLHF611733_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX56.V2 RI-KKMLHF611733 H19.30.001.CX.56
+      label: Female lingual gyrus RI-KKMLHF611733
+      description: H19.30.001.CX56.V2 H19.30.001.CX.56
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KKMLHF611733_Female_Block
           description: RI-KKMLHF611733
@@ -4081,13 +4081,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 134.56207550000005
-              z_translation: 97.9100914
+              x_translation: 56.075763
+              y_translation: 65.46207550000005
+              z_translation: 42.960091399999996
     - id: https://doi.org/10.1126/science.add7046#RI-XBCZXB930978_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.AON RI-XBCZXB930978 H18.30.002.CX.46
+      label: Female white matter of forebrain RI-XBCZXB930978
+      description: H18.30.002.10x.AON H18.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XBCZXB930978_Female_Block
           description: RI-XBCZXB930978
@@ -4123,13 +4123,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 59.06207550000005
-              z_translation: 87.4100914
+              x_translation: 56.075763
+              y_translation: 56.01207550000005
+              z_translation: 110.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-DFFGGG323417_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.VA RI-DFFGGG323417 H18.30.002.CX.47
+      label: Female white matter of forebrain RI-DFFGGG323417
+      description: H18.30.002.10x.VA H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DFFGGG323417_Female_Block
           description: RI-DFFGGG323417
@@ -4165,13 +4165,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 73.06207550000005
-              z_translation: 113.4100914
+              x_translation: 56.075763
+              y_translation: 79.41207550000004
+              z_translation: 98.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-ABYCEY772171_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.ANC RI-ABYCEY772171 H18.30.002.CX.48
+      label: Female ventral lateral nucleus of thalamus RI-ABYCEY772171
+      description: H18.30.002.10x.ANC H18.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ABYCEY772171_Female_Block
           description: RI-ABYCEY772171
@@ -4207,13 +4207,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 86.06207550000005
-              z_translation: 118.9100914
+              x_translation: 58.775763
+              y_translation: 84.36207550000005
+              z_translation: 86.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-PQXQPT575108_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.CEN RI-PQXQPT575108 H19.30.002.CX.48
+      label: Female basomedial nucleus (accessory basal nucleus) RI-PQXQPT575108
+      description: H19.30.002.10x.CEN H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PQXQPT575108_Female_Block
           description: RI-PQXQPT575108
@@ -4249,13 +4249,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 77.06207550000005
-              z_translation: 84.9100914
+              x_translation: 50.225763
+              y_translation: 53.76207550000005
+              z_translation: 94.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-QQMRQQ540993_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.CA2-3 RI-QQMRQQ540993 H19.30.002.CX.50
+      label: Female white matter of forebrain RI-QQMRQQ540993
+      description: H19.30.002.10x.CA2-3 H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-QQMRQQ540993_Female_Block
           description: RI-QQMRQQ540993
@@ -4291,13 +4291,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 94.06207550000005
-              z_translation: 89.9100914
+              x_translation: 44.825762999999995
+              y_translation: 58.26207550000005
+              z_translation: 79.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-GINJKG397102_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Rostral DG-CA4 RI-GINJKG397102 H19.30.002.CX.51
+      label: Female white matter of forebrain RI-GINJKG397102
+      description: H19.30.002.10x.Rostral DG-CA4 H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-GINJKG397102_Female_Block
           description: RI-GINJKG397102
@@ -4333,13 +4333,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 94.06207550000005
-              z_translation: 82.9100914
+              x_translation: 44.825762999999995
+              y_translation: 51.96207550000005
+              z_translation: 79.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-ABYYXW675474_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.HTHso-HTHtub RI-ABYYXW675474 H19.30.001.CX.47
+      label: Female tuberal region of HTH RI-ABYYXW675474
+      description: H19.30.001.10x.HTHso-HTHtub H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ABYYXW675474_Female_Block
           description: RI-ABYYXW675474
@@ -4375,13 +4375,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 67.975763
-              y_translation: 72.56207550000005
-              z_translation: 93.9100914
+              x_translation: 72.725763
+              y_translation: 61.862075500000046
+              z_translation: 98.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-FGNJIN185358_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.Cla RI-FGNJIN185358 H19.30.001.CX.48
+      label: Female white matter of forebrain RI-FGNJIN185358
+      description: H19.30.001.10x.Cla H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FGNJIN185358_Female_Block
           description: RI-FGNJIN185358
@@ -4417,13 +4417,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 107.475763
-              y_translation: 89.06207550000005
-              z_translation: 96.4100914
+              x_translation: 37.175762999999996
+              y_translation: 64.11207550000005
+              z_translation: 83.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-YDWUUC391996_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.CM-Pf RI-YDWUUC391996 H19.30.001.CX.49
+      label: Female ventral posterior lateral nucleus RI-YDWUUC391996
+      description: H19.30.001.10x.CM-Pf H19.30.001.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YDWUUC391996_Female_Block
           description: RI-YDWUUC391996
@@ -4459,13 +4459,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 90.06207550000005
-              z_translation: 103.4100914
+              x_translation: 56.075763
+              y_translation: 70.41207550000004
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-TMSOOS152552_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.LG RI-TMSOOS152552 H19.30.001.CX.50
+      label: Female outside_brain RI-TMSOOS152552
+      description: H19.30.001.10x.LG H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TMSOOS152552_Female_Block
           description: RI-TMSOOS152552
@@ -4501,13 +4501,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 94.06207550000005
-              z_translation: 92.4100914
+              x_translation: 50.225763
+              y_translation: 60.51207550000005
+              z_translation: 79.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-NNOKLJ971915_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.FI RI-NNOKLJ971915 H18.30.002.CX.46
+      label: Female white matter of forebrain RI-NNOKLJ971915
+      description: H18.30.002.10x.FI H18.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NNOKLJ971915_Female_Block
           description: RI-NNOKLJ971915
@@ -4543,13 +4543,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 99.475763
-              y_translation: 57.56207550000005
-              z_translation: 89.4100914
+              x_translation: 44.375763
+              y_translation: 57.81207550000005
+              z_translation: 112.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-UXZCWU608237_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.BNST RI-UXZCWU608237 H18.30.002.CX.47
+      label: Female external segment of globus pallidus RI-UXZCWU608237
+      description: H18.30.002.10x.BNST H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-UXZCWU608237_Female_Block
           description: RI-UXZCWU608237
@@ -4585,13 +4585,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 67.06207550000005
-              z_translation: 100.9100914
+              x_translation: 56.075763
+              y_translation: 68.16207550000004
+              z_translation: 103.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-QIKMPM482203_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.VLN RI-QIKMPM482203 H18.30.002.CX.48
+      label: Female white matter of forebrain RI-QIKMPM482203
+      description: H18.30.002.10x.VLN H18.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-QIKMPM482203_Female_Block
           description: RI-QIKMPM482203
@@ -4627,13 +4627,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 85.06207550000005
-              z_translation: 103.9100914
+              x_translation: 50.225763
+              y_translation: 70.86207550000005
+              z_translation: 87.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-WYAVUS443188_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.BM.003 RI-WYAVUS443188 H19.30.002.CX.48
+      label: Female cerebral peduncle (crus cerebri) RI-WYAVUS443188
+      description: H19.30.002.10x.BM.003 H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WYAVUS443188_Female_Block
           description: RI-WYAVUS443188
@@ -4669,13 +4669,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.975763
-              y_translation: 80.56207550000005
-              z_translation: 89.9100914
+              x_translation: 55.625763
+              y_translation: 58.26207550000005
+              z_translation: 91.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-KHMGHN488674_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX50.MEC RI-KHMGHN488674 H19.30.002.CX.50
+      label: Female outside_brain RI-KHMGHN488674
+      description: H19.30.002.CX50.MEC H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KHMGHN488674_Female_Block
           description: RI-KHMGHN488674
@@ -4711,13 +4711,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 89.56207550000005
-              z_translation: 72.9100914
+              x_translation: 56.075763
+              y_translation: 42.96207550000005
+              z_translation: 83.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-SQXRXW749932_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX51.Ig RI-SQXRXW749932 H19.30.002.CX.51
+      label: Female white matter of forebrain RI-SQXRXW749932
+      description: H19.30.002.CX51.Ig H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-SQXRXW749932_Female_Block
           description: RI-SQXRXW749932
@@ -4753,13 +4753,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 107.975763
-              y_translation: 99.06207550000005
-              z_translation: 105.9100914
+              x_translation: 36.725763
+              y_translation: 72.66207550000004
+              z_translation: 74.9100914
     - id: https://doi.org/10.1126/science.add7046#RI-KNOKOS708042_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX47.Pu RI-KNOKOS708042 H19.30.001.CX.47
+      label: Female external segment of globus pallidus RI-KNOKOS708042
+      description: H19.30.001.CX47.Pu H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KNOKOS708042_Female_Block
           description: RI-KNOKOS708042
@@ -4795,13 +4795,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 78.06207550000005
-              z_translation: 103.9100914
+              x_translation: 48.875763
+              y_translation: 70.86207550000005
+              z_translation: 93.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-BICCJG295829_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A35-A36 RI-BICCJG295829 H19.30.001.CX.48
+      label: Female perirhinal gyrus ( rostral part of FuGt) RI-BICCJG295829
+      description: H19.30.001.10x.A35-A36 H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BICCJG295829_Female_Block
           description: RI-BICCJG295829
@@ -4837,13 +4837,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 77.06207550000005
-              z_translation: 61.9100914
+              x_translation: 44.825762999999995
+              y_translation: 33.06207550000005
+              z_translation: 94.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-QYTTWQ348208_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX49.MTC RI-QYTTWQ348208 H19.30.001.CX.49
+      label: Female middle temporal gyrus RI-QYTTWQ348208
+      description: H19.30.001.CX49.MTC H19.30.001.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-QYTTWQ348208_Female_Block
           description: RI-QYTTWQ348208
@@ -4879,13 +4879,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 135.975763
-              y_translation: 92.56207550000005
-              z_translation: 92.9100914
+              x_translation: 11.525762999999998
+              y_translation: 60.96207550000005
+              z_translation: 80.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-VPQMOP656902_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.CA1R-CA2R-CA3R RI-VPQMOP656902 H19.30.001.CX.50
+      label: Female body of hippocampus RI-VPQMOP656902
+      description: H19.30.001.10x.CA1R-CA2R-CA3R H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-VPQMOP656902_Female_Block
           description: RI-VPQMOP656902
@@ -4921,13 +4921,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 94.56207550000005
-              z_translation: 88.9100914
+              x_translation: 44.825762999999995
+              y_translation: 57.362075500000046
+              z_translation: 78.9600914
     - id: https://doi.org/10.1126/science.add7046#RI-LPOHML579703_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX46.Pu RI-LPOHML579703 H19.30.001.CX.46
+      label: Female putamen RI-LPOHML579703
+      description: H19.30.001.CX46.Pu H19.30.001.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-LPOHML579703_Female_Block
           description: RI-LPOHML579703
@@ -4963,13 +4963,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 66.56207550000005
-              z_translation: 109.4100914
+              x_translation: 48.875763
+              y_translation: 75.81207550000005
+              z_translation: 104.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-DEBBBE153972_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.HTHpo RI-DEBBBE153972 H18.30.002.CX.47
+      label: Female third ventricle RI-DEBBBE153972
+      description: H18.30.002.10x.HTHpo H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DEBBBE153972_Female_Block
           description: RI-DEBBBE153972
@@ -5005,13 +5005,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.975763
-              y_translation: 71.56207550000005
-              z_translation: 96.4100914
+              x_translation: 70.925763
+              y_translation: 64.11207550000005
+              z_translation: 99.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-ZWXEEW863872_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.Idg.003 RI-ZWXEEW863872 H18.30.002.CX.48
+      label: Female transverse temporal gyrus (Heschl's gyrus) RI-ZWXEEW863872
+      description: H18.30.002.10x.Idg.003 H18.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ZWXEEW863872_Female_Block
           description: RI-ZWXEEW863872
@@ -5047,13 +5047,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 90.56207550000005
-              z_translation: 103.9100914
+              x_translation: 33.575763
+              y_translation: 70.86207550000005
+              z_translation: 82.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-ZVVRAX548123_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.La RI-ZVVRAX548123 H19.30.002.CX.48
+      label: Female head of hippocampus RI-ZVVRAX548123
+      description: H19.30.002.10x.La H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ZVVRAX548123_Female_Block
           description: RI-ZVVRAX548123
@@ -5089,13 +5089,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 76.56207550000005
-              z_translation: 73.9100914
+              x_translation: 50.225763
+              y_translation: 43.862075500000046
+              z_translation: 95.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-XZXWXV131555_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX50.THM1.MNC RI-XZXWXV131555 H19.30.002.CX.50
+      label: Female pulvinar of thalamus RI-XZXWXV131555
+      description: H19.30.002.CX50.THM1.MNC H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XZXWXV131555_Female_Block
           description: RI-XZXWXV131555
@@ -5131,13 +5131,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 92.56207550000005
-              z_translation: 108.4100914
+              x_translation: 56.075763
+              y_translation: 74.91207550000004
+              z_translation: 80.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-SPUYRR826321_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX47.BF RI-SPUYRR826321 H19.30.001.CX.47
+      label: Female white matter of forebrain RI-SPUYRR826321
+      description: H19.30.001.CX47.BF H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-SPUYRR826321_Female_Block
           description: RI-SPUYRR826321
@@ -5173,13 +5173,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 78.56207550000005
-              z_translation: 98.4100914
+              x_translation: 56.075763
+              y_translation: 65.91207550000004
+              z_translation: 93.3600914
     - id: https://doi.org/10.1126/science.add7046#RI-OOQOVR608258_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A43 RI-OOQOVR608258 H19.30.001.CX.48
+      label: Female outside_brain RI-OOQOVR608258
+      description: H19.30.001.10x.A43 H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-OOQOVR608258_Female_Block
           description: RI-OOQOVR608258
@@ -5215,13 +5215,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 123.475763
-              y_translation: 90.06207550000005
-              z_translation: 114.9100914
+              x_translation: 22.775762999999998
+              y_translation: 80.76207550000005
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-UOOOOR583271_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX50.ITC RI-UOOOOR583271 H19.30.001.CX.50
+      label: Female inferior temporal gyrus RI-UOOOOR583271
+      description: H19.30.001.CX50.ITC H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-UOOOOR583271_Female_Block
           description: RI-UOOOOR583271
@@ -5257,13 +5257,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 123.475763
-              y_translation: 84.56207550000005
-              z_translation: 62.4100914
+              x_translation: 22.775762999999998
+              y_translation: 33.512075500000044
+              z_translation: 87.9600914
     - id: https://doi.org/10.1126/science.add7046#RI-USYXUQ682515_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.SI RI-USYXUQ682515 H18.30.002.CX.47
+      label: Female white matter of forebrain RI-USYXUQ682515
+      description: H18.30.002.10x.SI H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-USYXUQ682515_Female_Block
           description: RI-USYXUQ682515
@@ -5299,13 +5299,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 85.975763
-              y_translation: 74.56207550000005
-              z_translation: 93.9100914
+              x_translation: 56.525763
+              y_translation: 61.862075500000046
+              z_translation: 96.9600914
     - id: https://doi.org/10.1126/science.add7046#RI-BZZDBE558505_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.HTHtub RI-BZZDBE558505 H18.30.002.CX.48
+      label: Female midbrain tegmentum RI-BZZDBE558505
+      description: H18.30.002.10x.HTHtub H18.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BZZDBE558505_Female_Block
           description: RI-BZZDBE558505
@@ -5341,13 +5341,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 67.975763
-              y_translation: 82.06207550000005
-              z_translation: 89.9100914
+              x_translation: 72.725763
+              y_translation: 58.26207550000005
+              z_translation: 90.2100914
     - id: https://doi.org/10.1126/science.add7046#RI-FFABCF667134_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX48.GPe RI-FFABCF667134 H19.30.002.CX.48
+      label: Female ventral lateral nucleus of thalamus RI-FFABCF667134
+      description: H19.30.002.CX48.GPe H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FFABCF667134_Female_Block
           description: RI-FFABCF667134
@@ -5383,13 +5383,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 88.475763
-              y_translation: 83.56207550000005
-              z_translation: 108.4100914
+              x_translation: 54.275763
+              y_translation: 74.91207550000004
+              z_translation: 88.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-AXTWYR289813_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX48.Idg RI-AXTWYR289813 H19.30.001.CX.48
+      label: Female transverse temporal gyrus (Heschl's gyrus) RI-AXTWYR289813
+      description: H19.30.001.CX48.Idg H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-AXTWYR289813_Female_Block
           description: RI-AXTWYR289813
@@ -5425,13 +5425,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 90.06207550000005
-              z_translation: 104.9100914
+              x_translation: 33.575763
+              y_translation: 71.76207550000005
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-HAGJDC228150_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.HTHso RI-HAGJDC228150 H18.30.002.CX.47
+      label: Female supraoptic region of HTH RI-HAGJDC228150
+      description: H18.30.002.10x.HTHso H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-HAGJDC228150_Female_Block
           description: RI-HAGJDC228150
@@ -5467,13 +5467,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 68.475763
-              y_translation: 70.06207550000005
-              z_translation: 92.9100914
+              x_translation: 72.275763
+              y_translation: 60.96207550000005
+              z_translation: 101.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-IKIILJ504978_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.STG RI-IKIILJ504978 H18.30.002.CX.49
+      label: Female superior temporal gyrus RI-IKIILJ504978
+      description: H18.30.002.10x.STG H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-IKIILJ504978_Female_Block
           description: RI-IKIILJ504978
@@ -5509,13 +5509,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 135.975763
-              y_translation: 95.06207550000005
-              z_translation: 112.9100914
+              x_translation: 11.525762999999998
+              y_translation: 78.96207550000005
+              z_translation: 78.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-BTWUBX209319_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.NAC RI-BTWUBX209319 H19.30.002.CX.46
+      label: Female bed nucleus of stria terminalis RI-BTWUBX209319
+      description: H19.30.002.10x.NAC H19.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BTWUBX209319_Female_Block
           description: RI-BTWUBX209319
@@ -5551,13 +5551,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 65.06207550000005
-              z_translation: 97.9100914
+              x_translation: 66.875763
+              y_translation: 65.46207550000005
+              z_translation: 105.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-BTWUBX209319_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX46.NAC RI-BTWUBX209319 H19.30.002.CX.46
+      label: Female bed nucleus of stria terminalis RI-BTWUBX209319
+      description: H19.30.002.CX46.NAC H19.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BTWUBX209319_Female_Block
           description: RI-BTWUBX209319
@@ -5593,13 +5593,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 67.06207550000005
-              z_translation: 98.4100914
+              x_translation: 66.875763
+              y_translation: 65.91207550000004
+              z_translation: 103.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-YCWZXY910878_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX47.Pu RI-YCWZXY910878 H19.30.002.CX.47
+      label: Female putamen RI-YCWZXY910878
+      description: H19.30.002.CX47.Pu H19.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YCWZXY910878_Female_Block
           description: RI-YCWZXY910878
@@ -5635,13 +5635,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 71.56207550000005
-              z_translation: 115.4100914
+              x_translation: 44.825762999999995
+              y_translation: 81.21207550000005
+              z_translation: 99.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-BXWWAA269485_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A23 RI-BXWWAA269485 H19.30.002.CX.52
+      label: Female precuneus RI-BXWWAA269485
+      description: H19.30.002.10x.A23 H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BXWWAA269485_Female_Block
           description: RI-BXWWAA269485
@@ -5677,13 +5677,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.475763
-              y_translation: 113.06207550000005
-              z_translation: 147.9100914
+              x_translation: 71.375763
+              y_translation: 110.46207550000005
+              z_translation: 62.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-JRLLJJ587375_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A23 RI-JRLLJJ587375 H19.30.001.CX.52
+      label: Female cingulate gyrus, caudal (posterior) part RI-JRLLJJ587375
+      description: H19.30.001.10x.A23 H19.30.001.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-JRLLJJ587375_Female_Block
           description: RI-JRLLJJ587375
@@ -5719,13 +5719,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.475763
-              y_translation: 121.56207550000005
-              z_translation: 127.4100914
+              x_translation: 71.375763
+              y_translation: 92.01207550000005
+              z_translation: 54.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-FFBEGA490879_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CB62.CBL RI-FFBEGA490879 H19.30.001.CB.62
+      label: Female lateral hemisphere of cerebellum RI-FFBEGA490879
+      description: H19.30.001.CB62.CBL H19.30.001.CB.62
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FFBEGA490879_Female_Block
           description: RI-FFBEGA490879
@@ -5761,13 +5761,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 120.475763
-              y_translation: 137.56207550000005
-              z_translation: 71.9100914
+              x_translation: 25.475763
+              y_translation: 42.06207550000005
+              z_translation: 40.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-ACEBGJ863434_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX58.V1C RI-ACEBGJ863434 H19.30.001.CX.58
+      label: Female occipital pole RI-ACEBGJ863434
+      description: H19.30.001.CX58.V1C H19.30.001.CX.58
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ACEBGJ863434_Female_Block
           description: RI-ACEBGJ863434
@@ -5803,13 +5803,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 174.56207550000005
-              z_translation: 106.9100914
+              x_translation: 58.775763
+              y_translation: 73.56207550000005
+              z_translation: 6.960091399999996
     - id: https://doi.org/10.1126/science.add7046#RI-NSOSSP483921_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.SC RI-NSOSSP483921 H18.30.002.CX.51
+      label: Female cerebral aqueduct RI-NSOSSP483921
+      description: H18.30.002.10x.SC H18.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NSOSSP483921_Female_Block
           description: RI-NSOSSP483921
@@ -5845,13 +5845,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.975763
-              y_translation: 104.06207550000005
-              z_translation: 89.9100914
+              x_translation: 70.925763
+              y_translation: 58.26207550000005
+              z_translation: 70.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-CWYWDB825600_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.IO RI-CWYWDB825600 H18.30.002.CX.52
+      label: Female tegmentum of medulla oblongata RI-CWYWDB825600
+      description: H18.30.002.10x.IO H18.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-CWYWDB825600_Female_Block
           description: RI-CWYWDB825600
@@ -5887,13 +5887,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 103.56207550000005
-              z_translation: 49.9100914
+              x_translation: 66.875763
+              y_translation: 22.262075500000044
+              z_translation: 70.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-ACFZDB762449_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A46 RI-ACFZDB762449 H19.30.002.CX.43
+      label: Female middle frontal gyrus RI-ACFZDB762449
+      description: H19.30.002.10x.A46 H19.30.002.CX.43
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ACFZDB762449_Female_Block
           description: RI-ACFZDB762449
@@ -5929,13 +5929,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 120.475763
-              y_translation: 53.56207550000005
-              z_translation: 149.9100914
+              x_translation: 25.475763
+              y_translation: 112.26207550000005
+              z_translation: 115.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-WXTTQU741380_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX49.MTC RI-WXTTQU741380 H19.30.002.CX.49
+      label: Female middle temporal gyrus RI-WXTTQU741380
+      description: H19.30.002.CX49.MTC H19.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WXTTQU741380_Female_Block
           description: RI-WXTTQU741380
@@ -5971,13 +5971,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 141.975763
-              y_translation: 87.06207550000005
-              z_translation: 89.4100914
+              x_translation: 6.125762999999992
+              y_translation: 57.81207550000005
+              z_translation: 85.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-TNTNST232557_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.LG RI-TNTNST232557 H19.30.002.CX.51
+      label: Female white matter of forebrain RI-TNTNST232557
+      description: H19.30.002.10x.LG H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TNTNST232557_Female_Block
           description: RI-TNTNST232557
@@ -6013,13 +6013,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 97.56207550000005
-              z_translation: 93.9100914
+              x_translation: 48.875763
+              y_translation: 61.862075500000046
+              z_translation: 76.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-NJIKHQ264635_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.ANC RI-NJIKHQ264635 H19.30.001.CX.47
+      label: Female white matter of forebrain RI-NJIKHQ264635
+      description: H19.30.001.10x.ANC H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NJIKHQ264635_Female_Block
           description: RI-NJIKHQ264635
@@ -6055,13 +6055,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 75.06207550000005
-              z_translation: 118.4100914
+              x_translation: 58.775763
+              y_translation: 83.91207550000004
+              z_translation: 96.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-NPTKKK994042_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.LP RI-NPTKKK994042 H19.30.001.CX.50
+      label: Female body of lateral ventricle RI-NPTKKK994042
+      description: H19.30.001.10x.LP H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NPTKKK994042_Female_Block
           description: RI-NPTKKK994042
@@ -6097,13 +6097,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 101.56207550000005
-              z_translation: 116.4100914
+              x_translation: 56.075763
+              y_translation: 82.11207550000005
+              z_translation: 72.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-VURPNR246128_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.SC RI-VURPNR246128 H19.30.001.CX.51
+      label: Female midbrain tegmentum RI-VURPNR246128
+      description: H19.30.001.10x.SC H19.30.001.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-VURPNR246128_Female_Block
           description: RI-VURPNR246128
@@ -6139,13 +6139,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 67.975763
-              y_translation: 100.56207550000005
-              z_translation: 91.9100914
+              x_translation: 72.725763
+              y_translation: 60.06207550000005
+              z_translation: 73.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-YUVCUU232797_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A29-A30 RI-YUVCUU232797 H19.30.001.CX.52
+      label: Female white matter of forebrain RI-YUVCUU232797
+      description: H19.30.001.10x.A29-A30 H19.30.001.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YUVCUU232797_Female_Block
           description: RI-YUVCUU232797
@@ -6181,13 +6181,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 117.06207550000005
-              z_translation: 121.9100914
+              x_translation: 58.775763
+              y_translation: 87.06207550000005
+              z_translation: 58.710091399999996
     - id: https://doi.org/10.1126/science.add7046#RI-EIDHDH688846_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.LEC RI-EIDHDH688846 H18.30.002.CX.47
+      label: Female amygdaloid complex RI-EIDHDH688846
+      description: H18.30.002.10x.LEC H18.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-EIDHDH688846_Female_Block
           description: RI-EIDHDH688846
@@ -6223,13 +6223,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 71.06207550000005
-              z_translation: 78.9100914
+              x_translation: 56.075763
+              y_translation: 48.362075500000046
+              z_translation: 100.1100914
     - id: https://doi.org/10.1126/science.add7046#RI-SMOSUR547441_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A1C RI-SMOSUR547441 H18.30.002.CX.49
+      label: Female white matter of forebrain RI-SMOSUR547441
+      description: H18.30.002.10x.A1C H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-SMOSUR547441_Female_Block
           description: RI-SMOSUR547441
@@ -6265,13 +6265,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 101.06207550000005
-              z_translation: 107.9100914
+              x_translation: 33.575763
+              y_translation: 74.46207550000005
+              z_translation: 73.1100914
     - id: https://doi.org/10.1126/science.add7046#RI-FJHFFH565843_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.CaB RI-FJHFFH565843 H19.30.002.CX.46
+      label: Female body of caudate RI-FJHFFH565843
+      description: H19.30.002.10x.CaB H19.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FJHFFH565843_Female_Block
           description: RI-FJHFFH565843
@@ -6307,13 +6307,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 67.56207550000005
-              z_translation: 120.4100914
+              x_translation: 56.075763
+              y_translation: 85.71207550000005
+              z_translation: 103.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-FJHFFH565843_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX46.CaH RI-FJHFFH565843 H19.30.002.CX.46
+      label: Female body of caudate RI-FJHFFH565843
+      description: H19.30.002.CX46.CaH H19.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FJHFFH565843_Female_Block
           description: RI-FJHFFH565843
@@ -6349,13 +6349,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 67.56207550000005
-              z_translation: 118.9100914
+              x_translation: 56.075763
+              y_translation: 84.36207550000005
+              z_translation: 103.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-BFBIJD150332_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX47.CaB RI-BFBIJD150332 H19.30.002.CX.47
+      label: Female anterior horn of lateral ventricle RI-BFBIJD150332
+      description: H19.30.002.CX47.CaB H19.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BFBIJD150332_Female_Block
           description: RI-BFBIJD150332
@@ -6391,13 +6391,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 73.06207550000005
-              z_translation: 127.9100914
+              x_translation: 56.075763
+              y_translation: 92.46207550000005
+              z_translation: 98.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-GDCYCG580240_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Pu RI-GDCYCG580240 H19.30.002.CX.48
+      label: Female white matter of forebrain RI-GDCYCG580240
+      description: H19.30.002.10x.Pu H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-GDCYCG580240_Female_Block
           description: RI-GDCYCG580240
@@ -6433,13 +6433,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 87.06207550000005
-              z_translation: 110.9100914
+              x_translation: 50.225763
+              y_translation: 77.16207550000004
+              z_translation: 85.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-FKEHJE440937_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.MEC.005 RI-FKEHJE440937 H19.30.002.CX.49
+      label: Female outside_brain RI-FKEHJE440937
+      description: H19.30.002.10x.MEC.005 H19.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FKEHJE440937_Female_Block
           description: RI-FKEHJE440937
@@ -6475,13 +6475,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 89.56207550000005
-              z_translation: 75.9100914
+              x_translation: 56.075763
+              y_translation: 45.66207550000004
+              z_translation: 83.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-WTXXBW460140_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.RN RI-WTXXBW460140 H19.30.002.CX.50
+      label: Female basilar part of pons RI-WTXXBW460140
+      description: H19.30.002.10x.RN H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WTXXBW460140_Female_Block
           description: RI-WTXXBW460140
@@ -6517,13 +6517,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 89.56207550000005
-              z_translation: 79.9100914
+              x_translation: 66.875763
+              y_translation: 49.26207550000005
+              z_translation: 83.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-EDFJID582348_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX58.V1C RI-EDFJID582348 H19.30.002.CX.58
+      label: Female white matter of forebrain RI-EDFJID582348
+      description: H19.30.002.CX58.V1C H19.30.002.CX.58
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-EDFJID582348_Female_Block
           description: RI-EDFJID582348
@@ -6559,13 +6559,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 146.06207550000005
-              z_translation: 104.4100914
+              x_translation: 56.075763
+              y_translation: 71.31207550000005
+              z_translation: 32.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-KKOLNL416842_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CB61.CBV RI-KKOLNL416842 H19.30.002.CB.61
+      label: Female white matter of hindbrain RI-KKOLNL416842
+      description: H19.30.002.CB61.CBV H19.30.002.CB.61
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KKOLNL416842_Female_Block
           description: RI-KKOLNL416842
@@ -6601,13 +6601,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 134.56207550000005
-              z_translation: 73.9100914
+              x_translation: 66.875763
+              y_translation: 43.862075500000046
+              z_translation: 42.960091399999996
     - id: https://doi.org/10.1126/science.add7046#RI-MPOOPN562365_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CB63.CBL RI-MPOOPN562365 H19.30.002.CB.63
+      label: Female white matter of hindbrain RI-MPOOPN562365
+      description: H19.30.002.CB63.CBL H19.30.002.CB.63
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MPOOPN562365_Female_Block
           description: RI-MPOOPN562365
@@ -6643,13 +6643,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 110.975763
-              y_translation: 143.56207550000005
-              z_translation: 67.9100914
+              x_translation: 34.025763
+              y_translation: 38.46207550000005
+              z_translation: 34.8600914
     - id: https://doi.org/10.1126/science.add7046#RI-ZZXBFX719443_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.LEC.001 RI-ZZXBFX719443 H19.30.001.CX.47
+      label: Female anterior parahippocampal gyrus RI-ZZXBFX719443
+      description: H19.30.001.10x.LEC.001 H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ZZXBFX719443_Female_Block
           description: RI-ZZXBFX719443
@@ -6685,13 +6685,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 73.06207550000005
-              z_translation: 75.9100914
+              x_translation: 56.075763
+              y_translation: 45.66207550000004
+              z_translation: 98.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-POOMON871011_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.MEC.004 RI-POOMON871011 H19.30.001.CX.48
+      label: Female head of hippocampus RI-POOMON871011
+      description: H19.30.001.10x.MEC.004 H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-POOMON871011_Female_Block
           description: RI-POOMON871011
@@ -6727,13 +6727,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 81.56207550000005
-              z_translation: 78.4100914
+              x_translation: 56.075763
+              y_translation: 47.91207550000004
+              z_translation: 90.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-POOMON871011_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX48.MEC RI-POOMON871011 H19.30.001.CX.48
+      label: Female anterior parahippocampal gyrus RI-POOMON871011
+      description: H19.30.001.CX48.MEC H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-POOMON871011_Female_Block
           description: RI-POOMON871011
@@ -6769,13 +6769,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 81.06207550000005
-              z_translation: 76.4100914
+              x_translation: 56.075763
+              y_translation: 46.112075500000046
+              z_translation: 91.1100914
     - id: https://doi.org/10.1126/science.add7046#RI-XUZZSX790548_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A5-A7 RI-XUZZSX790548 H19.30.001.CX.53
+      label: Female precuneus RI-XUZZSX790548
+      description: H19.30.001.10x.A5-A7 H19.30.001.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XUZZSX790548_Female_Block
           description: RI-XUZZSX790548
@@ -6811,13 +6811,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 73.975763
-              y_translation: 140.56207550000005
-              z_translation: 156.9100914
+              x_translation: 67.325763
+              y_translation: 118.56207550000005
+              z_translation: 37.56009139999999
     - id: https://doi.org/10.1126/science.add7046#RI-XUZZSX790548_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX53.A7 RI-XUZZSX790548 H19.30.001.CX.53
+      label: Female precuneus RI-XUZZSX790548
+      description: H19.30.001.CX53.A7 H19.30.001.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XUZZSX790548_Female_Block
           description: RI-XUZZSX790548
@@ -6853,13 +6853,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 73.975763
-              y_translation: 140.56207550000005
-              z_translation: 157.9100914
+              x_translation: 67.325763
+              y_translation: 119.46207550000005
+              z_translation: 37.56009139999999
     - id: https://doi.org/10.1126/science.add7046#RI-JKIKMP568602_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CB60.CBV RI-JKIKMP568602 H19.30.001.CB.60
+      label: Female cerebellar deep nuclei RI-JKIKMP568602
+      description: H19.30.001.CB60.CBV H19.30.001.CB.60
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-JKIKMP568602_Female_Block
           description: RI-JKIKMP568602
@@ -6895,13 +6895,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 85.975763
-              y_translation: 125.06207550000005
-              z_translation: 71.4100914
+              x_translation: 56.525763
+              y_translation: 41.612075500000046
+              z_translation: 51.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-SRTUTP832274_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.CaB RI-SRTUTP832274 H19.30.001.CX.45
+      label: Female head of caudate RI-SRTUTP832274
+      description: H19.30.001.10x.CaB H19.30.001.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-SRTUTP832274_Female_Block
           description: RI-SRTUTP832274
@@ -6937,13 +6937,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 54.56207550000005
-              z_translation: 119.4100914
+              x_translation: 56.075763
+              y_translation: 84.81207550000005
+              z_translation: 114.9600914
     - id: https://doi.org/10.1126/science.add7046#RI-SRTUTP832274_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX45.CaH RI-SRTUTP832274 H19.30.001.CX.45
+      label: Female head of caudate RI-SRTUTP832274
+      description: H19.30.001.CX45.CaH H19.30.001.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-SRTUTP832274_Female_Block
           description: RI-SRTUTP832274
@@ -6979,13 +6979,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 56.06207550000005
-              z_translation: 121.4100914
+              x_translation: 56.075763
+              y_translation: 86.61207550000005
+              z_translation: 113.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-QXVPST186746_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX48.Idg RI-QXVPST186746 H19.30.002.CX.48
+      label: Female long insular gyri RI-QXVPST186746
+      description: H19.30.002.CX48.Idg H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-QXVPST186746_Female_Block
           description: RI-QXVPST186746
@@ -7021,13 +7021,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 78.56207550000005
-              z_translation: 108.9100914
+              x_translation: 33.575763
+              y_translation: 75.36207550000005
+              z_translation: 93.3600914
     - id: https://doi.org/10.1126/science.add7046#RI-MQLQUM452125_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A44-A45 RI-MQLQUM452125 H18.30.002.CX.45
+      label: Female outside_brain RI-MQLQUM452125
+      description: H18.30.002.10x.A44-A45 H18.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MQLQUM452125_Female_Block
           description: RI-MQLQUM452125
@@ -7063,13 +7063,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 132.975763
-              y_translation: 56.06207550000005
-              z_translation: 121.9100914
+              x_translation: 14.225763
+              y_translation: 87.06207550000005
+              z_translation: 113.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-WXUQTV967242_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A25 RI-WXUQTV967242 H18.30.002.CX.46
+      label: Female white matter of forebrain RI-WXUQTV967242
+      description: H18.30.002.10x.A25 H18.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WXUQTV967242_Female_Block
           description: RI-WXUQTV967242
@@ -7105,13 +7105,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.975763
-              y_translation: 65.06207550000005
-              z_translation: 93.9100914
+              x_translation: 70.925763
+              y_translation: 61.862075500000046
+              z_translation: 105.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-YXZXFX149393_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A35r RI-YXZXFX149393 H18.30.002.CX.48
+      label: Female anterior parahippocampal gyrus RI-YXZXFX149393
+      description: H18.30.002.10x.A35r H18.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YXZXFX149393_Female_Block
           description: RI-YXZXFX149393
@@ -7147,13 +7147,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 100.475763
-              y_translation: 78.56207550000005
-              z_translation: 71.9100914
+              x_translation: 43.475763
+              y_translation: 42.06207550000005
+              z_translation: 93.3600914
     - id: https://doi.org/10.1126/science.add7046#RI-XGEFXB187847_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.CM RI-XGEFXB187847 H18.30.002.CX.49
+      label: Female zona incerta RI-XGEFXB187847
+      description: H18.30.002.10x.CM H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XGEFXB187847_Female_Block
           description: RI-XGEFXB187847
@@ -7189,13 +7189,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 90.06207550000005
-              z_translation: 97.4100914
+              x_translation: 56.075763
+              y_translation: 65.01207550000005
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-FGDYYY776695_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.CMN RI-FGDYYY776695 H19.30.002.CX.48
+      label: Female head of hippocampus RI-FGDYYY776695
+      description: H19.30.002.10x.CMN H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FGDYYY776695_Female_Block
           description: RI-FGDYYY776695
@@ -7231,13 +7231,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 78.56207550000005
-              z_translation: 86.9100914
+              x_translation: 56.075763
+              y_translation: 55.56207550000005
+              z_translation: 93.3600914
     - id: https://doi.org/10.1126/science.add7046#RI-DZEBAC571192_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX49.ITC RI-DZEBAC571192 H19.30.002.CX.49
+      label: Female inferior temporal gyrus RI-DZEBAC571192
+      description: H19.30.002.CX49.ITC H19.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DZEBAC571192_Female_Block
           description: RI-DZEBAC571192
@@ -7273,13 +7273,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 122.975763
-              y_translation: 76.56207550000005
-              z_translation: 56.9100914
+              x_translation: 23.225763
+              y_translation: 28.56207550000005
+              z_translation: 95.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-HBEEBB278070_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.DG-CA4 RI-HBEEBB278070 H19.30.002.CX.50
+      label: Female head of hippocampus RI-HBEEBB278070
+      description: H19.30.002.10x.DG-CA4 H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-HBEEBB278070_Female_Block
           description: RI-HBEEBB278070
@@ -7315,13 +7315,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 88.06207550000005
-              z_translation: 81.9100914
+              x_translation: 44.825762999999995
+              y_translation: 51.06207550000005
+              z_translation: 84.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-LGNIGM663031_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Rostral CA1-CA3 RI-LGNIGM663031 H19.30.002.CX.51
+      label: Female posterior parahippocampal gyrus RI-LGNIGM663031
+      description: H19.30.002.10x.Rostral CA1-CA3 H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-LGNIGM663031_Female_Block
           description: RI-LGNIGM663031
@@ -7357,13 +7357,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 94.06207550000005
-              z_translation: 78.4100914
+              x_translation: 44.825762999999995
+              y_translation: 47.91207550000004
+              z_translation: 79.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-MIIDDF405915_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.HTHpo-HTHso RI-MIIDDF405915 H19.30.001.CX.47
+      label: Female third ventricle RI-MIIDDF405915
+      description: H19.30.001.10x.HTHpo-HTHso H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MIIDDF405915_Female_Block
           description: RI-MIIDDF405915
@@ -7399,13 +7399,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 67.975763
-              y_translation: 72.56207550000005
-              z_translation: 97.9100914
+              x_translation: 72.725763
+              y_translation: 65.46207550000005
+              z_translation: 98.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-KLHDGF646440_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.GPe RI-KLHDGF646440 H19.30.001.CX.48
+      label: Female white matter of forebrain RI-KLHDGF646440
+      description: H19.30.001.10x.GPe H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KLHDGF646440_Female_Block
           description: RI-KLHDGF646440
@@ -7441,13 +7441,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 87.56207550000005
-              z_translation: 101.9100914
+              x_translation: 50.225763
+              y_translation: 69.06207550000005
+              z_translation: 85.2600914
     - id: https://doi.org/10.1126/science.add7046#RI-KDHFCH824774_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.MD RI-KDHFCH824774 H19.30.001.CX.49
+      label: Female lateral posterior nucleus of thalamus RI-KDHFCH824774
+      description: H19.30.001.10x.MD H19.30.001.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-KDHFCH824774_Female_Block
           description: RI-KDHFCH824774
@@ -7483,13 +7483,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 90.56207550000005
-              z_translation: 110.4100914
+              x_translation: 56.075763
+              y_translation: 76.71207550000005
+              z_translation: 82.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-XBGBEX492203_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.MG RI-XBGBEX492203 H19.30.001.CX.50
+      label: Female zona incerta RI-XBGBEX492203
+      description: H19.30.001.10x.MG H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XBGBEX492203_Female_Block
           description: RI-XBGBEX492203
@@ -7525,13 +7525,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 90.06207550000005
-              z_translation: 95.9100914
+              x_translation: 56.075763
+              y_translation: 63.66207550000005
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-BVWWVV230875_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.FI RI-BVWWVV230875 H19.30.001.CX.46
+      label: Female white matter of forebrain RI-BVWWVV230875
+      description: H19.30.001.10x.FI H19.30.001.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-BVWWVV230875_Female_Block
           description: RI-BVWWVV230875
@@ -7567,13 +7567,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 104.975763
-              y_translation: 62.56207550000005
-              z_translation: 91.9100914
+              x_translation: 39.425763
+              y_translation: 60.06207550000005
+              z_translation: 107.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-EDFGIC121784_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A24 RI-EDFGIC121784 H18.30.002.CX.45
+      label: Female cingulate gyrus, rostral (anterior) part RI-EDFGIC121784
+      description: H18.30.002.10x.A24 H18.30.002.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-EDFGIC121784_Female_Block
           description: RI-EDFGIC121784
@@ -7609,13 +7609,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 67.975763
-              y_translation: 67.06207550000005
-              z_translation: 137.9100914
+              x_translation: 72.725763
+              y_translation: 101.46207550000005
+              z_translation: 103.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-RPPRQS965705_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.BN.001 RI-RPPRQS965705 H18.30.002.CX.46
+      label: Female bed nucleus of stria terminalis RI-RPPRQS965705
+      description: H18.30.002.10x.BN.001 H18.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-RPPRQS965705_Female_Block
           description: RI-RPPRQS965705
@@ -7651,13 +7651,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 74.475763
-              y_translation: 67.06207550000005
-              z_translation: 98.9100914
+              x_translation: 66.875763
+              y_translation: 66.36207550000005
+              z_translation: 103.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-PTSWTX441547_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.LP-VPL RI-PTSWTX441547 H18.30.002.CX.49
+      label: Female white matter of forebrain RI-PTSWTX441547
+      description: H18.30.002.10x.LP-VPL H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PTSWTX441547_Female_Block
           description: RI-PTSWTX441547
@@ -7693,13 +7693,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 94.06207550000005
-              z_translation: 104.4100914
+              x_translation: 44.825762999999995
+              y_translation: 71.31207550000005
+              z_translation: 79.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-PTLPMU215265_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.TF RI-PTLPMU215265 H18.30.002.CX.50
+      label: Female posterior parahippocampal gyrus RI-PTLPMU215265
+      description: H18.30.002.10x.TF H18.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-PTLPMU215265_Female_Block
           description: RI-PTLPMU215265
@@ -7735,13 +7735,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 96.56207550000005
-              z_translation: 74.4100914
+              x_translation: 44.825762999999995
+              y_translation: 44.31207550000005
+              z_translation: 77.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-UVNMSN363622_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX47.BF RI-UVNMSN363622 H19.30.002.CX.47
+      label: Female basal forebrain RI-UVNMSN363622
+      description: H19.30.002.CX47.BF H19.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-UVNMSN363622_Female_Block
           description: RI-UVNMSN363622
@@ -7777,13 +7777,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 85.975763
-              y_translation: 70.56207550000005
-              z_translation: 88.9100914
+              x_translation: 56.525763
+              y_translation: 57.362075500000046
+              z_translation: 100.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-WZZDVE986539_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.ANC RI-WZZDVE986539 H19.30.002.CX.48
+      label: Female ventral anterior nucleus of thalamus RI-WZZDVE986539
+      description: H19.30.002.10x.ANC H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WZZDVE986539_Female_Block
           description: RI-WZZDVE986539
@@ -7819,13 +7819,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 85.975763
-              y_translation: 81.56207550000005
-              z_translation: 115.9100914
+              x_translation: 56.525763
+              y_translation: 81.66207550000004
+              z_translation: 90.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-WVWWAR394411_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.GPi.003 RI-WVWWAR394411 H19.30.002.CX.49
+      label: Female white matter of forebrain RI-WVWWAR394411
+      description: H19.30.002.10x.GPi.003 H19.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WVWWAR394411_Female_Block
           description: RI-WVWWAR394411
@@ -7861,13 +7861,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 92.56207550000005
-              z_translation: 97.4100914
+              x_translation: 44.825762999999995
+              y_translation: 65.01207550000005
+              z_translation: 80.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-GZABDZ557985_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.SN.003 RI-GZABDZ557985 H19.30.002.CX.50
+      label: Female cerebral peduncle (crus cerebri) RI-GZABDZ557985
+      description: H19.30.002.10x.SN.003 H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-GZABDZ557985_Female_Block
           description: RI-GZABDZ557985
@@ -7903,13 +7903,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 83.475763
-              y_translation: 90.56207550000005
-              z_translation: 82.4100914
+              x_translation: 58.775763
+              y_translation: 51.51207550000005
+              z_translation: 82.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-AAFCXX832152_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.VLN RI-AAFCXX832152 H19.30.002.CX.51
+      label: Female white matter of forebrain RI-AAFCXX832152
+      description: H19.30.002.10x.VLN H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-AAFCXX832152_Female_Block
           description: RI-AAFCXX832152
@@ -7945,13 +7945,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 101.56207550000005
-              z_translation: 108.4100914
+              x_translation: 48.875763
+              y_translation: 74.91207550000004
+              z_translation: 72.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-UWRYZW263709_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.TF RI-UWRYZW263709 H19.30.002.CX.52
+      label: Female outside_brain RI-UWRYZW263709
+      description: H19.30.002.10x.TF H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-UWRYZW263709_Female_Block
           description: RI-UWRYZW263709
@@ -7987,13 +7987,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 107.975763
-              y_translation: 96.06207550000005
-              z_translation: 69.9100914
+              x_translation: 36.725763
+              y_translation: 40.26207550000005
+              z_translation: 77.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-YUXYAZ378241_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.BM RI-YUXYAZ378241 H19.30.001.CX.47
+      label: Female amygdalohippocampal area RI-YUXYAZ378241
+      description: H19.30.001.10x.BM H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YUXYAZ378241_Female_Block
           description: RI-YUXYAZ378241
@@ -8029,13 +8029,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 77.06207550000005
-              z_translation: 84.4100914
+              x_translation: 56.075763
+              y_translation: 53.31207550000005
+              z_translation: 94.7100914
     - id: https://doi.org/10.1126/science.add7046#RI-NPSSUT767844_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.GPi RI-NPSSUT767844 H19.30.001.CX.48
+      label: Female white matter of forebrain RI-NPSSUT767844
+      description: H19.30.001.10x.GPi H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NPSSUT767844_Female_Block
           description: RI-NPSSUT767844
@@ -8071,13 +8071,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 86.06207550000005
-              z_translation: 99.9100914
+              x_translation: 50.225763
+              y_translation: 67.26207550000005
+              z_translation: 86.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-MLMNMJ947811_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.A1C.003 RI-MLMNMJ947811 H19.30.001.CX.49
+      label: Female white matter of forebrain RI-MLMNMJ947811
+      description: H19.30.001.10x.A1C.003 H19.30.001.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-MLMNMJ947811_Female_Block
           description: RI-MLMNMJ947811
@@ -8113,13 +8113,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 101.06207550000005
-              z_translation: 107.4100914
+              x_translation: 33.575763
+              y_translation: 74.01207550000005
+              z_translation: 73.1100914
     - id: https://doi.org/10.1126/science.add7046#RI-ZWEDAD989582_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.PTR RI-ZWEDAD989582 H19.30.001.CX.50
+      label: Female cerebral aqueduct RI-ZWEDAD989582
+      description: H19.30.001.10x.PTR H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ZWEDAD989582_Female_Block
           description: RI-ZWEDAD989582
@@ -8155,13 +8155,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.475763
-              y_translation: 95.06207550000005
-              z_translation: 97.4100914
+              x_translation: 71.375763
+              y_translation: 65.01207550000005
+              z_translation: 78.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-INEJII502376_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.AON RI-INEJII502376 H19.30.001.CX.46
+      label: Female white matter of forebrain RI-INEJII502376
+      description: H19.30.001.10x.AON H19.30.001.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-INEJII502376_Female_Block
           description: RI-INEJII502376
@@ -8197,13 +8197,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 73.06207550000005
-              z_translation: 91.9100914
+              x_translation: 56.075763
+              y_translation: 60.06207550000005
+              z_translation: 98.3100914
     - id: https://doi.org/10.1126/science.add7046#RI-HCBDZC408147_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.BN.002 RI-HCBDZC408147 H18.30.002.CX.46
+      label: Female putamen RI-HCBDZC408147
+      description: H18.30.002.10x.BN.002 H18.30.002.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-HCBDZC408147_Female_Block
           description: RI-HCBDZC408147
@@ -8239,13 +8239,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 65.06207550000005
-              z_translation: 104.4100914
+              x_translation: 50.225763
+              y_translation: 71.31207550000005
+              z_translation: 105.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-DYAYFX370678_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A35-A36 RI-DYAYFX370678 H18.30.002.CX.49
+      label: Female perirhinal gyrus ( rostral part of FuGt) RI-DYAYFX370678
+      description: H18.30.002.10x.A35-A36 H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-DYAYFX370678_Female_Block
           description: RI-DYAYFX370678
@@ -8281,13 +8281,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 90.06207550000005
-              z_translation: 67.4100914
+              x_translation: 33.575763
+              y_translation: 38.01207550000005
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-QSZRUR996622_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.LG.002 RI-QSZRUR996622 H18.30.002.CX.50
+      label: Female white matter of forebrain RI-QSZRUR996622
+      description: H18.30.002.10x.LG.002 H18.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-QSZRUR996622_Female_Block
           description: RI-QSZRUR996622
@@ -8323,13 +8323,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 101.56207550000005
-              z_translation: 89.9100914
+              x_translation: 50.225763
+              y_translation: 58.26207550000005
+              z_translation: 72.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-YZQVQR277852_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.SI RI-YZQVQR277852 H19.30.002.CX.47
+      label: Female white matter of forebrain RI-YZQVQR277852
+      description: H19.30.002.10x.SI H19.30.002.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YZQVQR277852_Female_Block
           description: RI-YZQVQR277852
@@ -8365,13 +8365,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 82.975763
-              y_translation: 72.56207550000005
-              z_translation: 100.4100914
+              x_translation: 59.225763
+              y_translation: 67.71207550000005
+              z_translation: 98.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-TOPXSQ993942_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Cla RI-TOPXSQ993942 H19.30.002.CX.48
+      label: Female putamen RI-TOPXSQ993942
+      description: H19.30.002.10x.Cla H19.30.002.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TOPXSQ993942_Female_Block
           description: RI-TOPXSQ993942
@@ -8407,13 +8407,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 82.56207550000005
-              z_translation: 97.9100914
+              x_translation: 44.825762999999995
+              y_translation: 65.46207550000005
+              z_translation: 89.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-XBCAFB216473_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.A35-A36 RI-XBCAFB216473 H19.30.002.CX.49
+      label: Female anterior parahippocampal gyrus RI-XBCAFB216473
+      description: H19.30.002.10x.A35-A36 H19.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XBCAFB216473_Female_Block
           description: RI-XBCAFB216473
@@ -8449,13 +8449,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 82.56207550000005
-              z_translation: 69.4100914
+              x_translation: 44.825762999999995
+              y_translation: 39.81207550000005
+              z_translation: 89.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-XTRTUV988509_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.CM-Pf RI-XTRTUV988509 H19.30.002.CX.50
+      label: Female zona incerta RI-XTRTUV988509
+      description: H19.30.002.10x.CM-Pf H19.30.002.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-XTRTUV988509_Female_Block
           description: RI-XTRTUV988509
@@ -8491,13 +8491,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 90.06207550000005
-              z_translation: 96.9100914
+              x_translation: 56.075763
+              y_translation: 64.56207550000005
+              z_translation: 83.0100914
     - id: https://doi.org/10.1126/science.add7046#RI-ONLNLO422589_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.PAG-DR RI-ONLNLO422589 H19.30.002.CX.51
+      label: Female red nucleus RI-ONLNLO422589
+      description: H19.30.002.10x.PAG-DR H19.30.002.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-ONLNLO422589_Female_Block
           description: RI-ONLNLO422589
@@ -8533,13 +8533,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 67.975763
-              y_translation: 92.06207550000005
-              z_translation: 88.9100914
+              x_translation: 72.725763
+              y_translation: 57.362075500000046
+              z_translation: 81.2100914
     - id: https://doi.org/10.1126/science.add7046#RI-SQRPXQ758487_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.TH-TL RI-SQRPXQ758487 H19.30.002.CX.52
+      label: Female outside_brain RI-SQRPXQ758487
+      description: H19.30.002.10x.TH-TL H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-SQRPXQ758487_Female_Block
           description: RI-SQRPXQ758487
@@ -8575,13 +8575,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 101.56207550000005
-              z_translation: 78.9100914
+              x_translation: 50.225763
+              y_translation: 48.362075500000046
+              z_translation: 72.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-SQRPXQ758487_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX52.PPHC RI-SQRPXQ758487 H19.30.002.CX.52
+      label: Female posterior parahippocampal gyrus RI-SQRPXQ758487
+      description: H19.30.002.CX52.PPHC H19.30.002.CX.52
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-SQRPXQ758487_Female_Block
           description: RI-SQRPXQ758487
@@ -8617,13 +8617,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 101.56207550000005
-              z_translation: 81.9100914
+              x_translation: 50.225763
+              y_translation: 51.06207550000005
+              z_translation: 72.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-NGNIGO731073_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.CEN RI-NGNIGO731073 H19.30.001.CX.47
+      label: Female medial nucleus RI-NGNIGO731073
+      description: H19.30.001.10x.CEN H19.30.001.CX.47
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-NGNIGO731073_Female_Block
           description: RI-NGNIGO731073
@@ -8659,13 +8659,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 92.975763
-              y_translation: 76.56207550000005
-              z_translation: 89.9100914
+              x_translation: 50.225763
+              y_translation: 58.26207550000005
+              z_translation: 95.1600914
     - id: https://doi.org/10.1126/science.add7046#RI-YCBUVV442956_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.VLN RI-YCBUVV442956 H19.30.001.CX.48
+      label: Female ventral lateral nucleus of thalamus RI-YCBUVV442956
+      description: H19.30.001.10x.VLN H19.30.001.CX.48
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YCBUVV442956_Female_Block
           description: RI-YCBUVV442956
@@ -8701,13 +8701,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 87.975763
-              y_translation: 90.56207550000005
-              z_translation: 116.4100914
+              x_translation: 54.725763
+              y_translation: 82.11207550000005
+              z_translation: 82.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-YVADAX986253_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.ETH RI-YVADAX986253 H19.30.001.CX.50
+      label: Female pretectal region RI-YVADAX986253
+      description: H19.30.001.10x.ETH H19.30.001.CX.50
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YVADAX986253_Female_Block
           description: RI-YVADAX986253
@@ -8743,13 +8743,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 62.475763
-              y_translation: 96.06207550000005
-              z_translation: 99.9100914
+              x_translation: 77.675763
+              y_translation: 67.26207550000005
+              z_translation: 77.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-FCYADC905422_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.SI RI-FCYADC905422 H19.30.001.CX.46
+      label: Female white matter of forebrain RI-FCYADC905422
+      description: H19.30.001.10x.SI H19.30.001.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FCYADC905422_Female_Block
           description: RI-FCYADC905422
@@ -8785,13 +8785,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 80.475763
-              y_translation: 71.56207550000005
-              z_translation: 96.9100914
+              x_translation: 61.475763
+              y_translation: 64.56207550000005
+              z_translation: 99.6600914
     - id: https://doi.org/10.1126/science.add7046#RI-AAEYDE808569_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.MTG RI-AAEYDE808569 H18.30.002.CX.49
+      label: Female middle temporal gyrus RI-AAEYDE808569
+      description: H18.30.002.10x.MTG H18.30.002.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-AAEYDE808569_Female_Block
           description: RI-AAEYDE808569
@@ -8827,13 +8827,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 135.975763
-              y_translation: 92.56207550000005
-              z_translation: 77.4100914
+              x_translation: 11.525762999999998
+              y_translation: 47.01207550000005
+              z_translation: 80.7600914
     - id: https://doi.org/10.1126/science.add7046#RI-IIHMLL979553_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.Pro RI-IIHMLL979553 H18.30.002.CX.53
+      label: Female precuneus RI-IIHMLL979553
+      description: H18.30.002.10x.Pro H18.30.002.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-IIHMLL979553_Female_Block
           description: RI-IIHMLL979553
@@ -8869,13 +8869,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 123.56207550000005
-              z_translation: 109.9100914
+              x_translation: 56.075763
+              y_translation: 76.26207550000005
+              z_translation: 52.860091399999995
     - id: https://doi.org/10.1126/science.add7046#RI-OJJLFH467043_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.10x.Pro.001 RI-OJJLFH467043 H19.30.002.CX.56
+      label: Female white matter of forebrain RI-OJJLFH467043
+      description: H19.30.002.10x.Pro.001 H19.30.002.CX.56
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-OJJLFH467043_Female_Block
           description: RI-OJJLFH467043
@@ -8911,13 +8911,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 128.06207550000005
-              z_translation: 102.4100914
+              x_translation: 48.875763
+              y_translation: 69.51207550000005
+              z_translation: 48.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-OJJLFH467043_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.002.CX56.Pro RI-OJJLFH467043 H19.30.002.CX.56
+      label: Female white matter of forebrain RI-OJJLFH467043
+      description: H19.30.002.CX56.Pro H19.30.002.CX.56
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-OJJLFH467043_Female_Block
           description: RI-OJJLFH467043
@@ -8953,13 +8953,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 94.475763
-              y_translation: 128.06207550000005
-              z_translation: 100.9100914
+              x_translation: 48.875763
+              y_translation: 68.16207550000004
+              z_translation: 48.8100914
     - id: https://doi.org/10.1126/science.add7046#RI-YXXUBT254845_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.Ig RI-YXXUBT254845 H19.30.001.CX.49
+      label: Female white matter of forebrain RI-YXXUBT254845
+      description: H19.30.001.10x.Ig H19.30.001.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YXXUBT254845_Female_Block
           description: RI-YXXUBT254845
@@ -8995,13 +8995,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 100.475763
-              y_translation: 99.56207550000005
-              z_translation: 114.4100914
+              x_translation: 43.475763
+              y_translation: 80.31207550000005
+              z_translation: 74.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-YXXUBT254845_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX49.Ig RI-YXXUBT254845 H19.30.001.CX.49
+      label: Female white matter of forebrain RI-YXXUBT254845
+      description: H19.30.001.CX49.Ig H19.30.001.CX.49
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YXXUBT254845_Female_Block
           description: RI-YXXUBT254845
@@ -9037,13 +9037,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 100.475763
-              y_translation: 99.56207550000005
-              z_translation: 113.9100914
+              x_translation: 43.475763
+              y_translation: 79.86207550000005
+              z_translation: 74.4600914
     - id: https://doi.org/10.1126/science.add7046#RI-FFWYWA968860_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX51.HIPc RI-FFWYWA968860 H19.30.001.CX.51
+      label: Female white matter of forebrain RI-FFWYWA968860
+      description: H19.30.001.CX51.HIPc H19.30.001.CX.51
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-FFWYWA968860_Female_Block
           description: RI-FFWYWA968860
@@ -9079,13 +9079,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 98.975763
-              y_translation: 105.06207550000005
-              z_translation: 90.9100914
+              x_translation: 44.825762999999995
+              y_translation: 59.16207550000005
+              z_translation: 69.5100914
     - id: https://doi.org/10.1126/science.add7046#RI-WQPSXS871769_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.10x.Pro RI-WQPSXS871769 H19.30.001.CX.53
+      label: Female cingulate gyrus, caudal (posterior) part RI-WQPSXS871769
+      description: H19.30.001.10x.Pro H19.30.001.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WQPSXS871769_Female_Block
           description: RI-WQPSXS871769
@@ -9121,13 +9121,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.975763
-              y_translation: 120.56207550000005
-              z_translation: 111.4100914
+              x_translation: 55.625763
+              y_translation: 77.61207550000005
+              z_translation: 55.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-WQPSXS871769_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX53.Pro RI-WQPSXS871769 H19.30.001.CX.53
+      label: Female cingulate gyrus, caudal (posterior) part RI-WQPSXS871769
+      description: H19.30.001.CX53.Pro H19.30.001.CX.53
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-WQPSXS871769_Female_Block
           description: RI-WQPSXS871769
@@ -9163,13 +9163,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.975763
-              y_translation: 120.56207550000005
-              z_translation: 106.4100914
+              x_translation: 55.625763
+              y_translation: 73.11207550000005
+              z_translation: 55.5600914
     - id: https://doi.org/10.1126/science.add7046#RI-JFHNOK860813_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H18.30.002.10x.A46 RI-JFHNOK860813 H19.30.001.CX.43
+      label: Female middle frontal gyrus RI-JFHNOK860813
+      description: H18.30.002.10x.A46 H19.30.001.CX.43
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-JFHNOK860813_Female_Block
           description: RI-JFHNOK860813
@@ -9205,13 +9205,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 46.06207550000005
-              z_translation: 153.4100914
+              x_translation: 33.575763
+              y_translation: 115.41207550000004
+              z_translation: 122.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-JFHNOK860813_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX43.A46 RI-JFHNOK860813 H19.30.001.CX.43
+      label: Female middle frontal gyrus RI-JFHNOK860813
+      description: H19.30.001.CX43.A46 H19.30.001.CX.43
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-JFHNOK860813_Female_Block
           description: RI-JFHNOK860813
@@ -9247,13 +9247,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 111.475763
-              y_translation: 46.06207550000005
-              z_translation: 153.9100914
+              x_translation: 33.575763
+              y_translation: 115.86207550000006
+              z_translation: 122.6100914
     - id: https://doi.org/10.1126/science.add7046#RI-TZTUVW649810_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX45.A25 RI-TZTUVW649810 H19.30.001.CX.45
+      label: Female subcallosal gyrus (parolfactory gyrus) RI-TZTUVW649810
+      description: H19.30.001.CX45.A25 H19.30.001.CX.45
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-TZTUVW649810_Female_Block
           description: RI-TZTUVW649810
@@ -9289,13 +9289,13 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 69.975763
-              y_translation: 54.06207550000005
-              z_translation: 100.9100914
+              x_translation: 70.925763
+              y_translation: 68.16207550000004
+              z_translation: 115.4100914
     - id: https://doi.org/10.1126/science.add7046#RI-YVACZX756853_Female_DONOR
       sex: Female
-      label: Female undefined undefined undefined
-      description: H19.30.001.CX46.CaB RI-YVACZX756853 H19.30.001.CX.46
+      label: Female body of caudate RI-YVACZX756853
+      description: H19.30.001.CX46.CaB H19.30.001.CX.46
       samples:
         - id: https://doi.org/10.1126/science.add7046#RI-YVACZX756853_Female_Block
           description: RI-YVACZX756853
@@ -9331,6 +9331,6 @@
               x_rotation: 0
               y_rotation: 0
               z_rotation: 0
-              x_translation: 86.475763
-              y_translation: 67.56207550000005
-              z_translation: 121.9100914
+              x_translation: 56.075763
+              y_translation: 87.06207550000005
+              z_translation: 103.2600914
