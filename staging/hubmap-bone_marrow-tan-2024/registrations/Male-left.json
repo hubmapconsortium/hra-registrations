@@ -1,0 +1,42 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7",
+  "@type": "SpatialEntity",
+  "creator": "Shovik Bandyopadhyay",
+  "creator_first_name": "Shovik",
+  "creator_last_name": "Bandyopadhyay",
+  "creator_email": "shovik.bandyopadhyay@pennmedicine.upenn.edu",
+  "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+  "creation_date": "2025-10-02",
+  "ccf_annotations": [
+    "http://purl.org/sig/ont/fma/fma24475"
+  ],
+  "slice_thickness": 5,
+  "slice_count": 1,
+  "x_dimension": 50,
+  "y_dimension": 50,
+  "z_dimension": 5,
+  "dimension_units": "millimeter",
+  "publication_doi": "https://doi.org/10.1016/j.cell.2024.04.013",
+  "consortium": "HuBMAP",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary",
+    "placement_date": "2025-10-02",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 90,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 25,
+    "y_translation": 866,
+    "z_translation": 108,
+    "translation_units": "millimeter"
+  }
+}
