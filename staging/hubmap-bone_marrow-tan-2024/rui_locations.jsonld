@@ -1,0 +1,1229 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "H10",
+      "@type": "Donor",
+      "label": "Female, Age 68",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 68,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H10#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 748,
+              "z_translation": 62,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H10#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H14",
+      "@type": "Donor",
+      "label": "Male, Age 64",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 64,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "H14#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 866,
+              "z_translation": 108,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H14#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H14#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H21",
+      "@type": "Donor",
+      "label": "Male, Age 57",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 57,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "H21#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 866,
+              "z_translation": 108,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H21#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H23",
+      "@type": "Donor",
+      "label": "Male, Age 59",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 59,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "H23#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 866,
+              "z_translation": 108,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H23#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H24",
+      "@type": "Donor",
+      "label": "Female, Age 73",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 73,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H24#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 748,
+              "z_translation": 62,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H24#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H26",
+      "@type": "Donor",
+      "label": "Male, Age 54",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 54,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "H26#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/6b4d596d-3b01-4896-8234-75a6a72aebe7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 866,
+              "z_translation": 108,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H26#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H27",
+      "@type": "Donor",
+      "label": "Female, Age 80",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 80,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H27#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 748,
+              "z_translation": 62,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H27#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H32",
+      "@type": "Donor",
+      "label": "Female, Age 65",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 65,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H32#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 748,
+              "z_translation": 62,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H32#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H32#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H33",
+      "@type": "Donor",
+      "label": "Male, Age 74",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 74,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "H33#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d073cee2-e62f-42de-bd5a-e9d20bc9d435",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24474"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d073cee2-e62f-42de-bd5a-e9d20bc9d435_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -91,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 153,
+              "y_translation": 863,
+              "z_translation": 107,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H33#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H33#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H34",
+      "@type": "Donor",
+      "label": "Male, Age 52",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 52,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "H34#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d073cee2-e62f-42de-bd5a-e9d20bc9d435",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24474"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d073cee2-e62f-42de-bd5a-e9d20bc9d435_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -91,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 153,
+              "y_translation": 863,
+              "z_translation": 107,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H34#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H35",
+      "@type": "Donor",
+      "label": "Female, Age 66",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 66,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H35#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24475"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/1bdefd98-d1af-40c0-9849-3f34518cdf80_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 25,
+              "y_translation": 748,
+              "z_translation": 62,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H35#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H35#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H36",
+      "@type": "Donor",
+      "label": "Female, Age 65",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 65,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H36#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24474"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -91,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 78,
+              "y_translation": 747,
+              "z_translation": 61,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-right/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H36#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H36#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H37",
+      "@type": "Donor",
+      "label": "Female, Age 69",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 69,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H37#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24474"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -91,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 78,
+              "y_translation": 747,
+              "z_translation": 61,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-right/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H37#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H38",
+      "@type": "Donor",
+      "label": "Female, Age 71",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 71,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H38#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24474"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -91,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 78,
+              "y_translation": 747,
+              "z_translation": 61,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-right/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H38#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H38#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H39",
+      "@type": "Donor",
+      "label": "Male, Age 72",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 72,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "H39#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d073cee2-e62f-42de-bd5a-e9d20bc9d435",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24474"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d073cee2-e62f-42de-bd5a-e9d20bc9d435_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -91,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 153,
+              "y_translation": 863,
+              "z_translation": 107,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H39#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H39#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "H41",
+      "@type": "Donor",
+      "label": "Female, Age 54",
+      "description": "Entered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Shovik Bandopadhyay",
+      "provider_uuid": "9384E3A0-DED3-4A72-B5BF-44530D69D555",
+      "age": 54,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "H41#TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+          "description": "50 x 50 x 5 millimeter, 5 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38",
+            "@type": "SpatialEntity",
+            "creator": "Shovik Bandyopadhyay",
+            "creator_first_name": "Shovik",
+            "creator_last_name": "Bandyopadhyay",
+            "creator_orcid": "https://orcid.org/0000-0003-3919-3914",
+            "creation_date": "2025-10-02",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma24474"
+            ],
+            "x_dimension": 50,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/bef32c60-2261-4e08-b7a8-451de78d3a38_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-02",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -91,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 78,
+              "y_translation": 747,
+              "z_translation": 61,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/knee-female-right/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "H41#TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.25452/figshare.plus.c.7174914",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "H41#TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 9/1/2025, Shovik Bandyopadhyay, Shovik Bandopadhyay",
+              "description": "Data/Assay Types: scRNA-seq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355",
+              "technology": "scRNA-seq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
