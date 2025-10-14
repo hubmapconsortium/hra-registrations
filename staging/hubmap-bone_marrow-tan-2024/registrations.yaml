@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
 - consortium_name: HuBMAP
-  provider_name: Shovik Bandopadhyay
+  provider_name: CHOP
   provider_uuid: 9384E3A0-DED3-4A72-B5BF-44530D69D555
   defaults:
     id: https://doi.org/10.1016/j.cell.2024.04.013
@@ -10,7 +10,7 @@
   donors:
     - sex: Female
       age: 68
-      id: H10
+      label: H10
       samples:
       - rui_location: Female-left.json
         datasets:
@@ -18,7 +18,7 @@
           technology: CODEX
     - sex: Male
       age: 64
-      id: H14
+      label: H14
       samples:
       - rui_location: Male-left.json
         datasets:
@@ -28,7 +28,7 @@
           technology: scRNA-seq
     - sex: Male
       age: 57
-      id: H21
+      label: H21
       samples:
       - rui_location: Male-left.json
         datasets:
@@ -36,7 +36,7 @@
           technology: scRNA-seq
     - sex: Male
       age: 59
-      id: H23
+      label: H23
       samples:
       - rui_location: Male-left.json
         datasets:
@@ -44,7 +44,7 @@
           technology: scRNA-seq
     - sex: Female
       age: 73
-      id: H24
+      label: H24
       samples:
       - rui_location: Female-left.json
         datasets:
@@ -52,7 +52,7 @@
           technology: scRNA-seq                         
     - sex: Male
       age: 54
-      id: H26
+      label: H26
       samples:
       - rui_location: Male-left.json
         datasets:
@@ -60,7 +60,7 @@
           technology: CODEX      
     - sex: Female
       age: 80
-      id: H27
+      label: H27
       samples:
       - rui_location: Female-left.json
         datasets:
@@ -68,7 +68,7 @@
           technology: CODEX
     - sex: Female
       age: 65
-      id: H32
+      label: H32
       samples:
       - rui_location: Female-left.json
         datasets:
@@ -78,7 +78,7 @@
           technology: scRNA-seq
     - sex: Male
       age: 74
-      id: H33
+      label: H33
       samples:
       - rui_location: Male-right.json
         datasets:
@@ -88,7 +88,7 @@
           technology: scRNA-seq
     - sex: Male
       age: 52
-      id: H34
+      label: H34
       samples:
       - rui_location: Male-right.json
         datasets:
@@ -96,7 +96,7 @@
           technology: scRNA-seq
     - sex: Female
       age: 66
-      id: H35
+      label: H35
       samples:
       - rui_location: Female-left.json
         datasets:
@@ -106,7 +106,7 @@
           technology: scRNA-seq
     - sex: Female
       age: 65
-      id: H36
+      label: H36
       samples:
       - rui_location: Female-right.json
         datasets:
@@ -116,7 +116,7 @@
           technology: scRNA-seq
     - sex: Female
       age: 69
-      id: H37
+      label: H37
       samples:
       - rui_location: Female-right.json
         datasets:
@@ -124,7 +124,7 @@
           technology: CODEX
     - sex: Female
       age: 71
-      id: H38
+      label: H38
       samples:
       - rui_location: Female-right.json
         datasets:
@@ -134,7 +134,7 @@
           technology: scRNA-seq
     - sex: Male
       age: 72
-      id: H39
+      label: H39
       samples:
       - rui_location: Male-right.json
         datasets:
@@ -144,7 +144,7 @@
           technology: scRNA-seq
     - sex: Female
       age: 54
-      id: H41
+      label: H41
       samples:
       - rui_location: Female-right.json
         datasets:
