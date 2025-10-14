@@ -2,12 +2,12 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-snyder-colon-2023#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-colon-snyder-2024#Donor1",
       "@type": "Donor",
       "label": "Male, Age 78, BMI 35.1",
       "description": "Entered 0/15/2024, Thomas V Karathanos, Stanford University",
       "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
-      "consortium_name": "HuBMAP",
+      "consortium_name": "HTAN",
       "provider_name": "Stanford University",
       "provider_uuid": "6FB6914E-2DB8-11EF-B58D-20E2A8B75C6B",
       "age": 78,
@@ -15,7 +15,7 @@
       "bmi": 35.1,
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/hubmap-snyder-colon-2023#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-colon-snyder-2024#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
@@ -60,7 +60,270 @@
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_3",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_4",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_5",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_6",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_7",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_8",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_9",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_10",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_11",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_12",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_13",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_14",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_15",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_16",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_17",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_18",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_19",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_20",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_21",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_22",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_23",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_24",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_25",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_26",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_27",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_28",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_29",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_30",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han#layer_31",
+              "@type": "Dataset",
+              "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://data.humantumoratlas.org/publications/hta10_2025_tbd_rongduo-han",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     }
