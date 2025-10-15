@@ -11,144 +11,200 @@
     - sex: Female
       age: 68
       label: H10
+      id: https://entity.api.hubmapconsortium.org/entities/86866bf2bceb5cb6e714259dc90a4c4c
       samples:
       - rui_location: Female-left.json
-        datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        id: https://entity.api.hubmapconsortium.org/entities/e901da904d00079b497c9dfbe248f609
+        datasets: 
+        - id: https://entity.api.hubmapconsortium.org/entities/4c554f66f0591ac4c6754eae97f101ae
           technology: CODEX
     - sex: Male
       age: 64
       label: H14
+      id: https://entity.api.hubmapconsortium.org/entities/ae46bd4ea93de1139a2c5e9eebe401f3
       samples:
       - rui_location: Male-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/72a8b86172b9dbc973e788c3223e4e35
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/49d26339c81d57ad896406ec083b65c9
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Male-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/7226fd83d5e82213bcb10aca20d293ea
+        datasets:        
+        - id: https://entity.api.hubmapconsortium.org/entities/541ba483b19c09536c62d9d2e8b98427
           technology: scRNA-seq
     - sex: Male
       age: 57
       label: H21
+      id: https://entity.api.hubmapconsortium.org/entities/91f4ce651af3678d372f311b8743c2d7
       samples:
       - rui_location: Male-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/5fb7f16d5d927efd5d698b721b5753ec
         datasets:
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+        - id: https://entity.api.hubmapconsortium.org/entities/67df87f036be7b428ab9d5e5c5a92e87
           technology: scRNA-seq
     - sex: Male
       age: 59
       label: H23
+      id: https://entity.api.hubmapconsortium.org/entities/ba74003b3a886b09fdcf2b3abbae1bb5
       samples:
       - rui_location: Male-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/e1844e2788db7b1c1bfeda01a2dbadc3
         datasets:
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+        - id: https://entity.api.hubmapconsortium.org/entities/0426c0d863859eeaedd3fd25d210801e
           technology: scRNA-seq
     - sex: Female
       age: 73
       label: H24
+      id: https://entity.api.hubmapconsortium.org/entities/47726f1a25752945461c27c7eecd12f9
       samples:
       - rui_location: Female-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/32d089a27e862f1dc3416e7f32da1297
         datasets:
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+        - id: https://entity.api.hubmapconsortium.org/entities/33b57f0c698f87808bf8656af4e336d1
           technology: scRNA-seq                         
     - sex: Male
       age: 54
       label: H26
+      id: https://entity.api.hubmapconsortium.org/entities/7cebe0e2a09d0aa1ed1724f89c961a8e
       samples:
       - rui_location: Male-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/b0de466ec725aff86a6abfdcb20b9c69
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/073ef663cee7c4158bd2b978e87dd80d
           technology: CODEX      
     - sex: Female
       age: 80
       label: H27
+      id: https://entity.api.hubmapconsortium.org/entities/63e53ffd31fafb9a75dffdffd127f9ac
       samples:
       - rui_location: Female-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/5c5e3ab7f87dba17cd431bd954634b6f
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/a0e6bbfca288734bc48e04eaf7e52127
           technology: CODEX
     - sex: Female
       age: 65
       label: H32
+      id: https://entity.api.hubmapconsortium.org/entities/7293d9ff07b4b6c6a6a8745dc259ba4c
       samples:
       - rui_location: Female-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/d313783485d02db1eee19687e24c3a27
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/f7de1ec1c3dd6611356ce5dcb96a2ef9
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Female-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/27076b03fd6f9c67cbaa2eae208beedb
+        datasets:
+        - id: https://entity.api.hubmapconsortium.org/entities/779ec7065c64e808da9db57e5f03cdd6
           technology: scRNA-seq
     - sex: Male
       age: 74
       label: H33
+      id: https://entity.api.hubmapconsortium.org/entities/f7df19a5b8190b7e85b32ca15c3ac348
       samples:
       - rui_location: Male-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/5311a67981ea3e5053d60c825195f729
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/af5493ad664c1b6c1e8c40582d66e809
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Male-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/356eb43af76c2eae651db36ea4f72a3e
+        datasets:
+        - id: https://entity.api.hubmapconsortium.org/entities/1c531fb835018a793723f182cd997c14
           technology: scRNA-seq
     - sex: Male
       age: 52
       label: H34
+      id: https://entity.api.hubmapconsortium.org/entities/ec33a7bb0d80e1569ba2cf8bd4f72f10
       samples:
       - rui_location: Male-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/be5e63054893e54b27042ef189e04b32
         datasets:
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+        - id: https://entity.api.hubmapconsortium.org/entities/f8669adc5e08cbfd68916329150418e6
           technology: scRNA-seq
     - sex: Female
       age: 66
       label: H35
+      id: https://entity.api.hubmapconsortium.org/entities/50ab71df88367d35fc9055ce2ed6e3b7
       samples:
       - rui_location: Female-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/4bd2712dc425591bef6d255e952664e0
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/2aa9170ed6c7cf62c7fc2a6c1be011d0
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Female-left.json
+        id: https://entity.api.hubmapconsortium.org/entities/b973795cbcff95abda181f4b188b7e26
+        datasets:
+        - id: https://entity.api.hubmapconsortium.org/entities/c1b6a0a5b0e5fee5307ea20f7da00b42
           technology: scRNA-seq
     - sex: Female
       age: 65
       label: H36
+      id: https://entity.api.hubmapconsortium.org/entities/7165852f977a966b6cfac523e5f336c5
       samples:
       - rui_location: Female-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/71a16ffbc1b34bc9901369f2f23bb567
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/bc64a88cfa2c1e8d6b5f114aa4b6e342
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Female-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/00be8765f2765e05041705bd9f2e6084
+        datasets:
+        - id: https://entity.api.hubmapconsortium.org/entities/34a6b547c0fb40ddaa064efc33e9c74b
           technology: scRNA-seq
     - sex: Female
       age: 69
       label: H37
+      id: https://entity.api.hubmapconsortium.org/entities/045ab6fe1aa01998e4f3192de07e7893
       samples:
       - rui_location: Female-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/ae70d4f87c27d3f40f45fc2f8c798d0d
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/459f53fff6a70d196f492fb9e941a6c9
           technology: CODEX
     - sex: Female
       age: 71
       label: H38
+      id: https://entity.api.hubmapconsortium.org/entities/88e957136588e2c4a9ed55a590eefb69
       samples:
       - rui_location: Female-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/a7e09cf4a6df94b3262cdbe4180db550
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/5d216b385701fb03d5c2b64421c63da5
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Female-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/31095f945ba8a4c5c8006dbbf0417ff6
+        datasets:
+        - id: https://entity.api.hubmapconsortium.org/entities/4ee86a2c07e8b56d99bd5a795bafbc0d
           technology: scRNA-seq
     - sex: Male
       age: 72
       label: H39
+      id: https://entity.api.hubmapconsortium.org/entities/cae295acebc5a6bbc62b58a825fc50ea
       samples:
       - rui_location: Male-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/e13a5346468bfca86cf8e9195527e279
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/3a7c14f61949ca01a0a19dfc26579542
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Male-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/e2b0ca1e5fc5449f35e05f7c0e7dc37d
+        datasets:
+        - id: https://entity.api.hubmapconsortium.org/entities/ba5413228511cde99278e44f05be21d1
           technology: scRNA-seq
     - sex: Female
       age: 54
       label: H41
+      id: https://entity.api.hubmapconsortium.org/entities/2eb51e23b47b639a3a726ad175b50a0b
       samples:
       - rui_location: Female-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/86d2aeb7d11d6de91c0b7895a39a9035
         datasets:
-        - link: https://doi.org/10.25452/figshare.plus.c.7174914
+        - id: https://entity.api.hubmapconsortium.org/entities/d77a1f0fb480ee3364ba65a5ad94a8b8
           technology: CODEX
-        - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253355
+      - rui_location: Female-right.json
+        id: https://entity.api.hubmapconsortium.org/entities/c47c1cd4dd917b3c83ec9d5ea4e1c8aa
+        datasets:
+        - id: https://entity.api.hubmapconsortium.org/entities/07219375c3496c896fa04a6d20157b7a
           technology: scRNA-seq
