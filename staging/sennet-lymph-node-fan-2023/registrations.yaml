@@ -14,7 +14,9 @@
       samples:
       - rui_location: SNT323.GLNZ.236.json
         datasets:
-          - link: https://data.sennetconsortium.org/dataset?uuid=857567b04796566e6ed7f639bfe093e4/
+          - link: https://data.sennetconsortium.org/dataset?uuid=4f0d1913fda94d02e82d928951dbcdab
+            id: https://data.sennetconsortium.org/dataset?uuid=4f0d1913fda94d02e82d928951dbcdab
+            label: LN22921
             technology: PhenoCycler
     - sex: Male
       age: 65
@@ -22,7 +24,9 @@
       samples:
       - rui_location: SNT835.DCTC.698.json
         datasets:
-          - link: https://data.sennetconsortium.org/sample?uuid=c2af14a9891047237a2a2457fa4b9d07/
+          - link: https://data.sennetconsortium.org/dataset?uuid=bc2380a1970abded1129ed77507be349
+            id: https://data.sennetconsortium.org/dataset?uuid=bc2380a1970abded1129ed77507be349
+            label: LN24336
             technology: PhenoCycler
     - sex: Male
       age: 50
@@ -30,7 +34,9 @@
       samples:
       - rui_location: SNT423.GZGS.997.json
         datasets:
-        - link: https://data.sennetconsortium.org/dataset?uuid=5c4319dcd6b8cb0b9b52c8fd868610d4/
+        - link: https://data.sennetconsortium.org/dataset?uuid=cc703095438a75d64e4a3fe5fbcead9c
+          id: https://data.sennetconsortium.org/dataset?uuid=cc703095438a75d64e4a3fe5fbcead9c
+          label: LN27766
           technology: PhenoCycler
     - sex: Female 
       age: 25
@@ -38,7 +44,9 @@
       samples:
       - rui_location: SNT633.QPLM.829.json
         datasets:
-        - link: https://data.sennetconsortium.org/sample?uuid=7024d33d0675505567e3fcd260bad26c/
+        - id: https://data.sennetconsortium.org/dataset?uuid=231a3d0cc7fb7506194109b68caa0b6a
+          label: LN00560
+          link: https://data.sennetconsortium.org/dataset?uuid=231a3d0cc7fb7506194109b68caa0b6a
           technology: PhenoCycler
     - sex: Male 
       age: 86
@@ -46,13 +54,7 @@
       samples:
       - rui_location: SNT273.WMKM.437.json
         datasets:
-        - link: https://data.sennetconsortium.org/dataset?uuid=241ed228217fc2ff2a7fbc54c1a1f152/
-          technology: PhenoCycler
-    - sex: Female 
-      age: 22
-      bmi: 23.8
-      samples:
-      - rui_location: SNT744.WLQS.695.json
-        datasets:
-        - link: https://data.sennetconsortium.org/dataset?uuid=744bf132b596f09935413fae10374909/
+        - link: https://data.sennetconsortium.org/dataset?uuid=be4874c329c8dfd14b91c682e613daed/
+          id: https://data.sennetconsortium.org/dataset?uuid=be4874c329c8dfd14b91c682e613daed
+          label: LN00837
           technology: PhenoCycler
