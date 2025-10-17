@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Query HuBMAP Entity API descendants endpoint for each UUID
-and extract Dataset descendants with their dataset_type
+and extract Dataset descendants with their dataset_type and group_name
 Uses recursive descent to drill down through Samples to find Datasets
 """
 
@@ -11,12 +11,12 @@ import time
 
 # API Configuration
 API_BASE = "https://entity.api.hubmapconsortium.org"
-API_KEY = "AgvKjD7WE0nwzVnorzQEaO6Vbry35OvOjJVKYnjo529lBYrO23HzCk4nb5pDwD1b2z2ONgej18nDnrsOMmwdaTmBQNV"
+API_KEY = "AgzWp5q7p2dQ3DJYJ5jzJybjYnek1W3No4PaYrMvBXvd1xV1bNSkCQO44MXX8E5pvQdD46lg1BN37qtb04VPnSaY014"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
 # File paths
-uuid_file = "/Users/dequeue/Desktop/cae16120c9edd555aa7d811fe94d39de/cae16120c9edd555aa7d811fe94d39de.md"
-output_csv = "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/descendants_datasets.csv"
+uuid_file = "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/scripts/millitome datasets/uuids.md"
+output_csv = "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/scripts/millitome datasets/descendants_datasets.csv"
 
 def get_all_descendants_recursive(uuid, depth=0, max_depth=3, visited=None):
     """Recursively get all descendants, drilling down to find Datasets"""
@@ -79,6 +79,18 @@ def extract_dataset_info(descendants_list):
             })
     return datasets
 
+def get_dataset_details(dataset_uuid):
+    """Fetch full dataset details to get group_name"""
+    url = f"{API_BASE}/entities/{dataset_uuid}"
+    try:
+        response = requests.get(url, headers=HEADERS)
+        response.raise_for_status()
+        data = response.json()
+        return data.get('group_name', 'N/A')
+    except requests.RequestException as e:
+        print(f"      Error fetching details for {dataset_uuid}: {e}")
+        return 'N/A'
+
 # Read UUIDs
 print(f"Reading UUIDs from file...")
 with open(uuid_file, 'r') as f:
@@ -87,7 +99,7 @@ with open(uuid_file, 'r') as f:
 print(f"Processing {len(uuids)} UUIDs...\n")
 
 # Prepare CSV
-csv_data = [["Original UUID", "Descendant UUID", "Dataset Type"]]
+csv_data = [["Original UUID", "Descendant UUID", "Dataset Type", "Group Name"]]
 
 # Process each UUID
 for idx, original_uuid in enumerate(uuids, 1):
@@ -102,8 +114,11 @@ for idx, original_uuid in enumerate(uuids, 1):
     if datasets:
         print(f"  ✅ Found {len(datasets)} Dataset descendants")
         for dataset in datasets:
-            csv_data.append([original_uuid, dataset['uuid'], dataset['dataset_type']])
-            print(f"     - {dataset['uuid']}: {dataset['dataset_type']}")
+            # Fetch group_name for each dataset
+            group_name = get_dataset_details(dataset['uuid'])
+            csv_data.append([original_uuid, dataset['uuid'], dataset['dataset_type'], group_name])
+            print(f"     - {dataset['uuid']}: {dataset['dataset_type']} ({group_name})")
+            time.sleep(0.1)  # Rate limiting for detail fetches
     else:
         print(f"  ⚠️  No Dataset descendants found")
     
