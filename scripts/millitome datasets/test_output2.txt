@@ -1,0 +1,163 @@
+=== FULL JSON STRUCTURE ===
+{
+  "contains_human_genetic_sequences": true,
+  "created_by_user_displayname": "HuBMAP Process",
+  "created_by_user_email": "hubmap@hubmapconsortium.org",
+  "created_by_user_sub": "3e7bce63-129d-33d0-8f6c-834b34cd382e",
+  "created_timestamp": 1755902155120,
+  "creation_action": "Create Dataset Activity",
+  "data_access_level": "protected",
+  "dataset_type": "GeoMx (NGS)",
+  "description": "GeoMX DSP Proteomics data for donors P1-P6. The goal of this study was to compare the protein composition by area of interest (AOI: endoncrine, exocrine, vascular, duct) and region of interest (ROI: islet-present, islet-absent) of the following regions of the pancreas: Head, Neck, Body, and Tail. For each donor, datasets are AOIs within ROIs. One scan per donor (four tissue slices and four anatomical regions per scan) except for P4-P5 which were combined in one scan. Probes are from the GeoMx IO Proteome Atlas (IPA) probe set. Morphological markers are: CD31, INS, and PanCK.",
+  "direct_ancestors": [
+    {
+      "created_by_user_displayname": "Jing Chen",
+      "created_by_user_email": "jic24@pathology.ufl.edu",
+      "created_by_user_sub": "559b0580-af04-4b5c-8b2d-e9e51b6d81d1",
+      "created_timestamp": 1721420456435,
+      "data_access_level": "consortium",
+      "description": "This is a FFPE block subdivided from pancreas P1-3.  From the head of a human pancreas. ",
+      "entity_type": "Sample",
+      "group_name": "TMC - Pacific Northwest National Laboratory",
+      "group_uuid": "0b8ca9fe-c870-11eb-b35e-4dfdb5d10392",
+      "hubmap_id": "HBM232.XVSF.355",
+      "lab_tissue_sample_id": "P1-3A",
+      "last_modified_timestamp": 1721425201415,
+      "last_modified_user_displayname": "Jing Chen",
+      "last_modified_user_email": "jic24@pathology.ufl.edu",
+      "last_modified_user_sub": "559b0580-af04-4b5c-8b2d-e9e51b6d81d1",
+      "metadata": {
+        "file_row": 0,
+        "histological_report": "",
+        "lab_id": "P1-3A",
+        "metadata_schema_id": "3e98cee6-d3fb-467b-8d4e-9ba7ee49eeff",
+        "notes": "",
+        "pathname": "x8rwshr5lqnt7h255wk4/validated-ExtraBlock_Metadata.tsv",
+        "pathology_distance_unit": "",
+        "pathology_distance_value": "",
+        "preparation_condition": "Stored in refrigerator",
+        "preparation_medium": "PFA (Paraformaldehyde)",
+        "preparation_protocol_doi": "https://www.protocols.io/view/human-pancreas-processing-n2bvj6dnblk5/v1",
+        "processing_time_unit": "hour",
+        "processing_time_value": "48",
+        "quality_criteria": "",
+        "sample_id": "HBM232.XVSF.355",
+        "source_id": "HBM438.ZWTQ.477",
+        "source_storage_duration_unit": "hour",
+        "source_storage_duration_value": "2",
+        "storage_medium": "PBS",
+        "storage_method": "Stored in refrigerator",
+        "tissue_weight_unit": "",
+        "tissue_weight_value": "",
+        "volume_unit": "",
+        "volume_value": ""
+      },
+      "protocol_url": "dx.doi.org/10.17504/protocols.io.n2bvj6dnblk5/v1",
+      "sample_category": "block",
+      "submission_id": "TMCPNNL0001-PA-2-1",
+      "uuid": "c4cf24c509c091a4a7b5e944ea530fec"
+    }
+  ],
+  "entity_type": "Dataset",
+  "group_name": "TMC - Pacific Northwest National Laboratory",
+  "group_uuid": "0b8ca9fe-c870-11eb-b35e-4dfdb5d10392",
+  "hubmap_id": "HBM932.TPHC.337",
+  "last_modified_timestamp": 1755902155120,
+  "last_modified_user_displayname": "HuBMAP Process",
+  "last_modified_user_email": "hubmap@hubmapconsortium.org",
+  "last_modified_user_sub": "3e7bce63-129d-33d0-8f6c-834b34cd382e",
+  "local_directory_rel_path": "protected/TMC - Pacific Northwest National Laboratory/ca7d5b6dda4e11e34161ff4ccb1d498c/",
+  "priority_project_list": [
+    "SWAT (Integration Paper)"
+  ],
+  "provider_info": "GeoMx DSP NGS-Proteomics P1 - P6",
+  "status": "New",
+  "status_history": [
+    {
+      "change_timestamp": 1755902155120,
+      "changed_by_email": "hubmap@hubmapconsortium.org",
+      "status": "New"
+    }
+  ],
+  "title": "GeoMx (NGS) data from the pancreas of a 17-year-old white male",
+  "upload": {
+    "anticipated_complete_upload_month": "2025-09",
+    "anticipated_dataset_count": 570,
+    "assigned_to_group_name": "IEC",
+    "created_by_user_displayname": "Alexandra Cuaycal Bastidas",
+    "created_by_user_email": "acuaycalbastidas@ufl.edu",
+    "created_by_user_sub": "e8cf9b54-3981-4950-9859-a2cb744a9bd5",
+    "created_timestamp": 1755816053321,
+    "description": "GeoMX DSP Proteomics data for donors P1-P6. The goal of this study was to compare the protein composition by area of interest (AOI: endoncrine, exocrine, vascular, duct) and region of interest (ROI: islet-present, islet-absent) of the following regions of the pancreas: Head, Neck, Body, and Tail. For each donor, datasets are AOIs within ROIs. One scan per donor (four tissue slices and four anatomical regions per scan) except for P4-P5 which were combined in one scan. Probes are from the GeoMx IO Proteome Atlas (IPA) probe set. Morphological markers are: CD31, INS, and PanCK.",
+    "entity_type": "Upload",
+    "group_name": "TMC - Pacific Northwest National Laboratory",
+    "group_uuid": "0b8ca9fe-c870-11eb-b35e-4dfdb5d10392",
+    "hubmap_id": "HBM855.WPCR.436",
+    "ingest_task": "Faulty reorganization, upload has been replaced by HBM596.BJWG.923",
+    "intended_dataset_type": "GeoMx (NGS)",
+    "intended_organ": "PA",
+    "last_modified_timestamp": 1758217413540,
+    "last_modified_user_displayname": "Dominic Bordelon",
+    "last_modified_user_email": "dbordelo@andrew.cmu.edu",
+    "last_modified_user_sub": "49e6e703-4a8e-4544-8830-a8368c809910",
+    "priority_project_list": [
+      "SWAT (Integration Paper)"
+    ],
+    "status": "Incomplete",
+    "status_history": [
+      {
+        "change_timestamp": 1755816053321,
+        "changed_by_email": "acuaycalbastidas@ufl.edu",
+        "status": "New"
+      },
+      {
+        "change_timestamp": 1755881415823,
+        "changed_by_email": "acuaycalbastidas@ufl.edu",
+        "status": "Submitted"
+      },
+      {
+        "change_timestamp": 1755899508852,
+        "changed_by_email": "hubmap@hubmapconsortium.org",
+        "status": "Valid"
+      },
+      {
+        "change_timestamp": 1755902042243,
+        "changed_by_email": "dbordelo@andrew.cmu.edu",
+        "status": "Submitted"
+      },
+      {
+        "change_timestamp": 1755902049824,
+        "changed_by_email": "dbordelo@andrew.cmu.edu",
+        "status": "Processing"
+      },
+      {
+        "change_timestamp": 1755931036536,
+        "changed_by_email": "hubmap@hubmapconsortium.org",
+        "status": "Error"
+      },
+      {
+        "change_timestamp": 1755931051277,
+        "changed_by_email": "hubmap@hubmapconsortium.org",
+        "status": "Reorganized"
+      },
+      {
+        "change_timestamp": 1758217413540,
+        "changed_by_email": "dbordelo@andrew.cmu.edu",
+        "status": "Incomplete"
+      }
+    ],
+    "title": "GeoMx DSP NGS-Proteomics P1 - P6",
+    "uuid": "89daf70bc79c5893efee026b83cf98b8"
+  },
+  "uuid": "ca7d5b6dda4e11e34161ff4ccb1d498c"
+}
+
+=== CHECKING FOR ORIGIN_SAMPLES ===
+origin_samples exists: False
+
+=== CHECKING FOR ORGAN ===
+upload.intended_organ: PA
+
+=== CHECKING FOR SEX IN TITLE ===
+title: GeoMx (NGS) data from the pancreas of a 17-year-old white male
+Sex: Male

@@ -11,7 +11,7 @@ import time
 
 # API Configuration
 API_BASE = "https://entity.api.hubmapconsortium.org"
-API_KEY = "AgzWp5q7p2dQ3DJYJ5jzJybjYnek1W3No4PaYrMvBXvd1xV1bNSkCQO44MXX8E5pvQdD46lg1BN37qtb04VPnSaY014"
+API_KEY = "Ag9D4NDnYemNvyJEgq8b0wB4q6q1qNbmDkDpgomBY7vW4zxW9VUpCBE4rQzjQpPy7rypayV1j0VJaBIBNX9KGH2E7by"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
 # File paths
@@ -79,14 +79,55 @@ def extract_dataset_info(descendants_list):
             })
     return datasets
 
+def get_sample_info(sample_uuid):
+    """Fetch sample details to get organ and donor sex using ancestors endpoint"""
+    url = f"{API_BASE}/ancestors/{sample_uuid}"
+    try:
+        response = requests.get(url, headers=HEADERS)
+        response.raise_for_status()
+        ancestors = response.json()
+        
+        organ = 'N/A'
+        sex = 'N/A'
+        
+        # ancestors is a list of entities
+        for ancestor in ancestors:
+            # Get organ from organ sample
+            if ancestor.get('entity_type') == 'Sample' and ancestor.get('sample_category') == 'organ':
+                organ = ancestor.get('organ', 'N/A')
+            
+            # Get sex from donor
+            if ancestor.get('entity_type') == 'Donor':
+                metadata = ancestor.get('metadata', {})
+                organ_donor_data = metadata.get('organ_donor_data', [])
+                for data_item in organ_donor_data:
+                    if data_item.get('grouping_concept_preferred_term') == 'Sex':
+                        sex = data_item.get('data_value', 'N/A')
+                        break
+        
+        return {
+            'organ': organ,
+            'sex': sex
+        }
+    except requests.RequestException as e:
+        print(f"      Error fetching sample info for {sample_uuid}: {e}")
+        return {
+            'organ': 'N/A',
+            'sex': 'N/A'
+        }
+
 def get_dataset_details(dataset_uuid):
-    """Fetch full dataset details to get group_name"""
+    """Fetch dataset details to get group_name only"""
     url = f"{API_BASE}/entities/{dataset_uuid}"
     try:
         response = requests.get(url, headers=HEADERS)
         response.raise_for_status()
         data = response.json()
-        return data.get('group_name', 'N/A')
+        
+        # Get group_name
+        group_name = data.get('group_name', 'N/A')
+        
+        return group_name
     except requests.RequestException as e:
         print(f"      Error fetching details for {dataset_uuid}: {e}")
         return 'N/A'
@@ -99,7 +140,7 @@ with open(uuid_file, 'r') as f:
 print(f"Processing {len(uuids)} UUIDs...\n")
 
 # Prepare CSV
-csv_data = [["Original UUID", "Descendant UUID", "Dataset Type", "Group Name"]]
+csv_data = [["Original UUID", "Descendant UUID", "Dataset Type", "Group Name", "Organ", "Sex"]]
 
 # Process each UUID
 for idx, original_uuid in enumerate(uuids, 1):
@@ -107,6 +148,10 @@ for idx, original_uuid in enumerate(uuids, 1):
     
     # Get all descendants recursively (drill down through Samples to find Datasets)
     descendants = get_all_descendants_recursive(original_uuid)
+    # Get organ and sex from the original sample (tissue block)
+    sample_info = get_sample_info(original_uuid)
+    organ = sample_info['organ']
+    sex = sample_info['sex']
     
     # Extract Datasets
     datasets = extract_dataset_info(descendants)
@@ -116,8 +161,15 @@ for idx, original_uuid in enumerate(uuids, 1):
         for dataset in datasets:
             # Fetch group_name for each dataset
             group_name = get_dataset_details(dataset['uuid'])
-            csv_data.append([original_uuid, dataset['uuid'], dataset['dataset_type'], group_name])
-            print(f"     - {dataset['uuid']}: {dataset['dataset_type']} ({group_name})")
+            csv_data.append([
+                original_uuid, 
+                dataset['uuid'], 
+                dataset['dataset_type'], 
+                group_name,
+                organ,
+                sex
+            ])
+            print(f"     - {dataset['uuid']}: {dataset['dataset_type']} ({group_name}, {organ}, {sex})")
             time.sleep(0.1)  # Rate limiting for detail fetches
     else:
         print(f"  ⚠️  No Dataset descendants found")

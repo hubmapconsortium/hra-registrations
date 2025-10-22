@@ -5,7 +5,7 @@
       "@id": "https://hubmapconsortium.github.io/hra-registrations/hubmap-pancreas-millitome-spraggins-2024/rui_locations.jsonld#Donor1",
       "@type": "Donor",
       "label": "DON530",
-      "description": "Entered NaN/NaN/NaN, Antara Bhavsar, Vanderbilt University",
+      "description": "Entered 9/19/2025, Antara Bhavsar, Vanderbilt University",
       "link": "https://portal.hubmapconsortium.org/browse/donor/3a0960c7cc8864dcc003165cef9ca040",
       "consortium_name": "HuBMAP",
       "provider_name": "Vanderbilt University",
@@ -18,18 +18,15 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1A",
-          "description": "7.805323143562859,4.643032150829139 x 8.853666954428032,10.00080406742893 x 12.84001640222808,18.2841139080529 millimeter, 12.84001640222808,18.2841139080529 millimeter",
+          "description": "4.643032150829139 x 8.853666954428032 x 12.84001640222808 millimeter, 12.84001640222808 millimeter",
           "link": "https://portal.hubmapconsortium.org/browse/HBM625.ZFTZ.894",
           "section_count": 0,
-          "section_size": [
-            12.84001640222808,
-            18.2841139080529
-          ],
+          "section_size": 12.84001640222808,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/bc3ae55c-8e7a-43ec-83c8-331f4382a3e5",
+            "@id": "http://purl.org/ccf/1.5/fd67ad07-9da2-4e5a-98c2-5c9c0d81b2ba",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/bc3ae55c-8e7a-43ec-83c8-331f4382a3e5_placement",
+              "@id": "http://purl.org/ccf/1.5/fd67ad07-9da2-4e5a-98c2-5c9c0d81b2ba_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -37,63 +34,28 @@
               "rotation_units": "degree",
               "scaling_units": "ratio",
               "translation_units": "millimeter",
-              "x_rotation": [
-                -144.4960313884175,
-                0
-              ],
+              "x_rotation": -144.4960313884175,
               "x_scaling": 1,
-              "x_translation": [
-                106.9006802477722,
-                10.31509987238617
-              ],
-              "y_rotation": [
-                0,
-                32.5195944429273
-              ],
+              "x_translation": 106.9006802477722,
+              "y_rotation": 32.5195944429273,
               "y_scaling": 1,
-              "y_translation": [
-                60.93259325127011,
-                17.86769622938886
-              ],
-              "z_rotation": [
-                -156.8901866591449,
-                0
-              ],
+              "y_translation": 60.93259325127011,
+              "z_rotation": -156.8901866591449,
               "z_scaling": 1,
-              "z_translation": [
-                62.17343998877026,
-                10.7721837427436
-              ],
-              "placement_date": [
-                "2025-09-04",
-                "2025-10-20"
-              ]
+              "z_translation": 10.7721837427436,
+              "placement_date": "2025-10-20"
             },
             "@type": "SpatialEntity",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001264",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
             ],
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "dimension_units": "millimeter",
-            "x_dimension": [
-              7.805323143562859,
-              4.643032150829139
-            ],
-            "y_dimension": [
-              8.853666954428032,
-              10.00080406742893
-            ],
-            "z_dimension": [
-              12.84001640222808,
-              18.2841139080529
-            ],
-            "creation_date": [
-              "2025-09-04",
-              "2025-10-20"
-            ],
+            "x_dimension": 4.643032150829139,
+            "y_dimension": 8.853666954428032,
+            "z_dimension": 12.84001640222808,
+            "creation_date": "2025-10-20",
             "creator": "Antara Bhavsar",
             "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1A"
           }
@@ -103,18 +65,15 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1B",
-          "description": "7.540893325063143,3.563599419504763 x 11.73168092755944,17.05344870281883 x 15.00929478245763,18.52525649485359 millimeter, 15.00929478245763,18.52525649485359 millimeter",
+          "description": "3.563599419504763 x 11.73168092755944 x 15.00929478245763 millimeter, 15.00929478245763 millimeter",
           "link": "https://portal.hubmapconsortium.org/browse/HBM859.DZPK.256",
           "section_count": 0,
-          "section_size": [
-            15.00929478245763,
-            18.52525649485359
-          ],
+          "section_size": 15.00929478245763,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/92d71c68-8b53-4ec1-986d-8189638bb509",
+            "@id": "http://purl.org/ccf/1.5/b5fa45ed-c959-45ef-99c2-719d6e374584",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/92d71c68-8b53-4ec1-986d-8189638bb509_placement",
+              "@id": "http://purl.org/ccf/1.5/b5fa45ed-c959-45ef-99c2-719d6e374584_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -122,66 +81,28 @@
               "rotation_units": "degree",
               "scaling_units": "ratio",
               "translation_units": "millimeter",
-              "x_rotation": [
-                0,
-                -175.6090016074543
-              ],
+              "x_rotation": -175.6090016074543,
               "x_scaling": 1,
-              "x_translation": [
-                10.00687831897668,
-                102.7418633601291
-              ],
-              "y_rotation": [
-                0,
-                -41.05368751661794
-              ],
+              "x_translation": 102.7418633601291,
+              "y_rotation": -41.05368751661794,
               "y_scaling": 1,
-              "y_translation": [
-                25.74127972651416,
-                58.15628102237531
-              ],
-              "z_rotation": [
-                46.85557491285281,
-                0
-              ],
-              "z_scaling": [
-                0.9999999999999999,
-                1
-              ],
-              "z_translation": [
-                61.78637608132036,
-                2.958769584680935
-              ],
-              "placement_date": [
-                "2025-09-04",
-                "2025-10-20"
-              ]
+              "y_translation": 58.15628102237531,
+              "z_rotation": 46.85557491285281,
+              "z_scaling": 0.9999999999999999,
+              "z_translation": 2.958769584680935,
+              "placement_date": "2025-10-20"
             },
             "@type": "SpatialEntity",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001264",
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
               "http://purl.obolibrary.org/obo/UBERON_0001151"
             ],
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "dimension_units": "millimeter",
-            "x_dimension": [
-              7.540893325063143,
-              3.563599419504763
-            ],
-            "y_dimension": [
-              11.73168092755944,
-              17.05344870281883
-            ],
-            "z_dimension": [
-              15.00929478245763,
-              18.52525649485359
-            ],
-            "creation_date": [
-              "2025-09-04",
-              "2025-10-20"
-            ],
+            "x_dimension": 3.563599419504763,
+            "y_dimension": 11.73168092755944,
+            "z_dimension": 15.00929478245763,
+            "creation_date": "2025-10-20",
             "creator": "Antara Bhavsar",
             "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1B"
           }
@@ -191,18 +112,15 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1C",
-          "description": "3.5416161091892,4.82733682037826 x 5.847783614555422,16.58233291466099 x 10.78668922945067,18.5181210717337 millimeter, 10.78668922945067,18.5181210717337 millimeter",
+          "description": "3.5416161091892 x 5.847783614555422 x 18.5181210717337 millimeter, 18.5181210717337 millimeter",
           "link": "https://portal.hubmapconsortium.org/browse/HBM527.VMNR.723",
           "section_count": 0,
-          "section_size": [
-            10.78668922945067,
-            18.5181210717337
-          ],
+          "section_size": 18.5181210717337,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/bccc90ea-e1cd-4c1c-9b8d-bf37b487511d",
+            "@id": "http://purl.org/ccf/1.5/497a02ee-6a20-4300-8a34-6fbfae5a0a8c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/bccc90ea-e1cd-4c1c-9b8d-bf37b487511d_placement",
+              "@id": "http://purl.org/ccf/1.5/497a02ee-6a20-4300-8a34-6fbfae5a0a8c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -210,66 +128,28 @@
               "rotation_units": "degree",
               "scaling_units": "ratio",
               "translation_units": "millimeter",
-              "x_rotation": [
-                -47.69497047310291,
-                0
-              ],
+              "x_rotation": -47.69497047310291,
               "x_scaling": 1,
-              "x_translation": [
-                8.520215702915783,
-                101.7392928050913
-              ],
-              "y_rotation": [
-                63.12063094810947,
-                0
-              ],
+              "x_translation": 101.7392928050913,
+              "y_rotation": 63.12063094810947,
               "y_scaling": 1,
-              "y_translation": [
-                26.04504493274465,
-                60.8834394490882
-              ],
-              "z_rotation": [
-                0,
-                21.4298506194923
-              ],
-              "z_scaling": [
-                1,
-                0.9999999999999999
-              ],
-              "z_translation": [
-                1.221035333437192,
-                53.12138734977682
-              ],
-              "placement_date": [
-                "2025-09-04",
-                "2025-10-20"
-              ]
+              "y_translation": 60.8834394490882,
+              "z_rotation": 21.4298506194923,
+              "z_scaling": 0.9999999999999999,
+              "z_translation": 1.221035333437192,
+              "placement_date": "2025-10-20"
             },
             "@type": "SpatialEntity",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001264",
-              "http://purl.obolibrary.org/obo/UBERON_0001151",
-              "http://purl.obolibrary.org/obo/UBERON_0001069"
+              "http://purl.obolibrary.org/obo/UBERON_0001151"
             ],
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "dimension_units": "millimeter",
-            "x_dimension": [
-              3.5416161091892,
-              4.82733682037826
-            ],
-            "y_dimension": [
-              5.847783614555422,
-              16.58233291466099
-            ],
-            "z_dimension": [
-              10.78668922945067,
-              18.5181210717337
-            ],
-            "creation_date": [
-              "2025-09-04",
-              "2025-10-20"
-            ],
+            "x_dimension": 3.5416161091892,
+            "y_dimension": 5.847783614555422,
+            "z_dimension": 18.5181210717337,
+            "creation_date": "2025-10-20",
             "creator": "Antara Bhavsar",
             "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1C"
           }
@@ -279,18 +159,15 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "PE-1D",
-          "description": "7.282349225150246,7.534454289972757 x 7.630266978133994,12.2284622411683 x 9.95544227752114,14.21259022529259 millimeter, 9.95544227752114,14.21259022529259 millimeter",
+          "description": "7.282349225150246 x 7.630266978133994 x 9.95544227752114 millimeter, 9.95544227752114 millimeter",
           "link": "https://portal.hubmapconsortium.org/browse/HBM685.VJVH.785",
           "section_count": 0,
-          "section_size": [
-            9.95544227752114,
-            14.21259022529259
-          ],
+          "section_size": 9.95544227752114,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/b56d6ac0-4361-4764-a665-e058e18f5824",
+            "@id": "http://purl.org/ccf/1.5/1a7f3b34-4d72-429a-81b3-ed306d182603",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/b56d6ac0-4361-4764-a665-e058e18f5824_placement",
+              "@id": "http://purl.org/ccf/1.5/1a7f3b34-4d72-429a-81b3-ed306d182603_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -298,66 +175,28 @@
               "rotation_units": "degree",
               "scaling_units": "ratio",
               "translation_units": "millimeter",
-              "x_rotation": [
-                137.7943572325395,
-                0
-              ],
+              "x_rotation": 137.7943572325395,
               "x_scaling": 1,
-              "x_translation": [
-                10.05622523361901,
-                107.4185182232382
-              ],
-              "y_rotation": [
-                -41.7594817347173,
-                0
-              ],
-              "y_scaling": [
-                1,
-                1
-              ],
-              "y_translation": [
-                20.36313152341765,
-                62.85244640542176
-              ],
-              "z_rotation": [
-                0,
-                -73.844116011585
-              ],
+              "x_translation": 107.4185182232382,
+              "y_rotation": -41.7594817347173,
+              "y_scaling": 1,
+              "y_translation": 62.85244640542176,
+              "z_rotation": -73.844116011585,
               "z_scaling": 1,
-              "z_translation": [
-                55.4762491957939,
-                5.964670021499942
-              ],
-              "placement_date": [
-                "2025-09-04",
-                "2025-10-20"
-              ]
+              "z_translation": 5.964670021499942,
+              "placement_date": "2025-10-20"
             },
             "@type": "SpatialEntity",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001069",
-              "http://purl.obolibrary.org/obo/UBERON_0001264",
               "http://purl.obolibrary.org/obo/UBERON_0001151"
             ],
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "dimension_units": "millimeter",
-            "x_dimension": [
-              7.282349225150246,
-              7.534454289972757
-            ],
-            "y_dimension": [
-              7.630266978133994,
-              12.2284622411683
-            ],
-            "z_dimension": [
-              9.95544227752114,
-              14.21259022529259
-            ],
-            "creation_date": [
-              "2025-09-04",
-              "2025-10-20"
-            ],
+            "x_dimension": 7.282349225150246,
+            "y_dimension": 7.630266978133994,
+            "z_dimension": 9.95544227752114,
+            "creation_date": "2025-10-20",
             "creator": "Antara Bhavsar",
             "http://www.w3.org/2002/07/owl#sameAs": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#1D"
           }
@@ -373,9 +212,9 @@
           "section_size": 20.2180339735282,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/d40334ca-56aa-4dbf-aee6-6ad3d49d50ea",
+            "@id": "http://purl.org/ccf/1.5/3bc29288-2def-4bd5-9f37-48c60584ed52",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/d40334ca-56aa-4dbf-aee6-6ad3d49d50ea_placement",
+              "@id": "http://purl.org/ccf/1.5/3bc29288-2def-4bd5-9f37-48c60584ed52_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#2A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -420,9 +259,9 @@
           "section_size": 23.04334973729719,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/8b52e9af-0bfd-4b57-9afe-4dcc382f39f3",
+            "@id": "http://purl.org/ccf/1.5/9ad48bcd-bf68-4b88-882e-35bed6284ed1",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/8b52e9af-0bfd-4b57-9afe-4dcc382f39f3_placement",
+              "@id": "http://purl.org/ccf/1.5/9ad48bcd-bf68-4b88-882e-35bed6284ed1_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#2B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -467,9 +306,9 @@
           "section_size": 15.25239810873845,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/55e89bff-7ee2-4f19-bb62-fdadf3972de2",
+            "@id": "http://purl.org/ccf/1.5/eb29528e-b35b-47f0-95bd-633835f9e96d",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/55e89bff-7ee2-4f19-bb62-fdadf3972de2_placement",
+              "@id": "http://purl.org/ccf/1.5/eb29528e-b35b-47f0-95bd-633835f9e96d_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#2C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -514,9 +353,9 @@
           "section_size": 19.64683499019161,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/03c3c8e3-ea81-4817-8fa4-c7180c47df3e",
+            "@id": "http://purl.org/ccf/1.5/c5d9f116-1e32-4321-9f31-fb49882c3832",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/03c3c8e3-ea81-4817-8fa4-c7180c47df3e_placement",
+              "@id": "http://purl.org/ccf/1.5/c5d9f116-1e32-4321-9f31-fb49882c3832_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#2D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -561,9 +400,9 @@
           "section_size": 19.23627451479132,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/247f182f-decc-4c17-bd94-ce3eafcf834e",
+            "@id": "http://purl.org/ccf/1.5/3f610295-71ce-409b-8982-8104c18ccb7a",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/247f182f-decc-4c17-bd94-ce3eafcf834e_placement",
+              "@id": "http://purl.org/ccf/1.5/3f610295-71ce-409b-8982-8104c18ccb7a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#3A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -608,9 +447,9 @@
           "section_size": 22.73755567745195,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/cc23fe68-323f-4070-8d88-c4a29aebc5c8",
+            "@id": "http://purl.org/ccf/1.5/ed4cbfaf-6d49-4744-abc1-e9b09346e6f0",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/cc23fe68-323f-4070-8d88-c4a29aebc5c8_placement",
+              "@id": "http://purl.org/ccf/1.5/ed4cbfaf-6d49-4744-abc1-e9b09346e6f0_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#3B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -656,9 +495,9 @@
           "section_size": 18.13971585640124,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/325ca3df-487f-48a9-a542-37c37d32a870",
+            "@id": "http://purl.org/ccf/1.5/6e601824-0ddb-46e6-ac15-0271b72989aa",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/325ca3df-487f-48a9-a542-37c37d32a870_placement",
+              "@id": "http://purl.org/ccf/1.5/6e601824-0ddb-46e6-ac15-0271b72989aa_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#3C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -704,9 +543,9 @@
           "section_size": 21.97592691240408,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/29215063-e6b0-4e05-b2a4-9f1d492ba2bb",
+            "@id": "http://purl.org/ccf/1.5/7829cd3a-745c-4cd1-82fd-d9219c09d943",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/29215063-e6b0-4e05-b2a4-9f1d492ba2bb_placement",
+              "@id": "http://purl.org/ccf/1.5/7829cd3a-745c-4cd1-82fd-d9219c09d943_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#3D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -751,9 +590,9 @@
           "section_size": 16.97269267258811,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/8e86753e-561b-4816-9752-f98665caf10b",
+            "@id": "http://purl.org/ccf/1.5/a7a73513-f18c-45ed-a81a-be5044e5b522",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/8e86753e-561b-4816-9752-f98665caf10b_placement",
+              "@id": "http://purl.org/ccf/1.5/a7a73513-f18c-45ed-a81a-be5044e5b522_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#4A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -799,9 +638,9 @@
           "section_size": 20.36770960664439,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/e579205a-9a16-4398-b874-35f86751f7e4",
+            "@id": "http://purl.org/ccf/1.5/e181f100-87b9-4ec4-84fb-da54ff4ab379",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/e579205a-9a16-4398-b874-35f86751f7e4_placement",
+              "@id": "http://purl.org/ccf/1.5/e181f100-87b9-4ec4-84fb-da54ff4ab379_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#4B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -848,9 +687,9 @@
           "section_size": 18.35771219252208,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/761dab2a-d6f8-442f-ba81-917712beeae1",
+            "@id": "http://purl.org/ccf/1.5/ca9fac85-9267-4013-ad53-228905b77913",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/761dab2a-d6f8-442f-ba81-917712beeae1_placement",
+              "@id": "http://purl.org/ccf/1.5/ca9fac85-9267-4013-ad53-228905b77913_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#4C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -896,9 +735,9 @@
           "section_size": 21.50204208742984,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/91e7c6ca-1f4e-45f0-9f67-b6bcd9c2a50a",
+            "@id": "http://purl.org/ccf/1.5/6d994b03-e2c8-4f47-b232-d9c3dfc98d47",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/91e7c6ca-1f4e-45f0-9f67-b6bcd9c2a50a_placement",
+              "@id": "http://purl.org/ccf/1.5/6d994b03-e2c8-4f47-b232-d9c3dfc98d47_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#4D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -944,9 +783,9 @@
           "section_size": 14.25733869302059,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/a138f5f8-75cb-4cf2-9554-8d709c805ad0",
+            "@id": "http://purl.org/ccf/1.5/f7b1f93d-b992-4632-9e81-f0feb2512159",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/a138f5f8-75cb-4cf2-9554-8d709c805ad0_placement",
+              "@id": "http://purl.org/ccf/1.5/f7b1f93d-b992-4632-9e81-f0feb2512159_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#5A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -992,9 +831,9 @@
           "section_size": 17.04504364910201,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/61ff40c1-0e33-430e-818a-d0db2b35b8bd",
+            "@id": "http://purl.org/ccf/1.5/a495b950-822d-4ef4-ad73-61d4d80acaf9",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/61ff40c1-0e33-430e-818a-d0db2b35b8bd_placement",
+              "@id": "http://purl.org/ccf/1.5/a495b950-822d-4ef4-ad73-61d4d80acaf9_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#5B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1041,9 +880,9 @@
           "section_size": 17.60668926833317,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/dc42ca6e-30c2-4af8-8736-2c78474ccac6",
+            "@id": "http://purl.org/ccf/1.5/9ba21f28-a0a5-4d7c-9c98-881c15e559fa",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/dc42ca6e-30c2-4af8-8736-2c78474ccac6_placement",
+              "@id": "http://purl.org/ccf/1.5/9ba21f28-a0a5-4d7c-9c98-881c15e559fa_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#5C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1090,9 +929,9 @@
           "section_size": 19.74581524329887,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/c361ba17-cf22-4522-9c2a-fd66a24d972d",
+            "@id": "http://purl.org/ccf/1.5/6af554b7-cfac-4e0c-9ffe-9ab3bd0eca61",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/c361ba17-cf22-4522-9c2a-fd66a24d972d_placement",
+              "@id": "http://purl.org/ccf/1.5/6af554b7-cfac-4e0c-9ffe-9ab3bd0eca61_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#5D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1139,9 +978,9 @@
           "section_size": 12.53563433459951,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/f5dc6de1-d525-4366-b0ce-9468076cb52d",
+            "@id": "http://purl.org/ccf/1.5/b02873c1-3cf7-4b2f-9990-37267cbf21c6",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/f5dc6de1-d525-4366-b0ce-9468076cb52d_placement",
+              "@id": "http://purl.org/ccf/1.5/b02873c1-3cf7-4b2f-9990-37267cbf21c6_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#6A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1188,9 +1027,9 @@
           "section_size": 14.35324985798497,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/91ac6c69-6f66-4b49-a258-5f571b9931a4",
+            "@id": "http://purl.org/ccf/1.5/e18f4db6-63cc-46b0-9c4f-913f31b08ddd",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/91ac6c69-6f66-4b49-a258-5f571b9931a4_placement",
+              "@id": "http://purl.org/ccf/1.5/e18f4db6-63cc-46b0-9c4f-913f31b08ddd_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#6B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1236,9 +1075,9 @@
           "section_size": 15.62610359062028,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/1a2d1d8a-b7e1-4c85-aa73-372678bfa05f",
+            "@id": "http://purl.org/ccf/1.5/707e440c-67a1-4c24-ae67-5adf2ecd01af",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/1a2d1d8a-b7e1-4c85-aa73-372678bfa05f_placement",
+              "@id": "http://purl.org/ccf/1.5/707e440c-67a1-4c24-ae67-5adf2ecd01af_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#6C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1284,9 +1123,9 @@
           "section_size": 17.76641267563242,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/dec15d30-97ed-4f84-b538-debd3babb1f9",
+            "@id": "http://purl.org/ccf/1.5/4026f6fa-c29e-4db9-880c-e12970c9028e",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/dec15d30-97ed-4f84-b538-debd3babb1f9_placement",
+              "@id": "http://purl.org/ccf/1.5/4026f6fa-c29e-4db9-880c-e12970c9028e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#6D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1332,9 +1171,9 @@
           "section_size": 12.02438335679226,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/fc7bcfd9-d54a-4d91-84b6-36b2c3de1d93",
+            "@id": "http://purl.org/ccf/1.5/2d55b933-13ce-4f66-aead-b7bb5ab4ca45",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/fc7bcfd9-d54a-4d91-84b6-36b2c3de1d93_placement",
+              "@id": "http://purl.org/ccf/1.5/2d55b933-13ce-4f66-aead-b7bb5ab4ca45_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#7A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1380,9 +1219,9 @@
           "section_size": 12.02438335679226,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/2c7afdef-2212-44ab-a4e3-e72f311ce454",
+            "@id": "http://purl.org/ccf/1.5/1fce644c-e453-4418-8c68-58b511e5982c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/2c7afdef-2212-44ab-a4e3-e72f311ce454_placement",
+              "@id": "http://purl.org/ccf/1.5/1fce644c-e453-4418-8c68-58b511e5982c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#7B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1427,9 +1266,9 @@
           "section_size": 14.4125958303615,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/61a86541-4c8f-46c6-9b8e-002ebcbb3857",
+            "@id": "http://purl.org/ccf/1.5/2aea50be-38f5-4a42-9ee3-a4b23281a53a",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/61a86541-4c8f-46c6-9b8e-002ebcbb3857_placement",
+              "@id": "http://purl.org/ccf/1.5/2aea50be-38f5-4a42-9ee3-a4b23281a53a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#7C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1474,9 +1313,9 @@
           "section_size": 15.99014483301752,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/79aaaf88-356f-45cc-9838-821ea3ff38da",
+            "@id": "http://purl.org/ccf/1.5/a8cb141f-9b4d-415d-bea4-425e0b1af86c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/79aaaf88-356f-45cc-9838-821ea3ff38da_placement",
+              "@id": "http://purl.org/ccf/1.5/a8cb141f-9b4d-415d-bea4-425e0b1af86c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#7D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1522,9 +1361,9 @@
           "section_size": 12.61289801906151,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/38c6c3cd-70ca-4f7c-86ab-c0b0169049f6",
+            "@id": "http://purl.org/ccf/1.5/f0e5835c-af6f-49e4-8a52-9f1317e61b5c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/38c6c3cd-70ca-4f7c-86ab-c0b0169049f6_placement",
+              "@id": "http://purl.org/ccf/1.5/f0e5835c-af6f-49e4-8a52-9f1317e61b5c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#8A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1569,9 +1408,9 @@
           "section_size": 12.01946177265617,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/fb13f8a1-278b-48cd-b515-f7e8f297aa03",
+            "@id": "http://purl.org/ccf/1.5/29194684-b60c-4576-b8c4-c205840334ed",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/fb13f8a1-278b-48cd-b515-f7e8f297aa03_placement",
+              "@id": "http://purl.org/ccf/1.5/29194684-b60c-4576-b8c4-c205840334ed_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#8B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1616,9 +1455,9 @@
           "section_size": 15.06749026389459,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/e42127bc-cfb7-4341-9576-453e1a20e31c",
+            "@id": "http://purl.org/ccf/1.5/d82f4f36-cd59-49d8-974b-65ab816ad6e2",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/e42127bc-cfb7-4341-9576-453e1a20e31c_placement",
+              "@id": "http://purl.org/ccf/1.5/d82f4f36-cd59-49d8-974b-65ab816ad6e2_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#8C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1663,9 +1502,9 @@
           "section_size": 15.00845511218158,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/5ec42a65-af56-4ee4-8892-3e1b74683ae4",
+            "@id": "http://purl.org/ccf/1.5/a7ab1238-94e3-43d4-bb3e-213fb065026c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/5ec42a65-af56-4ee4-8892-3e1b74683ae4_placement",
+              "@id": "http://purl.org/ccf/1.5/a7ab1238-94e3-43d4-bb3e-213fb065026c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#8D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1710,9 +1549,9 @@
           "section_size": 13.50703844615786,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/da2b8517-4c60-490f-90ad-c645e0fab90d",
+            "@id": "http://purl.org/ccf/1.5/3345b41f-0679-41d8-b693-6814877ac1b0",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/da2b8517-4c60-490f-90ad-c645e0fab90d_placement",
+              "@id": "http://purl.org/ccf/1.5/3345b41f-0679-41d8-b693-6814877ac1b0_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#9A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1757,9 +1596,9 @@
           "section_size": 11.91648567057391,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/8acad515-1708-45cb-94ac-2f67696b9d6c",
+            "@id": "http://purl.org/ccf/1.5/5f971edd-d9af-40c8-86da-18c881cdbc4a",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/8acad515-1708-45cb-94ac-2f67696b9d6c_placement",
+              "@id": "http://purl.org/ccf/1.5/5f971edd-d9af-40c8-86da-18c881cdbc4a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#9B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1804,9 +1643,9 @@
           "section_size": 16.52924108112705,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/8f813b81-d357-4b72-b0e4-1c105031ac75",
+            "@id": "http://purl.org/ccf/1.5/af371c76-cf26-47a6-af34-f1cd22c6a4ab",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/8f813b81-d357-4b72-b0e4-1c105031ac75_placement",
+              "@id": "http://purl.org/ccf/1.5/af371c76-cf26-47a6-af34-f1cd22c6a4ab_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#9C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1851,9 +1690,9 @@
           "section_size": 14.61385927759155,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/9587f89c-ee3d-47a7-9da2-303aac231600",
+            "@id": "http://purl.org/ccf/1.5/7ffdf46b-9824-4943-bf35-ce86e269146b",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/9587f89c-ee3d-47a7-9da2-303aac231600_placement",
+              "@id": "http://purl.org/ccf/1.5/7ffdf46b-9824-4943-bf35-ce86e269146b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#9D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1898,9 +1737,9 @@
           "section_size": 14.29243690842574,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/e31df2da-51e9-4896-88c9-fa599bad05a6",
+            "@id": "http://purl.org/ccf/1.5/4effd2df-e1af-4590-bd71-617592ce0f1d",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/e31df2da-51e9-4896-88c9-fa599bad05a6_placement",
+              "@id": "http://purl.org/ccf/1.5/4effd2df-e1af-4590-bd71-617592ce0f1d_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#10A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1945,9 +1784,9 @@
           "section_size": 11.9640458346493,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/b8a60f4f-c650-432a-bcb0-d0cac2311308",
+            "@id": "http://purl.org/ccf/1.5/c2b2987f-5784-4fb3-81a9-98a279d40251",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/b8a60f4f-c650-432a-bcb0-d0cac2311308_placement",
+              "@id": "http://purl.org/ccf/1.5/c2b2987f-5784-4fb3-81a9-98a279d40251_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#10B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -1992,9 +1831,9 @@
           "section_size": 17.63295839252556,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/212b63e9-0bf0-49f6-b1c3-666e7c4d9a62",
+            "@id": "http://purl.org/ccf/1.5/e0ddd7c9-1182-469e-ad5f-2c461f21cb3f",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/212b63e9-0bf0-49f6-b1c3-666e7c4d9a62_placement",
+              "@id": "http://purl.org/ccf/1.5/e0ddd7c9-1182-469e-ad5f-2c461f21cb3f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#10C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2039,9 +1878,9 @@
           "section_size": 14.59630919612938,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/e7c7d458-309d-4209-9808-29f4d6d47b78",
+            "@id": "http://purl.org/ccf/1.5/6278a31d-e77f-4e7c-a721-86b75ce36aa2",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/e7c7d458-309d-4209-9808-29f4d6d47b78_placement",
+              "@id": "http://purl.org/ccf/1.5/6278a31d-e77f-4e7c-a721-86b75ce36aa2_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#10D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2086,9 +1925,9 @@
           "section_size": 14.96385471858588,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/9b924743-a159-495e-8c54-de5696d159ce",
+            "@id": "http://purl.org/ccf/1.5/db66425e-baa6-43f2-907f-bf1aea470f83",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/9b924743-a159-495e-8c54-de5696d159ce_placement",
+              "@id": "http://purl.org/ccf/1.5/db66425e-baa6-43f2-907f-bf1aea470f83_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#11A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2133,9 +1972,9 @@
           "section_size": 12.24387063691035,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/25ecceae-7424-4e06-8fb1-3674d27325d6",
+            "@id": "http://purl.org/ccf/1.5/da3c2610-2161-4bd8-b4e8-80d50958402b",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/25ecceae-7424-4e06-8fb1-3674d27325d6_placement",
+              "@id": "http://purl.org/ccf/1.5/da3c2610-2161-4bd8-b4e8-80d50958402b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#11B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2180,9 +2019,9 @@
           "section_size": 18.43249235516309,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/41645c17-dfb2-4bf1-ba08-9b91b29fc830",
+            "@id": "http://purl.org/ccf/1.5/374a9944-9355-471c-88f9-2e5a3fcc6bd6",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/41645c17-dfb2-4bf1-ba08-9b91b29fc830_placement",
+              "@id": "http://purl.org/ccf/1.5/374a9944-9355-471c-88f9-2e5a3fcc6bd6_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#11C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2227,9 +2066,9 @@
           "section_size": 14.59574606974856,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/b4e569b7-ce36-4ae8-b2bc-a76e0c1b8ef0",
+            "@id": "http://purl.org/ccf/1.5/c04180b5-bda8-451c-a7e2-d1f59785d88e",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/b4e569b7-ce36-4ae8-b2bc-a76e0c1b8ef0_placement",
+              "@id": "http://purl.org/ccf/1.5/c04180b5-bda8-451c-a7e2-d1f59785d88e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#11D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2274,9 +2113,9 @@
           "section_size": 15.25927923816657,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/fea4db89-8202-4649-adf0-8df8915c55a7",
+            "@id": "http://purl.org/ccf/1.5/8027f1e4-e6ae-4ef3-94b4-a01a528f20ce",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/fea4db89-8202-4649-adf0-8df8915c55a7_placement",
+              "@id": "http://purl.org/ccf/1.5/8027f1e4-e6ae-4ef3-94b4-a01a528f20ce_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#12A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2321,9 +2160,9 @@
           "section_size": 12.56061937800612,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/89a48d96-855c-4110-a3c6-3316aca02edf",
+            "@id": "http://purl.org/ccf/1.5/559f4627-807f-439e-a756-0e63f0350186",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/89a48d96-855c-4110-a3c6-3316aca02edf_placement",
+              "@id": "http://purl.org/ccf/1.5/559f4627-807f-439e-a756-0e63f0350186_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#12B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2368,9 +2207,9 @@
           "section_size": 18.86266296435157,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/76760ec7-84d9-4076-8854-3ec3d73045fc",
+            "@id": "http://purl.org/ccf/1.5/c6d81d55-423f-4f14-ae50-d3e61ceb14d8",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/76760ec7-84d9-4076-8854-3ec3d73045fc_placement",
+              "@id": "http://purl.org/ccf/1.5/c6d81d55-423f-4f14-ae50-d3e61ceb14d8_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#12C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2415,9 +2254,9 @@
           "section_size": 14.52583123073947,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/ec630ab1-0bb8-46aa-b891-a4a184f341ae",
+            "@id": "http://purl.org/ccf/1.5/76420742-39f8-41cc-98c8-fbaa81c7febf",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/ec630ab1-0bb8-46aa-b891-a4a184f341ae_placement",
+              "@id": "http://purl.org/ccf/1.5/76420742-39f8-41cc-98c8-fbaa81c7febf_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#12D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2462,9 +2301,9 @@
           "section_size": 15.34579162707028,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/53e86369-e1ab-4886-81c7-474710b731c8",
+            "@id": "http://purl.org/ccf/1.5/ad1662a3-2823-41ec-87ea-95a07554f227",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/53e86369-e1ab-4886-81c7-474710b731c8_placement",
+              "@id": "http://purl.org/ccf/1.5/ad1662a3-2823-41ec-87ea-95a07554f227_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#13A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2509,9 +2348,9 @@
           "section_size": 12.79264987289495,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/a9fba4a3-5158-40b0-a713-401f7e8fb6c5",
+            "@id": "http://purl.org/ccf/1.5/5b213d4e-92e7-4f11-85a4-f7d485684837",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/a9fba4a3-5158-40b0-a713-401f7e8fb6c5_placement",
+              "@id": "http://purl.org/ccf/1.5/5b213d4e-92e7-4f11-85a4-f7d485684837_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#13B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2556,9 +2395,9 @@
           "section_size": 18.95533657686969,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/721f86b8-cc40-4d8f-a779-57a21e1143e0",
+            "@id": "http://purl.org/ccf/1.5/50782760-be12-48f5-bac5-93f7008074e3",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/721f86b8-cc40-4d8f-a779-57a21e1143e0_placement",
+              "@id": "http://purl.org/ccf/1.5/50782760-be12-48f5-bac5-93f7008074e3_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#13C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2604,9 +2443,9 @@
           "section_size": 14.55885522376912,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/1a388dff-5b3f-4296-b899-7f5534c8019d",
+            "@id": "http://purl.org/ccf/1.5/67ea4391-c01d-43e3-869e-04efbbfc17ca",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/1a388dff-5b3f-4296-b899-7f5534c8019d_placement",
+              "@id": "http://purl.org/ccf/1.5/67ea4391-c01d-43e3-869e-04efbbfc17ca_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#13D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2651,9 +2490,9 @@
           "section_size": 15.60366124524326,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/470c230d-34cc-433a-9615-f694a705df75",
+            "@id": "http://purl.org/ccf/1.5/68565a76-9e11-4ab6-9904-1fc85727b0de",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/470c230d-34cc-433a-9615-f694a705df75_placement",
+              "@id": "http://purl.org/ccf/1.5/68565a76-9e11-4ab6-9904-1fc85727b0de_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#14A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2699,9 +2538,9 @@
           "section_size": 13.28201035123894,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/7a7e7c1e-b4f3-4e72-816e-e54904b4e099",
+            "@id": "http://purl.org/ccf/1.5/a28645c3-b8c5-421f-89eb-c124b2403e23",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/7a7e7c1e-b4f3-4e72-816e-e54904b4e099_placement",
+              "@id": "http://purl.org/ccf/1.5/a28645c3-b8c5-421f-89eb-c124b2403e23_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#14B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2747,9 +2586,9 @@
           "section_size": 19.22828573632776,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/40e77549-2e72-441b-8b9b-02b8fa1e571a",
+            "@id": "http://purl.org/ccf/1.5/5b1cd813-64cb-4f55-9c0b-9a2fea88d042",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/40e77549-2e72-441b-8b9b-02b8fa1e571a_placement",
+              "@id": "http://purl.org/ccf/1.5/5b1cd813-64cb-4f55-9c0b-9a2fea88d042_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#14C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2795,9 +2634,9 @@
           "section_size": 14.87286024779333,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/0430fc79-b719-422b-9d20-b2f16e4cfb8b",
+            "@id": "http://purl.org/ccf/1.5/d4d17241-1ef4-4488-a9fb-cce1d6297e59",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/0430fc79-b719-422b-9d20-b2f16e4cfb8b_placement",
+              "@id": "http://purl.org/ccf/1.5/d4d17241-1ef4-4488-a9fb-cce1d6297e59_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#14D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2843,9 +2682,9 @@
           "section_size": 15.65821805816514,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/27c6795f-016e-4cd2-8d6c-f5f3395c81f0",
+            "@id": "http://purl.org/ccf/1.5/0271115f-2cfa-44f7-84d5-dae1adf73db4",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/27c6795f-016e-4cd2-8d6c-f5f3395c81f0_placement",
+              "@id": "http://purl.org/ccf/1.5/0271115f-2cfa-44f7-84d5-dae1adf73db4_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#15A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2891,9 +2730,9 @@
           "section_size": 13.91675117121279,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/45e6c7ef-afb2-47ee-bc4b-d643b4697bdd",
+            "@id": "http://purl.org/ccf/1.5/782a110c-dd81-4825-b1df-49d6a94b714f",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/45e6c7ef-afb2-47ee-bc4b-d643b4697bdd_placement",
+              "@id": "http://purl.org/ccf/1.5/782a110c-dd81-4825-b1df-49d6a94b714f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#15B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2939,9 +2778,9 @@
           "section_size": 19.51911051215311,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/9efb65d9-0140-4ab8-af6b-99a85f9677a4",
+            "@id": "http://purl.org/ccf/1.5/6017a256-1a2c-466d-8fed-b906af03850c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/9efb65d9-0140-4ab8-af6b-99a85f9677a4_placement",
+              "@id": "http://purl.org/ccf/1.5/6017a256-1a2c-466d-8fed-b906af03850c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#15C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -2987,9 +2826,9 @@
           "section_size": 15.00324898654165,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/55b2bb79-254f-4d34-84b1-e956a6ff7ef4",
+            "@id": "http://purl.org/ccf/1.5/c7de8d7f-2daf-4136-931f-3f5bf3b421cc",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/55b2bb79-254f-4d34-84b1-e956a6ff7ef4_placement",
+              "@id": "http://purl.org/ccf/1.5/c7de8d7f-2daf-4136-931f-3f5bf3b421cc_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#15D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3035,9 +2874,9 @@
           "section_size": 15.37264811002942,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/3d0854ad-54d4-4a28-b7cd-481dc5d1641e",
+            "@id": "http://purl.org/ccf/1.5/2bf00a81-ea1c-4d46-998a-f9f38abc7747",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/3d0854ad-54d4-4a28-b7cd-481dc5d1641e_placement",
+              "@id": "http://purl.org/ccf/1.5/2bf00a81-ea1c-4d46-998a-f9f38abc7747_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#16A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3082,9 +2921,9 @@
           "section_size": 14.30558020520552,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/65883035-6fd1-4cef-adec-14dee6f91927",
+            "@id": "http://purl.org/ccf/1.5/0bfe4dd2-0ac9-42d1-ae56-d0030639565c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/65883035-6fd1-4cef-adec-14dee6f91927_placement",
+              "@id": "http://purl.org/ccf/1.5/0bfe4dd2-0ac9-42d1-ae56-d0030639565c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#16B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3130,9 +2969,9 @@
           "section_size": 19.40197821039719,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/32edf33a-23ad-409d-aa9f-2c808617b1f0",
+            "@id": "http://purl.org/ccf/1.5/cb24142d-8e6d-4ff4-bc92-e100c0baa5f3",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/32edf33a-23ad-409d-aa9f-2c808617b1f0_placement",
+              "@id": "http://purl.org/ccf/1.5/cb24142d-8e6d-4ff4-bc92-e100c0baa5f3_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#16C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3178,9 +3017,9 @@
           "section_size": 14.91193157562681,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/cbd58c99-33a2-4958-90c4-ff7b43e563cb",
+            "@id": "http://purl.org/ccf/1.5/977d73e4-97f8-49d7-811a-1b9d8890c00d",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/cbd58c99-33a2-4958-90c4-ff7b43e563cb_placement",
+              "@id": "http://purl.org/ccf/1.5/977d73e4-97f8-49d7-811a-1b9d8890c00d_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#16D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3226,9 +3065,9 @@
           "section_size": 15.17907167649561,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/a24f4cf8-9719-4ea6-a5f1-336424b1a461",
+            "@id": "http://purl.org/ccf/1.5/755fda8f-1145-42f5-b62f-336ab29c8128",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/a24f4cf8-9719-4ea6-a5f1-336424b1a461_placement",
+              "@id": "http://purl.org/ccf/1.5/755fda8f-1145-42f5-b62f-336ab29c8128_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#17A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3273,9 +3112,9 @@
           "section_size": 14.38354733488389,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/389d3e47-6d92-4c78-be12-f8bd6fdf40dc",
+            "@id": "http://purl.org/ccf/1.5/9dff67ee-216b-4ca1-8d53-1edc8ee74f9b",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/389d3e47-6d92-4c78-be12-f8bd6fdf40dc_placement",
+              "@id": "http://purl.org/ccf/1.5/9dff67ee-216b-4ca1-8d53-1edc8ee74f9b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#17B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3320,9 +3159,9 @@
           "section_size": 18.96795433829146,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/b92812b5-0594-4312-aa49-595176daaaff",
+            "@id": "http://purl.org/ccf/1.5/769e5cb7-dcf8-4c6f-b522-10f2d0296074",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/b92812b5-0594-4312-aa49-595176daaaff_placement",
+              "@id": "http://purl.org/ccf/1.5/769e5cb7-dcf8-4c6f-b522-10f2d0296074_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#17C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3368,9 +3207,9 @@
           "section_size": 14.70466726806754,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/ec177be0-fe62-4228-9a91-c34c7c94927e",
+            "@id": "http://purl.org/ccf/1.5/09cbb36c-37de-417d-8957-1bdd4ecc3d4f",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/ec177be0-fe62-4228-9a91-c34c7c94927e_placement",
+              "@id": "http://purl.org/ccf/1.5/09cbb36c-37de-417d-8957-1bdd4ecc3d4f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#17D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3415,9 +3254,9 @@
           "section_size": 14.95565576053567,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/56bebf59-b395-489e-b1c3-497518ede4b9",
+            "@id": "http://purl.org/ccf/1.5/2879c3b5-679a-42fe-8331-f64d18a3a136",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/56bebf59-b395-489e-b1c3-497518ede4b9_placement",
+              "@id": "http://purl.org/ccf/1.5/2879c3b5-679a-42fe-8331-f64d18a3a136_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#18A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3462,9 +3301,9 @@
           "section_size": 14.74050744406687,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/7abac690-04f0-42d9-b1b3-1a4e7e09eafa",
+            "@id": "http://purl.org/ccf/1.5/dac038fa-be03-4906-89d8-91c52fedb53c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/7abac690-04f0-42d9-b1b3-1a4e7e09eafa_placement",
+              "@id": "http://purl.org/ccf/1.5/dac038fa-be03-4906-89d8-91c52fedb53c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#18B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3509,9 +3348,9 @@
           "section_size": 18.79041569227178,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/43bd92df-437c-4978-abe6-0eb5b7bcd20b",
+            "@id": "http://purl.org/ccf/1.5/27d7442b-be36-4fc6-a969-a73571780ebb",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/43bd92df-437c-4978-abe6-0eb5b7bcd20b_placement",
+              "@id": "http://purl.org/ccf/1.5/27d7442b-be36-4fc6-a969-a73571780ebb_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#18C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3556,9 +3395,9 @@
           "section_size": 14.34531837981647,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/bb657e1e-8d42-41cd-b800-52d8a5220b2d",
+            "@id": "http://purl.org/ccf/1.5/077eeec3-086d-46c6-9e32-64916fe8eb22",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/bb657e1e-8d42-41cd-b800-52d8a5220b2d_placement",
+              "@id": "http://purl.org/ccf/1.5/077eeec3-086d-46c6-9e32-64916fe8eb22_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#18D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3603,9 +3442,9 @@
           "section_size": 14.18190702512391,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/b1784ea6-c909-480d-84d2-6380679089db",
+            "@id": "http://purl.org/ccf/1.5/80458aec-b7da-49f1-a403-a42a44ddb99a",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/b1784ea6-c909-480d-84d2-6380679089db_placement",
+              "@id": "http://purl.org/ccf/1.5/80458aec-b7da-49f1-a403-a42a44ddb99a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#19A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3650,9 +3489,9 @@
           "section_size": 14.76973978402583,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/5240398e-6cf4-4f9a-a1d1-9ab6405c36e6",
+            "@id": "http://purl.org/ccf/1.5/e673e73b-5d27-4ded-8109-1401b44efd77",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/5240398e-6cf4-4f9a-a1d1-9ab6405c36e6_placement",
+              "@id": "http://purl.org/ccf/1.5/e673e73b-5d27-4ded-8109-1401b44efd77_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#19B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3697,9 +3536,9 @@
           "section_size": 18.37761839195318,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/4488b149-e603-4b73-b5a3-3c25a2aba1df",
+            "@id": "http://purl.org/ccf/1.5/8228d42a-8cdd-4ded-a4aa-afb14f65c362",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/4488b149-e603-4b73-b5a3-3c25a2aba1df_placement",
+              "@id": "http://purl.org/ccf/1.5/8228d42a-8cdd-4ded-a4aa-afb14f65c362_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#19C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3744,9 +3583,9 @@
           "section_size": 13.71327700973045,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/517d867d-9e7d-4612-9f50-07c863df8795",
+            "@id": "http://purl.org/ccf/1.5/bb633481-c3f2-48d3-9b52-cd6022f5550f",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/517d867d-9e7d-4612-9f50-07c863df8795_placement",
+              "@id": "http://purl.org/ccf/1.5/bb633481-c3f2-48d3-9b52-cd6022f5550f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#19D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3791,9 +3630,9 @@
           "section_size": 13.19132046049707,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/16d3a56b-6463-48f2-80c0-02a2a482926a",
+            "@id": "http://purl.org/ccf/1.5/498e12f1-9b68-40f9-99ae-2b02886d826b",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/16d3a56b-6463-48f2-80c0-02a2a482926a_placement",
+              "@id": "http://purl.org/ccf/1.5/498e12f1-9b68-40f9-99ae-2b02886d826b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#20A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3838,9 +3677,9 @@
           "section_size": 14.05771049048617,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/3e7282e4-d4db-4312-85c8-9c97d5bf4dce",
+            "@id": "http://purl.org/ccf/1.5/2ff378fe-e1bc-4c29-ae22-80386831b988",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/3e7282e4-d4db-4312-85c8-9c97d5bf4dce_placement",
+              "@id": "http://purl.org/ccf/1.5/2ff378fe-e1bc-4c29-ae22-80386831b988_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#20B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3885,9 +3724,9 @@
           "section_size": 17.29955208222256,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/945a4061-3a58-4d7e-b6d5-b54205a7deea",
+            "@id": "http://purl.org/ccf/1.5/43ad1b52-4908-452e-a2f8-5e43bc35a43c",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/945a4061-3a58-4d7e-b6d5-b54205a7deea_placement",
+              "@id": "http://purl.org/ccf/1.5/43ad1b52-4908-452e-a2f8-5e43bc35a43c_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#20C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3932,9 +3771,9 @@
           "section_size": 12.8710412481833,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/8a7157a3-21c1-4772-9c81-23c7bee90cd2",
+            "@id": "http://purl.org/ccf/1.5/93b7abf4-062f-442f-99e0-ff7f04368469",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/8a7157a3-21c1-4772-9c81-23c7bee90cd2_placement",
+              "@id": "http://purl.org/ccf/1.5/93b7abf4-062f-442f-99e0-ff7f04368469_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#20D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -3979,9 +3818,9 @@
           "section_size": 12.28443242199073,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/aaa2ab5f-b73c-4ae6-bac6-f6e6eb537292",
+            "@id": "http://purl.org/ccf/1.5/8e8142e8-c8c3-4c75-8ad7-315766ee960f",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/aaa2ab5f-b73c-4ae6-bac6-f6e6eb537292_placement",
+              "@id": "http://purl.org/ccf/1.5/8e8142e8-c8c3-4c75-8ad7-315766ee960f_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#21A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4026,9 +3865,9 @@
           "section_size": 13.28194704986255,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/6c1f025c-6777-482d-80b3-af773197340f",
+            "@id": "http://purl.org/ccf/1.5/c638c22e-9f91-469d-a08b-1ad27c5dec1b",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/6c1f025c-6777-482d-80b3-af773197340f_placement",
+              "@id": "http://purl.org/ccf/1.5/c638c22e-9f91-469d-a08b-1ad27c5dec1b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#21B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4073,9 +3912,9 @@
           "section_size": 16.00793126308454,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/009d9ce5-2429-49df-b7f4-4f3b0b2ba57c",
+            "@id": "http://purl.org/ccf/1.5/5ba7beca-e1a0-4ded-83fd-d64784ff30e2",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/009d9ce5-2429-49df-b7f4-4f3b0b2ba57c_placement",
+              "@id": "http://purl.org/ccf/1.5/5ba7beca-e1a0-4ded-83fd-d64784ff30e2_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#21C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4120,9 +3959,9 @@
           "section_size": 11.73775004121346,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/dbcab786-ff36-417f-9cab-6dabf7147f60",
+            "@id": "http://purl.org/ccf/1.5/c2bcba22-7d7d-4ace-9ff1-6784be0e4924",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/dbcab786-ff36-417f-9cab-6dabf7147f60_placement",
+              "@id": "http://purl.org/ccf/1.5/c2bcba22-7d7d-4ace-9ff1-6784be0e4924_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#21D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4167,9 +4006,9 @@
           "section_size": 11.21561403590049,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/e3aaa66b-2e58-4c91-b9ad-b46e6e8efa40",
+            "@id": "http://purl.org/ccf/1.5/42e4b562-ae22-49b6-a94a-b81dfd400fd4",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/e3aaa66b-2e58-4c91-b9ad-b46e6e8efa40_placement",
+              "@id": "http://purl.org/ccf/1.5/42e4b562-ae22-49b6-a94a-b81dfd400fd4_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#22A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4214,9 +4053,9 @@
           "section_size": 12.4168925584975,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/eee30a69-ff25-41ea-9ee9-f0394c7becc9",
+            "@id": "http://purl.org/ccf/1.5/ff38964d-ddda-41ed-af05-4eb2d2e9c761",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/eee30a69-ff25-41ea-9ee9-f0394c7becc9_placement",
+              "@id": "http://purl.org/ccf/1.5/ff38964d-ddda-41ed-af05-4eb2d2e9c761_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#22B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4261,9 +4100,9 @@
           "section_size": 14.73773922057509,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/94a1724d-af5b-4315-8ba9-8cddbfa1fd78",
+            "@id": "http://purl.org/ccf/1.5/f3603af9-b039-424f-9b12-81477778957b",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/94a1724d-af5b-4315-8ba9-8cddbfa1fd78_placement",
+              "@id": "http://purl.org/ccf/1.5/f3603af9-b039-424f-9b12-81477778957b_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#22C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4308,9 +4147,9 @@
           "section_size": 10.49116248830362,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/160b695b-153c-4e55-8508-09cb9e654ae4",
+            "@id": "http://purl.org/ccf/1.5/04acd1d6-4b8f-4168-bfc8-797f21a775eb",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/160b695b-153c-4e55-8508-09cb9e654ae4_placement",
+              "@id": "http://purl.org/ccf/1.5/04acd1d6-4b8f-4168-bfc8-797f21a775eb_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#22D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4355,9 +4194,9 @@
           "section_size": 9.77094586487931,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/e84f002b-ecf9-44d8-8ac3-682acea64f8e",
+            "@id": "http://purl.org/ccf/1.5/1bff2dc7-fdc4-41ba-8b45-cbef230372d8",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/e84f002b-ecf9-44d8-8ac3-682acea64f8e_placement",
+              "@id": "http://purl.org/ccf/1.5/1bff2dc7-fdc4-41ba-8b45-cbef230372d8_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#23A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4402,9 +4241,9 @@
           "section_size": 11.06845708550624,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/f41983cc-53cf-4e18-ba59-525b56c1af9a",
+            "@id": "http://purl.org/ccf/1.5/d23a1f70-d103-4a05-aaac-31df5df4c53e",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/f41983cc-53cf-4e18-ba59-525b56c1af9a_placement",
+              "@id": "http://purl.org/ccf/1.5/d23a1f70-d103-4a05-aaac-31df5df4c53e_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#23B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4449,9 +4288,9 @@
           "section_size": 13.02077246950142,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/dc2064dc-062f-4d52-a75b-1d6afb884a33",
+            "@id": "http://purl.org/ccf/1.5/b5acb887-b226-44b1-9448-eef1d4099d5a",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/dc2064dc-062f-4d52-a75b-1d6afb884a33_placement",
+              "@id": "http://purl.org/ccf/1.5/b5acb887-b226-44b1-9448-eef1d4099d5a_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#23C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4496,9 +4335,9 @@
           "section_size": 9.011523973768542,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/a72fcb23-057e-436b-974b-3bcc48fea041",
+            "@id": "http://purl.org/ccf/1.5/2918cf6c-f82e-4efa-906d-07ffc73f1da9",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/a72fcb23-057e-436b-974b-3bcc48fea041_placement",
+              "@id": "http://purl.org/ccf/1.5/2918cf6c-f82e-4efa-906d-07ffc73f1da9_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#23D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4543,9 +4382,9 @@
           "section_size": 8.19747894258682,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/ec461b95-0d03-4ade-ae0b-1aaa3ece6fae",
+            "@id": "http://purl.org/ccf/1.5/9644f333-3ae0-4de4-992e-4b542767aaa7",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/ec461b95-0d03-4ade-ae0b-1aaa3ece6fae_placement",
+              "@id": "http://purl.org/ccf/1.5/9644f333-3ae0-4de4-992e-4b542767aaa7_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#24A",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4590,9 +4429,9 @@
           "section_size": 9.440213520978464,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/ec7bd116-3a9f-4b6c-b874-28b7c57a9ddb",
+            "@id": "http://purl.org/ccf/1.5/ac37bab0-3be8-4cf6-9239-8e6605634ace",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/ec7bd116-3a9f-4b6c-b874-28b7c57a9ddb_placement",
+              "@id": "http://purl.org/ccf/1.5/ac37bab0-3be8-4cf6-9239-8e6605634ace_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#24B",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4637,9 +4476,9 @@
           "section_size": 10.97102615999462,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/db77e242-7ed2-457c-8cf5-213e34804129",
+            "@id": "http://purl.org/ccf/1.5/566ff50a-623a-4465-b1f4-ceb46899cf94",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/db77e242-7ed2-457c-8cf5-213e34804129_placement",
+              "@id": "http://purl.org/ccf/1.5/566ff50a-623a-4465-b1f4-ceb46899cf94_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#24C",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4684,9 +4523,9 @@
           "section_size": 7.359543456359092,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/3b613a3c-1755-4bd8-99bd-1ab4ec38533b",
+            "@id": "http://purl.org/ccf/1.5/91f529ed-dbe3-4bf2-af7b-8cc49d464bbf",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/3b613a3c-1755-4bd8-99bd-1ab4ec38533b_placement",
+              "@id": "http://purl.org/ccf/1.5/91f529ed-dbe3-4bf2-af7b-8cc49d464bbf_placement",
               "@type": "SpatialPlacement",
               "source": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#24D",
               "target": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
@@ -4731,7 +4570,7 @@
           "section_size": 9.2512697235285,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/0d3cabf0-8d7b-4cae-a440-bb4b726f5613",
+            "@id": "http://purl.org/ccf/1.5/562445ec-2045-4173-96cf-868a0b7b4b84",
             "placement": [
               {
                 "@id": "http://purl.org/ccf/1.5/75ef6996-3248-48c2-8a53-b35b26eaaa7a_placement",
