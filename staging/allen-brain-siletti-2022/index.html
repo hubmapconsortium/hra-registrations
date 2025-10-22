@@ -11,20 +11,19 @@
     <link href="styles.css" rel="stylesheet" />
     <script src="wc.js" type="module"></script>
     <script>
-      (async () => {
-        const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
-        const ruiLocations1 = await fetch(`${basePath}female/rui_locations.jsonld`).then((r) => r.json());
-        const ruiLocations2 = await fetch(`${basePath}male/rui_locations.jsonld`).then((r) => r.json());
-
-        const eui = document.createElement('ccf-eui');
-        eui.homeUrl = location.href;
-        eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations1), JSON.stringify(ruiLocations2)]);
-        eui.selectedOrgans = [
-          // 'http://purl.obolibrary.org/obo/UBERON_0002097',
-          'http://purl.obolibrary.org/obo/UBERON_0000955',
-        ];
-        document.body.appendChild(eui);
-      })();
+      const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
+      fetch(`${basePath}rui_locations.jsonld#005cbf9d18b74beaea3b9ae69e763afa`)
+        .then((r) => r.json())
+        .then((ruiLocations) => {
+          const eui = document.createElement('ccf-eui');
+          eui.homeUrl = location.href;
+          eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations)]);
+          eui.selectedOrgans = [
+            'http://purl.obolibrary.org/obo/UBERON_0002097',
+            'http://purl.obolibrary.org/obo/UBERON_0000955',
+          ];
+          document.body.appendChild(eui);
+        });
     </script>
   </head>
 

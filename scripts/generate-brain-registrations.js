@@ -1,0 +1,210 @@
+import { readFileSync, writeFileSync } from 'fs';
+import { dump } from 'js-yaml';
+import Papa from 'papaparse';
+import { join } from 'path';
+import sh from 'shelljs';
+
+const ALLEN_PIN_COORDS_CSV = process.argv[2];
+const OUTPUT_DIR = process.argv[3];
+const ES_PREFIX = 'https://doi.org/10.1126/science.add7046#';
+const CONSORTIUM_NAME = 'Allen Institute for Brain Science';
+const PROVIDER_NAME = 'Allen Institute';
+const PROVIDER_UUID = '8dca7930-e16b-4301-9ad3-de202225d27f';
+const THUMBNAIL = 'https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg';
+const LINK = 'https://doi.org/10.1126/science.add7046';
+const PUBLICATION = 'https://doi.org/10.1126/science.add7046';
+const SLAB_THICKNESS = 10;
+
+const HRA_MALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-male/latest/graph.json';
+const HRA_FEMALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-female/latest/graph.json';
+
+/**
+ * Calculate the dimensions of a brain slice based on its volume and thickness.
+ * @param {Object} slice - The slice data object.
+ * @returns {Object} Dimensions {x, y, z} in millimeters.
+ */
+function getDimensions(slice) {
+  const volume = parseFloat(slice['polygon_volume(mm^3)']);
+  const x = Math.sqrt(volume / SLAB_THICKNESS);
+  const y = Math.sqrt(volume / SLAB_THICKNESS);
+
+  return { x: x, y: y, z: SLAB_THICKNESS };
+}
+
+/**
+ * Calculate the origin point (anterior commissure) in MNI space for the given HRA brain.
+ * The anterior commissure (AC) serves as the reference point (0,0,0) in MNI coordinate space.
+ *
+ * @param {Object} hraBrain - The HRA brain reference object containing spatial entity data.
+ * @param {Array} hraBrain.data - Array of spatial entities in the brain reference.
+ * @returns {Object} The MNI origin coordinates relative to the brain placement.
+ * @returns {number} return.x - X coordinate of the MNI origin in millimeters.
+ * @returns {number} return.y - Y coordinate of the MNI origin in millimeters.
+ * @returns {number} return.z - Z coordinate of the MNI origin in millimeters.
+ */
+function getMNIOrigin(hraBrain) {
+  const brain = hraBrain.data[0];
+  // Find the left anterior commissure
+  const ac = hraBrain.data.find(
+    (entity) =>
+      entity.representation_of === 'UBERON:0000935' &&
+      entity.object_reference.file_subpath === 'Allen_anterior_commissure_L'
+  );
+
+  const bp = brain.object_reference.placement;
+  const acp = ac.object_reference.placement;
+
+  return {
+    x: bp.x_translation - acp.x_translation + ac.x_dimension,
+    y: bp.y_translation - acp.y_translation + ac.y_dimension / 2,
+    z: bp.z_translation - acp.z_translation + ac.z_dimension / 2,
+  };
+}
+
+/**
+ * Calculate the translation coordinates for a brain slice.
+ * @param {Object} slice - The slice data object.
+ * @param {Object} hraBrain - The HRA brain reference object.
+ * @returns {Object} Translation {x, y, z} in millimeters.
+ */
+function getTranslation(slice, hraBrain) {
+  // Coordinates are in MNI / LPS space in mm from the AC
+  // - LPS: +x = Left,  +y = Posterior, +z = Superior
+  // - CCF: +X = Right, +Y = Superior,  +Z = Anterior
+  const { MNI_x_mm: x, MNI_y_mm: y, MNI_z_mm: z, dissected_hemisphere: hemisphere } = slice;
+  const origin = getMNIOrigin(hraBrain);
+  const scalar = 0.9;
+  if (hemisphere === 'left') {
+    x = -x; // flip X to get it on the left hemisphere
+  }
+  return {
+    x: -x * scalar + origin.x, // flip Left→Right
+    y: +z * scalar + origin.y, // Superior is shared, remap axis
+    z: -y * scalar + origin.z, // flip Posterior→Anterior
+  };
+}
+
+/**
+ * Process a single brain slice and generate its registration data structure.
+ * @param {Object} slice - The slice data object.
+ * @param {string} sex - The sex of the brain (male/female).
+ * @param {string} target - The target brain reference ID.
+ * @param {Object} hraBrain - The HRA brain reference object.
+ * @returns {Object} Registration data for the slice.
+ */
+function processSlice(slice, sex, target, hraBrain) {
+  const today = new Date().toISOString().split('T')[0];
+  const { pin_nhash_id: id, donor_name, 'polygon_volume(mm^3)': volume } = slice;
+  const { x: x_dimension, y: y_dimension, z: z_dimension } = getDimensions(slice);
+  const { x: x_translation, y: y_translation, z: z_translation } = getTranslation(slice, hraBrain);
+  const age = +slice['donor_age_years'] || undefined;
+  const iri = `${ES_PREFIX}${id}_${sex}`;
+  return {
+    id: `${ES_PREFIX}${donor_name}_${id}`,
+    sex,
+    age,
+    label: age ? `${sex}, Age ${age}, ${donor_name}` : `${sex}, ${donor_name}`,
+    description: `${slice['structure_name']}, ${id}`,
+    samples: [
+      {
+        id: `${iri}_Block`,
+        // label: `${slice['local_name']} ${slice['slab_name']}`,
+        // description: `${slice['structure_name']}, ${id}`,
+        rui_location: {
+          '@context': 'https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld',
+          '@id': `${iri}`,
+          '@type': 'SpatialEntity',
+          creator: 'Bruce W. Herr II',
+          creator_first_name: 'Bruce',
+          creator_last_name: 'Herr',
+          creator_orcid: 'https://orcid.org/0000-0002-6703-7647',
+          label: id,
+          creation_date: today,
+          dimension_units: 'millimeter',
+          x_dimension,
+          y_dimension,
+          z_dimension,
+          placement: {
+            '@context': 'https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld',
+            '@id': `${iri}_placement`,
+            '@type': 'SpatialPlacement',
+            target,
+            placement_date: today,
+            scaling_units: 'ratio',
+            rotation_order: 'XYZ',
+            rotation_units: 'degree',
+            translation_units: 'millimeter',
+            x_scaling: 1.0,
+            y_scaling: 1.0,
+            z_scaling: 1.0,
+            x_rotation: 0.0,
+            y_rotation: 0.0,
+            z_rotation: 0.0,
+            x_translation,
+            y_translation,
+            z_translation,
+          },
+        },
+      },
+    ],
+  };
+}
+
+/**
+ * Build registrations for all slices in the provided HRA brain JSON reference.
+ * Writes output files for registrations and extraction sites, and normalizes them.
+ */
+async function buildRegistrations() {
+  const brainRows = Papa.parse(readFileSync(ALLEN_PIN_COORDS_CSV, 'utf8'), { header: true, skipEmptyLines: true }).data;
+  const hraMaleBrain = await fetch(HRA_MALE_BRAIN_JSON).then((r) => r.json());
+  const hraFemaleBrain = await fetch(HRA_FEMALE_BRAIN_JSON).then((r) => r.json());
+
+  const donors = [];
+  for (const slice of brainRows) {
+    const hraBrain = slice.donor_sex.trim().toLowerCase() === 'male' ? hraMaleBrain : hraFemaleBrain;
+    const hraBrainTarget = hraBrain.data[0].id;
+    const hraBrainSex = hraBrain.data[0].organ_owner_sex;
+    const donor = processSlice(slice, hraBrainSex, hraBrainTarget, hraBrain);
+    donors.push(donor);
+  }
+
+  const results = [
+    {
+      consortium_name: CONSORTIUM_NAME,
+      provider_name: PROVIDER_NAME,
+      provider_uuid: PROVIDER_UUID,
+      defaults: {
+        id: ES_PREFIX,
+        thumbnail: THUMBNAIL,
+        link: LINK,
+        publication: PUBLICATION,
+      },
+      donors,
+    },
+  ];
+
+  sh.mkdir('-p', OUTPUT_DIR);
+
+  writeFileSync(
+    join(OUTPUT_DIR, 'registrations.yaml'),
+    `# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+${dump(results)}`
+  );
+
+  const extraction_sites = results[0].donors.map((donor) => donor.samples[0].rui_location);
+  writeFileSync(join(OUTPUT_DIR, 'extraction_sites.json'), JSON.stringify(extraction_sites, null, 2));
+
+  sh.exec(`npx -y github:hubmapconsortium/hra-rui-locations-processor normalize --add-collisions ${OUTPUT_DIR}`);
+
+  const html = readFileSync(join(OUTPUT_DIR, 'index.html'), 'utf-8').replace(
+    `// eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097' ];`,
+    `eui.selectedOrgans = [
+            'http://purl.obolibrary.org/obo/UBERON_0002097',
+            'http://purl.obolibrary.org/obo/UBERON_0000955',
+          ];`
+  );
+  writeFileSync(join(OUTPUT_DIR, 'index.html'), html);
+}
+
+await buildRegistrations();
