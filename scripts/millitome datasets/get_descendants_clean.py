@@ -117,20 +117,27 @@ def get_sample_info(sample_uuid):
         }
 
 def get_dataset_details(dataset_uuid):
-    """Fetch dataset details to get group_name only"""
+    """Fetch dataset details to get group_name and status"""
     url = f"{API_BASE}/entities/{dataset_uuid}"
     try:
         response = requests.get(url, headers=HEADERS)
         response.raise_for_status()
         data = response.json()
         
-        # Get group_name
+        # Get group_name and status
         group_name = data.get('group_name', 'N/A')
+        status = data.get('status', 'N/A')
         
-        return group_name
+        return {
+            'group_name': group_name,
+            'status': status
+        }
     except requests.RequestException as e:
         print(f"      Error fetching details for {dataset_uuid}: {e}")
-        return 'N/A'
+        return {
+            'group_name': 'N/A',
+            'status': 'N/A'
+        }
 
 # Read UUIDs
 print(f"Reading UUIDs from file...")
@@ -140,7 +147,7 @@ with open(uuid_file, 'r') as f:
 print(f"Processing {len(uuids)} UUIDs...\n")
 
 # Prepare CSV
-csv_data = [["Original UUID", "Descendant UUID", "Dataset Type", "Group Name", "Organ", "Sex"]]
+csv_data = [["Original UUID", "Descendant UUID", "Dataset Type", "Group Name", "Organ", "Sex", "Status"]]
 
 # Process each UUID
 for idx, original_uuid in enumerate(uuids, 1):
@@ -159,17 +166,18 @@ for idx, original_uuid in enumerate(uuids, 1):
     if datasets:
         print(f"  ✅ Found {len(datasets)} Dataset descendants")
         for dataset in datasets:
-            # Fetch group_name for each dataset
-            group_name = get_dataset_details(dataset['uuid'])
+            # Fetch group_name and status for each dataset
+            details = get_dataset_details(dataset['uuid'])
             csv_data.append([
                 original_uuid, 
                 dataset['uuid'], 
                 dataset['dataset_type'], 
-                group_name,
+                details['group_name'],
                 organ,
-                sex
+                sex,
+                details['status']
             ])
-            print(f"     - {dataset['uuid']}: {dataset['dataset_type']} ({group_name}, {organ}, {sex})")
+            print(f"     - {dataset['uuid']}: {dataset['dataset_type']} ({details['group_name']}, {organ}, {sex}, {details['status']})")
             time.sleep(0.1)  # Rate limiting for detail fetches
     else:
         print(f"  ⚠️  No Dataset descendants found")

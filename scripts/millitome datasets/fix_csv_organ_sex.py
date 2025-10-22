@@ -16,8 +16,9 @@ HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 input_csv = "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/scripts/millitome datasets/descendants_datasets.csv"
 output_csv = "/Users/dequeue/Desktop/RUI.nosync/hra-registrations/scripts/millitome datasets/descendants_datasets_fixed.csv"
 
-# Cache for sample info to avoid repeated API calls
+# Cache for sample info and dataset info to avoid repeated API calls
 sample_info_cache = {}
+dataset_info_cache = {}
 
 def get_sample_info(sample_uuid):
     """Fetch sample details to get organ and donor sex using ancestors endpoint"""
@@ -55,6 +56,25 @@ def get_sample_info(sample_uuid):
         print(f"      Error fetching sample info for {sample_uuid}: {e}")
         return {'organ': 'N/A', 'sex': 'N/A'}
 
+def get_dataset_status(dataset_uuid):
+    """Fetch dataset status"""
+    if dataset_uuid in dataset_info_cache:
+        return dataset_info_cache[dataset_uuid]
+    
+    url = f"{API_BASE}/entities/{dataset_uuid}"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        
+        status = data.get('status', 'N/A')
+        dataset_info_cache[dataset_uuid] = status
+        return status
+    except requests.RequestException as e:
+        # Don't print error here, will be printed in calling function
+        dataset_info_cache[dataset_uuid] = 'Error'
+        raise e
+
 # Read the CSV
 print(f"Reading CSV from {input_csv}...")
 with open(input_csv, 'r') as f:
@@ -64,32 +84,58 @@ with open(input_csv, 'r') as f:
 header = rows[0]
 data_rows = rows[1:]
 
+# Add Status column to header if it doesn't exist
+if 'Status' not in header:
+    header.append('Status')
+
 print(f"Found {len(data_rows)} rows")
 
 # Process rows
 fixed_rows = [header]
 unique_samples = set()
+unique_datasets = set()
 rows_needing_fix = 0
 
-# First pass - count rows needing fixes
+# First pass - count rows needing fixes and collect all datasets
 for row in data_rows:
     original_uuid = row[0]
-    organ = row[4]
-    sex = row[5]
+    descendant_uuid = row[1]
+    organ = row[4] if len(row) > 4 else 'N/A'
+    sex = row[5] if len(row) > 5 else 'N/A'
     
     if organ == 'N/A' or sex == 'N/A':
         rows_needing_fix += 1
         unique_samples.add(original_uuid)
+    
+    # Need to fetch status for ALL datasets
+    unique_datasets.add(descendant_uuid)
 
-print(f"Rows with N/A values: {rows_needing_fix}")
+print(f"Rows with N/A organ/sex values: {rows_needing_fix}")
 print(f"Unique sample UUIDs needing lookup: {len(unique_samples)}")
+print(f"Unique datasets needing status lookup: {len(unique_datasets)}")
 print(f"\nFetching sample info...")
 
 # Prefetch all sample info
 for idx, sample_uuid in enumerate(unique_samples, 1):
-    print(f"  Fetching {idx}/{len(unique_samples)}: {sample_uuid}")
+    print(f"  Fetching sample {idx}/{len(unique_samples)}: {sample_uuid}")
     get_sample_info(sample_uuid)
     time.sleep(0.1)  # Rate limiting
+
+# Prefetch dataset status for ALL datasets
+print(f"\nFetching dataset status...")
+total_datasets = len(unique_datasets)
+error_count = 0
+for idx, dataset_uuid in enumerate(unique_datasets, 1):
+    if idx % 50 == 0 or idx == 1:
+        print(f"  Fetching dataset status {idx}/{total_datasets} ({100*idx/total_datasets:.1f}%) - Errors: {error_count}...")
+    try:
+        get_dataset_status(dataset_uuid)
+        time.sleep(0.02)  # Reduced rate limiting
+    except Exception as e:
+        error_count += 1
+        print(f"    Error on dataset {idx} ({dataset_uuid}): {str(e)[:100]}")
+        time.sleep(0.1)  # Longer delay on error
+        continue  # Continue processing other datasets
 
 print(f"\nUpdating CSV rows...")
 
@@ -99,8 +145,8 @@ for idx, row in enumerate(data_rows, 1):
     descendant_uuid = row[1]
     dataset_type = row[2]
     group_name = row[3]
-    organ = row[4]
-    sex = row[5]
+    organ = row[4] if len(row) > 4 else 'N/A'
+    sex = row[5] if len(row) > 5 else 'N/A'
     
     # If organ or sex is N/A, get from sample
     if organ == 'N/A' or sex == 'N/A':
@@ -109,11 +155,14 @@ for idx, row in enumerate(data_rows, 1):
             organ = sample_info['organ']
         if sex == 'N/A':
             sex = sample_info['sex']
-        
-        if idx % 100 == 0:
-            print(f"  Processed {idx}/{len(data_rows)} rows...")
     
-    fixed_rows.append([original_uuid, descendant_uuid, dataset_type, group_name, organ, sex])
+    # Get status from dataset
+    status = dataset_info_cache.get(descendant_uuid, 'N/A')
+    
+    if idx % 100 == 0:
+        print(f"  Processed {idx}/{len(data_rows)} rows...")
+    
+    fixed_rows.append([original_uuid, descendant_uuid, dataset_type, group_name, organ, sex, status])
 
 # Write updated CSV
 print(f"\nWriting fixed CSV to {output_csv}...")
