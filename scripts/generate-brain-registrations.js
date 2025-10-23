@@ -41,6 +41,7 @@ program
   .option('--consortium-name <string>', 'Name of the consortium', 'Allen Institute for Brain Science')
   .option('--provider-name <string>', 'Provider name', 'Allen Institute')
   .option('--provider-uuid <uuid>', 'Provider UUID', '8dca7930-e16b-4301-9ad3-de202225d27f')
+  .option('--structure-name <string>', 'Structure Name column for labeling', 'Siletti_name')
   .option(
     '--thumbnail <url>',
     'Thumbnail image URL',
@@ -67,6 +68,7 @@ const LINK = options.link;
 const PUBLICATION = options.publication;
 const SLAB_THICKNESS = +options.slabThickness;
 const DUPLICATE_DONORS = !!options.duplicateDonors;
+const STRUCTURE_NAME = options.structureName;
 
 if (Number.isNaN(SLAB_THICKNESS) || SLAB_THICKNESS <= 0) {
   console.error(`Invalid --slab-thickness: must be a positive number.`);
@@ -212,11 +214,11 @@ function processSlice(slice, sex, target, hraBrain, duplicateDonors = false) {
     sex,
     age,
     label: age ? `${sex}, Age ${age}, ${donor_name}` : `${sex}, ${donor_name}`,
-    description: duplicateDonors ? `${slice['structure_name']}, ${id}` : undefined,
+    description: duplicateDonors ? `${slice[STRUCTURE_NAME]}, ${id}` : undefined,
     samples: [
       {
         id: `${iri}_Block`,
-        description: duplicateDonors ? undefined : `${slice['structure_name']}, ${id}`,
+        description: duplicateDonors ? undefined : `${slice[STRUCTURE_NAME]}, ${id}`,
         rui_location: {
           '@context': 'https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld',
           '@id': `${iri}`,
