@@ -14,6 +14,7 @@ const THUMBNAIL = 'https://hubmapconsortium.github.io/hra-registrations/allen-br
 const LINK = 'https://doi.org/10.1126/science.add7046';
 const PUBLICATION = 'https://doi.org/10.1126/science.add7046';
 const SLAB_THICKNESS = 10;
+const DUPLICATE_DONORS = true;
 
 const HRA_MALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-male/latest/graph.json';
 const HRA_FEMALE_BRAIN_JSON = 'https://cdn.humanatlas.io/digital-objects/ref-organ/brain-female/latest/graph.json';
@@ -90,9 +91,10 @@ function getTranslation(slice, hraBrain) {
  * @param {string} sex - The sex of the brain (male/female).
  * @param {string} target - The target brain reference ID.
  * @param {Object} hraBrain - The HRA brain reference object.
+ * @param {boolean} [duplicateDonors=false] - Whether to duplicate donors to have a more informative results in the EUI 
  * @returns {Object} Registration data for the slice.
  */
-function processSlice(slice, sex, target, hraBrain) {
+function processSlice(slice, sex, target, hraBrain, duplicateDonors = false) {
   const today = new Date().toISOString().split('T')[0];
   const { pin_nhash_id: id, donor_name, 'polygon_volume(mm^3)': volume } = slice;
   const { x: x_dimension, y: y_dimension, z: z_dimension } = getDimensions(slice);
@@ -100,16 +102,16 @@ function processSlice(slice, sex, target, hraBrain) {
   const age = +slice['donor_age_years'] || undefined;
   const iri = `${ES_PREFIX}${id}_${sex}`;
   return {
-    id: `${ES_PREFIX}${donor_name}_${id}`,
+    id: duplicateDonors ? `${ES_PREFIX}${donor_name}_${id}` : `${ES_PREFIX}${donor_name}`,
     sex,
     age,
     label: age ? `${sex}, Age ${age}, ${donor_name}` : `${sex}, ${donor_name}`,
-    description: `${slice['structure_name']}, ${id}`,
+    description: duplicateDonors ? `${slice['structure_name']}, ${id}` : undefined,
     samples: [
       {
         id: `${iri}_Block`,
         // label: `${slice['local_name']} ${slice['slab_name']}`,
-        // description: `${slice['structure_name']}, ${id}`,
+        description: duplicateDonors ? undefined : `${slice['structure_name']}, ${id}`,
         rui_location: {
           '@context': 'https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld',
           '@id': `${iri}`,
@@ -164,7 +166,7 @@ async function buildRegistrations() {
     const hraBrain = slice.donor_sex.trim().toLowerCase() === 'male' ? hraMaleBrain : hraFemaleBrain;
     const hraBrainTarget = hraBrain.data[0].id;
     const hraBrainSex = hraBrain.data[0].organ_owner_sex;
-    const donor = processSlice(slice, hraBrainSex, hraBrainTarget, hraBrain);
+    const donor = processSlice(slice, hraBrainSex, hraBrainTarget, hraBrain, DUPLICATE_DONORS);
     donors.push(donor);
   }
 
