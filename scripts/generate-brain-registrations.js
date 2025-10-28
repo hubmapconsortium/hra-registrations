@@ -47,7 +47,7 @@ program
     'Thumbnail image URL',
     'https://hubmapconsortium.github.io/hra-registrations/allen-brain-bakken-2021/assets/logo.jpg'
   )
-  .option('--link <url>', 'Dataset link', 'https://doi.org/10.1126/science.add7046')
+  .option('--link <url>', 'Dataset link', 'https://alleninstitute.github.io/abc_atlas_access/descriptions/WHB-10Xv3.html')
   .option('--publication <url>', 'Publication link', 'https://doi.org/10.1126/science.add7046')
   .option('--slab-thickness <number>', 'Thickness of each brain slab in mm', '10')
   .option('--duplicate-donors', 'Duplicate donors for a more informative EUI (default: true)', true)
@@ -215,10 +215,12 @@ function processSlice(slice, sex, target, hraBrain, duplicateDonors = false) {
     age,
     label: age ? `${sex}, Age ${age}, ${donor_name}` : `${sex}, ${donor_name}`,
     description: duplicateDonors ? `${slice[STRUCTURE_NAME]}, ${id}` : undefined,
+    link: PUBLICATION,
     samples: [
       {
         id: `${iri}_Block`,
         description: duplicateDonors ? undefined : `${slice[STRUCTURE_NAME]}, ${id}`,
+        link: LINK,
         rui_location: {
           '@context': 'https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld',
           '@id': `${iri}`,
