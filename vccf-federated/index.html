@@ -18,20 +18,11 @@
           const eui = document.createElement('ccf-eui');
           eui.homeUrl = location.href;
           eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations)]);
-          eui.selectedOrgans = [
-  'http://purl.obolibrary.org/obo/UBERON_0001264', // pancreas
-  'http://purl.obolibrary.org/obo/UBERON_0002106', // spleen
-  'http://purl.obolibrary.org/obo/UBERON_0001004', // lung
-  'http://purl.org/sig/ont/fma/fma24978',          // knee, left (FMA)
-  'http://purl.org/sig/ont/fma/fma24977',          // knee, right (FMA)
-  'http://purl.obolibrary.org/obo/UBERON_0002108', // small intestine
-  'http://purl.obolibrary.org/obo/UBERON_0000059', // large intestine / colon
-  'http://purl.obolibrary.org/obo/UBERON_0002097', // skin
-  'http://purl.obolibrary.org/obo/UBERON_0002509'  // lymph node
-          ];
+          // eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097' ];
           document.body.appendChild(eui);
         });
     </script>
   </head>
+
   <body></body>
 </html>
