@@ -1,13 +1,106 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
 
-- consortium_name: <Consortium Name>
-  provider_name: <Provider Name>
-  provider_uuid: A602B2DA-F154-425C-8D04-7B8558F6DABC
+- consortium_name: University of British Columbia
+  provider_name: Laura N. Stankiewicz
+  provider_uuid: A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma
   defaults:
-    id: http://example.com/required/id
+    id: https://doi.org/10.1016/j.devcel.2024.09.011
     thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
-    link: http://example.com/user/link
+    link: https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020
   donors:
     - sex: Male
+      age: 2
       samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+      - rui_location: male-registration.json
+        label: T086
+        datasets:
+          - link: https://doi.org/10.5281/zenodo.11585722
+            technology: CODEX
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223085
+            technology: RNAseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223086
+            technology: RNAseq
+    - sex: Female
+      age: 0
+      samples:
+      - rui_location: female-registration.json
+        label: T087
+        datasets:
+          - link: https://doi.org/10.5281/zenodo.11585722
+            technology: CODEX
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223087
+            technology: RNAseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223088
+            technology: RNAseq
+    - sex: Male
+      age: 0
+      samples:
+      - rui_location: male-registration.json
+        label: T096
+        datasets:
+          - link: https://doi.org/10.5281/zenodo.11585722
+            technology: CODEX
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223060
+            technology: ATACseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223061
+            technology: ATACseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223089
+            technology: RNAseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223090
+            technology: RNAseq
+    - sex: Female
+      age: 0
+      samples:
+      - rui_location: female-registration.json
+        label: T097
+        datasets:
+          - link: https://doi.org/10.5281/zenodo.11585722
+            technology: CODEX
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223062
+            technology: ATACseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223091
+            technology: RNAseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223092
+            technology: RNAseq
+    - sex: Male
+      age: 0
+      samples:
+      - rui_location: male-registration.json
+        label: T098
+        datasets:
+          - link: https://doi.org/10.5281/zenodo.11585722
+            technology: CODEX
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223063
+            technology: ATACseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223093
+            technology: RNAseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223094
+            technology: RNAseq
+    - sex: Female
+      age: 0
+      samples:
+      - rui_location: female-registration.json
+        label: T099
+        datasets:
+          - link: https://doi.org/10.5281/zenodo.11585722
+            technology: CODEX
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223064
+            technology: ATACseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223095
+            technology: RNAseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223096
+            technology: RNAseq
+    - sex: Male
+      age: 0
+      samples:
+      - rui_location: male-registration.json
+        label: T100
+        datasets:
+          - link: https://doi.org/10.5281/zenodo.11585722
+            technology: CODEX
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223065
+            technology: ATACseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223097
+            technology: RNAseq
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223098
+            technology: RNAseq

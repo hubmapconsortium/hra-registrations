@@ -1,0 +1,696 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor1",
+      "@type": "Donor",
+      "label": "Male, Age 2",
+      "description": "Entered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+      "consortium_name": "University of British Columbia",
+      "provider_name": "Laura N. Stankiewicz",
+      "provider_uuid": "A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma",
+      "age": 2,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "T086",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992",
+            "@type": "SpatialEntity",
+            "creator": "Laura Stankiewicz",
+            "creator_first_name": "Laura",
+            "creator_last_name": "Stankiewicz",
+            "creator_orcid": "https://orcid.org/0000-0002-3982-5558",
+            "creation_date": "2025-11-07",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-11-07",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 16,
+              "y_translation": 25,
+              "z_translation": 21,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.5281/zenodo.11585722",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor1_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223085",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor1_TissueBlock1_TissueBlock1_Dataset3",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223086",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor2",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+      "consortium_name": "University of British Columbia",
+      "provider_name": "Laura N. Stankiewicz",
+      "provider_uuid": "A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma",
+      "age": 0,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "T087",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a976c4e1-9d01-4509-8e34-6448bc5a7fa8",
+            "@type": "SpatialEntity",
+            "creator": "Laura Stankiewicz",
+            "creator_first_name": "Laura",
+            "creator_last_name": "Stankiewicz",
+            "creator_orcid": "https://orcid.org/0000-0002-3982-5558",
+            "creation_date": "2025-11-07",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a976c4e1-9d01-4509-8e34-6448bc5a7fa8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-11-07",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 34.144,
+              "y_translation": 38.609,
+              "z_translation": 42,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.5281/zenodo.11585722",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor2_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223087",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor2_TissueBlock1_TissueBlock1_Dataset3",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223088",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor3",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+      "consortium_name": "University of British Columbia",
+      "provider_name": "Laura N. Stankiewicz",
+      "provider_uuid": "A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma",
+      "age": 0,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor3_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "T096",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992",
+            "@type": "SpatialEntity",
+            "creator": "Laura Stankiewicz",
+            "creator_first_name": "Laura",
+            "creator_last_name": "Stankiewicz",
+            "creator_orcid": "https://orcid.org/0000-0002-3982-5558",
+            "creation_date": "2025-11-07",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-11-07",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 16,
+              "y_translation": 25,
+              "z_translation": 21,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.5281/zenodo.11585722",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor3_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: ATACseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223060",
+              "technology": "ATACseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor3_TissueBlock1_TissueBlock1_Dataset3",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: ATACseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223061",
+              "technology": "ATACseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor3_TissueBlock1_TissueBlock1_Dataset4",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223089",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor3_TissueBlock1_TissueBlock1_Dataset5",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223090",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor4",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+      "consortium_name": "University of British Columbia",
+      "provider_name": "Laura N. Stankiewicz",
+      "provider_uuid": "A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma",
+      "age": 0,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor4_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "T097",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a976c4e1-9d01-4509-8e34-6448bc5a7fa8",
+            "@type": "SpatialEntity",
+            "creator": "Laura Stankiewicz",
+            "creator_first_name": "Laura",
+            "creator_last_name": "Stankiewicz",
+            "creator_orcid": "https://orcid.org/0000-0002-3982-5558",
+            "creation_date": "2025-11-07",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a976c4e1-9d01-4509-8e34-6448bc5a7fa8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-11-07",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 34.144,
+              "y_translation": 38.609,
+              "z_translation": 42,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor4_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.5281/zenodo.11585722",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor4_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: ATACseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223062",
+              "technology": "ATACseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor4_TissueBlock1_TissueBlock1_Dataset3",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223091",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor4_TissueBlock1_TissueBlock1_Dataset4",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223092",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor5",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+      "consortium_name": "University of British Columbia",
+      "provider_name": "Laura N. Stankiewicz",
+      "provider_uuid": "A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma",
+      "age": 0,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor5_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "T098",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992",
+            "@type": "SpatialEntity",
+            "creator": "Laura Stankiewicz",
+            "creator_first_name": "Laura",
+            "creator_last_name": "Stankiewicz",
+            "creator_orcid": "https://orcid.org/0000-0002-3982-5558",
+            "creation_date": "2025-11-07",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-11-07",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 16,
+              "y_translation": 25,
+              "z_translation": 21,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor5_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.5281/zenodo.11585722",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor5_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: ATACseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223063",
+              "technology": "ATACseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor5_TissueBlock1_TissueBlock1_Dataset3",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223093",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor5_TissueBlock1_TissueBlock1_Dataset4",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223094",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor6",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+      "consortium_name": "University of British Columbia",
+      "provider_name": "Laura N. Stankiewicz",
+      "provider_uuid": "A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma",
+      "age": 0,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor6_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "T099",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a976c4e1-9d01-4509-8e34-6448bc5a7fa8",
+            "@type": "SpatialEntity",
+            "creator": "Laura Stankiewicz",
+            "creator_first_name": "Laura",
+            "creator_last_name": "Stankiewicz",
+            "creator_orcid": "https://orcid.org/0000-0002-3982-5558",
+            "creation_date": "2025-11-07",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a976c4e1-9d01-4509-8e34-6448bc5a7fa8_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-11-07",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 34.144,
+              "y_translation": 38.609,
+              "z_translation": 42,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor6_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.5281/zenodo.11585722",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor6_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: ATACseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223064",
+              "technology": "ATACseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor6_TissueBlock1_TissueBlock1_Dataset3",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223095",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor6_TissueBlock1_TissueBlock1_Dataset4",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223096",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor7",
+      "@type": "Donor",
+      "label": "Male",
+      "description": "Entered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+      "consortium_name": "University of British Columbia",
+      "provider_name": "Laura N. Stankiewicz",
+      "provider_uuid": "A602B2DA-F154-425C-8D04-7B8558F6DABCmalemma",
+      "age": 0,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor7_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "T100",
+          "description": "10 x 10 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1534580724005392?via%3Dihub#abs0020",
+          "section_count": 0,
+          "section_size": 10,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992",
+            "@type": "SpatialEntity",
+            "creator": "Laura Stankiewicz",
+            "creator_first_name": "Laura",
+            "creator_last_name": "Stankiewicz",
+            "creator_orcid": "https://orcid.org/0000-0002-3982-5558",
+            "creation_date": "2025-11-07",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0005457",
+              "http://purl.obolibrary.org/obo/UBERON_0005469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a6081793-082e-4783-b5ee-ca7a6ce9a992_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-11-07",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 16,
+              "y_translation": 25,
+              "z_translation": 21,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor7_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://doi.org/10.5281/zenodo.11585722",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor7_TissueBlock1_TissueBlock1_Dataset2",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: ATACseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223065",
+              "technology": "ATACseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor7_TissueBlock1_TissueBlock1_Dataset3",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223097",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            },
+            {
+              "@id": "https://doi.org/10.1016/j.devcel.2024.09.011#Donor7_TissueBlock1_TissueBlock1_Dataset4",
+              "@type": "Dataset",
+              "label": "Registered 10/6/2025, Laura Stankiewicz, Laura N. Stankiewicz",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8223098",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
