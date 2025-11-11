@@ -1,0 +1,77 @@
+assay_cv:
+  - dataset_type: Auto-fluorescence
+    description: Endogenous fluorescence imaging used for registration and morphological context.
+    source: HuBMAP
+  - dataset_type: ATACseq
+    description: Assay for Transposase-Accessible Chromatin sequencing, bulk or single-cell.
+    source: HuBMAP
+  - dataset_type: CODEX
+    description: Co-detection by indexing; highly multiplexed antibody-based fluorescence imaging.
+    source: HuBMAP
+  - dataset_type: 2D Imaging Mass Cytometry
+    description: Two-dimensional imaging mass cytometry using metal-tagged antibodies and laser ablation.
+    source: HuBMAP
+  - dataset_type: 3D Imaging Mass Cytometry
+    description: Three-dimensional extension of imaging mass cytometry capturing volumetric data.
+    source: HuBMAP
+  - dataset_type: Multiplexed Immunofluorescence (MxIF)
+    description: Iterative or cyclic immunofluorescence imaging (CyCIF, IBEX, or related protocols).
+    source: HuBMAP
+  - dataset_type: RNAseq
+    description: RNA sequencing assay including bulk RNA-seq and single-cell RNA-seq methods.
+    source: HuBMAP / SenNet
+  - dataset_type: Histology
+    description: Brightfield microscopy of stained tissue sections (H&E, PAS, or other classical stains).
+    source: HuBMAP / SenNet
+  - dataset_type: Light Sheet
+    description: Light-sheet fluorescence microscopy of cleared or thick tissue for volumetric imaging.
+    source: SenNet
+  - dataset_type: LC-MS
+    description: Liquid Chromatography–Mass Spectrometry assay for proteomics or metabolomics.
+    source: SenNet
+  - dataset_type: MALDI-IMS
+    description: Matrix-Assisted Laser Desorption/Ionization Imaging Mass Spectrometry for spatial molecular mapping.
+    source: HuBMAP / SenNet
+  - dataset_type: DESI
+    description: Desorption Electrospray Ionization Imaging Mass Spectrometry; ambient ionization spatial MS.
+    source: SenNet
+  - dataset_type: MERFISH
+    description: Multiplexed Error-Robust Fluorescence In Situ Hybridization for spatial transcriptomics.
+    source: HuBMAP / SenNet
+  - dataset_type: MIBI
+    description: Multiplexed Ion Beam Imaging; mass spectrometry-based spatial proteomics technique.
+    source: SenNet
+  - dataset_type: MUSIC
+    description: Multiplexed Imaging Mass Spectrometry Consortium dataset type for multimodal IMS.
+    source: SenNet
+  - dataset_type: PhenoCycler
+    description: High-plex imaging platform formerly known as CODEX; cyclic immunofluorescence by Akoya.
+    source: SenNet
+  - dataset_type: GeoMx (NGS)
+    description: NanoString GeoMx Digital Spatial Profiler with sequencing readout for RNA or protein panels.
+    source: HuBMAP / SenNet
+  - dataset_type: HiFi-Slide
+    description: High-fidelity long-read sequencing slide assay type listed in SenNet schemas.
+    source: SenNet
+  - dataset_type: RNAseq (with probes)
+    description: Targeted RNA sequencing using capture probes; includes spatial or hybrid readouts.
+    source: SenNet
+  - dataset_type: SNARE-seq2
+    description: Single-nucleus assay combining chromatin accessibility and transcriptome sequencing.
+    source: SenNet
+  - dataset_type: Second Harmonic Generation (SHG)
+    description: Nonlinear optical imaging modality for structural contrast, such as collagen fibers.
+    source: SenNet
+  - dataset_type: SIMS
+    description: Secondary Ion Mass Spectrometry imaging for high-resolution chemical mapping.
+    source: SenNet
+  - dataset_type: SeqFISH
+    description: Sequential Fluorescence In Situ Hybridization for highly multiplexed RNA detection in situ.
+    source: HuBMAP / SenNet
+  - dataset_type: Segmentation Mask
+    description: Derived dataset type storing segmentation masks and per-object feature tables for pathomics.
+    source: HuBMAP
+  - dataset_type: FACS
+    description: Fluorescence-activated cell sorting for isolating specific cell populations.
+    source: N/A
+  

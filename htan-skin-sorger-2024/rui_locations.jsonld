@@ -60,20 +60,21 @@
           },
           "datasets": [
             {
-              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-skin-sorger-2024#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://doi.org/10.1101/2023.11.10.566670#phenotypes_melanoma_in_situ",
               "@type": "Dataset",
               "label": "Registered 6/24/2024, Peter Sorger, Harvard University",
-              "description": "Data/Assay Types: CyCIF, ",
-              "link": "https://www.biorxiv.org/content/10.1101/2023.11.10.566670v3",
-              "technology": "CyCIF",
+              "description": "Data/Assay Types: MxIF, ",
+              "link": "https://www.cycif.org/data/mel-3d-mis-2/#s=0#w=0#g=0#m=-1#a=-100_-100#v=1_0.9902_0.5#o=-100_-100_1_1#p=Q#r=100",
+              "technology": "MxIF",
               "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
             },
             {
-              "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-skin-sorger-2024#Donor1_TissueBlock1_TissueBlock1_Dataset2",
+              "@id": "https://doi.org/10.1101/2023.11.10.566670#phenotypes_invasive_margin",
               "@type": "Dataset",
               "label": "Registered 6/24/2024, Peter Sorger, Harvard University",
-              "description": "Data/Assay Types: undefined, ",
+              "description": "Data/Assay Types: MxIF, ",
               "link": "https://www.cycif.org/data/mel-3d-mis-2/#s=0#w=0#g=0#m=-1#a=-100_-100#v=1_0.9902_0.5#o=-100_-100_1_1#p=Q#r=100",
+              "technology": "MxIF",
               "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
             }
           ]

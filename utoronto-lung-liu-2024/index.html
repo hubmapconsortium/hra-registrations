@@ -10,28 +10,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
     <script src="wc.js" type="module"></script>
+    <script>
+      const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
+      fetch(`${basePath}rui_locations.jsonld#225a3ad93a525d975e2d036e9bfa74cc`)
+        .then((r) => r.json())
+        .then((ruiLocations) => {
+          const eui = document.createElement('ccf-eui');
+          eui.homeUrl = location.href;
+          eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations)]);
+          // eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097' ];
+          document.body.appendChild(eui);
+        });
+    </script>
   </head>
 
-  <body>
-    <template id="eui-template">
-      <ccf-eui
-        home-url="HOME_URL"
-        data-sources='["SOURCE"]'
-        logo-tooltip=""
-        theme="hubmap"
-        login-disabled="true"
-        selected-organs='["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0001004", "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary"]'
-      ></ccf-eui>
-    </template>
-    <script>
-      window.addEventListener('DOMContentLoaded', () => {
-        const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
-        const homeUrl = location.href;
-        const source = `${basePath}rui_locations.jsonld#b7457fbcf9da0743d816ca1e1f575a8d`;
-        const euiTemplate = document.getElementById('eui-template');
-        const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
-        document.body.innerHTML = eui;
-      });
-    </script>
-  </body>
+  <body></body>
 </html>

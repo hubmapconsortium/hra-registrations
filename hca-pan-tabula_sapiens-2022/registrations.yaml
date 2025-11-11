@@ -23,14 +23,14 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$bladder%20organ
         link: https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP1_Pancreas
       sample_type: Tissue Block
       rui_location: VHF_pancreas.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$endocrine%20pancreas
         link: https://cellxgene.cziscience.com/e/ff45e623-7f5f-46e3-b47d-56be0341f66b.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP10
     label: TSP10
     age: 33
@@ -41,13 +41,13 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20abdomen
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
-        technology: smartseq
+        technology: RNAseq
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20chest
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
-        technology: smartseq
+        technology: RNAseq
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP14
     label: TSP14
     age: 59
@@ -60,38 +60,38 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$bladder%20organ
         link: https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP14_Prostate
       sample_type: Tissue Block
       rui_location: VHM_prostate.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$prostate%20gland
         link: https://cellxgene.cziscience.com/e/d77ec7d6-ef2e-49d6-9e79-05b7f8881484.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP14_Skin
       sample_type: Tissue Block
       rui_location: VHM_Skin.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20abdomen
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
-        technology: 10x
+        technology: RNAseq
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20chest
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP14_Spleen
       sample_type: Tissue Block
       rui_location: VHM_Spleen.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$spleen
         link: https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP14_Thymus
       sample_type: Tissue Block
       rui_location: VHM_thymus.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$thymus
         link: https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP2
     label: TSP2
     age: 61
@@ -104,63 +104,63 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$ascending%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fsigmoid_colon
       sample_type: Tissue Block
       rui_location: VHF_sigmoid_colon_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$sigmoid%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Bladder
       sample_type: Tissue Block
       rui_location: VHF_bladder.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$bladder
         link: https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Kidney
       sample_type: Tissue Block
       rui_location: VHF_kidney_L.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$kidney
         link: https://cellxgene.cziscience.com/e/2423ce2c-3149-4cca-a2ff-cf682ea29b5f.cxg/
-        technology: smartseq
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Skin
       sample_type: Tissue Block
       rui_location: VHF_Skin.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$skin
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
-        technology: smartseq
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Small_Intestine%2FDuodenum
       sample_type: Tissue Block
       rui_location: VHF_duodenum_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Small_Intestine%2FJejunum
       sample_type: Tissue Block
       rui_location: VHF_jejunum_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$jejunum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Spleen
       sample_type: Tissue Block
       rui_location: VHF_Spleen.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$spleen
         link: https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP2_Thymus
       sample_type: Tissue Block
       rui_location: VHF_thymus.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$thymus
         link: https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP21
     label: TSP21
     age: 45
@@ -172,21 +172,21 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP21$bladder
         link: https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP21_Skin
       sample_type: Tissue Block
       rui_location: VHF_Skin.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP21$skin
         link: https://cellxgene.cziscience.com/e/0041b9c3-6a49-4bf7-8514-9bc7190067a7.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP21_Spleen
       sample_type: Tissue Block
       rui_location: VHF_Spleen.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP21$spleen
         link: https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP25
     label: TSP25
     age: 60
@@ -198,56 +198,56 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$bladder
         link: https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fasc_colon
       sample_type: Tissue Block
       rui_location: VHM_asc_colon_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$ascending%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fsigmoid_colon
       sample_type: Tissue Block
       rui_location: VHM_sigmoid_colon_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$sigmoid%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Prostate
       sample_type: Tissue Block
       rui_location: VHM_prostate.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$prostate
         link: https://cellxgene.cziscience.com/e/d77ec7d6-ef2e-49d6-9e79-05b7f8881484.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Duodenum
       sample_type: Tissue Block
       rui_location: VHM_duodenum_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP25_ileum
       sample_type: Tissue Block
       rui_location: VHM_ileum_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$ileum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Spleen
       sample_type: Tissue Block
       rui_location: VHM_Spleen.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$spleen
         link: https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP25_Thymus
       sample_type: Tissue Block
       rui_location: VHM_thymus.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$thymus
         link: https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP26
     label: TSP26
     age: 37
@@ -259,28 +259,28 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ascending%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fsigmoid_colon
       sample_type: Tissue Block
       rui_location: VHF_sigmoid_colon_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$sigmoid%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP26_Small_Intestine%2Fduodenum
       sample_type: Tissue Block
       rui_location: VHF_duodenum_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP26_Small_Intestine%2Fileum
       sample_type: Tissue Block
       rui_location: VHF_ileum_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ileum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP27
     label: TSP27
     age: 56
@@ -292,91 +292,91 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$bladder
         link: https://cellxgene.cziscience.com/e/e5c63d94-593c-4338-a489-e1048599e751.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Heart%2Fright_cardiac
       sample_type: Tissue Block
       rui_location: VHF_heart_right_cardiac_atrium.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$right%20cardiac%20atrium
         link: https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Heart%2Fright_ventricle
       sample_type: Tissue Block
       rui_location: VHF_heart_right_ventricle.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$heart%20right%20ventricle
         link: https://cellxgene.cziscience.com/e/e6a11140-2545-46bc-929e-da243eed2cae.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_asc_colon
       sample_type: Tissue Block
       rui_location: VHF_asc_colon_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ascending%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_sigmoid_colon
       sample_type: Tissue Block
       rui_location: VHF_sigmoid_colon_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$sigmoid%20colon
         link: https://cellxgene.cziscience.com/e/7357cee7-9f7f-4ab0-8cec-90de8f047e38.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Mammary
       sample_type: Tissue Block
       rui_location: VHF_Mammary_Gland_L.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$mammary%20gland 
         link: https://cellxgene.cziscience.com/e/2ba40233-8576-4dec-a5f1-2adfa115e2dc.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Ovary_L
       sample_type: Tissue Block
       rui_location: VHF_ovary_L.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$left%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Ovary_R
       sample_type: Tissue Block
       rui_location: VHF_ovary_R.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$right%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Pancreas
       sample_type: Tissue Block
       rui_location: VHF_pancreas.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$pancreas
         link: https://cellxgene.cziscience.com/e/ff45e623-7f5f-46e3-b47d-56be0341f66b.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_duodenum
       sample_type: Tissue Block
       rui_location: VHF_duodenum_low_confidence.json
       datasets:
       - id: hhttps://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$duodenum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Ileum
       sample_type: Tissue Block
       rui_location: VHF_ileum_low_confidence.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$ileum
         link: https://cellxgene.cziscience.com/e/a357414d-2042-4eb5-95f0-c58604a18bdd.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Spleen
       sample_type: Tissue Block
       rui_location: VHF_Spleen.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$spleen
         link: https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP27_Thymus
       sample_type: Tissue Block
       rui_location: VHF_thymus.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$thymus
         link: https://cellxgene.cziscience.com/e/0ced5e76-6040-47ff-8a72-93847965afc0.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP28
     label: TSP28
     age: 55
@@ -388,14 +388,14 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$left%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP28_Ovary_R
       sample_type: Tissue Block
       rui_location: VHF_ovary_R.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP28$right%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP30
     label: TSP30
     age: 26
@@ -407,14 +407,14 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$left%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
-        technology: 10x
+        technology: RNAseq
     - id: https://doi.org/10.1126/science.abl4896#TSP30_Ovary_R
       sample_type: Tissue Block
       rui_location: VHF_ovary_R.json
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP30$right%20ovary
         link: https://cellxgene.cziscience.com/e/bb78adbb-1428-4468-bad0-63602bb974e9.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP4
     label: TSP4
     age: 38
@@ -426,7 +426,7 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP4$mammary%20gland
         link: https://cellxgene.cziscience.com/e/2ba40233-8576-4dec-a5f1-2adfa115e2dc.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP7
     label: TSP7
     age: 69
@@ -439,7 +439,7 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP7$spleen
         link: https://cellxgene.cziscience.com/e/cee11228-9f0b-4e57-afe2-cfe15ee56312.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP8
     label: TSP8
     age: 56
@@ -451,7 +451,7 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP8$prostate%20gland
         link: https://cellxgene.cziscience.com/e/d77ec7d6-ef2e-49d6-9e79-05b7f8881484.cxg/
-        technology: 10x
+        technology: RNAseq
   - id: https://doi.org/10.1126/science.abl4896#TSP9
     label: TSP9
     age: 37
@@ -463,4 +463,4 @@
       datasets:
       - id: https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP9$exocrine%20pancreas
         link: https://cellxgene.cziscience.com/e/ff45e623-7f5f-46e3-b47d-56be0341f66b.cxg/
-        technology: 10x
+        technology: RNAseq

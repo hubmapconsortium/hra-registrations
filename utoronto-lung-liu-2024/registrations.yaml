@@ -15,12 +15,12 @@
       rui_location: lung-RLL.json 
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
     - label: "case_1_2hR"
       rui_location: lung-RML.json 
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
   - sex: Male
     age: 19
     samples:
@@ -28,12 +28,12 @@
       rui_location: lung-Lingula.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
     - label: "case_2_2hR"
       rui_location: lung-RLL.json 
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
   - sex: Male
     age: 66
     samples:
@@ -41,12 +41,12 @@
       rui_location: lung-RLL.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
     - label: "case_3_2hR"
       rui_location: lung-LUL.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
   - sex: Male
     age: 37
     samples:
@@ -54,12 +54,12 @@
       rui_location: lung-RML.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
     - label: "case_4_2hR"
       rui_location: lung-RML.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
   - sex: Male
     age: 36
     samples:
@@ -67,12 +67,12 @@
       rui_location: lung-RML.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
     - label: "case_5_2hR"
       rui_location: lung-RML.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
   - sex: Male
     age: 51
     samples:
@@ -80,9 +80,9 @@
       rui_location: lung-RML.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq
     - label: "case_6_2hR"
       rui_location: lung-RUL.json
       datasets:
       - link: https://cellxgene.cziscience.com/e/429d21fd-bb9a-4abf-922b-c15138524bdd.cxg/
-        technology: scRNA-seq
+        technology: RNAseq

@@ -40,7 +40,7 @@
         datasets:        
         - id: https://entity.api.hubmapconsortium.org/entities/541ba483b19c09536c62d9d2e8b98427
           link: https://portal.hubmapconsortium.org/browse/dataset/541ba483b19c09536c62d9d2e8b98427
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Male
       age: 57
       label: H21
@@ -53,7 +53,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/67df87f036be7b428ab9d5e5c5a92e87
           link: https://portal.hubmapconsortium.org/browse/dataset/67df87f036be7b428ab9d5e5c5a92e87
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Male
       age: 59
       label: H23
@@ -66,7 +66,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/0426c0d863859eeaedd3fd25d210801e
           link: https://portal.hubmapconsortium.org/browse/dataset/0426c0d863859eeaedd3fd25d210801e
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Female
       age: 73
       label: H24
@@ -79,7 +79,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/33b57f0c698f87808bf8656af4e336d1
           link: https://portal.hubmapconsortium.org/browse/dataset/33b57f0c698f87808bf8656af4e336d1
-          technology: scRNA-seq                         
+          technology: RNAseq                         
     - sex: Male
       age: 54
       label: H26
@@ -125,7 +125,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/779ec7065c64e808da9db57e5f03cdd6
           link: https://portal.hubmapconsortium.org/browse/dataset/779ec7065c64e808da9db57e5f03cdd6
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Male
       age: 74
       label: H33
@@ -145,7 +145,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/1c531fb835018a793723f182cd997c14
           link: https://portal.hubmapconsortium.org/browse/dataset/1c531fb835018a793723f182cd997c14
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Male
       age: 52
       label: H34
@@ -158,7 +158,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/f8669adc5e08cbfd68916329150418e6
           link: https://portal.hubmapconsortium.org/browse/dataset/f8669adc5e08cbfd68916329150418e6
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Female
       age: 66
       label: H35
@@ -178,7 +178,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/c1b6a0a5b0e5fee5307ea20f7da00b42
           link: https://portal.hubmapconsortium.org/browse/dataset/c1b6a0a5b0e5fee5307ea20f7da00b42
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Female
       age: 65
       label: H36
@@ -198,7 +198,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/34a6b547c0fb40ddaa064efc33e9c74b
           link: https://portal.hubmapconsortium.org/browse/dataset/34a6b547c0fb40ddaa064efc33e9c74b
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Female
       age: 69
       label: H37
@@ -231,7 +231,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/4ee86a2c07e8b56d99bd5a795bafbc0d
           link: https://portal.hubmapconsortium.org/browse/dataset/4ee86a2c07e8b56d99bd5a795bafbc0d
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Male
       age: 72
       label: H39
@@ -251,7 +251,7 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/ba5413228511cde99278e44f05be21d1
           link: https://portal.hubmapconsortium.org/browse/dataset/ba5413228511cde99278e44f05be21d1
-          technology: scRNA-seq
+          technology: RNAseq
     - sex: Female
       age: 54
       label: H41
@@ -271,4 +271,4 @@
         datasets:
         - id: https://entity.api.hubmapconsortium.org/entities/07219375c3496c896fa04a6d20157b7a
           link: https://portal.hubmapconsortium.org/browse/dataset/07219375c3496c896fa04a6d20157b7a
-          technology: scRNA-seq
+          technology: RNAseq

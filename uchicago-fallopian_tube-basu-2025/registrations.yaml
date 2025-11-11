@@ -15,15 +15,15 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D2, Age Range: 70-75"
       bmi: 28.47
@@ -31,11 +31,11 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D3, Age Range: 60-65"
       bmi: 31.48
@@ -43,18 +43,18 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D4, Age Range: 50-55"
       bmi: 21.45
@@ -62,13 +62,13 @@
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D5, Age Range: 60-65"
       bmi: 22.73
@@ -76,18 +76,18 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D6, Age Range: 60-65"
       bmi: 26.74
@@ -95,18 +95,18 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D7, Age Range: 60-65"
       bmi: 31.31
@@ -114,11 +114,11 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D9, Age Range: 45-50"
       bmi: 26.67
@@ -126,11 +126,11 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D10, Age Range: 40-45"
       bmi: 53.35
@@ -138,11 +138,11 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D11, Age Range: 35-40"
       bmi: 28.03
@@ -150,15 +150,15 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D12, Age Range: 40-45"
       bmi: 28.03
@@ -166,15 +166,15 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D13, Age Range: 35-40"
       bmi: 26.41
@@ -182,15 +182,15 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
+            technology: RNAseq
     - sex: Female
       label: "D14, Age Range: 30-35"
       bmi: 32.33
@@ -198,13 +198,13 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D15, Age Range: 40-45"
       bmi: 19.55
@@ -212,13 +212,13 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D16, Age Range: 45-50"
       bmi: 33.11
@@ -226,18 +226,18 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D17, Age Range: 40-45"
       bmi: 41.01
@@ -245,18 +245,18 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
     - sex: Female
       label: "D18, Age Range: 40-45"
       bmi: 28.62
@@ -264,15 +264,15 @@
       - rui_location: ampulla.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: fimbria.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq
       - rui_location: isthmus.json
         datasets:
           - link: https://cellxgene.cziscience.com/e/0436a180-cb44-47ba-8ffa-807b7a468469.cxg/
-            technology: 10x Drop-seq
-          - technology: 10x ATAC-seq
+            technology: RNAseq
+          - technology: ATAC-seq

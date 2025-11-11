@@ -18,13 +18,13 @@
         sections:
           - datasets:
               - description: "Data/Assay Types: 10x"
-                technology: 10x
+                technology: RNAseq
                 id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.001_Donor_TissueBlock1_TissueSection1_Dataset1
       - rui_location: Block2_10X.json
         sections:
           - datasets:
               - description: "Data/Assay Types: 10x"
-                technology: 10x
+                technology: RNAseq
                 id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#Donor1_TissueBlock2_TissueSection1_Dataset1
       - rui_location: Block1_SSv4.json
         sections:
@@ -41,7 +41,7 @@
         sections:
           - datasets:
               - description: "Data/Assay Types: 10x"
-                technology: 10x  
+                technology: RNAseq  
                 id: https://api.cellxgene.cziscience.com/dp/v1/collections/367d95c0-0eb0-4dae-8276-9407239421ee#H18.30.002_Donor_TissueBlock1_TissueSection1_Dataset1
       - rui_location: Block2_SSv4.json
         sections:

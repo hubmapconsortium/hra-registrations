@@ -14,42 +14,42 @@
       samples:
       - rui_location: male-left-macula.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
       - rui_location: male-left-periphery.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
     - sex: Male #Donor2
       age: 87
       samples:
       - rui_location: male-right-macula.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
       - rui_location: male-right-periphery.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
     - sex: Female #Donor3
       age: 91
       samples:
       - rui_location: female-left-macula.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
       - rui_location: female-left-periphery.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
     - sex: Female #Donor4
       age: 67
       samples:
       - rui_location: female-left-macula.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
       - rui_location: female-left-periphery.json
         datasets:
-        - technology: 10x
+        - technology: RNAseq
           link: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE220155&format=file
