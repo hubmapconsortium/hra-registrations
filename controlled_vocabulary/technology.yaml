@@ -41,9 +41,9 @@ assay_cv:
   - dataset_type: MIBI
     description: Multiplexed Ion Beam Imaging; mass spectrometry-based spatial proteomics technique.
     source: SenNet
-  - dataset_type: MUSIC
+  - dataset_type: MIMS
     description: Multiplexed Imaging Mass Spectrometry Consortium dataset type for multimodal IMS.
-    source: SenNet
+    source: N/A
   - dataset_type: PhenoCycler
     description: High-plex imaging platform formerly known as CODEX; cyclic immunofluorescence by Akoya.
     source: SenNet
