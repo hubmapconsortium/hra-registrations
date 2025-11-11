@@ -8,21 +8,25 @@ assay_cv:
   - dataset_type: CODEX
     description: Co-detection by indexing; highly multiplexed antibody-based fluorescence imaging.
     source: HuBMAP
+    variant: PhenoCycler
   - dataset_type: 2D Imaging Mass Cytometry
     description: Two-dimensional imaging mass cytometry using metal-tagged antibodies and laser ablation.
     source: HuBMAP
   - dataset_type: 3D Imaging Mass Cytometry
     description: Three-dimensional extension of imaging mass cytometry capturing volumetric data.
     source: HuBMAP
-  - dataset_type: Multiplexed Immunofluorescence (MxIF)
-    description: Iterative or cyclic immunofluorescence imaging (CyCIF, IBEX, or related protocols).
+  - dataset_type: MxIF
+    description: Multiplexed Immunofluorescence, Iterative or cyclic immunofluorescence imaging
     source: HuBMAP
+    variation: CyCIF, IBEX
   - dataset_type: RNAseq
     description: RNA sequencing assay including bulk RNA-seq and single-cell RNA-seq methods.
     source: HuBMAP / SenNet
+    variant: CITE-seq, 10x Genomics, Smart-seq
   - dataset_type: Histology
     description: Brightfield microscopy of stained tissue sections (H&E, PAS, or other classical stains).
     source: HuBMAP / SenNet
+    variant: IHC, PAS, H&E
   - dataset_type: Light Sheet
     description: Light-sheet fluorescence microscopy of cleared or thick tissue for volumetric imaging.
     source: SenNet
@@ -44,9 +48,6 @@ assay_cv:
   - dataset_type: MIMS
     description: Multiplexed Imaging Mass Spectrometry Consortium dataset type for multimodal IMS.
     source: N/A
-  - dataset_type: PhenoCycler
-    description: High-plex imaging platform formerly known as CODEX; cyclic immunofluorescence by Akoya.
-    source: SenNet
   - dataset_type: GeoMx (NGS)
     description: NanoString GeoMx Digital Spatial Profiler with sequencing readout for RNA or protein panels.
     source: HuBMAP / SenNet

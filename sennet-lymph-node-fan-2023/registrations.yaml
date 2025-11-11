@@ -17,7 +17,7 @@
           - link: https://data.sennetconsortium.org/dataset?uuid=4f0d1913fda94d02e82d928951dbcdab
             id: https://data.sennetconsortium.org/dataset?uuid=4f0d1913fda94d02e82d928951dbcdab
             label: LN22921
-            technology: PhenoCycler
+            technology: CODEX
     - sex: Male
       age: 65
       bmi: 24.6
@@ -27,7 +27,7 @@
           - link: https://data.sennetconsortium.org/dataset?uuid=bc2380a1970abded1129ed77507be349
             id: https://data.sennetconsortium.org/dataset?uuid=bc2380a1970abded1129ed77507be349
             label: LN24336
-            technology: PhenoCycler
+            technology: CODEX
     - sex: Male
       age: 50
       bmi: 22.4
@@ -37,7 +37,7 @@
         - link: https://data.sennetconsortium.org/dataset?uuid=cc703095438a75d64e4a3fe5fbcead9c
           id: https://data.sennetconsortium.org/dataset?uuid=cc703095438a75d64e4a3fe5fbcead9c
           label: LN27766
-          technology: PhenoCycler
+          technology: CODEX
     - sex: Female 
       age: 25
       bmi: 21
@@ -47,7 +47,7 @@
         - id: https://data.sennetconsortium.org/dataset?uuid=231a3d0cc7fb7506194109b68caa0b6a
           label: LN00560
           link: https://data.sennetconsortium.org/dataset?uuid=231a3d0cc7fb7506194109b68caa0b6a
-          technology: PhenoCycler
+          technology: CODEX
     - sex: Male 
       age: 86
       bmi: 25.9
@@ -57,4 +57,4 @@
         - link: https://data.sennetconsortium.org/dataset?uuid=be4874c329c8dfd14b91c682e613daed/
           id: https://data.sennetconsortium.org/dataset?uuid=be4874c329c8dfd14b91c682e613daed
           label: LN00837
-          technology: PhenoCycler
+          technology: CODEX
