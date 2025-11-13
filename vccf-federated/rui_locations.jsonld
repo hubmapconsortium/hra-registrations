@@ -5122,7 +5122,7 @@
       "description": "23.8 year old, White, Male, Brain Injury",
       "link": "https://portal.hubmapconsortium.org/browse/donor/29a385d01f8316404952d101bc4f16c5",
       "consortium_name": "HuBMAP",
-      "provider_name": "University of California San Diego TMC",
+      "provider_name": "University of California San Diego",
       "provider_uuid": "03b3d854-ed44-11e8-8bce-0e368f3075e8",
       "age": 23,
       "sex": "Male",
@@ -5132,7 +5132,7 @@
           "@id": "http://purl.org/ccf/1.5/fb73e18b-9ddc-4fdf-b9a6-4b7735e5017b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/11/2024, Gloria S Pryhuber, University of California San Diego TMC",
+          "label": "Registered 2/11/2024, Gloria S Pryhuber, University of California San Diego",
           "description": "Donor D265 left lung lower lobe",
           "link": "https://portal.hubmapconsortium.org/browse/sample/539b8dd38698d191ec284f9f061e7441",
           "section_count": 1,
@@ -5180,10 +5180,20 @@
               "@id": "http://purl.org/ccf/1.5/fb73e18b-9ddc-4fdf-b9a6-4b7735e5017b#TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
-              "label": "Registered 2/11/2024, Gloria S Pryhuber, University of California San Diego TMC",
+              "label": "Registered 2/11/2024, Gloria S Pryhuber, University of California San Diego",
               "description": "10 x 10 x 5 millimeter, 5 millimeter",
               "link": "https://portal.hubmapconsortium.org/browse/sample/0f1ddcb41a484adbda759c0c79097a02",
-              "section_size": 5
+              "section_size": 5,
+              "datasets": [
+                {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/0f1ddcb41a484adbda759c0c79097a02#D265-LLL-7A7-12",
+                  "@type": "Dataset",
+                  "label": "Registered 2/11/2024, Gloria S Pryhuber, University of California San Diego",
+                  "description": "Data/Assay Types: undefined, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/8ac6e3bc3fb44efe981818290abd7693",
+                  "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+                }
+              ]
             }
           ]
         }
@@ -5196,7 +5206,7 @@
       "description": "1.6 year old, White, Female, BPD with Pulmonary hypertension",
       "link": "https://portal.hubmapconsortium.org/browse/donor/9b52efad34df0cca520909e1cb22cc43",
       "consortium_name": "HuBMAP",
-      "provider_name": "University of California San Diego TMC",
+      "provider_name": "University of California San Diego",
       "provider_uuid": "03b3d854-ed44-11e8-8bce-0e368f3075e8",
       "age": 1,
       "sex": "Female",
@@ -5205,7 +5215,7 @@
           "@id": "http://purl.org/ccf/1.5/aed760ae-295a-43fc-b6cd-abdf6f012975",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 2/10/2024, Gloria S Pryhuber, University of California San Diego TMC",
+          "label": "Registered 2/10/2024, Gloria S Pryhuber, University of California San Diego",
           "description": "Donor D115 right lung lower lobe",
           "link": "https://portal.hubmapconsortium.org/browse/sample/9d944eb8a61bf85f70762ae3f2b0e22e",
           "section_count": 1,
@@ -5253,10 +5263,20 @@
               "@id": "http://purl.org/ccf/1.5/aed760ae-295a-43fc-b6cd-abdf6f012975#TissueSection1",
               "@type": "Sample",
               "sample_type": "Tissue Section",
-              "label": "Registered 2/10/2024, Gloria S Pryhuber, University of California San Diego TMC",
+              "label": "Registered 2/10/2024, Gloria S Pryhuber, University of California San Diego",
               "description": "15 x 10 x 5 millimeter, 5 millimeter",
               "link": "https://portal.hubmapconsortium.org/browse/sample/bff180755a5da7c036e5250c94f1ebd7",
-              "section_size": 5
+              "section_size": 5,
+              "datasets": [
+                {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/19af8341116f48408a70b5dd8e0a816b",
+                  "@type": "Dataset",
+                  "label": "Registered 2/10/2024, Gloria S Pryhuber, University of California San Diego",
+                  "description": "Data/Assay Types: undefined, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/19af8341116f48408a70b5dd8e0a816b",
+                  "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+                }
+              ]
             }
           ]
         }
@@ -8054,7 +8074,7 @@
       ]
     },
     {
-      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-colon-snyder-2024#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/htan-colon-snyder-2024#Donor1",
       "@type": "Donor",
       "label": "Male, Age 78, BMI 35.1",
       "description": "Entered 0/15/2024, Thomas V Karathanos, Stanford University",
@@ -8067,7 +8087,7 @@
       "bmi": 35.1,
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-colon-snyder-2024#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/htan-colon-snyder-2024#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",

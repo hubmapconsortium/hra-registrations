@@ -12,7 +12,7 @@
     <script src="wc.js" type="module"></script>
     <script>
       const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
-      fetch(`${basePath}rui_locations.jsonld#3eea69dac3e65e7bbfe4ff6e907f950f`)
+      fetch(`${basePath}rui_locations.jsonld#f706b945c6bb41812b57be1b328d9d21`)
         .then((r) => r.json())
         .then((ruiLocations) => {
           const eui = document.createElement('ccf-eui');

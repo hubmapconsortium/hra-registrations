@@ -2,7 +2,7 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-colon-snyder-2024#Donor1",
+      "@id": "https://hubmapconsortium.github.io/hra-registrations/htan-colon-snyder-2024#Donor1",
       "@type": "Donor",
       "label": "Male, Age 78, BMI 35.1",
       "description": "Entered 0/15/2024, Thomas V Karathanos, Stanford University",
@@ -15,7 +15,7 @@
       "bmi": 35.1,
       "samples": [
         {
-          "@id": "https://hubmapconsortium.github.io/hra-registrations/staging/htan-colon-snyder-2024#Donor1_TissueBlock1",
+          "@id": "https://hubmapconsortium.github.io/hra-registrations/htan-colon-snyder-2024#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 0/15/2024, Thomas V Karathanos, Stanford University",
