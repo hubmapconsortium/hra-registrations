@@ -1,0 +1,619 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: KPMP
+  provider_name: KPMP
+  provider_uuid: 70d9b948-2893-4de6-bc6e-f30d231196f0
+  defaults:
+    id: 6d70de90-f72a-4573-8806-1e012c86854f
+    thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
+    link: https://atlas.kpmp.org/
+  donors:
+  - id: https://atlas.kpmp.org/#164-1
+    sex: Male
+    label: 164-1, 50-59 Years
+    samples:
+    - rui_location: male-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#164-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-1&filters%5B0%5D%5Btype%5D=any/#164-1
+  - id: https://atlas.kpmp.org/#164-12
+    sex: Female
+    label: 164-12, 30-39 Years
+    samples:
+    - rui_location: female-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Lipidomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any/#164-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#164-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-12&filters%5B0%5D%5Btype%5D=any/#164-12
+  - id: https://atlas.kpmp.org/#164-14
+    sex: Male
+    label: 164-14, 40-49 Years
+    samples:
+    - rui_location: male-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-14
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-14
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-14
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#164-14
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-14
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-14&filters%5B0%5D%5Btype%5D=any/#164-14
+  - id: https://atlas.kpmp.org/#164-17
+    sex: Female
+    label: 164-17, 30-39 Years
+    samples:
+    - rui_location: female-mid-right.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-17
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-17
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-17
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-17
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-17&filters%5B0%5D%5Btype%5D=any/#164-17
+  - id: https://atlas.kpmp.org/#164-18
+    sex: Male
+    label: 164-18, 40-49 Years
+    samples:
+    - rui_location: male-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-18
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-18
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-18
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Lipidomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any/#164-18
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-18
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-18&filters%5B0%5D%5Btype%5D=any/#164-18
+  - id: https://atlas.kpmp.org/#164-21
+    sex: Female
+    label: 164-21, 40-49 Years
+    samples:
+    - rui_location: female-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-21
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-21
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-21
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-21
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-21&filters%5B0%5D%5Btype%5D=any/#164-21
+  - id: https://atlas.kpmp.org/#164-22
+    sex: Male
+    label: 164-22, 20-29 Years
+    samples:
+    - rui_location: male-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-22
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-22
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-22
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-22
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-22&filters%5B0%5D%5Btype%5D=any/#164-22
+  - id: https://atlas.kpmp.org/#164-3
+    sex: Male
+    label: 164-3, 20-29 Years
+    samples:
+    - rui_location: male-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-3
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-3
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial N-Glycomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any/#164-3
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-3&filters%5B0%5D%5Btype%5D=any/#164-3
+  - id: https://atlas.kpmp.org/#164-5
+    sex: Female
+    label: 164-5, 30-39 Years
+    samples:
+    - rui_location: female-mid-right.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-5
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-5
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-5
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial N-Glycomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any/#164-5
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-5
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-5&filters%5B0%5D%5Btype%5D=any/#164-5
+  - id: https://atlas.kpmp.org/#164-6
+    sex: Female
+    label: 164-6, 30-39 Years
+    samples:
+    - rui_location: female-mid-right.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-6
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-6
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-6
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#164-6
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-6&filters%5B0%5D%5Btype%5D=any/#164-6
+  - id: https://atlas.kpmp.org/#164-7
+    sex: Female
+    label: 164-7, 40-49 Years
+    samples:
+    - rui_location: female-mid-right.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#164-7
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-7
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial N-Glycomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any/#164-7
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-7&filters%5B0%5D%5Btype%5D=any/#164-7
+  - id: https://atlas.kpmp.org/#165-13
+    sex: Female
+    label: 165-13, 40-49 Years
+    samples:
+    - rui_location: female-lower-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#165-13
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#165-13
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#165-13
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-13&filters%5B0%5D%5Btype%5D=any/#165-13
+  - id: https://atlas.kpmp.org/#165-14
+    sex: Female
+    label: 165-14, 40-49 Years
+    samples:
+    - rui_location: female-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#165-14
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-14&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#165-14
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-14&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-14&filters%5B0%5D%5Btype%5D=any/#165-14
+  - id: https://atlas.kpmp.org/#165-15
+    sex: Male
+    label: 165-15, 40-49 Years
+    samples:
+    - rui_location: male-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any
+        technology: CODEX
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=CODEX&filters%5B1%5D%5Btype%5D=any/#165-15
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#165-15
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-15&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-15&filters%5B0%5D%5Btype%5D=any/#165-15
+  - id: https://atlas.kpmp.org/#164-10
+    sex: Female
+    label: 164-10, 40-49 Years
+    samples:
+    - rui_location: female-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-10
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-10
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-10&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-10&filters%5B0%5D%5Btype%5D=any/#164-10
+  - id: https://atlas.kpmp.org/#164-13
+    sex: Female
+    label: 164-13, 40-49 Years
+    samples:
+    - rui_location: female-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-13
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-13&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-13
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-13&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-13&filters%5B0%5D%5Btype%5D=any/#164-13
+  - id: https://atlas.kpmp.org/#164-15
+    sex: Female
+    label: 164-15, 40-49 Years
+    samples:
+    - rui_location: female-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-15
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-15&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-15
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-15&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-15&filters%5B0%5D%5Btype%5D=any/#164-15
+  - id: https://atlas.kpmp.org/#164-16
+    sex: Male
+    label: 164-16, 50-59 Years
+    samples:
+    - rui_location: male-lower-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-16
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-16
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Lipidomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any/#164-16
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#164-16
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-16&filters%5B0%5D%5Btype%5D=any/#164-16
+  - id: https://atlas.kpmp.org/#164-19
+    sex: Female
+    label: 164-19, 50-59 Years
+    samples:
+    - rui_location: female-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-19&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-19&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-19
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-19&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-19&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-19
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-19&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-19&filters%5B0%5D%5Btype%5D=any/#164-19
+  - id: https://atlas.kpmp.org/#164-8
+    sex: Male
+    label: 164-8, 30-39 Years
+    samples:
+    - rui_location: male-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-8
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-8
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any
+        technology: Multimodal Imaging Mass Spectrometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any/#164-8
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#164-8
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-8&filters%5B0%5D%5Btype%5D=any/#164-8
+  - id: https://atlas.kpmp.org/#164-9
+    sex: Male
+    label: 164-9, 50-59 Years
+    samples:
+    - rui_location: male-upper-right-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-9&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any
+        technology: Imaging Mass Cytometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-9&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Imaging%20Mass%20Cytometry&filters%5B1%5D%5Btype%5D=any/#164-9
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-9&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-9&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-9
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-9&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-9&filters%5B0%5D%5Btype%5D=any/#164-9
+  - id: https://atlas.kpmp.org/#163-4
+    sex: Female
+    label: 163-4, 50-59 Years
+    samples:
+    - rui_location: female-upper-right-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-4&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-4&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#163-4
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-4&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-4&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#163-4
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-4&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-4&filters%5B0%5D%5Btype%5D=any/#163-4
+  - id: https://atlas.kpmp.org/#163-5
+    sex: Male
+    label: 163-5, 30-39 Years
+    samples:
+    - rui_location: male-lower-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#163-5
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any
+        technology: Multimodal Imaging Mass Spectrometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-5&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any/#163-5
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-5&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-5&filters%5B0%5D%5Btype%5D=any/#163-5
+  - id: https://atlas.kpmp.org/#164-11
+    sex: Female
+    label: 164-11, 50-59 Years
+    samples:
+    - rui_location: female-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-11&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-11&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-11
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-11&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial N-Glycomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-11&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any/#164-11
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-11&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-11&filters%5B0%5D%5Btype%5D=any/#164-11
+  - id: https://atlas.kpmp.org/#164-20
+    sex: Male
+    label: 164-20, 30-39 Years
+    samples:
+    - rui_location: male-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-20&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any
+        technology: Light Microscopic Whole Slide Images
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-20&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Light%20Microscopic%20Whole%20Slide%20Images&filters%5B1%5D%5Btype%5D=any/#164-20
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-20&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=164-20&filters%5B0%5D%5Btype%5D=any/#164-20
+  - id: https://atlas.kpmp.org/#163-1
+    sex: Female
+    label: 163-1, 30-39 Years
+    samples:
+    - rui_location: female-upper-right-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any
+        technology: Multimodal Imaging Mass Spectrometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any/#163-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#163-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial N-Glycomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any/#163-1
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-1&filters%5B0%5D%5Btype%5D=any/#163-1
+  - id: https://atlas.kpmp.org/#163-2
+    sex: Female
+    label: 163-2, 70-79 Years
+    samples:
+    - rui_location: female-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-2&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any
+        technology: Multimodal Imaging Mass Spectrometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-2&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any/#163-2
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-2&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial N-Glycomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-2&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20N-glycomics&filters%5B1%5D%5Btype%5D=any/#163-2
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-2&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-2&filters%5B0%5D%5Btype%5D=any/#163-2
+  - id: https://atlas.kpmp.org/#163-6
+    sex: Female
+    label: 163-6, 40-49 Years
+    samples:
+    - rui_location: female-lower-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any
+        technology: Multimodal Imaging Mass Spectrometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-6&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any/#163-6
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-6&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-6&filters%5B0%5D%5Btype%5D=any/#163-6
+  - id: https://atlas.kpmp.org/#165-12
+    sex: Female
+    label: 165-12, 50-59 Years
+    samples:
+    - rui_location: female-upper-right-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any
+        technology: Multimodal Imaging Mass Spectrometry
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Multimodal%20Imaging%20Mass%20Spectrometry&filters%5B1%5D%5Btype%5D=any/#165-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Lipidomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any/#165-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#165-12
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-12&filters%5B0%5D%5Btype%5D=any/#165-12
+  - id: https://atlas.kpmp.org/#163-3
+    sex: Male
+    label: 163-3, 50-59 Years
+    samples:
+    - rui_location: male-upper-right-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Lipidomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-3&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any/#163-3
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-3&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-3&filters%5B0%5D%5Btype%5D=any/#163-3
+  - id: https://atlas.kpmp.org/#165-10
+    sex: Female
+    label: 165-10, 50-59 Years
+    samples:
+    - rui_location: female-mid-right.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Lipidomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any/#165-10
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#165-10
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#165-10
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-10&filters%5B0%5D%5Btype%5D=any/#165-10
+  - id: https://atlas.kpmp.org/#165-7
+    sex: Male
+    label: 165-7, 50-59 Years
+    samples:
+    - rui_location: male-mid-left.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Lipidomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Lipidomics&filters%5B1%5D%5Btype%5D=any/#165-7
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#165-7
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#165-7
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-7&filters%5B0%5D%5Btype%5D=any/#165-7
+  - id: https://atlas.kpmp.org/#163-7
+    sex: Female
+    label: 163-7, 70-79 Years
+    samples:
+    - rui_location: female-upper-right-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Metabolomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-7&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Metabolomics&filters%5B1%5D%5Btype%5D=any/#163-7
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-7&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=163-7&filters%5B0%5D%5Btype%5D=any/#163-7
+  - id: https://atlas.kpmp.org/#165-9
+    sex: Female
+    label: 165-9, 30-39 Years
+    samples:
+    - rui_location: female-upper-right-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-9&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any
+        technology: Spatial Transcriptomics
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-9&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=datatype&filters%5B1%5D%5Bvalues%5D%5B0%5D=Spatial%20Transcriptomics&filters%5B1%5D%5Btype%5D=any/#165-9
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-9&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-9&filters%5B0%5D%5Btype%5D=any/#165-9
+  - id: https://atlas.kpmp.org/#165-11
+    sex: Female
+    label: 165-11, 40-49 Years
+    samples:
+    - rui_location: female-upper-left-pole.json
+      datasets:
+      - link: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-11&filters%5B0%5D%5Btype%5D=any
+        technology: Tissue block (all data)
+        id: https://atlas.kpmp.org/spatial-viewer/?size=n_20_n&filters%5B0%5D%5Bfield%5D=redcapid&filters%5B0%5D%5Bvalues%5D%5B0%5D=165-11&filters%5B0%5D%5Btype%5D=any/#165-11
