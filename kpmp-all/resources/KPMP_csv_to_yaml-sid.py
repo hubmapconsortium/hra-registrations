@@ -48,16 +48,16 @@ def process_kpmp_csv(input_csv_path, output_yaml_path):
     }))
 
     for _, row in df.iterrows():
-        donor_id = "https://atlas.kpmp.org/#" + row["Participant ID"]
+        donor_id = "https://atlas.kpmp.org/#" + str(row["Participant ID"])
         sex = row["Sex"]
         label = str(row["Participant ID"]) + ", " + str(row["Age (Years) (Binned)"])
         rui_location = get_rui_location(row["Sex"], row["Location"], row["Laterality"])
         donor_key = (donor_id, sex, label)
 
         dataset = {
-            "link": row["Formula: KPMP Atlas Spatial Viewer Link"],
-            "technology": row["tech name"],
-            "id": row["Formula: KPMP Atlas Spatial Viewer Link"] + "/#" + str(row["Participant ID"])
+            "link": str(row["Formula: KPMP Atlas Spatial Viewer Link"]),
+            "technology": str(row["tech name"]),
+            "id": str(row["Formula: KPMP Atlas Spatial Viewer Link"]) + "/#" + str(row["Participant ID"])
         }
 
         grouped_donors[donor_key][rui_location]["datasets"].append(dataset)
@@ -81,9 +81,9 @@ def process_kpmp_csv(input_csv_path, output_yaml_path):
         f.write("# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json\n\n")
         yaml.dump([base_yaml], f, allow_unicode=True, sort_keys=False, default_flow_style=False)
 
-#     print(f"✅ Final YAML file saved to: {output_yaml_path}")
+    print(f"✅ Final YAML file saved to: {output_yaml_path}")
 
-#  Usage:
-# input_csv = "input/Deep Links HRT.csv"
-# output_yaml = "Deep Links HRT_output.yaml"
-# process_kpmp_csv(input_csv, output_yaml)
+# Usage:
+input_csv = "HuBMAP Healthy Tissue Registry Deep Links.csv"
+output_yaml = "HuBMAP_Healthy_Tissue_Registry_Deep_Links_output.yaml"
+process_kpmp_csv(input_csv, output_yaml)

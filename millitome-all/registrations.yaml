@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- imports:
+  - ./hubmap-pancreas_millitome-thompson-2024/rui_locations.jsonld
+  - ./hubmap-pancreas_millitome-saunders-2024/rui_locations.jsonld
+  - ./hubmap-ovary_millitome-fisher-2024/rui_locations.jsonld
+  - ./hubmap-fallopian_tube_millitome-fisher-2024/rui_locations.jsonld
+  - ./hubmap-uterus_millitome-fisher-2024/rui_locations.jsonld
+  - ./hubmap-kidney_millitome-spraggins-2024/rui_locations.jsonld
+
