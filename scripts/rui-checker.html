@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RUI Location Checker — Human Reference Atlas</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ══════════════════════════════════════════════════════════
+     HRA Design System Tokens
+     Based on humanatlas.io / docs.humanatlas.io/dev/design-system
+     Angular Material palette: primary indigo, accent teal
+     ══════════════════════════════════════════════════════════ */
+  :root {
+    /* Primary — indigo */
+    --hra-primary:#304FFE;
+    --hra-primary-dark:#1A237E;
+    --hra-primary-light:#E8EAF6;
+    --hra-primary-50:#E8EAF6;
+    --hra-primary-100:#C5CAE9;
+    --hra-primary-500:#304FFE;
+    --hra-primary-700:#283593;
+
+    /* Accent — teal */
+    --hra-accent:#00BCD4;
+    --hra-accent-dark:#00838F;
+    --hra-accent-light:#E0F7FA;
+
+    /* Warn — red */
+    --hra-warn:#F44336;
+    --hra-warn-light:#FFEBEE;
+
+    /* Neutrals — Material grey */
+    --hra-grey-50:#FAFAFA;
+    --hra-grey-100:#F5F5F5;
+    --hra-grey-200:#EEEEEE;
+    --hra-grey-300:#E0E0E0;
+    --hra-grey-400:#BDBDBD;
+    --hra-grey-500:#9E9E9E;
+    --hra-grey-600:#757575;
+    --hra-grey-700:#616161;
+    --hra-grey-800:#424242;
+    --hra-grey-900:#212121;
+
+    /* Semantic */
+    --hra-bg:#FFFFFF;
+    --hra-surface:#FFFFFF;
+    --hra-surface-alt:var(--hra-grey-50);
+    --hra-text:var(--hra-grey-900);
+    --hra-text-secondary:var(--hra-grey-600);
+    --hra-text-dim:var(--hra-grey-500);
+    --hra-divider:var(--hra-grey-300);
+    --hra-divider-light:var(--hra-grey-200);
+
+    /* Status */
+    --hra-green:#2E7D32;
+    --hra-green-bg:#E8F5E9;
+    --hra-red:#C62828;
+    --hra-red-bg:#FFEBEE;
+    --hra-amber:#F57F17;
+    --hra-amber-bg:#FFF8E1;
+    --hra-purple:#6A1B9A;
+    --hra-purple-bg:#F3E5F5;
+
+    /* Elevation (Material) */
+    --elevation-1:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.08);
+    --elevation-2:0 3px 6px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.06);
+    --elevation-3:0 10px 20px rgba(0,0,0,.08),0 3px 6px rgba(0,0,0,.05);
+    --elevation-4:0 14px 28px rgba(0,0,0,.12),0 5px 10px rgba(0,0,0,.08);
+
+    /* Shape */
+    --radius:4px;
+    --radius-lg:4px;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+  body{font-family:'Roboto','Inter',-apple-system,sans-serif;background:var(--hra-grey-100);color:var(--hra-text);min-height:100vh;font-size:14px;line-height:1.5}
+
+  /* ── Top Bar ── */
+  .top-bar{
+    background:var(--hra-grey-900);color:white;
+    display:flex;align-items:center;gap:16px;
+    padding:0 24px;height:64px;
+    box-shadow:var(--elevation-4);position:relative;z-index:100;
+  }
+  .top-bar .hra-logo{display:flex;align-items:center;gap:12px;font-weight:500;font-size:1rem;letter-spacing:.01em}
+  .top-bar .logo-icon{
+    width:36px;height:36px;
+    background:linear-gradient(135deg,var(--hra-primary),var(--hra-accent));
+    border-radius:4px;display:flex;align-items:center;justify-content:center;
+  }
+  .top-bar .logo-icon svg{width:20px;height:20px;fill:white}
+  .top-bar .separator{width:1px;height:28px;background:rgba(255,255,255,.15);margin:0 4px}
+  .top-bar .tool-name{font-weight:300;opacity:.7;font-size:.9rem;letter-spacing:.03em}
+
+  /* ── Layout ── */
+  .main-container{max-width:1320px;margin:0 auto;padding:32px 24px 64px}
+  .page-header{margin-bottom:28px}
+  .page-header h1{font-size:1.5rem;font-weight:400;color:var(--hra-text);margin-bottom:4px;letter-spacing:-.01em}
+  .page-header p{font-size:.875rem;color:var(--hra-text-secondary);line-height:1.6}
+
+  /* ── Card (Material) ── */
+  .card{background:var(--hra-surface);border-radius:var(--radius-lg);box-shadow:var(--elevation-2);border:none}
+  .card-header{
+    padding:16px 24px;
+    border-bottom:1px solid var(--hra-divider-light);
+    font-size:.75rem;font-weight:500;color:var(--hra-text-secondary);
+    text-transform:uppercase;letter-spacing:.08em;
+  }
+  .card-body{padding:24px}
+
+  /* ── Input Grid ── */
+  .input-grid{display:grid;grid-template-columns:1fr 280px;gap:24px;margin-bottom:16px}
+  @media(max-width:860px){.input-grid{grid-template-columns:1fr}}
+
+  /* ── Fields ── */
+  .field{margin-bottom:16px} .field:last-child{margin-bottom:0}
+  .field label{display:block;font-size:.75rem;font-weight:500;color:var(--hra-text-secondary);margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em}
+  .field textarea,.field input[type="text"],.field input[type="password"]{
+    width:100%;padding:12px 14px;
+    background:var(--hra-surface);
+    border:1px solid var(--hra-grey-300);border-radius:var(--radius);
+    color:var(--hra-text);
+    font-family:'IBM Plex Mono',monospace;font-size:.8125rem;
+    transition:border-color .2s,box-shadow .2s;outline:none;resize:vertical;
+  }
+  .field textarea{min-height:130px;line-height:1.65}
+  .field textarea::placeholder,.field input::placeholder{color:var(--hra-grey-400);font-family:'Roboto',sans-serif}
+  .field textarea:focus,.field input:focus{border-color:var(--hra-primary);box-shadow:0 0 0 2px rgba(48,79,254,.15)}
+  .field select{
+    padding:10px 14px;background:var(--hra-surface);
+    border:1px solid var(--hra-grey-300);border-radius:var(--radius);
+    color:var(--hra-text);font-family:'Roboto',sans-serif;font-size:.8125rem;
+    outline:none;width:100%;cursor:pointer;
+  }
+  .hint{font-size:.6875rem;color:var(--hra-text-dim);margin-top:4px;line-height:1.5}
+
+  /* ── File drop ── */
+  .file-drop{
+    border:2px dashed var(--hra-grey-300);border-radius:var(--radius);
+    padding:20px 16px;text-align:center;cursor:pointer;
+    transition:border-color .2s,background .2s;background:var(--hra-surface-alt);
+  }
+  .file-drop:hover,.file-drop.dragover{border-color:var(--hra-primary);background:var(--hra-primary-light)}
+  .file-drop input[type="file"]{display:none}
+  .file-drop .drop-icon{width:32px;height:32px;margin:0 auto 8px;color:var(--hra-grey-400)}
+  .file-drop .drop-text{font-size:.8125rem;color:var(--hra-text-secondary);margin-bottom:4px}
+  .file-drop .drop-text strong{color:var(--hra-primary)}
+  .file-drop .drop-formats{font-size:.6875rem;color:var(--hra-text-dim)}
+  .file-name{font-size:.8125rem;color:var(--hra-green);margin-top:6px;font-weight:500}
+
+  /* ── Tabs (Material underline) ── */
+  .tab-bar{display:flex;gap:0;border-bottom:1px solid var(--hra-divider-light);margin-bottom:20px}
+  .tab-btn{
+    padding:12px 24px;font-size:.8125rem;font-weight:500;
+    color:var(--hra-text-dim);cursor:pointer;border:none;background:none;
+    border-bottom:2px solid transparent;margin-bottom:-1px;
+    transition:all .2s;text-transform:uppercase;letter-spacing:.04em;
+  }
+  .tab-btn:hover{color:var(--hra-text)}
+  .tab-btn.active{color:var(--hra-primary);border-bottom-color:var(--hra-primary)}
+  .tab-pane{display:none} .tab-pane.active{display:block}
+
+  /* ── Cross-match ── */
+  .xm-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:start;margin-bottom:16px}
+  .xm-arrow{display:flex;align-items:center;justify-content:center;padding-top:32px;color:var(--hra-grey-400)}
+  .xm-file{border:1px solid var(--hra-divider-light);border-radius:var(--radius);padding:16px;background:var(--hra-surface-alt)}
+  .xm-file .file-drop{padding:14px 12px}
+  .xm-result{padding:12px 16px;background:var(--hra-green-bg);border-radius:var(--radius);font-size:.8125rem;color:var(--hra-green);margin-bottom:14px;display:none}
+  @media(max-width:860px){.xm-grid{grid-template-columns:1fr;gap:12px} .xm-arrow{padding-top:0}}
+
+  /* ── Radio group (Material toggle) ── */
+  .radio-group{display:flex;gap:0;margin-bottom:16px}
+  .radio-group label{
+    flex:1;padding:10px 16px;text-align:center;font-size:.8125rem;font-weight:500;
+    cursor:pointer;border:1px solid var(--hra-grey-300);
+    background:var(--hra-surface);color:var(--hra-text-secondary);transition:all .15s;
+  }
+  .radio-group label:first-child{border-radius:var(--radius) 0 0 var(--radius)}
+  .radio-group label:last-child{border-radius:0 var(--radius) var(--radius) 0;border-left:0}
+  .radio-group input{display:none}
+  .radio-group label:has(input:checked){background:var(--hra-primary);border-color:var(--hra-primary);color:white}
+
+  /* ── Checkboxes ── */
+  .checkbox-row{display:flex;align-items:center;gap:8px;margin-top:8px}
+  .checkbox-row input[type="checkbox"]{appearance:none;width:16px;height:16px;border:2px solid var(--hra-grey-400);border-radius:2px;background:var(--hra-surface);cursor:pointer;position:relative;flex-shrink:0;transition:all .15s}
+  .checkbox-row input[type="checkbox"]:checked{background:var(--hra-primary);border-color:var(--hra-primary)}
+  .checkbox-row input[type="checkbox"]:checked::after{content:'';position:absolute;left:3.5px;top:0.5px;width:5px;height:9px;border:solid white;border-width:0 2px 2px 0;transform:rotate(45deg)}
+  .checkbox-row label{font-size:.8125rem;color:var(--hra-text-secondary);cursor:pointer}
+
+  /* ── Buttons (Material flat) ── */
+  .btn-row{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}
+  .btn{
+    padding:10px 24px;font-family:'Roboto',sans-serif;font-size:.8125rem;font-weight:500;
+    border-radius:var(--radius);border:none;cursor:pointer;
+    transition:background .2s,box-shadow .2s;
+    display:inline-flex;align-items:center;gap:8px;
+    text-transform:uppercase;letter-spacing:.04em;
+  }
+  .btn:disabled{opacity:.38;cursor:not-allowed}
+  .btn-primary{background:var(--hra-primary);color:white;box-shadow:var(--elevation-1)}
+  .btn-primary:hover:not(:disabled){background:var(--hra-primary-dark);box-shadow:var(--elevation-2)}
+  .btn-primary:active:not(:disabled){box-shadow:var(--elevation-3)}
+  .btn-secondary{background:transparent;color:var(--hra-primary);border:1px solid var(--hra-grey-300)}
+  .btn-secondary:hover:not(:disabled){background:var(--hra-primary-light)}
+  .btn-sm{padding:8px 16px;font-size:.75rem}
+
+  /* ── Progress ── */
+  .progress-bar-container{margin-bottom:24px;display:none}
+  .progress-bar-container.active{display:block}
+  .progress-info{display:flex;justify-content:space-between;font-size:.75rem;color:var(--hra-text-secondary);margin-bottom:8px}
+  .progress-track{height:4px;background:var(--hra-grey-200);border-radius:2px;overflow:hidden}
+  .progress-fill{height:100%;background:var(--hra-primary);border-radius:2px;transition:width .3s ease;width:0%}
+
+  /* ── Results table ── */
+  .results-section{margin-top:28px;display:none}
+  .results-section.active{display:block}
+  .results-toolbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--hra-divider-light);flex-wrap:wrap;gap:8px}
+  .results-count{font-size:.875rem;color:var(--hra-text-secondary)} .results-count strong{color:var(--hra-text);font-weight:500}
+
+  .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{width:100%;border-collapse:collapse;font-size:.8125rem}
+  thead th{
+    padding:12px 16px;text-align:left;font-weight:500;font-size:.6875rem;
+    text-transform:uppercase;letter-spacing:.06em;
+    color:var(--hra-text-secondary);background:var(--hra-surface-alt);
+    border-bottom:1px solid var(--hra-divider);white-space:nowrap;
+    position:sticky;top:0;z-index:2;
+  }
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--hra-divider-light);vertical-align:middle;color:var(--hra-text)}
+  tbody tr:hover{background:var(--hra-primary-light)}
+  .cell-mono{font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--hra-text-secondary);word-break:break-all;max-width:200px}
+
+  /* ── Badges ── */
+  .badge{display:inline-flex;align-items:center;gap:5px;padding:4px 12px;border-radius:100px;font-size:.6875rem;font-weight:500;white-space:nowrap;letter-spacing:.02em}
+  .badge .dot{width:6px;height:6px;border-radius:50%;background:currentColor}
+  .badge-yes{background:var(--hra-green-bg);color:var(--hra-green)}
+  .badge-no{background:var(--hra-red-bg);color:var(--hra-red)}
+  .badge-exempt{background:var(--hra-purple-bg);color:var(--hra-purple)}
+  .badge-warn{background:var(--hra-amber-bg);color:var(--hra-amber)}
+  .cell-email{font-size:.75rem;color:var(--hra-text-secondary)}
+  .cell-num{font-family:'IBM Plex Mono',monospace;font-size:.75rem;text-align:right}
+  .cell-na{color:var(--hra-text-dim);font-style:italic;font-size:.75rem}
+
+  /* ── Ranking panel ── */
+  .ranking-panel{margin-top:0;padding:20px 24px;border-top:1px solid var(--hra-divider-light);display:none;background:var(--hra-surface-alt)}
+  .ranking-panel.active{display:block}
+  .ranking-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:8px}
+  .ranking-header h3{font-size:.875rem;font-weight:500;color:var(--hra-text)}
+  .ranking-hint{font-size:.6875rem;color:var(--hra-text-dim)}
+  .ranking-criteria{display:flex;gap:12px;flex-wrap:wrap}
+  .rank-check{
+    display:flex;align-items:center;gap:8px;padding:10px 16px;
+    border:1px solid var(--hra-grey-300);border-radius:var(--radius);
+    background:var(--hra-surface);cursor:pointer;transition:all .15s;user-select:none;
+  }
+  .rank-check:has(input:checked){background:var(--hra-primary-light);border-color:var(--hra-primary)}
+  .rank-check input{appearance:none;width:16px;height:16px;border:2px solid var(--hra-grey-400);border-radius:2px;background:white;cursor:pointer;position:relative;flex-shrink:0;transition:all .15s}
+  .rank-check input:checked{background:var(--hra-primary);border-color:var(--hra-primary)}
+  .rank-check input:checked::after{content:'';position:absolute;left:3.5px;top:0.5px;width:5px;height:9px;border:solid white;border-width:0 2px 2px 0;transform:rotate(45deg)}
+  .rank-check .rank-label{font-size:.8125rem;font-weight:500;color:var(--hra-text)}
+  .rank-check .rank-desc{font-size:.6875rem;color:var(--hra-text-dim)}
+  .rank-score{font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--hra-primary);font-weight:500}
+  .rank-pos{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:26px;height:26px;border-radius:50%;
+    font-size:.6875rem;font-weight:500;
+    background:var(--hra-amber-bg);color:var(--hra-amber);
+  }
+
+  /* ── Filter bar ── */
+  .filter-bar{display:flex;align-items:center;gap:10px;padding:12px 24px;border-bottom:1px solid var(--hra-divider-light);flex-wrap:wrap;background:var(--hra-surface-alt)}
+  .filter-bar select,.filter-bar input[type="text"]{
+    font-family:inherit;font-size:.75rem;padding:6px 10px;
+    border:1px solid var(--hra-grey-300);border-radius:var(--radius);
+    background:var(--hra-surface);color:var(--hra-text);outline:none;
+    transition:border-color .15s;
+  }
+  .filter-bar select:focus,.filter-bar input[type="text"]:focus{border-color:var(--hra-primary)}
+  .filter-bar select{min-width:110px}
+  .filter-bar input[type="text"]{flex:1;min-width:140px;max-width:260px}
+  .filter-bar label{font-size:.6875rem;text-transform:uppercase;letter-spacing:.06em;color:var(--hra-text-dim);font-weight:500;display:flex;align-items:center;gap:5px}
+  .filter-bar .filter-count{font-size:.6875rem;color:var(--hra-text-dim);margin-left:auto;white-space:nowrap}
+
+  /* ── Errors ── */
+  .error-banner{background:var(--hra-red-bg);border-left:3px solid var(--hra-warn);border-radius:0 var(--radius) var(--radius) 0;padding:12px 16px;color:var(--hra-red);font-size:.8125rem;line-height:1.5;margin-bottom:16px}
+  .error-banner code{background:rgba(198,40,40,.08);padding:2px 6px;border-radius:2px;font-family:'IBM Plex Mono',monospace;font-size:.75rem}
+
+  /* ── Collapsible info ── */
+  .info-section{margin-top:24px}
+  .info-section summary{font-size:.8125rem;color:var(--hra-text-dim);cursor:pointer;padding:12px 0;list-style:none;display:flex;align-items:center;gap:8px;font-weight:500}
+  .info-section summary::-webkit-details-marker{display:none}
+  .info-section summary:hover{color:var(--hra-text-secondary)}
+  .info-section summary .chv{transition:transform .2s;width:16px;height:16px}
+  .info-section[open] summary .chv{transform:rotate(90deg)}
+  .info-body{padding:16px 20px;background:var(--hra-surface);border-radius:var(--radius);box-shadow:var(--elevation-1);font-size:.8125rem;line-height:1.7;color:var(--hra-text-secondary)}
+  .info-body strong{color:var(--hra-text);font-weight:500}
+  .logic-row{padding:8px 0} .logic-row+.logic-row{border-top:1px solid var(--hra-divider-light)}
+  .organ-list-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px;margin-top:12px}
+  .organ-chip{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:8px 12px;background:var(--hra-surface-alt);border-radius:var(--radius);font-size:.75rem;
+  }
+  .organ-chip .organ-name{font-weight:500;color:var(--hra-text)}
+  .organ-chip .organ-uberon{font-family:'IBM Plex Mono',monospace;font-size:.6875rem;color:var(--hra-text-dim)}
+
+  @media(max-width:640px){
+    .main-container{padding:16px 12px 40px} .top-bar{padding:0 16px;height:56px}
+    .card-body{padding:16px} .btn-row{flex-direction:column} .btn{width:100%;justify-content:center}
+    .ranking-criteria{flex-direction:column}
+  }
+</style>
+</head>
+<body>
+<div class="top-bar">
+  <div class="hra-logo">
+    <div class="logo-icon"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg></div>
+    Human Reference Atlas
+  </div>
+  <div class="separator"></div>
+  <div class="tool-name">RUI Location Checker</div>
+</div>
+<div class="main-container">
+  <div class="page-header">
+    <h1>RUI Location Checker</h1>
+    <p>Check whether HuBMAP or SenNet entities have associated RUI spatial registrations. Accepts IDs, UUIDs, entity API URLs, or portal links.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">Input</div>
+    <div class="card-body">
+      <div class="field">
+        <label>Consortium</label>
+        <div class="radio-group">
+          <label><input type="radio" name="consortium" value="hubmap" checked><span>HuBMAP</span></label>
+          <label><input type="radio" name="consortium" value="sennet"><span>SenNet</span></label>
+        </div>
+      </div>
+      <div class="tab-bar">
+        <button class="tab-btn active" onclick="switchTab('direct')">Direct Input</button>
+        <button class="tab-btn" onclick="switchTab('crossmatch')">Cross-match Spreadsheets</button>
+      </div>
+
+      <div class="tab-pane active" id="tab-direct">
+        <div class="input-grid">
+          <div>
+            <div class="field">
+              <label for="ids-input">IDs, UUIDs, or URLs</label>
+              <textarea id="ids-input" placeholder="One per line &#8212; accepts:&#10;HBM123.ABCD.456 / SNT123.ABCD.456&#10;0123456789abcdef0123456789abcdef&#10;https://portal.hubmapconsortium.org/browse/dataset/abc...&#10;https://entity.api.hubmapconsortium.org/entities/abc..."></textarea>
+              <div class="hint">Accepts HuBMAP IDs, SenNet IDs, UUIDs, entity API links, or portal browse links.</div>
+            </div>
+          </div>
+          <div>
+            <div class="field">
+              <label>Or upload a file</label>
+              <div class="file-drop" id="file-drop">
+                <input type="file" id="file-input" accept=".csv,.xlsx,.xls,.txt,.tsv">
+                <div class="drop-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
+                <div class="drop-text"><strong>Click to browse</strong> or drag &amp; drop</div>
+                <div class="drop-formats">CSV, Excel, TSV, or TXT</div>
+                <div class="file-name" id="file-name"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="tab-crossmatch">
+        <div class="xm-grid">
+          <div class="xm-file">
+            <div class="field"><label>Spreadsheet A</label>
+              <div class="file-drop" id="xm-drop-a"><input type="file" id="xm-input-a" accept=".csv,.xlsx,.xls,.txt,.tsv">
+                <div class="drop-text" style="font-size:.8rem"><strong>Upload file A</strong></div>
+                <div class="drop-formats">CSV, Excel, TSV, TXT</div><div class="file-name" id="xm-name-a"></div>
+              </div>
+            </div>
+            <div class="field"><label>ID column</label><select id="xm-col-a"><option value="0">First column (auto)</option></select></div>
+          </div>
+          <div class="xm-arrow"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8l4 4-4 4"/><path d="M2 12h20"/></svg></div>
+          <div class="xm-file">
+            <div class="field"><label>Spreadsheet B</label>
+              <div class="file-drop" id="xm-drop-b"><input type="file" id="xm-input-b" accept=".csv,.xlsx,.xls,.txt,.tsv">
+                <div class="drop-text" style="font-size:.8rem"><strong>Upload file B</strong></div>
+                <div class="drop-formats">CSV, Excel, TSV, TXT</div><div class="file-name" id="xm-name-b"></div>
+              </div>
+            </div>
+            <div class="field"><label>ID column</label><select id="xm-col-b"><option value="0">First column (auto)</option></select></div>
+          </div>
+        </div>
+        <div class="field"><label>Operation</label>
+          <div class="radio-group" style="max-width:600px">
+            <label style="flex:unset;padding:8px 16px"><input type="radio" name="xm-op" value="intersect" checked><span>A &#8745; B</span></label>
+            <label style="flex:unset;padding:8px 16px;border-left:0"><input type="radio" name="xm-op" value="a-only"><span>A &#8726; B</span></label>
+            <label style="flex:unset;padding:8px 16px;border-left:0"><input type="radio" name="xm-op" value="b-only"><span>B &#8726; A</span></label>
+            <label style="flex:unset;padding:8px 16px;border-left:0"><input type="radio" name="xm-op" value="union"><span>A &#8746; B</span></label>
+          </div>
+          <div class="hint">Intersection (both), A only, B only, or Union (all unique).</div>
+        </div>
+        <div class="xm-result" id="xm-result"></div>
+        <button class="btn btn-secondary" onclick="runCrossMatch()" style="margin-bottom:10px">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Cross-match &amp; Load IDs
+        </button>
+      </div>
+
+      <div class="field">
+        <label for="api-token">API Token (Globus Bearer Token)</label>
+        <input type="password" id="api-token" placeholder="Optional &#8212; required for consortium or protected data">
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="use-proxy" checked>
+        <label for="use-proxy">Route requests through CORS proxy (required in browser)</label>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="check-btn" onclick="runCheck()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Check RUI Locations
+        </button>
+        <button class="btn btn-secondary" onclick="exportCSV()" id="export-btn" disabled>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Export CSV
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="progress-bar-container" id="progress-container">
+    <div class="progress-info"><span id="progress-text">Processing...</span><span id="progress-pct">0%</span></div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+  <div id="error-area"></div>
+
+  <div class="results-section card" id="results-section">
+    <div class="results-toolbar">
+      <div class="results-count" id="results-count"></div>
+      <button class="btn btn-secondary btn-sm" onclick="exportCSV()">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>CSV
+      </button>
+    </div>
+    <div class="filter-bar" id="filter-bar" style="display:none">
+      <label>Status <select id="filter-status" onchange="applyFilters()">
+        <option value="">All</option><option value="Yes">Yes</option><option value="No">No</option><option value="Exempt">Exempt</option><option value="Error">Error</option><option value="N/A">N/A</option>
+      </select></label>
+      <label>Type <select id="filter-type" onchange="applyFilters()"><option value="">All</option></select></label>
+      <label>Group <select id="filter-group" onchange="applyFilters()"><option value="">All</option></select></label>
+      <input type="text" id="filter-text" placeholder="Search ID, name, detail…" oninput="applyFilters()">
+      <span class="filter-count" id="filter-count"></span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th>#</th><th>ID</th><th>Entity Type</th><th>RUI Status</th>
+          <th>Created By</th><th>Email</th><th>Group</th>
+          <th style="text-align:right">Derived Datasets</th><th style="text-align:right">Cell Count</th>
+          <th id="th-tmc" style="text-align:right;display:none">TMC Missing</th>
+          <th id="th-score" style="text-align:right;display:none">Score</th>
+          <th id="th-rank" style="text-align:center;display:none">Rank</th>
+          <th>Details</th>
+        </tr></thead>
+        <tbody id="results-body"></tbody>
+      </table>
+    </div>
+    <div class="ranking-panel" id="ranking-panel">
+      <div class="ranking-header">
+        <h3>Prioritize Registration</h3>
+        <span class="ranking-hint">Ranks "No" entities by selected criteria. Toggle to re-sort.</span>
+      </div>
+      <div class="ranking-criteria">
+        <label class="rank-check"><input type="checkbox" id="rank-cells" onchange="applyRanking()">
+          <div><div class="rank-label">Cell Count</div><div class="rank-desc">More cells &#8594; higher priority</div></div>
+        </label>
+        <label class="rank-check"><input type="checkbox" id="rank-datasets" onchange="applyRanking()">
+          <div><div class="rank-label">Derived Datasets</div><div class="rank-desc">More datasets &#8594; higher priority</div></div>
+        </label>
+        <label class="rank-check"><input type="checkbox" id="rank-tmc" onchange="applyRanking()">
+          <div><div class="rank-label">TMC Missing Blocks</div><div class="rank-desc">More unregistered in same group &#8594; higher priority</div></div>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <details class="info-section">
+    <summary><svg class="chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>How does this work?</summary>
+    <div class="info-body">
+      <div class="logic-row"><strong>Sample &#8594; Block:</strong> Checks entity JSON for <code>rui_location</code>. Present &#8594; <span style="color:var(--hra-green)">Yes</span>.</div>
+      <div class="logic-row"><strong>Sample &#8594; Section / Suspension / other:</strong> Walks full ancestor chain (block &#8594; organ &#8594; source/donor) to find a block with <code>rui_location</code>. Unsupported organ &#8594; <span style="color:var(--hra-purple)">Exempt</span>.</div>
+      <div class="logic-row"><strong>Dataset:</strong> Walks ancestors for a block with <code>rui_location</code>. Unsupported organ &#8594; <span style="color:var(--hra-purple)">Exempt</span>.</div>
+      <div class="logic-row"><strong>Donor / Source:</strong> Always <span style="color:var(--hra-red)">No</span>.</div>
+      <div class="logic-row"><strong>SenNet provenance:</strong> Fully walks <code>Source &#8594; Organ &#8594; Block &#8594; Section &#8594; Dataset</code> chain. Uses <code>/ancestors/</code> endpoint; falls back to inline <code>direct_ancestors</code> or <code>origin_samples</code>. Since list endpoints may strip <code>rui_location</code>, each ancestor block is individually re-fetched via <code>/entities/</code> to check (deep check). Also checks <code>organ</code>, <code>organ_hierarchy</code>, and <code>source_mapped_organ</code> fields.</div>
+      <div class="logic-row"><strong>Ranking:</strong> Each enabled criterion is normalized 0&#8211;1 then averaged into a composite score. "No" entities are sorted descending by score.</div>
+      <div class="logic-row"><strong>Cross-match:</strong> Upload two spreadsheets, pick ID columns, and compute set operations (intersection, difference, union) to populate the input area.</div>
+      <div class="logic-row"><strong>Table filters:</strong> Filter results by status, entity type, group, or free-text search. Export respects active filters.</div>
+    </div>
+  </details>
+  <details class="info-section">
+    <summary><svg class="chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>HRA-supported organs (<span id="organ-count">loading...</span>)</summary>
+    <div class="info-body"><div id="organ-list-body" style="color:var(--hra-text-dim);font-size:.8125rem">Loading organ list from HRA API...</div></div>
+  </details>
+</div>
+
+<script>
+const APIS={
+  hubmap:{entity:'https://entity.api.hubmapconsortium.org',donorType:'Donor'},
+  sennet:{entity:'https://entity.api.sennetconsortium.org',donorType:'Source'}
+};
+const HRA_REF_ORGANS_URL='https://apps.humanatlas.io/api/v1/reference-organs';
+const GRLC_URL='https://apps.humanatlas.io/api/grlc/hra/datasets-list-organs-providers';
+const PROXIES=[
+  u=>'https://corsproxy.io/?'+encodeURIComponent(u),
+  u=>'https://api.allorigins.win/raw?url='+encodeURIComponent(u),
+  u=>'https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(u),
+];
+const RD=600;
+let aP=0,cF=0,resultsData=[],origOrder=[],cellCountMap={},supportedOrgans=new Map(),xmA=null,xmB=null;
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+const useProxy=()=>document.getElementById('use-proxy').checked;
+const getC=()=>document.querySelector('input[name="consortium"]:checked').value;
+const getApi=()=>APIS[getC()];
+function authH(){const h={'Accept':'application/json'};const t=document.getElementById('api-token').value.trim();if(t)h['Authorization']='Bearer '+t;return h}
+async function rFetch(url,opts={}){
+  const MR=2,nP=useProxy()?PROXIES.length:1,s=aP;
+  for(let p=0;p<nP;p++){for(let a=0;a<=MR;a++){try{
+    const f=useProxy()?PROXIES[(s+p)%PROXIES.length](url):url;
+    const c=new AbortController(),tm=setTimeout(()=>c.abort(),25000);
+    const r=await fetch(f,{...opts,headers:{...authH(),...(opts.headers||{})},signal:c.signal});
+    clearTimeout(tm);
+    if(r.ok){if(useProxy())aP=(s+p)%PROXIES.length;cF=0;return r}
+    if([401,403,404].includes(r.status))throw new Error({401:'Auth failed (401)',403:'Access denied (403)',404:'Not found (404)'}[r.status]);
+    if(a<MR)await wait((a+1)*1500+Math.random()*500);
+  }catch(e){if(e.message&&/Auth|Access|Not found/.test(e.message))throw e;if(a<MR)await wait((a+1)*1200+Math.random()*500)}}}
+  cF++;throw new Error('All proxies failed');
+}
+async function apiGet(u){return(await rFetch(u)).json()}
+function switchTab(n){
+  document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',n==='direct'?i===0:i===1));
+  document.getElementById('tab-direct').classList.toggle('active',n==='direct');
+  document.getElementById('tab-crossmatch').classList.toggle('active',n==='crossmatch');
+}
+function extractId(r){const s=r.trim();try{if(s.startsWith('http')){return new URL(s).pathname.split('/').filter(Boolean).pop()||s}}catch(e){}return s}
+async function parseSS(file){
+  const ext=file.name.split('.').pop().toLowerCase();let hd=[],rows=[];
+  if(['csv','tsv','txt'].includes(ext)){const t=await file.text();const sep=ext==='tsv'?'\t':(t.includes('\t')?'\t':',');const ls=t.split(/\r?\n/).filter(l=>l.trim());if(ls.length){hd=ls[0].split(sep).map(h=>h.replace(/^["']+|["']+$/g,'').trim());for(let i=1;i<ls.length;i++)rows.push(ls[i].split(sep).map(c=>c.replace(/^["']+|["']+$/g,'').trim()))}}
+  else if(['xlsx','xls'].includes(ext)){const wb=XLSX.read(await file.arrayBuffer(),{type:'array'});const a=XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1});if(a.length){hd=(a[0]||[]).map(h=>String(h||'').trim());for(let i=1;i<a.length;i++)rows.push((a[i]||[]).map(c=>String(c||'').trim()))}}
+  return{headers:hd,rows};
+}
+function setupFileDrop(){
+  const d=document.getElementById('file-drop'),i=document.getElementById('file-input');
+  d.addEventListener('click',()=>i.click());
+  d.addEventListener('dragover',e=>{e.preventDefault();d.classList.add('dragover')});
+  d.addEventListener('dragleave',()=>d.classList.remove('dragover'));
+  d.addEventListener('drop',e=>{e.preventDefault();d.classList.remove('dragover');if(e.dataTransfer.files.length)loadDirect(e.dataTransfer.files[0])});
+  i.addEventListener('change',()=>{if(i.files.length)loadDirect(i.files[0])});
+}
+async function loadDirect(f){
+  document.getElementById('file-name').textContent=f.name;
+  const d=await parseSS(f);
+  document.getElementById('ids-input').value=d.rows.map(r=>(r[0]||'').trim()).filter(Boolean).join('\n');
+}
+function setupXm(){
+  ['a','b'].forEach(s=>{
+    const d=document.getElementById('xm-drop-'+s),i=document.getElementById('xm-input-'+s);
+    d.addEventListener('click',()=>i.click());
+    d.addEventListener('dragover',e=>{e.preventDefault();d.classList.add('dragover')});
+    d.addEventListener('dragleave',()=>d.classList.remove('dragover'));
+    d.addEventListener('drop',async e=>{e.preventDefault();d.classList.remove('dragover');if(e.dataTransfer.files.length)await loadXm(s,e.dataTransfer.files[0])});
+    i.addEventListener('change',async()=>{if(i.files.length)await loadXm(s,i.files[0])});
+  });
+}
+async function loadXm(side,file){
+  document.getElementById('xm-name-'+side).textContent=file.name;
+  const d=await parseSS(file);if(side==='a')xmA=d;else xmB=d;
+  const sel=document.getElementById('xm-col-'+side);
+  sel.innerHTML=d.headers.map((h,i)=>'<option value="'+i+'">'+(h||'Column '+(i+1))+'</option>').join('');
+  const ai=d.headers.findIndex(h=>/id|uuid|hubmap|sennet/i.test(h));if(ai>=0)sel.value=ai;
+}
+function runCrossMatch(){
+  if(!xmA||!xmB){document.getElementById('error-area').innerHTML='<div class="error-banner">Upload both spreadsheets first.</div>';return}
+  document.getElementById('error-area').innerHTML='';
+  const cA=parseInt(document.getElementById('xm-col-a').value),cB=parseInt(document.getElementById('xm-col-b').value);
+  const sA=new Set(xmA.rows.map(r=>(r[cA]||'').trim()).filter(Boolean).map(extractId));
+  const sB=new Set(xmB.rows.map(r=>(r[cB]||'').trim()).filter(Boolean).map(extractId));
+  const op=document.querySelector('input[name="xm-op"]:checked').value;
+  let res=[];
+  if(op==='intersect')res=[...sA].filter(x=>sB.has(x));
+  else if(op==='a-only')res=[...sA].filter(x=>!sB.has(x));
+  else if(op==='b-only')res=[...sB].filter(x=>!sA.has(x));
+  else res=[...new Set([...sA,...sB])];
+  const el=document.getElementById('xm-result');el.style.display='block';
+  const opL={intersect:'A \u2229 B','a-only':'A \u2216 B','b-only':'B \u2216 A',union:'A \u222A B'};
+  el.textContent=res.length+' IDs from '+opL[op]+' (A: '+sA.size+', B: '+sB.size+'). Loaded into input.';
+  document.getElementById('ids-input').value=res.join('\n');switchTab('direct');
+}
+async function loadOrgans(){
+  try{const d=await apiGet(HRA_REF_ORGANS_URL);const raw=new Map();
+  for(const o of d){const iri=o.id||o['@id']||o.organIri||o.organ_iri||'';const label=o.name||o.label||o.organ||o.rdfs_label||'';const m=iri.match(/UBERON[_:](\d+)/i);if(!m)continue;const code='UBERON:'+m[1];const bl=label.replace(/\b(left|right|male|female)\b/gi,'').replace(/\s+/g,' ').trim();const k=code+'|'+bl.toLowerCase();if(!raw.has(k))raw.set(k,{label:bl||code,uberon:code})}
+  const bc=new Map();for(const[,v]of raw)if(!bc.has(v.uberon))bc.set(v.uberon,v);supportedOrgans=bc;
+  const sorted=[...bc.values()].sort((a,b)=>a.label.localeCompare(b.label));
+  document.getElementById('organ-count').textContent=sorted.length+' organs';
+  document.getElementById('organ-list-body').innerHTML='<div class="organ-list-grid">'+sorted.map(o=>'<div class="organ-chip"><span class="organ-name">'+o.label+'</span><span class="organ-uberon">'+o.uberon+'</span></div>').join('')+'</div>';
+  }catch(e){document.getElementById('organ-list-body').textContent='Failed: '+e.message}
+}
+function orgOk(c){if(!c||supportedOrgans.size===0)return true;return supportedOrgans.has(c.replace('UBERON_','UBERON:').replace(/^.*?(UBERON:\d+).*$/i,'$1'))}
+async function loadCC(){try{const r=await rFetch(GRLC_URL,{headers:{'Accept':'application/json'}});const d=await r.json();const m={};const b=d?.results?.bindings;if(Array.isArray(b)){for(const x of b){let id='',ct=0;for(const k of Object.keys(x)){const v=x[k]?.value||'';if(/hubmap_id|dataset_id|hubmap|sennet/i.test(k)&&v)id=v.includes('/')?v.split('/').pop():v;if(/cell_count|cells|cell/i.test(k)&&v)ct=parseInt(v)||0}if(id)m[id.trim()]=ct}}if(Array.isArray(d)&&!b){for(const row of d){const id=row.hubmap_id||row.HuBMAP_ID||row.dataset||row.uuid||'';const c=parseInt(row.cell_count||row.cells||0)||0;const ci=id.includes('/')?id.split('/').pop():id;if(ci)m[ci.trim()]=c}}return m}catch(e){return{}}}
+function findOrgan(ent,anc){
+  /* Check entity itself */
+  if(ent.organ)return ent.organ;
+  if(ent.organ_hierarchy)return ent.organ_hierarchy;
+  if(ent.source_mapped_organ)return ent.source_mapped_organ;
+  /* Check origin_samples (SenNet embeds organ-level parent) */
+  if(Array.isArray(ent.origin_samples)){for(const os of ent.origin_samples){if(os.organ)return os.organ;if(os.organ_hierarchy)return os.organ_hierarchy;if(os.source_mapped_organ)return os.source_mapped_organ}}
+  /* Check direct_ancestors on entity (SenNet often inlines) */
+  if(Array.isArray(ent.direct_ancestors)){for(const da of ent.direct_ancestors){if(da.entity_type==='Sample'&&(da.sample_category||'').toLowerCase()==='organ'){if(da.organ)return da.organ;if(da.organ_hierarchy)return da.organ_hierarchy}}}
+  /* Walk full ancestor array */
+  if(anc)for(const a of anc){
+    if(a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='organ'){if(a.organ)return a.organ;if(a.organ_hierarchy)return a.organ_hierarchy}
+    if(a.organ)return a.organ;if(a.organ_hierarchy)return a.organ_hierarchy;if(a.source_mapped_organ)return a.source_mapped_organ;
+    /* Recurse into origin_samples */
+    if(Array.isArray(a.origin_samples)){for(const os of a.origin_samples){if(os.organ)return os.organ;if(os.organ_hierarchy)return os.organ_hierarchy}}
+  }
+  return null;
+}
+async function checkOne(raw){
+  const id=extractId(raw),api=getApi(),isSN=getC()==='sennet';
+  const R={input_id:raw,display_id:'',uuid:'',entity_type:'',sample_category:'',rui_status:'No',rui_detail:'',created_by:'',email:'',group_name:'',derived_datasets:0,cell_count:null,error:null,tmc_missing:0,rank_score:null,rank_pos:null};
+  try{
+    const e=await apiGet(api.entity+'/entities/'+encodeURIComponent(id));
+    const uid=e.uuid||id; /* Use UUID for all subsequent API calls */
+    R.display_id=e.hubmap_id||e.sennet_id||e.uuid||id;R.uuid=e.uuid||'';R.entity_type=e.entity_type||'';R.sample_category=e.sample_category||'';R.created_by=e.created_by_user_displayname||'';R.email=e.created_by_user_email||'';R.group_name=e.group_name||'';
+    const t=e.entity_type;
+
+    /* ── Check rui_location in all possible fields ── */
+    function hasRui(ent){
+      if(!ent)return false;
+      if(ent.rui_location)return true;
+      if(ent.metadata&&ent.metadata.rui_location)return true;
+      if(ent.ingest_metadata&&ent.ingest_metadata.rui_location)return true;
+      if(ent.cedar_mapped_metadata&&ent.cedar_mapped_metadata.rui_location)return true;
+      return false;
+    }
+
+    /* ── Fetch ancestors with multiple fallback strategies ── */
+    async function getAnc(){
+      await wait(RD);
+      /* Strategy 1: /ancestors/ with UUID (returns full chain) */
+      try{const a=await apiGet(api.entity+'/ancestors/'+encodeURIComponent(uid));if(Array.isArray(a)&&a.length)return a}catch(x){}
+      /* Strategy 2: /ancestors/ with original ID */
+      if(uid!==id){await wait(RD);try{const a=await apiGet(api.entity+'/ancestors/'+encodeURIComponent(id));if(Array.isArray(a)&&a.length)return a}catch(x){}}
+      /* Strategy 3: walk inline direct_ancestors / immediate_ancestors / origin_samples / source */
+      const chain=[];let cur=e;const seen=new Set();
+      for(let depth=0;depth<20;depth++){
+        if(!cur)break;
+        const curKey=cur.uuid||cur.sennet_id||cur.hubmap_id||('d'+depth);
+        if(seen.has(curKey))break;seen.add(curKey);
+        const parents=Array.isArray(cur.direct_ancestors)&&cur.direct_ancestors.length?cur.direct_ancestors
+          :Array.isArray(cur.immediate_ancestors)&&cur.immediate_ancestors.length?cur.immediate_ancestors
+          :Array.isArray(cur.origin_samples)&&cur.origin_samples.length?cur.origin_samples:null;
+        if(parents){for(const p of parents)chain.push(p);cur=parents[0]}
+        else if(cur.direct_ancestor&&typeof cur.direct_ancestor==='object'){chain.push(cur.direct_ancestor);cur=cur.direct_ancestor}
+        else if(cur.source&&typeof cur.source==='object'){chain.push(cur.source);cur=null}
+        else cur=null;
+      }
+      return chain.length?chain:null;
+    }
+
+    /* ── Find blocks with rui_location in ancestor chain ── */
+    function ruiBlocks(anc){
+      if(!anc)return{bks:[],hit:null};
+      const bks=anc.filter(a=>a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='block');
+      const hit=bks.find(b=>hasRui(b));
+      return{bks,hit};
+    }
+    /* Also check ALL ancestors for rui_location (not just blocks) */
+    function anyAncRui(anc){if(!anc)return null;return anc.find(a=>hasRui(a))}
+
+    /* ── Deep check: /ancestors/ may strip rui_location — individually fetch each ancestor block ── */
+    async function deepRuiCheck(anc){
+      if(!anc)return null;
+      /* First, quick scan of what we already have */
+      const{bks,hit}=ruiBlocks(anc);
+      if(hit)return{ent:hit,detail:'Via ancestor block '+(hit.hubmap_id||hit.sennet_id||hit.uuid)};
+      const anyHit=anyAncRui(anc);
+      if(anyHit)return{ent:anyHit,detail:'Via ancestor '+(anyHit.hubmap_id||anyHit.sennet_id||anyHit.uuid||anyHit.entity_type)};
+
+      /* Individually fetch each ancestor block's full entity (rui_location often stripped in list responses) */
+      const blockUuids=bks.map(b=>b.uuid).filter(Boolean);
+      for(const bu of blockUuids){
+        await wait(RD);
+        try{
+          const full=await apiGet(api.entity+'/entities/'+encodeURIComponent(bu));
+          if(hasRui(full))return{ent:full,detail:'Via ancestor block '+(full.hubmap_id||full.sennet_id||full.uuid)};
+        }catch(x){}
+      }
+
+      /* Also fetch any Sample ancestors (organ pieces, sections that might carry rui) */
+      const otherSamples=anc.filter(a=>a.entity_type==='Sample'&&!blockUuids.includes(a.uuid)&&a.uuid);
+      for(const s of otherSamples.slice(0,5)){
+        await wait(RD);
+        try{
+          const full=await apiGet(api.entity+'/entities/'+encodeURIComponent(s.uuid));
+          if(hasRui(full))return{ent:full,detail:'Via ancestor '+(full.hubmap_id||full.sennet_id||full.uuid)+' ('+full.sample_category+')'};
+        }catch(x){}
+      }
+      return null;
+    }
+
+    if(t===api.donorType||t==='Donor'||t==='Source'){
+      R.rui_status='No';R.rui_detail=t+'s do not carry RUI data';
+    }else if(t==='Sample'){
+      const cat=(e.sample_category||'').toLowerCase();
+      if(cat==='block'){
+        if(hasRui(e)){R.rui_status='Yes';R.rui_detail='Block has rui_location'}
+        else{
+          const anc=await getAnc();
+          const deep=await deepRuiCheck(anc);
+          if(deep){R.rui_status='Yes';R.rui_detail=deep.detail}
+          else{const org=findOrgan(e,anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported by HRA'}else{R.rui_status='No';R.rui_detail='Block lacks rui_location'+(anc?'':' (ancestor lookup failed)')}}
+        }
+      }else if(cat==='organ'){
+        const anc=await getAnc();const org=findOrgan(e,anc);
+        if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}
+        else{R.rui_status='No';R.rui_detail='Organ sample \u2014 check child blocks for RUI'}
+      }else if(cat){
+        const anc=await getAnc();
+        const deep=await deepRuiCheck(anc);
+        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail}
+        else{
+          const bks=(anc||[]).filter(a=>a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='block');
+          if(bks.length){const org=findOrgan(bks[0],anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail=bks.length+' block(s), none with RUI'}}
+          else{const org=findOrgan(e,anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail='Sample "'+cat+'" \u2014 no block ancestors'+(anc?'':' (ancestor lookup failed)')}}
+        }
+      }else{R.rui_status='No';R.rui_detail='Sample (unknown category)'}
+    }else if(t==='Dataset'||t==='Activity'){
+      const anc=await getAnc();
+      if(anc){
+        const deep=await deepRuiCheck(anc);
+        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail}
+        else{
+          const bks=anc.filter(a=>a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='block');
+          if(bks.length){const org=findOrgan(bks[0],anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail=bks.length+' block(s), none with RUI'}}
+          else{const org=findOrgan({},anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail='No block ancestors'}}
+        }
+      }else{R.rui_detail='Ancestor lookup failed'}
+    }else{R.rui_status='N/A';R.rui_detail='Type "'+t+'" N/A'}
+
+    /* ── Descendants — use UUID ── */
+    await wait(RD);try{const desc=await apiGet(api.entity+'/descendants/'+encodeURIComponent(uid));R.derived_datasets=desc.filter(d=>d.entity_type==='Dataset').length}catch(x){}
+    const hid=e.hubmap_id||e.sennet_id||'';R.cell_count=cellCountMap[hid]??cellCountMap[R.uuid]??null;
+  }catch(err){let m=err.message;if(m==='Failed to fetch'||err.name==='TypeError'||m.includes('All proxies'))m=useProxy()?'Network error \u2014 proxies failed':'CORS blocked \u2014 enable proxy';R.error=m;R.rui_status='Error';R.rui_detail=m}
+  return R;
+}
+function showP(c,t,x){document.getElementById('progress-container').classList.add('active');const p=Math.round(c/t*100);document.getElementById('progress-fill').style.width=p+'%';document.getElementById('progress-pct').textContent=p+'%';document.getElementById('progress-text').textContent='Processing '+c+' of '+t+(x?' \u2014 '+x:'')+'...'}
+function hideP(){document.getElementById('progress-container').classList.remove('active')}
+function na(){return'<span class="cell-na">\u2014</span>'}
+function computeTmc(){const m={};for(const r of resultsData)if(r.rui_status==='No'&&r.group_name)m[r.group_name]=(m[r.group_name]||0)+1;for(const r of resultsData)r.tmc_missing=r.group_name?(m[r.group_name]||0):0}
+function applyRanking(){
+  const uC=document.getElementById('rank-cells').checked,uD=document.getElementById('rank-datasets').checked,uT=document.getElementById('rank-tmc').checked;
+  const any=uC||uD||uT;
+  document.getElementById('th-tmc').style.display=any?'':'none';
+  document.getElementById('th-score').style.display=any?'':'none';
+  document.getElementById('th-rank').style.display=any?'':'none';
+  if(!any){for(const r of resultsData){r.rank_score=null;r.rank_pos=null}resultsData=[...origOrder];renderR();return}
+  computeTmc();
+  const cands=resultsData.filter(r=>r.rui_status==='No');if(!cands.length){renderR();return}
+  const mxC=Math.max(1,...cands.map(r=>r.cell_count||0));
+  const mxD=Math.max(1,...cands.map(r=>r.derived_datasets||0));
+  const mxT=Math.max(1,...cands.map(r=>r.tmc_missing||0));
+  for(const r of cands){let s=0,f=0;if(uC){s+=(r.cell_count||0)/mxC;f++}if(uD){s+=(r.derived_datasets||0)/mxD;f++}if(uT){s+=(r.tmc_missing||0)/mxT;f++}r.rank_score=f?s/f:0}
+  cands.sort((a,b)=>b.rank_score-a.rank_score);cands.forEach((r,i)=>r.rank_pos=i+1);
+  for(const r of resultsData)if(r.rui_status!=='No'){r.rank_score=null;r.rank_pos=null}
+  const noE=resultsData.filter(r=>r.rui_status==='No').sort((a,b)=>a.rank_pos-b.rank_pos);
+  const rest=resultsData.filter(r=>r.rui_status!=='No');resultsData=[...noE,...rest];renderR();
+}
+function renderR(){
+  const tb=document.getElementById('results-body');
+  document.getElementById('results-section').classList.add('active');
+  document.getElementById('ranking-panel').classList.add('active');
+  document.getElementById('filter-bar').style.display='flex';
+  const any=document.getElementById('rank-cells').checked||document.getElementById('rank-datasets').checked||document.getElementById('rank-tmc').checked;
+  /* Populate filter dropdowns */
+  populateFilterOpts();
+  /* Apply filters */
+  const filtered=getFiltered();
+  let yC=0,nC=0,eC=0,xC=0,naC=0;
+  for(const r of resultsData){if(r.rui_status==='Yes')yC++;else if(r.rui_status==='Exempt')xC++;else if(r.rui_status==='Error')eC++;else if(r.rui_status==='N/A')naC++;else nC++}
+  tb.innerHTML=filtered.map((r,i)=>{
+    const bc=r.rui_status==='Yes'?'badge-yes':r.rui_status==='No'?'badge-no':r.rui_status==='Exempt'?'badge-exempt':'badge-warn';
+    const cc=r.cell_count!=null?'<span class="cell-num">'+r.cell_count.toLocaleString()+'</span>':na();
+    const ex=any?
+      '<td class="cell-num">'+(r.rui_status==='No'?r.tmc_missing:na())+'</td>'+
+      '<td class="rank-score" style="text-align:right">'+(r.rank_score!=null?(r.rank_score*100).toFixed(1)+'%':na())+'</td>'+
+      '<td style="text-align:center">'+(r.rank_pos!=null?'<span class="rank-pos">'+r.rank_pos+'</span>':na())+'</td>':'';
+    return'<tr><td style="color:var(--hra-text-dim);font-size:.75rem">'+(i+1)+'</td>'+
+      '<td class="cell-mono">'+r.display_id+'</td>'+
+      '<td>'+r.entity_type+(r.sample_category?' <span style="color:var(--hra-text-dim)">('+r.sample_category+')</span>':'')+'</td>'+
+      '<td><span class="badge '+bc+'"><span class="dot"></span>'+r.rui_status+'</span></td>'+
+      '<td>'+(r.created_by||na())+'</td><td class="cell-email">'+(r.email||na())+'</td><td>'+(r.group_name||na())+'</td>'+
+      '<td class="cell-num">'+r.derived_datasets+'</td><td>'+cc+'</td>'+ex+
+      '<td style="font-size:.75rem;color:var(--hra-text-dim);max-width:220px">'+(r.rui_detail||'')+'</td></tr>';
+  }).join('');
+  document.getElementById('results-count').innerHTML='<strong>'+resultsData.length+'</strong> entities \u2014 <span style="color:var(--hra-green)">'+yC+' Yes</span>, <span style="color:var(--hra-red)">'+nC+' No</span>'+(xC?', <span style="color:var(--hra-purple)">'+xC+' Exempt</span>':'')+(eC?', <span style="color:var(--hra-amber)">'+eC+' Error</span>':'')+(naC?', '+naC+' N/A':'');
+  document.getElementById('filter-count').textContent=filtered.length<resultsData.length?'Showing '+filtered.length+' of '+resultsData.length:'';
+  document.getElementById('export-btn').disabled=false;
+}
+/* ── Filtering ── */
+function populateFilterOpts(){
+  const fT=document.getElementById('filter-type'),fG=document.getElementById('filter-group');
+  const cT=fT.value,cG=fG.value;
+  const types=new Set(),groups=new Set();
+  for(const r of resultsData){
+    const tl=r.entity_type+(r.sample_category?' ('+r.sample_category+')':'');
+    if(tl)types.add(tl);if(r.group_name)groups.add(r.group_name);
+  }
+  const sortedT=[...types].sort(),sortedG=[...groups].sort();
+  fT.innerHTML='<option value="">All</option>'+sortedT.map(t=>'<option'+(t===cT?' selected':'')+'>'+t+'</option>').join('');
+  fG.innerHTML='<option value="">All</option>'+sortedG.map(g=>'<option'+(g===cG?' selected':'')+'>'+g+'</option>').join('');
+}
+function getFiltered(){
+  const fS=document.getElementById('filter-status').value;
+  const fT=document.getElementById('filter-type').value;
+  const fG=document.getElementById('filter-group').value;
+  const fQ=(document.getElementById('filter-text').value||'').toLowerCase().trim();
+  return resultsData.filter(r=>{
+    if(fS&&r.rui_status!==fS)return false;
+    const tl=r.entity_type+(r.sample_category?' ('+r.sample_category+')':'');
+    if(fT&&tl!==fT)return false;
+    if(fG&&r.group_name!==fG)return false;
+    if(fQ){const hay=[r.display_id,r.uuid,r.entity_type,r.sample_category,r.created_by,r.email,r.group_name,r.rui_detail].join(' ').toLowerCase();if(!hay.includes(fQ))return false}
+    return true;
+  });
+}
+function applyFilters(){renderR()}
+async function runCheck(){
+  const raw=document.getElementById('ids-input').value.trim();
+  if(!raw){document.getElementById('error-area').innerHTML='<div class="error-banner">Enter at least one ID, UUID, or URL.</div>';return}
+  document.getElementById('error-area').innerHTML='';
+  const ids=[...new Set(raw.split(/\r?\n/).map(s=>s.trim()).filter(Boolean))];
+  const btn=document.getElementById('check-btn');
+  btn.disabled=true;btn.innerHTML='<span style="display:inline-block;width:16px;height:16px;border:2px solid rgba(255,255,255,.3);border-top-color:white;border-radius:50%;animation:spin .6s linear infinite;vertical-align:middle;margin-right:8px"></span>Processing '+ids.length+'...';
+  document.getElementById('export-btn').disabled=true;
+  ['rank-cells','rank-datasets','rank-tmc'].forEach(x=>document.getElementById(x).checked=false);
+  ['th-tmc','th-score','th-rank'].forEach(x=>document.getElementById(x).style.display='none');
+  resultsData=[];origOrder=[];cF=0;
+  /* Reset filters */
+  document.getElementById('filter-status').value='';
+  document.getElementById('filter-type').innerHTML='<option value="">All</option>';
+  document.getElementById('filter-group').innerHTML='<option value="">All</option>';
+  document.getElementById('filter-text').value='';
+  document.getElementById('filter-bar').style.display='none';
+  document.getElementById('filter-count').textContent='';
+  showP(0,ids.length,'loading cell counts');
+  const ccP=loadCC();if(supportedOrgans.size===0)await loadOrgans();
+  for(let i=0;i<ids.length;i++){
+    showP(i,ids.length,extractId(ids[i]).substring(0,20));
+    resultsData.push(await checkOne(ids[i]));renderR();
+    if(cF>0)await wait(Math.min(cF*2000,8000));else if(i<ids.length-1)await wait(RD);
+  }
+  cellCountMap=await ccP;
+  for(const r of resultsData){const c=cellCountMap[r.display_id]??cellCountMap[r.uuid]??null;if(c!=null)r.cell_count=c}
+  computeTmc();origOrder=[...resultsData];renderR();hideP();
+  btn.disabled=false;btn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Check RUI Locations';
+}
+function exportCSV(){
+  if(!resultsData.length)return;
+  const filtered=getFiltered();if(!filtered.length)return;
+  const any=document.getElementById('rank-cells').checked||document.getElementById('rank-datasets').checked||document.getElementById('rank-tmc').checked;
+  const hd=['ID','UUID','Entity_Type','Sample_Category','RUI_Status','Detail','Created_By','Email','Group_Name','Derived_Datasets','Cell_Count'];
+  if(any)hd.push('TMC_Missing','Score','Rank');
+  const rows=filtered.map(r=>{const row=[r.display_id,r.uuid,r.entity_type,r.sample_category,r.rui_status,r.rui_detail,r.created_by,r.email,r.group_name,r.derived_datasets,r.cell_count??''];if(any)row.push(r.tmc_missing||'',r.rank_score!=null?(r.rank_score*100).toFixed(1)+'%':'',r.rank_pos??'');return row});
+  const csv=[hd.join(','),...rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(','))].join('\n');
+  const b=new Blob([csv],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);
+  const sfx=filtered.length<resultsData.length?'-filtered':'';
+  a.download='rui-check-'+getC()+sfx+'-'+new Date().toISOString().slice(0,10)+'.csv';a.click();URL.revokeObjectURL(a.href);
+}
+setupFileDrop();setupXm();loadOrgans();
+</script>
+</body>
+</html>
