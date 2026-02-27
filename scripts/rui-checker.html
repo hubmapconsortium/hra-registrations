@@ -6,6 +6,7 @@
 <title>RUI Location Checker — Human Reference Atlas</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 <style>
   @keyframes spin { to { transform: rotate(360deg); } }
 
@@ -358,10 +359,10 @@
             <div class="field">
               <label>Or upload a file</label>
               <div class="file-drop" id="file-drop">
-                <input type="file" id="file-input" accept=".csv,.xlsx,.xls,.txt,.tsv">
+                <input type="file" id="file-input" accept=".csv,.xlsx,.xls,.txt,.tsv,.yaml,.yml">
                 <div class="drop-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
                 <div class="drop-text"><strong>Click to browse</strong> or drag &amp; drop</div>
-                <div class="drop-formats">CSV, Excel, TSV, or TXT</div>
+                <div class="drop-formats">CSV, Excel, TSV, TXT, or YAML (registrations)</div>
                 <div class="file-name" id="file-name"></div>
               </div>
             </div>
@@ -413,7 +414,9 @@
       </div>
       <div class="checkbox-row">
         <input type="checkbox" id="use-proxy" checked>
-        <label for="use-proxy">Route requests through CORS proxy (required in browser)</label>
+        <label for="use-proxy">Fall back to CORS proxies if direct requests fail</label>
+        <button type="button" onclick="testConn()" style="margin-left:12px;font-size:.7rem;padding:2px 8px;cursor:pointer">Test Connection</button>
+        <span id="conn-result" style="font-size:.7rem;margin-left:8px"></span>
       </div>
       <div class="btn-row">
         <button class="btn btn-primary" id="check-btn" onclick="runCheck()">
@@ -455,7 +458,7 @@
         <thead><tr>
           <th>#</th><th>ID</th><th>Entity Type</th><th>RUI Status</th>
           <th>Created By</th><th>Email</th><th>Group</th>
-          <th style="text-align:right">Derived Datasets</th><th style="text-align:right">Cell Count</th>
+          <th style="text-align:right">Derived Datasets</th><th style="text-align:right">Cell Count</th><th style="text-align:right">AS Count</th><th style="text-align:right">CT Count</th>
           <th id="th-tmc" style="text-align:right;display:none">TMC Missing</th>
           <th id="th-score" style="text-align:right;display:none">Score</th>
           <th id="th-rank" style="text-align:center;display:none">Rank</th>
@@ -494,6 +497,9 @@
       <div class="logic-row"><strong>Ranking:</strong> Each enabled criterion is normalized 0&#8211;1 then averaged into a composite score. "No" entities are sorted descending by score.</div>
       <div class="logic-row"><strong>Cross-match:</strong> Upload two spreadsheets, pick ID columns, and compute set operations (intersection, difference, union) to populate the input area.</div>
       <div class="logic-row"><strong>Table filters:</strong> Filter results by status, entity type, group, or free-text search. Export respects active filters.</div>
+      <div class="logic-row"><strong>YAML input:</strong> Parses <code>registrations.yaml</code> files (HRA registration format). Extracts sample IDs from nested <code>donors &rarr; samples</code> structure, preferring portal <code>link</code> URLs over entity API <code>id</code> URLs.</div>
+      <div class="logic-row"><strong>AS Count:</strong> Number of items in <code>ccf_annotations</code> &mdash; the anatomical structures the RUI location overlaps.</div>
+      <div class="logic-row"><strong>CT Count:</strong> Distinct cell types across all annotated anatomical structures, looked up from the HRA Knowledge Graph via SPARQL (<code>lod.humanatlas.io/sparql</code>) using <code>ccf:ccf_located_in</code> relationships from ASCT+B tables.</div>
     </div>
   </details>
   <details class="info-section">
@@ -513,28 +519,73 @@ const PROXIES=[
   u=>'https://corsproxy.io/?'+encodeURIComponent(u),
   u=>'https://api.allorigins.win/raw?url='+encodeURIComponent(u),
   u=>'https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(u),
+  u=>'https://thingproxy.freeboard.io/fetch/'+u,
+  u=>'https://corsproxy.org/?'+encodeURIComponent(u),
 ];
 const RD=600;
-let aP=0,cF=0,resultsData=[],origOrder=[],cellCountMap={},supportedOrgans=new Map(),xmA=null,xmB=null;
+let cF=0,resultsData=[],origOrder=[],cellCountMap={},supportedOrgans=new Map(),xmA=null,xmB=null;
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 const useProxy=()=>document.getElementById('use-proxy').checked;
 const getC=()=>document.querySelector('input[name="consortium"]:checked').value;
 const getApi=()=>APIS[getC()];
 function authH(){const h={'Accept':'application/json'};const t=document.getElementById('api-token').value.trim();if(t)h['Authorization']='Bearer '+t;return h}
 async function rFetch(url,opts={}){
-  const MR=2,nP=useProxy()?PROXIES.length:1,s=aP;
-  for(let p=0;p<nP;p++){for(let a=0;a<=MR;a++){try{
-    const f=useProxy()?PROXIES[(s+p)%PROXIES.length](url):url;
-    const c=new AbortController(),tm=setTimeout(()=>c.abort(),25000);
-    const r=await fetch(f,{...opts,headers:{...authH(),...(opts.headers||{})},signal:c.signal});
-    clearTimeout(tm);
-    if(r.ok){if(useProxy())aP=(s+p)%PROXIES.length;cF=0;return r}
-    if([401,403,404].includes(r.status))throw new Error({401:'Auth failed (401)',403:'Access denied (403)',404:'Not found (404)'}[r.status]);
-    if(a<MR)await wait((a+1)*1500+Math.random()*500);
-  }catch(e){if(e.message&&/Auth|Access|Not found/.test(e.message))throw e;if(a<MR)await wait((a+1)*1200+Math.random()*500)}}}
-  cF++;throw new Error('All proxies failed');
+  const MR=1; /* 1 retry = 2 attempts per strategy */
+  const TO_DIRECT=15000,TO_PROXY=10000;
+  const strategies=useProxy()?[null,...PROXIES]:[null];
+  const errors=[];
+  for(let s=0;s<strategies.length;s++){
+    const label=s===0?'DIRECT':'PROXY-'+s;
+    const timeout=s===0?TO_DIRECT:TO_PROXY;
+    for(let a=0;a<=MR;a++){try{
+      const f=strategies[s]?strategies[s](url):url;
+      const c=new AbortController(),tm=setTimeout(()=>c.abort(),timeout);
+      const r=await fetch(f,{...opts,headers:{...authH(),...(opts.headers||{})},signal:c.signal});
+      clearTimeout(tm);
+      if(r.ok){cF=0;return r}
+      if([401,403,404].includes(r.status))throw new Error({401:'Auth failed (401)',403:'Access denied (403)',404:'Not found (404)'}[r.status]);
+      const msg=label+' HTTP '+r.status;
+      console.warn('[rFetch]',msg,url.substring(0,80));
+      errors.push(msg);
+      if(r.status===0||r.type==='opaque')break;
+      if(a<MR)await wait(800+Math.random()*400);
+    }catch(e){
+      if(e.message&&/Auth|Access|Not found/.test(e.message))throw e;
+      const msg=label+': '+e.name+(e.name==='AbortError'?' (timeout)':'');
+      console.warn('[rFetch]',msg,url.substring(0,80));
+      errors.push(msg);
+      /* On direct CORS failure, skip immediately to proxies */
+      if(s===0&&strategies.length>1)break;
+      if(a<MR)await wait(600+Math.random()*400);
+    }}
+  }
+  cF++;
+  const summary=errors.join(' | ');
+  console.error('[rFetch] ALL FAILED:',url.substring(0,120),'\n',summary);
+  throw new Error(summary);
 }
 async function apiGet(u){return(await rFetch(u)).json()}
+async function testConn(){
+  const el=document.getElementById('conn-result');
+  el.textContent='Testing...';el.style.color='var(--hra-text-dim)';
+  const testUrl=getApi().entity+'/entities/'+('HBM558.SRZG.629');
+  const results=[];
+  /* Test direct */
+  try{const c=new AbortController();setTimeout(()=>c.abort(),10000);
+    const r=await fetch(testUrl,{headers:{'Accept':'application/json'},signal:c.signal});
+    results.push('Direct: '+(r.ok?'✅ OK ('+r.status+')':'❌ HTTP '+r.status));
+  }catch(e){results.push('Direct: ❌ '+e.name)}
+  /* Test each proxy */
+  for(let i=0;i<PROXIES.length;i++){
+    try{const c=new AbortController();setTimeout(()=>c.abort(),10000);
+      const r=await fetch(PROXIES[i](testUrl),{headers:{'Accept':'application/json'},signal:c.signal});
+      results.push('Proxy '+(i+1)+': '+(r.ok?'✅ OK':'❌ HTTP '+r.status));
+    }catch(e){results.push('Proxy '+(i+1)+': ❌ '+e.name)}
+  }
+  el.innerHTML=results.join(' &nbsp;|&nbsp; ');
+  el.style.color=results.some(r=>r.includes('✅'))?'var(--hra-green)':'var(--hra-red)';
+  console.log('[testConn]',results.join(' | '));
+}
 function switchTab(n){
   document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',n==='direct'?i===0:i===1));
   document.getElementById('tab-direct').classList.toggle('active',n==='direct');
@@ -557,8 +608,41 @@ function setupFileDrop(){
 }
 async function loadDirect(f){
   document.getElementById('file-name').textContent=f.name;
-  const d=await parseSS(f);
-  document.getElementById('ids-input').value=d.rows.map(r=>(r[0]||'').trim()).filter(Boolean).join('\n');
+  const ext=f.name.split('.').pop().toLowerCase();
+  if(ext==='yaml'||ext==='yml'){
+    const txt=await f.text();
+    const ids=parseYamlRegistrations(txt);
+    document.getElementById('ids-input').value=ids.join('\n');
+  }else{
+    const d=await parseSS(f);
+    document.getElementById('ids-input').value=d.rows.map(r=>(r[0]||'').trim()).filter(Boolean).join('\n');
+  }
+}
+/* ── Parse HRA registrations YAML ── */
+function parseYamlRegistrations(txt){
+  const docs=jsyaml.loadAll(txt);
+  const ids=[];
+  function walkSamples(node){
+    if(!node)return;
+    if(Array.isArray(node)){for(const item of node)walkSamples(item);return}
+    if(typeof node!=='object')return;
+    /* If this looks like a sample entry (has sample_type or rui_location), extract ID */
+    if(node.sample_type||node.rui_location!==undefined){
+      /* Prefer link (gives HuBMAP/SenNet ID), fall back to id (entity API UUID) */
+      const raw=node.link||node.id||'';
+      if(raw){const extracted=extractId(raw);if(extracted)ids.push(extracted)}
+      /* Also recurse into nested samples (multi-level) */
+      if(node.samples)walkSamples(node.samples);
+      return;
+    }
+    /* Walk into known container keys */
+    if(node.donors)walkSamples(node.donors);
+    if(node.samples)walkSamples(node.samples);
+    if(node.datasets)walkSamples(node.datasets);
+    /* For donor-level entries, don't extract — just recurse */
+  }
+  for(const doc of docs)walkSamples(doc);
+  return[...new Set(ids)];
 }
 function setupXm(){
   ['a','b'].forEach(s=>{
@@ -605,6 +689,54 @@ async function loadOrgans(){
 }
 function orgOk(c){if(!c||supportedOrgans.size===0)return true;return supportedOrgans.has(c.replace('UBERON_','UBERON:').replace(/^.*?(UBERON:\d+).*$/i,'$1'))}
 async function loadCC(){try{const r=await rFetch(GRLC_URL,{headers:{'Accept':'application/json'}});const d=await r.json();const m={};const b=d?.results?.bindings;if(Array.isArray(b)){for(const x of b){let id='',ct=0;for(const k of Object.keys(x)){const v=x[k]?.value||'';if(/hubmap_id|dataset_id|hubmap|sennet/i.test(k)&&v)id=v.includes('/')?v.split('/').pop():v;if(/cell_count|cells|cell/i.test(k)&&v)ct=parseInt(v)||0}if(id)m[id.trim()]=ct}}if(Array.isArray(d)&&!b){for(const row of d){const id=row.hubmap_id||row.HuBMAP_ID||row.dataset||row.uuid||'';const c=parseInt(row.cell_count||row.cells||0)||0;const ci=id.includes('/')?id.split('/').pop():id;if(ci)m[ci.trim()]=c}}return m}catch(e){return{}}}
+/* ── Load cell-type-per-AS map from HRA KG SPARQL ── */
+let ctByAS={};
+async function loadCTMap(){
+  const ep='https://lod.humanatlas.io/sparql';
+  /* Try multiple SPARQL queries — the predicate may differ across HRA versions */
+  const queries=[
+    /* Strategy 1: ccf_located_in (CT → AS) */
+    `PREFIX ccf: <http://purl.org/ccf/>
+SELECT DISTINCT ?as ?ct WHERE { ?ct ccf:ccf_located_in ?as . FILTER(STRSTARTS(STR(?as), "http://purl.obolibrary.org/obo/UBERON_")) }`,
+    /* Strategy 2: ccf_characterizes (AS → CT) — reverse direction */
+    `PREFIX ccf: <http://purl.org/ccf/>
+SELECT DISTINCT ?as ?ct WHERE { ?as ccf:has_characterizing_cell_type ?ct . FILTER(STRSTARTS(STR(?as), "http://purl.obolibrary.org/obo/UBERON_")) }`,
+    /* Strategy 3: broader — any triple linking UBERON to CL terms */
+    `PREFIX ccf: <http://purl.org/ccf/>
+SELECT DISTINCT ?as ?ct WHERE { ?ct ?p ?as . FILTER(STRSTARTS(STR(?as), "http://purl.obolibrary.org/obo/UBERON_")) FILTER(STRSTARTS(STR(?ct), "http://purl.obolibrary.org/obo/CL_")) } LIMIT 50000`,
+  ];
+  for(let qi=0;qi<queries.length;qi++){
+    const url=ep+'?query='+encodeURIComponent(queries[qi]);
+    try{
+      const r=await rFetch(url,{headers:{'Accept':'application/sparql-results+json'}});
+      const d=await r.json();
+      const m={};let pairs=0;
+      if(d?.results?.bindings){for(const b of d.results.bindings){
+        const as=b.as?.value||'';const ct=b.ct?.value||'';
+        if(as&&ct){if(!m[as])m[as]=new Set();m[as].add(ct);pairs++}
+      }}
+      const keys=Object.keys(m);
+      console.log('[CT Map] Strategy '+(qi+1)+': '+pairs+' pairs, '+keys.length+' structures. Sample:',keys.slice(0,3));
+      if(keys.length>0){ctByAS=m;return}
+    }catch(e){console.warn('[CT Map] Strategy '+(qi+1)+' failed:',e.message)}
+  }
+  /* Fallback: try HRA API REST endpoint */
+  try{
+    const r=await rFetch('https://apps.humanatlas.io/api/v1/cell-type-term-occurrences',{headers:{'Accept':'application/json'}});
+    const d=await r.json();
+    const m={};let pairs=0;
+    if(Array.isArray(d)){for(const item of d){
+      const as=item.anatomical_structure_id||item.structure_id||item.as_id||'';
+      const ct=item.cell_type_id||item.ct_id||item.id||'';
+      if(as&&ct){if(!m[as])m[as]=new Set();m[as].add(ct);pairs++}
+    }}
+    const keys=Object.keys(m);
+    console.log('[CT Map] REST fallback:',pairs,'pairs,',keys.length,'structures');
+    if(keys.length>0){ctByAS=m;return}
+  }catch(e){console.warn('[CT Map] REST fallback failed:',e.message)}
+  console.error('[CT Map] All strategies failed — no cell type data');
+  ctByAS={};
+}
 function findOrgan(ent,anc){
   /* Check entity itself */
   if(ent.organ)return ent.organ;
@@ -625,7 +757,7 @@ function findOrgan(ent,anc){
 }
 async function checkOne(raw){
   const id=extractId(raw),api=getApi(),isSN=getC()==='sennet';
-  const R={input_id:raw,display_id:'',uuid:'',entity_type:'',sample_category:'',rui_status:'No',rui_detail:'',created_by:'',email:'',group_name:'',derived_datasets:0,cell_count:null,error:null,tmc_missing:0,rank_score:null,rank_pos:null};
+  const R={input_id:raw,display_id:'',uuid:'',entity_type:'',sample_category:'',rui_status:'No',rui_detail:'',created_by:'',email:'',group_name:'',derived_datasets:0,cell_count:null,as_count:null,ct_count:null,error:null,tmc_missing:0,rank_score:null,rank_pos:null};
   try{
     const e=await apiGet(api.entity+'/entities/'+encodeURIComponent(id));
     const uid=e.uuid||id; /* Use UUID for all subsequent API calls */
@@ -633,13 +765,43 @@ async function checkOne(raw){
     const t=e.entity_type;
 
     /* ── Check rui_location in all possible fields ── */
-    function hasRui(ent){
-      if(!ent)return false;
-      if(ent.rui_location)return true;
-      if(ent.metadata&&ent.metadata.rui_location)return true;
-      if(ent.ingest_metadata&&ent.ingest_metadata.rui_location)return true;
-      if(ent.cedar_mapped_metadata&&ent.cedar_mapped_metadata.rui_location)return true;
-      return false;
+    function getRuiObj(ent){
+      if(!ent)return null;
+      const raw=ent.rui_location||(ent.metadata&&ent.metadata.rui_location)||(ent.ingest_metadata&&ent.ingest_metadata.rui_location)||(ent.cedar_mapped_metadata&&ent.cedar_mapped_metadata.rui_location)||null;
+      if(!raw)return null;
+      if(typeof raw==='object')return raw;
+      try{return JSON.parse(raw)}catch(x){return null}
+    }
+    function hasRui(ent){return!!getRuiObj(ent)}
+    function countAnnotations(ent){
+      const obj=getRuiObj(ent);
+      if(!obj)return null;
+      const ann=obj.ccf_annotations||obj['ccf_annotations'];
+      return Array.isArray(ann)?ann.length:null;
+    }
+    function countCellTypes(ent){
+      const obj=getRuiObj(ent);
+      if(!obj){return null}
+      const ann=obj.ccf_annotations||obj['ccf_annotations'];
+      if(!Array.isArray(ann)||!ann.length){return null}
+      /* Normalize annotations — could be strings or objects with @id */
+      const normalized=ann.map(a=>typeof a==='string'?a:(a&&(a['@id']||a.id||a.value||''))).filter(Boolean);
+      if(!normalized.length){console.log('[CT] annotations exist but not parseable, sample:',ann.slice(0,2));return null}
+      const mapKeys=Object.keys(ctByAS);
+      if(!mapKeys.length){console.log('[CT] ctByAS is empty — SPARQL load failed');return null}
+      /* Log first entity for debugging */
+      if(!countCellTypes._logged){
+        console.log('[CT Debug] annotation sample:',normalized.slice(0,3));
+        console.log('[CT Debug] ctByAS key sample:',mapKeys.slice(0,3));
+        countCellTypes._logged=true;
+      }
+      const cts=new Set();
+      for(const a of normalized){const s=ctByAS[a];if(s)for(const c of s)cts.add(c)}
+      if(cts.size===0&&!countCellTypes._mismatchLogged){
+        console.warn('[CT] 0 matches. Annotation:',normalized[0],'vs map key:',mapKeys[0]);
+        countCellTypes._mismatchLogged=true;
+      }
+      return cts.size||null;
     }
 
     /* ── Fetch ancestors with multiple fallback strategies ── */
@@ -712,11 +874,11 @@ async function checkOne(raw){
     }else if(t==='Sample'){
       const cat=(e.sample_category||'').toLowerCase();
       if(cat==='block'){
-        if(hasRui(e)){R.rui_status='Yes';R.rui_detail='Block has rui_location'}
+        if(hasRui(e)){R.rui_status='Yes';R.rui_detail='Block has rui_location';R.as_count=countAnnotations(e);R.ct_count=countCellTypes(e)}
         else{
           const anc=await getAnc();
           const deep=await deepRuiCheck(anc);
-          if(deep){R.rui_status='Yes';R.rui_detail=deep.detail}
+          if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_count=countAnnotations(deep.ent);R.ct_count=countCellTypes(deep.ent)}
           else{const org=findOrgan(e,anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported by HRA'}else{R.rui_status='No';R.rui_detail='Block lacks rui_location'+(anc?'':' (ancestor lookup failed)')}}
         }
       }else if(cat==='organ'){
@@ -726,7 +888,7 @@ async function checkOne(raw){
       }else if(cat){
         const anc=await getAnc();
         const deep=await deepRuiCheck(anc);
-        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail}
+        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_count=countAnnotations(deep.ent);R.ct_count=countCellTypes(deep.ent)}
         else{
           const bks=(anc||[]).filter(a=>a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='block');
           if(bks.length){const org=findOrgan(bks[0],anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail=bks.length+' block(s), none with RUI'}}
@@ -737,7 +899,7 @@ async function checkOne(raw){
       const anc=await getAnc();
       if(anc){
         const deep=await deepRuiCheck(anc);
-        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail}
+        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_count=countAnnotations(deep.ent);R.ct_count=countCellTypes(deep.ent)}
         else{
           const bks=anc.filter(a=>a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='block');
           if(bks.length){const org=findOrgan(bks[0],anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail=bks.length+' block(s), none with RUI'}}
@@ -749,7 +911,7 @@ async function checkOne(raw){
     /* ── Descendants — use UUID ── */
     await wait(RD);try{const desc=await apiGet(api.entity+'/descendants/'+encodeURIComponent(uid));R.derived_datasets=desc.filter(d=>d.entity_type==='Dataset').length}catch(x){}
     const hid=e.hubmap_id||e.sennet_id||'';R.cell_count=cellCountMap[hid]??cellCountMap[R.uuid]??null;
-  }catch(err){let m=err.message;if(m==='Failed to fetch'||err.name==='TypeError'||m.includes('All proxies'))m=useProxy()?'Network error \u2014 proxies failed':'CORS blocked \u2014 enable proxy';R.error=m;R.rui_status='Error';R.rui_detail=m}
+  }catch(err){R.error=err.message;R.rui_status='Error';R.rui_detail=err.message}
   return R;
 }
 function showP(c,t,x){document.getElementById('progress-container').classList.add('active');const p=Math.round(c/t*100);document.getElementById('progress-fill').style.width=p+'%';document.getElementById('progress-pct').textContent=p+'%';document.getElementById('progress-text').textContent='Processing '+c+' of '+t+(x?' \u2014 '+x:'')+'...'}
@@ -789,6 +951,8 @@ function renderR(){
   tb.innerHTML=filtered.map((r,i)=>{
     const bc=r.rui_status==='Yes'?'badge-yes':r.rui_status==='No'?'badge-no':r.rui_status==='Exempt'?'badge-exempt':'badge-warn';
     const cc=r.cell_count!=null?'<span class="cell-num">'+r.cell_count.toLocaleString()+'</span>':na();
+    const ac=r.as_count!=null?'<span class="cell-num">'+r.as_count+'</span>':na();
+    const ctc=r.ct_count!=null?'<span class="cell-num">'+r.ct_count+'</span>':na();
     const ex=any?
       '<td class="cell-num">'+(r.rui_status==='No'?r.tmc_missing:na())+'</td>'+
       '<td class="rank-score" style="text-align:right">'+(r.rank_score!=null?(r.rank_score*100).toFixed(1)+'%':na())+'</td>'+
@@ -798,7 +962,7 @@ function renderR(){
       '<td>'+r.entity_type+(r.sample_category?' <span style="color:var(--hra-text-dim)">('+r.sample_category+')</span>':'')+'</td>'+
       '<td><span class="badge '+bc+'"><span class="dot"></span>'+r.rui_status+'</span></td>'+
       '<td>'+(r.created_by||na())+'</td><td class="cell-email">'+(r.email||na())+'</td><td>'+(r.group_name||na())+'</td>'+
-      '<td class="cell-num">'+r.derived_datasets+'</td><td>'+cc+'</td>'+ex+
+      '<td class="cell-num">'+r.derived_datasets+'</td><td>'+cc+'</td><td>'+ac+'</td><td>'+ctc+'</td>'+ex+
       '<td style="font-size:.75rem;color:var(--hra-text-dim);max-width:220px">'+(r.rui_detail||'')+'</td></tr>';
   }).join('');
   document.getElementById('results-count').innerHTML='<strong>'+resultsData.length+'</strong> entities \u2014 <span style="color:var(--hra-green)">'+yC+' Yes</span>, <span style="color:var(--hra-red)">'+nC+' No</span>'+(xC?', <span style="color:var(--hra-purple)">'+xC+' Exempt</span>':'')+(eC?', <span style="color:var(--hra-amber)">'+eC+' Error</span>':'')+(naC?', '+naC+' N/A':'');
@@ -851,14 +1015,17 @@ async function runCheck(){
   document.getElementById('filter-text').value='';
   document.getElementById('filter-bar').style.display='none';
   document.getElementById('filter-count').textContent='';
-  showP(0,ids.length,'loading cell counts');
-  const ccP=loadCC();if(supportedOrgans.size===0)await loadOrgans();
+  showP(0,ids.length,'loading cell counts & cell type map');
+  const ccP=loadCC();const ctP=loadCTMap();if(supportedOrgans.size===0)await loadOrgans();
+  cellCountMap=await ccP;await ctP;
+  const ctKeys=Object.keys(ctByAS).length;
+  showP(0,ids.length,'CT map: '+ctKeys+' structures loaded');
+  await wait(800);
   for(let i=0;i<ids.length;i++){
     showP(i,ids.length,extractId(ids[i]).substring(0,20));
     resultsData.push(await checkOne(ids[i]));renderR();
     if(cF>0)await wait(Math.min(cF*2000,8000));else if(i<ids.length-1)await wait(RD);
   }
-  cellCountMap=await ccP;
   for(const r of resultsData){const c=cellCountMap[r.display_id]??cellCountMap[r.uuid]??null;if(c!=null)r.cell_count=c}
   computeTmc();origOrder=[...resultsData];renderR();hideP();
   btn.disabled=false;btn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Check RUI Locations';
@@ -867,9 +1034,9 @@ function exportCSV(){
   if(!resultsData.length)return;
   const filtered=getFiltered();if(!filtered.length)return;
   const any=document.getElementById('rank-cells').checked||document.getElementById('rank-datasets').checked||document.getElementById('rank-tmc').checked;
-  const hd=['ID','UUID','Entity_Type','Sample_Category','RUI_Status','Detail','Created_By','Email','Group_Name','Derived_Datasets','Cell_Count'];
+  const hd=['ID','UUID','Entity_Type','Sample_Category','RUI_Status','Detail','Created_By','Email','Group_Name','Derived_Datasets','Cell_Count','AS_Count','CT_Count'];
   if(any)hd.push('TMC_Missing','Score','Rank');
-  const rows=filtered.map(r=>{const row=[r.display_id,r.uuid,r.entity_type,r.sample_category,r.rui_status,r.rui_detail,r.created_by,r.email,r.group_name,r.derived_datasets,r.cell_count??''];if(any)row.push(r.tmc_missing||'',r.rank_score!=null?(r.rank_score*100).toFixed(1)+'%':'',r.rank_pos??'');return row});
+  const rows=filtered.map(r=>{const row=[r.display_id,r.uuid,r.entity_type,r.sample_category,r.rui_status,r.rui_detail,r.created_by,r.email,r.group_name,r.derived_datasets,r.cell_count??'',r.as_count??'',r.ct_count??''];if(any)row.push(r.tmc_missing||'',r.rank_score!=null?(r.rank_score*100).toFixed(1)+'%':'',r.rank_pos??'');return row});
   const csv=[hd.join(','),...rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(','))].join('\n');
   const b=new Blob([csv],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);
   const sfx=filtered.length<resultsData.length?'-filtered':'';
