@@ -242,6 +242,8 @@
   .badge-yes{background:var(--hra-green-bg);color:var(--hra-green)}
   .badge-no{background:var(--hra-red-bg);color:var(--hra-red)}
   .badge-exempt{background:var(--hra-purple-bg);color:var(--hra-purple)}
+  tfoot td{background:var(--hra-bg-offset);font-weight:600;font-size:.8rem;border-top:2px solid var(--hra-primary);position:sticky;bottom:0}
+  tfoot .sum-label{font-size:.8125rem;letter-spacing:.02em;color:var(--hra-text-secondary)}
   .badge-warn{background:var(--hra-amber-bg);color:var(--hra-amber)}
   .cell-email{font-size:.75rem;color:var(--hra-text-secondary)}
   .cell-num{font-family:'IBM Plex Mono',monospace;font-size:.75rem;text-align:right}
@@ -359,10 +361,10 @@
             <div class="field">
               <label>Or upload a file</label>
               <div class="file-drop" id="file-drop">
-                <input type="file" id="file-input" accept=".csv,.xlsx,.xls,.txt,.tsv,.yaml,.yml">
+                <input type="file" id="file-input" accept=".csv,.xlsx,.xls,.txt,.tsv,.yaml,.yml" multiple>
                 <div class="drop-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
                 <div class="drop-text"><strong>Click to browse</strong> or drag &amp; drop</div>
-                <div class="drop-formats">CSV, Excel, TSV, TXT, or YAML (registrations)</div>
+                <div class="drop-formats">CSV, Excel, TSV, TXT, or YAML — multiple files supported</div>
                 <div class="file-name" id="file-name"></div>
               </div>
             </div>
@@ -465,6 +467,7 @@
           <th>Details</th>
         </tr></thead>
         <tbody id="results-body"></tbody>
+        <tfoot id="results-foot"></tfoot>
       </table>
     </div>
     <div class="ranking-panel" id="ranking-panel">
@@ -603,20 +606,26 @@ function setupFileDrop(){
   d.addEventListener('click',()=>i.click());
   d.addEventListener('dragover',e=>{e.preventDefault();d.classList.add('dragover')});
   d.addEventListener('dragleave',()=>d.classList.remove('dragover'));
-  d.addEventListener('drop',e=>{e.preventDefault();d.classList.remove('dragover');if(e.dataTransfer.files.length)loadDirect(e.dataTransfer.files[0])});
-  i.addEventListener('change',()=>{if(i.files.length)loadDirect(i.files[0])});
+  d.addEventListener('drop',e=>{e.preventDefault();d.classList.remove('dragover');if(e.dataTransfer.files.length)loadMultipleFiles([...e.dataTransfer.files])});
+  i.addEventListener('change',()=>{if(i.files.length)loadMultipleFiles([...i.files])});
 }
-async function loadDirect(f){
-  document.getElementById('file-name').textContent=f.name;
-  const ext=f.name.split('.').pop().toLowerCase();
-  if(ext==='yaml'||ext==='yml'){
-    const txt=await f.text();
-    const ids=parseYamlRegistrations(txt);
-    document.getElementById('ids-input').value=ids.join('\n');
-  }else{
-    const d=await parseSS(f);
-    document.getElementById('ids-input').value=d.rows.map(r=>(r[0]||'').trim()).filter(Boolean).join('\n');
+async function loadMultipleFiles(files){
+  const allIds=[];
+  const names=[];
+  for(const f of files){
+    names.push(f.name);
+    const ext=f.name.split('.').pop().toLowerCase();
+    if(ext==='yaml'||ext==='yml'){
+      const txt=await f.text();
+      allIds.push(...parseYamlRegistrations(txt));
+    }else{
+      const d=await parseSS(f);
+      allIds.push(...d.rows.map(r=>(r[0]||'').trim()).filter(Boolean));
+    }
   }
+  const unique=[...new Set(allIds)];
+  document.getElementById('file-name').textContent=files.length===1?names[0]:names.length+' files ('+unique.length+' IDs)';
+  document.getElementById('ids-input').value=unique.join('\n');
 }
 /* ── Parse HRA registrations YAML ── */
 function parseYamlRegistrations(txt){
@@ -692,49 +701,90 @@ async function loadCC(){try{const r=await rFetch(GRLC_URL,{headers:{'Accept':'ap
 /* ── Load cell-type-per-AS map from HRA KG SPARQL ── */
 let ctByAS={};
 async function loadCTMap(){
-  const ep='https://lod.humanatlas.io/sparql';
-  /* Try multiple SPARQL queries — the predicate may differ across HRA versions */
-  const queries=[
-    /* Strategy 1: ccf_located_in (CT → AS) */
+  /* Helper: plain fetch with timeout, NO auth headers */
+  async function plainFetch(url,headers={}){
+    const c=new AbortController();const tm=setTimeout(()=>c.abort(),20000);
+    const r=await fetch(url,{headers,signal:c.signal});
+    clearTimeout(tm);
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    return r;
+  }
+  function buildMap(bindings){
+    const m={};let pairs=0;
+    for(const b of bindings){
+      const as=b.as?.value||'';const ct=b.ct?.value||'';
+      if(as&&ct){if(!m[as])m[as]=new Set();m[as].add(ct);pairs++}
+    }
+    return{m,pairs};
+  }
+  /* Strategy 1: grlc canned SPARQL query — most reliable */
+  const grlcUrls=[
+    'https://apps.humanatlas.io/api/grlc/hra/asctb-in-table?asctb=https%3A%2F%2Fpurl.humanatlas.io%2Fcollection%2Fasct-b',
+    'https://apps.humanatlas.io/api/grlc/hra/ct-per-organ',
+  ];
+  /* Strategy 2: direct SPARQL queries */
+  const sparqlQueries=[
     `PREFIX ccf: <http://purl.org/ccf/>
 SELECT DISTINCT ?as ?ct WHERE { ?ct ccf:ccf_located_in ?as . FILTER(STRSTARTS(STR(?as), "http://purl.obolibrary.org/obo/UBERON_")) }`,
-    /* Strategy 2: ccf_characterizes (AS → CT) — reverse direction */
-    `PREFIX ccf: <http://purl.org/ccf/>
-SELECT DISTINCT ?as ?ct WHERE { ?as ccf:has_characterizing_cell_type ?ct . FILTER(STRSTARTS(STR(?as), "http://purl.obolibrary.org/obo/UBERON_")) }`,
-    /* Strategy 3: broader — any triple linking UBERON to CL terms */
     `PREFIX ccf: <http://purl.org/ccf/>
 SELECT DISTINCT ?as ?ct WHERE { ?ct ?p ?as . FILTER(STRSTARTS(STR(?as), "http://purl.obolibrary.org/obo/UBERON_")) FILTER(STRSTARTS(STR(?ct), "http://purl.obolibrary.org/obo/CL_")) } LIMIT 50000`,
   ];
-  for(let qi=0;qi<queries.length;qi++){
-    const url=ep+'?query='+encodeURIComponent(queries[qi]);
+  const ep='https://lod.humanatlas.io/sparql';
+  /* Try grlc endpoints first */
+  for(let i=0;i<grlcUrls.length;i++){
     try{
-      const r=await rFetch(url,{headers:{'Accept':'application/sparql-results+json'}});
+      const r=await plainFetch(grlcUrls[i],{'Accept':'application/sparql-results+json'});
       const d=await r.json();
-      const m={};let pairs=0;
-      if(d?.results?.bindings){for(const b of d.results.bindings){
-        const as=b.as?.value||'';const ct=b.ct?.value||'';
-        if(as&&ct){if(!m[as])m[as]=new Set();m[as].add(ct);pairs++}
-      }}
-      const keys=Object.keys(m);
-      console.log('[CT Map] Strategy '+(qi+1)+': '+pairs+' pairs, '+keys.length+' structures. Sample:',keys.slice(0,3));
-      if(keys.length>0){ctByAS=m;return}
-    }catch(e){console.warn('[CT Map] Strategy '+(qi+1)+' failed:',e.message)}
+      if(d?.results?.bindings?.length){
+        const{m,pairs}=buildMap(d.results.bindings);
+        const keys=Object.keys(m);
+        console.log('[CT Map] grlc-'+(i+1)+':',pairs,'pairs,',keys.length,'structures');
+        if(keys.length>0){ctByAS=m;return}
+      }
+    }catch(e){console.warn('[CT Map] grlc-'+(i+1)+' failed:',e.message)}
   }
-  /* Fallback: try HRA API REST endpoint */
-  try{
-    const r=await rFetch('https://apps.humanatlas.io/api/v1/cell-type-term-occurrences',{headers:{'Accept':'application/json'}});
-    const d=await r.json();
-    const m={};let pairs=0;
-    if(Array.isArray(d)){for(const item of d){
-      const as=item.anatomical_structure_id||item.structure_id||item.as_id||'';
-      const ct=item.cell_type_id||item.ct_id||item.id||'';
-      if(as&&ct){if(!m[as])m[as]=new Set();m[as].add(ct);pairs++}
-    }}
-    const keys=Object.keys(m);
-    console.log('[CT Map] REST fallback:',pairs,'pairs,',keys.length,'structures');
-    if(keys.length>0){ctByAS=m;return}
-  }catch(e){console.warn('[CT Map] REST fallback failed:',e.message)}
-  console.error('[CT Map] All strategies failed — no cell type data');
+  /* Try direct SPARQL */
+  for(let i=0;i<sparqlQueries.length;i++){
+    const url=ep+'?query='+encodeURIComponent(sparqlQueries[i]);
+    try{
+      const r=await plainFetch(url,{'Accept':'application/sparql-results+json'});
+      const d=await r.json();
+      if(d?.results?.bindings?.length){
+        const{m,pairs}=buildMap(d.results.bindings);
+        const keys=Object.keys(m);
+        console.log('[CT Map] SPARQL-'+(i+1)+':',pairs,'pairs,',keys.length,'structures');
+        if(keys.length>0){ctByAS=m;return}
+      }else{console.warn('[CT Map] SPARQL-'+(i+1)+': 0 bindings')}
+    }catch(e){console.warn('[CT Map] SPARQL-'+(i+1)+' failed:',e.message)}
+  }
+  /* Strategy 3: CDN JSON-LD — download an ASCT+B table and parse it */
+  const organs=['kidney','lung','heart','large-intestine','liver','skin','spleen','thymus'];
+  const m={};let totalPairs=0;
+  for(const org of organs){
+    try{
+      const url='https://cdn.humanatlas.io/digital-objects/asct-b/'+org+'/latest/assets/asct-b-'+org+'.jsonld';
+      const r=await plainFetch(url,{'Accept':'application/ld+json, application/json'});
+      const d=await r.json();
+      /* Parse JSON-LD: look for nodes with ccf:ccf_located_in */
+      const graph=d['@graph']||[d];
+      for(const node of graph){
+        const ct=node['@id']||'';
+        const locIn=node['ccf:ccf_located_in']||node['ccf_located_in']||[];
+        const targets=Array.isArray(locIn)?locIn:[locIn];
+        for(const t of targets){
+          const as=typeof t==='string'?t:(t['@id']||'');
+          if(as&&ct&&as.includes('UBERON')&&ct.includes('CL')){
+            if(!m[as])m[as]=new Set();m[as].add(ct);totalPairs++;
+          }
+        }
+      }
+    }catch(e){/* skip organ */}
+  }
+  if(totalPairs>0){
+    console.log('[CT Map] CDN fallback:',totalPairs,'pairs,',Object.keys(m).length,'structures');
+    ctByAS=m;return;
+  }
+  console.error('[CT Map] All strategies failed — CT count will be empty');
   ctByAS={};
 }
 function findOrgan(ent,anc){
@@ -968,6 +1018,36 @@ function renderR(){
   document.getElementById('results-count').innerHTML='<strong>'+resultsData.length+'</strong> entities \u2014 <span style="color:var(--hra-green)">'+yC+' Yes</span>, <span style="color:var(--hra-red)">'+nC+' No</span>'+(xC?', <span style="color:var(--hra-purple)">'+xC+' Exempt</span>':'')+(eC?', <span style="color:var(--hra-amber)">'+eC+' Error</span>':'')+(naC?', '+naC+' N/A':'');
   document.getElementById('filter-count').textContent=filtered.length<resultsData.length?'Showing '+filtered.length+' of '+resultsData.length:'';
   document.getElementById('export-btn').disabled=false;
+  /* ── Summary row ── */
+  const ft=document.getElementById('results-foot');
+  const src=filtered.length<resultsData.length?filtered:resultsData;
+  const tot=src.length;
+  const sYes=src.filter(r=>r.rui_status==='Yes').length;
+  const sNo=src.filter(r=>r.rui_status==='No').length;
+  const sEx=src.filter(r=>r.rui_status==='Exempt').length;
+  const sErr=src.filter(r=>r.rui_status==='Error').length;
+  const sNA=src.filter(r=>r.rui_status==='N/A').length;
+  const sDerived=src.reduce((s,r)=>s+(r.derived_datasets||0),0);
+  const sCells=src.reduce((s,r)=>s+(r.cell_count||0),0);
+  const sAS=src.filter(r=>r.as_count!=null);
+  const avgAS=sAS.length?Math.round(sAS.reduce((s,r)=>s+r.as_count,0)/sAS.length):null;
+  const sCT=src.filter(r=>r.ct_count!=null);
+  const avgCT=sCT.length?Math.round(sCT.reduce((s,r)=>s+r.ct_count,0)/sCT.length):null;
+  const pctYes=tot?(sYes/tot*100).toFixed(0)+'%':'';
+  const statusSummary='<span style="color:var(--hra-green)">'+sYes+' Yes</span> ('+pctYes+') · <span style="color:var(--hra-red)">'+sNo+' No</span>'+(sEx?' · '+sEx+' Exempt':'')+(sErr?' · '+sErr+' Err':'')+(sNA?' · '+sNA+' N/A':'');
+  const exCols=any?'<td></td><td></td><td></td>':'';
+  ft.innerHTML='<tr>'+
+    '<td></td>'+
+    '<td class="sum-label">SUMMARY ('+tot+' entities)</td>'+
+    '<td></td>'+
+    '<td>'+statusSummary+'</td>'+
+    '<td></td><td></td><td></td>'+
+    '<td class="cell-num">'+sDerived.toLocaleString()+'</td>'+
+    '<td class="cell-num">'+(sCells?sCells.toLocaleString():'\u2014')+'</td>'+
+    '<td class="cell-num">'+(avgAS!=null?'\u00f8 '+avgAS:'\u2014')+'</td>'+
+    '<td class="cell-num">'+(avgCT!=null?'\u00f8 '+avgCT:'\u2014')+'</td>'+
+    exCols+
+    '<td></td></tr>';
 }
 /* ── Filtering ── */
 function populateFilterOpts(){
@@ -1037,12 +1117,26 @@ function exportCSV(){
   const hd=['ID','UUID','Entity_Type','Sample_Category','RUI_Status','Detail','Created_By','Email','Group_Name','Derived_Datasets','Cell_Count','AS_Count','CT_Count'];
   if(any)hd.push('TMC_Missing','Score','Rank');
   const rows=filtered.map(r=>{const row=[r.display_id,r.uuid,r.entity_type,r.sample_category,r.rui_status,r.rui_detail,r.created_by,r.email,r.group_name,r.derived_datasets,r.cell_count??'',r.as_count??'',r.ct_count??''];if(any)row.push(r.tmc_missing||'',r.rank_score!=null?(r.rank_score*100).toFixed(1)+'%':'',r.rank_pos??'');return row});
+  /* Summary row */
+  const tot=filtered.length;
+  const sYes=filtered.filter(r=>r.rui_status==='Yes').length;
+  const sNo=filtered.filter(r=>r.rui_status==='No').length;
+  const sDerived=filtered.reduce((s,r)=>s+(r.derived_datasets||0),0);
+  const sCells=filtered.reduce((s,r)=>s+(r.cell_count||0),0);
+  const sASa=filtered.filter(r=>r.as_count!=null);const avgAS=sASa.length?Math.round(sASa.reduce((s,r)=>s+r.as_count,0)/sASa.length):'';
+  const sCTa=filtered.filter(r=>r.ct_count!=null);const avgCT=sCTa.length?Math.round(sCTa.reduce((s,r)=>s+r.ct_count,0)/sCTa.length):'';
+  const sumRow=['SUMMARY ('+tot+')','','',' ',sYes+' Yes / '+sNo+' No','','','','',(sDerived||''),sCells||'',avgAS?'avg '+avgAS:'',avgCT?'avg '+avgCT:''];
+  if(any)sumRow.push('','','');
+  rows.push(sumRow);
   const csv=[hd.join(','),...rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(','))].join('\n');
   const b=new Blob([csv],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);
   const sfx=filtered.length<resultsData.length?'-filtered':'';
   a.download='rui-check-'+getC()+sfx+'-'+new Date().toISOString().slice(0,10)+'.csv';a.click();URL.revokeObjectURL(a.href);
 }
 setupFileDrop();setupXm();loadOrgans();
+/* Prevent accidental file drops outside drop zones from navigating away */
+document.addEventListener('dragover',e=>e.preventDefault());
+document.addEventListener('drop',e=>e.preventDefault());
 </script>
 </body>
 </html>
