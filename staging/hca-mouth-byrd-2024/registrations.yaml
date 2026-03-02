@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HCA
+  provider_name: VCU
+  provider_uuid: 270E3E5C-1668-11F1-961F-20E2A8B75C6B 
+  defaults:
+    id: https://doi.org/10.1101/2024.12.01.626279
+    thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
+    link: https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract
+  donors:
+    - sex: Male
+      samples:
+      - rui_location: <name-of-rui-location in registrations folder>.json
