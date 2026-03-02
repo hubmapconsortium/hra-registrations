@@ -8,6 +8,94 @@
     thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
     link: https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract
   donors:
-    - sex: Male
+    - id: ID_8
+      sex: Female
+      age: 35
       samples:
-      - rui_location: <name-of-rui-location in registrations folder>.json
+      - rui_location: Female_bucal_mucosa_2.json
+        datasets: 
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_1
+      sex: Female
+      age: 56
+      samples:
+      - rui_location: female_gingiva_1.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_5
+      sex: Female
+      age: 57
+      samples:
+      - rui_location: female_gingiva_2.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_9
+      sex: Male
+      age: 65
+      samples:
+      - rui_location: Male_bucal_mucosa_2.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_54
+      sex: Male
+      age: 52
+      samples:
+      - rui_location: male_parotid_2_left*.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_53
+      sex: Male
+      age: 59
+      samples:
+      - rui_location: male_parotid_3_right*.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_56
+      sex: Male
+      age: 72
+      samples:
+      - rui_location: parotid_1_male*.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_55
+      sex: Female
+      age: 66
+      samples:
+      - rui_location: parotid_female_1*.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_43
+      sex: Male
+      age: 63
+      samples:
+      - rui_location: submandibular_1_Male.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_44
+      sex: Female
+      age: 63
+      samples:
+      - rui_location: submandibular_2_Female.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_62
+      sex: Female
+      age: 44
+      samples:
+      - rui_location: tounge_1_Female.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_9
+      sex: Male
+      age: 44
+      samples:
+      - rui_location: tounge_male_1.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279
+    - id: ID_10
+      sex: Male
+      age: 58
+      samples:
+      - rui_location: tounge_male_2.json
+        datasets:
+        -link: https://doi.org/10.1101/2024.12.01.626279

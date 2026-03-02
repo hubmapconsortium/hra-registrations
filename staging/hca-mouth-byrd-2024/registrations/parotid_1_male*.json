@@ -1,0 +1,40 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/9ba72e3d-005d-4c99-a376-144e8e554c73",
+  "@type": "SpatialEntity",
+  "creator": "Bruno Matuck",
+  "creator_first_name": "Bruno",
+  "creator_last_name": "Matuck",
+  "creator_email": "",
+  "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+  "creation_date": "2025-10-31",
+  "ccf_annotations": [
+    "http://purl.org/sig/ont/fma/fma59798"
+  ],
+  "x_dimension": 6,
+  "y_dimension": 4,
+  "z_dimension": 3,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "consortium": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/9ba72e3d-005d-4c99-a376-144e8e554c73_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary",
+    "placement_date": "2025-10-31",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 122,
+    "y_translation": 83,
+    "z_translation": 33,
+    "translation_units": "millimeter"
+  }
+}
