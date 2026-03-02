@@ -1030,9 +1030,9 @@ function renderR(){
   const sDerived=src.reduce((s,r)=>s+(r.derived_datasets||0),0);
   const sCells=src.reduce((s,r)=>s+(r.cell_count||0),0);
   const sAS=src.filter(r=>r.as_count!=null);
-  const avgAS=sAS.length?Math.round(sAS.reduce((s,r)=>s+r.as_count,0)/sAS.length):null;
+  const sumAS=sAS.length?sAS.reduce((s,r)=>s+r.as_count,0):null;
   const sCT=src.filter(r=>r.ct_count!=null);
-  const avgCT=sCT.length?Math.round(sCT.reduce((s,r)=>s+r.ct_count,0)/sCT.length):null;
+  const sumCT=sCT.length?sCT.reduce((s,r)=>s+r.ct_count,0):null;
   const pctYes=tot?(sYes/tot*100).toFixed(0)+'%':'';
   const statusSummary='<span style="color:var(--hra-green)">'+sYes+' Yes</span> ('+pctYes+') · <span style="color:var(--hra-red)">'+sNo+' No</span>'+(sEx?' · '+sEx+' Exempt':'')+(sErr?' · '+sErr+' Err':'')+(sNA?' · '+sNA+' N/A':'');
   const exCols=any?'<td></td><td></td><td></td>':'';
@@ -1044,8 +1044,8 @@ function renderR(){
     '<td></td><td></td><td></td>'+
     '<td class="cell-num">'+sDerived.toLocaleString()+'</td>'+
     '<td class="cell-num">'+(sCells?sCells.toLocaleString():'\u2014')+'</td>'+
-    '<td class="cell-num">'+(avgAS!=null?'\u00f8 '+avgAS:'\u2014')+'</td>'+
-    '<td class="cell-num">'+(avgCT!=null?'\u00f8 '+avgCT:'\u2014')+'</td>'+
+    '<td class="cell-num">'+(sumAS!=null?sumAS.toLocaleString():'\u2014')+'</td>'+
+    '<td class="cell-num">'+(sumCT!=null?sumCT.toLocaleString():'\u2014')+'</td>'+
     exCols+
     '<td></td></tr>';
 }
@@ -1123,9 +1123,9 @@ function exportCSV(){
   const sNo=filtered.filter(r=>r.rui_status==='No').length;
   const sDerived=filtered.reduce((s,r)=>s+(r.derived_datasets||0),0);
   const sCells=filtered.reduce((s,r)=>s+(r.cell_count||0),0);
-  const sASa=filtered.filter(r=>r.as_count!=null);const avgAS=sASa.length?Math.round(sASa.reduce((s,r)=>s+r.as_count,0)/sASa.length):'';
-  const sCTa=filtered.filter(r=>r.ct_count!=null);const avgCT=sCTa.length?Math.round(sCTa.reduce((s,r)=>s+r.ct_count,0)/sCTa.length):'';
-  const sumRow=['SUMMARY ('+tot+')','','',' ',sYes+' Yes / '+sNo+' No','','','','',(sDerived||''),sCells||'',avgAS?'avg '+avgAS:'',avgCT?'avg '+avgCT:''];
+  const sASa=filtered.filter(r=>r.as_count!=null);const sumASc=sASa.length?sASa.reduce((s,r)=>s+r.as_count,0):'';
+  const sCTa=filtered.filter(r=>r.ct_count!=null);const sumCTc=sCTa.length?sCTa.reduce((s,r)=>s+r.ct_count,0):'';
+  const sumRow=['SUMMARY ('+tot+')','','',' ',sYes+' Yes / '+sNo+' No','','','','',(sDerived||''),sCells||'',sumASc,sumCTc];
   if(any)sumRow.push('','','');
   rows.push(sumRow);
   const csv=[hd.join(','),...rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(','))].join('\n');
