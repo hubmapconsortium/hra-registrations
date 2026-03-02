@@ -1,0 +1,943 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_8",
+      "@type": "Donor",
+      "label": "Female, Age 35",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 35,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_8_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "2 x 2 x 2 millimeter, 2 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac7b361-d54a-496d-aca6-12e4e2908c97",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006956"
+            ],
+            "x_dimension": 2,
+            "y_dimension": 2,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac7b361-d54a-496d-aca6-12e4e2908c97_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 74,
+              "y_translation": 36,
+              "z_translation": 109,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Buccal_Mucosa_And_Minor_Salivary_Glands_1",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_1",
+      "@type": "Donor",
+      "label": "Female, Age 56",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 56,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "1 x 1 x 1 millimeter, 1 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/497186ab-6a8c-4897-a898-e40bdebf9234",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0011601"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 1,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/497186ab-6a8c-4897-a898-e40bdebf9234_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 101,
+              "y_translation": 62,
+              "z_translation": 84,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Gingiva_ID1_shiny",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_5",
+      "@type": "Donor",
+      "label": "Female, Age 57",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 57,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_5_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "1 x 1 x 1 millimeter, 1 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 1,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/81321937-76d5-4eee-95ae-eb1c3afde5c7",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0011601"
+            ],
+            "x_dimension": 1,
+            "y_dimension": 1,
+            "z_dimension": 1,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/81321937-76d5-4eee-95ae-eb1c3afde5c7_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 75,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 104,
+              "y_translation": 67,
+              "z_translation": 83,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Gingiva_ID5_shiny",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_9",
+      "@type": "Donor",
+      "label": "Male, Age 65",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 65,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_9_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "2 x 2 x 2 millimeter, 2 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/4928d3e1-a3d3-473e-a838-a185322d1249",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006956"
+            ],
+            "x_dimension": 2,
+            "y_dimension": 2,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/4928d3e1-a3d3-473e-a838-a185322d1249_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 72,
+              "y_translation": 38,
+              "z_translation": 101,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Buccal_Mucosa_And_Minor_Salivary_Glands_2",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_54",
+      "@type": "Donor",
+      "label": "Male, Age 52",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 52,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_54_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "4 x 4 x 4 millimeter, 4 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/8e62eae8-e790-42a7-b724-842e404d294f",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma59798"
+            ],
+            "x_dimension": 4,
+            "y_dimension": 4,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/8e62eae8-e790-42a7-b724-842e404d294f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 122,
+              "y_translation": 83,
+              "z_translation": 33,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Parotid_2",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_53",
+      "@type": "Donor",
+      "label": "Male, Age 59",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 59,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_53_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "4 x 5 x 5 millimeter, 5 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/eede5303-f637-4374-a1e7-90da493ddf14",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma59797"
+            ],
+            "x_dimension": 4,
+            "y_dimension": 5,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/eede5303-f637-4374-a1e7-90da493ddf14_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 5.957,
+              "y_translation": 89.142,
+              "z_translation": 33,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Parotid_1",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_56",
+      "@type": "Donor",
+      "label": "Male, Age 72",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 72,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_56_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "6 x 4 x 3 millimeter, 3 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 3,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ba72e3d-005d-4c99-a376-144e8e554c73",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma59798"
+            ],
+            "x_dimension": 6,
+            "y_dimension": 4,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ba72e3d-005d-4c99-a376-144e8e554c73_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 122,
+              "y_translation": 83,
+              "z_translation": 33,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Parotid_4",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_55",
+      "@type": "Donor",
+      "label": "Female, Age 66",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 66,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_55_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "3 x 3 x 3 millimeter, 3 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 3,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/5cf25175-9eb0-4575-9680-b618e06c48d9",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma59798"
+            ],
+            "x_dimension": 3,
+            "y_dimension": 3,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/5cf25175-9eb0-4575-9680-b618e06c48d9_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 138,
+              "y_translation": 101,
+              "z_translation": 32,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Parotid_3",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_43",
+      "@type": "Donor",
+      "label": "Male, Age 63",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 63,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_43_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "5 x 1.2 x 5 millimeter, 5 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 5,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/52901ae8-f538-4ba6-bb39-53c39cec4e14",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma59803"
+            ],
+            "x_dimension": 5,
+            "y_dimension": 1.2,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/52901ae8-f538-4ba6-bb39-53c39cec4e14_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 93,
+              "y_translation": 28,
+              "z_translation": 37,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Submandibular_1",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_44",
+      "@type": "Donor",
+      "label": "Female, Age 63",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 63,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_44_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "7 x 1.2 x 9 millimeter, 9 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 9,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/c85fc01c-9687-4d88-bd37-be61146bf401",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma59803"
+            ],
+            "x_dimension": 7,
+            "y_dimension": 1.2,
+            "z_dimension": 9,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/c85fc01c-9687-4d88-bd37-be61146bf401_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 109,
+              "y_translation": 30,
+              "z_translation": 41,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Submandibular_2",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_62",
+      "@type": "Donor",
+      "label": "Female, Age 44",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 44,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_62_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "4 x 6 x 6 millimeter, 6 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 6,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/7d154448-e19b-4494-8876-aad2fdd3cb50",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0007371"
+            ],
+            "x_dimension": 4,
+            "y_dimension": 6,
+            "z_dimension": 6,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/7d154448-e19b-4494-8876-aad2fdd3cb50_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 77,
+              "y_translation": 58,
+              "z_translation": 94,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Tongue_3",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_9",
+      "@type": "Donor",
+      "label": "Male, Age 44",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 44,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_9_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "2 x 2 x 2 millimeter, 2 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 2,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/0cf3081d-b47d-4aa2-a6ce-9a399e88e84a",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001723",
+              "http://purl.obolibrary.org/obo/UBERON_0010033"
+            ],
+            "x_dimension": 2,
+            "y_dimension": 2,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/0cf3081d-b47d-4aa2-a6ce-9a399e88e84a_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 45,
+              "y_rotation": 53,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 78,
+              "y_translation": 51,
+              "z_translation": 47,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Tongue__1",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_10",
+      "@type": "Donor",
+      "label": "Male, Age 58",
+      "description": "Entered 9/30/2025, Bruno Matuck, VCU",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+      "consortium_name": "HCA",
+      "provider_name": "VCU",
+      "provider_uuid": "270E3E5C-1668-11F1-961F-20E2A8B75C6B",
+      "age": 58,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1101/2024.12.01.626279#ID_10_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+          "description": "4 x 3 x 3 millimeter, 3 millimeter",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+          "section_count": 0,
+          "section_size": 3,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a0df8112-e478-4317-9679-7862753cf636",
+            "@type": "SpatialEntity",
+            "creator": "Bruno Matuck",
+            "creator_first_name": "Bruno",
+            "creator_last_name": "Matuck",
+            "creator_orcid": "https://orcid.org/0000-0002-2132-3402",
+            "creation_date": "2025-10-31",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001723",
+              "http://purl.obolibrary.org/obo/UBERON_0010033"
+            ],
+            "x_dimension": 4,
+            "y_dimension": 3,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a0df8112-e478-4317-9679-7862753cf636_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2025-10-31",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 45,
+              "y_rotation": 53,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 78,
+              "y_translation": 51,
+              "z_translation": 48,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/mouth-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1101/2024.12.01.626279#Tongue__2",
+              "@type": "Dataset",
+              "label": "Registered 9/30/2025, Bruno Matuck, VCU",
+              "description": "Data/Assay Types: CODEX, ",
+              "link": "https://www.biorxiv.org/content/10.1101/2024.12.01.626279v2.abstract",
+              "technology": "CODEX",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
