@@ -807,7 +807,7 @@ function findOrgan(ent,anc){
 }
 async function checkOne(raw){
   const id=extractId(raw),api=getApi(),isSN=getC()==='sennet';
-  const R={input_id:raw,display_id:'',uuid:'',entity_type:'',sample_category:'',rui_status:'No',rui_detail:'',created_by:'',email:'',group_name:'',derived_datasets:0,cell_count:null,as_count:null,ct_count:null,error:null,tmc_missing:0,rank_score:null,rank_pos:null};
+  const R={input_id:raw,display_id:'',uuid:'',entity_type:'',sample_category:'',rui_status:'No',rui_detail:'',created_by:'',email:'',group_name:'',derived_datasets:0,cell_count:null,as_count:null,as_iris:null,ct_count:null,error:null,tmc_missing:0,rank_score:null,rank_pos:null};
   try{
     const e=await apiGet(api.entity+'/entities/'+encodeURIComponent(id));
     const uid=e.uuid||id; /* Use UUID for all subsequent API calls */
@@ -823,11 +823,12 @@ async function checkOne(raw){
       try{return JSON.parse(raw)}catch(x){return null}
     }
     function hasRui(ent){return!!getRuiObj(ent)}
-    function countAnnotations(ent){
+    function getAnnotations(ent){
       const obj=getRuiObj(ent);
       if(!obj)return null;
       const ann=obj.ccf_annotations||obj['ccf_annotations'];
-      return Array.isArray(ann)?ann.length:null;
+      if(!Array.isArray(ann)||!ann.length)return null;
+      return ann.map(a=>typeof a==='string'?a:(a&&(a['@id']||a.id||a.value||''))).filter(Boolean);
     }
     function countCellTypes(ent){
       const obj=getRuiObj(ent);
@@ -924,11 +925,11 @@ async function checkOne(raw){
     }else if(t==='Sample'){
       const cat=(e.sample_category||'').toLowerCase();
       if(cat==='block'){
-        if(hasRui(e)){R.rui_status='Yes';R.rui_detail='Block has rui_location';R.as_count=countAnnotations(e);R.ct_count=countCellTypes(e)}
+        if(hasRui(e)){R.rui_status='Yes';R.rui_detail='Block has rui_location';R.as_iris=getAnnotations(e);R.as_count=R.as_iris?R.as_iris.length:null;R.ct_count=countCellTypes(e)}
         else{
           const anc=await getAnc();
           const deep=await deepRuiCheck(anc);
-          if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_count=countAnnotations(deep.ent);R.ct_count=countCellTypes(deep.ent)}
+          if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_iris=getAnnotations(deep.ent);R.as_count=R.as_iris?R.as_iris.length:null;R.ct_count=countCellTypes(deep.ent)}
           else{const org=findOrgan(e,anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported by HRA'}else{R.rui_status='No';R.rui_detail='Block lacks rui_location'+(anc?'':' (ancestor lookup failed)')}}
         }
       }else if(cat==='organ'){
@@ -938,7 +939,7 @@ async function checkOne(raw){
       }else if(cat){
         const anc=await getAnc();
         const deep=await deepRuiCheck(anc);
-        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_count=countAnnotations(deep.ent);R.ct_count=countCellTypes(deep.ent)}
+        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_iris=getAnnotations(deep.ent);R.as_count=R.as_iris?R.as_iris.length:null;R.ct_count=countCellTypes(deep.ent)}
         else{
           const bks=(anc||[]).filter(a=>a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='block');
           if(bks.length){const org=findOrgan(bks[0],anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail=bks.length+' block(s), none with RUI'}}
@@ -949,7 +950,7 @@ async function checkOne(raw){
       const anc=await getAnc();
       if(anc){
         const deep=await deepRuiCheck(anc);
-        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_count=countAnnotations(deep.ent);R.ct_count=countCellTypes(deep.ent)}
+        if(deep){R.rui_status='Yes';R.rui_detail=deep.detail;R.as_iris=getAnnotations(deep.ent);R.as_count=R.as_iris?R.as_iris.length:null;R.ct_count=countCellTypes(deep.ent)}
         else{
           const bks=anc.filter(a=>a.entity_type==='Sample'&&(a.sample_category||'').toLowerCase()==='block');
           if(bks.length){const org=findOrgan(bks[0],anc);if(org&&!orgOk(org)){R.rui_status='Exempt';R.rui_detail='Organ '+org+' not supported'}else{R.rui_status='No';R.rui_detail=bks.length+' block(s), none with RUI'}}
@@ -1029,8 +1030,8 @@ function renderR(){
   const sNA=src.filter(r=>r.rui_status==='N/A').length;
   const sDerived=src.reduce((s,r)=>s+(r.derived_datasets||0),0);
   const sCells=src.reduce((s,r)=>s+(r.cell_count||0),0);
-  const sAS=src.filter(r=>r.as_count!=null);
-  const sumAS=sAS.length?sAS.reduce((s,r)=>s+r.as_count,0):null;
+  const sAS=new Set();src.forEach(r=>{if(r.as_iris)r.as_iris.forEach(a=>sAS.add(a))});
+  const uniqueAS=sAS.size||null;
   const sCT=src.filter(r=>r.ct_count!=null);
   const sumCT=sCT.length?sCT.reduce((s,r)=>s+r.ct_count,0):null;
   const pctYes=tot?(sYes/tot*100).toFixed(0)+'%':'';
@@ -1044,7 +1045,7 @@ function renderR(){
     '<td></td><td></td><td></td>'+
     '<td class="cell-num">'+sDerived.toLocaleString()+'</td>'+
     '<td class="cell-num">'+(sCells?sCells.toLocaleString():'\u2014')+'</td>'+
-    '<td class="cell-num">'+(sumAS!=null?sumAS.toLocaleString():'\u2014')+'</td>'+
+    '<td class="cell-num">'+(uniqueAS!=null?uniqueAS.toLocaleString():'\u2014')+'</td>'+
     '<td class="cell-num">'+(sumCT!=null?sumCT.toLocaleString():'\u2014')+'</td>'+
     exCols+
     '<td></td></tr>';
@@ -1123,9 +1124,9 @@ function exportCSV(){
   const sNo=filtered.filter(r=>r.rui_status==='No').length;
   const sDerived=filtered.reduce((s,r)=>s+(r.derived_datasets||0),0);
   const sCells=filtered.reduce((s,r)=>s+(r.cell_count||0),0);
-  const sASa=filtered.filter(r=>r.as_count!=null);const sumASc=sASa.length?sASa.reduce((s,r)=>s+r.as_count,0):'';
+  const sASset=new Set();filtered.forEach(r=>{if(r.as_iris)r.as_iris.forEach(a=>sASset.add(a))});const uniqueASc=sASset.size||'';
   const sCTa=filtered.filter(r=>r.ct_count!=null);const sumCTc=sCTa.length?sCTa.reduce((s,r)=>s+r.ct_count,0):'';
-  const sumRow=['SUMMARY ('+tot+')','','',' ',sYes+' Yes / '+sNo+' No','','','','',(sDerived||''),sCells||'',sumASc,sumCTc];
+  const sumRow=['SUMMARY ('+tot+')','','',' ',sYes+' Yes / '+sNo+' No','','','','',(sDerived||''),sCells||'',uniqueASc,sumCTc];
   if(any)sumRow.push('','','');
   rows.push(sumRow);
   const csv=[hd.join(','),...rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(','))].join('\n');
