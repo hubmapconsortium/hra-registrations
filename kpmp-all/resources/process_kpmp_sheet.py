@@ -183,29 +183,16 @@ def emit_yaml(donors: dict, out_path: Path) -> tuple[int, int]:
     ]
 
     n_datasets = 0
-    seen_ids: set[str] = set()
-
-    def reserve(candidate: str) -> str:
-        """Return `candidate` if unused; otherwise append '_2', '_3', ... until unique."""
-        if candidate not in seen_ids:
-            seen_ids.add(candidate)
-            return candidate
-        i = 2
-        while f"{candidate}_{i}" in seen_ids:
-            i += 1
-        unique = f"{candidate}_{i}"
-        seen_ids.add(unique)
-        return unique
-
-    for did in sorted(donors.keys(), key=nat_key):
+    for donor_idx, did in enumerate(sorted(donors.keys(), key=nat_key), start=1):
         d = donors[did]
         fname = rui_filename(d["sex"], d["axis"], d["side"])
-        donor_id = reserve(f"https://atlas.kpmp.org/#{did}")
-        sample_id = reserve(f"{donor_id}_block1")
+        donor_id = f"https://atlas.kpmp.org/Donor#{donor_idx}"
+        sample_id = f"{donor_id}_Block#1"
         lines += [
             f"  - id: {donor_id}",
-            f"    sex: {d['sex']}",
             f"    label: HRT {d['age']}",
+            f"    link: https://atlas.kpmp.org/#{did}",
+            f"    sex: {d['sex']}",
             "    samples:",
             f"    - id: {sample_id}",
             f"      rui_location: {fname}",
@@ -213,15 +200,9 @@ def emit_yaml(donors: dict, out_path: Path) -> tuple[int, int]:
         ]
         # Stable order: by technology, then by link
         ds_sorted = sorted(d["datasets"], key=lambda x: (x["technology"], x["link"]))
-        for idx, ds in enumerate(ds_sorted, start=1):
+        for ds_idx, ds in enumerate(ds_sorted, start=1):
             n_datasets += 1
-            # Base the dataset's id on the link; if collisions occur (e.g., the
-            # same cellxgene collection URL appearing under multiple donors),
-            # reserve() disambiguates by suffixing the donor id and then an index.
-            candidate = ds["link"]
-            if candidate in seen_ids:
-                candidate = f"{ds['link']}#{did}_dataset{idx}"
-            dataset_id = reserve(candidate)
+            dataset_id = f"{sample_id}_Dataset#{ds_idx}"
             lines += [
                 f"      - id: {dataset_id}",
                 f"        link: {ds['link']}",
