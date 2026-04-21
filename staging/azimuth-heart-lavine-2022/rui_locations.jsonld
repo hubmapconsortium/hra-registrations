@@ -1,0 +1,2669 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor1",
+      "@type": "Donor",
+      "label": "H_ZC-11-292",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 68,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor1_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572764",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor2",
+      "@type": "Donor",
+      "label": "H_ZC-LVAD",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 58,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor2_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572765",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor3",
+      "@type": "Donor",
+      "label": "TWCM-10-5",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 53,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor3_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor3_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572794",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor4",
+      "@type": "Donor",
+      "label": "TWCM-10-68",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 62,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor4_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor4_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572783",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor5",
+      "@type": "Donor",
+      "label": "TWCM-11-41",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 60,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor5_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor5_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572780",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor6",
+      "@type": "Donor",
+      "label": "TWCM-11-42",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 48,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor6_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor6_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572781",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor7",
+      "@type": "Donor",
+      "label": "TWCM-11-74",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 65,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor7_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor7_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572784",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor8",
+      "@type": "Donor",
+      "label": "TWCM-11-78",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 27,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor8_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor8_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572784",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor9",
+      "@type": "Donor",
+      "label": "TWCM-11-82",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 44,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor9_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor9_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572785",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor10",
+      "@type": "Donor",
+      "label": "TWCM-11-93",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 9,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor10_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor10_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572767",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor11",
+      "@type": "Donor",
+      "label": "TWCM-11-103",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 46,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor11_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor11_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572795",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor12",
+      "@type": "Donor",
+      "label": "TWCM-11-104",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 75,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor12_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor12_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572768",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor13",
+      "@type": "Donor",
+      "label": "TWCM-11-192",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 63,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor13_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor13_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572786",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor14",
+      "@type": "Donor",
+      "label": "TWCM-11-256",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 39,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor14_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor14_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572787",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor15",
+      "@type": "Donor",
+      "label": "TWCM-11-264",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 71,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor15_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor15_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572769",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor16",
+      "@type": "Donor",
+      "label": "TWCM-13-1",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 61,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor16_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor16_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572788",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor17",
+      "@type": "Donor",
+      "label": "TWCM-13-17",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 60,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor17_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor17_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572798",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor18",
+      "@type": "Donor",
+      "label": "TWCM-13-36",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 73,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor18_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor18_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572770",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor19",
+      "@type": "Donor",
+      "label": "TWCM-13-47",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 40,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor19_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor19_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572799",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor20",
+      "@type": "Donor",
+      "label": "TWCM-13-80",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 46,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor20_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor20_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572789",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor21",
+      "@type": "Donor",
+      "label": "TWCM-13-84",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 56,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor21_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor21_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572796",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor22",
+      "@type": "Donor",
+      "label": "TWCM-13-96",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 20,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor22_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor22_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572771",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor23",
+      "@type": "Donor",
+      "label": "TWCM-13-101",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 60,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor23_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor23_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572782",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor24",
+      "@type": "Donor",
+      "label": "TWCM-13-102",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 41,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor24_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor24_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572800",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor25",
+      "@type": "Donor",
+      "label": "TWCM-13-104",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 48,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor25_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor25_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572790",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor26",
+      "@type": "Donor",
+      "label": "TWCM-13-132",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 48,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor26_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor26_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572797",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor27",
+      "@type": "Donor",
+      "label": "TWCM-13-152",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 35,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor27_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor27_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572791",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor28",
+      "@type": "Donor",
+      "label": "TWCM-13-168",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 66,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor28_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor28_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572791",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor29",
+      "@type": "Donor",
+      "label": "TWCM-13-181",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 8,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor29_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor29_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572791",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor30",
+      "@type": "Donor",
+      "label": "TWCM-13-192",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 21,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor30_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor30_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572773",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor31",
+      "@type": "Donor",
+      "label": "TWCM-13-198",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 11,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor31_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor31_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572774",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor32",
+      "@type": "Donor",
+      "label": "TWCM-13-208",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 51,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor32_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor32_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572775",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor33",
+      "@type": "Donor",
+      "label": "TWCM-13-235",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 11,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor33_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor33_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572776",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor34",
+      "@type": "Donor",
+      "label": "TWCM-13-285",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 32,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor34_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor34_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572801",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor35",
+      "@type": "Donor",
+      "label": "TWCM-14-173",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 63,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor35_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor35_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572793",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor36",
+      "@type": "Donor",
+      "label": "TWCM-LVAD2",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 64,
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor36_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/9ac494e7-cc89-40c8-ab45-c88a1d80cb3b_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 29,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor36_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572777",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor37",
+      "@type": "Donor",
+      "label": "TWCM-LVAD3",
+      "description": "Entered 3/15/2026, Junedh Amrute, Junedh Amrute",
+      "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+      "consortium_name": "Azimuth",
+      "provider_name": "Junedh Amrute",
+      "provider_uuid": "6D31B709-310B-4309-96F5-87837027502C",
+      "age": 61,
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor37_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+          "description": "20 x 20 x 20 millimeter, 20 millimeter",
+          "link": "https://www.nature.com/articles/s44161-022-00028-6#citeas",
+          "section_count": 0,
+          "section_size": 20,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3",
+            "@type": "SpatialEntity",
+            "creator": "Junedh Amrute",
+            "creator_first_name": "Junedh",
+            "creator_last_name": "Amrute",
+            "creator_orcid": "https://orcid.org/0000-0002-6851-0168",
+            "creation_date": "2026-04-16",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002084"
+            ],
+            "x_dimension": 20,
+            "y_dimension": 20,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/75ecd311-6051-4af9-8add-b5e702956ef3_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-16",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 95,
+              "y_translation": 17,
+              "z_translation": 53,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1038/s44161-022-00028-6#Donor37_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/15/2026, Junedh Amrute, Junedh Amrute",
+              "description": "Data/Assay Types: RNAseq, ",
+              "link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572778",
+              "technology": "RNAseq",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

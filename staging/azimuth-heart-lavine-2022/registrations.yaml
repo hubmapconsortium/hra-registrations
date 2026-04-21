@@ -1,0 +1,306 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: Azimuth
+  provider_name: Junedh Amrute
+  provider_uuid: 6D31B709-310B-4309-96F5-87837027502C
+  defaults:
+    id: https://doi.org/10.1038/s44161-022-00028-6
+    thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
+    link: https://www.nature.com/articles/s44161-022-00028-6#citeas
+  donors:
+    - sex: Male
+      label: H_ZC-11-292
+      age: 68
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572764
+            technology: RNAseq
+    - sex: Male
+      label: H_ZC-LVAD
+      age: 58
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572765
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-10-5
+      age: 53
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572794
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-10-68
+      age: 62
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572783
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-11-41
+      age: 60
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572780
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-11-42
+      age: 48
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572781
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-11-74
+      age: 65
+      samples:
+      - rui_location: Male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572784
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-11-78
+      age: 27
+      samples:
+      - rui_location: Male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572784
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-11-82
+      age: 44
+      samples:
+      - rui_location: Male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572785
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-11-93
+      age: 9
+      samples:
+      - rui_location: Male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572767
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-11-103
+      age: 46
+      samples:
+      - rui_location: Male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572795
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-11-104
+      age: 75
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572768
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-11-192
+      age: 63
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572786
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-11-256
+      age: 39
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572787
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-11-264
+      age: 71
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572769
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-1
+      age: 61
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572788
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-17
+      age: 60
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572798
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-36
+      age: 73
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572770
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-47
+      age: 40
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572799
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-80
+      age: 46
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572789
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-84
+      age: 56
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572796
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-96
+      age: 20
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572771
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-101
+      age: 60
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572782
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-102
+      age: 41
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572800
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-104
+      age: 48
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572790
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-132
+      age: 48
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572797
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-152
+      age: 35
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572791
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-168
+      age: 66
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572791
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-181
+      age: 8
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572791
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-192
+      age: 21
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572773
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-198
+      age: 11
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572774
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-13-208
+      age: 51
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572775
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-235
+      age: 11
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572776
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-13-285
+      age: 32
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572801
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-14-173
+      age: 63
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572793
+            technology: RNAseq
+    - sex: Female
+      label: TWCM-LVAD2
+      age: 64
+      samples:
+      - rui_location: female_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572777
+            technology: RNAseq
+    - sex: Male
+      label: TWCM-LVAD3
+      age: 61
+      samples:
+      - rui_location: male_heart.json
+        datasets:
+          - link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5572778
+            technology: RNAseq
