@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- imports:
+  - ./diseased/htan-colon-snyder-2024
+  - ./diseased/htan-intestine-sorger-2023
+  - ./diseased/htan-skin-sorger-2024
+  - ./diseased/hubmap-bone_marrow-tan-2024
+  - ./diseased/kpmp-diseased

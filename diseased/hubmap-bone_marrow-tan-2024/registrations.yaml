@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HuBMAP
+  provider_name: CHOP
+  provider_uuid: 9384E3A0-DED3-4A72-B5BF-44530D69D555
+  defaults:
+    id: https://doi.org/10.1016/j.cell.2024.04.013
+    thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
+    link: https://www.sciencedirect.com/science/article/pii/S0092867424004082?via%3Dihub
+  donors:
+    - sex: Female
+      age: 68
+      samples:
+      - rui_location: hip-data-female.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM51_AML1_183
+          technology: CODEX
+    - sex: Female
+      age: 68
+      samples:
+      - rui_location: hip-data-female.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM46_AML1_382
+          technology: CODEX
+    - sex: Male
+      age: 74
+      samples:
+      - rui_location: hip-data-male.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM44_AML2_191
+          technology: CODEX
+    - sex: Male
+      age: 73
+      samples:
+      - rui_location: hip-data-male.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM52_AML3_1329
+          technology: CODEX
+    - sex: Male
+      age: 73
+      samples:
+      - rui_location: hip-data-male.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM54_AML3_1443
+          technology: CODEX
+    - sex: Male
+      age: 62
+      samples:
+      - rui_location: hip-data-male.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM49_NSM2_1086
+          technology: CODEX
+    - sex: Female
+      age: 46
+      samples:
+      - rui_location: hip-data-female.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM48_NSM1_1720
+          technology: CODEX
+    - sex: Male
+      age: 38
+      samples:
+      - rui_location: hip-data-male.json
+        datasets:
+        - id: https://doi.org/10.1016/j.cell.2024.04.013#SB67_NBM47_NSM3_1996
+          technology: CODEX
