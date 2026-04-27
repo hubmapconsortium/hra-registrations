@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- imports: 
+  - ./hoa-heart-walsh-2025
+  - ./hca-heart-teichmann-2020
