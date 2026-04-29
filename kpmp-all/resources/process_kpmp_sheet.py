@@ -123,6 +123,7 @@ def build_donors(rows: list[dict]) -> tuple[dict, int]:
         lambda: {
             "sex": None,
             "age": None,
+            "donor_label": None,
             "axis": None,
             "side": None,
             "datasets": [],
@@ -137,6 +138,7 @@ def build_donors(rows: list[dict]) -> tuple[dict, int]:
         d = donors[did]
         d["sex"] = r["Donor Sex"]
         d["age"] = r["Donor Age"]
+        d["donor_label"] = r["Donor Label"]
         d["axis"] = r["Sample Location"]    # Upper pole / Middle / Lower pole
         d["side"] = r["Sample Laterality"]  # Left / Right
 
@@ -188,9 +190,11 @@ def emit_yaml(donors: dict, out_path: Path) -> tuple[int, int]:
         fname = rui_filename(d["sex"], d["axis"], d["side"])
         donor_id = f"https://atlas.kpmp.org/Donor#{donor_idx}"
         sample_id = f"{donor_id}_Block#1"
+        # Label combines: Donor ID (from xlsx) + Donor Label + Donor Age
+        donor_label = f"{did}, {d['donor_label']}, {d['age']}"
         lines += [
             f"  - id: {donor_id}",
-            f"    label: HRT {d['age']}",
+            f"    label: {donor_label}",
             f"    link: https://atlas.kpmp.org/#{did}",
             f"    sex: {d['sex']}",
             "    samples:",
