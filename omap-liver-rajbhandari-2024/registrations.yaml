@@ -14,11 +14,11 @@
       samples:
       - rui_location: liver-omap.json
         id: https://entity.api.hubmapconsortium.org/entities/f7e4cbe847ced8c439321df5d9285db0
-      sections:
-       - link: https://portal.hubmapconsortium.org/browse/sample/4e0587f8d65619b8cb539600dddc6df8
-         id: https://entity.api.hubmapconsortium.org/entities/4e0587f8d65619b8cb539600dddc6df8
-         datasets:
-          - id: https://entity.api.hubmapconsortium.org/entities/ab181e8ef53fcf893acb838c893befbf
-            link: https://portal.hubmapconsortium.org/browse/dataset/ab181e8ef53fcf893acb838c893befbf
-          - id: https://entity.api.hubmapconsortium.org/entities/160dd6240d67b221711
-            link: https://portal.hubmapconsortium.org/browse/dataset/5528d177fbaec160dd6240d67b221711
+        sections:
+        - link: https://portal.hubmapconsortium.org/browse/sample/4e0587f8d65619b8cb539600dddc6df8
+          id: https://entity.api.hubmapconsortium.org/entities/4e0587f8d65619b8cb539600dddc6df8
+          datasets:
+            - id: https://entity.api.hubmapconsortium.org/entities/ab181e8ef53fcf893acb838c893befbf
+              link: https://portal.hubmapconsortium.org/browse/dataset/ab181e8ef53fcf893acb838c893befbf
+            - id: https://entity.api.hubmapconsortium.org/entities/160dd6240d67b221711
+              link: https://portal.hubmapconsortium.org/browse/dataset/5528d177fbaec160dd6240d67b221711

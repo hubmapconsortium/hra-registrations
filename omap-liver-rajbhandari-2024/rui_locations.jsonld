@@ -20,7 +20,7 @@
           "label": "Registered 8/8/2025, Presha Rajbhandari, Columbia University",
           "description": "10 x 10 x 10 millimeter, 10 millimeter",
           "link": "https://portal.hubmapconsortium.org/browse/donor/34a06f973f6f62344f1dad922589b1b5",
-          "section_count": 0,
+          "section_count": 1,
           "section_size": 10,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -59,7 +59,36 @@
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary"
             }
-          }
+          },
+          "sections": [
+            {
+              "@id": "https://entity.api.hubmapconsortium.org/entities/4e0587f8d65619b8cb539600dddc6df8",
+              "@type": "Sample",
+              "sample_type": "Tissue Section",
+              "label": "Registered 8/8/2025, Presha Rajbhandari, Columbia University",
+              "description": "10 x 10 x 10 millimeter, 10 millimeter",
+              "link": "https://portal.hubmapconsortium.org/browse/sample/4e0587f8d65619b8cb539600dddc6df8",
+              "section_size": 10,
+              "datasets": [
+                {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/ab181e8ef53fcf893acb838c893befbf",
+                  "@type": "Dataset",
+                  "label": "Registered 8/8/2025, Presha Rajbhandari, Columbia University",
+                  "description": "Data/Assay Types: undefined, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/ab181e8ef53fcf893acb838c893befbf",
+                  "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+                },
+                {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/160dd6240d67b221711",
+                  "@type": "Dataset",
+                  "label": "Registered 8/8/2025, Presha Rajbhandari, Columbia University",
+                  "description": "Data/Assay Types: undefined, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/5528d177fbaec160dd6240d67b221711",
+                  "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
