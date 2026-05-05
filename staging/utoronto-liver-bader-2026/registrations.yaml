@@ -3,8 +3,8 @@
 # Cellxgene: https://cellxgene.cziscience.com/collections/ff69f0ee-fef6-4895-9f48-6c64a68c8289
 
 - consortium_name: University of Toronto
-  provider_name: <Provider Name>
-  provider_uuid: <uuid>
+  provider_name: Rachel D. Edgar
+  provider_uuid: 0000-0001-5507-6078
   defaults:
     id: https://doi.org/10.1097/HC9.0000000000000813
     publication: https://doi.org/10.1097/HC9.0000000000000813
@@ -13,14 +13,55 @@
     thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
     link: https://doi.org/10.1097/HC9.0000000000000813
   donors:
-    - sex: Male
+    - id: https://doi.org/10.1097/HC9.0000000000000813#Pediatric_C85
+      sex: Male
+      # age: 7-12
+      # status: normal
+      samples:
+      - rui_location: C85_registration-data.json
+        datasets:
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/ff69f0ee-fef6-4895-9f48-6c64a68c8289#C85$caudate%20lobe%20of%20liver
+            technology: Xenium
+    - id: https://doi.org/10.1097/HC9.0000000000000813#Adult_C101
+      sex: Male
+      age: 43
+      # status: normal
       samples:
       - rui_location: C101_registration-data.json
-      - rui_location: C85_registration-data.json
-    - sex: Female
+        datasets:
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/ff69f0ee-fef6-4895-9f48-6c64a68c8289#C85$caudate%20lobe%20of%20liver
+            technology: Xenium
+    - id: https://doi.org/10.1097/HC9.0000000000000813#Adult_C94
+      sex: Female
+      age: 38
+      # status: contained a bile duct hamartoma
+      samples:
+      - id: https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_2
+        rui_location: C94_2_registration-data.json
+        datasets:
+          - technology: Xenium
+      - id: https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_3
+        rui_location: C94_3_registration-data.json
+        datasets:
+          - technology: Xenium
+      - id: https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_4
+        rui_location: C94_4_registration-data.json
+        datasets:
+          - technology: Xenium
+    - id: https://doi.org/10.1097/HC9.0000000000000813#Adult_C95
+      sex: Female
+      age: 47
+      # status: normal
+      samples:
+      - rui_location: C95_registration-data.json
+        datasets:
+          - technology: Xenium
+    - id: https://doi.org/10.1097/HC9.0000000000000813#Adult_C105
+      sex: Female
+      # age: 7-12
+      # status: normal
       samples:
       - rui_location: C105_registration-data.json
-      - rui_location: C94_2_registration-data.json
-      - rui_location: C94_3_registration-data.json
-      - rui_location: C94_4_registration-data.json
-      - rui_location: C95_registration-data.json
+        datasets:
+          - id: https://api.cellxgene.cziscience.com/dp/v1/collections/ff69f0ee-fef6-4895-9f48-6c64a68c8289#C105$right%20lobe%20of%20liver
+            technology: Xenium

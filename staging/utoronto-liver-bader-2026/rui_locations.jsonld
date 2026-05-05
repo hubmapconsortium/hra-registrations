@@ -2,68 +2,21 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor1",
+      "@id": "https://doi.org/10.1097/HC9.0000000000000813#Pediatric_C85",
       "@type": "Donor",
       "label": "Male",
-      "description": "Entered 4/3/2026, Rachel D Edgar, <Provider Name>",
+      "description": "Entered 4/3/2026, Rachel D Edgar, Rachel D. Edgar",
       "link": "https://doi.org/10.1097/HC9.0000000000000813",
       "consortium_name": "University of Toronto",
-      "provider_name": "<Provider Name>",
-      "provider_uuid": "<uuid>",
+      "provider_name": "Rachel D. Edgar",
+      "provider_uuid": "0000-0001-5507-6078",
       "sex": "Male",
       "samples": [
         {
-          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor1_TissueBlock1",
+          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Pediatric_C85_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 4/3/2026, Rachel D Edgar, <Provider Name>",
-          "description": "6.009 x 6.861 x 0.005 millimeter, 0.005 millimeter",
-          "link": "https://doi.org/10.1097/HC9.0000000000000813",
-          "section_count": 0,
-          "section_size": 0.005,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/3afdd3e5-2649-4edf-8831-6c95eceb4578",
-            "@type": "SpatialEntity",
-            "creator": "Rachel D Edgar",
-            "creator_first_name": "Rachel",
-            "creator_last_name": "Edgar",
-            "creator_orcid": "https://orcid.org/0000-0001-5507-6078",
-            "creation_date": "2026-05-04",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001117"
-            ],
-            "x_dimension": 6.009,
-            "y_dimension": 6.861,
-            "z_dimension": 0.005,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/3afdd3e5-2649-4edf-8831-6c95eceb4578_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2026-05-04",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": 0,
-              "y_rotation": 0,
-              "z_rotation": 0,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 130.058,
-              "y_translation": 97.005,
-              "z_translation": 68,
-              "translation_units": "millimeter",
-              "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary"
-            }
-          }
-        },
-        {
-          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor1_TissueBlock2",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 4/3/2026, Rachel D Edgar, <Provider Name>",
+          "label": "Registered 4/3/2026, Rachel D Edgar, Rachel D. Edgar",
           "description": "3.799 x 6.493 x 0.005 millimeter, 0.005 millimeter",
           "link": "https://doi.org/10.1097/HC9.0000000000000813",
           "section_count": 0,
@@ -104,51 +57,66 @@
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/ff69f0ee-fef6-4895-9f48-6c64a68c8289#C85$caudate%20lobe%20of%20liver",
+              "@type": "Dataset",
+              "label": "Registered 4/3/2026, Rachel D Edgar, Rachel D. Edgar",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publication": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publicationTitle": "Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures",
+              "publicationLeadAuthor": "Rachel D. Edgar",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     },
     {
-      "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor2",
+      "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C101",
       "@type": "Donor",
-      "label": "Female",
-      "description": "Entered 3/29/2026, Rachel D Edgar, <Provider Name>",
+      "label": "Male, Age 43",
+      "description": "Entered 4/3/2026, Rachel D Edgar, Rachel D. Edgar",
       "link": "https://doi.org/10.1097/HC9.0000000000000813",
       "consortium_name": "University of Toronto",
-      "provider_name": "<Provider Name>",
-      "provider_uuid": "<uuid>",
-      "sex": "Female",
+      "provider_name": "Rachel D. Edgar",
+      "provider_uuid": "0000-0001-5507-6078",
+      "age": 43,
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor2_TissueBlock1",
+          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C101_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/29/2026, Rachel D Edgar, <Provider Name>",
-          "description": "4.977 x 5.845 x 0.005 millimeter, 0.005 millimeter",
+          "label": "Registered 4/3/2026, Rachel D Edgar, Rachel D. Edgar",
+          "description": "6.009 x 6.861 x 0.005 millimeter, 0.005 millimeter",
           "link": "https://doi.org/10.1097/HC9.0000000000000813",
           "section_count": 0,
           "section_size": 0.005,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/af8edbc9-05a7-40fa-8d98-94b4d42111ce",
+            "@id": "http://purl.org/ccf/1.5/3afdd3e5-2649-4edf-8831-6c95eceb4578",
             "@type": "SpatialEntity",
             "creator": "Rachel D Edgar",
             "creator_first_name": "Rachel",
             "creator_last_name": "Edgar",
             "creator_orcid": "https://orcid.org/0000-0001-5507-6078",
-            "creation_date": "2026-04-30",
+            "creation_date": "2026-05-04",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001114"
+              "http://purl.obolibrary.org/obo/UBERON_0001117"
             ],
-            "x_dimension": 4.977,
-            "y_dimension": 5.845,
+            "x_dimension": 6.009,
+            "y_dimension": 6.861,
             "z_dimension": 0.005,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/af8edbc9-05a7-40fa-8d98-94b4d42111ce_placement",
+              "@id": "http://purl.org/ccf/1.5/3afdd3e5-2649-4edf-8831-6c95eceb4578_placement",
               "@type": "SpatialPlacement",
-              "placement_date": "2026-04-30",
+              "placement_date": "2026-05-04",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
@@ -158,19 +126,47 @@
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 61.187,
-              "y_translation": 83.755,
+              "x_translation": 130.058,
+              "y_translation": 97.005,
               "z_translation": 68,
               "translation_units": "millimeter",
-              "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary"
+              "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary"
             }
-          }
-        },
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/ff69f0ee-fef6-4895-9f48-6c64a68c8289#C85$caudate%20lobe%20of%20liver",
+              "@type": "Dataset",
+              "label": "Registered 4/3/2026, Rachel D Edgar, Rachel D. Edgar",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publication": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publicationTitle": "Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures",
+              "publicationLeadAuthor": "Rachel D. Edgar",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C94",
+      "@type": "Donor",
+      "label": "Female, Age 38",
+      "description": "Entered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+      "link": "https://doi.org/10.1097/HC9.0000000000000813",
+      "consortium_name": "University of Toronto",
+      "provider_name": "Rachel D. Edgar",
+      "provider_uuid": "0000-0001-5507-6078",
+      "age": 38,
+      "sex": "Female",
+      "samples": [
         {
-          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor2_TissueBlock2",
+          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/29/2026, Rachel D Edgar, <Provider Name>",
+          "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
           "description": "4.293 x 5.144 x 0.005 millimeter, 0.005 millimeter",
           "link": "https://doi.org/10.1097/HC9.0000000000000813",
           "section_count": 0,
@@ -211,13 +207,27 @@
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_2_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publication": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publicationTitle": "Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures",
+              "publicationLeadAuthor": "Rachel D. Edgar",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor2_TissueBlock3",
+          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/29/2026, Rachel D Edgar, <Provider Name>",
+          "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
           "description": "5.025 x 5.262 x 0.005 millimeter, 0.005 millimeter",
           "link": "https://doi.org/10.1097/HC9.0000000000000813",
           "section_count": 0,
@@ -258,13 +268,27 @@
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_3_TissueBlock2_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publication": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publicationTitle": "Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures",
+              "publicationLeadAuthor": "Rachel D. Edgar",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
         },
         {
-          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor2_TissueBlock4",
+          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_4",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/29/2026, Rachel D Edgar, <Provider Name>",
+          "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
           "description": "4.707 x 6.237 x 0.005 millimeter, 0.005 millimeter",
           "link": "https://doi.org/10.1097/HC9.0000000000000813",
           "section_count": 0,
@@ -305,13 +329,41 @@
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary"
             }
-          }
-        },
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C94_4_TissueBlock3_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publication": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publicationTitle": "Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures",
+              "publicationLeadAuthor": "Rachel D. Edgar",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C95",
+      "@type": "Donor",
+      "label": "Female, Age 47",
+      "description": "Entered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+      "link": "https://doi.org/10.1097/HC9.0000000000000813",
+      "consortium_name": "University of Toronto",
+      "provider_name": "Rachel D. Edgar",
+      "provider_uuid": "0000-0001-5507-6078",
+      "age": 47,
+      "sex": "Female",
+      "samples": [
         {
-          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Donor2_TissueBlock5",
+          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C95_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 3/29/2026, Rachel D Edgar, <Provider Name>",
+          "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
           "description": "4.991 x 9.243 x 0.005 millimeter, 0.005 millimeter",
           "link": "https://doi.org/10.1097/HC9.0000000000000813",
           "section_count": 0,
@@ -352,7 +404,95 @@
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary"
             }
-          }
+          },
+          "datasets": [
+            {
+              "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C95_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publication": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publicationTitle": "Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures",
+              "publicationLeadAuthor": "Rachel D. Edgar",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C105",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+      "link": "https://doi.org/10.1097/HC9.0000000000000813",
+      "consortium_name": "University of Toronto",
+      "provider_name": "Rachel D. Edgar",
+      "provider_uuid": "0000-0001-5507-6078",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1097/HC9.0000000000000813#Adult_C105_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+          "description": "4.977 x 5.845 x 0.005 millimeter, 0.005 millimeter",
+          "link": "https://doi.org/10.1097/HC9.0000000000000813",
+          "section_count": 0,
+          "section_size": 0.005,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/af8edbc9-05a7-40fa-8d98-94b4d42111ce",
+            "@type": "SpatialEntity",
+            "creator": "Rachel D Edgar",
+            "creator_first_name": "Rachel",
+            "creator_last_name": "Edgar",
+            "creator_orcid": "https://orcid.org/0000-0001-5507-6078",
+            "creation_date": "2026-04-30",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001114"
+            ],
+            "x_dimension": 4.977,
+            "y_dimension": 5.845,
+            "z_dimension": 0.005,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/af8edbc9-05a7-40fa-8d98-94b4d42111ce_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-04-30",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 61.187,
+              "y_translation": 83.755,
+              "z_translation": 68,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/ff69f0ee-fef6-4895-9f48-6c64a68c8289#C105$right%20lobe%20of%20liver",
+              "@type": "Dataset",
+              "label": "Registered 3/29/2026, Rachel D Edgar, Rachel D. Edgar",
+              "description": "Data/Assay Types: Xenium, ",
+              "link": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publication": "https://doi.org/10.1097/HC9.0000000000000813",
+              "publicationTitle": "Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures",
+              "publicationLeadAuthor": "Rachel D. Edgar",
+              "technology": "Xenium",
+              "thumbnail": "https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg"
+            }
+          ]
         }
       ]
     }
