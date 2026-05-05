@@ -1,0 +1,43 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/3afdd3e5-2649-4edf-8831-6c95eceb4578",
+  "@type": "SpatialEntity",
+  "creator": "Rachel D Edgar",
+  "creator_first_name": "Rachel",
+  "creator_last_name": "Edgar",
+  "creator_middle_name": "D",
+  "creator_email": "redgar598@gmail.com",
+  "creator_orcid": "https://orcid.org/0000-0001-5507-6078",
+  "creation_date": "2026-05-04",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0001117"
+  ],
+  "slice_thickness": 5,
+  "slice_count": 1,
+  "x_dimension": 6.009,
+  "y_dimension": 6.861,
+  "z_dimension": 0.005,
+  "dimension_units": "millimeter",
+  "publication_doi": "https://doi.org/10.1097/hc9.0000000000000813",
+  "consortium": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/3afdd3e5-2649-4edf-8831-6c95eceb4578_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+    "placement_date": "2026-05-04",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 0,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 130.058,
+    "y_translation": 97.005,
+    "z_translation": 68,
+    "translation_units": "millimeter"
+  }
+}

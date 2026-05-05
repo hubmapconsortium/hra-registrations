@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: University of Toronto
+  provider_name: <Provider Name>
+  provider_uuid: <uuid>
+  defaults:
+    id: https://doi.org/10.1097/HC9.0000000000000813
+    publication: https://doi.org/10.1097/HC9.0000000000000813
+    publicationTitle: Single-cell atlas of human pediatric liver reveals age-related hepatic gene signatures
+    publicationLeadAuthor: Rachel D. Edgar
+    thumbnail: https://cdn.humanatlas.io/ui/ccf-eui/assets/icons/ico-unknown.svg
+    link: https://doi.org/10.1097/HC9.0000000000000813
+  donors:
+    - sex: Male
+      samples:
+      - rui_location: C101_registration-data.json
+      - rui_location: C85_registration-data.json
+    - sex: Female
+      samples:
+      - rui_location: C105_registration-data.json
+      - rui_location: C94_2_registration-data.json
+      - rui_location: C94_3_registration-data.json
+      - rui_location: C94_4_registration-data.json
+      - rui_location: C95_registration-data.json
