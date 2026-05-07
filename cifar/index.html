@@ -12,13 +12,13 @@
     <script src="wc.js" type="module"></script>
     <script>
       const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
-      fetch(`${basePath}rui_locations.jsonld#74398cff6378fca07d9061ac5f49ae49`)
+      fetch(`${basePath}rui_locations.jsonld#165e8456de8aac5abad488de5ff18f5c`)
         .then((r) => r.json())
         .then((ruiLocations) => {
           const eui = document.createElement('ccf-eui');
           eui.homeUrl = location.href;
           eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations)]);
-          eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097', 'http://purl.obolibrary.org/obo/UBERON_0000948' ];
+          eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097', 'http://purl.obolibrary.org/obo/UBERON_0000948', 'http://purl.obolibrary.org/obo/UBERON_0002107', 'http://purl.obolibrary.org/obo/UBERON_0002370' ];
           document.body.appendChild(eui);
         });
     </script>
