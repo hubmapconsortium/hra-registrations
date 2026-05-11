@@ -188,8 +188,8 @@ def emit_yaml(donors: dict, out_path: Path) -> tuple[int, int]:
     for donor_idx, did in enumerate(sorted(donors.keys(), key=nat_key), start=1):
         d = donors[did]
         fname = rui_filename(d["sex"], d["axis"], d["side"])
-        donor_id = f"https://atlas.kpmp.org/Donor#{donor_idx}"
-        sample_id = f"{donor_id}_Block#1"
+        donor_id = f"https://atlas.kpmp.org/#{did}_Donor1"
+        sample_id = f"{donor_id}_TissueBlock1"
         # Label combines: Donor ID (from xlsx) + Donor Label + Donor Age
         donor_label = f"{did}, {d['donor_label']}, {d['age']}"
         lines += [
@@ -206,7 +206,7 @@ def emit_yaml(donors: dict, out_path: Path) -> tuple[int, int]:
         ds_sorted = sorted(d["datasets"], key=lambda x: (x["technology"], x["link"]))
         for ds_idx, ds in enumerate(ds_sorted, start=1):
             n_datasets += 1
-            dataset_id = f"{sample_id}_Dataset#{ds_idx}"
+            dataset_id = f"{sample_id}_Dataset{ds_idx}"
             lines += [
                 f"      - id: {dataset_id}",
                 f"        link: {ds['link']}",
