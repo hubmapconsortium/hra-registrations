@@ -14,11 +14,11 @@
     "rotation_order": "XYZ",
     "rotation_units": "degree",
     "translation_units": "millimeter",
-    "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#4_placement",
+    "@id": "http://purl.org/ccf/1.5/01f84d18-ad05-4c1e-9cc1-0c28e1b3d842_placement",
     "placement_date": "2025-10-20",
-    "x_scaling": 1.0,
+    "x_scaling": 1,
     "y_scaling": 0.9999999999999999,
-    "z_scaling": 1.0,
+    "z_scaling": 1,
     "x_rotation": 99.82820158818781,
     "y_rotation": 58.77938761644698,
     "z_rotation": -105.06065779620765,
@@ -26,10 +26,11 @@
     "y_translation": 8.207042351925775,
     "z_translation": 18.97784131194472
   },
-  "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#4",
+  "@id": "http://purl.org/ccf/1.5/01f84d18-ad05-4c1e-9cc1-0c28e1b3d842",
   "label": "4",
   "creation_date": "2025-10-20",
   "x_dimension": 1.9273215765335596,
   "y_dimension": 2.8813268103379097,
-  "z_dimension": 17.932698551335847
+  "z_dimension": 17.932698551335847,
+  "sameAs": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#4"
 }
