@@ -1,0 +1,39 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@id": "http://purl.org/ccf/1.5/3ca0b6f2-1202-4d29-b91c-4b322d07cf6f",
+  "@type": "SpatialEntity",
+  "creator": "Kristin Ardlie",
+  "creator_first_name": "Kristin",
+  "creator_last_name": "Ardlie",
+  "creator_email": "",
+  "creator_orcid": "",
+  "creation_date": "2026-08-12",
+  "ccf_annotations": [
+    "http://purl.obolibrary.org/obo/UBERON_0006082"
+  ],
+  "x_dimension": 10,
+  "y_dimension": 10,
+  "z_dimension": 4,
+  "dimension_units": "millimeter",
+  "publication_doi": "",
+  "placement": {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/3ca0b6f2-1202-4d29-b91c-4b322d07cf6f_placement",
+    "@type": "SpatialPlacement",
+    "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+    "placement_date": "2026-08-12",
+    "x_scaling": 1,
+    "y_scaling": 1,
+    "z_scaling": 1,
+    "scaling_units": "ratio",
+    "x_rotation": 90,
+    "y_rotation": 0,
+    "z_rotation": 0,
+    "rotation_order": "XYZ",
+    "rotation_units": "degree",
+    "x_translation": 31,
+    "y_translation": 38,
+    "z_translation": 16,
+    "translation_units": "millimeter"
+  }
+}
