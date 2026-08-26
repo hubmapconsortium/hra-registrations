@@ -17,49 +17,101 @@
       rui_location: female-upper-right-pole.json
       datasets:
       - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset1
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=CODEX&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset2
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=640f9ddb-3875-43d2-a45d-958d50cf4062
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset3
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=a404e8db-c2bf-4546-9001-16b45cd80269
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset4
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=15eeb60c-ce63-41bb-a1ed-d50be3d3af4c
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset6
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=2b88669b-0f48-4a48-8b2c-66720a40ad23
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset7
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=4156ed60-8dea-4e6e-955d-b96191a55896
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset8
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=5347a07c-6bbd-4c73-85eb-b29760d6f80f
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset9
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=581dd202-8432-46ab-9000-9d2fcd36daca
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset10
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=c35edf3a-cc27-4601-a72c-a0c190b2e9d6
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset11
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=d0e9d90c-8eb1-4069-a9c4-bbbcd510e7c1
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset12
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Lipidomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Metabolomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset2
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset3
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Multimodal Imaging Mass Spectrometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
-        technology: MIMS
-        label: MIMS
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=61c14485-59c5-46ee-8f2a-7b7a1186a651
-        technology: MIMS
-        label: MIMS
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset5
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=7e1f1262-05f3-4735-8a43-39c6cb5cde53
-        technology: MIMS
-        label: MIMS
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset6
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset23
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-1&filters[1][type]=any
+        technology: Spatial Transcriptomics
+        label: Spatial Transcriptomics
+      - id: https://atlas.kpmp.org/#163-1_Donor1_TissueBlock1_Dataset24
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=49a86299-1ae3-47c9-a082-cbcc684c94ea
+        technology: Spatial Transcriptomics
+        label: Spatial Transcriptomics
   - id: https://atlas.kpmp.org/#163-2_Donor1
     label: 163-2, HRT, 70-79 Years
     link: https://atlas.kpmp.org/#163-2
@@ -69,21 +121,21 @@
       rui_location: female-upper-left-pole.json
       datasets:
       - id: https://atlas.kpmp.org/#163-2_Donor1_TissueBlock1_Dataset1
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-2&filters[1][type]=any
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Lipidomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-2&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-2_Donor1_TissueBlock1_Dataset2
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Multimodal Imaging Mass Spectrometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-2&filters[1][type]=any
-        technology: MIMS
-        label: MIMS
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-2&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-2_Donor1_TissueBlock1_Dataset3
         link: https://atlas.kpmp.org/spatial-viewer/view?image=99021f98-11a3-47e6-9d7b-113f51d5b274
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-2_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/spatial-viewer/view?image=9a8b6c84-90f5-481f-8301-5e07ae3747c1
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-2_Donor1_TissueBlock1_Dataset5
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-2&filters[1][type]=any
         technology: OTHER
@@ -285,21 +337,21 @@
         technology: Histology
         label: Histology
       - id: https://atlas.kpmp.org/#163-5_Donor1_TissueBlock1_Dataset7
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-5&filters[1][type]=any
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Lipidomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-5&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-5_Donor1_TissueBlock1_Dataset8
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Multimodal Imaging Mass Spectrometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-5&filters[1][type]=any
-        technology: MIMS
-        label: MIMS
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-5&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-5_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=52cf8cb3-9c54-4c8b-abf0-2e291ffb2944
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-5_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=eef59e6d-8c55-4904-8b95-1fd7d3190a95
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-5_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-5&filters[1][type]=any
         technology: OTHER
@@ -349,17 +401,17 @@
       rui_location: female-lower-left-pole.json
       datasets:
       - id: https://atlas.kpmp.org/#163-6_Donor1_TissueBlock1_Dataset1
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Multimodal Imaging Mass Spectrometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-6&filters[1][type]=any
-        technology: MIMS
-        label: MIMS
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Lipidomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-6&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-6_Donor1_TissueBlock1_Dataset2
         link: https://atlas.kpmp.org/spatial-viewer/view?image=86d9ed44-533a-4dff-8e1b-3ac820daafe0
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-6_Donor1_TissueBlock1_Dataset3
         link: https://atlas.kpmp.org/spatial-viewer/view?image=cf6ed6bf-5e4b-4fda-8b05-5bbe5bd74f9a
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#163-6_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=163-6&filters[1][type]=any
         technology: OTHER
@@ -445,122 +497,126 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset2
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=c501b603-0d65-419e-ad5c-f5ef9da18e30
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=87981aeb-c0b3-4634-b6a3-6129e8eaa073
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset3
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=c501b603-0d65-419e-ad5c-f5ef9da18e30
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset5
         link: https://atlas.kpmp.org/spatial-viewer/view?image=51b2f19c-8f85-4c00-bfcf-7bf034715373
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset5
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/spatial-viewer/view?image=53dedc78-cd04-4157-8a28-eddf64aa2d4f
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=97b4a3fe-4ee9-4aaf-ab79-19433705a824
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=ab90baf6-11cc-4c1f-be1a-6a8f904032a9
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=003fffeb-6459-4669-ae3a-38a12cf27e23
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=06633bba-e109-4903-84c4-89372c8ec9ec
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=5b261748-1664-437e-adc0-0398ea4404f4
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=a92cc765-3f99-4fb8-8576-2d7e46e3c134
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0f478f82-c5be-45ca-8aa8-998d314b6a85
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=1c6c3b37-67cf-4533-92c8-921c43a913fd
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=8c9027b0-0901-4dc5-a615-788904290a88
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/spatial-viewer/view?image=999baaa7-426a-4a2a-b1d8-40476730f897
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=b8579a06-93c9-4efd-99be-2fa9999525d8
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=bc4ef125-6e75-48d6-9c01-50da1083b5c9
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c1e78caf-7350-4462-b7e5-ce7b8222f3fe
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Metabolomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset30
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset31
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-1&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset31
+      - id: https://atlas.kpmp.org/#164-1_Donor1_TissueBlock1_Dataset32
         link: https://atlas.kpmp.org/spatial-viewer/view?image=bec7163e-989b-4390-b24b-dd0c5b7819d5
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -577,7 +633,7 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-3_Donor1_TissueBlock1_Dataset2
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=1284b631-2c46-4a45-908e-552904e567aa
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=9912c401-3482-47a8-83f5-18d8acde517d
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-3_Donor1_TissueBlock1_Dataset3
@@ -669,114 +725,118 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset3
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=4dc7f429-3142-4f5c-8d6c-d6663ead531c
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset5
         link: https://atlas.kpmp.org/spatial-viewer/view?image=948083bb-6e61-46ff-925d-e84c9a9c6fa5
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset5
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/spatial-viewer/view?image=a31d0861-0054-42e3-b4c9-801ad528fb1c
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f1d551e5-ea27-4d7c-9614-70fa61a2d749
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=2825c5cf-9256-4952-a380-a5a37a76bc2f
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=8b781a15-34b1-44cf-8f72-0c896d66f2b1
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=dacce739-b77b-42b3-81d4-9f9f156f6522
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e480eb6b-0a1a-4dc1-a0a7-cbd5d9ee20aa
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/spatial-viewer/view?image=09038d95-759f-49c7-bd32-1fe97571f1bd
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0b618244-b4f5-47d5-b457-7c7a0679e853
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4ccbdd1d-55f6-4c48-83bb-eea05b1fd25b
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=6773c64a-b26e-4b29-ac84-dbb33eb6c90c
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/spatial-viewer/view?image=7dc6b6b6-6c0f-4193-a60c-f7ff38c0e535
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c10fd7a4-a9ec-44fa-9f23-c76f4882d2ce
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fce336f6-5aef-469c-a1c5-2f438a0de511
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset29
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset30
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-5&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-5_Donor1_TissueBlock1_Dataset31
         link: https://atlas.kpmp.org/spatial-viewer/view?image=5951699c-a8b5-47a6-9616-06d208630354
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -797,130 +857,138 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset3
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=f26c8ac3-aa0b-451d-b1cc-4976c722a11d
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset5
         link: https://atlas.kpmp.org/spatial-viewer/view?image=3b51260c-7f7e-49ce-8b25-f0e827f3f02d
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset5
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/spatial-viewer/view?image=87851737-2420-4ab5-86e4-abb7a5cb54b3
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=caff4705-5dce-44a1-94b8-cee67c15b5ba
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e167330f-5a5c-4348-8d17-b32416ebc85e
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=49450f6b-3c58-47bb-92e6-8bd4fa07a7ef
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=82f4fca8-273c-40bb-a2d5-d550ed3237ae
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c432810e-2321-4785-9fc7-08efda5a02c2
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=d4d6f3ed-b4b4-4a48-9e3d-fe635c86ae5d
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4762e6f5-a135-4a6d-adb4-9b9956cad603
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=89c6d5d4-b550-4866-8f19-273ab81e35f1
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=8aad6ebb-cfed-4a39-8e97-5f11f7357f28
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/spatial-viewer/view?image=b0cb8305-e7a5-4c31-aa37-b44fa9ef4e13
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=b256591d-2bcb-496f-a4a9-63a3816443bc
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=d74f4e37-cb43-414f-aef7-340f1d128bfb
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fcae1f9b-7e84-4ffa-bccf-465913da5564
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset22
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Segmentation Masks & Pathomics Vectors&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset30
         link: https://atlas.kpmp.org/spatial-viewer/view?image=98dc53d0-fc09-4fcb-8346-92e672d8de89
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset31
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-cell RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset32
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset31
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset33
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset32
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset34
         link: https://cellxgene.cziscience.com/e/91f31e05-56d8-46fc-b408-d90c9228a81b.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset33
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset35
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-6&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset34
+      - id: https://atlas.kpmp.org/#164-6_Donor1_TissueBlock1_Dataset36
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0a63d663-ab7c-4ea8-8f20-f91c8de8fb5a
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -937,11 +1005,11 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-7_Donor1_TissueBlock1_Dataset2
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=e62c553a-ccb0-4559-bcd1-52506966a926
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=12580a9e-429d-41d7-898c-06310c5b7bc7
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-7_Donor1_TissueBlock1_Dataset3
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=fd6094c4-920b-4bc3-8c79-9983fdf214b1
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=e62c553a-ccb0-4559-bcd1-52506966a926
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-7_Donor1_TissueBlock1_Dataset4
@@ -1045,21 +1113,21 @@
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset8
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Metabolomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Lipidomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset9
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Multimodal Imaging Mass Spectrometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
-        technology: MIMS
-        label: MIMS
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Metabolomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=04f91e5c-1ca7-48e6-98a2-007b9bd63edf
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=94faaf60-8513-4b09-b948-26a29caf6d57
-        technology: MIMS
-        label: MIMS
+        technology: MALDI-IMS
+        label: MALDI-IMS
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
         technology: OTHER
@@ -1077,26 +1145,30 @@
         technology: OTHER
         label: OTHER
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset16
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Pathology Descriptor Scoring&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
         technology: OTHER
         label: OTHER
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset17
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
         technology: OTHER
         label: OTHER
       - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset18
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
+        technology: OTHER
+        label: OTHER
+      - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset20
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-8&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-8_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/spatial-viewer/view?image=166fc21b-4201-49ed-9b1c-780f7a741f22
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -1189,77 +1261,97 @@
         technology: ATAC-seq
         label: ATAC-seq
       - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset3
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=CODEX&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset4
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=2bb3ed24-d427-4484-b828-5fe72988e51f
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=37ceb671-657c-4572-94ea-717957972e95
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=71e469ef-7631-40fc-b11d-14273aa22bea
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset5
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=ba0538a7-01f6-47a9-ad80-0d6e9ae73c0e
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e8248ede-0dc2-4907-b0c8-ea320fd1d71c
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=51dd1629-02fa-453e-82e2-ab7720dfd97c
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=8f53ebc6-8dc3-4d05-96ae-2cd35d567f39
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=b67dedec-13d2-4cdd-afe6-f8139b4d282f
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-cell RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset22
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset23
         link: https://cellxgene.cziscience.com/e/91f31e05-56d8-46fc-b408-d90c9228a81b.cxg/
         technology: RNAseq
         label: RNAseq
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset24
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-10&filters[1][type]=any
+        technology: Spatial Transcriptomics
+        label: Spatial Transcriptomics
+      - id: https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1_Dataset25
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=9688bc6b-45ce-4364-bd8d-c57e35dbf210
+        technology: Spatial Transcriptomics
+        label: Spatial Transcriptomics
   - id: https://atlas.kpmp.org/#164-11_Donor1
     label: 164-11, HRT, 50-59 Years
     link: https://atlas.kpmp.org/#164-11
@@ -1305,46 +1397,78 @@
         technology: Histology
         label: Histology
       - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset10
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset11
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=394823ae-712a-4b3e-9bb1-dddfc8b0b592
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset12
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=740c9f9a-7857-4e00-bdcd-e6c187fa3fd6
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset13
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=746a424d-3d26-4422-800b-621eb6b26a03
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset14
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=975f98c7-7058-4029-9255-27352c001a72
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset15
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=c46a6765-3501-4b94-849e-d81a56b0fed4
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset16
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=ed6eec98-7218-489f-86f7-99ddaed614dc
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset17
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=fc9a01b6-0986-4290-9d8d-073e2aed75bc
+        technology: Light Sheet
+        label: Light Sheet
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset26
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-11&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/spatial-viewer/view?image=8cd3579f-2e38-49e9-9023-c36384f3e255
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -1373,118 +1497,126 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=2169be0b-eeb9-4d78-ad3a-f98f70fdc8fa
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=023c5130-be9d-40c8-af32-8a095c26143b
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0710a791-8796-44dc-a4b5-ab927f6703c0
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4301f1d3-a40d-4c6d-8acf-09e0fdfad5ac
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=7c6db1ef-dd96-4862-9cc1-3f80b81358a7
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=143d3230-8b81-4884-9c71-1331ee605703
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4e367752-0052-485a-bc7c-73b0bcb72630
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c7cf7441-684b-4729-bd4a-ac4416029705
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=d4a47cb4-45bf-46ad-b4e9-26bb6bec3d3b
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fa934c1a-7f0a-4847-a2b4-059dd9493f84
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fb26fb51-16d3-4842-a633-b060945253b9
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fc0141a9-c1d5-4837-a426-3d061942d2aa
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Lipidomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Metabolomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset22
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Pathology Descriptor Scoring&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Segmentation Masks & Pathomics Vectors&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset30
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset31
         link: https://atlas.kpmp.org/spatial-viewer/view?image=7d256335-fbaf-498d-b989-9ccd93314922
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset32
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset31
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset33
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset32
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset34
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-12&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset33
+      - id: https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1_Dataset35
         link: https://atlas.kpmp.org/spatial-viewer/view?image=ec0e4f41-5932-49d2-81f7-18ef25e2d85d
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -1593,118 +1725,122 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset4
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=c98f893d-2ad3-4417-a115-dc01699f418a
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=03247212-2780-4f70-aa54-f07f9a8d2313
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=e0e0a14b-2016-460f-a491-58a3c150c52b
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=1fc2e55b-be81-467a-9fdc-650de6193aae
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=368a03ba-79b4-425a-8643-a450b799b4c8
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=54afd805-624c-4c6b-9f54-32fc33894ab2
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c4f94afe-b9f8-42a5-81a7-e2b71fe245ad
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=ffb69f84-3801-4090-ae2a-30b54d43237d
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/spatial-viewer/view?image=51f514b9-d2ee-452d-8e4e-57e93e6eb888
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=5d58203c-5ec2-4a5d-8978-9ab4cc264da9
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=6e2bfd67-595b-431a-be19-4478a04af3ff
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=9539b5d8-3c86-4f8c-a4c7-1d35bd882231
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/spatial-viewer/view?image=a9876c56-9c39-4ae2-a4f7-11c0c5a54c6d
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=d83082db-403c-4992-9c3f-7d9ec3938af7
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e953dbb7-c28e-4461-b547-3ea52b5524ee
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Metabolomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Segmentation Masks & Pathomics Vectors&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Urine Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/spatial-viewer/view?image=9a968901-f2ac-4155-80b8-a5abd327851c
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset30
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset31
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset31
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset32
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-14&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset32
+      - id: https://atlas.kpmp.org/#164-14_Donor1_TissueBlock1_Dataset33
         link: https://atlas.kpmp.org/spatial-viewer/view?image=ed2a7d04-7c52-4af7-9dd9-c9f63eb03a4a
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -1905,136 +2041,140 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset4
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=c85e5a76-3365-48e1-9dab-b6d66d6bfda7
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=06b972a4-d692-476f-b276-0b38ca8051ce
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=c85e5a76-3365-48e1-9dab-b6d66d6bfda7
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4666bc22-865a-4a83-a1dd-c69619620a4b
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=621a7e88-7b37-4f57-bc5d-187828e3e893
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=7f215fb3-1f22-4a40-8264-cc1fa0d1c3bb
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=ddcd0819-46ac-4c67-8e85-c33340a933d2
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=2c69c738-b7d6-4ee8-90ab-55c61f16f369
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4bc91b8a-64f6-4f47-9a01-e98b62010af0
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/spatial-viewer/view?image=6af79b90-2547-4434-bc11-04248f2b64c9
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=6d2160a6-601c-43f8-b2b0-4b0b12b6004c
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=8ef2b6c3-9072-46c4-96ea-6fd8c469a75a
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=9bfe0fae-ad96-4f19-8032-9953e74e5af3
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=1205af8d-0b1b-4e43-8288-55ff445cb430
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4c051749-68e3-45c4-b3f2-cacb76966c96
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/spatial-viewer/view?image=763a9d65-61fd-4893-89d4-1b719744d541
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/spatial-viewer/view?image=7f999704-6252-4e20-95a5-9c4d9262e84e
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/spatial-viewer/view?image=96f8cd61-4436-4cdf-87d6-cc5d7e14a8de
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/spatial-viewer/view?image=a1a8ddbe-98bf-42c4-adaa-d4f40c2df087
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/spatial-viewer/view?image=a551c9af-eb98-4ae0-96cb-842a84612f10
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset30
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Pathology Descriptor Scoring&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset31
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset31
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset32
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset32
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset33
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset33
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset34
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-17&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset34
+      - id: https://atlas.kpmp.org/#164-17_Donor1_TissueBlock1_Dataset35
         link: https://atlas.kpmp.org/spatial-viewer/view?image=209e7f1e-46bc-4d80-9a45-bf6f71b79f15
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
   - id: https://atlas.kpmp.org/#164-18_Donor1
-    label: 164-18, HRT, 30-39 Years
+    label: 164-18, HRT, 40-49 Years
     link: https://atlas.kpmp.org/#164-18
-    sex: Female
+    sex: Male
     samples:
     - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1
-      rui_location: female-mid-right.json
+      rui_location: male-mid-right.json
       datasets:
       - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset1
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=10x Multiome&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
@@ -2049,134 +2189,142 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset4
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=bcb45de1-70c4-4c8a-9b5c-999f90f972a0
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=4fcf835c-7f94-4887-b7d4-c006701927fc
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=6d25c472-4bdb-4483-80d8-82d786c42428
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0a3c338c-a2b8-40f4-883c-30c18219e305
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=14e5b146-cd73-490c-9152-413cd10ab960
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=2a22c0e8-3285-4ced-ab47-6254c54eae4a
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=554b5f78-18bd-458e-a3f9-79bd02075a37
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f304d1c2-5126-45c9-be3f-8a1a92cfaa4d
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fb9cd922-5bd8-4528-9dd6-c0ed7fc19d44
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0f4e0497-1981-49c8-ad76-9a3387b9d6ac
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0fbfd31d-cde0-4a49-ab01-d7398a9a3a99
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=bfac3db8-96e9-44e4-b1c1-8d73fd996bc4
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c4a061ea-6c5c-406a-9231-5d5a626bafd7
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0f3940e8-7e2a-4a53-9fd6-b128e0fd7473
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=111b3ffe-5798-435a-ad4e-994ce6ec44a2
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/spatial-viewer/view?image=1ba1c1ba-b072-4b82-94b4-704d7f7fc07d
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/spatial-viewer/view?image=92235a9f-ea76-400b-bdf0-b55072e584da
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/spatial-viewer/view?image=d04c53b2-7443-405c-901b-c6e043e649f0
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e179b5bd-fa56-44eb-b07f-cd1f556d90d8
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f1933c54-fcca-48cc-97da-106efbba94f0
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Lipidomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset27
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial N-Glycomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset30
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset31
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset32
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Segmentation Masks & Pathomics Vectors&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset31
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset33
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset32
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset34
         link: https://atlas.kpmp.org/spatial-viewer/view?image=68a4486a-463e-4ea5-93a2-2e33e5e62bd8
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset33
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset35
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset34
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset36
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset35
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset37
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-18&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset36
+      - id: https://atlas.kpmp.org/#164-18_Donor1_TissueBlock1_Dataset38
         link: https://atlas.kpmp.org/spatial-viewer/view?image=b5a15946-f360-4630-a694-c4ee78996049
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -2265,66 +2413,78 @@
         technology: ATAC-seq
         label: ATAC-seq
       - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset3
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=CODEX&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset4
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=1db1ab67-9b38-43f6-8504-ac9682b65ff4
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=7dc68687-b3b3-4e54-8344-b88446cd6998
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4c024c13-eb91-4698-b4af-86d3e3abe696
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset5
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=537e43e8-8540-4d55-8f9c-0c036b43630b
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=9497342c-9774-47ec-bee3-6fcb4cd8f1af
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=9de4da35-620b-4277-9c4e-5eb26c491ba4
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=b172c1e6-4c7c-4550-b534-4b83b288c494
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f44617b6-6caf-4c92-a847-081dd56e71a5
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-cell RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-20&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset20
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-20_Donor1_TissueBlock1_Dataset21
         link: https://cellxgene.cziscience.com/e/91f31e05-56d8-46fc-b408-d90c9228a81b.cxg/
         technology: RNAseq
         label: RNAseq
@@ -2345,106 +2505,110 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset3
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=f305ccd4-85c6-44b0-85fa-caba7c93e73d
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset5
         link: https://atlas.kpmp.org/spatial-viewer/view?image=258c1b51-f764-4d3c-aa56-9360edb086c8
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset5
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/spatial-viewer/view?image=87c8a139-638a-464c-a77f-b642e9478616
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e308ee4a-84d0-4733-93a5-b1049a43693d
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fd43ff9f-6755-484e-b2d6-116dc60d3073
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0b5e57c4-ce19-4f3f-b1e0-a61a6e26ed56
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=36363e2c-cc74-426b-aee1-d7e8c6f25f39
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=b1e7126d-6e66-4a68-acac-d40dbd14b636
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c4468f61-55b9-4fae-bc22-75f649420f31
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=11629c47-e172-4d28-afbc-2bbc242de4f9
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=249c19a5-7ae0-4054-95c4-b013065d5a39
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=89f43ef9-97d0-4608-98ea-f606919c54b3
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/spatial-viewer/view?image=aaa92bd7-9ec2-42e5-bd20-1a9e9359bc94
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=d1aaf3fd-70fc-4541-9a3b-15cb7ec87f15
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=de90baab-19f4-4385-87a0-6c95b7ca4ef4
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e1f34b01-0cce-406a-8080-14343be75e3b
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Pathology Descriptor Scoring&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-21&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/spatial-viewer/view?image=353bb4ca-12a5-4abe-b2d4-67745eba6fc3
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -2457,134 +2621,150 @@
       rui_location: male-upper-left-pole.json
       datasets:
       - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset1
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=10x Multiome&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
+        technology: 10x
+        label: 10x
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset2
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=ATAC-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
+        technology: ATAC-seq
+        label: ATAC-seq
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset3
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=CODEX&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: CODEX
         label: CODEX
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset2
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset4
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=259ff5b0-05a4-46c0-98be-85ce92664722
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset5
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f1c67fe3-8e2d-495e-ad6e-8c9d085094a0
         technology: CODEX
         label: CODEX
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset3
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Light Microscopic Whole Slide Images&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset4
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=03ba261c-e851-403c-bb06-320bd758dbbe
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset5
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=3f0d234b-dd7e-4bef-ab94-4f95a001464e
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4601314f-7cac-4d04-bd95-82fabcba204c
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=554b7878-7ed9-4651-be3c-3ea4907b4ee0
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=6ed4e374-a98d-4e31-86bc-bc36e5a25a0c
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=cb9f22c3-cd65-4e9e-b7c6-aeb21d89a415
         technology: Histology
         label: Histology
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Imaging Mass Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0f447707-a2d4-4c57-877d-d028b0092274
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/spatial-viewer/view?image=947197a3-4c78-4bad-94d0-bea8efa7c021
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fd61ed98-e364-47e3-b1b8-cc63c6395488
         technology: Imaging Mass Cytometry
         label: Imaging Mass Cytometry
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/spatial-viewer/view?image=1721f6d7-4c9c-40ef-bd5f-24b47e22c95b
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/spatial-viewer/view?image=71f81f8c-a78c-43e3-97f1-67a4bdac44da
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c823df0e-35ad-4395-aca0-09b35d613f76
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset21
         link: https://atlas.kpmp.org/spatial-viewer/view?image=d6c222b1-3dea-4ecc-86a1-d487a2b6cb56
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset22
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e79aed01-2fa2-4e16-94ec-9c3dc5e6bc73
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f9b34744-6e71-4a9f-9b3a-90164d9dfb3b
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fe74291a-a3d9-4987-9d2d-3d4ee23f9877
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset25
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset26
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset24
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset27
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset25
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset28
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset26
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset29
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Pathology Descriptor Scoring&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset27
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset30
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Segmentation Masks & Pathomics Vectors&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset28
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset31
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset29
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset32
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f90ad1c5-7db1-4f31-bf3c-ee8b25435bbb
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset30
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset33
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-cell RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset31
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset34
+        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
+        technology: RNAseq
+        label: RNAseq
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset35
         link: https://cellxgene.cziscience.com/e/91f31e05-56d8-46fc-b408-d90c9228a81b.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset32
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset36
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=164-22&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset33
+      - id: https://atlas.kpmp.org/#164-22_Donor1_TissueBlock1_Dataset37
         link: https://atlas.kpmp.org/spatial-viewer/view?image=557aaf77-3e13-429e-8463-f5b80226681e
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -2881,30 +3061,26 @@
         technology: MALDI-IMS
         label: MALDI-IMS
       - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset3
-        link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Multimodal Imaging Mass Spectrometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-12&filters[1][type]=any
-        technology: MIMS
-        label: MIMS
-      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/spatial-viewer/view?image=64525d0c-be7f-4850-b98e-918822855ec8
-        technology: MIMS
-        label: MIMS
-      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset5
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset4
         link: https://atlas.kpmp.org/spatial-viewer/view?image=6d587dbd-9f1a-46ea-9ab1-66500e36655c
-        technology: MIMS
-        label: MIMS
-      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset6
+        technology: MALDI-IMS
+        label: MALDI-IMS
+      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset5
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#165-12_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-12&filters[1][type]=any
         technology: OTHER
         label: OTHER
@@ -2933,62 +3109,66 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=893f7757-5dd9-4905-bb19-b37c0e049bb1
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-13&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=0822821e-06e6-4ca3-9fe3-e63d2b96d909
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=39856176-4d60-4bbd-9799-3ebfe1889850
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=4197b5b7-e815-4f77-9ba1-050554e6dbd7
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=93b42214-7246-4189-9ba0-1e03b05a6fab
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=ca6160af-3996-4ae3-9178-28feb1e2c05d
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e0fb2634-8e25-46d4-a6b5-9c3a50774322
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e3519b1e-573e-4b1e-9bf6-61c0ee64d0e6
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Metabolomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-13&filters[1][type]=any
         technology: MALDI-IMS
         label: MALDI-IMS
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-13&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-13&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-13&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset18
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-13&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/spatial-viewer/view?image=717aebe8-7ee5-4654-a928-dee7fb1f09af
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -3013,82 +3193,86 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset4
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=3315ef6d-678d-4e69-b76a-a09ee9a38ad8
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=71a31d01-c71b-45bf-8f34-55faf2d97195
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=73366d76-c3af-4062-8e43-4f9ab5c937fb
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=13b975f2-f688-4a91-a9f9-9b3864f2d2c8
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=160d0f76-4abc-49bd-8848-d5bf6dd55816
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=5533674c-c42e-45f0-899a-1a71021dacfb
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=a8be5f72-b073-443e-a7b0-92c0aeda1fdb
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=be855b41-1448-4450-840c-b70a87e9c404
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=dfcd4cbb-432c-4496-ad1d-7f20afa53f46
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=e98b145a-741e-4347-805c-fb68e7baf293
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Clinical Chemistry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset15
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Plasma Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=MSD Urine Biomarker&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Metabolon Plasma&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset17
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset18
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=SomaScan Plasma Proteomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: OTHER
         label: OTHER
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset18
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset19
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-cell RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset19
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset20
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset20
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset21
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset21
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset22
         link: https://cellxgene.cziscience.com/e/91f31e05-56d8-46fc-b408-d90c9228a81b.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset22
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset23
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-14&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset23
+      - id: https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1_Dataset24
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c07e90f9-639b-4757-8708-8c2037f97529
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
@@ -3113,54 +3297,58 @@
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset4
-        link: https://atlas.kpmp.org/spatial-viewer/view?image=b213cee3-97af-40ba-ac36-e46dcad41db4
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=9482c556-1498-4991-b876-0293a8f56a28
         technology: CODEX
         label: CODEX
       - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset5
+        link: https://atlas.kpmp.org/spatial-viewer/view?image=9d9db4ad-5f22-4c73-a623-9a7802d229dd
+        technology: CODEX
+        label: CODEX
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset6
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=3D Tissue Imaging and Cytometry&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-15&filters[1][type]=any
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset6
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset7
         link: https://atlas.kpmp.org/spatial-viewer/view?image=5d693349-1655-427c-a771-d5f4041ec799
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset7
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset8
         link: https://atlas.kpmp.org/spatial-viewer/view?image=60286930-0aac-48e9-9d37-785e3abdc48a
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset8
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset9
         link: https://atlas.kpmp.org/spatial-viewer/view?image=64417006-5812-4e64-9cd6-220c6e3434c5
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset9
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset10
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c1d9c018-0f5b-441d-9e81-769f15aa26e3
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset10
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset11
         link: https://atlas.kpmp.org/spatial-viewer/view?image=c8a70ad0-4751-47a4-b39a-0c58432dacc5
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset11
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset12
         link: https://atlas.kpmp.org/spatial-viewer/view?image=cd6b044a-d55c-4cc4-92f2-b139bcaada3c
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset12
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset13
         link: https://atlas.kpmp.org/spatial-viewer/view?image=f49de5bb-c95e-412e-abe5-9ad327659467
         technology: Light Sheet
         label: Light Sheet
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset13
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset14
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Single-nucleus RNA-Seq&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-15&filters[1][type]=any
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset14
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset15
         link: https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/
         technology: RNAseq
         label: RNAseq
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset15
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset16
         link: https://atlas.kpmp.org/repository/?size=n_20_n&filters[0][field]=experimental_strategy&filters[0][values][0]=Spatial Transcriptomics&filters[0][type]=any&filters[1][field]=redcap_id&filters[1][values][0]=165-15&filters[1][type]=any
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
-      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset16
+      - id: https://atlas.kpmp.org/#165-15_Donor1_TissueBlock1_Dataset17
         link: https://atlas.kpmp.org/spatial-viewer/view?image=fd1aa65e-b89e-4c86-ad02-a609714f9859
         technology: Spatial Transcriptomics
         label: Spatial Transcriptomics
