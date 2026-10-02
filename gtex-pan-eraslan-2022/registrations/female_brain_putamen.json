@@ -1,6 +1,6 @@
 {
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-  "@id": "http://purl.org/ccf/1.5/820e57fd-823b-4145-8ac9-2ce685c31c8b",
+  "@id": "http://purl.org/ccf/1.5/d4c181d1-8520-43ee-9bec-ebcd69817bc6",
   "@type": "SpatialEntity",
   "creator": "Kristin Ardlie",
   "creator_first_name": "Kristin",
@@ -9,9 +9,7 @@
   "creator_orcid": "",
   "creation_date": "2026-08-12",
   "ccf_annotations": [
-    "http://purl.obolibrary.org/obo/UBERON_0009853",
-    "http://purl.org/sig/ont/fma/fma224878",
-    "http://purl.org/sig/ont/fma/fma224876"
+    "http://purl.obolibrary.org/obo/UBERON_0008885"
   ],
   "x_dimension": 10,
   "y_dimension": 10,
@@ -20,22 +18,22 @@
   "publication_doi": "",
   "placement": {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "http://purl.org/ccf/1.5/820e57fd-823b-4145-8ac9-2ce685c31c8b_placement",
+    "@id": "http://purl.org/ccf/1.5/d4c181d1-8520-43ee-9bec-ebcd69817bc6_placement",
     "@type": "SpatialPlacement",
-    "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary",
+    "target": "https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary",
     "placement_date": "2026-08-12",
     "x_scaling": 1,
     "y_scaling": 1,
     "z_scaling": 1,
     "scaling_units": "ratio",
-    "x_rotation": -32,
-    "y_rotation": 0,
+    "x_rotation": 0,
+    "y_rotation": 90,
     "z_rotation": 0,
     "rotation_order": "XYZ",
     "rotation_units": "degree",
-    "x_translation": 15,
-    "y_translation": 30,
-    "z_translation": 37,
+    "x_translation": 96,
+    "y_translation": 79,
+    "z_translation": 98,
     "translation_units": "millimeter"
   }
 }

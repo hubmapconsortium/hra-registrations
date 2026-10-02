@@ -16,34 +16,32 @@
           "@id": "https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 1/2/2023, Kristin Ardlie, GTEx",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
           "description": "Central breast subareolar region of the right breast, 1-2 cm under the skin surface of nipple region",
           "link": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue",
           "section_count": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
+            "@id": "http://purl.org/ccf/1.5/dff4a84b-1227-4f99-b9a4-281d9787aa0a",
             "@type": "SpatialEntity",
             "creator": "Kristin Ardlie",
             "creator_first_name": "Kristin",
             "creator_last_name": "Ardlie",
-            "creation_date": "2023-02-03",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
             "ccf_annotations": [
               "http://purl.org/sig/ont/fma/fma73165",
-              "http://purl.org/sig/ont/fma/fma58088",
-              "http://purl.org/sig/ont/fma/fma62102",
-              "http://purl.obolibrary.org/obo/UBERON_0018140",
-              "http://purl.org/sig/ont/fma/fma73118"
+              "http://purl.obolibrary.org/obo/UBERON_0015134"
             ],
             "x_dimension": 10,
             "y_dimension": 10,
-            "z_dimension": 4,
+            "z_dimension": 10,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5_placement",
+              "@id": "http://purl.org/ccf/1.5/dff4a84b-1227-4f99-b9a4-281d9787aa0a_placement",
               "@type": "SpatialPlacement",
-              "placement_date": "2023-02-03",
+              "placement_date": "2026-08-12",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
@@ -53,18 +51,18 @@
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 39.809,
-              "y_translation": 46.002,
-              "z_translation": 93.095,
+              "x_translation": 38,
+              "y_translation": 44,
+              "z_translation": 87,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightMammaryGland"
+              "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary"
             }
           },
           "datasets": [
             {
               "@id": "https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 1/2/2023, Kristin Ardlie, GTEx",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue",
               "technology": "OTHER",
@@ -1144,52 +1142,53 @@
           "@id": "https://gtexportal.org/home/tissue/Ovary#FDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 0/25/2022, Kristin Ardlie, GTEx",
-          "description": "10 x 10 x 3 millimeter, 3 millimeter",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
           "link": "https://gtexportal.org/home/tissue/Ovary",
           "section_count": 0,
-          "section_size": 3,
+          "section_size": 4,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/e137f366-a936-4357-945a-929d1d682890",
+            "@id": "http://purl.org/ccf/1.5/8efd8bfd-5420-4417-8612-5c92b2f5b456",
             "@type": "SpatialEntity",
             "creator": "Kristin Ardlie",
             "creator_first_name": "Kristin",
             "creator_last_name": "Ardlie",
-            "creation_date": "2022-01-26",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/FMA_7214"
+              "http://purl.obolibrary.org/obo/UBERON_0002119"
             ],
             "x_dimension": 10,
             "y_dimension": 10,
-            "z_dimension": 3,
+            "z_dimension": 4,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/e137f366-a936-4357-945a-929d1d682890_placement",
+              "@id": "http://purl.org/ccf/1.5/8efd8bfd-5420-4417-8612-5c92b2f5b456_placement",
               "@type": "SpatialPlacement",
-              "placement_date": "2022-01-26",
+              "placement_date": "2026-08-12",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
               "scaling_units": "ratio",
-              "x_rotation": -14,
+              "x_rotation": -15,
               "y_rotation": 0,
-              "z_rotation": -14,
+              "z_rotation": -9,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 7.827,
-              "y_translation": 12.79,
-              "z_translation": 5.267,
+              "x_translation": 7,
+              "y_translation": 12,
+              "z_translation": 5,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftOvary"
+              "target": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary"
             }
           },
           "datasets": [
             {
               "@id": "https://gtexportal.org/home/tissue/Ovary#FDonors_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Ovary",
               "technology": "OTHER",
@@ -1497,54 +1496,55 @@
           "@id": "https://gtexportal.org/home/tissue/Uterus#FDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 0/25/2022, Kristin Ardlie, GTEx",
-          "description": "20 x 10 x 3 millimeter, 3 millimeter",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
           "link": "https://gtexportal.org/home/tissue/Uterus",
           "section_count": 0,
-          "section_size": 3,
+          "section_size": 4,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/220036fa-2932-4f00-aad6-3f70c516c1c4",
+            "@id": "http://purl.org/ccf/1.5/820e57fd-823b-4145-8ac9-2ce685c31c8b",
             "@type": "SpatialEntity",
             "creator": "Kristin Ardlie",
             "creator_first_name": "Kristin",
             "creator_last_name": "Ardlie",
-            "creation_date": "2022-01-26",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/FMA_17561",
-              "http://purl.obolibrary.org/obo/FMA_224878",
-              "http://purl.obolibrary.org/obo/FMA_224876"
+              "http://purl.obolibrary.org/obo/UBERON_0009853",
+              "http://purl.org/sig/ont/fma/fma224878",
+              "http://purl.org/sig/ont/fma/fma224876"
             ],
-            "x_dimension": 20,
+            "x_dimension": 10,
             "y_dimension": 10,
-            "z_dimension": 3,
+            "z_dimension": 4,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/220036fa-2932-4f00-aad6-3f70c516c1c4_placement",
+              "@id": "http://purl.org/ccf/1.5/820e57fd-823b-4145-8ac9-2ce685c31c8b_placement",
               "@type": "SpatialPlacement",
-              "placement_date": "2022-01-26",
+              "placement_date": "2026-08-12",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
               "scaling_units": "ratio",
-              "x_rotation": -38,
+              "x_rotation": -32,
               "y_rotation": 0,
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 26.774,
-              "y_translation": 39.166,
-              "z_translation": 50.848,
+              "x_translation": 15,
+              "y_translation": 30,
+              "z_translation": 37,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFUterus"
+              "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
             }
           },
           "datasets": [
             {
               "@id": "https://gtexportal.org/home/tissue/Uterus#FDonors_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Uterus",
               "technology": "OTHER",
@@ -2185,6 +2185,927 @@
               "label": "Registered 0/25/2022, Kristin Ardlie, GTEx",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=170), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "Visceral adipose (omentum); placed using the subcutaneous adipose reference organ",
+          "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/87c71757-6315-40c0-9cc6-230a47c80c67",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0014455"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/87c71757-6315-40c0-9cc6-230a47c80c67_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 17,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 102,
+              "y_translation": 41,
+              "z_translation": 26,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/adipose-female/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=371), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "Visceral adipose (omentum); placed using the subcutaneous adipose reference organ",
+          "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
+          "section_count": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ebd6e143-092d-4146-8fc3-a0f586f8b5ce",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0014455"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ebd6e143-092d-4146-8fc3-a0f586f8b5ce_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 106,
+              "y_translation": 29,
+              "z_translation": 28,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/adipose-male/v1.0#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=153), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/52ec4664-5e88-4bd2-af27-3aa27304a5a2",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001496"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/52ec4664-5e88-4bd2-af27-3aa27304a5a2_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 79,
+              "y_translation": 516,
+              "z_translation": 90,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=279), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/ace7cdd9-d0f3-459f-8ba5-6687ed63a7d9",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001496"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/ace7cdd9-d0f3-459f-8ba5-6687ed63a7d9_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": -14,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 109,
+              "y_translation": 563,
+              "z_translation": 109,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=55), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/da669b1d-14cc-44ad-906a-af3632659a0e",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001898"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/da669b1d-14cc-44ad-906a-af3632659a0e_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -22,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 69,
+              "y_translation": 64,
+              "z_translation": 91,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=147), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/b1c2ac81-c841-4f8d-b0e2-83cce390cdc4",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001898"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/b1c2ac81-c841-4f8d-b0e2-83cce390cdc4_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -15,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 69,
+              "y_translation": 64,
+              "z_translation": 91,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=49), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/d4c181d1-8520-43ee-9bec-ebcd69817bc6",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0008885"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/d4c181d1-8520-43ee-9bec-ebcd69817bc6_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 96,
+              "y_translation": 79,
+              "z_translation": 98,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=156), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/3c0c51ad-9cb6-4fe7-9526-690c283b1930",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0008885"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/3c0c51ad-9cb6-4fe7-9526-690c283b1930_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 96,
+              "y_translation": 79,
+              "z_translation": 98,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=57), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/de782aca-3ebe-4959-9495-297353910408",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/de782aca-3ebe-4959-9495-297353910408_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 5,
+              "y_translation": 406,
+              "z_translation": 75,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=102), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/dd7a18a1-27f3-436e-9137-5e33eca315cc",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006469"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/dd7a18a1-27f3-436e-9137-5e33eca315cc_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 10,
+              "y_translation": 463,
+              "z_translation": 74,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Bladder#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=7), Age range 20-59",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Bladder",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Bladder#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Bladder",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/a8fa641a-0556-4b47-b81f-c94b018a838f",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/a8fa641a-0556-4b47-b81f-c94b018a838f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 75,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 26,
+              "y_translation": 35,
+              "z_translation": 14,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Bladder#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Bladder",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Bladder#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=14), Age range 20-69",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Bladder",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Bladder#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Bladder",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/3ca0b6f2-1202-4d29-b91c-4b322d07cf6f",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006082"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/3ca0b6f2-1202-4d29-b91c-4b322d07cf6f_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 31,
+              "y_translation": 38,
+              "z_translation": 16,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Bladder#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Bladder",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Vagina#FDonors",
+      "@type": "Donor",
+      "label": "Females (n=156), Age range 20-79",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Vagina",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Vagina#FDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Vagina",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/294da8ce-8581-4f63-bbf4-e1119157d6a2",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creator_orcid": "",
+            "creation_date": "2026-08-12",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0013760"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/294da8ce-8581-4f63-bbf4-e1119157d6a2_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2026-08-12",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -13,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 28,
+              "y_translation": -17,
+              "z_translation": 23,
+              "translation_units": "millimeter",
+              "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
+            }
+          },
+          "datasets": [
+            {
+              "@id": "https://gtexportal.org/home/tissue/Vagina#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Vagina",
               "technology": "OTHER",
               "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }

@@ -1,28 +1,28 @@
 {
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-  "@id": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
+  "@id": "http://purl.org/ccf/1.5/dff4a84b-1227-4f99-b9a4-281d9787aa0a",
   "@type": "SpatialEntity",
   "creator": "Kristin Ardlie",
   "creator_first_name": "Kristin",
   "creator_last_name": "Ardlie",
-  "creation_date": "2023-02-03",
+  "creator_email": "",
+  "creator_orcid": "",
+  "creation_date": "2026-08-12",
   "ccf_annotations": [
     "http://purl.org/sig/ont/fma/fma73165",
-    "http://purl.org/sig/ont/fma/fma58088",
-    "http://purl.org/sig/ont/fma/fma62102",
-    "http://purl.obolibrary.org/obo/UBERON_0018140",
-    "http://purl.org/sig/ont/fma/fma73118"
+    "http://purl.obolibrary.org/obo/UBERON_0015134"
   ],
   "x_dimension": 10,
   "y_dimension": 10,
-  "z_dimension": 4,
+  "z_dimension": 10,
   "dimension_units": "millimeter",
+  "publication_doi": "",
   "placement": {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5_placement",
+    "@id": "http://purl.org/ccf/1.5/dff4a84b-1227-4f99-b9a4-281d9787aa0a_placement",
     "@type": "SpatialPlacement",
-    "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightMammaryGland",
-    "placement_date": "2023-02-03",
+    "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+    "placement_date": "2026-08-12",
     "x_scaling": 1,
     "y_scaling": 1,
     "z_scaling": 1,
@@ -32,9 +32,9 @@
     "z_rotation": 0,
     "rotation_order": "XYZ",
     "rotation_units": "degree",
-    "x_translation": 39.809,
-    "y_translation": 46.002,
-    "z_translation": 93.095,
+    "x_translation": 38,
+    "y_translation": 44,
+    "z_translation": 87,
     "translation_units": "millimeter"
   }
 }
