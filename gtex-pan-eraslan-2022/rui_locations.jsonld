@@ -2,10 +2,10 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://gtexportal.org/home/tissue/Breast#FDonors",
+      "@id": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue#FDonors",
       "@type": "Donor",
-      "label": "Females (n=297), Mean Age ? (range 20-79)",
-      "description": "Entered 9/17/2021, Kristin Ardlie, GTEx Project",
+      "label": "Females (n=168), Mean Age 50.7 (range 21-70)",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -13,7 +13,7 @@
       "sex": "Female",
       "samples": [
         {
-          "@id": "https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1",
+          "@id": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue#FDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
@@ -60,7 +60,7 @@
           },
           "datasets": [
             {
-              "@id": "https://gtexportal.org/home/tissue/Breast#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://gtexportal.org/home/tissue/Breast_Mammary_Tissue#FDonors_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 7/11/2026, Kristin Ardlie, GTEx",
               "description": "Data/Assay Types: OTHER, ",
@@ -75,7 +75,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors",
       "@type": "Donor",
-      "label": "Females (n=18), Mean Age 56.8 (range 30-69)",
+      "label": "Females (n=19), Mean Age 56.4 (range 30-69)",
       "description": "Entered 9/17/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Kidney_Cortex",
       "consortium_name": "GTEx",
@@ -149,7 +149,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors",
       "@type": "Donor",
-      "label": "Females (n=119), Mean Age 54.7 (range 21-70)",
+      "label": "Females (n=136), Mean Age 55.0 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage",
       "consortium_name": "GTEx",
@@ -221,7 +221,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors",
       "@type": "Donor",
-      "label": "Females (n=122), Mean Age 52.9 (range 21-70)",
+      "label": "Females (n=138), Mean Age 53.2 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
       "consortium_name": "GTEx",
@@ -310,7 +310,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Spleen#FDonors",
       "@type": "Donor",
-      "label": "Females (n=86), Mean Age 49.5 (range 23-70)",
+      "label": "Females (n=87), Mean Age 49.7 (range 23-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Spleen",
       "consortium_name": "GTEx",
@@ -382,7 +382,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors",
       "@type": "Donor",
-      "label": "Females (n=113), Mean Age 51.1 (range 21-70)",
+      "label": "Females (n=133), Mean Age 51.7 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
       "consortium_name": "GTEx",
@@ -401,14 +401,14 @@
           "section_size": 4,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e",
+            "@id": "http://purl.org/ccf/1.5/64a0ddbc-8138-4ce0-ad0b-2f8e546cea29",
             "@type": "SpatialEntity",
             "creator": "Kristin Ardlie",
             "creator_first_name": "Kristin",
             "creator_last_name": "Ardlie",
             "creation_date": "2021-09-17",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001157"
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
             ],
             "x_dimension": 10,
             "y_dimension": 10,
@@ -416,21 +416,21 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e_placement",
+              "@id": "http://purl.org/ccf/1.5/64a0ddbc-8138-4ce0-ad0b-2f8e546cea29_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2021-09-17",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
               "scaling_units": "ratio",
-              "x_rotation": -32,
-              "y_rotation": 9,
-              "z_rotation": -1,
+              "x_rotation": -75,
+              "y_rotation": 34,
+              "z_rotation": -49,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 121.557,
-              "y_translation": 201.87,
-              "z_translation": 180.201,
+              "x_translation": 153.446,
+              "y_translation": 70.599,
+              "z_translation": 108.882,
               "translation_units": "millimeter",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon"
             }
@@ -452,7 +452,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Lung#FDonors",
       "@type": "Donor",
-      "label": "Females (n=136), Mean Age 48.9 (range 21-70)",
+      "label": "Females (n=183), Mean Age 53.7 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Lung",
       "consortium_name": "GTEx",
@@ -532,7 +532,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors",
       "@type": "Donor",
-      "label": "Males (n=253), Mean Age 55.6 (range 20-70)",
+      "label": "Males (n=293), Mean Age 56.4 (range 20-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Heart_Atrial_Appendage",
       "consortium_name": "GTEx",
@@ -602,7 +602,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors",
       "@type": "Donor",
-      "label": "Males (n=253), Mean Age 55.6 (range 20-70)",
+      "label": "Males (n=294), Mean Age 54.9 (range 20-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Heart_Left_Ventricle",
       "consortium_name": "GTEx",
@@ -681,7 +681,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Spleen#MDonors",
       "@type": "Donor",
-      "label": "Males (n=141), Mean Age 49.8 (range 21-70)",
+      "label": "Males (n=154), Mean Age 49.9 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Spleen",
       "consortium_name": "GTEx",
@@ -693,7 +693,7 @@
           "@id": "https://gtexportal.org/home/tissue/Spleen#MDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 8/16/2021, Kristin  Ardlie, GTEx",
+          "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
           "description": "10 x 10 x 8 millimeter, 8 millimeter",
           "link": "https://gtexportal.org/home/tissue/Spleen",
           "section_count": 0,
@@ -702,7 +702,7 @@
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "http://purl.org/ccf/1.5/ec2488fb-6ff5-4f43-82b5-9704a650d00a",
             "@type": "SpatialEntity",
-            "creator": "Kristin  Ardlie",
+            "creator": "Kristin Ardlie",
             "creator_first_name": "Kristin ",
             "creator_last_name": "Ardlie",
             "creation_date": "2021-09-17",
@@ -740,7 +740,7 @@
             {
               "@id": "https://gtexportal.org/home/tissue/Spleen#MDonors_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 8/16/2021, Kristin  Ardlie, GTEx",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
               "description": "Data/Assay Types: OTHER, ",
               "link": "https://gtexportal.org/home/tissue/Spleen",
               "technology": "OTHER",
@@ -753,7 +753,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors",
       "@type": "Donor",
-      "label": "Males (n=55), Mean Age 55.8 (range 27-70)",
+      "label": "Males (n=66), Mean Age 56.3 (range 27-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Kidney_Cortex",
       "consortium_name": "GTEx",
@@ -828,7 +828,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors",
       "@type": "Donor",
-      "label": "Males (n=55), Mean Age 55.8 (range 27-70)",
+      "label": "Males (n=240), Mean Age 52.3 (range 20-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
       "consortium_name": "GTEx",
@@ -843,76 +843,6 @@
           "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
           "description": "10 x 10 x 4 millimeter, 4 millimeter",
           "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
-          "section_count": 0,
-          "section_size": 4,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871",
-            "@type": "SpatialEntity",
-            "creator": "Kristin Ardlie",
-            "creator_first_name": "Kristin",
-            "creator_last_name": "Ardlie",
-            "creation_date": "2021-09-17",
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001157"
-            ],
-            "x_dimension": 10,
-            "y_dimension": 10,
-            "z_dimension": 4,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871_placement",
-              "@type": "SpatialPlacement",
-              "placement_date": "2021-09-17",
-              "x_scaling": 1,
-              "y_scaling": 1,
-              "z_scaling": 1,
-              "scaling_units": "ratio",
-              "x_rotation": -30,
-              "y_rotation": 1,
-              "z_rotation": 17,
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "x_translation": 130.858,
-              "y_translation": 359.481,
-              "z_translation": 191.877,
-              "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
-            }
-          },
-          "datasets": [
-            {
-              "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1_TissueBlock1_Dataset1",
-              "@type": "Dataset",
-              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
-              "description": "Data/Assay Types: OTHER, ",
-              "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
-              "technology": "OTHER",
-              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors",
-      "@type": "Donor",
-      "label": "Males (n=232), Mean Age 50.1 (range 21-70)",
-      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
-      "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
-      "consortium_name": "GTEx",
-      "provider_name": "GTEx",
-      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
-      "sex": "Male",
-      "samples": [
-        {
-          "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
-          "description": "10 x 10 x 4 millimeter, 4 millimeter",
-          "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
           "section_count": 0,
           "section_size": 4,
           "rui_location": {
@@ -953,6 +883,76 @@
           },
           "datasets": [
             {
+              "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@type": "Dataset",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
+              "description": "Data/Assay Types: OTHER, ",
+              "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
+              "technology": "OTHER",
+              "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=259), Mean Age 50.3 (range 21-70)",
+      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
+          "section_count": 0,
+          "section_size": 4,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871",
+            "@type": "SpatialEntity",
+            "creator": "Kristin Ardlie",
+            "creator_first_name": "Kristin",
+            "creator_last_name": "Ardlie",
+            "creation_date": "2021-09-17",
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ],
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2021-09-17",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": -30,
+              "y_rotation": 1,
+              "z_rotation": 17,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 130.858,
+              "y_translation": 359.481,
+              "z_translation": 191.877,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon"
+            }
+          },
+          "datasets": [
+            {
               "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
               "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
@@ -968,7 +968,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Lung#MDonors",
       "@type": "Donor",
-      "label": "Males (n=349), Mean Age 53.5 (range 21-70)",
+      "label": "Males (n=395), Mean Age 54.1 (range 21-70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Lung",
       "consortium_name": "GTEx",
@@ -1059,7 +1059,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Liver#FDonors",
       "@type": "Donor",
-      "label": "Females (n=65), Mean Age 54.5 (21-70)",
+      "label": "Females (n=65), Mean Age 54.8 (range 21-70)",
       "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Liver",
       "consortium_name": "GTEx",
@@ -1130,8 +1130,8 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Ovary#FDonors",
       "@type": "Donor",
-      "label": "Females (n=180), Mean Age 50.2 (21-70)",
-      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
+      "label": "Females (n=180), Mean Age 50.2 (range 21-70)",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Ovary",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -1273,7 +1273,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors",
       "@type": "Donor",
-      "label": "Females (n=234), Mean Age 52.9 (21-70)",
+      "label": "Females (n=234), Mean Age 52.9 (range 21-70)",
       "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg",
       "consortium_name": "GTEx",
@@ -1485,7 +1485,7 @@
       "@id": "https://gtexportal.org/home/tissue/Uterus#FDonors",
       "@type": "Donor",
       "label": "Females (n=142), Mean Age 47.8 (range 21-70)",
-      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Uterus",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -1625,68 +1625,68 @@
       ]
     },
     {
-      "@id": "https://gtexportal.org/home/tissue/Artery_Coronary#FDonors",
+      "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#FDonors",
       "@type": "Donor",
-      "label": "Females (n=94), Mean Age 53.5 (range 21-70)",
-      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
-      "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
+      "label": "Females (n=147), Mean Age 49.3 (range 21-70)",
+      "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
       "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
       "sex": "Female",
       "samples": [
         {
-          "@id": "https://gtexportal.org/home/tissue/Artery_Coronary#FDonors_TissueBlock1",
+          "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#FDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 0/25/2022, Kristin Ardlie, GTEx",
-          "description": "2 x 2 x 2 millimeter, 2 millimeter",
-          "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
+          "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
           "section_count": 0,
-          "section_size": 2,
+          "section_size": 4,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/3626fb05-6e59-4aa9-8d03-2b5e995b2522",
+            "@id": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e",
             "@type": "SpatialEntity",
             "creator": "Kristin Ardlie",
             "creator_first_name": "Kristin",
             "creator_last_name": "Ardlie",
-            "creation_date": "2022-01-26",
+            "creation_date": "2021-09-17",
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001626"
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
             ],
-            "x_dimension": 2,
-            "y_dimension": 2,
-            "z_dimension": 2,
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "http://purl.org/ccf/1.5/3626fb05-6e59-4aa9-8d03-2b5e995b2522_placement",
+              "@id": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e_placement",
               "@type": "SpatialPlacement",
-              "placement_date": "2022-01-26",
+              "placement_date": "2021-09-17",
               "x_scaling": 1,
               "y_scaling": 1,
               "z_scaling": 1,
               "scaling_units": "ratio",
-              "x_rotation": 0,
-              "y_rotation": 4,
-              "z_rotation": 34,
+              "x_rotation": -32,
+              "y_rotation": 9,
+              "z_rotation": -1,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 113.174,
-              "y_translation": 494.659,
-              "z_translation": 91.963,
+              "x_translation": 121.557,
+              "y_translation": 201.87,
+              "z_translation": 180.201,
               "translation_units": "millimeter",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFBloodVasculature"
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon"
             }
           },
           "datasets": [
             {
-              "@id": "https://gtexportal.org/home/tissue/Artery_Coronary#FDonors_TissueBlock1_TissueBlock1_Dataset1",
+              "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#FDonors_TissueBlock1_TissueBlock1_Dataset1",
               "@type": "Dataset",
-              "label": "Registered 0/25/2022, Kristin Ardlie, GTEx",
+              "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
               "description": "Data/Assay Types: OTHER, ",
-              "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
+              "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
               "technology": "OTHER",
               "thumbnail": "https://hubmapconsortium.github.io/hra-registrations/gtex/assets/logo.jpg"
             }
@@ -1698,7 +1698,7 @@
       "@id": "https://gtexportal.org/home/tissue/Liver#MDonors",
       "@type": "Donor",
       "label": "Males (n=161), Mean Age 54.5 (range 21-70)",
-      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Liver",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -1769,7 +1769,7 @@
       "@id": "https://gtexportal.org/home/tissue/Pancreas#MDonors",
       "@type": "Donor",
       "label": "Males (n=207), Mean Age 50.3 (range 21-70)",
-      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Pancreas",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -1841,7 +1841,7 @@
       "@id": "https://gtexportal.org/home/tissue/Prostate#MDonors",
       "@type": "Donor",
       "label": "Males (n=245), Mean Age 50.6 (range 21-70)",
-      "description": "Entered 1/26/2023, Kristin Ardlie, GTEx Project",
+      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Prostate",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -1915,7 +1915,7 @@
       "@id": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#MDonors",
       "@type": "Donor",
       "label": "Males (n=467), Mean Age 52.9 (range 21-70)",
-      "description": "Entered 1/26/2023, Kristin Ardlie, GTEx Project",
+      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -1985,7 +1985,7 @@
       "@id": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic#MDonors",
       "@type": "Donor",
       "label": "Males (n=411), Mean Age 53.3 (range 20-70)",
-      "description": "Entered 1/26/2023, Kristin Ardlie, GTEx Project",
+      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Skin_Not_Sun_Exposed_Suprapubic",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -2055,7 +2055,7 @@
       "@id": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum#MDonors",
       "@type": "Donor",
       "label": "Males (n=120), Mean Age 48.4 (range 21-70)",
-      "description": "Entered 1/26/2023, Kristin Ardlie, GTEx Project",
+      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Small_Intestine_Terminal_Ileum",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -2126,7 +2126,7 @@
       "@id": "https://gtexportal.org/home/tissue/Artery_Coronary#MDonors",
       "@type": "Donor",
       "label": "Males (n=146), Mean Age 54.3 (range 20-70)",
-      "description": "Entered 1/26/2023, Kristin Ardlie, GTEx Project",
+      "description": "Entered 1/26/2022, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Artery_Coronary",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
@@ -2195,7 +2195,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#FDonors",
       "@type": "Donor",
-      "label": "Females (n=170), Age range 20-79",
+      "label": "Females (n=170), Mean Age 51.2 (range 21-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
       "consortium_name": "GTEx",
@@ -2265,7 +2265,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#MDonors",
       "@type": "Donor",
-      "label": "Males (n=371), Age range 20-79",
+      "label": "Males (n=371), Mean Age 53.2 (range 21-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum",
       "consortium_name": "GTEx",
@@ -2335,7 +2335,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#FDonors",
       "@type": "Donor",
-      "label": "Females (n=153), Age range 20-79",
+      "label": "Females (n=153), Mean Age 51.5 (range 21-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
       "consortium_name": "GTEx",
@@ -2406,7 +2406,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Artery_Aorta#MDonors",
       "@type": "Donor",
-      "label": "Males (n=279), Age range 20-79",
+      "label": "Males (n=279), Mean Age 52.7 (range 21-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Artery_Aorta",
       "consortium_name": "GTEx",
@@ -2477,7 +2477,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#FDonors",
       "@type": "Donor",
-      "label": "Females (n=55), Age range 20-79",
+      "label": "Females (n=55), Mean Age 59.3 (range 28-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
       "consortium_name": "GTEx",
@@ -2548,7 +2548,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Brain_Hypothalamus#MDonors",
       "@type": "Donor",
-      "label": "Males (n=147), Age range 20-79",
+      "label": "Males (n=147), Mean Age 59.0 (range 20-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Brain_Hypothalamus",
       "consortium_name": "GTEx",
@@ -2619,7 +2619,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#FDonors",
       "@type": "Donor",
-      "label": "Females (n=49), Age range 20-79",
+      "label": "Females (n=49), Mean Age 58.4 (range 28-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
       "consortium_name": "GTEx",
@@ -2690,7 +2690,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#MDonors",
       "@type": "Donor",
-      "label": "Males (n=156), Age range 20-79",
+      "label": "Males (n=156), Mean Age 58.5 (range 20-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia",
       "consortium_name": "GTEx",
@@ -2761,7 +2761,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#FDonors",
       "@type": "Donor",
-      "label": "Females (n=57), Age range 20-79",
+      "label": "Females (n=57), Mean Age 58.1 (range 28-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
       "consortium_name": "GTEx",
@@ -2832,7 +2832,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#MDonors",
       "@type": "Donor",
-      "label": "Males (n=102), Age range 20-79",
+      "label": "Males (n=102), Mean Age 59.7 (range 22-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1",
       "consortium_name": "GTEx",
@@ -2903,7 +2903,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Bladder#FDonors",
       "@type": "Donor",
-      "label": "Females (n=7), Age range 20-59",
+      "label": "Females (n=7), Mean Age 43.6 (range 27-59)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Bladder",
       "consortium_name": "GTEx",
@@ -2974,7 +2974,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Bladder#MDonors",
       "@type": "Donor",
-      "label": "Males (n=14), Age range 20-69",
+      "label": "Males (n=14), Mean Age 46.0 (range 21-61)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Bladder",
       "consortium_name": "GTEx",
@@ -3045,7 +3045,7 @@
     {
       "@id": "https://gtexportal.org/home/tissue/Vagina#FDonors",
       "@type": "Donor",
-      "label": "Females (n=156), Age range 20-79",
+      "label": "Females (n=156), Mean Age 50.4 (range 21-70)",
       "description": "Entered 8/12/2026, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Vagina",
       "consortium_name": "GTEx",
