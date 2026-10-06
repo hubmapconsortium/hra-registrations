@@ -1,2 +1,1 @@
-registrations exist in https://github.com/hubmapconsortium/ccf-ui/blob/main/projects/ccf-eui/src/assets/gtex/data/rui_locations.jsonld
-
+Registrations are published at https://hubmapconsortium.github.io/hra-registrations/gtex-pan-eraslan-2022/rui_locations.jsonld
