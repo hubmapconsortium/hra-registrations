@@ -9,8 +9,8 @@
     link: https://doi.org/10.1126/science.abl4290
   donors:
     - sex: Female
-      id: https://gtexportal.org/home/tissue/Breast#FDonors
-      label: Females (n=297), Mean Age ? (range 20-79)
+      id: https://gtexportal.org/home/tissue/Breast_Mammary_Tissue#FDonors
+      label: Females (n=168), Mean Age 50.7 (range 21-70)
       description: Entered 9/17/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Breast_Mammary_Tissue
       samples:
@@ -21,7 +21,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Kidney_Cortex#FDonors
-      label: Females (n=18), Mean Age 56.8 (range 30-69)
+      label: Females (n=19), Mean Age 56.4 (range 30-69)
       description: Entered 9/17/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Kidney_Cortex
       samples:
@@ -32,7 +32,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#FDonors
-      label: Females (n=119), Mean Age 54.7 (range 21-70)
+      label: Females (n=136), Mean Age 55.0 (range 21-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage
       samples:
@@ -42,7 +42,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Heart_Left_Ventricle#FDonors
-      label: Females (n=122), Mean Age 52.9 (range 21-70)
+      label: Females (n=138), Mean Age 53.2 (range 21-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
       samples:
@@ -56,7 +56,7 @@
             link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Female
       id: https://gtexportal.org/home/tissue/Spleen#FDonors
-      label: Females (n=86), Mean Age 49.5 (range 23-70)
+      label: Females (n=87), Mean Age 49.7 (range 23-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Spleen
       samples:
@@ -66,7 +66,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors
-      label: Females (n=113), Mean Age 51.1 (range 21-70)
+      label: Females (n=133), Mean Age 51.7 (range 21-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Colon_Sigmoid
       samples:
@@ -76,7 +76,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Lung#FDonors
-      label: Females (n=136), Mean Age 48.9 (range 21-70)
+      label: Females (n=183), Mean Age 53.7 (range 21-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Lung
       samples:
@@ -88,7 +88,7 @@
             link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Male
       id: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage#MDonors
-      label: Males (n=253), Mean Age 55.6 (range 20-70)
+      label: Males (n=293), Mean Age 56.4 (range 20-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Heart_Atrial_Appendage
       samples:
@@ -98,7 +98,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Heart_Left_Ventricle#MDonors
-      label: Males (n=253), Mean Age 55.6 (range 20-70)
+      label: Males (n=294), Mean Age 54.9 (range 20-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Heart_Left_Ventricle
       samples:
@@ -110,7 +110,7 @@
             link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Male
       id: https://gtexportal.org/home/tissue/Spleen#MDonors
-      label: Males (n=141), Mean Age 49.8 (range 21-70)
+      label: Males (n=154), Mean Age 49.9 (range 21-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Spleen
       samples:
@@ -120,7 +120,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Kidney_Cortex#MDonors
-      label: Males (n=55), Mean Age 55.8 (range 27-70)
+      label: Males (n=66), Mean Age 56.3 (range 27-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Kidney_Cortex
       samples:
@@ -130,7 +130,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors
-      label: Males (n=55), Mean Age 55.8 (range 27-70)
+      label: Males (n=240), Mean Age 52.3 (range 20-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Colon_Sigmoid
       samples:
@@ -140,7 +140,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Colon_Transverse#MDonors
-      label: Males (n=232), Mean Age 50.1 (range 21-70)
+      label: Males (n=259), Mean Age 50.3 (range 21-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Colon_Transverse
       samples:
@@ -150,7 +150,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Lung#MDonors
-      label: Males (n=349), Mean Age 53.5 (range 21-70)
+      label: Males (n=395), Mean Age 54.1 (range 21-70)
       description: Entered 5/18/2021, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Lung
       samples:
@@ -164,7 +164,7 @@
             link: https://gtexportal.org/home/singleCellOverviewPage
     - sex: Female
       id: https://gtexportal.org/home/tissue/Liver#FDonors
-      label: Females (n=65), Mean Age 54.5 (21-70)
+      label: Females (n=65), Mean Age 54.8 (range 21-70)
       description: Entered 1/26/2022, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Liver
       samples:
@@ -174,7 +174,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Ovary#FDonors
-      label: Females (n=180), Mean Age 50.2 (21-70)
+      label: Females (n=180), Mean Age 50.2 (range 21-70)
       description: Entered 1/26/2022, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Ovary
       samples:
@@ -194,7 +194,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg#FDonors
-      label: Females (n=234), Mean Age 52.9 (21-70)
+      label: Females (n=234), Mean Age 52.9 (range 21-70)
       description: Entered 1/26/2022, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Skin_Sun_Exposed_Lower_leg
       samples:
@@ -243,13 +243,13 @@
         datasets:
           - technology: OTHER
     - sex: Female
-      id: https://gtexportal.org/home/tissue/Artery_Coronary#FDonors
-      label: Females (n=94), Mean Age 53.5 (range 21-70)
-      description: Entered 1/26/2022, Kristin Ardlie, GTEx Project
-      link: https://gtexportal.org/home/tissue/Artery_Coronary
+      id: https://gtexportal.org/home/tissue/Colon_Transverse#FDonors
+      label: Females (n=147), Mean Age 49.3 (range 21-70)
+      description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
+      link: https://gtexportal.org/home/tissue/Colon_Transverse
       samples:
-      - link: https://gtexportal.org/home/tissue/Artery_Coronary
-        rui_location: female_vasculature.json
+      - link: https://gtexportal.org/home/tissue/Colon_Transverse
+        rui_location: female_colon_transverse.json
         datasets:
           - technology: OTHER
     - sex: Male
@@ -324,7 +324,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#FDonors
-      label: Females (n=170), Age range 20-79
+      label: Females (n=170), Mean Age 51.2 (range 21-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum
       samples:
@@ -335,7 +335,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum#MDonors
-      label: Males (n=371), Age range 20-79
+      label: Males (n=371), Mean Age 53.2 (range 21-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Adipose_Visceral_Omentum
       samples:
@@ -346,7 +346,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Artery_Aorta#FDonors
-      label: Females (n=153), Age range 20-79
+      label: Females (n=153), Mean Age 51.5 (range 21-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Artery_Aorta
       samples:
@@ -356,7 +356,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Artery_Aorta#MDonors
-      label: Males (n=279), Age range 20-79
+      label: Males (n=279), Mean Age 52.7 (range 21-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Artery_Aorta
       samples:
@@ -366,7 +366,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Brain_Hypothalamus#FDonors
-      label: Females (n=55), Age range 20-79
+      label: Females (n=55), Mean Age 59.3 (range 28-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Brain_Hypothalamus
       samples:
@@ -376,7 +376,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Brain_Hypothalamus#MDonors
-      label: Males (n=147), Age range 20-79
+      label: Males (n=147), Mean Age 59.0 (range 20-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Brain_Hypothalamus
       samples:
@@ -386,7 +386,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#FDonors
-      label: Females (n=49), Age range 20-79
+      label: Females (n=49), Mean Age 58.4 (range 28-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia
       samples:
@@ -396,7 +396,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia#MDonors
-      label: Males (n=156), Age range 20-79
+      label: Males (n=156), Mean Age 58.5 (range 20-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Brain_Putamen_basal_ganglia
       samples:
@@ -406,7 +406,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#FDonors
-      label: Females (n=57), Age range 20-79
+      label: Females (n=57), Mean Age 58.1 (range 28-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1
       samples:
@@ -416,7 +416,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1#MDonors
-      label: Males (n=102), Age range 20-79
+      label: Males (n=102), Mean Age 59.7 (range 22-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Brain_Spinal_cord_cervical_c-1
       samples:
@@ -426,7 +426,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Bladder#FDonors
-      label: Females (n=7), Age range 20-59
+      label: Females (n=7), Mean Age 43.6 (range 27-59)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Bladder
       samples:
@@ -436,7 +436,7 @@
           - technology: OTHER
     - sex: Male
       id: https://gtexportal.org/home/tissue/Bladder#MDonors
-      label: Males (n=14), Age range 20-69
+      label: Males (n=14), Mean Age 46.0 (range 21-61)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Bladder
       samples:
@@ -446,7 +446,7 @@
           - technology: OTHER
     - sex: Female
       id: https://gtexportal.org/home/tissue/Vagina#FDonors
-      label: Females (n=156), Age range 20-79
+      label: Females (n=156), Mean Age 50.4 (range 21-70)
       description: Entered 8/12/2026, Kristin Ardlie, GTEx Project
       link: https://gtexportal.org/home/tissue/Vagina
       samples:
